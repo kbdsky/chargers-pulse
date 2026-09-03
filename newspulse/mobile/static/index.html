@@ -1,0 +1,674 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, viewport-fit=cover">
+    <title>ChargersPulse - LA 차저스 브리핑</title>
+    <link rel="manifest" href="/static/manifest.json">
+    <meta name="theme-color" content="#0C2340">
+    <meta name="mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+    <link rel="icon" type="image/png" href="/static/icons/icon-192.png">
+    <link href="https://fonts.googleapis.com/css2?family=Pretendard:wght@300;400;600;700;800&family=Montserrat:wght@800;900&display=swap" rel="stylesheet">
+
+    <style>
+        :root {
+            --powder-blue: #0080C6;
+            --powder-blue-light: #38b6ff;
+            --sunshine-gold: #FFC20E;
+            --navy-deep: #07101E;
+            --navy-surface: #0C1E38;
+            --navy-card: #132A4D;
+            --navy-border: #1E3E6B;
+            --text-main: #F1F5F9;
+            --text-muted: #94A3B8;
+        }
+
+        * { box-sizing: border-box; margin: 0; padding: 0; -webkit-tap-highlight-color: transparent; }
+
+        body {
+            font-family: 'Pretendard', -apple-system, BlinkMacSystemFont, sans-serif;
+            background-color: var(--navy-deep);
+            color: var(--text-main);
+            padding-bottom: 75px;
+            overscroll-behavior-y: contain;
+        }
+
+        /* Top App Bar */
+        .app-bar {
+            position: sticky;
+            top: 0;
+            z-index: 100;
+            background: linear-gradient(135deg, #0C2340 0%, #004D7A 100%);
+            border-bottom: 2px solid var(--sunshine-gold);
+            padding: 12px 16px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.4);
+        }
+
+        .app-title-group {
+            display: flex;
+            align-items: center;
+            gap: 8px;
+        }
+
+        .bolt-icon {
+            font-size: 1.4rem;
+            color: var(--sunshine-gold);
+        }
+
+        .app-title {
+            font-family: 'Montserrat', sans-serif;
+            font-size: 1.15rem;
+            font-weight: 900;
+            color: #FFFFFF;
+            letter-spacing: -0.5px;
+        }
+
+        .app-title span { color: var(--sunshine-gold); }
+
+        .refresh-btn {
+            background: var(--sunshine-gold);
+            color: #07101E;
+            border: none;
+            padding: 6px 12px;
+            border-radius: 20px;
+            font-size: 0.8rem;
+            font-weight: 800;
+            display: flex;
+            align-items: center;
+            gap: 4px;
+            cursor: pointer;
+            box-shadow: 0 2px 8px rgba(255, 194, 14, 0.3);
+        }
+
+        .refresh-btn:active { transform: scale(0.95); }
+
+        /* PWA Install Banner */
+        #installBanner {
+            display: none;
+            background: var(--navy-card);
+            border: 1px solid var(--powder-blue);
+            margin: 12px 16px;
+            padding: 10px 14px;
+            border-radius: 10px;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        #installBanner p { font-size: 0.82rem; color: #FFFFFF; }
+        #installBtn {
+            background: var(--powder-blue);
+            color: #FFFFFF;
+            border: none;
+            padding: 5px 10px;
+            border-radius: 6px;
+            font-size: 0.78rem;
+            font-weight: 700;
+        }
+
+        /* Container */
+        .container { padding: 12px 16px; }
+
+        /* Tab Views */
+        .tab-view { display: none; }
+        .tab-view.active { display: block; animation: fadeIn 0.2s ease; }
+
+        @keyframes fadeIn {
+            from { opacity: 0; transform: translateY(4px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+
+        /* Executive Briefing Card */
+        .card {
+            background: var(--navy-surface);
+            border: 1px solid var(--navy-border);
+            border-radius: 12px;
+            padding: 16px;
+            margin-bottom: 14px;
+            box-shadow: 0 4px 12px rgba(0,0,0,0.25);
+        }
+
+        .card-gold-left { border-left: 4px solid var(--sunshine-gold); }
+        .card-blue-left { border-left: 4px solid var(--powder-blue); }
+
+        .card-header-title {
+            font-size: 1.05rem;
+            font-weight: 800;
+            color: var(--sunshine-gold);
+            margin-bottom: 10px;
+            display: flex;
+            align-items: center;
+            gap: 6px;
+        }
+
+        .takeaway-list {
+            list-style: none;
+            display: flex;
+            flex-direction: column;
+            gap: 8px;
+        }
+
+        .takeaway-list li {
+            background: var(--navy-card);
+            border: 1px solid var(--navy-border);
+            padding: 10px 12px;
+            border-radius: 8px;
+            font-size: 0.88rem;
+            line-height: 1.45;
+        }
+
+        /* Trend Pills Scroll */
+        .trends-scroll {
+            display: flex;
+            gap: 8px;
+            overflow-x: auto;
+            padding-bottom: 4px;
+            margin-bottom: 14px;
+            scrollbar-width: none;
+        }
+        .trends-scroll::-webkit-scrollbar { display: none; }
+
+        .trend-chip {
+            background: var(--navy-card);
+            border: 1px solid var(--powder-blue);
+            color: var(--powder-blue-light);
+            padding: 4px 10px;
+            border-radius: 16px;
+            font-size: 0.78rem;
+            font-weight: 700;
+            white-space: nowrap;
+        }
+
+        /* Game Center Box */
+        .game-badge-row {
+            display: flex;
+            gap: 6px;
+            flex-wrap: wrap;
+            margin-bottom: 12px;
+        }
+
+        .game-pill {
+            background: var(--navy-card);
+            border: 1px solid var(--navy-border);
+            color: var(--sunshine-gold);
+            padding: 3px 8px;
+            border-radius: 5px;
+            font-size: 0.78rem;
+            font-weight: 700;
+        }
+
+        .tactical-note {
+            background: var(--navy-card);
+            padding: 10px 12px;
+            border-radius: 8px;
+            margin-top: 8px;
+            font-size: 0.84rem;
+        }
+        .tactical-note strong { color: var(--powder-blue-light); display: block; margin-bottom: 2px; }
+
+        /* Article Cards */
+        .article-card {
+            background: var(--navy-surface);
+            border: 1px solid var(--navy-border);
+            border-radius: 12px;
+            padding: 14px;
+            margin-bottom: 12px;
+        }
+
+        .art-meta {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 6px;
+        }
+
+        .badge-cat {
+            background: var(--powder-blue);
+            color: #FFFFFF;
+            padding: 2px 7px;
+            border-radius: 4px;
+            font-size: 0.72rem;
+            font-weight: 700;
+        }
+
+        .badge-tier {
+            background: rgba(255,194,14,0.15);
+            color: var(--sunshine-gold);
+            border: 1px solid var(--sunshine-gold);
+            padding: 2px 6px;
+            border-radius: 4px;
+            font-size: 0.72rem;
+            font-weight: 700;
+        }
+
+        .art-source { font-size: 0.75rem; color: var(--text-muted); }
+
+        .art-title-kr {
+            font-size: 0.98rem;
+            font-weight: 700;
+            color: #FFFFFF;
+            line-height: 1.35;
+            margin: 6px 0 4px 0;
+        }
+
+        .art-title-en {
+            font-size: 0.8rem;
+            color: var(--text-muted);
+            font-style: italic;
+            margin-bottom: 8px;
+        }
+
+        .art-bullets {
+            background: var(--navy-card);
+            padding: 8px 12px;
+            border-radius: 6px;
+            border-left: 3px solid var(--powder-blue);
+            margin-bottom: 10px;
+        }
+
+        .art-bullets p {
+            font-size: 0.84rem;
+            line-height: 1.4;
+            margin-bottom: 4px;
+        }
+        .art-bullets p:last-child { margin-bottom: 0; }
+
+        .art-link {
+            display: inline-block;
+            background: var(--navy-card);
+            color: var(--powder-blue-light);
+            border: 1px solid var(--navy-border);
+            padding: 4px 10px;
+            border-radius: 6px;
+            font-size: 0.78rem;
+            font-weight: 600;
+            text-decoration: none;
+            float: right;
+        }
+
+        /* Search input */
+        .search-box {
+            width: 100%;
+            background: var(--navy-surface);
+            border: 1px solid var(--navy-border);
+            color: #FFFFFF;
+            padding: 10px 14px;
+            border-radius: 10px;
+            font-size: 0.9rem;
+            margin-bottom: 14px;
+            outline: none;
+        }
+
+        /* Bottom Tab Bar */
+        .bottom-nav {
+            position: fixed;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            height: 60px;
+            background: #0C1E38;
+            border-top: 1px solid var(--navy-border);
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            z-index: 100;
+            box-shadow: 0 -4px 15px rgba(0,0,0,0.3);
+        }
+
+        .nav-item {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            color: var(--text-muted);
+            font-size: 0.72rem;
+            font-weight: 600;
+            cursor: pointer;
+            gap: 2px;
+            flex: 1;
+            height: 100%;
+        }
+
+        .nav-item.active {
+            color: var(--sunshine-gold);
+        }
+
+        .nav-icon { font-size: 1.25rem; }
+
+        /* Spinner */
+        #loader {
+            display: none;
+            text-align: center;
+            padding: 40px 20px;
+        }
+
+        .spinner {
+            width: 40px;
+            height: 40px;
+            border: 4px solid var(--navy-border);
+            border-top: 4px solid var(--sunshine-gold);
+            border-radius: 50%;
+            animation: spin 0.8s linear infinite;
+            margin: 0 auto 14px auto;
+        }
+
+        @keyframes spin { 0% { transform: rotate(0deg); } 100% { transform: rotate(360deg); } }
+    </style>
+</head>
+<body>
+
+    <!-- App Header Bar -->
+    <header class="app-bar">
+        <div class="app-title-group">
+            <span class="bolt-icon">⚡</span>
+            <div class="app-title">CHARGERS<span>PULSE</span></div>
+        </div>
+        <button class="refresh-btn" onclick="triggerRefresh()">
+            <span>🔄</span> 실시간 수집
+        </button>
+    </header>
+
+    <!-- PWA Install Banner -->
+    <div id="installBanner">
+        <p>📱 홈 화면에 앱으로 설치하여 사용하세요!</p>
+        <button id="installBtn">설치</button>
+    </div>
+
+    <!-- Loading Indicator -->
+    <div id="loader">
+        <div class="spinner"></div>
+        <p style="color: var(--sunshine-gold); font-weight: 700; font-size: 0.9rem;">전수 뉴스 수집 및 분석 중...</p>
+        <p style="color: var(--text-muted); font-size: 0.78rem;">약 5~8초 소요됩니다.</p>
+    </div>
+
+    <!-- Main Container -->
+    <div class="container" id="mainContent">
+
+        <!-- TAB 1: HOME BRIEFING -->
+        <div id="tab-home" class="tab-view active">
+            <!-- Trending Hashtags -->
+            <div class="trends-scroll" id="trendsScroll">
+                <!-- Injected via JS -->
+            </div>
+
+            <!-- Executive Summary Card -->
+            <div class="card card-gold-left">
+                <div class="card-header-title">
+                    <span>⚡</span>
+                    <span id="briefingHeadline">LA Chargers 주간 인텔리전스 리포트</span>
+                </div>
+                <ul class="takeaway-list" id="takeawaysList">
+                    <!-- Injected via JS -->
+                </ul>
+            </div>
+
+            <!-- Quick Status Cards -->
+            <div class="card card-blue-left">
+                <div class="card-header-title" style="color: var(--powder-blue-light);">
+                    <span>📋</span>
+                    <span>부상 및 53인 로스터 현황</span>
+                </div>
+                <p id="injuryStatus" style="font-size: 0.86rem; line-height: 1.45;"></p>
+            </div>
+
+            <h3 style="font-size: 1rem; font-weight: 800; margin: 18px 0 10px 0;">🚨 최우선 핵심 뉴스 (Top Highlights)</h3>
+            <div id="topHighlightsContainer">
+                <!-- Injected via JS -->
+            </div>
+        </div>
+
+        <!-- TAB 2: GAME CENTER -->
+        <div id="tab-game" class="tab-view">
+            <div class="card card-gold-left">
+                <div class="card-header-title">
+                    <span>🏈</span>
+                    <span>경기 및 매치업 분석 (Game Center)</span>
+                </div>
+                <div class="game-badge-row" id="gameMetaRow">
+                    <!-- Injected via JS -->
+                </div>
+                <div class="tactical-note">
+                    <strong>⚔️ 공격진(Offense) 분석</strong>
+                    <span id="offenseNotes"></span>
+                </div>
+                <div class="tactical-note">
+                    <strong>🛡️ 수비진(Defense) 분석</strong>
+                    <span id="defenseNotes"></span>
+                </div>
+            </div>
+
+            <h3 style="font-size: 1rem; font-weight: 800; margin: 18px 0 10px 0;">⚡ 경기 관련 기사</h3>
+            <div id="gameArticlesContainer">
+                <!-- Injected via JS -->
+            </div>
+        </div>
+
+        <!-- TAB 3: ROSTER / INJURY -->
+        <div id="tab-roster" class="tab-view">
+            <div class="card card-blue-left">
+                <div class="card-header-title" style="color: var(--powder-blue-light);">
+                    <span>📋</span>
+                    <span>로스터 및 부상 리포트</span>
+                </div>
+                <p id="rosterBriefingText" style="font-size: 0.86rem; line-height: 1.45;"></p>
+            </div>
+
+            <div id="rosterArticlesContainer">
+                <!-- Injected via JS -->
+            </div>
+        </div>
+
+        <!-- TAB 4: ALL NEWS -->
+        <div id="tab-all" class="tab-view">
+            <input type="text" class="search-box" id="searchInput" placeholder="🔍 기사 제목 또는 선수명 검색..." onkeyup="searchArticles()">
+            <div id="allArticlesContainer">
+                <!-- Injected via JS -->
+            </div>
+        </div>
+
+    </div>
+
+    <!-- Bottom Navigation Bar -->
+    <nav class="bottom-nav">
+        <div class="nav-item active" onclick="switchTab('home', this)">
+            <span class="nav-icon">⚡</span>
+            <span>홈 브리핑</span>
+        </div>
+        <div class="nav-item" onclick="switchTab('game', this)">
+            <span class="nav-icon">🏈</span>
+            <span>Game Center</span>
+        </div>
+        <div class="nav-item" onclick="switchTab('roster', this)">
+            <span class="nav-icon">📋</span>
+            <span>부상/로스터</span>
+        </div>
+        <div class="nav-item" onclick="switchTab('all', this)">
+            <span class="nav-icon">📰</span>
+            <span>전체 뉴스</span>
+        </div>
+    </nav>
+
+    <script>
+        let currentData = null;
+        let deferredPrompt;
+
+        // PWA Service Worker Registration
+        if ('serviceWorker' in navigator) {
+            navigator.serviceWorker.register('/static/service-worker.js')
+                .then(() => console.log('PWA Service Worker Registered'))
+                .catch(err => console.log('SW Registration failed', err));
+        }
+
+        // PWA Install Prompt Capture
+        window.addEventListener('beforeinstallprompt', (e) => {
+            e.preventDefault();
+            deferredPrompt = e;
+            document.getElementById('installBanner').style.display = 'flex';
+        });
+
+        document.getElementById('installBtn').addEventListener('click', async () => {
+            if (deferredPrompt) {
+                deferredPrompt.prompt();
+                const { outcome } = await deferredPrompt.userChoice;
+                if (outcome === 'accepted') {
+                    document.getElementById('installBanner').style.display = 'none';
+                }
+                deferredPrompt = null;
+            }
+        });
+
+        // Tab Navigation
+        function switchTab(tabId, el) {
+            document.querySelectorAll('.tab-view').forEach(v => v.classList.remove('active'));
+            document.querySelectorAll('.nav-item').forEach(n => n.classList.remove('active'));
+            
+            document.getElementById('tab-' + tabId).classList.add('active');
+            el.classList.add('active');
+            window.scrollTo({ top: 0, behavior: 'smooth' });
+        }
+
+        // Fetch Data from Server
+        async function loadData() {
+            try {
+                const res = await fetch('/api/briefing');
+                const data = await res.json();
+                currentData = data;
+                renderApp(data);
+            } catch (e) {
+                console.error('Failed to load briefing:', e);
+            }
+        }
+
+        // Render Data into DOM
+        function renderApp(data) {
+            const briefing = data.briefing || {};
+            const articles = data.articles || [];
+
+            // 1. Trending Hashtags
+            const trendsScroll = document.getElementById('trendsScroll');
+            trendsScroll.innerHTML = '';
+            (briefing.trending_keywords || []).forEach(kw => {
+                const chip = document.createElement('span');
+                chip.className = 'trend-chip';
+                chip.textContent = '#' + kw;
+                trendsScroll.appendChild(chip);
+            });
+
+            // 2. Executive Headline & Takeaways
+            document.getElementById('briefingHeadline').textContent = briefing.headline || 'LA Chargers 주간 브리핑';
+            const takeawaysList = document.getElementById('takeawaysList');
+            takeawaysList.innerHTML = '';
+            (briefing.key_takeaways || []).forEach(t => {
+                const li = document.createElement('li');
+                li.textContent = t;
+                takeawaysList.appendChild(li);
+            });
+
+            // 3. Injury & Roster status
+            document.getElementById('injuryStatus').textContent = briefing.injury_update || '특이사항 없음';
+            document.getElementById('rosterBriefingText').textContent = briefing.injury_update || '특이사항 없음';
+
+            // 4. Game Center
+            const gc = briefing.game_center || {};
+            const gameMetaRow = document.getElementById('gameMetaRow');
+            gameMetaRow.innerHTML = `
+                <span class="game-pill">상대: ${gc.opponent || '미정'}</span>
+                <span class="game-pill">구분: ${gc.game_type || '경기'}</span>
+                <span class="game-pill">스코어: ${gc.score_detected || '미확정'}</span>
+            `;
+            document.getElementById('offenseNotes').textContent = gc.offense_notes || '패싱 및 러닝 어택 점검 중';
+            document.getElementById('defenseNotes').textContent = gc.defense_notes || '패스 러시 및 세컨더리 점검 중';
+
+            // 5. Render Articles
+            renderArticleCards(articles);
+        }
+
+        function renderArticleCards(articles) {
+            const topHighlightsContainer = document.getElementById('topHighlightsContainer');
+            const gameArticlesContainer = document.getElementById('gameArticlesContainer');
+            const rosterArticlesContainer = document.getElementById('rosterArticlesContainer');
+            const allArticlesContainer = document.getElementById('allArticlesContainer');
+
+            topHighlightsContainer.innerHTML = '';
+            gameArticlesContainer.innerHTML = '';
+            rosterArticlesContainer.innerHTML = '';
+            allArticlesContainer.innerHTML = '';
+
+            // Top Highlights (Score >= 75)
+            const topItems = articles.filter(a => (a.importance_score || 0) >= 75).slice(0, 5);
+            topItems.forEach(art => topHighlightsContainer.appendChild(createCard(art)));
+
+            // Categorized
+            articles.forEach(art => {
+                allArticlesContainer.appendChild(createCard(art));
+                if (art.category_key === 'game') {
+                    gameArticlesContainer.appendChild(createCard(art));
+                }
+                if (art.category_key === 'injury' || art.category_key === 'roster') {
+                    rosterArticlesContainer.appendChild(createCard(art));
+                }
+            });
+        }
+
+        function createCard(art) {
+            const div = document.createElement('div');
+            div.className = 'article-card';
+            div.setAttribute('data-search', (art.headline_kr + ' ' + art.title + ' ' + (art.summary_bullets_kr || []).join(' ')).toLowerCase());
+
+            const bulletsHtml = (art.summary_bullets_kr || [])
+                .map(b => `<p>${b}</p>`)
+                .join('');
+
+            div.innerHTML = `
+                <div class="art-meta">
+                    <div>
+                        <span class="badge-tier">${art.priority_tier || '⚡'} (${art.importance_score || 0}점)</span>
+                        <span class="badge-cat">${art.category_badge || '⚡'}</span>
+                    </div>
+                    <span class="art-source">${art.source || ''} | ${(art.published || '').slice(5, 10)}</span>
+                </div>
+                <h4 class="art-title-kr">${art.headline_kr || art.title}</h4>
+                <div class="art-title-en">${art.title}</div>
+                <div class="art-bullets">${bulletsHtml}</div>
+                <div style="overflow: hidden;">
+                    <a href="${art.url}" target="_blank" rel="noopener noreferrer" class="art-link">원문 기사 ↗</a>
+                </div>
+            `;
+            return div;
+        }
+
+        function searchArticles() {
+            const q = document.getElementById('searchInput').value.toLowerCase();
+            const cards = document.querySelectorAll('#allArticlesContainer .article-card');
+            cards.forEach(card => {
+                const text = card.getAttribute('data-search');
+                card.style.display = text.includes(q) ? 'block' : 'none';
+            });
+        }
+
+        async function triggerRefresh() {
+            document.getElementById('loader').style.display = 'block';
+            document.getElementById('mainContent').style.display = 'none';
+
+            try {
+                const res = await fetch('/api/refresh', { method: 'POST' });
+                const data = await res.json();
+                currentData = data;
+                renderApp(data);
+            } catch (e) {
+                alert('수집 중 오류 발생: ' + e);
+            } finally {
+                document.getElementById('loader').style.display = 'none';
+                document.getElementById('mainContent').style.display = 'block';
+            }
+        }
+
+        // Initial Load
+        loadData();
+    </script>
+</body>
+</html>
