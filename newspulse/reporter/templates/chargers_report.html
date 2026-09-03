@@ -1,0 +1,668 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{{ title }} - LA Chargers News Briefing</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Pretendard:wght@300;400;600;700;800&family=Montserrat:wght@700;900&display=swap" rel="stylesheet">
+    <style>
+        :root {
+            --powder-blue: #0080C6;
+            --powder-blue-light: #38b6ff;
+            --powder-blue-glow: rgba(0, 128, 198, 0.25);
+            --sunshine-gold: #FFC20E;
+            --navy-deep: #07101E;
+            --navy-surface: #0C1E38;
+            --navy-card: #132A4D;
+            --navy-card-hover: #183560;
+            --navy-border: #1E3E6B;
+            --text-main: #F1F5F9;
+            --text-muted: #94A3B8;
+            --text-dark: #07101E;
+            --red-alert: #EF4444;
+            --green-success: #10B981;
+        }
+
+        * { box-sizing: border-box; margin: 0; padding: 0; }
+
+        body {
+            font-family: 'Pretendard', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+            background-color: var(--navy-deep);
+            color: var(--text-main);
+            line-height: 1.6;
+            padding-bottom: 60px;
+        }
+
+        /* Top Header */
+        header {
+            background: linear-gradient(135deg, #0C2340 0%, #004D7A 60%, #0080C6 100%);
+            border-bottom: 3px solid var(--sunshine-gold);
+            padding: 36px 20px;
+            text-align: center;
+            position: relative;
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.4);
+        }
+
+        .header-content { max-width: 1150px; margin: 0 auto; }
+
+        .bolt-badge {
+            display: inline-flex;
+            align-items: center;
+            gap: 6px;
+            background: var(--sunshine-gold);
+            color: var(--navy-deep);
+            font-family: 'Montserrat', sans-serif;
+            font-weight: 900;
+            font-size: 0.85rem;
+            letter-spacing: 1.5px;
+            padding: 5px 16px;
+            border-radius: 9999px;
+            margin-bottom: 10px;
+            box-shadow: 0 4px 12px rgba(255, 194, 14, 0.3);
+        }
+
+        h1 {
+            font-family: 'Montserrat', 'Pretendard', sans-serif;
+            font-size: 2.3rem;
+            font-weight: 900;
+            color: #FFFFFF;
+            letter-spacing: -0.5px;
+            margin-bottom: 6px;
+        }
+
+        h1 span { color: var(--sunshine-gold); }
+
+        .header-meta {
+            color: #E2E8F0;
+            font-size: 0.92rem;
+            display: flex;
+            justify-content: center;
+            gap: 18px;
+            flex-wrap: wrap;
+            margin-top: 8px;
+        }
+
+        .container { max-width: 1150px; margin: 0 auto; padding: 0 20px; }
+
+        /* Executive Briefing Banner */
+        .briefing-card {
+            background: var(--navy-surface);
+            border: 1px solid var(--navy-border);
+            border-left: 5px solid var(--sunshine-gold);
+            border-radius: 14px;
+            padding: 24px 28px;
+            margin-top: -24px;
+            box-shadow: 0 8px 24px rgba(0, 0, 0, 0.3);
+        }
+
+        .briefing-title {
+            font-size: 1.25rem;
+            font-weight: 700;
+            color: var(--sunshine-gold);
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            margin-bottom: 16px;
+        }
+
+        .takeaways-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+            gap: 12px;
+            margin-bottom: 18px;
+        }
+
+        .takeaway-item {
+            background: var(--navy-card);
+            border: 1px solid var(--navy-border);
+            border-radius: 10px;
+            padding: 12px 16px;
+            font-size: 0.92rem;
+            line-height: 1.5;
+        }
+
+        .briefing-extras {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 14px;
+            margin-top: 14px;
+            padding-top: 14px;
+            border-top: 1px solid var(--navy-border);
+        }
+
+        @media (max-width: 768px) { .briefing-extras { grid-template-columns: 1fr; } }
+
+        .extra-box {
+            background: rgba(0, 128, 198, 0.1);
+            border: 1px solid var(--powder-blue-glow);
+            border-radius: 8px;
+            padding: 12px 16px;
+            font-size: 0.88rem;
+        }
+
+        .extra-box strong { color: var(--powder-blue-light); display: block; margin-bottom: 4px; }
+
+        /* Dynamic Trending Keyword Pills */
+        .trends-section {
+            background: var(--navy-surface);
+            border: 1px solid var(--navy-border);
+            border-radius: 12px;
+            padding: 16px 20px;
+            margin: 20px 0;
+            display: flex;
+            align-items: center;
+            gap: 14px;
+            flex-wrap: wrap;
+        }
+
+        .trends-title {
+            font-weight: 700;
+            color: var(--sunshine-gold);
+            font-size: 0.9rem;
+            white-space: nowrap;
+        }
+
+        .trend-pill {
+            background: var(--navy-card);
+            border: 1px solid var(--powder-blue);
+            color: var(--powder-blue-light);
+            padding: 4px 12px;
+            border-radius: 20px;
+            font-size: 0.82rem;
+            font-weight: 600;
+        }
+
+        /* Game & Matchup Intelligence Center */
+        .game-center-card {
+            background: linear-gradient(145deg, #0C1E38 0%, #102A4E 100%);
+            border: 1px solid var(--navy-border);
+            border-top: 4px solid var(--powder-blue);
+            border-radius: 14px;
+            padding: 24px;
+            margin-bottom: 24px;
+            box-shadow: 0 6px 20px rgba(0,0,0,0.25);
+        }
+
+        .game-center-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            flex-wrap: wrap;
+            gap: 12px;
+            margin-bottom: 16px;
+        }
+
+        .game-title {
+            font-size: 1.25rem;
+            font-weight: 800;
+            color: #FFFFFF;
+            display: flex;
+            align-items: center;
+            gap: 8px;
+        }
+
+        .game-meta-pills { display: flex; gap: 8px; flex-wrap: wrap; }
+
+        .game-pill {
+            background: var(--navy-card);
+            border: 1px solid var(--navy-border);
+            color: var(--sunshine-gold);
+            padding: 4px 10px;
+            border-radius: 6px;
+            font-size: 0.82rem;
+            font-weight: 700;
+        }
+
+        .game-grid {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 14px;
+            margin-top: 14px;
+        }
+
+        @media (max-width: 768px) { .game-grid { grid-template-columns: 1fr; } }
+
+        .tactical-box {
+            background: var(--navy-card);
+            border: 1px solid var(--navy-border);
+            border-radius: 10px;
+            padding: 14px 16px;
+            font-size: 0.88rem;
+        }
+
+        .tactical-box h4 {
+            color: var(--powder-blue-light);
+            margin-bottom: 6px;
+            font-size: 0.95rem;
+        }
+
+        /* Top Priority Highlights Section */
+        .section-header {
+            font-size: 1.25rem;
+            font-weight: 800;
+            color: #FFFFFF;
+            margin: 28px 0 16px 0;
+            display: flex;
+            align-items: center;
+            gap: 8px;
+        }
+
+        .top-highlights-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+            gap: 16px;
+            margin-bottom: 28px;
+        }
+
+        .highlight-card {
+            background: var(--navy-surface);
+            border: 1px solid var(--navy-border);
+            border-top: 3px solid var(--sunshine-gold);
+            border-radius: 12px;
+            padding: 18px;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+        }
+
+        .highlight-card:hover {
+            border-color: var(--sunshine-gold);
+            transform: translateY(-2px);
+            transition: all 0.2s ease;
+        }
+
+        /* Stats Bar */
+        .stats-bar {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+            gap: 12px;
+            margin: 20px 0;
+        }
+
+        .stat-card {
+            background: var(--navy-surface);
+            border: 1px solid var(--navy-border);
+            border-radius: 12px;
+            padding: 14px;
+            text-align: center;
+        }
+
+        .stat-val {
+            font-size: 1.7rem;
+            font-weight: 800;
+            color: var(--powder-blue-light);
+            font-family: 'Montserrat', sans-serif;
+        }
+
+        .stat-label { font-size: 0.8rem; color: var(--text-muted); margin-top: 2px; }
+
+        /* Controls / Filters */
+        .controls-row {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            gap: 14px;
+            flex-wrap: wrap;
+            margin: 24px 0 16px 0;
+        }
+
+        .filter-buttons { display: flex; gap: 8px; flex-wrap: wrap; }
+
+        .filter-btn {
+            background: var(--navy-surface);
+            border: 1px solid var(--navy-border);
+            color: var(--text-muted);
+            padding: 7px 13px;
+            border-radius: 8px;
+            font-size: 0.84rem;
+            font-weight: 600;
+            cursor: pointer;
+            transition: all 0.2s ease;
+        }
+
+        .filter-btn:hover, .filter-btn.active {
+            background: var(--powder-blue);
+            color: #FFFFFF;
+            border-color: var(--powder-blue-light);
+        }
+
+        .search-box { position: relative; min-width: 240px; }
+
+        .search-box input {
+            width: 100%;
+            background: var(--navy-surface);
+            border: 1px solid var(--navy-border);
+            color: #FFFFFF;
+            padding: 7px 14px 7px 32px;
+            border-radius: 8px;
+            font-size: 0.86rem;
+            outline: none;
+        }
+
+        .search-box input:focus {
+            border-color: var(--powder-blue);
+            box-shadow: 0 0 0 2px var(--powder-blue-glow);
+        }
+
+        .search-box span {
+            position: absolute;
+            left: 10px;
+            top: 50%;
+            transform: translateY(-50%);
+            color: var(--text-muted);
+        }
+
+        /* News Cards List */
+        .news-grid { display: flex; flex-direction: column; gap: 14px; }
+
+        .news-card {
+            background: var(--navy-surface);
+            border: 1px solid var(--navy-border);
+            border-radius: 12px;
+            padding: 20px;
+            transition: transform 0.2s ease, border-color 0.2s ease;
+        }
+
+        .news-card:hover {
+            transform: translateY(-2px);
+            border-color: var(--powder-blue);
+            box-shadow: 0 6px 20px rgba(0, 128, 198, 0.15);
+        }
+
+        .card-header-meta {
+            display: flex;
+            align-items: center;
+            gap: 8px;
+            margin-bottom: 10px;
+            flex-wrap: wrap;
+        }
+
+        .badge-cat {
+            background: rgba(0, 128, 198, 0.2);
+            color: var(--powder-blue-light);
+            border: 1px solid var(--powder-blue);
+            font-size: 0.75rem;
+            font-weight: 700;
+            padding: 2px 8px;
+            border-radius: 6px;
+        }
+
+        .badge-tier {
+            background: rgba(255, 194, 14, 0.15);
+            color: var(--sunshine-gold);
+            border: 1px solid rgba(255, 194, 14, 0.4);
+            font-size: 0.75rem;
+            font-weight: 700;
+            padding: 2px 8px;
+            border-radius: 6px;
+        }
+
+        .badge-source { font-size: 0.78rem; color: #E2E8F0; font-weight: 600; }
+        .badge-date { font-size: 0.76rem; color: var(--text-muted); margin-left: auto; }
+
+        .news-title-kr {
+            font-size: 1.1rem;
+            font-weight: 700;
+            color: #FFFFFF;
+            margin-bottom: 4px;
+            line-height: 1.4;
+        }
+
+        .news-title-en {
+            font-size: 0.85rem;
+            color: var(--text-muted);
+            margin-bottom: 12px;
+            font-style: italic;
+        }
+
+        .news-bullets {
+            background: var(--navy-card);
+            border-radius: 8px;
+            padding: 10px 14px 10px 26px;
+            margin-bottom: 14px;
+            border-left: 3px solid var(--powder-blue);
+        }
+
+        .news-bullets li { font-size: 0.88rem; color: #E2E8F0; margin-bottom: 4px; }
+        .news-bullets li:last-child { margin-bottom: 0; }
+
+        .card-footer { display: flex; justify-content: flex-end; align-items: center; }
+
+        .read-btn {
+            background: var(--navy-card);
+            color: var(--powder-blue-light);
+            border: 1px solid var(--navy-border);
+            padding: 5px 12px;
+            border-radius: 6px;
+            font-size: 0.8rem;
+            font-weight: 600;
+            text-decoration: none;
+            transition: all 0.2s ease;
+        }
+
+        .read-btn:hover {
+            background: var(--powder-blue);
+            color: #FFFFFF;
+            border-color: var(--powder-blue);
+        }
+
+        footer { text-align: center; margin-top: 60px; color: var(--text-muted); font-size: 0.82rem; }
+    </style>
+</head>
+<body>
+
+    <header>
+        <div class="header-content">
+            <div class="bolt-badge">⚡ BOLT UP INTELLIGENCE REPORT</div>
+            <h1>LA CHARGERS <span>FULL BRIEFING</span></h1>
+            <div class="header-meta">
+                <span>📅 생성 일시: <strong>{{ generated_at }}</strong></span>
+                <span>⚡ 전수 수집 기사: <strong>{{ articles|length }}건</strong></span>
+                <span>🏈 대상: <strong>Los Angeles Chargers (NFL)</strong></span>
+            </div>
+        </div>
+    </header>
+
+    <div class="container">
+        <!-- Executive Briefing -->
+        <section class="briefing-card">
+            <div class="briefing-title">
+                <span>⚡</span>
+                <span>{{ briefing.headline }}</span>
+            </div>
+            
+            <div class="takeaways-grid">
+                {% for item in briefing.key_takeaways %}
+                <div class="takeaway-item">{{ item }}</div>
+                {% endfor %}
+            </div>
+
+            <div class="briefing-extras">
+                <div class="extra-box">
+                    <strong>📋 부상 및 53인 로스터 동향</strong>
+                    <div>{{ briefing.injury_update }}</div>
+                </div>
+                <div class="extra-box">
+                    <strong>🏈 종합 분석 및 코멘트</strong>
+                    <div>{{ briefing.team_outlook }}</div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Dynamic Trending Keyword Pills -->
+        {% if briefing.trending_keywords %}
+        <div class="trends-section">
+            <div class="trends-title">🔥 실시간 트렌드 키워드:</div>
+            {% for kw in briefing.trending_keywords %}
+            <span class="trend-pill">#{{ kw }}</span>
+            {% endfor %}
+        </div>
+        {% endif %}
+
+        <!-- Game Intelligence Center -->
+        {% if briefing.game_center and briefing.game_center.has_game_data %}
+        <section class="game-center-card">
+            <div class="game-center-header">
+                <div class="game-title">
+                    <span>🏈</span>
+                    <span>경기 및 매치업 분석 (Game Center)</span>
+                </div>
+                <div class="game-meta-pills">
+                    <span class="game-pill">상대: {{ briefing.game_center.opponent }}</span>
+                    <span class="game-pill">구분: {{ briefing.game_center.game_type }}</span>
+                    <span class="game-pill">스코어/현황: {{ briefing.game_center.score_detected }}</span>
+                </div>
+            </div>
+
+            <div class="game-grid">
+                <div class="tactical-box">
+                    <h4>⚔️ 공격진(Offense) 분석</h4>
+                    <p>{{ briefing.game_center.offense_notes }}</p>
+                </div>
+                <div class="tactical-box">
+                    <h4>🛡️ 수비진(Defense) 분석</h4>
+                    <p>{{ briefing.game_center.defense_notes }}</p>
+                </div>
+            </div>
+        </section>
+        {% endif %}
+
+        <!-- Top Priority Highlights (TOP 5) -->
+        {% if briefing.top_highlights %}
+        <div class="section-header">
+            <span>🚨</span>
+            <span>최우선 핵심 뉴스 (Top Priority Highlights)</span>
+        </div>
+        <div class="top-highlights-grid">
+            {% for h in briefing.top_highlights %}
+            <div class="highlight-card">
+                <div>
+                    <div class="card-header-meta">
+                        <span class="badge-tier">{{ h.priority_tier }}</span>
+                        <span class="badge-cat">{{ h.category_badge }}</span>
+                        <span class="badge-source">{{ h.source }}</span>
+                    </div>
+                    <h3 class="news-title-kr">{{ h.headline_kr }}</h3>
+                    <div class="news-title-en">{{ h.title }}</div>
+                    <ul class="news-bullets">
+                        {% for b in h.summary_bullets_kr %}
+                        <li>{{ b }}</li>
+                        {% endfor %}
+                    </ul>
+                </div>
+                <div class="card-footer">
+                    <a href="{{ h.url }}" target="_blank" rel="noopener noreferrer" class="read-btn">원문 보기 ↗</a>
+                </div>
+            </div>
+            {% endfor %}
+        </div>
+        {% endif %}
+
+        <!-- Stats Bar -->
+        <section class="stats-bar">
+            <div class="stat-card">
+                <div class="stat-val">{{ articles|length }}</div>
+                <div class="stat-label">전수 수집 기사</div>
+            </div>
+            <div class="stat-card">
+                <div class="stat-val">{{ stats.sources_count }}</div>
+                <div class="stat-label">참여 언론/소스</div>
+            </div>
+            <div class="stat-card">
+                <div class="stat-val">{{ stats.injuries_count }}</div>
+                <div class="stat-label">부상/로스터 리포트</div>
+            </div>
+            <div class="stat-card">
+                <div class="stat-val">{{ stats.games_count }}</div>
+                <div class="stat-label">경기/프리뷰 보도</div>
+            </div>
+        </section>
+
+        <!-- Filtering and Search -->
+        <div class="controls-row">
+            <div class="filter-buttons">
+                <button class="filter-btn active" onclick="filterCategory('all', this)">전체 기사 ({{ articles|length }})</button>
+                <button class="filter-btn" onclick="filterCategory('game', this)">⚡ 경기 소식</button>
+                <button class="filter-btn" onclick="filterCategory('injury', this)">📋 부상/로스터</button>
+                <button class="filter-btn" onclick="filterCategory('roster', this)">🎯 영입/계약</button>
+                <button class="filter-btn" onclick="filterCategory('interview', this)">🎙️ 인터뷰</button>
+                <button class="filter-btn" onclick="filterCategory('general', this)">⚡ 일반</button>
+            </div>
+            <div class="search-box">
+                <span>🔍</span>
+                <input type="text" id="searchInput" placeholder="기사 검색..." onkeyup="searchArticles()">
+            </div>
+        </div>
+
+        <!-- Full News Archive Grid -->
+        <main class="news-grid" id="newsGrid">
+            {% for art in articles %}
+            <article class="news-card" data-category="{{ art.category_key }}">
+                <div class="card-header-meta">
+                    <span class="badge-tier">{{ art.priority_tier }}</span>
+                    <span class="badge-cat">{{ art.category_badge }}</span>
+                    <span class="badge-source">📰 {{ art.source }}</span>
+                    <span class="badge-date">{{ art.published[:10] if art.published else '' }}</span>
+                </div>
+
+                <h2 class="news-title-kr">{{ art.headline_kr }}</h2>
+                <div class="news-title-en">Original: {{ art.title }}</div>
+
+                <ul class="news-bullets">
+                    {% for bullet in art.summary_bullets_kr %}
+                    <li>{{ bullet }}</li>
+                    {% endfor %}
+                </ul>
+
+                <div class="card-footer">
+                    <a href="{{ art.url }}" target="_blank" rel="noopener noreferrer" class="read-btn">
+                        원문 기사 보기 ↗
+                    </a>
+                </div>
+            </article>
+            {% endfor %}
+        </main>
+
+        <footer>
+            <p>⚡ ChargersPulse 2.0 - Automated Los Angeles Chargers Intelligence Reporter</p>
+            <p>데이터 출처: Bolts From The Blue, Yardbarker, ESPN NFL, Google News Search Feeds</p>
+        </footer>
+    </div>
+
+    <script>
+        let currentFilter = 'all';
+
+        function filterCategory(category, element) {
+            currentFilter = category;
+            document.querySelectorAll('.filter-btn').forEach(btn => btn.classList.remove('active'));
+            element.classList.add('active');
+            applyFilters();
+        }
+
+        function searchArticles() {
+            applyFilters();
+        }
+
+        function applyFilters() {
+            const query = document.getElementById('searchInput').value.toLowerCase();
+            const cards = document.querySelectorAll('.news-card');
+
+            cards.forEach(card => {
+                const category = card.getAttribute('data-category');
+                const text = card.textContent.toLowerCase();
+                
+                const matchesCategory = (currentFilter === 'all' || category === currentFilter);
+                const matchesSearch = text.includes(query);
+
+                if (matchesCategory && matchesSearch) {
+                    card.style.display = 'block';
+                } else {
+                    card.style.display = 'none';
+                }
+            });
+        }
+    </script>
+</body>
+</html>
