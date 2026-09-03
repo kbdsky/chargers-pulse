@@ -4,12 +4,12 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, viewport-fit=cover">
     <title>ChargersPulse - LA 차저스 브리핑</title>
-    <link rel="manifest" href="/static/manifest.json">
+    <link rel="manifest" href="./manifest.json">
     <meta name="theme-color" content="#0C2340">
     <meta name="mobile-web-app-capable" content="yes">
     <meta name="apple-mobile-web-app-capable" content="yes">
     <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
-    <link rel="icon" type="image/png" href="/static/icons/icon-192.png">
+    <link rel="icon" type="image/png" href="./icons/icon-192.png">
     <link href="https://fonts.googleapis.com/css2?family=Pretendard:wght@300;400;600;700;800&family=Montserrat:wght@800;900&display=swap" rel="stylesheet">
 
     <style>
@@ -104,10 +104,11 @@
             background: var(--powder-blue);
             color: #FFFFFF;
             border: none;
-            padding: 5px 10px;
+            padding: 6px 12px;
             border-radius: 6px;
-            font-size: 0.78rem;
+            font-size: 0.8rem;
             font-weight: 700;
+            cursor: pointer;
         }
 
         /* Container */
@@ -368,7 +369,7 @@
             <div class="app-title">CHARGERS<span>PULSE</span></div>
         </div>
         <button class="refresh-btn" onclick="triggerRefresh()">
-            <span>🔄</span> 실시간 수집
+            <span>🔄</span> 새로고침
         </button>
     </header>
 
@@ -381,8 +382,7 @@
     <!-- Loading Indicator -->
     <div id="loader">
         <div class="spinner"></div>
-        <p style="color: var(--sunshine-gold); font-weight: 700; font-size: 0.9rem;">전수 뉴스 수집 및 분석 중...</p>
-        <p style="color: var(--text-muted); font-size: 0.78rem;">약 5~8초 소요됩니다.</p>
+        <p style="color: var(--sunshine-gold); font-weight: 700; font-size: 0.9rem;">최신 데이터 불러오는 중...</p>
     </div>
 
     <!-- Main Container -->
@@ -498,7 +498,7 @@
 
         // PWA Service Worker Registration
         if ('serviceWorker' in navigator) {
-            navigator.serviceWorker.register('/static/service-worker.js')
+            navigator.serviceWorker.register('./service-worker.js')
                 .then(() => console.log('PWA Service Worker Registered'))
                 .catch(err => console.log('SW Registration failed', err));
         }
@@ -507,7 +507,8 @@
         window.addEventListener('beforeinstallprompt', (e) => {
             e.preventDefault();
             deferredPrompt = e;
-            document.getElementById('installBanner').style.display = 'flex';
+            const banner = document.getElementById('installBanner');
+            if (banner) banner.style.display = 'flex';
         });
 
         document.getElementById('installBtn').addEventListener('click', async () => {
@@ -531,16 +532,31 @@
             window.scrollTo({ top: 0, behavior: 'smooth' });
         }
 
-        // Fetch Data from Server
+        // Robust Multi-Endpoint Data Fetcher
         async function loadData() {
-            try {
-                const res = await fetch('/api/briefing');
-                const data = await res.json();
-                currentData = data;
-                renderApp(data);
-            } catch (e) {
-                console.error('Failed to load briefing:', e);
+            const endpoints = [
+                './latest_mobile_data.json?t=' + Date.now(),
+                './reports/latest_mobile_data.json?t=' + Date.now(),
+                '/api/briefing',
+                'https://raw.githubusercontent.com/kbdsky/chargers-pulse/main/reports/latest_mobile_data.json'
+            ];
+
+            for (const ep of endpoints) {
+                try {
+                    const res = await fetch(ep);
+                    if (res.ok) {
+                        const data = await res.json();
+                        if (data && (data.briefing || (data.articles && data.articles.length > 0))) {
+                            currentData = data;
+                            renderApp(data);
+                            return;
+                        }
+                    }
+                } catch (err) {
+                    console.log('Tried endpoint', ep, err);
+                }
             }
+            console.error('All data endpoints failed');
         }
 
         // Render Data into DOM
@@ -655,12 +671,19 @@
             document.getElementById('mainContent').style.display = 'none';
 
             try {
-                const res = await fetch('/api/refresh', { method: 'POST' });
-                const data = await res.json();
-                currentData = data;
-                renderApp(data);
+                // Try live API first
+                const res = await fetch('/api/refresh', { method: 'POST' }).catch(() => null);
+                if (res && res.ok) {
+                    const data = await res.json();
+                    currentData = data;
+                    renderApp(data);
+                } else {
+                    // Static reload
+                    await loadData();
+                }
             } catch (e) {
-                alert('수집 중 오류 발생: ' + e);
+                console.log('Refresh error:', e);
+                await loadData();
             } finally {
                 document.getElementById('loader').style.display = 'none';
                 document.getElementById('mainContent').style.display = 'block';
