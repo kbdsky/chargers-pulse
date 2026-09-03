@@ -1,0 +1,1030 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>⚡ LA Chargers 최신 뉴스 및 브리핑 보고서 - LA Chargers News Briefing</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Pretendard:wght@300;400;600;700;800&family=Montserrat:wght@700;900&display=swap" rel="stylesheet">
+    <style>
+        :root {
+            --powder-blue: #0080C6;
+            --powder-blue-light: #38b6ff;
+            --powder-blue-glow: rgba(0, 128, 198, 0.25);
+            --sunshine-gold: #FFC20E;
+            --navy-deep: #07101E;
+            --navy-surface: #0C1E38;
+            --navy-card: #132A4D;
+            --navy-border: #1E3E6B;
+            --text-main: #F1F5F9;
+            --text-muted: #94A3B8;
+            --text-dark: #07101E;
+        }
+
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            font-family: 'Pretendard', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+            background-color: var(--navy-deep);
+            color: var(--text-main);
+            line-height: 1.6;
+            padding-bottom: 60px;
+        }
+
+        /* Top Header */
+        header {
+            background: linear-gradient(135deg, #0C2340 0%, #004D7A 60%, #0080C6 100%);
+            border-bottom: 3px solid var(--sunshine-gold);
+            padding: 40px 20px;
+            text-align: center;
+            position: relative;
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.4);
+        }
+
+        .header-content {
+            max-width: 1100px;
+            margin: 0 auto;
+        }
+
+        .bolt-badge {
+            display: inline-flex;
+            align-items: center;
+            gap: 6px;
+            background: var(--sunshine-gold);
+            color: var(--navy-deep);
+            font-family: 'Montserrat', sans-serif;
+            font-weight: 900;
+            font-size: 0.85rem;
+            letter-spacing: 1.5px;
+            padding: 6px 16px;
+            border-radius: 9999px;
+            margin-bottom: 12px;
+            box-shadow: 0 4px 12px rgba(255, 194, 14, 0.3);
+        }
+
+        h1 {
+            font-family: 'Montserrat', 'Pretendard', sans-serif;
+            font-size: 2.4rem;
+            font-weight: 900;
+            color: #FFFFFF;
+            letter-spacing: -0.5px;
+            margin-bottom: 8px;
+            text-shadow: 0 2px 10px rgba(0, 0, 0, 0.3);
+        }
+
+        h1 span {
+            color: var(--sunshine-gold);
+        }
+
+        .header-meta {
+            color: #E2E8F0;
+            font-size: 0.95rem;
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+            flex-wrap: wrap;
+            margin-top: 10px;
+        }
+
+        /* Container */
+        .container {
+            max-width: 1100px;
+            margin: 0 auto;
+            padding: 0 20px;
+        }
+
+        /* Executive Briefing Banner */
+        .briefing-card {
+            background: var(--navy-surface);
+            border: 1px solid var(--navy-border);
+            border-left: 5px solid var(--sunshine-gold);
+            border-radius: 14px;
+            padding: 26px;
+            margin-top: -24px;
+            position: relative;
+            box-shadow: 0 8px 24px rgba(0, 0, 0, 0.3);
+            backdrop-filter: blur(8px);
+        }
+
+        .briefing-title {
+            font-size: 1.3rem;
+            font-weight: 700;
+            color: var(--sunshine-gold);
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            margin-bottom: 16px;
+        }
+
+        .takeaways-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+            gap: 14px;
+            margin-bottom: 20px;
+        }
+
+        .takeaway-item {
+            background: var(--navy-card);
+            border: 1px solid var(--navy-border);
+            border-radius: 10px;
+            padding: 14px 16px;
+            font-size: 0.92rem;
+            line-height: 1.5;
+        }
+
+        .briefing-extras {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 16px;
+            margin-top: 14px;
+            padding-top: 16px;
+            border-top: 1px solid var(--navy-border);
+        }
+
+        @media (max-width: 768px) {
+            .briefing-extras {
+                grid-template-columns: 1fr;
+            }
+        }
+
+        .extra-box {
+            background: rgba(0, 128, 198, 0.1);
+            border: 1px solid var(--powder-blue-glow);
+            border-radius: 8px;
+            padding: 12px 16px;
+            font-size: 0.88rem;
+        }
+
+        .extra-box strong {
+            color: var(--powder-blue-light);
+            display: block;
+            margin-bottom: 4px;
+        }
+
+        /* Stats Bar */
+        .stats-bar {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
+            gap: 12px;
+            margin: 28px 0;
+        }
+
+        .stat-card {
+            background: var(--navy-surface);
+            border: 1px solid var(--navy-border);
+            border-radius: 12px;
+            padding: 16px;
+            text-align: center;
+        }
+
+        .stat-val {
+            font-size: 1.8rem;
+            font-weight: 800;
+            color: var(--powder-blue-light);
+            font-family: 'Montserrat', sans-serif;
+        }
+
+        .stat-label {
+            font-size: 0.82rem;
+            color: var(--text-muted);
+            margin-top: 2px;
+        }
+
+        /* Controls / Filters */
+        .controls-row {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            gap: 16px;
+            flex-wrap: wrap;
+            margin-bottom: 24px;
+        }
+
+        .filter-buttons {
+            display: flex;
+            gap: 8px;
+            flex-wrap: wrap;
+        }
+
+        .filter-btn {
+            background: var(--navy-surface);
+            border: 1px solid var(--navy-border);
+            color: var(--text-muted);
+            padding: 8px 14px;
+            border-radius: 8px;
+            font-size: 0.85rem;
+            font-weight: 600;
+            cursor: pointer;
+            transition: all 0.2s ease;
+        }
+
+        .filter-btn:hover, .filter-btn.active {
+            background: var(--powder-blue);
+            color: #FFFFFF;
+            border-color: var(--powder-blue-light);
+        }
+
+        .search-box {
+            position: relative;
+            min-width: 240px;
+        }
+
+        .search-box input {
+            width: 100%;
+            background: var(--navy-surface);
+            border: 1px solid var(--navy-border);
+            color: #FFFFFF;
+            padding: 8px 14px 8px 34px;
+            border-radius: 8px;
+            font-size: 0.88rem;
+            outline: none;
+        }
+
+        .search-box input:focus {
+            border-color: var(--powder-blue);
+            box-shadow: 0 0 0 2px var(--powder-blue-glow);
+        }
+
+        .search-box span {
+            position: absolute;
+            left: 10px;
+            top: 50%;
+            transform: translateY(-50%);
+            color: var(--text-muted);
+            font-size: 0.9rem;
+        }
+
+        /* News Cards List */
+        .news-grid {
+            display: flex;
+            flex-direction: column;
+            gap: 18px;
+        }
+
+        .news-card {
+            background: var(--navy-surface);
+            border: 1px solid var(--navy-border);
+            border-radius: 12px;
+            padding: 22px;
+            transition: transform 0.2s ease, border-color 0.2s ease;
+            position: relative;
+        }
+
+        .news-card:hover {
+            transform: translateY(-2px);
+            border-color: var(--powder-blue);
+            box-shadow: 0 6px 20px rgba(0, 128, 198, 0.15);
+        }
+
+        .card-header-meta {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            margin-bottom: 12px;
+            flex-wrap: wrap;
+        }
+
+        .badge-cat {
+            background: rgba(0, 128, 198, 0.2);
+            color: var(--powder-blue-light);
+            border: 1px solid var(--powder-blue);
+            font-size: 0.76rem;
+            font-weight: 700;
+            padding: 3px 10px;
+            border-radius: 6px;
+        }
+
+        .badge-cat.injury {
+            background: rgba(239, 68, 68, 0.15);
+            color: #F87171;
+            border-color: #EF4444;
+        }
+
+        .badge-cat.roster {
+            background: rgba(245, 158, 11, 0.15);
+            color: #FBBF24;
+            border-color: #F59E0B;
+        }
+
+        .badge-source {
+            font-size: 0.78rem;
+            color: var(--sunshine-gold);
+            font-weight: 600;
+        }
+
+        .badge-date {
+            font-size: 0.78rem;
+            color: var(--text-muted);
+            margin-left: auto;
+        }
+
+        .news-title-kr {
+            font-size: 1.15rem;
+            font-weight: 700;
+            color: #FFFFFF;
+            margin-bottom: 6px;
+            line-height: 1.4;
+        }
+
+        .news-title-en {
+            font-size: 0.88rem;
+            color: var(--text-muted);
+            margin-bottom: 14px;
+            font-style: italic;
+        }
+
+        .news-bullets {
+            background: var(--navy-card);
+            border-radius: 8px;
+            padding: 12px 16px 12px 30px;
+            margin-bottom: 16px;
+            border-left: 3px solid var(--powder-blue);
+        }
+
+        .news-bullets li {
+            font-size: 0.9rem;
+            color: #E2E8F0;
+            margin-bottom: 6px;
+        }
+
+        .news-bullets li:last-child {
+            margin-bottom: 0;
+        }
+
+        .card-footer {
+            display: flex;
+            justify-content: flex-end;
+            align-items: center;
+        }
+
+        .read-btn {
+            display: inline-flex;
+            align-items: center;
+            gap: 6px;
+            background: var(--navy-card);
+            color: var(--powder-blue-light);
+            border: 1px solid var(--navy-border);
+            padding: 6px 14px;
+            border-radius: 6px;
+            font-size: 0.82rem;
+            font-weight: 600;
+            text-decoration: none;
+            transition: all 0.2s ease;
+        }
+
+        .read-btn:hover {
+            background: var(--powder-blue);
+            color: #FFFFFF;
+            border-color: var(--powder-blue);
+        }
+
+        footer {
+            text-align: center;
+            margin-top: 60px;
+            color: var(--text-muted);
+            font-size: 0.82rem;
+        }
+
+        /* Print formatting */
+        @media print {
+            body { background: white; color: black; }
+            header { background: #0C2340; color: white; }
+            .briefing-card, .news-card, .stat-card { background: white; border: 1px solid #ccc; color: black; }
+            .news-bullets { background: #f5f5f5; color: black; }
+            .controls-row { display: none; }
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <div class="header-content">
+            <div class="bolt-badge">⚡ BOLT UP BRIEFING</div>
+            <h1>LA CHARGERS <span>NEWS REPORT</span></h1>
+            <div class="header-meta">
+                <span>📅 생성 일시: <strong>2026-08-23 21:13:05</strong></span>
+                <span>⚡ 총 수집 기사: <strong>20건</strong></span>
+                <span>🏈 대상: <strong>Los Angeles Chargers (NFL)</strong></span>
+            </div>
+        </div>
+    </header>
+
+    <div class="container">
+        <!-- Executive Briefing -->
+        <section class="briefing-card">
+            <div class="briefing-title">
+                <span>⚡</span>
+                <span>⚡ LA 차저스 최신 뉴스 & 브리핑 리포트 (총 20건 집계)</span>
+            </div>
+            
+            <div class="takeaways-grid">
+                
+                <div class="takeaway-item">⚡ 총 20건의 실시간 LA 차저스 뉴스가 성공적으로 수집 및 분석되었습니다.</div>
+                
+                <div class="takeaway-item">🎯 집중 조명된 선수 및 코칭스태프: 저스틴 허버트(QB)(1건), 오마리온 햄튼(RB)(1건), 제네시스 스미스(DB)(1건)</div>
+                
+                <div class="takeaway-item">📊 카테고리별 현황: 경기 결과/프리뷰 (8건), 부상/로스터 보고 (6건), 계약/트레이드/드래프트 (4건), 감독/선수 인터뷰 (1건), 팀 일반 소식 (1건)</div>
+                
+                <div class="takeaway-item">🏈 짐 하보(Jim Harbaugh) 감독 체제 1년차를 맞아 팀 문화 쇄신 및 공수 전술 완성도 강화에 관심이 집중되고 있습니다.</div>
+                
+            </div>
+
+            <div class="briefing-extras">
+                <div class="extra-box">
+                    <strong>📋 부상 및 로스터 동향</strong>
+                    <div>총 6건의 부상/로스터 관련 소식이 집계되었습니다. 주요 내용: 'Undrafted free agent making a case for Chargers’ 53-man roster'</div>
+                </div>
+                <div class="extra-box">
+                    <strong>🏈 종합 분석 및 소스 현황</strong>
+                    <div>주요 전문 매체(SB Nation, Yardbarker, ESPN, Google News)의 보도를 종합한 차저스 전용 브리핑입니다. (경기 및 프리시즌 소식 8건)</div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Stats Counter -->
+        <section class="stats-bar">
+            <div class="stat-card">
+                <div class="stat-val">20</div>
+                <div class="stat-label">수집된 기사 총합</div>
+            </div>
+            <div class="stat-card">
+                <div class="stat-val">2</div>
+                <div class="stat-label">참여 언론/소스 수</div>
+            </div>
+            <div class="stat-card">
+                <div class="stat-val">5</div>
+                <div class="stat-label">분류 카테고리 수</div>
+            </div>
+            <div class="stat-card">
+                <div class="stat-val">6</div>
+                <div class="stat-label">부상/로스터 소식</div>
+            </div>
+        </section>
+
+        <!-- Filtering and Search -->
+        <div class="controls-row">
+            <div class="filter-buttons">
+                <button class="filter-btn active" onclick="filterCategory('all', this)">전체 보기</button>
+                <button class="filter-btn" onclick="filterCategory('game', this)">⚡ 경기 소식</button>
+                <button class="filter-btn" onclick="filterCategory('injury', this)">📋 부상/로스터</button>
+                <button class="filter-btn" onclick="filterCategory('roster', this)">🎯 영입/계약</button>
+                <button class="filter-btn" onclick="filterCategory('interview', this)">🎙️ 인터뷰</button>
+                <button class="filter-btn" onclick="filterCategory('general', this)">⚡ 팀 소식</button>
+            </div>
+            <div class="search-box">
+                <span>🔍</span>
+                <input type="text" id="searchInput" placeholder="기사 제목 또는 키워드 검색..." onkeyup="searchArticles()">
+            </div>
+        </div>
+
+        <!-- News Cards Grid -->
+        <main class="news-grid" id="newsGrid">
+            
+            <article class="news-card" data-category="game">
+                <div class="card-header-meta">
+                    <span class="badge-cat game">⚡ 경기 소식</span>
+                    <span class="badge-source">📰 Bolts From The Blue (SB Nation)</span>
+                    <span class="badge-date">2026-08-21</span>
+                </div>
+
+                <h2 class="news-title-kr">Chargers-49ers Game Recap: Niners throttle Bolts 41-17</h2>
+                <div class="news-title-en">Original: Chargers-49ers Game Recap: Niners throttle Bolts 41-17</div>
+
+                <ul class="news-bullets">
+                    
+                    <li>🏈 **주요 인물**: 저스틴 허버트(QB)</li>
+                    
+                    <li>⚡ **주요 키워드**: 합동 훈련</li>
+                    
+                    <li>📄 **내용 요약**: "The Chargers may have dominated the 49ers during Tuesday’s joint practice, but that was far from the case when both teams took the field Thursday n..."</li>
+                    
+                </ul>
+
+                <div class="card-footer">
+                    <a href="https://www.boltsfromtheblue.com/los-angeles-chargers-news/65160/chargers-49ers-game-recap-justin-herbert-dezhaun-stribling-preseason" target="_blank" rel="noopener noreferrer" class="read-btn">
+                        원문 기사 보기 ↗
+                    </a>
+                </div>
+            </article>
+            
+            <article class="news-card" data-category="game">
+                <div class="card-header-meta">
+                    <span class="badge-cat game">⚡ 경기 소식</span>
+                    <span class="badge-source">📰 Bolts From The Blue (SB Nation)</span>
+                    <span class="badge-date">2026-08-20</span>
+                </div>
+
+                <h2 class="news-title-kr">[프리시즌] Chargers vs. 49ers Preseason Week 2: How to watch, game time, TV schedule, streaming, and more</h2>
+                <div class="news-title-en">Original: Chargers vs. 49ers Preseason Week 2: How to watch, game time, TV schedule, streaming, and more</div>
+
+                <ul class="news-bullets">
+                    
+                    <li>⚡ **주요 키워드**: 프리시즌, 합동 훈련</li>
+                    
+                    <li>📄 **내용 요약**: "The Chargers are at home for the first time this preseason to host the San Francisco 49ers."</li>
+                    
+                </ul>
+
+                <div class="card-footer">
+                    <a href="https://www.boltsfromtheblue.com/los-angeles-chargers-game-information/65157/chargers-49ers-preseason-week-2-how-to-watch-game-time-tv-schedule-streaming" target="_blank" rel="noopener noreferrer" class="read-btn">
+                        원문 기사 보기 ↗
+                    </a>
+                </div>
+            </article>
+            
+            <article class="news-card" data-category="game">
+                <div class="card-header-meta">
+                    <span class="badge-cat game">⚡ 경기 소식</span>
+                    <span class="badge-source">📰 Bolts From The Blue (SB Nation)</span>
+                    <span class="badge-date">2026-08-19</span>
+                </div>
+
+                <h2 class="news-title-kr">[오마리온 햄튼] Omarion Hampton among 5 Chargers to watch vs. the 49ers</h2>
+                <div class="news-title-en">Original: Omarion Hampton among 5 Chargers to watch vs. the 49ers</div>
+
+                <ul class="news-bullets">
+                    
+                    <li>🏈 **주요 인물**: 오마리온 햄튼(RB)</li>
+                    
+                    <li>⚡ **주요 키워드**: 프리시즌, 합동 훈련</li>
+                    
+                    <li>📄 **내용 요약**: "The Chargers are at home in SoFi Stadium on Thursday night to host the San Francisco 49ers in Preseason Week Two."</li>
+                    
+                </ul>
+
+                <div class="card-footer">
+                    <a href="https://www.boltsfromtheblue.com/los-angeles-chargers-news/65145/los-angeles-chargers-to-watch-omarion-hampton-49ers-preseason" target="_blank" rel="noopener noreferrer" class="read-btn">
+                        원문 기사 보기 ↗
+                    </a>
+                </div>
+            </article>
+            
+            <article class="news-card" data-category="injury">
+                <div class="card-header-meta">
+                    <span class="badge-cat injury">📋 부상/로스터</span>
+                    <span class="badge-source">📰 Bolts From The Blue (SB Nation)</span>
+                    <span class="badge-date">2026-08-19</span>
+                </div>
+
+                <h2 class="news-title-kr">[53인 최종 로스터] Undrafted free agent making a case for Chargers’ 53-man roster</h2>
+                <div class="news-title-en">Original: Undrafted free agent making a case for Chargers’ 53-man roster</div>
+
+                <ul class="news-bullets">
+                    
+                    <li>⚡ **주요 키워드**: 53인 최종 로스터, 선수 명단(로스터), 드래프트</li>
+                    
+                    <li>📄 **내용 요약**: "The Los Angeles Chargers are figuring out how they are going to dwindle their roster from 90 players to 53 in the next couple of weeks."</li>
+                    
+                </ul>
+
+                <div class="card-footer">
+                    <a href="https://www.boltsfromtheblue.com/los-angeles-chargers-news/65090/undrafted-free-agent-making-a-case-for-chargers-53-man-roster" target="_blank" rel="noopener noreferrer" class="read-btn">
+                        원문 기사 보기 ↗
+                    </a>
+                </div>
+            </article>
+            
+            <article class="news-card" data-category="injury">
+                <div class="card-header-meta">
+                    <span class="badge-cat injury">📋 부상/로스터</span>
+                    <span class="badge-source">📰 Bolts From The Blue (SB Nation)</span>
+                    <span class="badge-date">2026-08-19</span>
+                </div>
+
+                <h2 class="news-title-kr">Chargers C Tyler Biadasz out ‘indefinitely’ with ACL damage</h2>
+                <div class="news-title-en">Original: Chargers C Tyler Biadasz out ‘indefinitely’ with ACL damage</div>
+
+                <ul class="news-bullets">
+                    
+                    <li>⚡ **주요 키워드**: 합동 훈련</li>
+                    
+                    <li>📄 **내용 요약**: "After initial screenings following Tuesday’s joint practice with the 49ers, Chargers center Tyler Biadasz was ruled to have damage to his ACL, on t..."</li>
+                    
+                </ul>
+
+                <div class="card-footer">
+                    <a href="https://www.boltsfromtheblue.com/los-angeles-chargers-injuries/65135/los-angeles-chargers-tyler-biadasz-injury-acl-49ers" target="_blank" rel="noopener noreferrer" class="read-btn">
+                        원문 기사 보기 ↗
+                    </a>
+                </div>
+            </article>
+            
+            <article class="news-card" data-category="injury">
+                <div class="card-header-meta">
+                    <span class="badge-cat injury">📋 부상/로스터</span>
+                    <span class="badge-source">📰 Bolts From The Blue (SB Nation)</span>
+                    <span class="badge-date">2026-08-19</span>
+                </div>
+
+                <h2 class="news-title-kr">Los Angeles Chargers news: Tyler Biadasz injury to be ‘long-term’</h2>
+                <div class="news-title-en">Original: Los Angeles Chargers news: Tyler Biadasz injury to be ‘long-term’</div>
+
+                <ul class="news-bullets">
+                    
+                    <li>⚡ **주요 키워드**: 합동 훈련</li>
+                    
+                    <li>📄 **내용 요약**: "Good morning, Chargers fans!"</li>
+                    
+                </ul>
+
+                <div class="card-footer">
+                    <a href="https://www.boltsfromtheblue.com/los-angeles-chargers-news/65078/los-angeles-chargers-news-tyler-biadasz-injury-training-camp" target="_blank" rel="noopener noreferrer" class="read-btn">
+                        원문 기사 보기 ↗
+                    </a>
+                </div>
+            </article>
+            
+            <article class="news-card" data-category="injury">
+                <div class="card-header-meta">
+                    <span class="badge-cat injury">📋 부상/로스터</span>
+                    <span class="badge-source">📰 Bolts From The Blue (SB Nation)</span>
+                    <span class="badge-date">2026-08-18</span>
+                </div>
+
+                <h2 class="news-title-kr">Chargers C Tyler Biadasz carted off with lower-leg injury</h2>
+                <div class="news-title-en">Original: Chargers C Tyler Biadasz carted off with lower-leg injury</div>
+
+                <ul class="news-bullets">
+                    
+                    <li>📄 **내용 요약**: "Per multiple reports, Chargers starting center Tyler Biadasz was rolled up on during an 11-on-11 session with the 49ers."</li>
+                    
+                </ul>
+
+                <div class="card-footer">
+                    <a href="https://www.boltsfromtheblue.com/los-angeles-chargers-injuries/65119/chargers-tyler-biadasz-injury-49ers-training-camp" target="_blank" rel="noopener noreferrer" class="read-btn">
+                        원문 기사 보기 ↗
+                    </a>
+                </div>
+            </article>
+            
+            <article class="news-card" data-category="injury">
+                <div class="card-header-meta">
+                    <span class="badge-cat injury">📋 부상/로스터</span>
+                    <span class="badge-source">📰 Bolts From The Blue (SB Nation)</span>
+                    <span class="badge-date">2026-08-18</span>
+                </div>
+
+                <h2 class="news-title-kr">Keenan Allen signs with Colts on 1-year deal</h2>
+                <div class="news-title-en">Original: Keenan Allen signs with Colts on 1-year deal</div>
+
+                <ul class="news-bullets">
+                    
+                    <li>⚡ **주요 키워드**: 영입/계약</li>
+                    
+                    <li>📄 **내용 요약**: "Longtime Chargers wide receiver Keenan Allen is reportedly signing a one-year contract to play his 14th NFL season with the Indianapolis Colts."</li>
+                    
+                </ul>
+
+                <div class="card-footer">
+                    <a href="https://www.boltsfromtheblue.com/los-angeles-chargers-news/65113/keenan-allen-signs-with-colts-on-1-year-deal" target="_blank" rel="noopener noreferrer" class="read-btn">
+                        원문 기사 보기 ↗
+                    </a>
+                </div>
+            </article>
+            
+            <article class="news-card" data-category="game">
+                <div class="card-header-meta">
+                    <span class="badge-cat game">⚡ 경기 소식</span>
+                    <span class="badge-source">📰 Bolts From The Blue (SB Nation)</span>
+                    <span class="badge-date">2026-08-18</span>
+                </div>
+
+                <h2 class="news-title-kr">[제네시스 스미스] Chargers DB Genesis Smith isn’t thinking like a rookie</h2>
+                <div class="news-title-en">Original: Chargers DB Genesis Smith isn’t thinking like a rookie</div>
+
+                <ul class="news-bullets">
+                    
+                    <li>🏈 **주요 인물**: 제네시스 스미스(DB)</li>
+                    
+                    <li>⚡ **주요 키워드**: 수비 코디네이터, 프리시즌, 드래프트</li>
+                    
+                    <li>📄 **내용 요약**: "The Los Angeles Chargers selected Genesis Smith in the fourth round of the NFL draft, hoping he would add some depth to the secondary."</li>
+                    
+                </ul>
+
+                <div class="card-footer">
+                    <a href="https://www.boltsfromtheblue.com/los-angeles-chargers-news/65087/chargers-db-genesis-smith-isnt-thinking-like-a-rookie" target="_blank" rel="noopener noreferrer" class="read-btn">
+                        원문 기사 보기 ↗
+                    </a>
+                </div>
+            </article>
+            
+            <article class="news-card" data-category="game">
+                <div class="card-header-meta">
+                    <span class="badge-cat game">⚡ 경기 소식</span>
+                    <span class="badge-source">📰 Bolts From The Blue (SB Nation)</span>
+                    <span class="badge-date">2026-08-18</span>
+                </div>
+
+                <h2 class="news-title-kr">[합동 훈련] Los Angeles Chargers news: Bolts to hold joint practice with 49ers today</h2>
+                <div class="news-title-en">Original: Los Angeles Chargers news: Bolts to hold joint practice with 49ers today</div>
+
+                <ul class="news-bullets">
+                    
+                    <li>⚡ **주요 키워드**: 합동 훈련</li>
+                    
+                    <li>📄 **내용 요약**: "Good morning, Chargers fans!"</li>
+                    
+                </ul>
+
+                <div class="card-footer">
+                    <a href="https://www.boltsfromtheblue.com/los-angeles-chargers-news/65077/los-angeles-chargers-news-bolts-to-hold-joint-practice-with-49ers-today" target="_blank" rel="noopener noreferrer" class="read-btn">
+                        원문 기사 보기 ↗
+                    </a>
+                </div>
+            </article>
+            
+            <article class="news-card" data-category="game">
+                <div class="card-header-meta">
+                    <span class="badge-cat game">⚡ 경기 소식</span>
+                    <span class="badge-source">📰 Yardbarker (LA Chargers Feed)</span>
+                    <span class="badge-date">2026-08-23</span>
+                </div>
+
+                <h2 class="news-title-kr">'I Wanted to Get This off My Chest': Mike Vrabel Calls Out Patriots Players Mid-game After Narrow Win Over Eagles</h2>
+                <div class="news-title-en">Original: 'I Wanted to Get This off My Chest': Mike Vrabel Calls Out Patriots Players Mid-game After Narrow Win Over Eagles</div>
+
+                <ul class="news-bullets">
+                    
+                    <li>⚡ **주요 키워드**: 프리시즌</li>
+                    
+                    <li>📄 **내용 요약**: "It’s only preseason, but the New England Patriots struggled and already left Mike Vrabel sweating."</li>
+                    
+                </ul>
+
+                <div class="card-footer">
+                    <a href="https://www.yardbarker.com/nfl/articles/i_wanted_to_get_this_off_my_chest_mike_vrabel_calls_out_patriots_players_mid_game_after_narrow_win_over_eagles/s1_17730_44208460" target="_blank" rel="noopener noreferrer" class="read-btn">
+                        원문 기사 보기 ↗
+                    </a>
+                </div>
+            </article>
+            
+            <article class="news-card" data-category="roster">
+                <div class="card-header-meta">
+                    <span class="badge-cat roster">🎯 영입/계약</span>
+                    <span class="badge-source">📰 Yardbarker (LA Chargers Feed)</span>
+                    <span class="badge-date">2026-08-23</span>
+                </div>
+
+                <h2 class="news-title-kr">[계약 연장] Patriots Still Aiming For Christian Gonzalez Extension</h2>
+                <div class="news-title-en">Original: Patriots Still Aiming For Christian Gonzalez Extension</div>
+
+                <ul class="news-bullets">
+                    
+                    <li>⚡ **주요 키워드**: 계약 연장, 드래프트</li>
+                    
+                    <li>📄 **내용 요약**: "In the immediate aftermath of Devon Witherspoon‘s market-resetting Seahawks extension, it became clear no deal was imminent between the Patriots an..."</li>
+                    
+                </ul>
+
+                <div class="card-footer">
+                    <a href="https://www.yardbarker.com/nfl/articles/patriots_still_aiming_for_christian_gonzalez_extension/s1_14819_44207552" target="_blank" rel="noopener noreferrer" class="read-btn">
+                        원문 기사 보기 ↗
+                    </a>
+                </div>
+            </article>
+            
+            <article class="news-card" data-category="game">
+                <div class="card-header-meta">
+                    <span class="badge-cat game">⚡ 경기 소식</span>
+                    <span class="badge-source">📰 Yardbarker (LA Chargers Feed)</span>
+                    <span class="badge-date">2026-08-23</span>
+                </div>
+
+                <h2 class="news-title-kr">[프리시즌] Best, worst things from Saturday's NFL preseason action</h2>
+                <div class="news-title-en">Original: Best, worst things from Saturday's NFL preseason action</div>
+
+                <ul class="news-bullets">
+                    
+                    <li>⚡ **주요 키워드**: 프리시즌</li>
+                    
+                    <li>📄 **내용 요약**: "Another action-packed day of preseason NFL football is in the books."</li>
+                    
+                </ul>
+
+                <div class="card-footer">
+                    <a href="https://www.yardbarker.com/nfl/articles/best_worst_things_from_saturdays_nfl_preseason_action/s1_13132_44207357" target="_blank" rel="noopener noreferrer" class="read-btn">
+                        원문 기사 보기 ↗
+                    </a>
+                </div>
+            </article>
+            
+            <article class="news-card" data-category="game">
+                <div class="card-header-meta">
+                    <span class="badge-cat game">⚡ 경기 소식</span>
+                    <span class="badge-source">📰 Yardbarker (LA Chargers Feed)</span>
+                    <span class="badge-date">2026-08-22</span>
+                </div>
+
+                <h2 class="news-title-kr">5 Philadelphia Eagles Players To Watch Against The New England Patriots</h2>
+                <div class="news-title-en">Original: 5 Philadelphia Eagles Players To Watch Against The New England Patriots</div>
+
+                <ul class="news-bullets">
+                    
+                    <li>⚡ **주요 키워드**: 프리시즌</li>
+                    
+                    <li>📄 **내용 요약**: "The Philadelphia Eagles face off against the New England Patriots on Saturday night, marking their second preseason game."</li>
+                    
+                </ul>
+
+                <div class="card-footer">
+                    <a href="https://www.yardbarker.com/nfl/articles/5_philadelphia_eagles_players_to_watch_against_the_new_england_patriots/s1_17702_44205574" target="_blank" rel="noopener noreferrer" class="read-btn">
+                        원문 기사 보기 ↗
+                    </a>
+                </div>
+            </article>
+            
+            <article class="news-card" data-category="interview">
+                <div class="card-header-meta">
+                    <span class="badge-cat interview">🎙️ 인터뷰/발언</span>
+                    <span class="badge-source">📰 Yardbarker (LA Chargers Feed)</span>
+                    <span class="badge-date">2026-08-22</span>
+                </div>
+
+                <h2 class="news-title-kr">'He’s Not That Guy': A.J. Brown Can’t Live Up to Stefon Diggs in Patriots Offense, Says 3x Super Bowl Champ</h2>
+                <div class="news-title-en">Original: 'He’s Not That Guy': A.J. Brown Can’t Live Up to Stefon Diggs in Patriots Offense, Says 3x Super Bowl Champ</div>
+
+                <ul class="news-bullets">
+                    
+                    <li>📄 **내용 요약**: "After years of inconsistency on offense, the New England Patriots finally have a direction."</li>
+                    
+                </ul>
+
+                <div class="card-footer">
+                    <a href="https://www.yardbarker.com/nfl/articles/hes_not_that_guy_aj_brown_cant_live_up_to_stefon_diggs_in_patriots_offense_says_3x_super_bowl_champ/s1_17730_44205564" target="_blank" rel="noopener noreferrer" class="read-btn">
+                        원문 기사 보기 ↗
+                    </a>
+                </div>
+            </article>
+            
+            <article class="news-card" data-category="roster">
+                <div class="card-header-meta">
+                    <span class="badge-cat roster">🎯 영입/계약</span>
+                    <span class="badge-source">📰 Yardbarker (LA Chargers Feed)</span>
+                    <span class="badge-date">2026-08-22</span>
+                </div>
+
+                <h2 class="news-title-kr">Philadelphia Eagles know exactly what they’re doing with A.J. Brown post after Patriots practice</h2>
+                <div class="news-title-en">Original: Philadelphia Eagles know exactly what they’re doing with A.J. Brown post after Patriots practice</div>
+
+                <ul class="news-bullets">
+                    
+                    <li>⚡ **주요 키워드**: 트레이드, 합동 훈련</li>
+                    
+                    <li>📄 **내용 요약**: "The joint practice session between the New England Patriots and the Philadelphia Eagles is just the gift that keeps on giving."</li>
+                    
+                </ul>
+
+                <div class="card-footer">
+                    <a href="https://www.yardbarker.com/nfl/articles/philadelphia_eagles_know_exactly_what_theyre_doing_with_aj_brown_post_after_patriots_practice/s1_17664_44204937" target="_blank" rel="noopener noreferrer" class="read-btn">
+                        원문 기사 보기 ↗
+                    </a>
+                </div>
+            </article>
+            
+            <article class="news-card" data-category="injury">
+                <div class="card-header-meta">
+                    <span class="badge-cat injury">📋 부상/로스터</span>
+                    <span class="badge-source">📰 Yardbarker (LA Chargers Feed)</span>
+                    <span class="badge-date">2026-08-22</span>
+                </div>
+
+                <h2 class="news-title-kr">Patriots Terminate Contract of Monstrous 6-foot-6 Veteran</h2>
+                <div class="news-title-en">Original: Patriots Terminate Contract of Monstrous 6-foot-6 Veteran</div>
+
+                <ul class="news-bullets">
+                    
+                    <li>⚡ **주요 키워드**: 부상자 명단(IR)</li>
+                    
+                    <li>📄 **내용 요약**: "The New England Patriots have terminated the contract of offensive lineman Andrew Rupcich, waiving the 6-foot-6, 325-pound veteran from injured res..."</li>
+                    
+                </ul>
+
+                <div class="card-footer">
+                    <a href="https://www.yardbarker.com/nfl/articles/patriots_terminate_contract_of_monstrous_6_foot_6_veteran/s1_17355_44203873" target="_blank" rel="noopener noreferrer" class="read-btn">
+                        원문 기사 보기 ↗
+                    </a>
+                </div>
+            </article>
+            
+            <article class="news-card" data-category="roster">
+                <div class="card-header-meta">
+                    <span class="badge-cat roster">🎯 영입/계약</span>
+                    <span class="badge-source">📰 Yardbarker (LA Chargers Feed)</span>
+                    <span class="badge-date">2026-08-21</span>
+                </div>
+
+                <h2 class="news-title-kr">Steelers and CB Joey Porter Jr. seem to be at contract stalemate</h2>
+                <div class="news-title-en">Original: Steelers and CB Joey Porter Jr. seem to be at contract stalemate</div>
+
+                <ul class="news-bullets">
+                    
+                    <li>⚡ **주요 키워드**: 계약 연장</li>
+                    
+                    <li>📄 **내용 요약**: "The Pittsburgh Steelers have spent the offseason locking in several of their young players to long-term contract extensions, but Joey Porter Jr."</li>
+                    
+                </ul>
+
+                <div class="card-footer">
+                    <a href="https://www.yardbarker.com/nfl/articles/steelers_and_cb_joey_porter_jr_seem_to_be_at_contract_stalemate/s1_13132_44203361" target="_blank" rel="noopener noreferrer" class="read-btn">
+                        원문 기사 보기 ↗
+                    </a>
+                </div>
+            </article>
+            
+            <article class="news-card" data-category="roster">
+                <div class="card-header-meta">
+                    <span class="badge-cat roster">🎯 영입/계약</span>
+                    <span class="badge-source">📰 Yardbarker (LA Chargers Feed)</span>
+                    <span class="badge-date">2026-08-21</span>
+                </div>
+
+                <h2 class="news-title-kr">[트레이드] There might finally be a trade partner for Patriots' Kayshon Boutte</h2>
+                <div class="news-title-en">Original: There might finally be a trade partner for Patriots' Kayshon Boutte</div>
+
+                <ul class="news-bullets">
+                    
+                    <li>⚡ **주요 키워드**: 트레이드</li>
+                    
+                    <li>📄 **내용 요약**: "The New England Patriots went from having one of the most underwhelming wide receiver corps in the league to having more mouths than they can feed."</li>
+                    
+                </ul>
+
+                <div class="card-footer">
+                    <a href="https://www.yardbarker.com/nfl/articles/there_might_finally_be_a_trade_partner_for_patriots_kayshon_boutte/s1_13132_44202946" target="_blank" rel="noopener noreferrer" class="read-btn">
+                        원문 기사 보기 ↗
+                    </a>
+                </div>
+            </article>
+            
+            <article class="news-card" data-category="general">
+                <div class="card-header-meta">
+                    <span class="badge-cat general">⚡ 팀 소식</span>
+                    <span class="badge-source">📰 Yardbarker (LA Chargers Feed)</span>
+                    <span class="badge-date">2026-08-21</span>
+                </div>
+
+                <h2 class="news-title-kr">Was Drake Maye ranked too high or too low at No. 11 in NFL Top 100?</h2>
+                <div class="news-title-en">Original: Was Drake Maye ranked too high or too low at No. 11 in NFL Top 100?</div>
+
+                <ul class="news-bullets">
+                    
+                    <li>📄 **내용 요약**: "After a breakout 2025 campaign that saw Maye lead the Patriots to the Super Bowl and finish as the league's runner-up, does his No."</li>
+                    
+                </ul>
+
+                <div class="card-footer">
+                    <a href="https://www.yardbarker.com/nfl/articles/was_drake_maye_ranked_too_high_or_too_low_at_no_11_in_nfl_top_100/s1_13132_44202780" target="_blank" rel="noopener noreferrer" class="read-btn">
+                        원문 기사 보기 ↗
+                    </a>
+                </div>
+            </article>
+            
+        </main>
+
+        <footer>
+            <p>⚡ ChargersPulse - Automated Los Angeles Chargers Intelligence Reporter</p>
+            <p>데이터 출처: Chargers Wire, ESPN, SB Nation (Bolts From The Blue), Google News</p>
+        </footer>
+    </div>
+
+    <script>
+        let currentFilter = 'all';
+
+        function filterCategory(category, element) {
+            currentFilter = category;
+            document.querySelectorAll('.filter-btn').forEach(btn => btn.classList.remove('active'));
+            element.classList.add('active');
+            applyFilters();
+        }
+
+        function searchArticles() {
+            applyFilters();
+        }
+
+        function applyFilters() {
+            const query = document.getElementById('searchInput').value.toLowerCase();
+            const cards = document.querySelectorAll('.news-card');
+
+            cards.forEach(card => {
+                const category = card.getAttribute('data-category');
+                const text = card.textContent.toLowerCase();
+                
+                const matchesCategory = (currentFilter === 'all' || category === currentFilter);
+                const matchesSearch = text.includes(query);
+
+                if (matchesCategory && matchesSearch) {
+                    card.style.display = 'block';
+                } else {
+                    card.style.display = 'none';
+                }
+            });
+        }
+    </script>
+</body>
+</html>
