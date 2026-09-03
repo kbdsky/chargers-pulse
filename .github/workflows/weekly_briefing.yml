@@ -1,0 +1,59 @@
+name: ⚡ LA Chargers NewsPulse 24/7 Cloud Auto-Briefing
+
+on:
+  schedule:
+    # Runs every Monday at 00:00 UTC (09:00 AM KST)
+    - cron: '0 0 * * 1'
+  workflow_dispatch: # Allows manual run anytime from GitHub web/phone!
+
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+
+jobs:
+  collect-and-publish:
+    runs-on: ubuntu-latest
+    steps:
+      - name: 📥 Checkout Repository
+        uses: actions/checkout@v4
+
+      - name: 🐍 Set up Python 3.11
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+          cache: 'pip'
+
+      - name: 📦 Install Dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install -r requirements.txt
+
+      - name: ⚡ Run NewsPulse Full Collection & Analysis
+        run: |
+          python -m newspulse.cli generate --all
+
+      - name: 📱 Copy Mobile Web App Assets for GitHub Pages
+        run: |
+          mkdir -p public
+          cp -r newspulse/mobile/static/* public/
+          cp -r reports public/
+          if [ -f reports/latest_mobile_data.json ]; then
+            cp reports/latest_mobile_data.json public/
+          fi
+          # Ensure index.html is root
+          cp newspulse/mobile/static/index.html public/
+
+      - name: 💾 Commit & Push Updated Reports to Repository
+        run: |
+          git config --global user.name "NewsPulse Bot"
+          git config --global user.email "bot@newspulse.local"
+          git add reports/
+          git diff --quiet && git diff --staged --quiet || git commit -m "⚡ Auto-update Chargers Intelligence Briefing [skip ci]"
+          git push origin main || echo "No changes to push or branch protected"
+
+      - name: 🌐 Deploy to GitHub Pages (24/7 Standalone Web/App)
+        uses: peaceiris/actions-gh-pages@v4
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./public
