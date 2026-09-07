@@ -193,6 +193,20 @@ def run_generate(args=None):
         md_reporter.save(latest_md, summarized_articles, briefing, title=title)
         print(f"  ✨ [Markdown 브리핑 보고서]: {md_path}", flush=True)
 
+    # Save mobile data JSON payload for PWA and Cloud App
+    import json
+    mobile_payload = {
+        "status": "success",
+        "briefing": briefing,
+        "articles": summarized_articles,
+        "total_count": len(summarized_articles),
+        "updated_at": datetime.datetime.now().strftime("%Y-%m-%d %H:%M:%S")
+    }
+    latest_json = os.path.join(output_dir, "latest_mobile_data.json")
+    with open(latest_json, "w", encoding="utf-8") as f:
+        json.dump(mobile_payload, f, ensure_ascii=False, indent=2)
+    print(f"  ✨ [모바일 PWA 데이터 JSON]: {latest_json}", flush=True)
+
     print("\n" + "=" * 65, flush=True)
     print(f"🎉 총 {len(summarized_articles)}건의 기사 전수 분석 및 한국어 보고서 생성이 완료되었습니다!", flush=True)
     print("=" * 65 + "\n", flush=True)
