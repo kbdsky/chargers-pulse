@@ -1,10 +1,11 @@
 // Service Worker for ChargersPulse PWA
-const CACHE_NAME = 'chargers-pulse-v1';
+const CACHE_NAME = 'chargers-pulse-v2';
 const ASSETS_TO_CACHE = [
-  '/',
-  '/static/index.html',
-  '/static/manifest.json',
-  '/api/briefing'
+  './',
+  './index.html',
+  './manifest.json',
+  './icons/icon-192.png',
+  './icons/icon-512.png'
 ];
 
 self.addEventListener('install', (event) => {
@@ -32,21 +33,36 @@ self.addEventListener('activate', (event) => {
 });
 
 self.addEventListener('fetch', (event) => {
-  // Network first, falling back to cache
+  const url = event.request.url;
+
+  // Always fetch fresh JSON data from network first
+  if (url.includes('.json') || url.includes('/api/')) {
+    event.respondWith(
+      fetch(event.request)
+        .then((response) => {
+          if (event.request.method === 'GET') {
+            const resClone = response.clone();
+            caches.open(CACHE_NAME).then((cache) => cache.put(event.request, resClone));
+          }
+          return response;
+        })
+        .catch(() => caches.match(event.request))
+    );
+    return;
+  }
+
+  // Stale-while-revalidate for other assets
   event.respondWith(
-    fetch(event.request)
-      .then((response) => {
-        // Clone response and cache it
-        if (event.request.method === 'GET') {
-          const resClone = response.clone();
-          caches.open(CACHE_NAME).then((cache) => {
-            cache.put(event.request, resClone);
-          });
+    caches.match(event.request).then((cachedResponse) => {
+      const fetchPromise = fetch(event.request).then((networkResponse) => {
+        if (event.request.method === 'GET' && networkResponse.status === 200) {
+          const resClone = networkResponse.clone();
+          caches.open(CACHE_NAME).then((cache) => cache.put(event.request, resClone));
         }
-        return response;
-      })
-      .catch(() => {
-        return caches.match(event.request);
-      })
+        return networkResponse;
+      }).catch(() => cachedResponse);
+
+      return cachedResponse || fetchPromise;
+    })
   );
 });
