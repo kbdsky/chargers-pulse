@@ -366,7 +366,10 @@
     <header class="app-bar">
         <div class="app-title-group">
             <span class="bolt-icon">⚡</span>
-            <div class="app-title">CHARGERS<span>PULSE</span></div>
+            <div>
+                <div class="app-title">CHARGERS<span>PULSE</span></div>
+                <div id="lastUpdatedBadge" style="font-size: 0.68rem; color: var(--powder-blue-light); font-weight: 600;">최신 데이터 확인 중...</div>
+            </div>
         </div>
         <button class="refresh-btn" onclick="triggerRefresh()">
             <span>🔄</span> 새로고침
@@ -535,10 +538,10 @@
         // Robust Multi-Endpoint Data Fetcher
         async function loadData() {
             const endpoints = [
+                'https://raw.githubusercontent.com/kbdsky/chargers-pulse/main/reports/latest_mobile_data.json?t=' + Date.now(),
                 './latest_mobile_data.json?t=' + Date.now(),
                 './reports/latest_mobile_data.json?t=' + Date.now(),
-                '/api/briefing',
-                'https://raw.githubusercontent.com/kbdsky/chargers-pulse/main/reports/latest_mobile_data.json'
+                '/api/briefing'
             ];
 
             for (const ep of endpoints) {
@@ -563,6 +566,12 @@
         function renderApp(data) {
             const briefing = data.briefing || {};
             const articles = data.articles || [];
+
+            // 0. Update Timestamp Badge
+            const badge = document.getElementById('lastUpdatedBadge');
+            if (badge) {
+                badge.textContent = '📅 ' + (data.updated_at || '최신 업데이트');
+            }
 
             // 1. Trending Hashtags
             const trendsScroll = document.getElementById('trendsScroll');
