@@ -442,6 +442,10 @@
                     <strong>🛡️ 수비진(Defense) 분석</strong>
                     <span id="defenseNotes"></span>
                 </div>
+                <div class="tactical-note" style="border-left: 3px solid var(--sunshine-gold); margin-top: 10px;">
+                    <strong>🔥 핵심 매치업 프리뷰 및 관전 포인트</strong>
+                    <ul id="gameHighlightsList" style="list-style: none; padding-left: 0; margin-top: 6px; font-size: 0.84rem; line-height: 1.45;"></ul>
+                </div>
             </div>
 
             <h3 style="font-size: 1rem; font-weight: 800; margin: 18px 0 10px 0;">⚡ 경기 관련 기사</h3>
@@ -607,6 +611,17 @@
             `;
             document.getElementById('offenseNotes').textContent = gc.offense_notes || '패싱 및 러닝 어택 점검 중';
             document.getElementById('defenseNotes').textContent = gc.defense_notes || '패스 러시 및 세컨더리 점검 중';
+
+            const hlList = document.getElementById('gameHighlightsList');
+            if (hlList) {
+                hlList.innerHTML = '';
+                (gc.highlights || []).forEach(hl => {
+                    const li = document.createElement('li');
+                    li.style.marginBottom = '6px';
+                    li.innerHTML = hl;
+                    hlList.appendChild(li);
+                });
+            }
 
             // 5. Render Articles
             renderArticleCards(articles);
