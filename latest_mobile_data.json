@@ -1,50 +1,324 @@
 {
   "status": "success",
   "briefing": {
-    "headline": "⚡ LA Chargers 종합 인텔리전스 주간 리포트 (총 158건 전수 분석)",
+    "headline": "⚡ LA Chargers 종합 인텔리전스 주간 리포트 (총 166건 전수 분석)",
     "key_takeaways": [
-      "⚡ 전수 수집 및 스마트 랭킹: 총 158건의 기사를 전수 분석하여 중요도 순으로 큐레이션했습니다.",
+      "⚡ 전수 수집 및 스마트 랭킹: 총 166건의 기사를 전수 분석하여 중요도 순으로 큐레이션했습니다.",
       "🏈 경기 및 매치업 동향: 최근 경기/일정: 2026 정규시즌 1주차 (SoFi Stadium) (상대: Arizona Cardinals (AZ Cardinals))",
-      "🎯 집중 조명된 핵심 인물: Jim Harbaugh (HC)(30건), Justin Herbert (QB)(22건), Ladd McConkey (WR)(4건)",
-      "🔥 실시간 급상승 키워드: justin herbert, sports yahoo, link comments, sports illustrated, mike mcdaniel",
-      "📊 카테고리별 분포: 부상/로스터 보고 10건, 경기 결과/프리뷰 61건, 감독/선수 인터뷰 49건, 계약/트레이드/드래프트 23건, 팀 일반 소식 15건",
+      "🎯 집중 조명된 핵심 인물: Justin Herbert (QB)(30건), Jim Harbaugh (HC)(30건), Ladd McConkey (WR)(4건)",
+      "🔥 실시간 급상승 키워드: justin herbert, sports yahoo, link comments, mike mcdaniel, sports illustrated",
+      "📊 카테고리별 분포: 부상/로스터 보고 11건, 경기 결과/프리뷰 64건, 감독/선수 인터뷰 56건, 계약/트레이드/드래프트 20건, 팀 일반 소식 15건",
       "🛡️ Jim Harbaugh 감독과 Jesse Minter 코디네이터 체제 하에서 피지컬과 수비 규율이 강화되고 있습니다."
     ],
-    "injury_update": "총 10건의 부상 및 로스터 관련 소식이 집계되었습니다. (주요 이슈: Justin Herbert의 부상 상태 업데이트 및 향후 출전 가능 여부에 대한 팀 공식 리포트입니다.)",
+    "injury_update": "총 11건의 부상 및 로스터 관련 소식이 집계되었습니다. (주요 이슈: Chargers의 Mike McDaniel, Khalil Mack, Justin Herbert가 1주차 이전에 다크호스(언더더레이더)로 날아가고 있습니다.)",
     "team_outlook": "전문 미디어 전수 수집 데이터 기반 Chargers 브리핑입니다. QB Justin Herbert의 정교한 딥패스와 Joe Alt, Rashawn Slater의 오펜시브 라인 프로텍션으로 Cardinals 수비진 공략",
     "game_center": {
       "has_game_data": true,
       "opponent": "Arizona Cardinals (AZ Cardinals)",
       "game_type": "2026 정규시즌 1주차 (SoFi Stadium)",
       "score_detected": "킥오프 대기 (정규시즌 홈 개막전)",
-      "game_articles_count": 57,
+      "game_articles_count": 60,
       "highlights": [
         "🏈 **2026 NFL 1주차 홈 개막전**: SoFi Stadium에서 열리는 Arizona Cardinals와의 정규시즌 첫 맞대결",
         "🏈 **Jim Harbaugh 감독 체제 공식 데뷔전**: 오프시즌 팀 체질 개선 이후 첫 공식 정규시즌 경기",
         "🏈 **공격진 핵심 관전 포인트**: QB Justin Herbert의 딥패스와 신예 Joe Alt, Rashawn Slater의 오펜시브 라인 프로텍션",
         "🏈 **수비진 핵심 관전 포인트**: Jesse Minter 수비 코디네이터의 압박 스킴 및 Joey Bosa, Khalil Mack의 강력한 엣지 러시",
-        "📰 **Chargers의 53인 최종 로스터 진입 경쟁 및 선수단의 계약/영입 관련 최신 소식입니다.**: Chargers 뉴스: LA, 1주차 개막전 마지막 순간 명단 이동 발표 sports.yahoo.com"
+        "📰 **Chargers 뉴스: LA, 1주차 개막 전 마지막 순간 명단 이동 발표**: Chargers 뉴스: LA, 1주차 개막전 마지막 순간 명단 이동 발표 sports.yahoo.com"
       ],
       "offense_notes": "QB Justin Herbert의 정교한 딥패스와 Joe Alt, Rashawn Slater의 오펜시브 라인 프로텍션으로 Cardinals 수비진 공략",
       "defense_notes": "Jesse Minter 수비 코디네이터 지휘 아래 Joey Bosa, Khalil Mack의 엣지 러시로 Kyler Murray 기동력 차단 및 Derwin James Jr.의 세컨더리 지휘"
+    },
+    "schedule": {
+      "season": "2026 NFL Regular Season",
+      "team": "Los Angeles Chargers",
+      "record": "2026 시즌 개막 대기 중 (0승 0패)",
+      "wins": 0,
+      "losses": 0,
+      "next_game": {
+        "week": 1,
+        "date_utc": "2026-09-13T20:05:00Z",
+        "date_kst": "2026년 9월 14일 (월) 오전 05:05 (KST)",
+        "opponent": "Arizona Cardinals (AZ Cardinals)",
+        "is_home": true,
+        "stadium": "SoFi Stadium (Los Angeles, CA)",
+        "broadcast": "CBS / NFL+ / 쿠팡플레이",
+        "game_type": "정규시즌 1주차 홈 개막전",
+        "status": "upcoming",
+        "score": null,
+        "result": null,
+        "d_day": "D-5"
+      },
+      "games": [
+        {
+          "week": 1,
+          "date_utc": "2026-09-13T20:05:00Z",
+          "date_kst": "2026년 9월 14일 (월) 오전 05:05 (KST)",
+          "opponent": "Arizona Cardinals (AZ Cardinals)",
+          "is_home": true,
+          "stadium": "SoFi Stadium (Los Angeles, CA)",
+          "broadcast": "CBS / NFL+ / 쿠팡플레이",
+          "game_type": "정규시즌 1주차 홈 개막전",
+          "status": "upcoming",
+          "score": null,
+          "result": null,
+          "d_day": "D-5"
+        },
+        {
+          "week": 2,
+          "date_utc": "2026-09-20T20:05:00Z",
+          "date_kst": "2026년 9월 21일 (월) 오전 05:05 (KST)",
+          "opponent": "Las Vegas Raiders (LV Raiders)",
+          "is_home": true,
+          "stadium": "SoFi Stadium (Los Angeles, CA)",
+          "broadcast": "CBS / NFL+ / 쿠팡플레이",
+          "game_type": "정규시즌 2주차 (AFC West 라이벌전)",
+          "status": "upcoming",
+          "score": null,
+          "result": null,
+          "d_day": "D-12"
+        },
+        {
+          "week": 3,
+          "date_utc": "2026-09-27T20:25:00Z",
+          "date_kst": "2026년 9월 28일 (월) 오전 05:25 (KST)",
+          "opponent": "Kansas City Chiefs (KC Chiefs)",
+          "is_home": false,
+          "stadium": "GEHA Field at Arrowhead (Kansas City, MO)",
+          "broadcast": "CBS / NFL+ / 쿠팡플레이",
+          "game_type": "정규시즌 3주차 (지구 원정)",
+          "status": "upcoming",
+          "score": null,
+          "result": null,
+          "d_day": "D-19"
+        },
+        {
+          "week": 4,
+          "date_utc": "2026-10-04T20:05:00Z",
+          "date_kst": "2026년 10월 5일 (월) 오전 05:05 (KST)",
+          "opponent": "Denver Broncos (DEN Broncos)",
+          "is_home": true,
+          "stadium": "SoFi Stadium (Los Angeles, CA)",
+          "broadcast": "FOX / NFL+ / 쿠팡플레이",
+          "game_type": "정규시즌 4주차 (지구 홈경기)",
+          "status": "upcoming",
+          "score": null,
+          "result": null,
+          "d_day": "D-26"
+        },
+        {
+          "week": 5,
+          "date_utc": "2026-10-11T20:25:00Z",
+          "date_kst": "2026년 10월 12일 (월) 오전 05:25 (KST)",
+          "opponent": "Dallas Cowboys (DAL Cowboys)",
+          "is_home": false,
+          "stadium": "AT&T Stadium (Arlington, TX)",
+          "broadcast": "FOX / NFL+ / 쿠팡플레이",
+          "game_type": "정규시즌 5주차 (NFC 원정)",
+          "status": "upcoming",
+          "score": null,
+          "result": null,
+          "d_day": "D-33"
+        },
+        {
+          "week": 6,
+          "date_utc": "2026-10-18T20:05:00Z",
+          "date_kst": "2026년 10월 19일 (월) 오전 05:05 (KST)",
+          "opponent": "New York Giants (NY Giants)",
+          "is_home": true,
+          "stadium": "SoFi Stadium (Los Angeles, CA)",
+          "broadcast": "FOX / NFL+ / 쿠팡플레이",
+          "game_type": "정규시즌 6주차 홈경기",
+          "status": "upcoming",
+          "score": null,
+          "result": null,
+          "d_day": "D-40"
+        },
+        {
+          "week": 7,
+          "date_utc": "2026-10-25T20:05:00Z",
+          "date_kst": "2026년 10월 26일 (월) 오전 05:05 (KST)",
+          "opponent": "Las Vegas Raiders (LV Raiders)",
+          "is_home": false,
+          "stadium": "Allegiant Stadium (Las Vegas, NV)",
+          "broadcast": "CBS / NFL+ / 쿠팡플레이",
+          "game_type": "정규시즌 7주차 (라베 원정)",
+          "status": "upcoming",
+          "score": null,
+          "result": null,
+          "d_day": "D-47"
+        },
+        {
+          "week": 8,
+          "date_utc": "2026-11-01T21:25:00Z",
+          "date_kst": "2026년 11월 2일 (월) 오전 06:25 (KST)",
+          "opponent": "Philadelphia Eagles (PHI Eagles)",
+          "is_home": true,
+          "stadium": "SoFi Stadium (Los Angeles, CA)",
+          "broadcast": "CBS / NFL+ / 쿠팡플레이",
+          "game_type": "정규시즌 8주차 홈경기",
+          "status": "upcoming",
+          "score": null,
+          "result": null,
+          "d_day": "D-54"
+        },
+        {
+          "week": 9,
+          "date_utc": null,
+          "date_kst": "2026년 11월 9일 주간",
+          "opponent": "BYE WEEK (휴식 주간)",
+          "is_home": true,
+          "stadium": "-",
+          "broadcast": "-",
+          "game_type": "바이 위크 (선수단 휴식 및 재정비)",
+          "status": "bye",
+          "score": "-",
+          "result": "-"
+        },
+        {
+          "week": 10,
+          "date_utc": "2026-11-15T21:05:00Z",
+          "date_kst": "2026년 11월 16일 (월) 오전 06:05 (KST)",
+          "opponent": "Denver Broncos (DEN Broncos)",
+          "is_home": false,
+          "stadium": "Empower Field at Mile High (Denver, CO)",
+          "broadcast": "CBS / NFL+ / 쿠팡플레이",
+          "game_type": "정규시즌 10주차 (덴버 원정)",
+          "status": "upcoming",
+          "score": null,
+          "result": null,
+          "d_day": "D-68"
+        },
+        {
+          "week": 11,
+          "date_utc": "2026-11-22T21:25:00Z",
+          "date_kst": "2026년 11월 23일 (월) 오전 06:25 (KST)",
+          "opponent": "Kansas City Chiefs (KC Chiefs)",
+          "is_home": true,
+          "stadium": "SoFi Stadium (Los Angeles, CA)",
+          "broadcast": "CBS / NFL+ / 쿠팡플레이",
+          "game_type": "정규시즌 11주차 (치프스 홈 리턴매치)",
+          "status": "upcoming",
+          "score": null,
+          "result": null,
+          "d_day": "D-75"
+        },
+        {
+          "week": 12,
+          "date_utc": "2026-11-29T18:00:00Z",
+          "date_kst": "2026년 11월 30일 (월) 오전 03:00 (KST)",
+          "opponent": "Washington Commanders (WAS Commanders)",
+          "is_home": false,
+          "stadium": "Northwest Stadium (Landover, MD)",
+          "broadcast": "FOX / NFL+ / 쿠팡플레이",
+          "game_type": "정규시즌 12주차 (워싱턴 원정)",
+          "status": "upcoming",
+          "score": null,
+          "result": null,
+          "d_day": "D-82"
+        },
+        {
+          "week": 13,
+          "date_utc": "2026-12-06T21:05:00Z",
+          "date_kst": "2026년 12월 7일 (월) 오전 06:05 (KST)",
+          "opponent": "Seattle Seahawks (SEA Seahawks)",
+          "is_home": true,
+          "stadium": "SoFi Stadium (Los Angeles, CA)",
+          "broadcast": "FOX / NFL+ / 쿠팡플레이",
+          "game_type": "정규시즌 13주차 홈경기",
+          "status": "upcoming",
+          "score": null,
+          "result": null,
+          "d_day": "D-89"
+        },
+        {
+          "week": 14,
+          "date_utc": "2026-12-13T21:25:00Z",
+          "date_kst": "2026년 12월 14일 (월) 오전 06:25 (KST)",
+          "opponent": "San Francisco 49ers (SF 49ers)",
+          "is_home": false,
+          "stadium": "Levi's Stadium (Santa Clara, CA)",
+          "broadcast": "FOX / NFL+ / 쿠팡플레이",
+          "game_type": "정규시즌 14주차 (캘리포니아 라이벌전)",
+          "status": "upcoming",
+          "score": null,
+          "result": null,
+          "d_day": "D-96"
+        },
+        {
+          "week": 15,
+          "date_utc": "2026-12-20T21:05:00Z",
+          "date_kst": "2026년 12월 21일 (월) 오전 06:05 (KST)",
+          "opponent": "Los Angeles Rams (LA Rams)",
+          "is_home": true,
+          "stadium": "SoFi Stadium (Los Angeles, CA)",
+          "broadcast": "CBS / NFL+ / 쿠팡플레이",
+          "game_type": "정규시즌 15주차 (LA 더비)",
+          "status": "upcoming",
+          "score": null,
+          "result": null,
+          "d_day": "D-103"
+        },
+        {
+          "week": 16,
+          "date_utc": "2026-12-27T18:00:00Z",
+          "date_kst": "2026년 12월 28일 (월) 오전 03:00 (KST)",
+          "opponent": "Houston Texans (HOU Texans)",
+          "is_home": false,
+          "stadium": "NRG Stadium (Houston, TX)",
+          "broadcast": "CBS / NFL+ / 쿠팡플레이",
+          "game_type": "정규시즌 16주차 (휴스턴 원정)",
+          "status": "upcoming",
+          "score": null,
+          "result": null,
+          "d_day": "D-110"
+        },
+        {
+          "week": 17,
+          "date_utc": "2027-01-03T18:00:00Z",
+          "date_kst": "2027년 1월 4일 (월) 오전 03:00 (KST)",
+          "opponent": "New England Patriots (NE Patriots)",
+          "is_home": true,
+          "stadium": "SoFi Stadium (Los Angeles, CA)",
+          "broadcast": "CBS / NFL+ / 쿠팡플레이",
+          "game_type": "정규시즌 17주차 홈 최종전",
+          "status": "upcoming",
+          "score": null,
+          "result": null,
+          "d_day": "D-117"
+        },
+        {
+          "week": 18,
+          "date_utc": "2027-01-10T21:25:00Z",
+          "date_kst": "2027년 1월 11일 (월) 오전 06:25 (KST)",
+          "opponent": "Las Vegas Raiders (LV Raiders)",
+          "is_home": false,
+          "stadium": "Allegiant Stadium (Las Vegas, NV)",
+          "broadcast": "CBS / NFL+ / 쿠팡플레이",
+          "game_type": "정규시즌 18주차 최종전",
+          "status": "upcoming",
+          "score": null,
+          "result": null,
+          "d_day": "D-124"
+        }
+      ]
     },
     "trending_keywords": [
       "justin herbert",
       "sports yahoo",
       "link comments",
-      "sports illustrated",
       "mike mcdaniel",
+      "sports illustrated",
       "Jim Harbaugh",
       "Justin Herbert",
       "Los Angeles Chargers",
       "Preseason Week",
       "Chargers Prediction",
       "preseason",
-      "sports",
-      "harbaugh",
       "herbert",
-      "rams",
-      "justin"
+      "sports",
+      "justin",
+      "harbaugh",
+      "rams"
     ],
     "top_highlights": [
       {
@@ -104,9 +378,9 @@
         "importance_score": 100,
         "priority_tier": "🚨 긴급/핵심",
         "priority_class": "tier-critical",
-        "headline_kr": "Justin Herbert의 부상 상태 업데이트 및 향후 출전 가능 여부에 대한 팀 공식 리포트입니다.",
+        "headline_kr": "Chargers의 Mike McDaniel, Khalil Mack, Justin Herbert가 1주차 이전에 다크호스(언더더레이더)로 날아가고 있습니다.",
         "summary_bullets_kr": [
-          "📌 **핵심 요약:** Justin Herbert의 부상 상태 업데이트 및 향후 출전 가능 여부에 대한 팀 공식 리포트입니다.",
+          "📌 **핵심 요약:** '나는 이것을 감당할 수 없다' – Chargers 팬들은 최근 연습에서 Justin Herbert의 부상 공포에 반응합니다. sports.yahoo.com",
           "🏈 **주요 인물:** Justin Herbert (QB)",
           "⚡ **주요 포인트:** 부상 관련 동향 (부상/로스터 보고)"
         ]
@@ -160,7 +434,7 @@
             "title": "Sports Illustrated"
           }
         },
-        "search_query": "Justin Herbert Chargers",
+        "search_query": "Chargers Justin Herbert",
         "category_key": "game",
         "category_name": "경기 결과/프리뷰",
         "category_badge": "⚡ 경기 소식",
@@ -170,7 +444,7 @@
         "priority_class": "tier-critical",
         "headline_kr": "Jim Harbaugh와 Justin Herbert는 NFL 미식NFL 미식축구에서 최악의 공격 라인에서 살아 남았습니다.",
         "summary_bullets_kr": [
-          "📌 **핵심 요약:** Chargers 구단 및 Justin Herbert, Khalil Mack 관련 최신 뉴스 업데이트입니다.",
+          "📌 **핵심 요약:** Chargers의 Mike McDaniel, Khalil Mack, Justin Herbert가 1주차 이전에 다크호스로 주목받음. Sports Illustrated",
           "🏈 **주요 인물:** Justin Herbert (QB), Khalil Mack (EDGE)"
         ]
       },
@@ -231,9 +505,9 @@
         "importance_score": 100,
         "priority_tier": "🚨 긴급/핵심",
         "priority_class": "tier-critical",
-        "headline_kr": "Jim Harbaugh 감독 및 코칭스태프의 인터뷰로, 팀 문화 쇄신과 선수단 훈련 평가를 전달했습니다.",
+        "headline_kr": "Chargers는 Jim Harbaugh가 가져가는 한 멀리 갈 것입니다.",
         "summary_bullets_kr": [
-          "📌 **핵심 요약:** Jim Harbaugh와 Justin Herbert는 NFL 미식축구계 최악의 공격 라인에서 살아남았습니다. sports.yahoo.com",
+          "📌 **핵심 요약:** Jim Harbaugh 감독 및 코칭스태프의 인터뷰로, 팀 문화 쇄신과 선수단 훈련 평가를 전달했습니다.",
           "🏈 **주요 인물:** Justin Herbert (QB), Jim Harbaugh (HC)"
         ]
       },
@@ -327,7 +601,7 @@
         "priority_class": "tier-critical",
         "headline_kr": "Jim Harbaugh 감독 및 코칭스태프의 인터뷰로, 팀 문화 쇄신과 선수단 훈련 평가를 전달했습니다.",
         "summary_bullets_kr": [
-          "📌 **핵심 요약:** Jim Harbaugh의 부상 상태 업데이트 및 향후 출전 가능 여부에 대한 팀 공식 리포트입니다.",
+          "📌 **핵심 요약:** Jim Harbaugh는 LA Chargers에서 세 번째 시즌을 맞이하며 마침내 자신의 팀이 어려움을 극복할 수 있기를 희망하고 있습니다. Chargers는 Harbaugh의 처음 두 시즌마다 플레이오프에 진출했지만 와일드카드 라운드에서 벗어나지 못했습니다.",
           "🏈 **주요 인물:** Jim Harbaugh (HC)"
         ]
       },
@@ -388,9 +662,9 @@
         "importance_score": 100,
         "priority_tier": "🚨 긴급/핵심",
         "priority_class": "tier-critical",
-        "headline_kr": "Jim Harbaugh 감독 및 코칭스태프의 인터뷰로, 팀 문화 쇄신과 선수단 훈련 평가를 전달했습니다.",
+        "headline_kr": "Justin Herbert, Derwin James, 2026년 Chargers 주장 10인에 선정",
         "summary_bullets_kr": [
-          "📌 **핵심 요약:** Jim Harbaugh 감독 및 코칭스태프의 인터뷰로, 팀 문화 쇄신과 선수단 훈련 평가를 전달했습니다.",
+          "📌 **핵심 요약:** Jim Harbaugh와 Justin Herbert는 NFL 미식축구계 최악의 공격 라인에서 살아남았습니다. sports.yahoo.com",
           "🏈 **주요 인물:** Jim Harbaugh (HC), Khalil Mack (EDGE)"
         ]
       }
@@ -454,9 +728,9 @@
       "importance_score": 100,
       "priority_tier": "🚨 긴급/핵심",
       "priority_class": "tier-critical",
-      "headline_kr": "Justin Herbert의 부상 상태 업데이트 및 향후 출전 가능 여부에 대한 팀 공식 리포트입니다.",
+      "headline_kr": "Chargers의 Mike McDaniel, Khalil Mack, Justin Herbert가 1주차 이전에 다크호스(언더더레이더)로 날아가고 있습니다.",
       "summary_bullets_kr": [
-        "📌 **핵심 요약:** Justin Herbert의 부상 상태 업데이트 및 향후 출전 가능 여부에 대한 팀 공식 리포트입니다.",
+        "📌 **핵심 요약:** '나는 이것을 감당할 수 없다' – Chargers 팬들은 최근 연습에서 Justin Herbert의 부상 공포에 반응합니다. sports.yahoo.com",
         "🏈 **주요 인물:** Justin Herbert (QB)",
         "⚡ **주요 포인트:** 부상 관련 동향 (부상/로스터 보고)"
       ]
@@ -510,7 +784,7 @@
           "title": "Sports Illustrated"
         }
       },
-      "search_query": "Justin Herbert Chargers",
+      "search_query": "Chargers Justin Herbert",
       "category_key": "game",
       "category_name": "경기 결과/프리뷰",
       "category_badge": "⚡ 경기 소식",
@@ -520,7 +794,7 @@
       "priority_class": "tier-critical",
       "headline_kr": "Jim Harbaugh와 Justin Herbert는 NFL 미식NFL 미식축구에서 최악의 공격 라인에서 살아 남았습니다.",
       "summary_bullets_kr": [
-        "📌 **핵심 요약:** Chargers 구단 및 Justin Herbert, Khalil Mack 관련 최신 뉴스 업데이트입니다.",
+        "📌 **핵심 요약:** Chargers의 Mike McDaniel, Khalil Mack, Justin Herbert가 1주차 이전에 다크호스로 주목받음. Sports Illustrated",
         "🏈 **주요 인물:** Justin Herbert (QB), Khalil Mack (EDGE)"
       ]
     },
@@ -581,9 +855,9 @@
       "importance_score": 100,
       "priority_tier": "🚨 긴급/핵심",
       "priority_class": "tier-critical",
-      "headline_kr": "Jim Harbaugh 감독 및 코칭스태프의 인터뷰로, 팀 문화 쇄신과 선수단 훈련 평가를 전달했습니다.",
+      "headline_kr": "Chargers는 Jim Harbaugh가 가져가는 한 멀리 갈 것입니다.",
       "summary_bullets_kr": [
-        "📌 **핵심 요약:** Jim Harbaugh와 Justin Herbert는 NFL 미식축구계 최악의 공격 라인에서 살아남았습니다. sports.yahoo.com",
+        "📌 **핵심 요약:** Jim Harbaugh 감독 및 코칭스태프의 인터뷰로, 팀 문화 쇄신과 선수단 훈련 평가를 전달했습니다.",
         "🏈 **주요 인물:** Justin Herbert (QB), Jim Harbaugh (HC)"
       ]
     },
@@ -677,7 +951,7 @@
       "priority_class": "tier-critical",
       "headline_kr": "Jim Harbaugh 감독 및 코칭스태프의 인터뷰로, 팀 문화 쇄신과 선수단 훈련 평가를 전달했습니다.",
       "summary_bullets_kr": [
-        "📌 **핵심 요약:** Jim Harbaugh의 부상 상태 업데이트 및 향후 출전 가능 여부에 대한 팀 공식 리포트입니다.",
+        "📌 **핵심 요약:** Jim Harbaugh는 LA Chargers에서 세 번째 시즌을 맞이하며 마침내 자신의 팀이 어려움을 극복할 수 있기를 희망하고 있습니다. Chargers는 Harbaugh의 처음 두 시즌마다 플레이오프에 진출했지만 와일드카드 라운드에서 벗어나지 못했습니다.",
         "🏈 **주요 인물:** Jim Harbaugh (HC)"
       ]
     },
@@ -738,9 +1012,9 @@
       "importance_score": 100,
       "priority_tier": "🚨 긴급/핵심",
       "priority_class": "tier-critical",
-      "headline_kr": "Jim Harbaugh 감독 및 코칭스태프의 인터뷰로, 팀 문화 쇄신과 선수단 훈련 평가를 전달했습니다.",
+      "headline_kr": "Justin Herbert, Derwin James, 2026년 Chargers 주장 10인에 선정",
       "summary_bullets_kr": [
-        "📌 **핵심 요약:** Jim Harbaugh 감독 및 코칭스태프의 인터뷰로, 팀 문화 쇄신과 선수단 훈련 평가를 전달했습니다.",
+        "📌 **핵심 요약:** Jim Harbaugh와 Justin Herbert는 NFL 미식축구계 최악의 공격 라인에서 살아남았습니다. sports.yahoo.com",
         "🏈 **주요 인물:** Jim Harbaugh (HC), Khalil Mack (EDGE)"
       ]
     },
@@ -832,9 +1106,9 @@
       "importance_score": 100,
       "priority_tier": "🚨 긴급/핵심",
       "priority_class": "tier-critical",
-      "headline_kr": "Chargers의 최근 경기 결과 및 플레이 하이라이트 분석 소식입니다.",
+      "headline_kr": "Chargers HC Jim Harbaugh는 Justin Herbert가 '모든 면에서 훌륭하다'고 말했습니다.",
       "summary_bullets_kr": [
-        "📌 **핵심 요약:** Chargers 구단 및 Justin Herbert, Joe Alt 관련 최신 뉴스 업데이트입니다.",
+        "📌 **핵심 요약:** 화요일, Chargers는 2026시즌 동안 주장을 맡을 선수 10명을 발표했습니다. 공격을 대표하는 선수는 쿼터백 Justin Herbert, 왼쪽 태클 Rashawn Slater, 오른쪽 태클 Joe Alt, 와이드 리시버 Ladd McConkey입니다.",
         "🏈 **주요 인물:** Justin Herbert (QB), Joe Alt (OT), Ladd McConkey (WR)",
         "⚡ **주요 포인트:** 쿼터백(QB) 관련 동향 (감독/선수 인터뷰)"
       ]
@@ -888,7 +1162,7 @@
           "title": "ESPN"
         }
       },
-      "search_query": "Justin Herbert Chargers",
+      "search_query": "Chargers Jim Harbaugh",
       "category_key": "interview",
       "category_name": "감독/선수 인터뷰",
       "category_badge": "🎙️ 인터뷰/발언",
@@ -896,7 +1170,7 @@
       "importance_score": 100,
       "priority_tier": "🚨 긴급/핵심",
       "priority_class": "tier-critical",
-      "headline_kr": "Chargers HC Jim Harbaugh는 Justin Herbert가 '모든 면에서 훌륭하다'고 말했습니다.",
+      "headline_kr": "Los Angeles Chargers 53인 명단: 2명의 UDFA를 포함한 초기 팀 분석",
       "summary_bullets_kr": [
         "📌 **핵심 요약:** Chargers HC Jim Harbaugh는 Justin Herbert가 '모든 면에서 훌륭하다'고 말했습니다. ESPN",
         "🏈 **주요 인물:** Justin Herbert (QB), Jim Harbaugh (HC)"
@@ -959,9 +1233,9 @@
       "importance_score": 100,
       "priority_tier": "🚨 긴급/핵심",
       "priority_class": "tier-critical",
-      "headline_kr": "Chargers의 53인 최종 로스터 진입 경쟁 및 선수단의 계약/영입 관련 최신 소식입니다.",
+      "headline_kr": "Los Angeles Chargers 53인 명단: 2명의 UDFA를 포함한 초기 팀 분석",
       "summary_bullets_kr": [
-        "📌 **핵심 요약:** Chargers의 53인 최종 로스터 진입 경쟁 및 선수단의 계약/영입 관련 최신 소식입니다.",
+        "📌 **핵심 요약:** 화요일, Chargers는 2026시즌 동안 주장을 맡을 선수 10명을 발표했습니다. 공격을 대표하는 선수는 쿼터백 Justin Herbert, 왼쪽 태클 Rashawn Slater, 오른쪽 태클 Joe Alt, 와이드 리시버 Ladd McConkey입니다.",
         "⚡ **주요 포인트:** 53인 로스터, 선수 로스터 관련 동향 (계약/트레이드/드래프트)"
       ]
     },
@@ -1024,60 +1298,60 @@
       "priority_class": "tier-critical",
       "headline_kr": "부상당한 예비 후보 3명 Chargers는 최종 명단 삭감을 위한 공간을 확보하기 위해 숨겨둘 수 있음",
       "summary_bullets_kr": [
-        "📌 **핵심 요약:** 선수단의 부상 상태 업데이트 및 향후 출전 가능 여부에 대한 팀 공식 리포트입니다.",
+        "📌 **핵심 요약:** 부상당한 예비 후보 3명 Chargers가 최종 명단 삭감을 위한 공간을 확보하기 위해 숨겨둘 수 있음 Sports Illustrated",
         "⚡ **주요 포인트:** 부상자, 부상자 명단(IR), 선수 로스터 관련 동향 (경기 결과/프리뷰)"
       ]
     },
     {
       "title": "Chargers-Rams Game Recap: D.J. Uiagalelei, Greg DesRosiers Jr. lead inspired effort in loss",
-      "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxQT2l1YnppZjFaaVlFaFdIRXMwT05BQ3dBT1lpNGNIMUdxV2ttTTlWMG1pOWR1cUJ6VzhJbXN6cmNkMmFDd2k1TEZxYmRkNVhORVpkUXFFSElkdl9ELV9xbEx1alI2MEhiMjJyMnhobTM5LV9iUnRacDhaM0MwdzZyNw?oc=5",
-      "summary": "Chargers-Rams Game Recap: D.J. Uiagalelei, Greg DesRosiers Jr. lead inspired effort in loss sports.yahoo.com",
-      "published": "2026-08-26T22:00:00+00:00",
-      "source": "sports.yahoo.com",
+      "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxNbGJJVWo4ZnZvUXhHeTZJQ2RXZXlWYlZUbVFFWkR5U0NjUXBMSFhRdXRFYWpycTZCWW1TejJXNG5rcWwxVmxfcjd1dFFIc3lYT2RZajE2S1ZyRUtlQWlNMHhRMUlNTU1jdm9GUkZJSncxLWNlVVp1VndmT3FCMWZlYk16WU9qT3Vpak1DN1VlZUl4X0N1TGxSLV9sSEdsNm9Bcno1eDZaZERxTVdmalVNeUg4dHhhRk1fVzF6dXc1MXBmNC0yNXBmXzlERldjZUR4NjZ3Mg?oc=5",
+      "summary": "Chargers-Rams Game Recap: D.J. Uiagalelei, Greg DesRosiers Jr. lead inspired effort in loss Bolts From The Blue",
+      "published": "2026-08-27T22:00:00+00:00",
+      "source": "Bolts From The Blue",
       "author": "",
       "raw_entry": {
-        "title": "Chargers-Rams Game Recap: D.J. Uiagalelei, Greg DesRosiers Jr. lead inspired effort in loss - sports.yahoo.com",
+        "title": "Chargers-Rams Game Recap: D.J. Uiagalelei, Greg DesRosiers Jr. lead inspired effort in loss - Bolts From The Blue",
         "title_detail": {
           "type": "text/plain",
           "language": null,
           "base": "",
-          "value": "Chargers-Rams Game Recap: D.J. Uiagalelei, Greg DesRosiers Jr. lead inspired effort in loss - sports.yahoo.com"
+          "value": "Chargers-Rams Game Recap: D.J. Uiagalelei, Greg DesRosiers Jr. lead inspired effort in loss - Bolts From The Blue"
         },
         "links": [
           {
             "rel": "alternate",
             "type": "text/html",
-            "href": "https://news.google.com/rss/articles/CBMigAFBVV95cUxQT2l1YnppZjFaaVlFaFdIRXMwT05BQ3dBT1lpNGNIMUdxV2ttTTlWMG1pOWR1cUJ6VzhJbXN6cmNkMmFDd2k1TEZxYmRkNVhORVpkUXFFSElkdl9ELV9xbEx1alI2MEhiMjJyMnhobTM5LV9iUnRacDhaM0MwdzZyNw?oc=5"
+            "href": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxNbGJJVWo4ZnZvUXhHeTZJQ2RXZXlWYlZUbVFFWkR5U0NjUXBMSFhRdXRFYWpycTZCWW1TejJXNG5rcWwxVmxfcjd1dFFIc3lYT2RZajE2S1ZyRUtlQWlNMHhRMUlNTU1jdm9GUkZJSncxLWNlVVp1VndmT3FCMWZlYk16WU9qT3Vpak1DN1VlZUl4X0N1TGxSLV9sSEdsNm9Bcno1eDZaZERxTVdmalVNeUg4dHhhRk1fVzF6dXc1MXBmNC0yNXBmXzlERldjZUR4NjZ3Mg?oc=5"
           }
         ],
-        "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxQT2l1YnppZjFaaVlFaFdIRXMwT05BQ3dBT1lpNGNIMUdxV2ttTTlWMG1pOWR1cUJ6VzhJbXN6cmNkMmFDd2k1TEZxYmRkNVhORVpkUXFFSElkdl9ELV9xbEx1alI2MEhiMjJyMnhobTM5LV9iUnRacDhaM0MwdzZyNw?oc=5",
-        "id": "CBMigAFBVV95cUxQT2l1YnppZjFaaVlFaFdIRXMwT05BQ3dBT1lpNGNIMUdxV2ttTTlWMG1pOWR1cUJ6VzhJbXN6cmNkMmFDd2k1TEZxYmRkNVhORVpkUXFFSElkdl9ELV9xbEx1alI2MEhiMjJyMnhobTM5LV9iUnRacDhaM0MwdzZyNw",
+        "link": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxNbGJJVWo4ZnZvUXhHeTZJQ2RXZXlWYlZUbVFFWkR5U0NjUXBMSFhRdXRFYWpycTZCWW1TejJXNG5rcWwxVmxfcjd1dFFIc3lYT2RZajE2S1ZyRUtlQWlNMHhRMUlNTU1jdm9GUkZJSncxLWNlVVp1VndmT3FCMWZlYk16WU9qT3Vpak1DN1VlZUl4X0N1TGxSLV9sSEdsNm9Bcno1eDZaZERxTVdmalVNeUg4dHhhRk1fVzF6dXc1MXBmNC0yNXBmXzlERldjZUR4NjZ3Mg?oc=5",
+        "id": "CBMi1AFBVV95cUxNbGJJVWo4ZnZvUXhHeTZJQ2RXZXlWYlZUbVFFWkR5U0NjUXBMSFhRdXRFYWpycTZCWW1TejJXNG5rcWwxVmxfcjd1dFFIc3lYT2RZajE2S1ZyRUtlQWlNMHhRMUlNTU1jdm9GUkZJSncxLWNlVVp1VndmT3FCMWZlYk16WU9qT3Vpak1DN1VlZUl4X0N1TGxSLV9sSEdsNm9Bcno1eDZaZERxTVdmalVNeUg4dHhhRk1fVzF6dXc1MXBmNC0yNXBmXzlERldjZUR4NjZ3Mg",
         "guidislink": false,
-        "published": "Thu, 27 Aug 2026 07:00:00 GMT",
+        "published": "Fri, 28 Aug 2026 07:00:00 GMT",
         "published_parsed": [
           2026,
           8,
-          27,
+          28,
           7,
           0,
           0,
-          3,
-          239,
+          4,
+          240,
           0
         ],
-        "summary": "<a href=\"https://news.google.com/rss/articles/CBMigAFBVV95cUxQT2l1YnppZjFaaVlFaFdIRXMwT05BQ3dBT1lpNGNIMUdxV2ttTTlWMG1pOWR1cUJ6VzhJbXN6cmNkMmFDd2k1TEZxYmRkNVhORVpkUXFFSElkdl9ELV9xbEx1alI2MEhiMjJyMnhobTM5LV9iUnRacDhaM0MwdzZyNw?oc=5\" target=\"_blank\">Chargers-Rams Game Recap: D.J. Uiagalelei, Greg DesRosiers Jr. lead inspired effort in loss</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">sports.yahoo.com</font>",
+        "summary": "<a href=\"https://news.google.com/rss/articles/CBMi1AFBVV95cUxNbGJJVWo4ZnZvUXhHeTZJQ2RXZXlWYlZUbVFFWkR5U0NjUXBMSFhRdXRFYWpycTZCWW1TejJXNG5rcWwxVmxfcjd1dFFIc3lYT2RZajE2S1ZyRUtlQWlNMHhRMUlNTU1jdm9GUkZJSncxLWNlVVp1VndmT3FCMWZlYk16WU9qT3Vpak1DN1VlZUl4X0N1TGxSLV9sSEdsNm9Bcno1eDZaZERxTVdmalVNeUg4dHhhRk1fVzF6dXc1MXBmNC0yNXBmXzlERldjZUR4NjZ3Mg?oc=5\" target=\"_blank\">Chargers-Rams Game Recap: D.J. Uiagalelei, Greg DesRosiers Jr. lead inspired effort in loss</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Bolts From The Blue</font>",
         "summary_detail": {
           "type": "text/html",
           "language": null,
           "base": "",
-          "value": "<a href=\"https://news.google.com/rss/articles/CBMigAFBVV95cUxQT2l1YnppZjFaaVlFaFdIRXMwT05BQ3dBT1lpNGNIMUdxV2ttTTlWMG1pOWR1cUJ6VzhJbXN6cmNkMmFDd2k1TEZxYmRkNVhORVpkUXFFSElkdl9ELV9xbEx1alI2MEhiMjJyMnhobTM5LV9iUnRacDhaM0MwdzZyNw?oc=5\" target=\"_blank\">Chargers-Rams Game Recap: D.J. Uiagalelei, Greg DesRosiers Jr. lead inspired effort in loss</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">sports.yahoo.com</font>"
+          "value": "<a href=\"https://news.google.com/rss/articles/CBMi1AFBVV95cUxNbGJJVWo4ZnZvUXhHeTZJQ2RXZXlWYlZUbVFFWkR5U0NjUXBMSFhRdXRFYWpycTZCWW1TejJXNG5rcWwxVmxfcjd1dFFIc3lYT2RZajE2S1ZyRUtlQWlNMHhRMUlNTU1jdm9GUkZJSncxLWNlVVp1VndmT3FCMWZlYk16WU9qT3Vpak1DN1VlZUl4X0N1TGxSLV9sSEdsNm9Bcno1eDZaZERxTVdmalVNeUg4dHhhRk1fVzF6dXc1MXBmNC0yNXBmXzlERldjZUR4NjZ3Mg?oc=5\" target=\"_blank\">Chargers-Rams Game Recap: D.J. Uiagalelei, Greg DesRosiers Jr. lead inspired effort in loss</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Bolts From The Blue</font>"
         },
         "source": {
-          "href": "https://sports.yahoo.com",
-          "title": "sports.yahoo.com"
+          "href": "https://www.boltsfromtheblue.com",
+          "title": "Bolts From The Blue"
         }
       },
-      "search_query": "Chargers preseason game recap",
+      "search_query": "Los Angeles Chargers",
       "category_key": "game",
       "category_name": "경기 결과/프리뷰",
       "category_badge": "⚡ 경기 소식",
@@ -1085,7 +1359,7 @@
       "importance_score": 100,
       "priority_tier": "🚨 긴급/핵심",
       "priority_class": "tier-critical",
-      "headline_kr": "Chargers와 Rams의 경기 결과 분석 및 주요 플레이 하이라이트 소식입니다. Rams의 실전 경기력 점검이 이루어졌습니다.",
+      "headline_kr": "[Pereira] Justin Herbert에 대한 Jim Harbaugh: \"부러진 손으로도 플레이할 수 있는 남자. 다음 주에 그는 게임에서 남자를 뻣뻣하게 할 것입니다. 10명의 힘. 정말 놀랍습니다.\"",
       "summary_bullets_kr": [
         "📌 **핵심 요약:** Chargers-Rams 게임 요약: D.J. 우아갈렐레이, 그렉 데로지어스 주니어",
         "⚡ **주요 포인트:** 경기 결과 분석 관련 동향 (경기 결과/프리뷰)"
@@ -1183,7 +1457,7 @@
       "priority_class": "tier-critical",
       "headline_kr": "[Pereira] Justin Herbert에 대한 Jim Harbaugh: \"부러진 손으로도 플레이할 수 있는 남자. 다음 주에 그는 게임에서 남자를 뻣뻣하게 할 것입니다. 10명의 힘. 정말 놀랍습니다.\"",
       "summary_bullets_kr": [
-        "📌 **핵심 요약:** Chargers 구단 및 선수단 관련 최신 뉴스 업데이트입니다.",
+        "📌 **핵심 요약:** /u/monknabers에 의해 제출됨 [링크] [댓글]",
         "🏈 **주요 인물:** Justin Herbert (QB), Jim Harbaugh (HC)"
       ]
     },
@@ -1246,7 +1520,7 @@
       "priority_class": "tier-critical",
       "headline_kr": "Chargers 부상 문제는 최신 Keaton Mitchell 개발로 계속 성장하고 있습니다.",
       "summary_bullets_kr": [
-        "📌 **핵심 요약:** Chargers의 최근 경기 결과 및 플레이 하이라이트 분석 소식입니다.",
+        "📌 **핵심 요약:** Chargers 부상 문제는 최신 Keaton Mitchell 개발로 계속 성장하고 있습니다. Sports Illustrated",
         "⚡ **주요 포인트:** 부상 관련 동향 (부상/로스터 보고)"
       ]
     },
@@ -1338,9 +1612,9 @@
       "importance_score": 98,
       "priority_tier": "🚨 긴급/핵심",
       "priority_class": "tier-critical",
-      "headline_kr": "Chargers의 53인 최종 로스터 진입 경쟁 및 Nadame Tucker의 계약/영입 관련 최신 소식입니다.",
+      "headline_kr": "Chargers는 Caleb Murphy를 연습반에 영입하고 Nadame Tucker를 석방합니다.",
       "summary_bullets_kr": [
-        "📌 **핵심 요약:** Chargers의 53인 최종 로스터 진입 경쟁 및 Nadame Tucker의 계약/영입 관련 최신 소식입니다.",
+        "📌 **핵심 요약:** 잠재적인 계약이 처음 보고된 지 며칠 후 Chargers는 마침내 엣지 러셔 Caleb Murphy를 연습 팀에 추가했습니다. 자리를 열기 위한 상응하는 움직임으로 Chargers는 신인 패스 러셔 나다메 터커를 방출하고 있습니다.",
         "🏈 **주요 인물:** Nadame Tucker (EDGE)",
         "⚡ **주요 포인트:** 연습 스쿼드 관련 동향 (계약/트레이드/드래프트)"
       ]
@@ -1402,9 +1676,9 @@
       "importance_score": 98,
       "priority_tier": "🚨 긴급/핵심",
       "priority_class": "tier-critical",
-      "headline_kr": "Chargers의 53인 최종 로스터 진입 경쟁 및 선수단의 계약/영입 관련 최신 소식입니다.",
+      "headline_kr": "LA Chargers의 53인 명단: 마감일 전에 누가 잘렸나?",
       "summary_bullets_kr": [
-        "📌 **핵심 요약:** Chargers의 53인 최종 로스터 진입 경쟁 및 선수단의 계약/영입 관련 최신 소식입니다.",
+        "📌 **핵심 요약:** LA Chargers의 53인 명단: 마감일 전에 누가 잘렸나? sports.yahoo.com",
         "⚡ **주요 포인트:** 53인 로스터, 선수 로스터 관련 동향 (계약/트레이드/드래프트)"
       ]
     },
@@ -1465,7 +1739,7 @@
       "importance_score": 98,
       "priority_tier": "🚨 긴급/핵심",
       "priority_class": "tier-critical",
-      "headline_kr": "선수단의 부상 상태 업데이트 및 향후 출전 가능 여부에 대한 팀 공식 리포트입니다.",
+      "headline_kr": "Keaton Mitchell 부상으로 Chargers 최종 명단 드라마에 무작위로 추가",
       "summary_bullets_kr": [
         "📌 **핵심 요약:** Keaton Mitchell 부상으로 Chargers 최종 명단에 무작위로 추가 드라마 스포츠 일러스트레이티드",
         "⚡ **주요 포인트:** 부상, 선수 로스터 관련 동향 (경기 결과/프리뷰)"
@@ -1528,9 +1802,9 @@
       "importance_score": 98,
       "priority_tier": "🚨 긴급/핵심",
       "priority_class": "tier-critical",
-      "headline_kr": "Chargers와 Rams의 경기 결과 분석 및 주요 플레이 하이라이트 소식입니다. Rams의 실전 경기력 점검이 이루어졌습니다.",
+      "headline_kr": "프리시즌 마지막 경기에서 Chargers가 Rams에게 패배: LA의 패배 요약",
       "summary_bullets_kr": [
-        "📌 **핵심 요약:** Chargers와 Rams의 경기 결과 분석 및 주요 플레이 하이라이트 소식입니다. Rams의 실전 경기력 점검이 이루어졌습니다.",
+        "📌 **핵심 요약:** Chargers는 프리시즌 마지막 경기에서 Rams에게 패했습니다: LA의 패배 요약 sports.yahoo.com",
         "⚡ **주요 포인트:** 프리시즌, 경기 결과 분석 관련 동향 (경기 결과/프리뷰)"
       ]
     },
@@ -1591,7 +1865,7 @@
       "importance_score": 95,
       "priority_tier": "🚨 긴급/핵심",
       "priority_class": "tier-critical",
-      "headline_kr": "Chargers의 53인 최종 로스터 진입 경쟁 및 선수단의 계약/영입 관련 최신 소식입니다.",
+      "headline_kr": "Chargers 뉴스: LA, 1주차 개막 전 마지막 순간 명단 이동 발표",
       "summary_bullets_kr": [
         "📌 **핵심 요약:** Chargers 뉴스: LA, 1주차 개막전 마지막 순간 명단 이동 발표 sports.yahoo.com",
         "⚡ **주요 포인트:** 선수 로스터 관련 동향 (경기 결과/프리뷰)"
@@ -1646,7 +1920,7 @@
           "title": "Los Angeles Times"
         }
       },
-      "search_query": "Justin Herbert Chargers",
+      "search_query": "Chargers Justin Herbert",
       "category_key": "interview",
       "category_name": "감독/선수 인터뷰",
       "category_badge": "🎙️ 인터뷰/발언",
@@ -1654,9 +1928,9 @@
       "importance_score": 95,
       "priority_tier": "🚨 긴급/핵심",
       "priority_class": "tier-critical",
-      "headline_kr": "Chargers 구단 및 Justin Herbert 관련 최신 뉴스 업데이트입니다.",
+      "headline_kr": "Justin Herbert(Justin Herbert)를 이끄는 화면을 거부하는 운동화광으로서 삶을 받아들이는 Mike McDaniel",
       "summary_bullets_kr": [
-        "📌 **핵심 요약:** Chargers 구단 및 Justin Herbert 관련 최신 뉴스 업데이트입니다.",
+        "📌 **핵심 요약:** Justin Herbert(Justin Herbert)를 이끄는 화면을 거부하는 운동화광으로서 삶을 받아들이는 Mike McDaniel Los Angeles Times",
         "🏈 **주요 인물:** Justin Herbert (QB)"
       ]
     },
@@ -1717,9 +1991,9 @@
       "importance_score": 95,
       "priority_tier": "🚨 긴급/핵심",
       "priority_class": "tier-critical",
-      "headline_kr": "Chargers의 53인 최종 로스터 진입 경쟁 및 선수단의 계약/영입 관련 최신 소식입니다.",
+      "headline_kr": "2026년 LA Chargers: 최종 53인 명단 예상",
       "summary_bullets_kr": [
-        "📌 **핵심 요약:** Chargers의 53인 최종 로스터 진입 경쟁 및 선수단의 계약/영입 관련 최신 소식입니다.",
+        "📌 **핵심 요약:** 2026 LA Chargers: 최종 53인 명단 예상 ESPN",
         "⚡ **주요 포인트:** 53인 로스터, 선수 로스터 관련 동향 (경기 결과/프리뷰)"
       ]
     },
@@ -1780,9 +2054,9 @@
       "importance_score": 93,
       "priority_tier": "🚨 긴급/핵심",
       "priority_class": "tier-critical",
-      "headline_kr": "Chargers 구단 및 Justin Herbert 관련 최신 뉴스 업데이트입니다.",
+      "headline_kr": "Chargers의 Justin Herbert가 카디널스의 핵심 선수로부터 높은 평가를 받았습니다.",
       "summary_bullets_kr": [
-        "📌 **핵심 요약:** Chargers 구단 및 Justin Herbert 관련 최신 뉴스 업데이트입니다.",
+        "📌 **핵심 요약:** Chargers의 Justin Herbert가 카디널스의 핵심 선수로부터 높은 평가를 받았습니다. sports.yahoo.com",
         "🏈 **주요 인물:** Justin Herbert (QB)"
       ]
     },
@@ -1843,9 +2117,9 @@
       "importance_score": 93,
       "priority_tier": "🚨 긴급/핵심",
       "priority_class": "tier-critical",
-      "headline_kr": "Chargers 구단 및 Justin Herbert 관련 최신 뉴스 업데이트입니다.",
+      "headline_kr": "Shane Day가 Justin Herbert가 Chargers의 공격을 마스터하도록 돕는 방법",
       "summary_bullets_kr": [
-        "📌 **핵심 요약:** Chargers 구단 및 Justin Herbert 관련 최신 뉴스 업데이트입니다.",
+        "📌 **핵심 요약:** Shane Day가 Justin Herbert가 Chargers의 공격을 마스터하도록 돕는 방법 sports.yahoo.com",
         "🏈 **주요 인물:** Justin Herbert (QB)"
       ]
     },
@@ -1898,7 +2172,7 @@
           "title": "Bleacher Report"
         }
       },
-      "search_query": "Justin Herbert Chargers",
+      "search_query": "Chargers Justin Herbert",
       "category_key": "roster",
       "category_name": "계약/트레이드/드래프트",
       "category_badge": "🎯 영입/계약",
@@ -1906,9 +2180,9 @@
       "importance_score": 93,
       "priority_tier": "🚨 긴급/핵심",
       "priority_class": "tier-critical",
-      "headline_kr": "Chargers의 53인 최종 로스터 진입 경쟁 및 Justin Herbert, Jaguars의 계약/영입 관련 최신 소식입니다.",
+      "headline_kr": "Justin Herbert의 형제 Patrick은 Jaguars가 떠난 후 Chargers Practice Squad와 계약을 체결했습니다.",
       "summary_bullets_kr": [
-        "📌 **핵심 요약:** Chargers의 53인 최종 로스터 진입 경쟁 및 Justin Herbert, Jaguars의 계약/영입 관련 최신 소식입니다.",
+        "📌 **핵심 요약:** Justin Herbert의 형제 Patrick은 Jaguars가 Bleacher 보고서를 떠난 후 Chargers Practice Squad와 계약을 체결했습니다.",
         "🏈 **주요 인물:** Justin Herbert (QB)",
         "⚡ **주요 포인트:** 연습 스쿼드, 계약/연장 관련 동향 (계약/트레이드/드래프트)"
       ]
@@ -1962,7 +2236,7 @@
           "title": "Los Angeles Chargers"
         }
       },
-      "search_query": "Justin Herbert Chargers",
+      "search_query": "Jim Harbaugh Chargers",
       "category_key": "game",
       "category_name": "경기 결과/프리뷰",
       "category_badge": "⚡ 경기 소식",
@@ -1972,7 +2246,7 @@
       "priority_class": "tier-critical",
       "headline_kr": "5가지 시사점: Jim Harbaugh, Chargers는 프리시즌 플레이 후 53인 로스터 마감일에 초점을 맞췄습니다.",
       "summary_bullets_kr": [
-        "📌 **핵심 요약:** 5가지 시사점: Jim Harbaugh, Chargers는 프리시즌 플레이 후 53인 로스터 마감일에 초점을 맞췄습니다. LA Chargers",
+        "📌 **핵심 요약:** Chargers의 프리시즌 경기 일정 및 팀 훈련 준비 소식입니다.",
         "🏈 **주요 인물:** Jim Harbaugh (HC)",
         "⚡ **주요 포인트:** 53인 로스터, 선수 로스터, 프리시즌 관련 동향 (경기 결과/프리뷰)"
       ]
@@ -2036,7 +2310,7 @@
       "priority_class": "tier-critical",
       "headline_kr": "프리시즌 피날레에서 Rams가 Chargers를 이겼습니다: 점수, Ty Simpson의 빛나는 하이라이트",
       "summary_bullets_kr": [
-        "📌 **핵심 요약:** Chargers와 Rams의 경기 결과 분석 및 주요 플레이 하이라이트 소식입니다. Rams의 실전 경기력 점검이 이루어졌습니다.",
+        "📌 **핵심 요약:** 프리시즌 피날레에서 Rams가 Chargers를 이겼습니다: 점수, Ty Simpson이 빛나는 하이라이트 sports.yahoo.com",
         "⚡ **주요 포인트:** 프리시즌 관련 동향 (경기 결과/프리뷰)"
       ]
     },
@@ -2097,9 +2371,9 @@
       "importance_score": 93,
       "priority_tier": "🚨 긴급/핵심",
       "priority_class": "tier-critical",
-      "headline_kr": "Chargers와 Rams의 경기 결과 분석 및 주요 플레이 하이라이트 소식입니다. Rams의 실전 경기력 점검이 이루어졌습니다.",
+      "headline_kr": "Rams-Chargers 프리시즌 최종 점수: Ty Simpson이 통산 승리를 거두었습니다.",
       "summary_bullets_kr": [
-        "📌 **핵심 요약:** Chargers와 Rams의 경기 결과 분석 및 주요 플레이 하이라이트 소식입니다. Rams의 실전 경기력 점검이 이루어졌습니다.",
+        "📌 **핵심 요약:** Rams-Chargers 프리시즌 최종 점수: Ty Simpson이 통산 승리를 거두었습니다. sports.yahoo.com",
         "⚡ **주요 포인트:** 프리시즌 관련 동향 (경기 결과/프리뷰)"
       ]
     },
@@ -2193,7 +2467,7 @@
       "importance_score": 90,
       "priority_tier": "🚨 긴급/핵심",
       "priority_class": "tier-critical",
-      "headline_kr": "Chargers 구단 및 선수단 관련 최신 뉴스 업데이트입니다.",
+      "headline_kr": "Justin Herbert의 형에 관한 좋은 이야기",
       "summary_bullets_kr": [
         "📌 **핵심 요약:** UCLA에서 /u/some_one_234가 제출함 [링크] [댓글]"
       ]
@@ -2288,9 +2562,9 @@
       "importance_score": 90,
       "priority_tier": "🚨 긴급/핵심",
       "priority_class": "tier-critical",
-      "headline_kr": "Chargers 구단 및 Justin Herbert 관련 최신 뉴스 업데이트입니다.",
+      "headline_kr": "[림] Justin Herbert의 드롭백으로 혼돈을 거의 피했습니다.",
       "summary_bullets_kr": [
-        "📌 **핵심 요약:** Chargers 구단 및 선수단 관련 최신 뉴스 업데이트입니다.",
+        "📌 **핵심 요약:** 제출자: /u/LaDainianTomIinson [링크] [댓글]",
         "🏈 **주요 인물:** Justin Herbert (QB)"
       ]
     },
@@ -2351,7 +2625,7 @@
       "importance_score": 90,
       "priority_tier": "🚨 긴급/핵심",
       "priority_class": "tier-critical",
-      "headline_kr": "Chargers의 53인 최종 로스터 진입 경쟁 및 Justin Herbert의 계약/영입 관련 최신 소식입니다.",
+      "headline_kr": "보고서: QB Justin Herbert의 형제와 계약을 맺은 Chargers",
       "summary_bullets_kr": [
         "📌 **핵심 요약:** 보고서: QB Justin Herbert의 형제인 Field Level Media와 계약을 맺은 Chargers",
         "🏈 **주요 인물:** Justin Herbert (QB)"
@@ -2414,9 +2688,9 @@
       "importance_score": 90,
       "priority_tier": "🚨 긴급/핵심",
       "priority_class": "tier-critical",
-      "headline_kr": "Chargers 구단 및 Justin Herbert 관련 최신 뉴스 업데이트입니다.",
+      "headline_kr": "응급실에서 엔드 존까지: Justin Herbert(Justin Herbert)의 형제들과 함께한 L.A. 생활 속으로",
       "summary_bullets_kr": [
-        "📌 **핵심 요약:** Chargers 구단 및 Justin Herbert 관련 최신 뉴스 업데이트입니다.",
+        "📌 **핵심 요약:** 응급실에서 엔드 존까지: Justin Herbert(Justin Herbert)의 형제들과 함께한 LA 생활 속으로 들어가다 Los Angeles Times",
         "🏈 **주요 인물:** Justin Herbert (QB)"
       ]
     },
@@ -2477,9 +2751,9 @@
       "importance_score": 90,
       "priority_tier": "🚨 긴급/핵심",
       "priority_class": "tier-critical",
-      "headline_kr": "Jim Harbaugh 감독 및 코칭스태프의 인터뷰로, 팀 문화 쇄신과 선수단 훈련 평가를 전달했습니다.",
+      "headline_kr": "Chargers의 Jim Harbaugh(Jim Harbaugh) 감독이 레프트 가드의 선발 투수 지명에 대한 업데이트를 제공합니다.",
       "summary_bullets_kr": [
-        "📌 **핵심 요약:** Chargers의 Jim Harbaugh(Jim Harbaugh) 감독이 레프트 가드(Left Guard)에서 선발 투수 지명에 대한 업데이트를 제공합니다. sports.yahoo.com",
+        "📌 **핵심 요약:** Jim Harbaugh 감독 및 코칭스태프의 인터뷰로, 팀 문화 쇄신과 선수단 훈련 평가를 전달했습니다.",
         "🏈 **주요 인물:** Jim Harbaugh (HC)",
         "⚡ **주요 포인트:** 선발 스타터, 헤드코치(감독) 관련 동향 (감독/선수 인터뷰)"
       ]
@@ -2541,7 +2815,7 @@
       "importance_score": 90,
       "priority_tier": "🚨 긴급/핵심",
       "priority_class": "tier-critical",
-      "headline_kr": "Chargers의 프리시즌 경기 일정 및 팀 훈련 준비 소식입니다.",
+      "headline_kr": "Chargers 부상, 프리시즌 2주차 53인 로스터 예측 재구성",
       "summary_bullets_kr": [
         "📌 **핵심 요약:** Chargers 부상, 프리시즌 2주차 53인 명단 예측 스포츠 일러스트레이티드 재편성",
         "⚡ **주요 포인트:** 53인 로스터, 선수 로스터, 프리시즌 관련 동향 (경기 결과/프리뷰)"
@@ -2606,7 +2880,7 @@
       "priority_class": "tier-critical",
       "headline_kr": "Jim Harbaugh는 49ers에게 당황스러운 손실을 준 후 Chargers의 실수를 지적합니다.",
       "summary_bullets_kr": [
-        "📌 **핵심 요약:** Chargers와 49ers의 경기 결과 분석 및 주요 플레이 하이라이트 소식입니다. Jim Harbaugh의 실전 경기력 점검이 이루어졌습니다.",
+        "📌 **핵심 요약:** Jim Harbaugh는 49ers에게 부끄러운 패배를 안겨준 Chargers의 실수를 지적합니다. sports.yahoo.com",
         "🏈 **주요 인물:** Jim Harbaugh (HC)"
       ]
     },
@@ -2667,9 +2941,9 @@
       "importance_score": 90,
       "priority_tier": "🚨 긴급/핵심",
       "priority_class": "tier-critical",
-      "headline_kr": "선수단의 부상 상태 업데이트 및 향후 출전 가능 여부에 대한 팀 공식 리포트입니다.",
+      "headline_kr": "Chargers 부상 업데이트 및 명단 이동은 좋은 소식을 많이 제공하지 않습니다.",
       "summary_bullets_kr": [
-        "📌 **핵심 요약:** 선수단의 부상 상태 업데이트 및 향후 출전 가능 여부에 대한 팀 공식 리포트입니다.",
+        "📌 **핵심 요약:** Chargers 부상 업데이트 및 명단 이동은 많은 좋은 소식을 제공하지 않습니다. Sports Illustrated",
         "⚡ **주요 포인트:** 부상, 선수 로스터 관련 동향 (부상/로스터 보고)"
       ]
     },
@@ -2732,7 +3006,7 @@
       "priority_class": "tier-critical",
       "headline_kr": "Chargers의 Jim Harbaugh는 2026 시즌을 앞두고 고통스러운 예측을 내립니다.",
       "summary_bullets_kr": [
-        "📌 **핵심 요약:** Jim Harbaugh 감독 및 코칭스태프의 인터뷰로, 팀 문화 쇄신과 선수단 훈련 평가를 전달했습니다.",
+        "📌 **핵심 요약:** Chargers의 Jim Harbaugh는 2026 시즌을 앞두고 고통스러운 예측을 합니다. sports.yahoo.com",
         "🏈 **주요 인물:** Jim Harbaugh (HC)"
       ]
     },
@@ -2793,74 +3067,10 @@
       "importance_score": 88,
       "priority_tier": "🚨 긴급/핵심",
       "priority_class": "tier-critical",
-      "headline_kr": "Jim Harbaugh 감독 및 코칭스태프의 인터뷰로, 팀 문화 쇄신과 선수단 훈련 평가를 전달했습니다.",
+      "headline_kr": "Jim Harbaugh가 Chargers로부터 지식을 얻는 방법에 대해 이야기합니다. OC Mike McDaniel",
       "summary_bullets_kr": [
-        "📌 **핵심 요약:** Jim Harbaugh 감독 및 코칭스태프의 인터뷰로, 팀 문화 쇄신과 선수단 훈련 평가를 전달했습니다.",
+        "📌 **핵심 요약:** Jim Harbaugh가 Chargers로부터 지식을 얻는 방법에 대해 이야기합니다. OC Mike McDaniel sports.yahoo.com",
         "🏈 **주요 인물:** Jim Harbaugh (HC)"
-      ]
-    },
-    {
-      "title": "Los Angeles Chargers' practice squad signing of Justin Herbert's brother has value beyond the family reunion gimmick",
-      "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxOQnFYM1FBLWZXcEdqVEtUREptTkVra1ZYc1k3dWE2OHB0aF9TWXdnOEtrQnpxZk9MMU1ReFIyWGJlcDZHTzJ4U3ZlQTN1Nnk2aW1YdEwxalA4OVhfbjFHSGxQTjhRalVGUEVpbEw0ZFAtMGFZSDhNV0lSWEJxdFI2RUp4TGM0V2dSOFhzUg?oc=5",
-      "summary": "Los Angeles Chargers' practice squad signing of Justin Herbert's brother has value beyond the family reunion gimmick sports.yahoo.com",
-      "published": "2026-09-01T13:50:23+00:00",
-      "source": "sports.yahoo.com",
-      "author": "",
-      "raw_entry": {
-        "title": "Los Angeles Chargers' practice squad signing of Justin Herbert's brother has value beyond the family reunion gimmick - sports.yahoo.com",
-        "title_detail": {
-          "type": "text/plain",
-          "language": null,
-          "base": "",
-          "value": "Los Angeles Chargers' practice squad signing of Justin Herbert's brother has value beyond the family reunion gimmick - sports.yahoo.com"
-        },
-        "links": [
-          {
-            "rel": "alternate",
-            "type": "text/html",
-            "href": "https://news.google.com/rss/articles/CBMijAFBVV95cUxOQnFYM1FBLWZXcEdqVEtUREptTkVra1ZYc1k3dWE2OHB0aF9TWXdnOEtrQnpxZk9MMU1ReFIyWGJlcDZHTzJ4U3ZlQTN1Nnk2aW1YdEwxalA4OVhfbjFHSGxQTjhRalVGUEVpbEw0ZFAtMGFZSDhNV0lSWEJxdFI2RUp4TGM0V2dSOFhzUg?oc=5"
-          }
-        ],
-        "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxOQnFYM1FBLWZXcEdqVEtUREptTkVra1ZYc1k3dWE2OHB0aF9TWXdnOEtrQnpxZk9MMU1ReFIyWGJlcDZHTzJ4U3ZlQTN1Nnk2aW1YdEwxalA4OVhfbjFHSGxQTjhRalVGUEVpbEw0ZFAtMGFZSDhNV0lSWEJxdFI2RUp4TGM0V2dSOFhzUg?oc=5",
-        "id": "CBMijAFBVV95cUxOQnFYM1FBLWZXcEdqVEtUREptTkVra1ZYc1k3dWE2OHB0aF9TWXdnOEtrQnpxZk9MMU1ReFIyWGJlcDZHTzJ4U3ZlQTN1Nnk2aW1YdEwxalA4OVhfbjFHSGxQTjhRalVGUEVpbEw0ZFAtMGFZSDhNV0lSWEJxdFI2RUp4TGM0V2dSOFhzUg",
-        "guidislink": false,
-        "published": "Tue, 01 Sep 2026 22:50:23 GMT",
-        "published_parsed": [
-          2026,
-          9,
-          1,
-          22,
-          50,
-          23,
-          1,
-          244,
-          0
-        ],
-        "summary": "<a href=\"https://news.google.com/rss/articles/CBMijAFBVV95cUxOQnFYM1FBLWZXcEdqVEtUREptTkVra1ZYc1k3dWE2OHB0aF9TWXdnOEtrQnpxZk9MMU1ReFIyWGJlcDZHTzJ4U3ZlQTN1Nnk2aW1YdEwxalA4OVhfbjFHSGxQTjhRalVGUEVpbEw0ZFAtMGFZSDhNV0lSWEJxdFI2RUp4TGM0V2dSOFhzUg?oc=5\" target=\"_blank\">Los Angeles Chargers' practice squad signing of Justin Herbert's brother has value beyond the family reunion gimmick</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">sports.yahoo.com</font>",
-        "summary_detail": {
-          "type": "text/html",
-          "language": null,
-          "base": "",
-          "value": "<a href=\"https://news.google.com/rss/articles/CBMijAFBVV95cUxOQnFYM1FBLWZXcEdqVEtUREptTkVra1ZYc1k3dWE2OHB0aF9TWXdnOEtrQnpxZk9MMU1ReFIyWGJlcDZHTzJ4U3ZlQTN1Nnk2aW1YdEwxalA4OVhfbjFHSGxQTjhRalVGUEVpbEw0ZFAtMGFZSDhNV0lSWEJxdFI2RUp4TGM0V2dSOFhzUg?oc=5\" target=\"_blank\">Los Angeles Chargers' practice squad signing of Justin Herbert's brother has value beyond the family reunion gimmick</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">sports.yahoo.com</font>"
-        },
-        "source": {
-          "href": "https://sports.yahoo.com",
-          "title": "sports.yahoo.com"
-        }
-      },
-      "search_query": "Justin Herbert Chargers",
-      "category_key": "roster",
-      "category_name": "계약/트레이드/드래프트",
-      "category_badge": "🎯 영입/계약",
-      "category_icon": "✍️",
-      "importance_score": 88,
-      "priority_tier": "🚨 긴급/핵심",
-      "priority_class": "tier-critical",
-      "headline_kr": "Chargers의 53인 최종 로스터 진입 경쟁 및 Justin Herbert의 계약/영입 관련 최신 소식입니다.",
-      "summary_bullets_kr": [
-        "📌 **핵심 요약:** LA Chargers의 연습팀 Justin Herbert 형과 계약한 것은 가족 상봉 기믹 이상의 가치가 있습니다. sports.yahoo.com",
-        "🏈 **주요 인물:** Justin Herbert (QB)",
-        "⚡ **주요 포인트:** 연습 스쿼드 관련 동향 (계약/트레이드/드래프트)"
       ]
     },
     {
@@ -2920,9 +3130,9 @@
       "importance_score": 88,
       "priority_tier": "🚨 긴급/핵심",
       "priority_class": "tier-critical",
-      "headline_kr": "Chargers의 53인 최종 로스터 진입 경쟁 및 Jim Harbaugh의 계약/영입 관련 최신 소식입니다.",
+      "headline_kr": "5가지 시사점: Jim Harbaugh와 Joe Hortiz가 초기 53인 선수 명단을 분석했습니다.",
       "summary_bullets_kr": [
-        "📌 **핵심 요약:** Chargers의 53인 최종 로스터 진입 경쟁 및 Jim Harbaugh의 계약/영입 관련 최신 소식입니다.",
+        "📌 **핵심 요약:** 5가지 시사점: Jim Harbaugh와 Joe Hortiz가 Chargers 초기 53인 명단 LA Chargers를 분석했습니다.",
         "🏈 **주요 인물:** Jim Harbaugh (HC)",
         "⚡ **주요 포인트:** 53인 로스터, 선수 로스터 관련 동향 (계약/트레이드/드래프트)"
       ]
@@ -2984,9 +3194,9 @@
       "importance_score": 88,
       "priority_tier": "🚨 긴급/핵심",
       "priority_class": "tier-critical",
-      "headline_kr": "Chargers의 53인 최종 로스터 진입 경쟁 및 Jim Harbaugh의 계약/영입 관련 최신 소식입니다.",
+      "headline_kr": "기자 회견: Bolts의 초기 53인 명단에 대한 Jim Harbaugh",
       "summary_bullets_kr": [
-        "📌 **핵심 요약:** Chargers의 53인 최종 로스터 진입 경쟁 및 Jim Harbaugh의 계약/영입 관련 최신 소식입니다.",
+        "📌 **핵심 요약:** 기자 회견: Bolts의 초기 53인 명단 LA Chargers에 대한 Jim Harbaugh",
         "🏈 **주요 인물:** Jim Harbaugh (HC)",
         "⚡ **주요 포인트:** 53인 로스터, 선수 로스터 관련 동향 (계약/트레이드/드래프트)"
       ]
@@ -3048,7 +3258,7 @@
       "importance_score": 88,
       "priority_tier": "🚨 긴급/핵심",
       "priority_class": "tier-critical",
-      "headline_kr": "Chargers의 53인 최종 로스터 진입 경쟁 및 선수단의 계약/영입 관련 최신 소식입니다.",
+      "headline_kr": "LA Chargers 뉴스: 53인 로스터의 가장 놀라운 소식은 무엇일까요?",
       "summary_bullets_kr": [
         "📌 **핵심 요약:** LA Chargers 뉴스: 53인 로스터의 가장 놀라운 소식은 무엇일까요? 볼트 프롬 더 블루",
         "⚡ **주요 포인트:** 53인 로스터, 선수 로스터 관련 동향 (계약/트레이드/드래프트)"
@@ -3174,9 +3384,9 @@
       "importance_score": 88,
       "priority_tier": "🚨 긴급/핵심",
       "priority_class": "tier-critical",
-      "headline_kr": "Chargers 구단 및 Justin Herbert 관련 최신 뉴스 업데이트입니다.",
+      "headline_kr": "Justin Herbert Fantasy Outlook 2026 업데이트: Chargers QB가 마침내 다음 단계를 밟을 수 있을까요?",
       "summary_bullets_kr": [
-        "📌 **핵심 요약:** Chargers 구단 및 Justin Herbert 관련 최신 뉴스 업데이트입니다.",
+        "📌 **핵심 요약:** Justin Herbert Fantasy Outlook 2026 업데이트: Chargers QB가 마침내 다음 단계를 밟을 수 있을까요? sports.yahoo.com",
         "🏈 **주요 인물:** Justin Herbert (QB)"
       ]
     },
@@ -3237,7 +3447,7 @@
       "importance_score": 88,
       "priority_tier": "🚨 긴급/핵심",
       "priority_class": "tier-critical",
-      "headline_kr": "Chargers와 Rams의 경기 결과 분석 및 주요 플레이 하이라이트 소식입니다. Rams의 실전 경기력 점검이 이루어졌습니다.",
+      "headline_kr": "Rams 20-18 Chargers(2026년 8월 27일) 게임 요약",
       "summary_bullets_kr": [
         "📌 **핵심 요약:** Chargers 27-7 Texans (2026년 8월 13일) 게임 요약 ESPN",
         "⚡ **주요 포인트:** 경기 결과 분석 관련 동향 (경기 결과/프리뷰)"
@@ -3300,7 +3510,7 @@
       "importance_score": 85,
       "priority_tier": "🚨 긴급/핵심",
       "priority_class": "tier-critical",
-      "headline_kr": "Chargers의 53인 최종 로스터 진입 경쟁 및 선수단의 계약/영입 관련 최신 소식입니다.",
+      "headline_kr": "Chargers 훈련 캠프 보고서: Mike McDaniel이 53인 명단 축소를 앞두고 공격을 어떻게 보는가",
       "summary_bullets_kr": [
         "📌 **핵심 요약:** Chargers 훈련 캠프 보고서: Mike McDaniel이 53인 명단 축소를 앞두고 공격을 보는 방법 LA Chargers",
         "⚡ **주요 포인트:** 53인 로스터, 선수 로스터 관련 동향 (계약/트레이드/드래프트)"
@@ -3391,9 +3601,9 @@
       "importance_score": 83,
       "priority_tier": "🚨 긴급/핵심",
       "priority_class": "tier-critical",
-      "headline_kr": "Chargers의 53인 최종 로스터 진입 경쟁 및 선수단의 계약/영입 관련 최신 소식입니다.",
+      "headline_kr": "[Insdorf] Chargers GM Joe Hortiz는 시즌 동안 Tuli Tuipulotu와 계약 연장을 협상할 것이며 협상 마감인 1주차를 \"구독하지 않습니다\"라고 말했습니다.",
       "summary_bullets_kr": [
-        "📌 **핵심 요약:** Chargers 구단 및 선수단 관련 최신 뉴스 업데이트입니다.",
+        "📌 **핵심 요약:** 제출자: /u/LaDainianTomIinson [링크] [댓글]",
         "⚡ **주요 포인트:** 계약/연장 관련 동향 (경기 결과/프리뷰)"
       ]
     },
@@ -3485,9 +3695,9 @@
       "importance_score": 83,
       "priority_tier": "🚨 긴급/핵심",
       "priority_class": "tier-critical",
-      "headline_kr": "Chargers 구단 및 Quentin Johnston 관련 최신 뉴스 업데이트입니다.",
+      "headline_kr": "LA Chargers 뉴스: 쿠엔틴 존스턴이 2026년 볼트의 X-팩터로 선정되었습니다.",
       "summary_bullets_kr": [
-        "📌 **핵심 요약:** Chargers 구단 및 선수단 관련 최신 뉴스 업데이트입니다.",
+        "📌 **핵심 요약:** 안녕하세요, Chargers 팬 여러분! 올해 Chargers의 X 팩터로 꼽을 수 있는 다양한 선수 및/또는 코치가 많이 있을 것입니다.",
         "🏈 **주요 인물:** Quentin Johnston (WR)",
         "⚡ **주요 포인트:** 공격 코디네이터 관련 동향 (팀 일반 소식)"
       ]
@@ -3580,9 +3790,9 @@
       "importance_score": 83,
       "priority_tier": "🚨 긴급/핵심",
       "priority_class": "tier-critical",
-      "headline_kr": "Chargers 구단 및 Ladd McConkey, Quentin Johnston 관련 최신 뉴스 업데이트입니다.",
+      "headline_kr": "Chargers 뉴스: Ladd McConkey, Quentin Johnston이 Bolts 수신 기록 상위 20위 안에 들 것으로 예상",
       "summary_bullets_kr": [
-        "📌 **핵심 요약:** Chargers 구단 및 선수단 관련 최신 뉴스 업데이트입니다.",
+        "📌 **핵심 요약:** 안녕하세요, Chargers 팬 여러분! Mike McDaniel 밑에서 Chargers 공격이 폭발적일 것이라는 것은 모두의 기대입니다.",
         "🏈 **주요 인물:** Ladd McConkey (WR), Quentin Johnston (WR)"
       ]
     },
@@ -3643,7 +3853,7 @@
       "importance_score": 83,
       "priority_tier": "🚨 긴급/핵심",
       "priority_class": "tier-critical",
-      "headline_kr": "Chargers 구단 및 Justin Herbert 관련 최신 뉴스 업데이트입니다.",
+      "headline_kr": "2026년 Chargers QB Justin Herbert에 대한 '천장이 아닌 높은 기대'",
       "summary_bullets_kr": [
         "📌 **핵심 요약:** 2026년 Orange County Register의 Chargers QB Justin Herbert에 대한 '천장이 아닌 높은 기대'",
         "🏈 **주요 인물:** Justin Herbert (QB)"
@@ -3706,7 +3916,7 @@
       "importance_score": 83,
       "priority_tier": "🚨 긴급/핵심",
       "priority_class": "tier-critical",
-      "headline_kr": "Chargers 구단 및 Justin Herbert, Jaguars 관련 최신 뉴스 업데이트입니다.",
+      "headline_kr": "Chargers 뉴스: LA는 불행한 재규어 업데이트 이후 Justin Herbert의 형제를 데려왔습니다.",
       "summary_bullets_kr": [
         "📌 **핵심 요약:** Chargers 구단 및 Justin Herbert, Jaguars 관련 최신 뉴스 업데이트입니다.",
         "🏈 **주요 인물:** Justin Herbert (QB)"
@@ -3799,7 +4009,7 @@
       "priority_class": "tier-critical",
       "headline_kr": "맥락에서 본 Justin Herbert의 플레이오프 기록",
       "summary_bullets_kr": [
-        "📌 **핵심 요약:** 선수단의 부상 상태 업데이트 및 향후 출전 가능 여부에 대한 팀 공식 리포트입니다."
+        "📌 **핵심 요약:** \"Justin Herbert는 플레이오프 세 경기에서 모두 패했습니다. 이제 그는 자신의 실력을 증명해야 합니다.\" 이것은 팬과 \"전문 스포츠 평론가\"(대부분을 언론인이라고 부르지 않아도 될까요?) 의 첫 3번의 플레이오프에서도 패한 사람이 누구인지 아십니까?"
       ]
     },
     {
@@ -3859,9 +4069,9 @@
       "importance_score": 80,
       "priority_tier": "🚨 긴급/핵심",
       "priority_class": "tier-critical",
-      "headline_kr": "선수단의 부상 상태 업데이트 및 향후 출전 가능 여부에 대한 팀 공식 리포트입니다.",
+      "headline_kr": "훈련 캠프에서 1명의 훌륭하고 1명의 별로 좋지 않은 Chargers 부상 발생",
       "summary_bullets_kr": [
-        "📌 **핵심 요약:** 선수단의 부상 상태 업데이트 및 향후 출전 가능 여부에 대한 팀 공식 리포트입니다.",
+        "📌 **핵심 요약:** 훈련 캠프에서 1명의 훌륭하고 1명의 그다지 좋지 않은 Chargers 부상 전개 Sports Illustrated",
         "⚡ **주요 포인트:** 부상 관련 동향 (부상/로스터 보고)"
       ]
     },
@@ -3922,9 +4132,9 @@
       "importance_score": 80,
       "priority_tier": "🚨 긴급/핵심",
       "priority_class": "tier-critical",
-      "headline_kr": "Chargers의 최근 경기 결과 및 플레이 하이라이트 분석 소식입니다.",
+      "headline_kr": "5가지 시사점: Jim Harbaugh가 프리시즌 패배 후 Chargers의 발전을 원하는 이유",
       "summary_bullets_kr": [
-        "📌 **핵심 요약:** Chargers의 최근 경기 결과 및 플레이 하이라이트 분석 소식입니다.",
+        "📌 **핵심 요약:** 5가지 시사점: Jim Harbaugh가 프리시즌 패배 후 Chargers의 발전을 원하는 이유 Los Angeles Chargers",
         "🏈 **주요 인물:** Jim Harbaugh (HC)",
         "⚡ **주요 포인트:** 프리시즌 관련 동향 (경기 결과/프리뷰)"
       ]
@@ -3986,9 +4196,9 @@
       "importance_score": 80,
       "priority_tier": "🚨 긴급/핵심",
       "priority_class": "tier-critical",
-      "headline_kr": "49ers와의 프리시즌 경기 일정, 중계 안내 및 주요 관전 포인트 소식입니다.",
+      "headline_kr": "49ers 프리시즌 경기 후 Chargers 부상 업데이트는 불운을 더할 뿐입니다",
       "summary_bullets_kr": [
-        "📌 **핵심 요약:** 49ers와의 프리시즌 경기 일정, 중계 안내 및 주요 관전 포인트 소식입니다.",
+        "📌 **핵심 요약:** 49ers 프리시즌 경기 후 Chargers 부상 업데이트, 불운 스포츠 일러스트에 추가",
         "⚡ **주요 포인트:** 부상, 프리시즌 관련 동향 (경기 결과/프리뷰)"
       ]
     },
@@ -4049,10 +4259,73 @@
       "importance_score": 80,
       "priority_tier": "🚨 긴급/핵심",
       "priority_class": "tier-critical",
-      "headline_kr": "Chargers와 49ers의 경기 결과 분석 및 주요 플레이 하이라이트 소식입니다. 선수단의 실전 경기력 점검이 이루어졌습니다.",
+      "headline_kr": "프리시즌 경기에서 49ers에 의해 제한되는 Chargers: LA의 패배 요약",
       "summary_bullets_kr": [
         "📌 **핵심 요약:** 프리시즌 경기에서 49ers에 의해 제한되는 Chargers: LA의 손실 요약 Chargers Wire",
         "⚡ **주요 포인트:** 프리시즌, 경기 결과 분석 관련 동향 (경기 결과/프리뷰)"
+      ]
+    },
+    {
+      "title": "‘Chargers Front Office Has Neglected Protecting Justin Herbert’ — GM Joe Hortiz Facing Heat as Former DT Sounds the Alarm",
+      "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPN3d5VkRoN1piVU9mMkNKRFVVeEJ5cHZ3Tlljb0FZbkRlZzNEQkZYWlJqMTQzWTdCTWU1Vy1wcXpQbGRHSU9UMVdpTzhYNEtpQWxwNG1nOTBGcTVGeks5RGttbEFrVnlhbEhMT2xPYnBHMEN1MmZqbzhQcEpBN3poTFN3cEEyQXdPWGZjSl9kVjUxczBCZ0E?oc=5",
+      "summary": "‘Chargers Front Office Has Neglected Protecting Justin Herbert’ — GM Joe Hortiz Facing Heat as Former DT Sounds the Alarm sports.yahoo.com",
+      "published": "2026-08-19T22:00:00+00:00",
+      "source": "sports.yahoo.com",
+      "author": "",
+      "raw_entry": {
+        "title": "‘Chargers Front Office Has Neglected Protecting Justin Herbert’ — GM Joe Hortiz Facing Heat as Former DT Sounds the Alarm - sports.yahoo.com",
+        "title_detail": {
+          "type": "text/plain",
+          "language": null,
+          "base": "",
+          "value": "‘Chargers Front Office Has Neglected Protecting Justin Herbert’ — GM Joe Hortiz Facing Heat as Former DT Sounds the Alarm - sports.yahoo.com"
+        },
+        "links": [
+          {
+            "rel": "alternate",
+            "type": "text/html",
+            "href": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPN3d5VkRoN1piVU9mMkNKRFVVeEJ5cHZ3Tlljb0FZbkRlZzNEQkZYWlJqMTQzWTdCTWU1Vy1wcXpQbGRHSU9UMVdpTzhYNEtpQWxwNG1nOTBGcTVGeks5RGttbEFrVnlhbEhMT2xPYnBHMEN1MmZqbzhQcEpBN3poTFN3cEEyQXdPWGZjSl9kVjUxczBCZ0E?oc=5"
+          }
+        ],
+        "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPN3d5VkRoN1piVU9mMkNKRFVVeEJ5cHZ3Tlljb0FZbkRlZzNEQkZYWlJqMTQzWTdCTWU1Vy1wcXpQbGRHSU9UMVdpTzhYNEtpQWxwNG1nOTBGcTVGeks5RGttbEFrVnlhbEhMT2xPYnBHMEN1MmZqbzhQcEpBN3poTFN3cEEyQXdPWGZjSl9kVjUxczBCZ0E?oc=5",
+        "id": "CBMilgFBVV95cUxPN3d5VkRoN1piVU9mMkNKRFVVeEJ5cHZ3Tlljb0FZbkRlZzNEQkZYWlJqMTQzWTdCTWU1Vy1wcXpQbGRHSU9UMVdpTzhYNEtpQWxwNG1nOTBGcTVGeks5RGttbEFrVnlhbEhMT2xPYnBHMEN1MmZqbzhQcEpBN3poTFN3cEEyQXdPWGZjSl9kVjUxczBCZ0E",
+        "guidislink": false,
+        "published": "Thu, 20 Aug 2026 07:00:00 GMT",
+        "published_parsed": [
+          2026,
+          8,
+          20,
+          7,
+          0,
+          0,
+          3,
+          232,
+          0
+        ],
+        "summary": "<a href=\"https://news.google.com/rss/articles/CBMilgFBVV95cUxPN3d5VkRoN1piVU9mMkNKRFVVeEJ5cHZ3Tlljb0FZbkRlZzNEQkZYWlJqMTQzWTdCTWU1Vy1wcXpQbGRHSU9UMVdpTzhYNEtpQWxwNG1nOTBGcTVGeks5RGttbEFrVnlhbEhMT2xPYnBHMEN1MmZqbzhQcEpBN3poTFN3cEEyQXdPWGZjSl9kVjUxczBCZ0E?oc=5\" target=\"_blank\">‘Chargers Front Office Has Neglected Protecting Justin Herbert’ — GM Joe Hortiz Facing Heat as Former DT Sounds the Alarm</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">sports.yahoo.com</font>",
+        "summary_detail": {
+          "type": "text/html",
+          "language": null,
+          "base": "",
+          "value": "<a href=\"https://news.google.com/rss/articles/CBMilgFBVV95cUxPN3d5VkRoN1piVU9mMkNKRFVVeEJ5cHZ3Tlljb0FZbkRlZzNEQkZYWlJqMTQzWTdCTWU1Vy1wcXpQbGRHSU9UMVdpTzhYNEtpQWxwNG1nOTBGcTVGeks5RGttbEFrVnlhbEhMT2xPYnBHMEN1MmZqbzhQcEpBN3poTFN3cEEyQXdPWGZjSl9kVjUxczBCZ0E?oc=5\" target=\"_blank\">‘Chargers Front Office Has Neglected Protecting Justin Herbert’ — GM Joe Hortiz Facing Heat as Former DT Sounds the Alarm</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">sports.yahoo.com</font>"
+        },
+        "source": {
+          "href": "https://sports.yahoo.com",
+          "title": "sports.yahoo.com"
+        }
+      },
+      "search_query": "Justin Herbert Chargers",
+      "category_key": "interview",
+      "category_name": "감독/선수 인터뷰",
+      "category_badge": "🎙️ 인터뷰/발언",
+      "category_icon": "🎙️",
+      "importance_score": 80,
+      "priority_tier": "🚨 긴급/핵심",
+      "priority_class": "tier-critical",
+      "headline_kr": "'Chargers 프론트 오피스는 Justin Herbert 보호를 소홀히 했습니다' — 전 DT가 경보를 울리면서 GM Joe Hortiz가 열에 직면했습니다",
+      "summary_bullets_kr": [
+        "📌 **핵심 요약:** 'Chargers 프론트 오피스는 Justin Herbert 보호를 소홀히 했습니다' — 전 DT가 경보를 울리면서 GM Joe Hortiz가 열에 직면했습니다 sports.yahoo.com",
+        "🏈 **주요 인물:** Justin Herbert (QB)"
       ]
     },
     {
@@ -4112,9 +4385,9 @@
       "importance_score": 80,
       "priority_tier": "🚨 긴급/핵심",
       "priority_class": "tier-critical",
-      "headline_kr": "Chargers와 49ers의 경기 결과 분석 및 주요 플레이 하이라이트 소식입니다. 선수단의 실전 경기력 점검이 이루어졌습니다.",
+      "headline_kr": "Chargers-49ers 게임 요약: Niners 스로틀 볼트 41-17",
       "summary_bullets_kr": [
-        "📌 **핵심 요약:** Chargers와 49ers의 경기 결과 분석 및 주요 플레이 하이라이트 소식입니다. 선수단의 실전 경기력 점검이 이루어졌습니다.",
+        "📌 **핵심 요약:** Chargers-49ers 게임 요약: Niners 스로틀 볼트 41-17 Bolts From The Blue",
         "⚡ **주요 포인트:** 경기 결과 분석 관련 동향 (경기 결과/프리뷰)"
       ]
     },
@@ -4175,7 +4448,7 @@
       "importance_score": 80,
       "priority_tier": "🚨 긴급/핵심",
       "priority_class": "tier-critical",
-      "headline_kr": "Tyler Biadasz의 부상 상태 업데이트 및 향후 출전 가능 여부에 대한 팀 공식 리포트입니다.",
+      "headline_kr": "Chargers 센터 Tyler Biadasz(Tyler Biadasz)가 ACL 부상으로 시즌 아웃",
       "summary_bullets_kr": [
         "📌 **핵심 요약:** Chargers 센터 Tyler Biadasz(Tyler Biadasz)가 ACL 부상으로 시즌 아웃됨 Los Angeles Times",
         "🏈 **주요 인물:** Tyler Biadasz (C)",
@@ -4239,75 +4512,136 @@
       "importance_score": 80,
       "priority_tier": "🚨 긴급/핵심",
       "priority_class": "tier-critical",
-      "headline_kr": "Tyler Biadasz의 부상 상태 업데이트 및 향후 출전 가능 여부에 대한 팀 공식 리포트입니다.",
+      "headline_kr": "Tyler Biadasz 부상 업데이트 최신 Chargers에 대한 긴급 시나리오 생성",
       "summary_bullets_kr": [
-        "📌 **핵심 요약:** Tyler Biadasz의 부상 상태 업데이트 및 향후 출전 가능 여부에 대한 팀 공식 리포트입니다.",
+        "📌 **핵심 요약:** Tyler Biadasz 부상 업데이트 최신, Chargers Sports Illustrated에 대한 긴급 시나리오 생성",
         "🏈 **주요 인물:** Tyler Biadasz (C)",
         "⚡ **주요 포인트:** 부상 관련 동향 (부상/로스터 보고)"
       ]
     },
     {
-      "title": "Chargers C Tyler Biadasz carted off with lower-leg injury",
-      "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPdlpWRURWVm82SG51Ykk5SXVWRnBWWHVBRlRRU2RMY3pYNmVKVzdreElyd240aFdVOEl6YU9IUGJLZExGZEhkTDRqOUJ5VUdMRTFoTEsxZUFsY1l3UVRYdU0zNG11UnJEbFZ0WEE3WEtaQVlDbHJiN3RGS05rS1NqS0phY2NFWkFtYnhoaE13R1F2b05qQXFCOXQzSkhHb1d4eFFlc0NfM2swdzBCYWdnYllrRlR1aVJqLXc?oc=5",
-      "summary": "Chargers C Tyler Biadasz carted off with lower-leg injury Bolts From The Blue",
-      "published": "2026-08-17T22:00:00+00:00",
-      "source": "Bolts From The Blue",
+      "title": "Chargers' McDaniel lauds Herbert's progression in offense",
+      "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxOUDFhQS13d2xmc1YyNzN0ZDdQVVNMQWFLZGtSWTRXVzdYSzMwbk53WTN0VVFOOUcwUi1fSmV3WDAyVUpBZWV3SGt6T0FKQ1BOWndOa0RBU3ExcUNFSWpyckRncEJaMXlBRjZtbzlLRVdVMUZpejVPeWVNTk4yUkFvRXVPWXRJRzNER2RScm9sVGJVVVFMeFd5RTNkODY?oc=5",
+      "summary": "Chargers' McDaniel lauds Herbert's progression in offense ESPN",
+      "published": "2026-08-16T22:00:00+00:00",
+      "source": "ESPN",
       "author": "",
       "raw_entry": {
-        "title": "Chargers C Tyler Biadasz carted off with lower-leg injury - Bolts From The Blue",
+        "title": "Chargers' McDaniel lauds Herbert's progression in offense - ESPN",
         "title_detail": {
           "type": "text/plain",
           "language": null,
           "base": "",
-          "value": "Chargers C Tyler Biadasz carted off with lower-leg injury - Bolts From The Blue"
+          "value": "Chargers' McDaniel lauds Herbert's progression in offense - ESPN"
         },
         "links": [
           {
             "rel": "alternate",
             "type": "text/html",
-            "href": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPdlpWRURWVm82SG51Ykk5SXVWRnBWWHVBRlRRU2RMY3pYNmVKVzdreElyd240aFdVOEl6YU9IUGJLZExGZEhkTDRqOUJ5VUdMRTFoTEsxZUFsY1l3UVRYdU0zNG11UnJEbFZ0WEE3WEtaQVlDbHJiN3RGS05rS1NqS0phY2NFWkFtYnhoaE13R1F2b05qQXFCOXQzSkhHb1d4eFFlc0NfM2swdzBCYWdnYllrRlR1aVJqLXc?oc=5"
+            "href": "https://news.google.com/rss/articles/CBMinAFBVV95cUxOUDFhQS13d2xmc1YyNzN0ZDdQVVNMQWFLZGtSWTRXVzdYSzMwbk53WTN0VVFOOUcwUi1fSmV3WDAyVUpBZWV3SGt6T0FKQ1BOWndOa0RBU3ExcUNFSWpyckRncEJaMXlBRjZtbzlLRVdVMUZpejVPeWVNTk4yUkFvRXVPWXRJRzNER2RScm9sVGJVVVFMeFd5RTNkODY?oc=5"
           }
         ],
-        "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPdlpWRURWVm82SG51Ykk5SXVWRnBWWHVBRlRRU2RMY3pYNmVKVzdreElyd240aFdVOEl6YU9IUGJLZExGZEhkTDRqOUJ5VUdMRTFoTEsxZUFsY1l3UVRYdU0zNG11UnJEbFZ0WEE3WEtaQVlDbHJiN3RGS05rS1NqS0phY2NFWkFtYnhoaE13R1F2b05qQXFCOXQzSkhHb1d4eFFlc0NfM2swdzBCYWdnYllrRlR1aVJqLXc?oc=5",
-        "id": "CBMiugFBVV95cUxPdlpWRURWVm82SG51Ykk5SXVWRnBWWHVBRlRRU2RMY3pYNmVKVzdreElyd240aFdVOEl6YU9IUGJLZExGZEhkTDRqOUJ5VUdMRTFoTEsxZUFsY1l3UVRYdU0zNG11UnJEbFZ0WEE3WEtaQVlDbHJiN3RGS05rS1NqS0phY2NFWkFtYnhoaE13R1F2b05qQXFCOXQzSkhHb1d4eFFlc0NfM2swdzBCYWdnYllrRlR1aVJqLXc",
+        "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxOUDFhQS13d2xmc1YyNzN0ZDdQVVNMQWFLZGtSWTRXVzdYSzMwbk53WTN0VVFOOUcwUi1fSmV3WDAyVUpBZWV3SGt6T0FKQ1BOWndOa0RBU3ExcUNFSWpyckRncEJaMXlBRjZtbzlLRVdVMUZpejVPeWVNTk4yUkFvRXVPWXRJRzNER2RScm9sVGJVVVFMeFd5RTNkODY?oc=5",
+        "id": "CBMinAFBVV95cUxOUDFhQS13d2xmc1YyNzN0ZDdQVVNMQWFLZGtSWTRXVzdYSzMwbk53WTN0VVFOOUcwUi1fSmV3WDAyVUpBZWV3SGt6T0FKQ1BOWndOa0RBU3ExcUNFSWpyckRncEJaMXlBRjZtbzlLRVdVMUZpejVPeWVNTk4yUkFvRXVPWXRJRzNER2RScm9sVGJVVVFMeFd5RTNkODY",
         "guidislink": false,
-        "published": "Tue, 18 Aug 2026 07:00:00 GMT",
+        "published": "Mon, 17 Aug 2026 07:00:00 GMT",
         "published_parsed": [
           2026,
           8,
-          18,
+          17,
           7,
           0,
           0,
-          1,
-          230,
+          0,
+          229,
           0
         ],
-        "summary": "<a href=\"https://news.google.com/rss/articles/CBMiugFBVV95cUxPdlpWRURWVm82SG51Ykk5SXVWRnBWWHVBRlRRU2RMY3pYNmVKVzdreElyd240aFdVOEl6YU9IUGJLZExGZEhkTDRqOUJ5VUdMRTFoTEsxZUFsY1l3UVRYdU0zNG11UnJEbFZ0WEE3WEtaQVlDbHJiN3RGS05rS1NqS0phY2NFWkFtYnhoaE13R1F2b05qQXFCOXQzSkhHb1d4eFFlc0NfM2swdzBCYWdnYllrRlR1aVJqLXc?oc=5\" target=\"_blank\">Chargers C Tyler Biadasz carted off with lower-leg injury</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Bolts From The Blue</font>",
+        "summary": "<a href=\"https://news.google.com/rss/articles/CBMinAFBVV95cUxOUDFhQS13d2xmc1YyNzN0ZDdQVVNMQWFLZGtSWTRXVzdYSzMwbk53WTN0VVFOOUcwUi1fSmV3WDAyVUpBZWV3SGt6T0FKQ1BOWndOa0RBU3ExcUNFSWpyckRncEJaMXlBRjZtbzlLRVdVMUZpejVPeWVNTk4yUkFvRXVPWXRJRzNER2RScm9sVGJVVVFMeFd5RTNkODY?oc=5\" target=\"_blank\">Chargers' McDaniel lauds Herbert's progression in offense</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">ESPN</font>",
         "summary_detail": {
           "type": "text/html",
           "language": null,
           "base": "",
-          "value": "<a href=\"https://news.google.com/rss/articles/CBMiugFBVV95cUxPdlpWRURWVm82SG51Ykk5SXVWRnBWWHVBRlRRU2RMY3pYNmVKVzdreElyd240aFdVOEl6YU9IUGJLZExGZEhkTDRqOUJ5VUdMRTFoTEsxZUFsY1l3UVRYdU0zNG11UnJEbFZ0WEE3WEtaQVlDbHJiN3RGS05rS1NqS0phY2NFWkFtYnhoaE13R1F2b05qQXFCOXQzSkhHb1d4eFFlc0NfM2swdzBCYWdnYllrRlR1aVJqLXc?oc=5\" target=\"_blank\">Chargers C Tyler Biadasz carted off with lower-leg injury</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Bolts From The Blue</font>"
+          "value": "<a href=\"https://news.google.com/rss/articles/CBMinAFBVV95cUxOUDFhQS13d2xmc1YyNzN0ZDdQVVNMQWFLZGtSWTRXVzdYSzMwbk53WTN0VVFOOUcwUi1fSmV3WDAyVUpBZWV3SGt6T0FKQ1BOWndOa0RBU3ExcUNFSWpyckRncEJaMXlBRjZtbzlLRVdVMUZpejVPeWVNTk4yUkFvRXVPWXRJRzNER2RScm9sVGJVVVFMeFd5RTNkODY?oc=5\" target=\"_blank\">Chargers' McDaniel lauds Herbert's progression in offense</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">ESPN</font>"
         },
         "source": {
-          "href": "https://www.boltsfromtheblue.com",
-          "title": "Bolts From The Blue"
+          "href": "https://www.espn.com",
+          "title": "ESPN"
         }
       },
-      "search_query": "Chargers injury roster",
-      "category_key": "injury",
-      "category_name": "부상/로스터 보고",
-      "category_badge": "📋 부상/로스터",
-      "category_icon": "🏥",
+      "search_query": "Justin Herbert Chargers",
+      "category_key": "interview",
+      "category_name": "감독/선수 인터뷰",
+      "category_badge": "🎙️ 인터뷰/발언",
+      "category_icon": "🎙️",
       "importance_score": 80,
       "priority_tier": "🚨 긴급/핵심",
       "priority_class": "tier-critical",
-      "headline_kr": "Tyler Biadasz의 부상 상태 업데이트 및 향후 출전 가능 여부에 대한 팀 공식 리포트입니다.",
+      "headline_kr": "Chargers의 McDaniel은 Herbert의 공격 진행을 칭찬합니다.",
       "summary_bullets_kr": [
-        "📌 **핵심 요약:** Tyler Biadasz의 부상 상태 업데이트 및 향후 출전 가능 여부에 대한 팀 공식 리포트입니다.",
-        "🏈 **주요 인물:** Tyler Biadasz (C)",
-        "⚡ **주요 포인트:** 부상 관련 동향 (부상/로스터 보고)"
+        "📌 **핵심 요약:** Chargers의 McDaniel은 Herbert의 공격 진행 상황을 칭찬합니다. ESPN"
+      ]
+    },
+    {
+      "title": "Patriots with 'ABSOLUTE STUD' A.J. Brown + Justin Herbert & Chargers' offense",
+      "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE9ob1dqS3Y2Sm5WVlZCOVZEWWxlMDA0dmp0WmZhZ3QzakpaeU5BUGI1ZEVJXzAxdGdhZWpGZl8tZlZqOEZ1cllTM3B4Y2hRT1o3bGJESkhoVFk?oc=5",
+      "summary": "Patriots with 'ABSOLUTE STUD' A.J. Brown + Justin Herbert & Chargers' offense ESPN",
+      "published": "2026-08-12T22:00:00+00:00",
+      "source": "ESPN",
+      "author": "",
+      "raw_entry": {
+        "title": "Patriots with 'ABSOLUTE STUD' A.J. Brown + Justin Herbert & Chargers' offense - ESPN",
+        "title_detail": {
+          "type": "text/plain",
+          "language": null,
+          "base": "",
+          "value": "Patriots with 'ABSOLUTE STUD' A.J. Brown + Justin Herbert & Chargers' offense - ESPN"
+        },
+        "links": [
+          {
+            "rel": "alternate",
+            "type": "text/html",
+            "href": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE9ob1dqS3Y2Sm5WVlZCOVZEWWxlMDA0dmp0WmZhZ3QzakpaeU5BUGI1ZEVJXzAxdGdhZWpGZl8tZlZqOEZ1cllTM3B4Y2hRT1o3bGJESkhoVFk?oc=5"
+          }
+        ],
+        "link": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE9ob1dqS3Y2Sm5WVlZCOVZEWWxlMDA0dmp0WmZhZ3QzakpaeU5BUGI1ZEVJXzAxdGdhZWpGZl8tZlZqOEZ1cllTM3B4Y2hRT1o3bGJESkhoVFk?oc=5",
+        "id": "CBMiWEFVX3lxTE9ob1dqS3Y2Sm5WVlZCOVZEWWxlMDA0dmp0WmZhZ3QzakpaeU5BUGI1ZEVJXzAxdGdhZWpGZl8tZlZqOEZ1cllTM3B4Y2hRT1o3bGJESkhoVFk",
+        "guidislink": false,
+        "published": "Thu, 13 Aug 2026 07:00:00 GMT",
+        "published_parsed": [
+          2026,
+          8,
+          13,
+          7,
+          0,
+          0,
+          3,
+          225,
+          0
+        ],
+        "summary": "<a href=\"https://news.google.com/rss/articles/CBMiWEFVX3lxTE9ob1dqS3Y2Sm5WVlZCOVZEWWxlMDA0dmp0WmZhZ3QzakpaeU5BUGI1ZEVJXzAxdGdhZWpGZl8tZlZqOEZ1cllTM3B4Y2hRT1o3bGJESkhoVFk?oc=5\" target=\"_blank\">Patriots with 'ABSOLUTE STUD' A.J. Brown + Justin Herbert & Chargers' offense</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">ESPN</font>",
+        "summary_detail": {
+          "type": "text/html",
+          "language": null,
+          "base": "",
+          "value": "<a href=\"https://news.google.com/rss/articles/CBMiWEFVX3lxTE9ob1dqS3Y2Sm5WVlZCOVZEWWxlMDA0dmp0WmZhZ3QzakpaeU5BUGI1ZEVJXzAxdGdhZWpGZl8tZlZqOEZ1cllTM3B4Y2hRT1o3bGJESkhoVFk?oc=5\" target=\"_blank\">Patriots with 'ABSOLUTE STUD' A.J. Brown + Justin Herbert & Chargers' offense</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">ESPN</font>"
+        },
+        "source": {
+          "href": "https://www.espn.com",
+          "title": "ESPN"
+        }
+      },
+      "search_query": "Justin Herbert Chargers",
+      "category_key": "interview",
+      "category_name": "감독/선수 인터뷰",
+      "category_badge": "🎙️ 인터뷰/발언",
+      "category_icon": "🎙️",
+      "importance_score": 80,
+      "priority_tier": "🚨 긴급/핵심",
+      "priority_class": "tier-critical",
+      "headline_kr": "'ABSOLUTE STUD'를 보유한 Patriots A.J. 브라운 + Justin Herbert & Chargers의 공격",
+      "summary_bullets_kr": [
+        "📌 **핵심 요약:** Chargers 구단 및 Justin Herbert, Patriots 관련 최신 뉴스 업데이트입니다.",
+        "🏈 **주요 인물:** Justin Herbert (QB)"
       ]
     },
     {
@@ -4367,10 +4701,73 @@
       "importance_score": 80,
       "priority_tier": "🚨 긴급/핵심",
       "priority_class": "tier-critical",
-      "headline_kr": "선수단의 부상 상태 업데이트 및 향후 출전 가능 여부에 대한 팀 공식 리포트입니다.",
+      "headline_kr": "Chargers Injury Tracker: 훈련 캠프의 모든 부상 업데이트",
       "summary_bullets_kr": [
         "📌 **핵심 요약:** Chargers 부상 추적기: 훈련 캠프의 모든 부상 업데이트 sports.yahoo.com",
         "⚡ **주요 포인트:** 부상 관련 동향 (부상/로스터 보고)"
+      ]
+    },
+    {
+      "title": "New Chargers offense may be just what Justin Herbert needs. Let OC Mike McDaniel explain",
+      "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxQQ3hfWWgydUVCSXBHZmxlNDJtM29XMkhGLVJscFBvOFg0YVdjbmg1dUlITVZOQllsU2RRWmQ4VlNIdkhQeFJiOXpOLXpfc0lGeVJjMGtVc3FhNHRPVl8zcEJCU1lOc0N2aHBlQjVIS0ZzeVZkSXFfMWFyMWFZSk03QjVtcWZpd0Vuam8tX0R5WngxMklHVFYtY2Jpb25BWU9qdTJCcHJTTG0xOWhidEdHdnRFRUhjanZGMlF0Wk1jalY5Uk5kSWhLUFFsTTNCWWVLY2FnMi1B?oc=5",
+      "summary": "New Chargers offense may be just what Justin Herbert needs. Let OC Mike McDaniel explain sports.yahoo.com",
+      "published": "2026-08-10T22:00:00+00:00",
+      "source": "sports.yahoo.com",
+      "author": "",
+      "raw_entry": {
+        "title": "New Chargers offense may be just what Justin Herbert needs. Let OC Mike McDaniel explain - sports.yahoo.com",
+        "title_detail": {
+          "type": "text/plain",
+          "language": null,
+          "base": "",
+          "value": "New Chargers offense may be just what Justin Herbert needs. Let OC Mike McDaniel explain - sports.yahoo.com"
+        },
+        "links": [
+          {
+            "rel": "alternate",
+            "type": "text/html",
+            "href": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxQQ3hfWWgydUVCSXBHZmxlNDJtM29XMkhGLVJscFBvOFg0YVdjbmg1dUlITVZOQllsU2RRWmQ4VlNIdkhQeFJiOXpOLXpfc0lGeVJjMGtVc3FhNHRPVl8zcEJCU1lOc0N2aHBlQjVIS0ZzeVZkSXFfMWFyMWFZSk03QjVtcWZpd0Vuam8tX0R5WngxMklHVFYtY2Jpb25BWU9qdTJCcHJTTG0xOWhidEdHdnRFRUhjanZGMlF0Wk1jalY5Uk5kSWhLUFFsTTNCWWVLY2FnMi1B?oc=5"
+          }
+        ],
+        "link": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxQQ3hfWWgydUVCSXBHZmxlNDJtM29XMkhGLVJscFBvOFg0YVdjbmg1dUlITVZOQllsU2RRWmQ4VlNIdkhQeFJiOXpOLXpfc0lGeVJjMGtVc3FhNHRPVl8zcEJCU1lOc0N2aHBlQjVIS0ZzeVZkSXFfMWFyMWFZSk03QjVtcWZpd0Vuam8tX0R5WngxMklHVFYtY2Jpb25BWU9qdTJCcHJTTG0xOWhidEdHdnRFRUhjanZGMlF0Wk1jalY5Uk5kSWhLUFFsTTNCWWVLY2FnMi1B?oc=5",
+        "id": "CBMi1gFBVV95cUxQQ3hfWWgydUVCSXBHZmxlNDJtM29XMkhGLVJscFBvOFg0YVdjbmg1dUlITVZOQllsU2RRWmQ4VlNIdkhQeFJiOXpOLXpfc0lGeVJjMGtVc3FhNHRPVl8zcEJCU1lOc0N2aHBlQjVIS0ZzeVZkSXFfMWFyMWFZSk03QjVtcWZpd0Vuam8tX0R5WngxMklHVFYtY2Jpb25BWU9qdTJCcHJTTG0xOWhidEdHdnRFRUhjanZGMlF0Wk1jalY5Uk5kSWhLUFFsTTNCWWVLY2FnMi1B",
+        "guidislink": false,
+        "published": "Tue, 11 Aug 2026 07:00:00 GMT",
+        "published_parsed": [
+          2026,
+          8,
+          11,
+          7,
+          0,
+          0,
+          1,
+          223,
+          0
+        ],
+        "summary": "<a href=\"https://news.google.com/rss/articles/CBMi1gFBVV95cUxQQ3hfWWgydUVCSXBHZmxlNDJtM29XMkhGLVJscFBvOFg0YVdjbmg1dUlITVZOQllsU2RRWmQ4VlNIdkhQeFJiOXpOLXpfc0lGeVJjMGtVc3FhNHRPVl8zcEJCU1lOc0N2aHBlQjVIS0ZzeVZkSXFfMWFyMWFZSk03QjVtcWZpd0Vuam8tX0R5WngxMklHVFYtY2Jpb25BWU9qdTJCcHJTTG0xOWhidEdHdnRFRUhjanZGMlF0Wk1jalY5Uk5kSWhLUFFsTTNCWWVLY2FnMi1B?oc=5\" target=\"_blank\">New Chargers offense may be just what Justin Herbert needs. Let OC Mike McDaniel explain</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">sports.yahoo.com</font>",
+        "summary_detail": {
+          "type": "text/html",
+          "language": null,
+          "base": "",
+          "value": "<a href=\"https://news.google.com/rss/articles/CBMi1gFBVV95cUxQQ3hfWWgydUVCSXBHZmxlNDJtM29XMkhGLVJscFBvOFg0YVdjbmg1dUlITVZOQllsU2RRWmQ4VlNIdkhQeFJiOXpOLXpfc0lGeVJjMGtVc3FhNHRPVl8zcEJCU1lOc0N2aHBlQjVIS0ZzeVZkSXFfMWFyMWFZSk03QjVtcWZpd0Vuam8tX0R5WngxMklHVFYtY2Jpb25BWU9qdTJCcHJTTG0xOWhidEdHdnRFRUhjanZGMlF0Wk1jalY5Uk5kSWhLUFFsTTNCWWVLY2FnMi1B?oc=5\" target=\"_blank\">New Chargers offense may be just what Justin Herbert needs. Let OC Mike McDaniel explain</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">sports.yahoo.com</font>"
+        },
+        "source": {
+          "href": "https://sports.yahoo.com",
+          "title": "sports.yahoo.com"
+        }
+      },
+      "search_query": "Justin Herbert Chargers",
+      "category_key": "interview",
+      "category_name": "감독/선수 인터뷰",
+      "category_badge": "🎙️ 인터뷰/발언",
+      "category_icon": "🎙️",
+      "importance_score": 80,
+      "priority_tier": "🚨 긴급/핵심",
+      "priority_class": "tier-critical",
+      "headline_kr": "새로운 Chargers 공격은 Justin Herbert가 필요로 하는 것일 수도 있습니다. OC Mike McDaniel의 설명을 들어보세요",
+      "summary_bullets_kr": [
+        "📌 **핵심 요약:** 새로운 Chargers 공격은 Justin Herbert가 필요로 하는 것일 수도 있습니다. OC Mike McDaniel이 sports.yahoo.com에 대해 설명하도록 하세요.",
+        "🏈 **주요 인물:** Justin Herbert (QB)"
       ]
     },
     {
@@ -4465,112 +4862,8 @@
       "priority_class": "tier-critical",
       "headline_kr": "RB Omarion Hampton은 지난 시즌 수비수들을 놓치게 만든 NFL에서 3위를 차지했습니다 📈",
       "summary_bullets_kr": [
-        "📌 **핵심 요약:** Chargers 구단 및 선수단 관련 최신 뉴스 업데이트입니다.",
+        "📌 **핵심 요약:** 32번째 OL 뒤에 있음에도 불구하고 FB를 수행하는 백업 DT 및 열악한 TE 차단 이제 Hampton은 더 나은 차단 TE, 더 나은 FB, 더 나은 Center 및 Slater/Alt가 태클에서 건강하게 돌아왔습니다. OC Mike McDaniel과 새로운 OL 코치 Butch는 말할 것도 없고...",
         "🏈 **주요 인물:** Omarion Hampton (RB)"
-      ]
-    },
-    {
-      "title": "Chargers boost offensive line in latest 2027 NFL mock draft",
-      "url": "https://www.boltsfromtheblue.com/los-angeles-chargers-draft/65233/chargers-boost-offensive-line-in-latest-2027-nfl-mock-draft",
-      "summary": "The Los Angeles Chargers scouting department is beginning to pay more attention to the 2027 NFL Draft class as the college football season is now underway. The draft is still eight months away, but the chargers have a general idea of what needs to be improved going into the 2027 season. Bleacher Report conducted a […]",
-      "published": "2026-09-02T07:00:00+00:00",
-      "source": "Bolts From The Blue (SB Nation)",
-      "author": "Jeremy Brener",
-      "raw_entry": {
-        "authors": [
-          {
-            "name": "Jeremy Brener"
-          }
-        ],
-        "author_detail": {
-          "name": "Jeremy Brener"
-        },
-        "author": "Jeremy Brener",
-        "title": "Chargers boost offensive line in latest 2027 NFL mock draft",
-        "title_detail": {
-          "type": "text/html",
-          "language": "en-US",
-          "base": "",
-          "value": "Chargers boost offensive line in latest 2027 NFL mock draft"
-        },
-        "links": [
-          {
-            "rel": "alternate",
-            "type": "text/html",
-            "href": "https://www.boltsfromtheblue.com/los-angeles-chargers-draft/65233/chargers-boost-offensive-line-in-latest-2027-nfl-mock-draft"
-          }
-        ],
-        "link": "https://www.boltsfromtheblue.com/los-angeles-chargers-draft/65233/chargers-boost-offensive-line-in-latest-2027-nfl-mock-draft",
-        "id": "https://www.boltsfromtheblue.com/?p=65233",
-        "guidislink": false,
-        "updated": "2026-08-30T00:15:12-04:00",
-        "updated_parsed": [
-          2026,
-          8,
-          30,
-          4,
-          15,
-          12,
-          6,
-          242,
-          0
-        ],
-        "published": "2026-09-02T12:00:00-04:00",
-        "published_parsed": [
-          2026,
-          9,
-          2,
-          16,
-          0,
-          0,
-          2,
-          245,
-          0
-        ],
-        "tags": [
-          {
-            "term": "Los Angeles Chargers Draft",
-            "scheme": "https://www.boltsfromtheblue.com",
-            "label": null
-          },
-          {
-            "term": "Los Angeles Chargers Mock Drafts",
-            "scheme": "https://www.boltsfromtheblue.com",
-            "label": null
-          },
-          {
-            "term": "Los Angeles Chargers News",
-            "scheme": "https://www.boltsfromtheblue.com",
-            "label": null
-          }
-        ],
-        "summary": "The Los Angeles Chargers scouting department is beginning to pay more attention to the 2027 NFL Draft class as the college football season is now underway. The draft is still eight months away, but the chargers have a general idea of what needs to be improved going into the 2027 season. Bleacher Report conducted a [&#8230;]",
-        "summary_detail": {
-          "type": "text/html",
-          "language": "en-US",
-          "base": "",
-          "value": "The Los Angeles Chargers scouting department is beginning to pay more attention to the 2027 NFL Draft class as the college football season is now underway. The draft is still eight months away, but the chargers have a general idea of what needs to be improved going into the 2027 season. Bleacher Report conducted a [&#8230;]"
-        },
-        "content": [
-          {
-            "type": "text/html",
-            "language": "en-US",
-            "base": "",
-            "value": "<figure>\n\n<img alt=\"\" src=\"https://platform.boltsfromtheblue.com/wp-content/uploads/sites/42/2026/08/gettyimages-2181904897.jpg?quality=90&#038;strip=all&#038;crop=0,0,100,100\" />\n\t<figcaption>\n\tIOWA CITY, IOWA- OCTOBER 26: Offensive lineman Trevor Lauck #59 of the Iowa Hawkeyes blocks during the second half against defensive lineman Michael Kilbane #47 of the Northwestern Wildcats at Kinnick Stadium on October 26, 2024 in Iowa City, Iowa. (Photo by Matthew Holst/Getty Images) | Getty Images\t</figcaption>\n</figure>\n<p class=\"wp-block-paragraph\">The Los Angeles Chargers scouting department is beginning to pay more attention to the 2027 NFL Draft class as the college football season is now underway.</p>\n\n<p class=\"wp-block-paragraph\">The draft is still eight months away, but the chargers have a general idea of what needs to be improved going into the 2027 season. Bleacher Report conducted a recent mock draft, where the team selected Iowa interior lineman Trevor Lauck.</p>\n\n<p class=\"wp-block-paragraph\">&#8220;Lauck is a tough, hard-nosed left tackle with good in-line power as a run blocker, fitting the traditional Iowa archetype,&#8221; <a href=\"https://bleacherreport.com/articles/25470858-br-nfl-scouting-depts-initial-2027-nfl-mock-draft\">Bleacher Report scout Brandon Thorn said. </a></p>\n\n<p class=\"wp-block-paragraph\">&#8220;He also appears a bit sawed-off for left tackle consideration at the next level, though he has the movement skills to make it work if needed. Similar to previous Iowa tackles Riley Reiff, Brandon Scherff and Bryan Bulaga, Lauck has the play-strength and competitive toughness to signal a high-floor NFL starter, with the potential to seamlessly slide inside and excel.&#8221;</p>\n\n<p class=\"wp-block-paragraph\">The Chargers have Kayode Awosika as the starting left guard on the initial depth chart, suggesting that the team does not have a long-term solution at the position. Putting Lauck in the left guard spot would give the Chargers three first-round picks in the trenches, joining Rashawn Slater and Joe Alt.</p>\n\n<p class=\"wp-block-paragraph\">The Chargers will need to see how they perform in the 2026 season before figuring out which positions to prioritize going into the next draft. Adding a left guard who could be one of the better interior lineman prospects going into next year is definitely a smart choice for a team like the Chargers.</p>"
-          }
-        ]
-      },
-      "category_key": "roster",
-      "category_name": "계약/트레이드/드래프트",
-      "category_badge": "🎯 영입/계약",
-      "category_icon": "✍️",
-      "importance_score": 78,
-      "priority_tier": "🚨 긴급/핵심",
-      "priority_class": "tier-critical",
-      "headline_kr": "Chargers는 최신 2027 NFL 모의 드래프트에서 공격 라인을 강화합니다.",
-      "summary_bullets_kr": [
-        "📌 **핵심 요약:** Chargers 구단 및 선수단 관련 최신 뉴스 업데이트입니다.",
-        "⚡ **주요 포인트:** 드래프트 관련 동향 (계약/트레이드/드래프트)"
       ]
     },
     {
@@ -4632,7 +4925,7 @@
       "priority_class": "tier-critical",
       "headline_kr": "Chargers의 왼쪽 가드에서 누가 시작할 것인지에 대한 Jim Harbaugh",
       "summary_bullets_kr": [
-        "📌 **핵심 요약:** Jim Harbaugh 감독 및 코칭스태프의 인터뷰로, 팀 문화 쇄신과 선수단 훈련 평가를 전달했습니다.",
+        "📌 **핵심 요약:** Chargers의 왼쪽 가드에서 누가 시작할 것인지에 대한 Jim Harbaugh sports.yahoo.com",
         "🏈 **주요 인물:** Jim Harbaugh (HC)"
       ]
     },
@@ -4685,7 +4978,7 @@
           "title": "sports.yahoo.com"
         }
       },
-      "search_query": "Los Angeles Chargers",
+      "search_query": "Chargers Los Angeles Chargers",
       "category_key": "roster",
       "category_name": "계약/트레이드/드래프트",
       "category_badge": "🎯 영입/계약",
@@ -4693,9 +4986,9 @@
       "importance_score": 78,
       "priority_tier": "🚨 긴급/핵심",
       "priority_class": "tier-critical",
-      "headline_kr": "Chargers의 53인 최종 로스터 진입 경쟁 및 선수단의 계약/영입 관련 최신 소식입니다.",
+      "headline_kr": "Chargers, 전 2022년 1라운드 픽 투 프랙티스 스쿼드 서명",
       "summary_bullets_kr": [
-        "📌 **핵심 요약:** Chargers의 53인 최종 로스터 진입 경쟁 및 선수단의 계약/영입 관련 최신 소식입니다.",
+        "📌 **핵심 요약:** Chargers, 이전 2022년 1라운드 픽 투 프랙티스 스쿼드 서명 sports.yahoo.com",
         "⚡ **주요 포인트:** 연습 스쿼드 관련 동향 (계약/트레이드/드래프트)"
       ]
     },
@@ -4756,9 +5049,9 @@
       "importance_score": 78,
       "priority_tier": "🚨 긴급/핵심",
       "priority_class": "tier-critical",
-      "headline_kr": "Chargers Place Branson Taylor, Scott Matlock이 부상당한 예비군에 복귀하도록 지정됨",
+      "headline_kr": "32번째 OL 뒤에 있음에도 불구하고 FB를 수행하는 백업 DT 및 열악한 TE 차단 이제 Hampton은 더 나은 차단 TE, 더 나은 FB, 더 나은 Center 및 Slater/Alt가 태클에서 건강하게 돌아왔습니다. OC Mike McDaniel과 새로운 OL 코치 Butch는 말할 것도 없고...",
       "summary_bullets_kr": [
-        "📌 **핵심 요약:** 선수단의 부상 상태 업데이트 및 향후 출전 가능 여부에 대한 팀 공식 리포트입니다.",
+        "📌 **핵심 요약:** Chargers Place Branson Taylor, Scott Matlock on Injured Reserve, LA Chargers 반환 지정",
         "⚡ **주요 포인트:** 부상자, 부상자 명단(IR) 관련 동향 (부상/로스터 보고)"
       ]
     },
@@ -4819,9 +5112,9 @@
       "importance_score": 78,
       "priority_tier": "🚨 긴급/핵심",
       "priority_class": "tier-critical",
-      "headline_kr": "Chargers의 53인 최종 로스터 진입 경쟁 및 선수단의 계약/영입 관련 최신 소식입니다.",
+      "headline_kr": "명단 삭감에 앞서 LA Chargers 연습 선수단 예측",
       "summary_bullets_kr": [
-        "📌 **핵심 요약:** Chargers의 53인 최종 로스터 진입 경쟁 및 선수단의 계약/영입 관련 최신 소식입니다.",
+        "📌 **핵심 요약:** 명단 삭제를 앞두고 LA Chargers 연습 팀 예측 Sports Illustrated",
         "⚡ **주요 포인트:** 선수 로스터, 연습 스쿼드 관련 동향 (계약/트레이드/드래프트)"
       ]
     },
@@ -4882,9 +5175,9 @@
       "importance_score": 78,
       "priority_tier": "🚨 긴급/핵심",
       "priority_class": "tier-critical",
-      "headline_kr": "Chargers의 53인 최종 로스터 진입 경쟁 및 선수단의 계약/영입 관련 최신 소식입니다.",
+      "headline_kr": "방어 버블의 차저: 최종 명단 삭감 전에 누가 논쟁을 벌이고 있습니까?",
       "summary_bullets_kr": [
-        "📌 **핵심 요약:** Chargers의 53인 최종 로스터 진입 경쟁 및 선수단의 계약/영입 관련 최신 소식입니다.",
+        "📌 **핵심 요약:** 수비 버블의 차저: 최종 명단을 삭감하기 전에 누가 논쟁을 벌이고 있는지 sports.yahoo.com",
         "⚡ **주요 포인트:** 선수 로스터 관련 동향 (경기 결과/프리뷰)"
       ]
     },
@@ -4947,7 +5240,7 @@
       "priority_class": "tier-critical",
       "headline_kr": "Jim Harbaugh는 Chargers 스타터가 목요일에 얼마나 많은 플레이를 할 것인지를 명확히 합니다.",
       "summary_bullets_kr": [
-        "📌 **핵심 요약:** Jim Harbaugh 감독 및 코칭스태프의 인터뷰로, 팀 문화 쇄신과 선수단 훈련 평가를 전달했습니다.",
+        "📌 **핵심 요약:** Jim Harbaugh는 목요일에 Chargers 스타터들이 얼마나 많은 경기를 펼칠지 명확히 했습니다. sports.yahoo.com",
         "🏈 **주요 인물:** Jim Harbaugh (HC)"
       ]
     },
@@ -5136,9 +5429,9 @@
       "importance_score": 75,
       "priority_tier": "🚨 긴급/핵심",
       "priority_class": "tier-critical",
-      "headline_kr": "Chargers 구단 및 선수단 관련 최신 뉴스 업데이트입니다.",
+      "headline_kr": "뒷문 조언",
       "summary_bullets_kr": [
-        "📌 **핵심 요약:** Chargers 구단 및 선수단 관련 최신 뉴스 업데이트입니다."
+        "📌 **핵심 요약:** 볼트 가족들은 안녕하십니까? 저는 2주차인 20일에 Chargers/Raiders 게임에 갈 예정입니다."
       ]
     },
     {
@@ -5231,9 +5524,9 @@
       "importance_score": 75,
       "priority_tier": "🚨 긴급/핵심",
       "priority_class": "tier-critical",
-      "headline_kr": "Chargers 구단 및 선수단 관련 최신 뉴스 업데이트입니다.",
+      "headline_kr": "[림] RB 키튼 미첼이 마지막 6경기를 놓친 뒤 Chargers 연습장으로 돌아왔습니다. WR 브레넨 톰슨도 돌아왔습니다 ⛑️",
       "summary_bullets_kr": [
-        "📌 **핵심 요약:** https://x.com/krisrhim1/status/2097054347482014083 제출자: /u/RecordingLess1522 [링크] [댓글]"
+        "📌 **핵심 요약:** 볼트 가족들은 안녕하십니까? 저는 2주차인 20일에 Chargers/Raiders 게임에 갈 예정입니다."
       ]
     },
     {
@@ -5293,9 +5586,9 @@
       "importance_score": 75,
       "priority_tier": "🚨 긴급/핵심",
       "priority_class": "tier-critical",
-      "headline_kr": "Chargers의 최근 경기 결과 및 플레이 하이라이트 분석 소식입니다.",
+      "headline_kr": "CBS Sports가 Omarion Hampton이 2026년 NFL 러싱 타이틀을 획득할 것이라고 예측하는 이유",
       "summary_bullets_kr": [
-        "📌 **핵심 요약:** Chargers의 최근 경기 결과 및 플레이 하이라이트 분석 소식입니다.",
+        "📌 **핵심 요약:** CBS 스포츠가 Omarion Hampton이 2026년 LA Chargers에서 NFL 러싱 타이틀을 획득할 것이라고 예측하는 이유",
         "🏈 **주요 인물:** Omarion Hampton (RB)"
       ]
     },
@@ -5356,7 +5649,7 @@
       "importance_score": 75,
       "priority_tier": "🚨 긴급/핵심",
       "priority_class": "tier-critical",
-      "headline_kr": "선수단의 부상 상태 업데이트 및 향후 출전 가능 여부에 대한 팀 공식 리포트입니다.",
+      "headline_kr": "Chargers는 합동 연습 중 전방십자인대(ACL) 부상을 입어 시즌 동안 3천만 달러의 센터 손실을 입었습니다.",
       "summary_bullets_kr": [
         "📌 **핵심 요약:** Chargers는 합동 연습 중 전방십자인대(ACL) 부상을 입어 시즌 동안 3천만 달러의 센터 손실을 입었습니다. foxnews.com",
         "⚡ **주요 포인트:** 부상, 합동 훈련 관련 동향 (경기 결과/프리뷰)"
@@ -5419,7 +5712,7 @@
       "importance_score": 75,
       "priority_tier": "🚨 긴급/핵심",
       "priority_class": "tier-critical",
-      "headline_kr": "Jim Harbaugh 감독 및 코칭스태프의 인터뷰로, 팀 문화 쇄신과 선수단 훈련 평가를 전달했습니다.",
+      "headline_kr": "Jim Harbaugh는 터치다운 리턴 시 펀터의 당황스러울 정도로 약한 태클 시도에 만족하지 않습니다.",
       "summary_bullets_kr": [
         "📌 **핵심 요약:** Jim Harbaugh는 터치다운 리턴에서 그의 펀터의 당황스러울 정도로 약한 태클 시도에 만족하지 않습니다.",
         "🏈 **주요 인물:** Jim Harbaugh (HC)",
@@ -5485,7 +5778,7 @@
       "priority_class": "tier-critical",
       "headline_kr": "Jim Harbaugh는 펀터 JK Scott의 터치다운 리턴 성능에 만족하지 않았습니다.",
       "summary_bullets_kr": [
-        "📌 **핵심 요약:** Jim Harbaugh는 펀터 JK Scott의 터치다운 리턴 성능에 만족하지 않았습니다. NBC Sports",
+        "📌 **핵심 요약:** Jim Harbaugh 감독 및 코칭스태프의 인터뷰로, 팀 문화 쇄신과 선수단 훈련 평가를 전달했습니다.",
         "🏈 **주요 인물:** Jim Harbaugh (HC)",
         "⚡ **주요 포인트:** 터치다운 관련 동향 (경기 결과/프리뷰)"
       ]
@@ -5547,9 +5840,9 @@
       "importance_score": 75,
       "priority_tier": "🚨 긴급/핵심",
       "priority_class": "tier-critical",
-      "headline_kr": "Chargers의 최근 경기 결과 및 플레이 하이라이트 분석 소식입니다.",
+      "headline_kr": "\"그가 뭔가를 이길 때까지… 아니\": NFL World Trolls Jim Harbaugh As Chargers HC가 대담하게 인정 약 $40,000,000 가치 스타",
       "summary_bullets_kr": [
-        "📌 **핵심 요약:** Chargers의 최근 경기 결과 및 플레이 하이라이트 분석 소식입니다.",
+        "📌 **핵심 요약:** Los Angeles Chargers 스카우트 부서는 이제 대학 NFL 미식축구 시즌이 진행됨에 따라 2027 NFL Draft 클래스에 더 많은 관심을 기울이기 시작했습니다. 초안은 아직 8개월 남았지만 Chargers는 무엇이 필요한지에 대한 일반적인 아이디어를 가지고 있습니다.",
         "🏈 **주요 인물:** Jim Harbaugh (HC)"
       ]
     },
@@ -5612,7 +5905,7 @@
       "priority_class": "tier-critical",
       "headline_kr": "프리시즌에서 눈에 띄는 Chargers 선수 5명이 텍사스를 상대로 승리를 거두었습니다.",
       "summary_bullets_kr": [
-        "📌 **핵심 요약:** Chargers의 최근 경기 결과 및 플레이 하이라이트 분석 소식입니다.",
+        "📌 **핵심 요약:** 프리시즌에서 눈에 띄는 Chargers 선수 5명이 텍사스 LA Chargers를 상대로 승리를 거두었습니다.",
         "⚡ **주요 포인트:** 프리시즌 관련 동향 (경기 결과/프리뷰)"
       ]
     },
@@ -5704,10 +5997,114 @@
       "importance_score": 73,
       "priority_tier": "⚡ 주요",
       "priority_class": "tier-high",
-      "headline_kr": "Chargers 구단 및 선수단 관련 최신 뉴스 업데이트입니다.",
+      "headline_kr": "Chargers는 최신 2027 NFL 모의 드래프트에서 공격 라인을 강화합니다.",
       "summary_bullets_kr": [
         "📌 **핵심 요약:** LA Chargers(Los Angeles Chargers)는 리그 최고의 팀 중 하나가 되기를 희망하는 시즌 시작을 일주일 남짓 남겨두고 있습니다. Chargers는 플레이오프 3연속 출전을 노리고 있지만 이번 시즌에는 공격 방식이 조금 다르다.",
         "⚡ **주요 포인트:** 공격 코디네이터 관련 동향 (경기 결과/프리뷰)"
+      ]
+    },
+    {
+      "title": "Chargers boost offensive line in latest 2027 NFL mock draft",
+      "url": "https://www.boltsfromtheblue.com/los-angeles-chargers-draft/65233/chargers-boost-offensive-line-in-latest-2027-nfl-mock-draft",
+      "summary": "The Los Angeles Chargers scouting department is beginning to pay more attention to the 2027 NFL Draft class as the college football season is now underway. The draft is still eight months away, but the chargers have a general idea of what needs to be improved going into the 2027 season. Bleacher Report conducted a […]",
+      "published": "2026-09-02T07:00:00+00:00",
+      "source": "Bolts From The Blue (SB Nation)",
+      "author": "Jeremy Brener",
+      "raw_entry": {
+        "authors": [
+          {
+            "name": "Jeremy Brener"
+          }
+        ],
+        "author_detail": {
+          "name": "Jeremy Brener"
+        },
+        "author": "Jeremy Brener",
+        "title": "Chargers boost offensive line in latest 2027 NFL mock draft",
+        "title_detail": {
+          "type": "text/html",
+          "language": "en-US",
+          "base": "",
+          "value": "Chargers boost offensive line in latest 2027 NFL mock draft"
+        },
+        "links": [
+          {
+            "rel": "alternate",
+            "type": "text/html",
+            "href": "https://www.boltsfromtheblue.com/los-angeles-chargers-draft/65233/chargers-boost-offensive-line-in-latest-2027-nfl-mock-draft"
+          }
+        ],
+        "link": "https://www.boltsfromtheblue.com/los-angeles-chargers-draft/65233/chargers-boost-offensive-line-in-latest-2027-nfl-mock-draft",
+        "id": "https://www.boltsfromtheblue.com/?p=65233",
+        "guidislink": false,
+        "updated": "2026-08-30T00:15:12-04:00",
+        "updated_parsed": [
+          2026,
+          8,
+          30,
+          4,
+          15,
+          12,
+          6,
+          242,
+          0
+        ],
+        "published": "2026-09-02T12:00:00-04:00",
+        "published_parsed": [
+          2026,
+          9,
+          2,
+          16,
+          0,
+          0,
+          2,
+          245,
+          0
+        ],
+        "tags": [
+          {
+            "term": "Los Angeles Chargers Draft",
+            "scheme": "https://www.boltsfromtheblue.com",
+            "label": null
+          },
+          {
+            "term": "Los Angeles Chargers Mock Drafts",
+            "scheme": "https://www.boltsfromtheblue.com",
+            "label": null
+          },
+          {
+            "term": "Los Angeles Chargers News",
+            "scheme": "https://www.boltsfromtheblue.com",
+            "label": null
+          }
+        ],
+        "summary": "The Los Angeles Chargers scouting department is beginning to pay more attention to the 2027 NFL Draft class as the college football season is now underway. The draft is still eight months away, but the chargers have a general idea of what needs to be improved going into the 2027 season. Bleacher Report conducted a [&#8230;]",
+        "summary_detail": {
+          "type": "text/html",
+          "language": "en-US",
+          "base": "",
+          "value": "The Los Angeles Chargers scouting department is beginning to pay more attention to the 2027 NFL Draft class as the college football season is now underway. The draft is still eight months away, but the chargers have a general idea of what needs to be improved going into the 2027 season. Bleacher Report conducted a [&#8230;]"
+        },
+        "content": [
+          {
+            "type": "text/html",
+            "language": "en-US",
+            "base": "",
+            "value": "<figure>\n\n<img alt=\"\" src=\"https://platform.boltsfromtheblue.com/wp-content/uploads/sites/42/2026/08/gettyimages-2181904897.jpg?quality=90&#038;strip=all&#038;crop=0,0,100,100\" />\n\t<figcaption>\n\tIOWA CITY, IOWA- OCTOBER 26: Offensive lineman Trevor Lauck #59 of the Iowa Hawkeyes blocks during the second half against defensive lineman Michael Kilbane #47 of the Northwestern Wildcats at Kinnick Stadium on October 26, 2024 in Iowa City, Iowa. (Photo by Matthew Holst/Getty Images) | Getty Images\t</figcaption>\n</figure>\n<p class=\"wp-block-paragraph\">The Los Angeles Chargers scouting department is beginning to pay more attention to the 2027 NFL Draft class as the college football season is now underway.</p>\n\n<p class=\"wp-block-paragraph\">The draft is still eight months away, but the chargers have a general idea of what needs to be improved going into the 2027 season. Bleacher Report conducted a recent mock draft, where the team selected Iowa interior lineman Trevor Lauck.</p>\n\n<p class=\"wp-block-paragraph\">&#8220;Lauck is a tough, hard-nosed left tackle with good in-line power as a run blocker, fitting the traditional Iowa archetype,&#8221; <a href=\"https://bleacherreport.com/articles/25470858-br-nfl-scouting-depts-initial-2027-nfl-mock-draft\">Bleacher Report scout Brandon Thorn said. </a></p>\n\n<p class=\"wp-block-paragraph\">&#8220;He also appears a bit sawed-off for left tackle consideration at the next level, though he has the movement skills to make it work if needed. Similar to previous Iowa tackles Riley Reiff, Brandon Scherff and Bryan Bulaga, Lauck has the play-strength and competitive toughness to signal a high-floor NFL starter, with the potential to seamlessly slide inside and excel.&#8221;</p>\n\n<p class=\"wp-block-paragraph\">The Chargers have Kayode Awosika as the starting left guard on the initial depth chart, suggesting that the team does not have a long-term solution at the position. Putting Lauck in the left guard spot would give the Chargers three first-round picks in the trenches, joining Rashawn Slater and Joe Alt.</p>\n\n<p class=\"wp-block-paragraph\">The Chargers will need to see how they perform in the 2026 season before figuring out which positions to prioritize going into the next draft. Adding a left guard who could be one of the better interior lineman prospects going into next year is definitely a smart choice for a team like the Chargers.</p>"
+          }
+        ]
+      },
+      "category_key": "roster",
+      "category_name": "계약/트레이드/드래프트",
+      "category_badge": "🎯 영입/계약",
+      "category_icon": "✍️",
+      "importance_score": 73,
+      "priority_tier": "⚡ 주요",
+      "priority_class": "tier-high",
+      "headline_kr": "Chargers는 최신 2027 NFL 모의 드래프트에서 공격 라인을 강화합니다.",
+      "summary_bullets_kr": [
+        "📌 **핵심 요약:** Los Angeles Chargers 스카우트 부서는 이제 대학 NFL 미식축구 시즌이 진행됨에 따라 2027 NFL Draft 클래스에 더 많은 관심을 기울이기 시작했습니다. 초안은 아직 8개월 남았지만, Chargers는 무엇이 필요한지에 대한 일반적인 아이디어를 가지고 있습니다.",
+        "⚡ **주요 포인트:** 드래프트 관련 동향 (계약/트레이드/드래프트)"
       ]
     },
     {
@@ -5800,7 +6197,7 @@
       "priority_class": "tier-high",
       "headline_kr": "LA Chargers 뉴스: 볼트, 2026년 유니폼 일정 발표",
       "summary_bullets_kr": [
-        "📌 **핵심 요약:** Chargers의 프리시즌 경기 일정 및 팀 훈련 준비 소식입니다."
+        "📌 **핵심 요약:** 안녕하세요, Chargers 팬 여러분! 드디어 기다리고 기다리던 2026시즌 유니폼 일정이 나왔습니다!"
       ]
     },
     {
@@ -5852,7 +6249,7 @@
           "title": "The Register-Guard"
         }
       },
-      "search_query": "Justin Herbert Chargers",
+      "search_query": "Chargers Justin Herbert",
       "category_key": "interview",
       "category_name": "감독/선수 인터뷰",
       "category_badge": "🎙️ 인터뷰/발언",
@@ -5862,7 +6259,7 @@
       "priority_class": "tier-high",
       "headline_kr": "Chargers 구단 및 선수단 관련 최신 뉴스 업데이트입니다.",
       "summary_bullets_kr": [
-        "📌 **핵심 요약:** Chargers 구단 및 선수단 관련 최신 뉴스 업데이트입니다."
+        "📌 **핵심 요약:** 패트릭이 NFL의 Chargers 더 레지스터-가드(Chargers The Register-Guard)에서 저스틴과 합류하면서 Justin Herbert 형제가 재회했습니다."
       ]
     },
     {
@@ -5953,7 +6350,7 @@
       "importance_score": 73,
       "priority_tier": "⚡ 주요",
       "priority_class": "tier-high",
-      "headline_kr": "Chargers 구단 및 선수단 관련 최신 뉴스 업데이트입니다.",
+      "headline_kr": "역사상 최고의 PFF 패스 러시 듀오 중 하나로 선정된 Chargers 듀오",
       "summary_bullets_kr": [
         "📌 **핵심 요약:** 2010년대 후반은 Chargers의 패스가 돌진하는 모습을 지켜보는 즐거운 시간이었습니다. Joey Bosa와 Melvin Ingram이 건강하고 함께 현장에 있을 때마다 즐거운 시간이었습니다.",
         "🏈 **주요 인물:** Joey Bosa (EDGE)"
@@ -6047,9 +6444,9 @@
       "importance_score": 73,
       "priority_tier": "⚡ 주요",
       "priority_class": "tier-high",
-      "headline_kr": "Chargers 구단 및 Quentin Johnston 관련 최신 뉴스 업데이트입니다.",
+      "headline_kr": "쿠엔틴 존스턴이 Chargers의 공격에 '흥분'한 이유",
       "summary_bullets_kr": [
-        "📌 **핵심 요약:** Chargers 구단 및 Quentin Johnston 관련 최신 뉴스 업데이트입니다.",
+        "📌 **핵심 요약:** Los Angeles Chargers의 와이드 리시버 Quentin Johnston이 네 번째 NFL 시즌을 맞이하고 있으며, 그 어느 때보다 기대감이 더 커질 수 있습니다. Johnston과 Chargers는 새로운 오프 시즌에서 교훈을 얻으면서 오프 시즌 내내 추진력을 쌓아 왔습니다.",
         "🏈 **주요 인물:** Quentin Johnston (WR)",
         "⚡ **주요 포인트:** 헤드코치(감독), 공격 코디네이터 관련 동향 (감독/선수 인터뷰)"
       ]
@@ -6111,7 +6508,7 @@
       "importance_score": 73,
       "priority_tier": "⚡ 주요",
       "priority_class": "tier-high",
-      "headline_kr": "Chargers 구단 및 Justin Herbert 관련 최신 뉴스 업데이트입니다.",
+      "headline_kr": "Justin Herbert(Justin Herbert)의 형제가 Chargers(Chargers)에 합류할 예정입니다.",
       "summary_bullets_kr": [
         "📌 **핵심 요약:** Justin Herbert(Justin Herbert)의 형이 Chargers 애슬론 스포츠(Chargers Athlon Sports)에 합류할 예정입니다.",
         "🏈 **주요 인물:** Justin Herbert (QB)"
@@ -6174,11 +6571,74 @@
       "importance_score": 73,
       "priority_tier": "⚡ 주요",
       "priority_class": "tier-high",
-      "headline_kr": "Chargers 구단 및 Justin Herbert 관련 최신 뉴스 업데이트입니다.",
+      "headline_kr": "Justin Herbert(Justin Herbert)의 형제 패트릭 Justin Herbert(Patrick Herbert)가 Chargers의 연습반에 합류",
       "summary_bullets_kr": [
-        "📌 **핵심 요약:** Chargers 구단 및 Justin Herbert 관련 최신 뉴스 업데이트입니다.",
+        "📌 **핵심 요약:** Justin Herbert의 형제인 Patrick Herbert가 Chargers의 연습팀 NBC Sports에 합류했습니다.",
         "🏈 **주요 인물:** Justin Herbert (QB)",
         "⚡ **주요 포인트:** 연습 스쿼드 관련 동향 (계약/트레이드/드래프트)"
+      ]
+    },
+    {
+      "title": "What Are Justin Herbert's 2026 NFL MVP Odds?",
+      "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE9TMjFneC1hRVVFV1AxMnQ4ZkNsbWtMclBQVHEyMnN6cjJwR01hZTNSR2pPY3ZOeDBOV3VUcDRndzN2ZlV0eHNod2F3amJPS21KZFNfbUtjaXMyTWJEQ2hzRmpPa0JJcklLMzk1dFU1aGU?oc=5",
+      "summary": "What Are Justin Herbert's 2026 NFL MVP Odds? Los Angeles Chargers",
+      "published": "2026-08-31T22:00:00+00:00",
+      "source": "Los Angeles Chargers",
+      "author": "",
+      "raw_entry": {
+        "title": "What Are Justin Herbert's 2026 NFL MVP Odds? - Los Angeles Chargers",
+        "title_detail": {
+          "type": "text/plain",
+          "language": null,
+          "base": "",
+          "value": "What Are Justin Herbert's 2026 NFL MVP Odds? - Los Angeles Chargers"
+        },
+        "links": [
+          {
+            "rel": "alternate",
+            "type": "text/html",
+            "href": "https://news.google.com/rss/articles/CBMicEFVX3lxTE9TMjFneC1hRVVFV1AxMnQ4ZkNsbWtMclBQVHEyMnN6cjJwR01hZTNSR2pPY3ZOeDBOV3VUcDRndzN2ZlV0eHNod2F3amJPS21KZFNfbUtjaXMyTWJEQ2hzRmpPa0JJcklLMzk1dFU1aGU?oc=5"
+          }
+        ],
+        "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE9TMjFneC1hRVVFV1AxMnQ4ZkNsbWtMclBQVHEyMnN6cjJwR01hZTNSR2pPY3ZOeDBOV3VUcDRndzN2ZlV0eHNod2F3amJPS21KZFNfbUtjaXMyTWJEQ2hzRmpPa0JJcklLMzk1dFU1aGU?oc=5",
+        "id": "CBMicEFVX3lxTE9TMjFneC1hRVVFV1AxMnQ4ZkNsbWtMclBQVHEyMnN6cjJwR01hZTNSR2pPY3ZOeDBOV3VUcDRndzN2ZlV0eHNod2F3amJPS21KZFNfbUtjaXMyTWJEQ2hzRmpPa0JJcklLMzk1dFU1aGU",
+        "guidislink": false,
+        "published": "Tue, 01 Sep 2026 07:00:00 GMT",
+        "published_parsed": [
+          2026,
+          9,
+          1,
+          7,
+          0,
+          0,
+          1,
+          244,
+          0
+        ],
+        "summary": "<a href=\"https://news.google.com/rss/articles/CBMicEFVX3lxTE9TMjFneC1hRVVFV1AxMnQ4ZkNsbWtMclBQVHEyMnN6cjJwR01hZTNSR2pPY3ZOeDBOV3VUcDRndzN2ZlV0eHNod2F3amJPS21KZFNfbUtjaXMyTWJEQ2hzRmpPa0JJcklLMzk1dFU1aGU?oc=5\" target=\"_blank\">What Are Justin Herbert's 2026 NFL MVP Odds?</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Los Angeles Chargers</font>",
+        "summary_detail": {
+          "type": "text/html",
+          "language": null,
+          "base": "",
+          "value": "<a href=\"https://news.google.com/rss/articles/CBMicEFVX3lxTE9TMjFneC1hRVVFV1AxMnQ4ZkNsbWtMclBQVHEyMnN6cjJwR01hZTNSR2pPY3ZOeDBOV3VUcDRndzN2ZlV0eHNod2F3amJPS21KZFNfbUtjaXMyTWJEQ2hzRmpPa0JJcklLMzk1dFU1aGU?oc=5\" target=\"_blank\">What Are Justin Herbert's 2026 NFL MVP Odds?</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Los Angeles Chargers</font>"
+        },
+        "source": {
+          "href": "https://www.chargers.com",
+          "title": "Los Angeles Chargers"
+        }
+      },
+      "search_query": "Justin Herbert Chargers",
+      "category_key": "interview",
+      "category_name": "감독/선수 인터뷰",
+      "category_badge": "🎙️ 인터뷰/발언",
+      "category_icon": "🎙️",
+      "importance_score": 73,
+      "priority_tier": "⚡ 주요",
+      "priority_class": "tier-high",
+      "headline_kr": "Justin Herbert의 2026 NFL MVP 확률은 무엇입니까?",
+      "summary_bullets_kr": [
+        "📌 **핵심 요약:** Justin Herbert의 2026 NFL MVP 확률은 무엇입니까? LA Chargers",
+        "🏈 **주요 인물:** Justin Herbert (QB)"
       ]
     },
     {
@@ -6242,69 +6702,6 @@
       "summary_bullets_kr": [
         "📌 **핵심 요약:** Patrick Herbert는 Chargers와 함께 Justin Herbert 형제와 합류하기로 결정했습니다. 출처 nytimes.com",
         "🏈 **주요 인물:** Justin Herbert (QB)"
-      ]
-    },
-    {
-      "title": "Chargers Trade CB Avery Smith to Seahawks; DL TeRah Edwards to Panthers For 6th-Round Picks",
-      "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNYllRZk5ENFI1YzJCV0NIb1pZcjloTXZmOFd2RXVhbU9uVXUyZ2FlNG1maTVMX0IxeUpjc1ZBYWcydmlITDF6NmNwdml0NWZRZVZpZHgyQnNmSnNqZG1XODFrOEFLZmJfSXV2NzExOXI3bndNNUM5V1ZyU3RnMGE3alh4V19valNRZmVadEFDS1g2eGFmY3c?oc=5",
-      "summary": "Chargers Trade CB Avery Smith to Seahawks; DL TeRah Edwards to Panthers For 6th-Round Picks Los Angeles Chargers",
-      "published": "2026-08-30T15:58:16+00:00",
-      "source": "Los Angeles Chargers",
-      "author": "",
-      "raw_entry": {
-        "title": "Chargers Trade CB Avery Smith to Seahawks; DL TeRah Edwards to Panthers For 6th-Round Picks - Los Angeles Chargers",
-        "title_detail": {
-          "type": "text/plain",
-          "language": null,
-          "base": "",
-          "value": "Chargers Trade CB Avery Smith to Seahawks; DL TeRah Edwards to Panthers For 6th-Round Picks - Los Angeles Chargers"
-        },
-        "links": [
-          {
-            "rel": "alternate",
-            "type": "text/html",
-            "href": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNYllRZk5ENFI1YzJCV0NIb1pZcjloTXZmOFd2RXVhbU9uVXUyZ2FlNG1maTVMX0IxeUpjc1ZBYWcydmlITDF6NmNwdml0NWZRZVZpZHgyQnNmSnNqZG1XODFrOEFLZmJfSXV2NzExOXI3bndNNUM5V1ZyU3RnMGE3alh4V19valNRZmVadEFDS1g2eGFmY3c?oc=5"
-          }
-        ],
-        "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNYllRZk5ENFI1YzJCV0NIb1pZcjloTXZmOFd2RXVhbU9uVXUyZ2FlNG1maTVMX0IxeUpjc1ZBYWcydmlITDF6NmNwdml0NWZRZVZpZHgyQnNmSnNqZG1XODFrOEFLZmJfSXV2NzExOXI3bndNNUM5V1ZyU3RnMGE3alh4V19valNRZmVadEFDS1g2eGFmY3c?oc=5",
-        "id": "CBMilgFBVV95cUxNYllRZk5ENFI1YzJCV0NIb1pZcjloTXZmOFd2RXVhbU9uVXUyZ2FlNG1maTVMX0IxeUpjc1ZBYWcydmlITDF6NmNwdml0NWZRZVZpZHgyQnNmSnNqZG1XODFrOEFLZmJfSXV2NzExOXI3bndNNUM5V1ZyU3RnMGE3alh4V19valNRZmVadEFDS1g2eGFmY3c",
-        "guidislink": false,
-        "published": "Mon, 31 Aug 2026 00:58:16 GMT",
-        "published_parsed": [
-          2026,
-          8,
-          31,
-          0,
-          58,
-          16,
-          0,
-          243,
-          0
-        ],
-        "summary": "<a href=\"https://news.google.com/rss/articles/CBMilgFBVV95cUxNYllRZk5ENFI1YzJCV0NIb1pZcjloTXZmOFd2RXVhbU9uVXUyZ2FlNG1maTVMX0IxeUpjc1ZBYWcydmlITDF6NmNwdml0NWZRZVZpZHgyQnNmSnNqZG1XODFrOEFLZmJfSXV2NzExOXI3bndNNUM5V1ZyU3RnMGE3alh4V19valNRZmVadEFDS1g2eGFmY3c?oc=5\" target=\"_blank\">Chargers Trade CB Avery Smith to Seahawks; DL TeRah Edwards to Panthers For 6th-Round Picks</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Los Angeles Chargers</font>",
-        "summary_detail": {
-          "type": "text/html",
-          "language": null,
-          "base": "",
-          "value": "<a href=\"https://news.google.com/rss/articles/CBMilgFBVV95cUxNYllRZk5ENFI1YzJCV0NIb1pZcjloTXZmOFd2RXVhbU9uVXUyZ2FlNG1maTVMX0IxeUpjc1ZBYWcydmlITDF6NmNwdml0NWZRZVZpZHgyQnNmSnNqZG1XODFrOEFLZmJfSXV2NzExOXI3bndNNUM5V1ZyU3RnMGE3alh4V19valNRZmVadEFDS1g2eGFmY3c?oc=5\" target=\"_blank\">Chargers Trade CB Avery Smith to Seahawks; DL TeRah Edwards to Panthers For 6th-Round Picks</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Los Angeles Chargers</font>"
-        },
-        "source": {
-          "href": "https://www.chargers.com",
-          "title": "Los Angeles Chargers"
-        }
-      },
-      "search_query": "LA Chargers",
-      "category_key": "roster",
-      "category_name": "계약/트레이드/드래프트",
-      "category_badge": "🎯 영입/계약",
-      "category_icon": "✍️",
-      "importance_score": 73,
-      "priority_tier": "⚡ 주요",
-      "priority_class": "tier-high",
-      "headline_kr": "Chargers는 CB Avery Smith를 Seahawks로 트레이드합니다. DL TeRah Edwards에서 Panthers로 6라운드 지명",
-      "summary_bullets_kr": [
-        "📌 **핵심 요약:** Chargers 구단 및 Seahawks 관련 최신 뉴스 업데이트입니다.",
-        "⚡ **주요 포인트:** 트레이드 관련 동향 (계약/트레이드/드래프트)"
       ]
     },
     {
@@ -6429,7 +6826,7 @@
       "priority_class": "tier-high",
       "headline_kr": "Rams의 20-18 프리시즌 3주 차 Chargers와의 승리에서 얻은 5가지 교훈: QB 사용, Harrison Mevis의 완벽한 프리시즌 등",
       "summary_bullets_kr": [
-        "📌 **핵심 요약:** Chargers와 Rams의 경기 결과 분석 및 주요 플레이 하이라이트 소식입니다. Rams의 실전 경기력 점검이 이루어졌습니다.",
+        "📌 **핵심 요약:** Rams의 20-18 프리시즌 3주차 Chargers와의 승리에서 얻은 5가지 교훈: QB 사용, Harrison Mevis의 완벽한 프리시즌 및 더 많은 Rams",
         "⚡ **주요 포인트:** 프리시즌 관련 동향 (경기 결과/프리뷰)"
       ]
     },
@@ -6585,9 +6982,9 @@
       "importance_score": 70,
       "priority_tier": "⚡ 주요",
       "priority_class": "tier-high",
-      "headline_kr": "Jim Harbaugh 감독 및 코칭스태프의 인터뷰로, 팀 문화 쇄신과 선수단 훈련 평가를 전달했습니다.",
+      "headline_kr": "일자리가 위태로워지면서 Jim Harbaugh는 Chargers 대 Rams의 더 많은 '개선'을 원합니다.",
       "summary_bullets_kr": [
-        "📌 **핵심 요약:** Jim Harbaugh 감독 및 코칭스태프의 인터뷰로, 팀 문화 쇄신과 선수단 훈련 평가를 전달했습니다.",
+        "📌 **핵심 요약:** 일자리가 위태로워진 Jim Harbaugh는 Chargers 대 Rams Los Angeles Times의 더 많은 '개선'을 원합니다.",
         "🏈 **주요 인물:** Jim Harbaugh (HC)"
       ]
     },
@@ -6648,7 +7045,7 @@
       "importance_score": 70,
       "priority_tier": "⚡ 주요",
       "priority_class": "tier-high",
-      "headline_kr": "Jim Harbaugh 감독 및 코칭스태프의 인터뷰로, 팀 문화 쇄신과 선수단 훈련 평가를 전달했습니다.",
+      "headline_kr": "Chargers의 스타터가 목요일 대 Rams 경기에 출전할지 여부에 대한 Jim Harbaugh의 의견",
       "summary_bullets_kr": [
         "📌 **핵심 요약:** Chargers의 스타터가 목요일 대 Rams 경기에 출전할지 여부에 대한 Jim Harbaugh sports.yahoo.com",
         "🏈 **주요 인물:** Jim Harbaugh (HC)"
@@ -6713,7 +7110,7 @@
       "priority_class": "tier-high",
       "headline_kr": "Jim Harbaugh는 새로운 Chargers의 스타팅 센터인 Jake Slaughter에 대해 열광했습니다.",
       "summary_bullets_kr": [
-        "📌 **핵심 요약:** Jim Harbaugh는 새로운 Chargers의 스타팅 센터 Jake Slaughter에 대해 열광했습니다. sports.yahoo.com",
+        "📌 **핵심 요약:** Jim Harbaugh는 새로운 Chargers의 스타팅 센터인 Jake Slaughter에 대해 열광했습니다. sports.yahoo.com",
         "🏈 **주요 인물:** Jim Harbaugh (HC)"
       ]
     },
@@ -6776,7 +7173,7 @@
       "priority_class": "tier-high",
       "headline_kr": "Chargers의 Jim Harbaugh는 TD 복귀 후 JK Scott에 대해 솔직해졌습니다.",
       "summary_bullets_kr": [
-        "📌 **핵심 요약:** Jim Harbaugh 감독 및 코칭스태프의 인터뷰로, 팀 문화 쇄신과 선수단 훈련 평가를 전달했습니다.",
+        "📌 **핵심 요약:** Chargers의 Jim Harbaugh는 TD 복귀 후 JK Scott에 대해 솔직하게 말합니다. sports.yahoo.com",
         "🏈 **주요 인물:** Jim Harbaugh (HC)"
       ]
     },
@@ -6837,10 +7234,73 @@
       "importance_score": 70,
       "priority_tier": "⚡ 주요",
       "priority_class": "tier-high",
-      "headline_kr": "Jim Harbaugh 감독 및 코칭스태프의 인터뷰로, 팀 문화 쇄신과 선수단 훈련 평가를 전달했습니다.",
+      "headline_kr": "Jim Harbaugh는 Chargers 선발 투수 대 49ers의 경기 시간 계획을 공개합니다.",
       "summary_bullets_kr": [
         "📌 **핵심 요약:** Jim Harbaugh는 Chargers 선발 투수 대 49ers의 경기 시간 계획을 공개합니다. sports.yahoo.com",
         "🏈 **주요 인물:** Jim Harbaugh (HC)"
+      ]
+    },
+    {
+      "title": "Texans Lose Veteran Cornerback Against Chargers as Injury List Grows",
+      "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxOUlZ2U1U2dFJJOEVrMUlPZ1NNbDBDeUV1REVVU2lxck1LaXNWRDBfR19RME0zMm8tZGMzSUw3QW1SN29HckJmSWpJVHJsY3JwbHFZVUc2eDVvVm5HUVppQ3BIUXg4V0piN0hJZW1lTXlkTWRMR21nYkgyeFFsRUNsVXN3cHRxVlVNbHYxMnNkVXA?oc=5",
+      "summary": "Texans Lose Veteran Cornerback Against Chargers as Injury List Grows sports.yahoo.com",
+      "published": "2026-08-13T22:00:00+00:00",
+      "source": "sports.yahoo.com",
+      "author": "",
+      "raw_entry": {
+        "title": "Texans Lose Veteran Cornerback Against Chargers as Injury List Grows - sports.yahoo.com",
+        "title_detail": {
+          "type": "text/plain",
+          "language": null,
+          "base": "",
+          "value": "Texans Lose Veteran Cornerback Against Chargers as Injury List Grows - sports.yahoo.com"
+        },
+        "links": [
+          {
+            "rel": "alternate",
+            "type": "text/html",
+            "href": "https://news.google.com/rss/articles/CBMikAFBVV95cUxOUlZ2U1U2dFJJOEVrMUlPZ1NNbDBDeUV1REVVU2lxck1LaXNWRDBfR19RME0zMm8tZGMzSUw3QW1SN29HckJmSWpJVHJsY3JwbHFZVUc2eDVvVm5HUVppQ3BIUXg4V0piN0hJZW1lTXlkTWRMR21nYkgyeFFsRUNsVXN3cHRxVlVNbHYxMnNkVXA?oc=5"
+          }
+        ],
+        "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxOUlZ2U1U2dFJJOEVrMUlPZ1NNbDBDeUV1REVVU2lxck1LaXNWRDBfR19RME0zMm8tZGMzSUw3QW1SN29HckJmSWpJVHJsY3JwbHFZVUc2eDVvVm5HUVppQ3BIUXg4V0piN0hJZW1lTXlkTWRMR21nYkgyeFFsRUNsVXN3cHRxVlVNbHYxMnNkVXA?oc=5",
+        "id": "CBMikAFBVV95cUxOUlZ2U1U2dFJJOEVrMUlPZ1NNbDBDeUV1REVVU2lxck1LaXNWRDBfR19RME0zMm8tZGMzSUw3QW1SN29HckJmSWpJVHJsY3JwbHFZVUc2eDVvVm5HUVppQ3BIUXg4V0piN0hJZW1lTXlkTWRMR21nYkgyeFFsRUNsVXN3cHRxVlVNbHYxMnNkVXA",
+        "guidislink": false,
+        "published": "Fri, 14 Aug 2026 07:00:00 GMT",
+        "published_parsed": [
+          2026,
+          8,
+          14,
+          7,
+          0,
+          0,
+          4,
+          226,
+          0
+        ],
+        "summary": "<a href=\"https://news.google.com/rss/articles/CBMikAFBVV95cUxOUlZ2U1U2dFJJOEVrMUlPZ1NNbDBDeUV1REVVU2lxck1LaXNWRDBfR19RME0zMm8tZGMzSUw3QW1SN29HckJmSWpJVHJsY3JwbHFZVUc2eDVvVm5HUVppQ3BIUXg4V0piN0hJZW1lTXlkTWRMR21nYkgyeFFsRUNsVXN3cHRxVlVNbHYxMnNkVXA?oc=5\" target=\"_blank\">Texans Lose Veteran Cornerback Against Chargers as Injury List Grows</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">sports.yahoo.com</font>",
+        "summary_detail": {
+          "type": "text/html",
+          "language": null,
+          "base": "",
+          "value": "<a href=\"https://news.google.com/rss/articles/CBMikAFBVV95cUxOUlZ2U1U2dFJJOEVrMUlPZ1NNbDBDeUV1REVVU2lxck1LaXNWRDBfR19RME0zMm8tZGMzSUw3QW1SN29HckJmSWpJVHJsY3JwbHFZVUc2eDVvVm5HUVppQ3BIUXg4V0piN0hJZW1lTXlkTWRMR21nYkgyeFFsRUNsVXN3cHRxVlVNbHYxMnNkVXA?oc=5\" target=\"_blank\">Texans Lose Veteran Cornerback Against Chargers as Injury List Grows</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">sports.yahoo.com</font>"
+        },
+        "source": {
+          "href": "https://sports.yahoo.com",
+          "title": "sports.yahoo.com"
+        }
+      },
+      "search_query": "Chargers injury roster",
+      "category_key": "injury",
+      "category_name": "부상/로스터 보고",
+      "category_badge": "📋 부상/로스터",
+      "category_icon": "🏥",
+      "importance_score": 70,
+      "priority_tier": "⚡ 주요",
+      "priority_class": "tier-high",
+      "headline_kr": "부상자 목록이 늘어남에 따라 텍사스 주민들은 Chargers에 맞서 베테랑 코너백을 잃습니다.",
+      "summary_bullets_kr": [
+        "📌 **핵심 요약:** Texans의 부상 상태 업데이트 및 향후 출전 가능 여부에 대한 팀 공식 리포트입니다.",
+        "⚡ **주요 포인트:** 부상 관련 동향 (부상/로스터 보고)"
       ]
     },
     {
@@ -6900,136 +7360,10 @@
       "importance_score": 70,
       "priority_tier": "⚡ 주요",
       "priority_class": "tier-high",
-      "headline_kr": "Jim Harbaugh의 부상 상태 업데이트 및 향후 출전 가능 여부에 대한 팀 공식 리포트입니다.",
+      "headline_kr": "Jim Harbaugh는 Chargers Practice Skirmish 이후 해머를 무너뜨렸습니다.",
       "summary_bullets_kr": [
-        "📌 **핵심 요약:** Jim Harbaugh의 부상 상태 업데이트 및 향후 출전 가능 여부에 대한 팀 공식 리포트입니다.",
+        "📌 **핵심 요약:** Jim Harbaugh는 Chargers가 Skirmish Sports Illustrated를 연습한 후 망치를 무너뜨렸습니다.",
         "🏈 **주요 인물:** Jim Harbaugh (HC)"
-      ]
-    },
-    {
-      "title": "Why Los Angeles Chargers Quietly Added Extra Depth On The Offensive Line On Their 53 Man Roster",
-      "url": "https://news.google.com/rss/articles/CBMiswJBVV95cUxNemFoTmRuZl85Qnpqd3gyXy1PU0hjN2ZhMjQ1Mml3Rk1pVHdiV1NBMllrVlowLWY5X04xRklmbEZoRVBQMDFBT09xRHlPRFBRUWdUNFg3MkFaMkZxRFFOajZ1MjctZnowdzNhUVJxbVlTTS1hRlZrcEYwRDcyejdmM2Zfc1MyTzNLZVlPTzVzVFpOQzg2VWJDWnUzbVVXSW5RcXlMT3l5dDY1eURtVTRtYnM5cU11cF9lNlE3c0I4RkZieDgzc004Sm9oWHZrX3BPVVVlbnQ3cEhyVjJOZWx0enNMeXh3N2kzbExWZlNZVHNscWNhNzkyLWdwejJFSnRPc3o5U3FUQnpRaV80TWg5d2p2by1OZnlqbFRHVDdERkJMM1dmRFNOZUtBeDRxWlFlNEVn?oc=5",
-      "summary": "Why Los Angeles Chargers Quietly Added Extra Depth On The Offensive Line On Their 53 Man Roster WKYC",
-      "published": "2026-08-31T05:45:00+00:00",
-      "source": "WKYC",
-      "author": "",
-      "raw_entry": {
-        "title": "Why Los Angeles Chargers Quietly Added Extra Depth On The Offensive Line On Their 53 Man Roster - WKYC",
-        "title_detail": {
-          "type": "text/plain",
-          "language": null,
-          "base": "",
-          "value": "Why Los Angeles Chargers Quietly Added Extra Depth On The Offensive Line On Their 53 Man Roster - WKYC"
-        },
-        "links": [
-          {
-            "rel": "alternate",
-            "type": "text/html",
-            "href": "https://news.google.com/rss/articles/CBMiswJBVV95cUxNemFoTmRuZl85Qnpqd3gyXy1PU0hjN2ZhMjQ1Mml3Rk1pVHdiV1NBMllrVlowLWY5X04xRklmbEZoRVBQMDFBT09xRHlPRFBRUWdUNFg3MkFaMkZxRFFOajZ1MjctZnowdzNhUVJxbVlTTS1hRlZrcEYwRDcyejdmM2Zfc1MyTzNLZVlPTzVzVFpOQzg2VWJDWnUzbVVXSW5RcXlMT3l5dDY1eURtVTRtYnM5cU11cF9lNlE3c0I4RkZieDgzc004Sm9oWHZrX3BPVVVlbnQ3cEhyVjJOZWx0enNMeXh3N2kzbExWZlNZVHNscWNhNzkyLWdwejJFSnRPc3o5U3FUQnpRaV80TWg5d2p2by1OZnlqbFRHVDdERkJMM1dmRFNOZUtBeDRxWlFlNEVn?oc=5"
-          }
-        ],
-        "link": "https://news.google.com/rss/articles/CBMiswJBVV95cUxNemFoTmRuZl85Qnpqd3gyXy1PU0hjN2ZhMjQ1Mml3Rk1pVHdiV1NBMllrVlowLWY5X04xRklmbEZoRVBQMDFBT09xRHlPRFBRUWdUNFg3MkFaMkZxRFFOajZ1MjctZnowdzNhUVJxbVlTTS1hRlZrcEYwRDcyejdmM2Zfc1MyTzNLZVlPTzVzVFpOQzg2VWJDWnUzbVVXSW5RcXlMT3l5dDY1eURtVTRtYnM5cU11cF9lNlE3c0I4RkZieDgzc004Sm9oWHZrX3BPVVVlbnQ3cEhyVjJOZWx0enNMeXh3N2kzbExWZlNZVHNscWNhNzkyLWdwejJFSnRPc3o5U3FUQnpRaV80TWg5d2p2by1OZnlqbFRHVDdERkJMM1dmRFNOZUtBeDRxWlFlNEVn?oc=5",
-        "id": "CBMiswJBVV95cUxNemFoTmRuZl85Qnpqd3gyXy1PU0hjN2ZhMjQ1Mml3Rk1pVHdiV1NBMllrVlowLWY5X04xRklmbEZoRVBQMDFBT09xRHlPRFBRUWdUNFg3MkFaMkZxRFFOajZ1MjctZnowdzNhUVJxbVlTTS1hRlZrcEYwRDcyejdmM2Zfc1MyTzNLZVlPTzVzVFpOQzg2VWJDWnUzbVVXSW5RcXlMT3l5dDY1eURtVTRtYnM5cU11cF9lNlE3c0I4RkZieDgzc004Sm9oWHZrX3BPVVVlbnQ3cEhyVjJOZWx0enNMeXh3N2kzbExWZlNZVHNscWNhNzkyLWdwejJFSnRPc3o5U3FUQnpRaV80TWg5d2p2by1OZnlqbFRHVDdERkJMM1dmRFNOZUtBeDRxWlFlNEVn",
-        "guidislink": false,
-        "published": "Mon, 31 Aug 2026 14:45:00 GMT",
-        "published_parsed": [
-          2026,
-          8,
-          31,
-          14,
-          45,
-          0,
-          0,
-          243,
-          0
-        ],
-        "summary": "<a href=\"https://news.google.com/rss/articles/CBMiswJBVV95cUxNemFoTmRuZl85Qnpqd3gyXy1PU0hjN2ZhMjQ1Mml3Rk1pVHdiV1NBMllrVlowLWY5X04xRklmbEZoRVBQMDFBT09xRHlPRFBRUWdUNFg3MkFaMkZxRFFOajZ1MjctZnowdzNhUVJxbVlTTS1hRlZrcEYwRDcyejdmM2Zfc1MyTzNLZVlPTzVzVFpOQzg2VWJDWnUzbVVXSW5RcXlMT3l5dDY1eURtVTRtYnM5cU11cF9lNlE3c0I4RkZieDgzc004Sm9oWHZrX3BPVVVlbnQ3cEhyVjJOZWx0enNMeXh3N2kzbExWZlNZVHNscWNhNzkyLWdwejJFSnRPc3o5U3FUQnpRaV80TWg5d2p2by1OZnlqbFRHVDdERkJMM1dmRFNOZUtBeDRxWlFlNEVn?oc=5\" target=\"_blank\">Why Los Angeles Chargers Quietly Added Extra Depth On The Offensive Line On Their 53 Man Roster</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">WKYC</font>",
-        "summary_detail": {
-          "type": "text/html",
-          "language": null,
-          "base": "",
-          "value": "<a href=\"https://news.google.com/rss/articles/CBMiswJBVV95cUxNemFoTmRuZl85Qnpqd3gyXy1PU0hjN2ZhMjQ1Mml3Rk1pVHdiV1NBMllrVlowLWY5X04xRklmbEZoRVBQMDFBT09xRHlPRFBRUWdUNFg3MkFaMkZxRFFOajZ1MjctZnowdzNhUVJxbVlTTS1hRlZrcEYwRDcyejdmM2Zfc1MyTzNLZVlPTzVzVFpOQzg2VWJDWnUzbVVXSW5RcXlMT3l5dDY1eURtVTRtYnM5cU11cF9lNlE3c0I4RkZieDgzc004Sm9oWHZrX3BPVVVlbnQ3cEhyVjJOZWx0enNMeXh3N2kzbExWZlNZVHNscWNhNzkyLWdwejJFSnRPc3o5U3FUQnpRaV80TWg5d2p2by1OZnlqbFRHVDdERkJMM1dmRFNOZUtBeDRxWlFlNEVn?oc=5\" target=\"_blank\">Why Los Angeles Chargers Quietly Added Extra Depth On The Offensive Line On Their 53 Man Roster</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">WKYC</font>"
-        },
-        "source": {
-          "href": "https://www.wkyc.com",
-          "title": "WKYC"
-        }
-      },
-      "search_query": "Los Angeles Chargers",
-      "category_key": "roster",
-      "category_name": "계약/트레이드/드래프트",
-      "category_badge": "🎯 영입/계약",
-      "category_icon": "✍️",
-      "importance_score": 68,
-      "priority_tier": "⚡ 주요",
-      "priority_class": "tier-high",
-      "headline_kr": "선수단의 부상 상태 업데이트 및 향후 출전 가능 여부에 대한 팀 공식 리포트입니다.",
-      "summary_bullets_kr": [
-        "📌 **핵심 요약:** LA Chargers가 53인 명단 WKYC의 공격 라인에 조용히 깊이를 더한 이유",
-        "⚡ **주요 포인트:** 선수 로스터 관련 동향 (계약/트레이드/드래프트)"
-      ]
-    },
-    {
-      "title": "Chargers roster news: LA trades TeRah Edwards to Panthers",
-      "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxOQkpqbVhJVXdzWTd5bE1zTkNYdmtISHVaRlZucXlRRzhaZHE0UElVMmF4REZtVXdibDFENGV1SGt0TWpMd29xOTFtX3c3aDlmOGpabDhmZENrZGRZWE9FTFgzSUlwcUpha0l4TnRYXy0zVEVDOFViLXZ6a255c0JwNnVtd3BNZw?oc=5",
-      "summary": "Chargers roster news: LA trades TeRah Edwards to Panthers sports.yahoo.com",
-      "published": "2026-08-29T22:00:00+00:00",
-      "source": "sports.yahoo.com",
-      "author": "",
-      "raw_entry": {
-        "title": "Chargers roster news: LA trades TeRah Edwards to Panthers - sports.yahoo.com",
-        "title_detail": {
-          "type": "text/plain",
-          "language": null,
-          "base": "",
-          "value": "Chargers roster news: LA trades TeRah Edwards to Panthers - sports.yahoo.com"
-        },
-        "links": [
-          {
-            "rel": "alternate",
-            "type": "text/html",
-            "href": "https://news.google.com/rss/articles/CBMihgFBVV95cUxOQkpqbVhJVXdzWTd5bE1zTkNYdmtISHVaRlZucXlRRzhaZHE0UElVMmF4REZtVXdibDFENGV1SGt0TWpMd29xOTFtX3c3aDlmOGpabDhmZENrZGRZWE9FTFgzSUlwcUpha0l4TnRYXy0zVEVDOFViLXZ6a255c0JwNnVtd3BNZw?oc=5"
-          }
-        ],
-        "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxOQkpqbVhJVXdzWTd5bE1zTkNYdmtISHVaRlZucXlRRzhaZHE0UElVMmF4REZtVXdibDFENGV1SGt0TWpMd29xOTFtX3c3aDlmOGpabDhmZENrZGRZWE9FTFgzSUlwcUpha0l4TnRYXy0zVEVDOFViLXZ6a255c0JwNnVtd3BNZw?oc=5",
-        "id": "CBMihgFBVV95cUxOQkpqbVhJVXdzWTd5bE1zTkNYdmtISHVaRlZucXlRRzhaZHE0UElVMmF4REZtVXdibDFENGV1SGt0TWpMd29xOTFtX3c3aDlmOGpabDhmZENrZGRZWE9FTFgzSUlwcUpha0l4TnRYXy0zVEVDOFViLXZ6a255c0JwNnVtd3BNZw",
-        "guidislink": false,
-        "published": "Sun, 30 Aug 2026 07:00:00 GMT",
-        "published_parsed": [
-          2026,
-          8,
-          30,
-          7,
-          0,
-          0,
-          6,
-          242,
-          0
-        ],
-        "summary": "<a href=\"https://news.google.com/rss/articles/CBMihgFBVV95cUxOQkpqbVhJVXdzWTd5bE1zTkNYdmtISHVaRlZucXlRRzhaZHE0UElVMmF4REZtVXdibDFENGV1SGt0TWpMd29xOTFtX3c3aDlmOGpabDhmZENrZGRZWE9FTFgzSUlwcUpha0l4TnRYXy0zVEVDOFViLXZ6a255c0JwNnVtd3BNZw?oc=5\" target=\"_blank\">Chargers roster news: LA trades TeRah Edwards to Panthers</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">sports.yahoo.com</font>",
-        "summary_detail": {
-          "type": "text/html",
-          "language": null,
-          "base": "",
-          "value": "<a href=\"https://news.google.com/rss/articles/CBMihgFBVV95cUxOQkpqbVhJVXdzWTd5bE1zTkNYdmtISHVaRlZucXlRRzhaZHE0UElVMmF4REZtVXdibDFENGV1SGt0TWpMd29xOTFtX3c3aDlmOGpabDhmZENrZGRZWE9FTFgzSUlwcUpha0l4TnRYXy0zVEVDOFViLXZ6a255c0JwNnVtd3BNZw?oc=5\" target=\"_blank\">Chargers roster news: LA trades TeRah Edwards to Panthers</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">sports.yahoo.com</font>"
-        },
-        "source": {
-          "href": "https://sports.yahoo.com",
-          "title": "sports.yahoo.com"
-        }
-      },
-      "search_query": "LA Chargers",
-      "category_key": "roster",
-      "category_name": "계약/트레이드/드래프트",
-      "category_badge": "🎯 영입/계약",
-      "category_icon": "✍️",
-      "importance_score": 68,
-      "priority_tier": "⚡ 주요",
-      "priority_class": "tier-high",
-      "headline_kr": "Chargers 명단 뉴스: LA는 TeRah Edwards를 Panthers로 트레이드했습니다.",
-      "summary_bullets_kr": [
-        "📌 **핵심 요약:** Chargers 명단 뉴스: LA, TeRah Edwards를 Panthers로 트레이드 sports.yahoo.com",
-        "⚡ **주요 포인트:** 선수 로스터 관련 동향 (계약/트레이드/드래프트)"
       ]
     },
     {
@@ -7154,7 +7488,7 @@
       "priority_class": "tier-high",
       "headline_kr": "핫 마이크가 NFL 심판의 무수정 코멘트를 포착하여 그가 Rams-Chargers 프리시즌 경기에 참가한 것에 대해 어떻게 느꼈는지 설명했습니다. [비디오]",
       "summary_bullets_kr": [
-        "📌 **핵심 요약:** 핫 마이크가 NFL 심판의 무수정 코멘트를 포착해 그가 Rams-Chargers 프리시즌 경기에 참가한 것에 대해 어떻게 느꼈는지 설명했습니다. [비디오] sports.yahoo.com",
+        "📌 **핵심 요약:** Rams와의 프리시즌 경기 일정, 중계 안내 및 주요 관전 포인트 소식입니다.",
         "⚡ **주요 포인트:** 프리시즌 관련 동향 (경기 결과/프리뷰)"
       ]
     },
@@ -7215,7 +7549,7 @@
       "importance_score": 68,
       "priority_tier": "⚡ 주요",
       "priority_class": "tier-high",
-      "headline_kr": "Rams와의 프리시즌 경기 일정, 중계 안내 및 주요 관전 포인트 소식입니다.",
+      "headline_kr": "오늘 Rams vs. Chargers는 어떤 채널에 있나요? 프리시즌 경기를 시청할 시간, TV 일정",
       "summary_bullets_kr": [
         "📌 **핵심 요약:** 오늘 Rams vs. Chargers는 어떤 채널에 있나요?",
         "⚡ **주요 포인트:** 프리시즌 관련 동향 (경기 결과/프리뷰)"
@@ -7311,9 +7645,9 @@
       "importance_score": 65,
       "priority_tier": "⚡ 주요",
       "priority_class": "tier-high",
-      "headline_kr": "Chargers 구단 및 Ladd McConkey 관련 최신 뉴스 업데이트입니다.",
+      "headline_kr": "WR1 - 래드 맥콘키",
       "summary_bullets_kr": [
-        "📌 **핵심 요약:** NFL 프리시즌 2주차 요약: SF 49ers 41, LA Chargers 17",
+        "📌 **핵심 요약:** Chargers 구단 및 선수단 관련 최신 뉴스 업데이트입니다.",
         "🏈 **주요 인물:** Ladd McConkey (WR)"
       ]
     },
@@ -7461,7 +7795,7 @@
           "title": "heavy.com"
         }
       },
-      "search_query": "Justin Herbert Chargers",
+      "search_query": "Chargers Justin Herbert",
       "category_key": "interview",
       "category_name": "감독/선수 인터뷰",
       "category_badge": "🎙️ 인터뷰/발언",
@@ -7469,7 +7803,7 @@
       "importance_score": 65,
       "priority_tier": "⚡ 주요",
       "priority_class": "tier-high",
-      "headline_kr": "Chargers 구단 및 Justin Herbert 관련 최신 뉴스 업데이트입니다.",
+      "headline_kr": "Chargers OC Mike McDaniel은 Justin Herbert에 대한 감정을 억제하지 않습니다.",
       "summary_bullets_kr": [
         "📌 **핵심 요약:** Chargers OC Mike McDaniel은 Justin Herbert에 대한 감정을 억제하지 않습니다.",
         "🏈 **주요 인물:** Justin Herbert (QB)"
@@ -7524,7 +7858,7 @@
           "title": "Los Angeles Chargers"
         }
       },
-      "search_query": "Jim Harbaugh Chargers",
+      "search_query": "Justin Herbert Chargers",
       "category_key": "game",
       "category_name": "경기 결과/프리뷰",
       "category_badge": "⚡ 경기 소식",
@@ -7598,8 +7932,136 @@
       "priority_class": "tier-high",
       "headline_kr": "NFL 프리시즌 2주차 요약: SF 49ers 41, LA Chargers 17",
       "summary_bullets_kr": [
-        "📌 **핵심 요약:** Chargers와 49ers의 경기 결과 분석 및 주요 플레이 하이라이트 소식입니다. 선수단의 실전 경기력 점검이 이루어졌습니다.",
+        "📌 **핵심 요약:** NFL 프리시즌 2주차 요약: San Francisco 49ers 41, Los Angeles Chargers 17 PFF",
         "⚡ **주요 포인트:** 프리시즌, 경기 결과 분석 관련 동향 (경기 결과/프리뷰)"
+      ]
+    },
+    {
+      "title": "Justin Herbert's first pass of 2026 preseason is 9-yard completion to Kolar",
+      "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQQVBGR3VXaG1IdmpqM3dDVVRUaW02OEJpZUc1cjVJYTB0bXE5R3llSlJCVDUxdXBfOTFsNHFUeXhWUUtOYjE4dHlQTFdvcDh0bHNsaWlaUnpieEF6QnAxVVN0TE40RkRiaUtlOE83V0FSVWphRmV4cDFIVnJULVlaUEgyX1lXeFY3NGVhWENCVTl3Q3hQSEQ3VlByQ1NHc2gzUW5qTA?oc=5",
+      "summary": "Justin Herbert's first pass of 2026 preseason is 9-yard completion to Kolar NFL.com",
+      "published": "2026-08-20T17:23:13+00:00",
+      "source": "NFL.com",
+      "author": "",
+      "raw_entry": {
+        "title": "Justin Herbert's first pass of 2026 preseason is 9-yard completion to Kolar - NFL.com",
+        "title_detail": {
+          "type": "text/plain",
+          "language": null,
+          "base": "",
+          "value": "Justin Herbert's first pass of 2026 preseason is 9-yard completion to Kolar - NFL.com"
+        },
+        "links": [
+          {
+            "rel": "alternate",
+            "type": "text/html",
+            "href": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQQVBGR3VXaG1IdmpqM3dDVVRUaW02OEJpZUc1cjVJYTB0bXE5R3llSlJCVDUxdXBfOTFsNHFUeXhWUUtOYjE4dHlQTFdvcDh0bHNsaWlaUnpieEF6QnAxVVN0TE40RkRiaUtlOE83V0FSVWphRmV4cDFIVnJULVlaUEgyX1lXeFY3NGVhWENCVTl3Q3hQSEQ3VlByQ1NHc2gzUW5qTA?oc=5"
+          }
+        ],
+        "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQQVBGR3VXaG1IdmpqM3dDVVRUaW02OEJpZUc1cjVJYTB0bXE5R3llSlJCVDUxdXBfOTFsNHFUeXhWUUtOYjE4dHlQTFdvcDh0bHNsaWlaUnpieEF6QnAxVVN0TE40RkRiaUtlOE83V0FSVWphRmV4cDFIVnJULVlaUEgyX1lXeFY3NGVhWENCVTl3Q3hQSEQ3VlByQ1NHc2gzUW5qTA?oc=5",
+        "id": "CBMipAFBVV95cUxQQVBGR3VXaG1IdmpqM3dDVVRUaW02OEJpZUc1cjVJYTB0bXE5R3llSlJCVDUxdXBfOTFsNHFUeXhWUUtOYjE4dHlQTFdvcDh0bHNsaWlaUnpieEF6QnAxVVN0TE40RkRiaUtlOE83V0FSVWphRmV4cDFIVnJULVlaUEgyX1lXeFY3NGVhWENCVTl3Q3hQSEQ3VlByQ1NHc2gzUW5qTA",
+        "guidislink": false,
+        "published": "Fri, 21 Aug 2026 02:23:13 GMT",
+        "published_parsed": [
+          2026,
+          8,
+          21,
+          2,
+          23,
+          13,
+          4,
+          233,
+          0
+        ],
+        "summary": "<a href=\"https://news.google.com/rss/articles/CBMipAFBVV95cUxQQVBGR3VXaG1IdmpqM3dDVVRUaW02OEJpZUc1cjVJYTB0bXE5R3llSlJCVDUxdXBfOTFsNHFUeXhWUUtOYjE4dHlQTFdvcDh0bHNsaWlaUnpieEF6QnAxVVN0TE40RkRiaUtlOE83V0FSVWphRmV4cDFIVnJULVlaUEgyX1lXeFY3NGVhWENCVTl3Q3hQSEQ3VlByQ1NHc2gzUW5qTA?oc=5\" target=\"_blank\">Justin Herbert's first pass of 2026 preseason is 9-yard completion to Kolar</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">NFL.com</font>",
+        "summary_detail": {
+          "type": "text/html",
+          "language": null,
+          "base": "",
+          "value": "<a href=\"https://news.google.com/rss/articles/CBMipAFBVV95cUxQQVBGR3VXaG1IdmpqM3dDVVRUaW02OEJpZUc1cjVJYTB0bXE5R3llSlJCVDUxdXBfOTFsNHFUeXhWUUtOYjE4dHlQTFdvcDh0bHNsaWlaUnpieEF6QnAxVVN0TE40RkRiaUtlOE83V0FSVWphRmV4cDFIVnJULVlaUEgyX1lXeFY3NGVhWENCVTl3Q3hQSEQ3VlByQ1NHc2gzUW5qTA?oc=5\" target=\"_blank\">Justin Herbert's first pass of 2026 preseason is 9-yard completion to Kolar</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">NFL.com</font>"
+        },
+        "source": {
+          "href": "https://www.nfl.com",
+          "title": "NFL.com"
+        }
+      },
+      "search_query": "Justin Herbert Chargers",
+      "category_key": "game",
+      "category_name": "경기 결과/프리뷰",
+      "category_badge": "⚡ 경기 소식",
+      "category_icon": "🏈",
+      "importance_score": 65,
+      "priority_tier": "⚡ 주요",
+      "priority_class": "tier-high",
+      "headline_kr": "Chargers의 프리시즌 경기 일정 및 팀 훈련 준비 소식입니다.",
+      "summary_bullets_kr": [
+        "📌 **핵심 요약:** Justin Herbert(Justin Herbert)의 2026년 프리시즌 첫 패스는 Kolar NFL.com의 9야드 완주입니다.",
+        "🏈 **주요 인물:** Justin Herbert (QB)",
+        "⚡ **주요 포인트:** 프리시즌 관련 동향 (경기 결과/프리뷰)"
+      ]
+    },
+    {
+      "title": "Justin Herbert plays just three snaps in preseason game vs. 49ers",
+      "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxQQ0NVY0lJLTE1STVuRGFtZ1F6N3ZQUlJJV2lhZ1hlX0swN21Cajgyak03Um1qTE05a2tmbG1qcFFUMlFGTUZ4Q1RxNE1GbTFnT2tqUVhxUzJIWG9sbktFaFJOcGJTWW5GN1JWeGg0YUV6UkpFOVREelczNk5way01bndKVTZiUGJsYVB3WHVRT20yczJKMXJ6TGxoSzRIZlAyalI5elQ4VVdOLW9mYnVFTzBnMENQR2NYd2s2bk1LSGRvaExR?oc=5",
+      "summary": "Justin Herbert plays just three snaps in preseason game vs. 49ers NBC Sports",
+      "published": "2026-08-19T22:00:00+00:00",
+      "source": "NBC Sports",
+      "author": "",
+      "raw_entry": {
+        "title": "Justin Herbert plays just three snaps in preseason game vs. 49ers - NBC Sports",
+        "title_detail": {
+          "type": "text/plain",
+          "language": null,
+          "base": "",
+          "value": "Justin Herbert plays just three snaps in preseason game vs. 49ers - NBC Sports"
+        },
+        "links": [
+          {
+            "rel": "alternate",
+            "type": "text/html",
+            "href": "https://news.google.com/rss/articles/CBMixAFBVV95cUxQQ0NVY0lJLTE1STVuRGFtZ1F6N3ZQUlJJV2lhZ1hlX0swN21Cajgyak03Um1qTE05a2tmbG1qcFFUMlFGTUZ4Q1RxNE1GbTFnT2tqUVhxUzJIWG9sbktFaFJOcGJTWW5GN1JWeGg0YUV6UkpFOVREelczNk5way01bndKVTZiUGJsYVB3WHVRT20yczJKMXJ6TGxoSzRIZlAyalI5elQ4VVdOLW9mYnVFTzBnMENQR2NYd2s2bk1LSGRvaExR?oc=5"
+          }
+        ],
+        "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxQQ0NVY0lJLTE1STVuRGFtZ1F6N3ZQUlJJV2lhZ1hlX0swN21Cajgyak03Um1qTE05a2tmbG1qcFFUMlFGTUZ4Q1RxNE1GbTFnT2tqUVhxUzJIWG9sbktFaFJOcGJTWW5GN1JWeGg0YUV6UkpFOVREelczNk5way01bndKVTZiUGJsYVB3WHVRT20yczJKMXJ6TGxoSzRIZlAyalI5elQ4VVdOLW9mYnVFTzBnMENQR2NYd2s2bk1LSGRvaExR?oc=5",
+        "id": "CBMixAFBVV95cUxQQ0NVY0lJLTE1STVuRGFtZ1F6N3ZQUlJJV2lhZ1hlX0swN21Cajgyak03Um1qTE05a2tmbG1qcFFUMlFGTUZ4Q1RxNE1GbTFnT2tqUVhxUzJIWG9sbktFaFJOcGJTWW5GN1JWeGg0YUV6UkpFOVREelczNk5way01bndKVTZiUGJsYVB3WHVRT20yczJKMXJ6TGxoSzRIZlAyalI5elQ4VVdOLW9mYnVFTzBnMENQR2NYd2s2bk1LSGRvaExR",
+        "guidislink": false,
+        "published": "Thu, 20 Aug 2026 07:00:00 GMT",
+        "published_parsed": [
+          2026,
+          8,
+          20,
+          7,
+          0,
+          0,
+          3,
+          232,
+          0
+        ],
+        "summary": "<a href=\"https://news.google.com/rss/articles/CBMixAFBVV95cUxQQ0NVY0lJLTE1STVuRGFtZ1F6N3ZQUlJJV2lhZ1hlX0swN21Cajgyak03Um1qTE05a2tmbG1qcFFUMlFGTUZ4Q1RxNE1GbTFnT2tqUVhxUzJIWG9sbktFaFJOcGJTWW5GN1JWeGg0YUV6UkpFOVREelczNk5way01bndKVTZiUGJsYVB3WHVRT20yczJKMXJ6TGxoSzRIZlAyalI5elQ4VVdOLW9mYnVFTzBnMENQR2NYd2s2bk1LSGRvaExR?oc=5\" target=\"_blank\">Justin Herbert plays just three snaps in preseason game vs. 49ers</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">NBC Sports</font>",
+        "summary_detail": {
+          "type": "text/html",
+          "language": null,
+          "base": "",
+          "value": "<a href=\"https://news.google.com/rss/articles/CBMixAFBVV95cUxQQ0NVY0lJLTE1STVuRGFtZ1F6N3ZQUlJJV2lhZ1hlX0swN21Cajgyak03Um1qTE05a2tmbG1qcFFUMlFGTUZ4Q1RxNE1GbTFnT2tqUVhxUzJIWG9sbktFaFJOcGJTWW5GN1JWeGg0YUV6UkpFOVREelczNk5way01bndKVTZiUGJsYVB3WHVRT20yczJKMXJ6TGxoSzRIZlAyalI5elQ4VVdOLW9mYnVFTzBnMENQR2NYd2s2bk1LSGRvaExR?oc=5\" target=\"_blank\">Justin Herbert plays just three snaps in preseason game vs. 49ers</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">NBC Sports</font>"
+        },
+        "source": {
+          "href": "https://www.nbcsports.com",
+          "title": "NBC Sports"
+        }
+      },
+      "search_query": "Justin Herbert Chargers",
+      "category_key": "game",
+      "category_name": "경기 결과/프리뷰",
+      "category_badge": "⚡ 경기 소식",
+      "category_icon": "🏈",
+      "importance_score": 65,
+      "priority_tier": "⚡ 주요",
+      "priority_class": "tier-high",
+      "headline_kr": "Justin Herbert(Justin Herbert)는 프리시즌 경기에서 49ers를 상대로 단 세 번의 스냅만을 기록했습니다.",
+      "summary_bullets_kr": [
+        "📌 **핵심 요약:** Justin Herbert는 프리시즌 경기에서 49ers NBC Sports와의 경기에서 단 세 번의 스냅만 기록했습니다.",
+        "🏈 **주요 인물:** Justin Herbert (QB)",
+        "⚡ **주요 포인트:** 프리시즌 관련 동향 (경기 결과/프리뷰)"
       ]
     },
     {
@@ -7666,6 +8128,133 @@
       ]
     },
     {
+      "title": "Chargers OC Mike McDaniel looking for 'Year 2 results in Year 1' with Justin Herbert",
+      "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNVlhHRlhOOE1vTDFLanEyNjZsU2lKN2F5bFFDdkNnRjZDbmx2Y0xFOUV0cG93ZmpqWkhZNnllQmZyR2V2YXp2YW5mZ3pWcml6QlFYaXBDQ2RUYWdjcDNzV0JoMjJYZUdCMUFMRjJvcnNTTmN3VWxZQ2RrOXZqTGEyNkdpVFdIc3lTU1l1R1NLaFJhcXBEY3czMFZRRnU5cXQ2SldQcE9DczRmdEU?oc=5",
+      "summary": "Chargers OC Mike McDaniel looking for 'Year 2 results in Year 1' with Justin Herbert NFL.com",
+      "published": "2026-08-17T22:00:00+00:00",
+      "source": "NFL.com",
+      "author": "",
+      "raw_entry": {
+        "title": "Chargers OC Mike McDaniel looking for 'Year 2 results in Year 1' with Justin Herbert - NFL.com",
+        "title_detail": {
+          "type": "text/plain",
+          "language": null,
+          "base": "",
+          "value": "Chargers OC Mike McDaniel looking for 'Year 2 results in Year 1' with Justin Herbert - NFL.com"
+        },
+        "links": [
+          {
+            "rel": "alternate",
+            "type": "text/html",
+            "href": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNVlhHRlhOOE1vTDFLanEyNjZsU2lKN2F5bFFDdkNnRjZDbmx2Y0xFOUV0cG93ZmpqWkhZNnllQmZyR2V2YXp2YW5mZ3pWcml6QlFYaXBDQ2RUYWdjcDNzV0JoMjJYZUdCMUFMRjJvcnNTTmN3VWxZQ2RrOXZqTGEyNkdpVFdIc3lTU1l1R1NLaFJhcXBEY3czMFZRRnU5cXQ2SldQcE9DczRmdEU?oc=5"
+          }
+        ],
+        "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNVlhHRlhOOE1vTDFLanEyNjZsU2lKN2F5bFFDdkNnRjZDbmx2Y0xFOUV0cG93ZmpqWkhZNnllQmZyR2V2YXp2YW5mZ3pWcml6QlFYaXBDQ2RUYWdjcDNzV0JoMjJYZUdCMUFMRjJvcnNTTmN3VWxZQ2RrOXZqTGEyNkdpVFdIc3lTU1l1R1NLaFJhcXBEY3czMFZRRnU5cXQ2SldQcE9DczRmdEU?oc=5",
+        "id": "CBMiqwFBVV95cUxNVlhHRlhOOE1vTDFLanEyNjZsU2lKN2F5bFFDdkNnRjZDbmx2Y0xFOUV0cG93ZmpqWkhZNnllQmZyR2V2YXp2YW5mZ3pWcml6QlFYaXBDQ2RUYWdjcDNzV0JoMjJYZUdCMUFMRjJvcnNTTmN3VWxZQ2RrOXZqTGEyNkdpVFdIc3lTU1l1R1NLaFJhcXBEY3czMFZRRnU5cXQ2SldQcE9DczRmdEU",
+        "guidislink": false,
+        "published": "Tue, 18 Aug 2026 07:00:00 GMT",
+        "published_parsed": [
+          2026,
+          8,
+          18,
+          7,
+          0,
+          0,
+          1,
+          230,
+          0
+        ],
+        "summary": "<a href=\"https://news.google.com/rss/articles/CBMiqwFBVV95cUxNVlhHRlhOOE1vTDFLanEyNjZsU2lKN2F5bFFDdkNnRjZDbmx2Y0xFOUV0cG93ZmpqWkhZNnllQmZyR2V2YXp2YW5mZ3pWcml6QlFYaXBDQ2RUYWdjcDNzV0JoMjJYZUdCMUFMRjJvcnNTTmN3VWxZQ2RrOXZqTGEyNkdpVFdIc3lTU1l1R1NLaFJhcXBEY3czMFZRRnU5cXQ2SldQcE9DczRmdEU?oc=5\" target=\"_blank\">Chargers OC Mike McDaniel looking for 'Year 2 results in Year 1' with Justin Herbert</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">NFL.com</font>",
+        "summary_detail": {
+          "type": "text/html",
+          "language": null,
+          "base": "",
+          "value": "<a href=\"https://news.google.com/rss/articles/CBMiqwFBVV95cUxNVlhHRlhOOE1vTDFLanEyNjZsU2lKN2F5bFFDdkNnRjZDbmx2Y0xFOUV0cG93ZmpqWkhZNnllQmZyR2V2YXp2YW5mZ3pWcml6QlFYaXBDQ2RUYWdjcDNzV0JoMjJYZUdCMUFMRjJvcnNTTmN3VWxZQ2RrOXZqTGEyNkdpVFdIc3lTU1l1R1NLaFJhcXBEY3czMFZRRnU5cXQ2SldQcE9DczRmdEU?oc=5\" target=\"_blank\">Chargers OC Mike McDaniel looking for 'Year 2 results in Year 1' with Justin Herbert</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">NFL.com</font>"
+        },
+        "source": {
+          "href": "https://www.nfl.com",
+          "title": "NFL.com"
+        }
+      },
+      "search_query": "Justin Herbert Chargers",
+      "category_key": "interview",
+      "category_name": "감독/선수 인터뷰",
+      "category_badge": "🎙️ 인터뷰/발언",
+      "category_icon": "🎙️",
+      "importance_score": 65,
+      "priority_tier": "⚡ 주요",
+      "priority_class": "tier-high",
+      "headline_kr": "Chargers 구단 및 Justin Herbert 관련 최신 뉴스 업데이트입니다.",
+      "summary_bullets_kr": [
+        "📌 **핵심 요약:** Chargers OC Mike McDaniel은 Justin Herbert와 함께 '1년차 2년차 결과'를 찾고 있습니다. NFL.com",
+        "🏈 **주요 인물:** Justin Herbert (QB)"
+      ]
+    },
+    {
+      "title": "Chargers QB Justin Herbert set for early test in joint practice with 49ers",
+      "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNeHFoSENBWnpSRXFxM0kwOUtZamxDb3FyX3FzS0NPMS11UkpmMmNRQ1Z0MEs2MUVrZWQzZW9PeHU2bkt4eS1yaV9kdlFLbERZWmpSYjQ4dENaVHBROE9UdGFiRDNJREFXOFhULXRHWDhwY0pQYjdhYTJ4SHo3QU1naEdXQ2h1XzZpRmdBRjd0TG1QUW5uWGZuQjQxYjZVQ0pZZUE1WElyZDFDb2JpYXpRS2ZUNA?oc=5",
+      "summary": "Chargers QB Justin Herbert set for early test in joint practice with 49ers Orange County Register",
+      "published": "2026-08-16T22:00:00+00:00",
+      "source": "Orange County Register",
+      "author": "",
+      "raw_entry": {
+        "title": "Chargers QB Justin Herbert set for early test in joint practice with 49ers - Orange County Register",
+        "title_detail": {
+          "type": "text/plain",
+          "language": null,
+          "base": "",
+          "value": "Chargers QB Justin Herbert set for early test in joint practice with 49ers - Orange County Register"
+        },
+        "links": [
+          {
+            "rel": "alternate",
+            "type": "text/html",
+            "href": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNeHFoSENBWnpSRXFxM0kwOUtZamxDb3FyX3FzS0NPMS11UkpmMmNRQ1Z0MEs2MUVrZWQzZW9PeHU2bkt4eS1yaV9kdlFLbERZWmpSYjQ4dENaVHBROE9UdGFiRDNJREFXOFhULXRHWDhwY0pQYjdhYTJ4SHo3QU1naEdXQ2h1XzZpRmdBRjd0TG1QUW5uWGZuQjQxYjZVQ0pZZUE1WElyZDFDb2JpYXpRS2ZUNA?oc=5"
+          }
+        ],
+        "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNeHFoSENBWnpSRXFxM0kwOUtZamxDb3FyX3FzS0NPMS11UkpmMmNRQ1Z0MEs2MUVrZWQzZW9PeHU2bkt4eS1yaV9kdlFLbERZWmpSYjQ4dENaVHBROE9UdGFiRDNJREFXOFhULXRHWDhwY0pQYjdhYTJ4SHo3QU1naEdXQ2h1XzZpRmdBRjd0TG1QUW5uWGZuQjQxYjZVQ0pZZUE1WElyZDFDb2JpYXpRS2ZUNA?oc=5",
+        "id": "CBMiswFBVV95cUxNeHFoSENBWnpSRXFxM0kwOUtZamxDb3FyX3FzS0NPMS11UkpmMmNRQ1Z0MEs2MUVrZWQzZW9PeHU2bkt4eS1yaV9kdlFLbERZWmpSYjQ4dENaVHBROE9UdGFiRDNJREFXOFhULXRHWDhwY0pQYjdhYTJ4SHo3QU1naEdXQ2h1XzZpRmdBRjd0TG1QUW5uWGZuQjQxYjZVQ0pZZUE1WElyZDFDb2JpYXpRS2ZUNA",
+        "guidislink": false,
+        "published": "Mon, 17 Aug 2026 07:00:00 GMT",
+        "published_parsed": [
+          2026,
+          8,
+          17,
+          7,
+          0,
+          0,
+          0,
+          229,
+          0
+        ],
+        "summary": "<a href=\"https://news.google.com/rss/articles/CBMiswFBVV95cUxNeHFoSENBWnpSRXFxM0kwOUtZamxDb3FyX3FzS0NPMS11UkpmMmNRQ1Z0MEs2MUVrZWQzZW9PeHU2bkt4eS1yaV9kdlFLbERZWmpSYjQ4dENaVHBROE9UdGFiRDNJREFXOFhULXRHWDhwY0pQYjdhYTJ4SHo3QU1naEdXQ2h1XzZpRmdBRjd0TG1QUW5uWGZuQjQxYjZVQ0pZZUE1WElyZDFDb2JpYXpRS2ZUNA?oc=5\" target=\"_blank\">Chargers QB Justin Herbert set for early test in joint practice with 49ers</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Orange County Register</font>",
+        "summary_detail": {
+          "type": "text/html",
+          "language": null,
+          "base": "",
+          "value": "<a href=\"https://news.google.com/rss/articles/CBMiswFBVV95cUxNeHFoSENBWnpSRXFxM0kwOUtZamxDb3FyX3FzS0NPMS11UkpmMmNRQ1Z0MEs2MUVrZWQzZW9PeHU2bkt4eS1yaV9kdlFLbERZWmpSYjQ4dENaVHBROE9UdGFiRDNJREFXOFhULXRHWDhwY0pQYjdhYTJ4SHo3QU1naEdXQ2h1XzZpRmdBRjd0TG1QUW5uWGZuQjQxYjZVQ0pZZUE1WElyZDFDb2JpYXpRS2ZUNA?oc=5\" target=\"_blank\">Chargers QB Justin Herbert set for early test in joint practice with 49ers</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Orange County Register</font>"
+        },
+        "source": {
+          "href": "https://www.ocregister.com",
+          "title": "Orange County Register"
+        }
+      },
+      "search_query": "Justin Herbert Chargers",
+      "category_key": "game",
+      "category_name": "경기 결과/프리뷰",
+      "category_badge": "⚡ 경기 소식",
+      "category_icon": "🏈",
+      "importance_score": 65,
+      "priority_tier": "⚡ 주요",
+      "priority_class": "tier-high",
+      "headline_kr": "Chargers QB Justin Herbert, 49ers와의 공동 연습에서 초기 테스트 예정",
+      "summary_bullets_kr": [
+        "📌 **핵심 요약:** Chargers QB Justin Herbert는 49ers Orange County Register와의 공동 연습에서 초기 테스트를 시작했습니다.",
+        "🏈 **주요 인물:** Justin Herbert (QB)",
+        "⚡ **주요 포인트:** 합동 훈련 관련 동향 (경기 결과/프리뷰)"
+      ]
+    },
+    {
       "title": "Jim Harbaugh reveals what impressed him most in Chargers' win",
       "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxOSVUyeHFoR2F6WGZUT0ZNQ1U1dlVqQzRMZjAwZHRMQU5oY3loWGFkWlFQTkFlclBYZ1ZKaXJtTl9VMG52dlNqWlFaMGtXSDhBcTdrc2ZmQVZ1aW02eVpmZVdpZmpUY3FOeUh5dDNsOEtRZ0tJVDY0c2pod3BLQTA0V3VLQWI5ZjJRN2VfcjhiR2prY2ZURlJFb0NyVkNMTHRjc3NoTjBXNVFSaUZEcXFLMzFnY01VaVJZekNGZDdSWGtWSzRwY0FJZ2FnMC1Ddw?oc=5",
       "summary": "Jim Harbaugh reveals what impressed him most in Chargers' win Chargers Wire",
@@ -7722,7 +8311,7 @@
       "importance_score": 65,
       "priority_tier": "⚡ 주요",
       "priority_class": "tier-high",
-      "headline_kr": "Chargers의 최근 경기 결과 및 플레이 하이라이트 분석 소식입니다.",
+      "headline_kr": "Jim Harbaugh가 Chargers의 승리에서 가장 인상 깊었던 것이 무엇인지 밝혔습니다.",
       "summary_bullets_kr": [
         "📌 **핵심 요약:** Jim Harbaugh는 Chargers의 승리 Chargers Wire에서 가장 인상 깊었던 것이 무엇인지 밝혔습니다.",
         "🏈 **주요 인물:** Jim Harbaugh (HC)"
@@ -7785,10 +8374,73 @@
       "importance_score": 65,
       "priority_tier": "⚡ 주요",
       "priority_class": "tier-high",
-      "headline_kr": "Chargers의 최근 경기 결과 및 플레이 하이라이트 분석 소식입니다.",
+      "headline_kr": "게임 요약: 2026년 프리시즌 개막전에서 Chargers가 텍사스를 제치고 승리했습니다.",
       "summary_bullets_kr": [
-        "📌 **핵심 요약:** Chargers의 최근 경기 결과 및 플레이 하이라이트 분석 소식입니다.",
+        "📌 **핵심 요약:** 게임 요약: Chargers가 2026년 프리시즌 개막전에서 텍사스를 제치고 LA Chargers(Los Angeles Chargers)",
         "⚡ **주요 포인트:** 프리시즌, 경기 결과 분석 관련 동향 (경기 결과/프리뷰)"
+      ]
+    },
+    {
+      "title": "Mic’d Up: Justin Herbert at Training Camp 2026",
+      "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxPZmhsRlN1UURKQjNRcGNmRUFCYjJGSEVtVU9USUVSenJWQWtCRVNEd1dCckcxTndqMU5CTkltd3VsVzdJdThEZEVEdkhiV1l5alY5Qml6bm16VWRvNFg0cXM0eHVSTG1pbTJ3V3FGXzFpUjJpU2puLXByay15aWw1TEJR?oc=5",
+      "summary": "Mic’d Up: Justin Herbert at Training Camp 2026 Los Angeles Chargers",
+      "published": "2026-08-11T07:58:33+00:00",
+      "source": "Los Angeles Chargers",
+      "author": "",
+      "raw_entry": {
+        "title": "Mic’d Up: Justin Herbert at Training Camp 2026 - Los Angeles Chargers",
+        "title_detail": {
+          "type": "text/plain",
+          "language": null,
+          "base": "",
+          "value": "Mic’d Up: Justin Herbert at Training Camp 2026 - Los Angeles Chargers"
+        },
+        "links": [
+          {
+            "rel": "alternate",
+            "type": "text/html",
+            "href": "https://news.google.com/rss/articles/CBMiggFBVV95cUxPZmhsRlN1UURKQjNRcGNmRUFCYjJGSEVtVU9USUVSenJWQWtCRVNEd1dCckcxTndqMU5CTkltd3VsVzdJdThEZEVEdkhiV1l5alY5Qml6bm16VWRvNFg0cXM0eHVSTG1pbTJ3V3FGXzFpUjJpU2puLXByay15aWw1TEJR?oc=5"
+          }
+        ],
+        "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxPZmhsRlN1UURKQjNRcGNmRUFCYjJGSEVtVU9USUVSenJWQWtCRVNEd1dCckcxTndqMU5CTkltd3VsVzdJdThEZEVEdkhiV1l5alY5Qml6bm16VWRvNFg0cXM0eHVSTG1pbTJ3V3FGXzFpUjJpU2puLXByay15aWw1TEJR?oc=5",
+        "id": "CBMiggFBVV95cUxPZmhsRlN1UURKQjNRcGNmRUFCYjJGSEVtVU9USUVSenJWQWtCRVNEd1dCckcxTndqMU5CTkltd3VsVzdJdThEZEVEdkhiV1l5alY5Qml6bm16VWRvNFg0cXM0eHVSTG1pbTJ3V3FGXzFpUjJpU2puLXByay15aWw1TEJR",
+        "guidislink": false,
+        "published": "Tue, 11 Aug 2026 16:58:33 GMT",
+        "published_parsed": [
+          2026,
+          8,
+          11,
+          16,
+          58,
+          33,
+          1,
+          223,
+          0
+        ],
+        "summary": "<a href=\"https://news.google.com/rss/articles/CBMiggFBVV95cUxPZmhsRlN1UURKQjNRcGNmRUFCYjJGSEVtVU9USUVSenJWQWtCRVNEd1dCckcxTndqMU5CTkltd3VsVzdJdThEZEVEdkhiV1l5alY5Qml6bm16VWRvNFg0cXM0eHVSTG1pbTJ3V3FGXzFpUjJpU2puLXByay15aWw1TEJR?oc=5\" target=\"_blank\">Mic’d Up: Justin Herbert at Training Camp 2026</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Los Angeles Chargers</font>",
+        "summary_detail": {
+          "type": "text/html",
+          "language": null,
+          "base": "",
+          "value": "<a href=\"https://news.google.com/rss/articles/CBMiggFBVV95cUxPZmhsRlN1UURKQjNRcGNmRUFCYjJGSEVtVU9USUVSenJWQWtCRVNEd1dCckcxTndqMU5CTkltd3VsVzdJdThEZEVEdkhiV1l5alY5Qml6bm16VWRvNFg0cXM0eHVSTG1pbTJ3V3FGXzFpUjJpU2puLXByay15aWw1TEJR?oc=5\" target=\"_blank\">Mic’d Up: Justin Herbert at Training Camp 2026</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Los Angeles Chargers</font>"
+        },
+        "source": {
+          "href": "https://www.chargers.com",
+          "title": "Los Angeles Chargers"
+        }
+      },
+      "search_query": "Justin Herbert Chargers",
+      "category_key": "interview",
+      "category_name": "감독/선수 인터뷰",
+      "category_badge": "🎙️ 인터뷰/발언",
+      "category_icon": "🎙️",
+      "importance_score": 65,
+      "priority_tier": "⚡ 주요",
+      "priority_class": "tier-high",
+      "headline_kr": "Mic'd Up: 트레이닝 캠프 2026의 Justin Herbert",
+      "summary_bullets_kr": [
+        "📌 **핵심 요약:** Mic'd Up: 2026년 LA Chargers 트레이닝 캠프에서 Justin Herbert(Justin Herbert)",
+        "🏈 **주요 인물:** Justin Herbert (QB)"
       ]
     },
     {
@@ -7881,9 +8533,9 @@
       "importance_score": 63,
       "priority_tier": "⚡ 주요",
       "priority_class": "tier-high",
-      "headline_kr": "Quentin Johnston의 부상 상태 업데이트 및 향후 출전 가능 여부에 대한 팀 공식 리포트입니다.",
+      "headline_kr": "오늘 25세가 되는 Quentin Johnston의 생일을 축하합니다! 🥳",
       "summary_bullets_kr": [
-        "📌 **핵심 요약:** NFL 프리시즌 2주차 요약: SF 49ers 41, LA Chargers 17",
+        "📌 **핵심 요약:** Chargers 구단 및 선수단 관련 최신 뉴스 업데이트입니다.",
         "🏈 **주요 인물:** Quentin Johnston (WR)"
       ]
     },
@@ -7944,9 +8596,9 @@
       "importance_score": 63,
       "priority_tier": "⚡ 주요",
       "priority_class": "tier-high",
-      "headline_kr": "Chargers 구단 및 선수단 관련 최신 뉴스 업데이트입니다.",
+      "headline_kr": "사진: Chargers 2026 팀 사진의 비하인드 스토리",
       "summary_bullets_kr": [
-        "📌 **핵심 요약:** Chargers 구단 및 선수단 관련 최신 뉴스 업데이트입니다."
+        "📌 **핵심 요약:** 사진: Chargers 2026 팀 사진 Los Angeles Chargers의 비하인드 스토리"
       ]
     },
     {
@@ -8006,7 +8658,7 @@
       "importance_score": 63,
       "priority_tier": "⚡ 주요",
       "priority_class": "tier-high",
-      "headline_kr": "Jim Harbaugh 감독 및 코칭스태프의 인터뷰로, 팀 문화 쇄신과 선수단 훈련 평가를 전달했습니다.",
+      "headline_kr": "Chargers의 가장 큰 남은 질문, Jim Harbaugh는 긴급 상황처럼 느껴집니다.",
       "summary_bullets_kr": [
         "📌 **핵심 요약:** Chargers의 가장 큰 남은 질문, Jim Harbaugh의 의견은 긴급 스포츠 일러스트처럼 느껴집니다.",
         "🏈 **주요 인물:** Jim Harbaugh (HC)"
@@ -8069,10 +8721,73 @@
       "importance_score": 63,
       "priority_tier": "⚡ 주요",
       "priority_class": "tier-high",
-      "headline_kr": "LA Chargers 연습 분대 추적기: 모든 선수 서명",
+      "headline_kr": "Chargers의 53인 최종 로스터 진입 경쟁 및 선수단의 계약/영입 관련 최신 소식입니다.",
       "summary_bullets_kr": [
         "📌 **핵심 요약:** Los Angeles Chargers Practice Squad Tracker: 모든 선수 서명 스포츠 일러스트",
         "⚡ **주요 포인트:** 연습 스쿼드 관련 동향 (계약/트레이드/드래프트)"
+      ]
+    },
+    {
+      "title": "Chargers roster news: LA trades TeRah Edwards to Panthers",
+      "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxOQkpqbVhJVXdzWTd5bE1zTkNYdmtISHVaRlZucXlRRzhaZHE0UElVMmF4REZtVXdibDFENGV1SGt0TWpMd29xOTFtX3c3aDlmOGpabDhmZENrZGRZWE9FTFgzSUlwcUpha0l4TnRYXy0zVEVDOFViLXZ6a255c0JwNnVtd3BNZw?oc=5",
+      "summary": "Chargers roster news: LA trades TeRah Edwards to Panthers sports.yahoo.com",
+      "published": "2026-08-29T22:00:00+00:00",
+      "source": "sports.yahoo.com",
+      "author": "",
+      "raw_entry": {
+        "title": "Chargers roster news: LA trades TeRah Edwards to Panthers - sports.yahoo.com",
+        "title_detail": {
+          "type": "text/plain",
+          "language": null,
+          "base": "",
+          "value": "Chargers roster news: LA trades TeRah Edwards to Panthers - sports.yahoo.com"
+        },
+        "links": [
+          {
+            "rel": "alternate",
+            "type": "text/html",
+            "href": "https://news.google.com/rss/articles/CBMihgFBVV95cUxOQkpqbVhJVXdzWTd5bE1zTkNYdmtISHVaRlZucXlRRzhaZHE0UElVMmF4REZtVXdibDFENGV1SGt0TWpMd29xOTFtX3c3aDlmOGpabDhmZENrZGRZWE9FTFgzSUlwcUpha0l4TnRYXy0zVEVDOFViLXZ6a255c0JwNnVtd3BNZw?oc=5"
+          }
+        ],
+        "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxOQkpqbVhJVXdzWTd5bE1zTkNYdmtISHVaRlZucXlRRzhaZHE0UElVMmF4REZtVXdibDFENGV1SGt0TWpMd29xOTFtX3c3aDlmOGpabDhmZENrZGRZWE9FTFgzSUlwcUpha0l4TnRYXy0zVEVDOFViLXZ6a255c0JwNnVtd3BNZw?oc=5",
+        "id": "CBMihgFBVV95cUxOQkpqbVhJVXdzWTd5bE1zTkNYdmtISHVaRlZucXlRRzhaZHE0UElVMmF4REZtVXdibDFENGV1SGt0TWpMd29xOTFtX3c3aDlmOGpabDhmZENrZGRZWE9FTFgzSUlwcUpha0l4TnRYXy0zVEVDOFViLXZ6a255c0JwNnVtd3BNZw",
+        "guidislink": false,
+        "published": "Sun, 30 Aug 2026 07:00:00 GMT",
+        "published_parsed": [
+          2026,
+          8,
+          30,
+          7,
+          0,
+          0,
+          6,
+          242,
+          0
+        ],
+        "summary": "<a href=\"https://news.google.com/rss/articles/CBMihgFBVV95cUxOQkpqbVhJVXdzWTd5bE1zTkNYdmtISHVaRlZucXlRRzhaZHE0UElVMmF4REZtVXdibDFENGV1SGt0TWpMd29xOTFtX3c3aDlmOGpabDhmZENrZGRZWE9FTFgzSUlwcUpha0l4TnRYXy0zVEVDOFViLXZ6a255c0JwNnVtd3BNZw?oc=5\" target=\"_blank\">Chargers roster news: LA trades TeRah Edwards to Panthers</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">sports.yahoo.com</font>",
+        "summary_detail": {
+          "type": "text/html",
+          "language": null,
+          "base": "",
+          "value": "<a href=\"https://news.google.com/rss/articles/CBMihgFBVV95cUxOQkpqbVhJVXdzWTd5bE1zTkNYdmtISHVaRlZucXlRRzhaZHE0UElVMmF4REZtVXdibDFENGV1SGt0TWpMd29xOTFtX3c3aDlmOGpabDhmZENrZGRZWE9FTFgzSUlwcUpha0l4TnRYXy0zVEVDOFViLXZ6a255c0JwNnVtd3BNZw?oc=5\" target=\"_blank\">Chargers roster news: LA trades TeRah Edwards to Panthers</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">sports.yahoo.com</font>"
+        },
+        "source": {
+          "href": "https://sports.yahoo.com",
+          "title": "sports.yahoo.com"
+        }
+      },
+      "search_query": "LA Chargers",
+      "category_key": "roster",
+      "category_name": "계약/트레이드/드래프트",
+      "category_badge": "🎯 영입/계약",
+      "category_icon": "✍️",
+      "importance_score": 63,
+      "priority_tier": "⚡ 주요",
+      "priority_class": "tier-high",
+      "headline_kr": "Chargers의 53인 최종 로스터 진입 경쟁 및 선수단의 계약/영입 관련 최신 소식입니다.",
+      "summary_bullets_kr": [
+        "📌 **핵심 요약:** Chargers 명단 뉴스: LA, TeRah Edwards를 Panthers로 트레이드 sports.yahoo.com",
+        "⚡ **주요 포인트:** 선수 로스터 관련 동향 (계약/트레이드/드래프트)"
       ]
     },
     {
@@ -8134,7 +8849,7 @@
       "priority_class": "tier-high",
       "headline_kr": "Chargers 명단 뉴스: LA, 백업 쿼터백 확고히 함",
       "summary_bullets_kr": [
-        "📌 **핵심 요약:** Chargers 명단 뉴스: LA, 백업 쿼터백 강화 sports.yahoo.com",
+        "📌 **핵심 요약:** Rams vs Chargers를 시청할 수 있는 곳: NFL 프리시즌 라이브 스트림, TV 채널",
         "⚡ **주요 포인트:** 쿼터백(QB), 선수 로스터 관련 동향 (계약/트레이드/드래프트)"
       ]
     },
@@ -8507,7 +9222,7 @@
       "importance_score": 60,
       "priority_tier": "⚡ 주요",
       "priority_class": "tier-high",
-      "headline_kr": "Chargers 구단 및 Ladd McConkey 관련 최신 뉴스 업데이트입니다.",
+      "headline_kr": "Google.fr에는 Ladd McConkey의 멋진 초상화가 있습니다.",
       "summary_bullets_kr": [
         "📌 **핵심 요약:** 제출자: /u/ggf95 [링크] [댓글]",
         "🏈 **주요 인물:** Ladd McConkey (WR)"
@@ -8947,7 +9662,7 @@
       "importance_score": 60,
       "priority_tier": "⚡ 주요",
       "priority_class": "tier-high",
-      "headline_kr": "Jim Harbaugh의 부상 상태 업데이트 및 향후 출전 가능 여부에 대한 팀 공식 리포트입니다.",
+      "headline_kr": "Chargers 뉴스: Jim Harbaugh, 1라운드 신인 메이저 칭찬",
       "summary_bullets_kr": [
         "📌 **핵심 요약:** Chargers 뉴스: Jim Harbaugh가 1라운드 신인 메이저 칭찬을 했습니다. sports.yahoo.com",
         "🏈 **주요 인물:** Jim Harbaugh (HC)"
@@ -9073,9 +9788,9 @@
       "importance_score": 60,
       "priority_tier": "⚡ 주요",
       "priority_class": "tier-high",
-      "headline_kr": "Chargers의 프리시즌 경기 일정 및 팀 훈련 준비 소식입니다.",
+      "headline_kr": "Chargers vs. 텍사스 하이라이트 | 프리시즌 1주차",
       "summary_bullets_kr": [
-        "📌 **핵심 요약:** Chargers의 프리시즌 경기 일정 및 팀 훈련 준비 소식입니다.",
+        "📌 **핵심 요약:** 텍사스 하이라이트 | 프리시즌 1주 차 LA Chargers",
         "⚡ **주요 포인트:** 프리시즌 관련 동향 (경기 결과/프리뷰)"
       ]
     },
@@ -9422,7 +10137,7 @@
       "priority_class": "tier-high",
       "headline_kr": "Los Angeles Chargers 선수 명단을 53명으로 줄였습니다",
       "summary_bullets_kr": [
-        "📌 **핵심 요약:** Los Angeles Chargers 선수 명단을 53명으로 축소 Los Angeles Chargers",
+        "📌 **핵심 요약:** 램 대 Chargers: TV에서 시청하거나 라디오를 스트리밍하거나 듣는 방법",
         "⚡ **주요 포인트:** 선수 로스터 관련 동향 (계약/트레이드/드래프트)"
       ]
     },
@@ -9893,7 +10608,7 @@
       "importance_score": 53,
       "priority_tier": "📰 일반",
       "priority_class": "tier-normal",
-      "headline_kr": "K라인을 타고 LAX 메트로에서 SoFi 브이로그까지 갔어요",
+      "headline_kr": "Chargers 구단 및 선수단 관련 최신 뉴스 업데이트입니다.",
       "summary_bullets_kr": [
         "📌 **핵심 요약:** 제가 얼마전 포스팅했던 곳이에요. 경기 당일 브이로그/연습을 하기로 결정했습니다!"
       ]
@@ -10083,7 +10798,7 @@
       "importance_score": 53,
       "priority_tier": "📰 일반",
       "priority_class": "tier-normal",
-      "headline_kr": "Chargers 신인 Ahkeem Mesidor는 이번 주말 동료 1st Rd 픽 Rueben Bain과 함께 자신의 Alma Mater @ Stanford를 지원합니다.",
+      "headline_kr": "Chargers 신인 Ahkeem Mesidor는 이번 주말 동료 1st Rd 픽인 Rueben Bain과 함께 자신의 Alma Mater @ Stanford를 지원합니다.",
       "summary_bullets_kr": [
         "📌 **핵심 요약:** Chargers는 꺼져 있었고 연습하지 않았습니다. 로스앤젤레스에서 팔로알토(스탠포드)까지 비행기로 이동하는 데 평균 1시간~15분~1시간 35분이 소요됩니다."
       ]
@@ -10272,8 +10987,70 @@
       "priority_class": "tier-normal",
       "headline_kr": "Rams-Chargers 프리시즌 3주차 매치업의 시사점 | 'GMFB'",
       "summary_bullets_kr": [
-        "📌 **핵심 요약:** Rams-Chargers 프리시즌 3주차 매치업의 시사점 | 'GMFB' NFL.com",
+        "📌 **핵심 요약:** Rams와의 프리시즌 경기 일정, 중계 안내 및 주요 관전 포인트 소식입니다.",
         "⚡ **주요 포인트:** 프리시즌 관련 동향 (경기 결과/프리뷰)"
+      ]
+    },
+    {
+      "title": "Uiagalelei's 20-yard laser throw carries Davis out of bounds to set up scoring opportunity",
+      "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNZVpDeDVnYzd4dk82MnpXZXBQeEwyc2R6ZXRDTnN4VVM0Q2k2dGtJbGNwWHBIanVBdThodXNiY242NzZUQkVzLXRhMEFLVDZYVWU5cTZiLWF1bEVpTU5qZlZkUnBaTFZmZlBVaXg1WDlrbkdBTWJXS2FGQUhKeE9aYldCWndaVnA1RmF3N1BIS1VCVm4ybjVqRl9oTXZxLWZtMEhDdWExQ3ZVY1hCSjFOdUcxWXZ5aHVF?oc=5",
+      "summary": "Uiagalelei's 20-yard laser throw carries Davis out of bounds to set up scoring opportunity NFL.com",
+      "published": "2026-08-27T18:37:02+00:00",
+      "source": "NFL.com",
+      "author": "",
+      "raw_entry": {
+        "title": "Uiagalelei's 20-yard laser throw carries Davis out of bounds to set up scoring opportunity - NFL.com",
+        "title_detail": {
+          "type": "text/plain",
+          "language": null,
+          "base": "",
+          "value": "Uiagalelei's 20-yard laser throw carries Davis out of bounds to set up scoring opportunity - NFL.com"
+        },
+        "links": [
+          {
+            "rel": "alternate",
+            "type": "text/html",
+            "href": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNZVpDeDVnYzd4dk82MnpXZXBQeEwyc2R6ZXRDTnN4VVM0Q2k2dGtJbGNwWHBIanVBdThodXNiY242NzZUQkVzLXRhMEFLVDZYVWU5cTZiLWF1bEVpTU5qZlZkUnBaTFZmZlBVaXg1WDlrbkdBTWJXS2FGQUhKeE9aYldCWndaVnA1RmF3N1BIS1VCVm4ybjVqRl9oTXZxLWZtMEhDdWExQ3ZVY1hCSjFOdUcxWXZ5aHVF?oc=5"
+          }
+        ],
+        "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNZVpDeDVnYzd4dk82MnpXZXBQeEwyc2R6ZXRDTnN4VVM0Q2k2dGtJbGNwWHBIanVBdThodXNiY242NzZUQkVzLXRhMEFLVDZYVWU5cTZiLWF1bEVpTU5qZlZkUnBaTFZmZlBVaXg1WDlrbkdBTWJXS2FGQUhKeE9aYldCWndaVnA1RmF3N1BIS1VCVm4ybjVqRl9oTXZxLWZtMEhDdWExQ3ZVY1hCSjFOdUcxWXZ5aHVF?oc=5",
+        "id": "CBMiuAFBVV95cUxNZVpDeDVnYzd4dk82MnpXZXBQeEwyc2R6ZXRDTnN4VVM0Q2k2dGtJbGNwWHBIanVBdThodXNiY242NzZUQkVzLXRhMEFLVDZYVWU5cTZiLWF1bEVpTU5qZlZkUnBaTFZmZlBVaXg1WDlrbkdBTWJXS2FGQUhKeE9aYldCWndaVnA1RmF3N1BIS1VCVm4ybjVqRl9oTXZxLWZtMEhDdWExQ3ZVY1hCSjFOdUcxWXZ5aHVF",
+        "guidislink": false,
+        "published": "Fri, 28 Aug 2026 03:37:02 GMT",
+        "published_parsed": [
+          2026,
+          8,
+          28,
+          3,
+          37,
+          2,
+          4,
+          240,
+          0
+        ],
+        "summary": "<a href=\"https://news.google.com/rss/articles/CBMiuAFBVV95cUxNZVpDeDVnYzd4dk82MnpXZXBQeEwyc2R6ZXRDTnN4VVM0Q2k2dGtJbGNwWHBIanVBdThodXNiY242NzZUQkVzLXRhMEFLVDZYVWU5cTZiLWF1bEVpTU5qZlZkUnBaTFZmZlBVaXg1WDlrbkdBTWJXS2FGQUhKeE9aYldCWndaVnA1RmF3N1BIS1VCVm4ybjVqRl9oTXZxLWZtMEhDdWExQ3ZVY1hCSjFOdUcxWXZ5aHVF?oc=5\" target=\"_blank\">Uiagalelei's 20-yard laser throw carries Davis out of bounds to set up scoring opportunity</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">NFL.com</font>",
+        "summary_detail": {
+          "type": "text/html",
+          "language": null,
+          "base": "",
+          "value": "<a href=\"https://news.google.com/rss/articles/CBMiuAFBVV95cUxNZVpDeDVnYzd4dk82MnpXZXBQeEwyc2R6ZXRDTnN4VVM0Q2k2dGtJbGNwWHBIanVBdThodXNiY242NzZUQkVzLXRhMEFLVDZYVWU5cTZiLWF1bEVpTU5qZlZkUnBaTFZmZlBVaXg1WDlrbkdBTWJXS2FGQUhKeE9aYldCWndaVnA1RmF3N1BIS1VCVm4ybjVqRl9oTXZxLWZtMEhDdWExQ3ZVY1hCSjFOdUcxWXZ5aHVF?oc=5\" target=\"_blank\">Uiagalelei's 20-yard laser throw carries Davis out of bounds to set up scoring opportunity</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">NFL.com</font>"
+        },
+        "source": {
+          "href": "https://www.nfl.com",
+          "title": "NFL.com"
+        }
+      },
+      "search_query": "LA Chargers",
+      "category_key": "injury",
+      "category_name": "부상/로스터 보고",
+      "category_badge": "📋 부상/로스터",
+      "category_icon": "🏥",
+      "importance_score": 53,
+      "priority_tier": "📰 일반",
+      "priority_class": "tier-normal",
+      "headline_kr": "Uiagalelei의 20야드 레이저 투척으로 Davis가 득점 기회를 잡기 위해 경계 밖으로 나갔습니다.",
+      "summary_bullets_kr": [
+        "📌 **핵심 요약:** Uiagalelei의 20야드 레이저 투척으로 Davis가 득점 기회를 확보하기 위해 경계 밖으로 나갔습니다. NFL.com"
       ]
     },
     {
@@ -10333,7 +11110,7 @@
       "importance_score": 53,
       "priority_tier": "📰 일반",
       "priority_class": "tier-normal",
-      "headline_kr": "Rams와의 프리시즌 경기 일정, 중계 안내 및 주요 관전 포인트 소식입니다.",
+      "headline_kr": "Rams 대 Chargers 예측, NFL 프리시즌 추천 – 8월 27일 목요일",
       "summary_bullets_kr": [
         "📌 **핵심 요약:** Chargers 예측, NFL 프리시즌 추천 – 8월 27일 목요일 PrizePicks",
         "⚡ **주요 포인트:** 프리시즌 관련 동향 (경기 결과/프리뷰)"
@@ -10680,7 +11457,7 @@
       "priority_class": "tier-normal",
       "headline_kr": "다음 주말을 맞이할 준비가 된 사람 ⚡️⚡️",
       "summary_bullets_kr": [
-        "📌 **핵심 요약:** /u/neidermeyersmind94가 제출함 [링크] [댓글]"
+        "📌 **핵심 요약:** Chargers 구단 및 선수단 관련 최신 뉴스 업데이트입니다."
       ]
     },
     {
@@ -10956,7 +11733,7 @@
       "priority_class": "tier-normal",
       "headline_kr": "누가 매튜 스태포드를 지지할 것인가? Rams의 QB2 레이스가 프리시즌 피날레에 진출",
       "summary_bullets_kr": [
-        "📌 **핵심 요약:** 누가 매튜 스태포드를 지지할 것인가? Rams의 QB2 레이스가 프리시즌 결승전에 진출합니다. Los Angeles Times",
+        "📌 **핵심 요약:** 누가 매튜 스태포드를 지지할 것인가? Rams의 QB2 레이스가 프리시즌 결승전으로 치러집니다. Los Angeles Times",
         "⚡ **주요 포인트:** 프리시즌 관련 동향 (경기 결과/프리뷰)"
       ]
     },
@@ -11462,6 +12239,6 @@
       ]
     }
   ],
-  "total_count": 158,
-  "updated_at": "2026-09-08 22:46:16"
+  "total_count": 166,
+  "updated_at": "2026-09-08 22:50:57"
 }
