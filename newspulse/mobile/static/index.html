@@ -211,6 +211,73 @@
         }
         .tactical-note strong { color: var(--powder-blue-light); display: block; margin-bottom: 2px; }
 
+        /* Schedule Cards */
+        .schedule-card {
+            background: var(--navy-surface);
+            border: 1px solid var(--navy-border);
+            border-radius: 12px;
+            padding: 14px;
+            margin-bottom: 12px;
+            box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+        }
+
+        .badge-home {
+            background: rgba(0, 128, 198, 0.2);
+            color: var(--powder-blue-light);
+            border: 1px solid var(--powder-blue);
+            padding: 2px 6px;
+            border-radius: 4px;
+            font-size: 0.72rem;
+            font-weight: 700;
+        }
+
+        .badge-away {
+            background: rgba(148, 163, 184, 0.2);
+            color: #CBD5E1;
+            border: 1px solid #64748B;
+            padding: 2px 6px;
+            border-radius: 4px;
+            font-size: 0.72rem;
+            font-weight: 700;
+        }
+
+        .badge-upcoming {
+            background: rgba(255, 194, 14, 0.15);
+            color: var(--sunshine-gold);
+            border: 1px solid var(--sunshine-gold);
+            padding: 2px 8px;
+            border-radius: 12px;
+            font-size: 0.72rem;
+            font-weight: 800;
+        }
+
+        .badge-win {
+            background: #10B981;
+            color: #FFFFFF;
+            padding: 2px 8px;
+            border-radius: 12px;
+            font-size: 0.72rem;
+            font-weight: 800;
+        }
+
+        .badge-loss {
+            background: #EF4444;
+            color: #FFFFFF;
+            padding: 2px 8px;
+            border-radius: 12px;
+            font-size: 0.72rem;
+            font-weight: 800;
+        }
+
+        .badge-bye {
+            background: #64748B;
+            color: #FFFFFF;
+            padding: 2px 8px;
+            border-radius: 12px;
+            font-size: 0.72rem;
+            font-weight: 800;
+        }
+
         /* Article Cards */
         .article-card {
             background: var(--navy-surface);
@@ -454,7 +521,42 @@
             </div>
         </div>
 
-        <!-- TAB 3: ROSTER / INJURY -->
+        <!-- TAB 3: SCHEDULE (2026 NFL FULL SCHEDULE) -->
+        <div id="tab-schedule" class="tab-view">
+            <!-- Season Record Banner -->
+            <div class="card card-gold-left" style="background: linear-gradient(135deg, #0C2340 0%, #004D7A 100%);">
+                <div style="display: flex; justify-content: space-between; align-items: center;">
+                    <div>
+                        <div style="font-size: 0.72rem; color: var(--powder-blue-light); font-weight: 700; letter-spacing: 0.5px;">LOS ANGELES CHARGERS</div>
+                        <h3 style="font-size: 1.15rem; font-weight: 900; color: #FFFFFF; margin-top: 2px;">2026 시즌 공식 일정</h3>
+                    </div>
+                    <div id="seasonRecordBadge" style="background: var(--sunshine-gold); color: #07101E; padding: 4px 10px; border-radius: 20px; font-weight: 900; font-size: 0.8rem; box-shadow: 0 2px 8px rgba(255,194,14,0.3);">
+                        0승 0패
+                    </div>
+                </div>
+            </div>
+
+            <!-- Next Match Hero Card -->
+            <div class="card card-blue-left" id="nextMatchHeroCard">
+                <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 8px;">
+                    <span style="font-size: 0.75rem; font-weight: 800; color: var(--sunshine-gold); background: rgba(255,194,14,0.15); padding: 3px 8px; border-radius: 4px; border: 1px solid var(--sunshine-gold);">🔥 NEXT MATCH</span>
+                    <span id="nextMatchDDay" style="font-size: 0.85rem; font-weight: 900; color: #FF4D4D;">D-Day 계산 중</span>
+                </div>
+                <h3 id="nextMatchTitle" style="font-size: 1.08rem; font-weight: 900; margin-bottom: 8px; color: #FFFFFF;">vs Arizona Cardinals</h3>
+                <div style="background: var(--navy-card); padding: 10px 12px; border-radius: 8px; font-size: 0.84rem; line-height: 1.55;">
+                    <div style="color: var(--powder-blue-light); font-weight: 700;">⏰ 킥오프 (한국시간): <span id="nextMatchKst" style="color: #FFFFFF;">-</span></div>
+                    <div>📍 경기장: <span id="nextMatchStadium" style="color: #E2E8F0;">-</span></div>
+                    <div>📺 중계: <span id="nextMatchBroadcast" style="color: var(--text-muted);">-</span></div>
+                </div>
+            </div>
+
+            <h3 style="font-size: 1rem; font-weight: 800; margin: 18px 0 10px 0;">📅 18주차 전체 경기 일정 (한국시간 KST)</h3>
+            <div id="fullScheduleContainer">
+                <!-- Injected via JS -->
+            </div>
+        </div>
+
+        <!-- TAB 4: ROSTER / INJURY -->
         <div id="tab-roster" class="tab-view">
             <div class="card card-blue-left">
                 <div class="card-header-title" style="color: var(--powder-blue-light);">
@@ -469,7 +571,7 @@
             </div>
         </div>
 
-        <!-- TAB 4: ALL NEWS -->
+        <!-- TAB 5: ALL NEWS -->
         <div id="tab-all" class="tab-view">
             <input type="text" class="search-box" id="searchInput" placeholder="🔍 기사 제목 또는 선수명 검색..." onkeyup="searchArticles()">
             <div id="allArticlesContainer">
@@ -479,7 +581,7 @@
 
     </div>
 
-    <!-- Bottom Navigation Bar -->
+    <!-- Bottom Navigation Bar (5 Items) -->
     <nav class="bottom-nav">
         <div class="nav-item active" onclick="switchTab('home', this)">
             <span class="nav-icon">⚡</span>
@@ -488,6 +590,10 @@
         <div class="nav-item" onclick="switchTab('game', this)">
             <span class="nav-icon">🏈</span>
             <span>Game Center</span>
+        </div>
+        <div class="nav-item" onclick="switchTab('schedule', this)">
+            <span class="nav-icon">📅</span>
+            <span>스케줄</span>
         </div>
         <div class="nav-item" onclick="switchTab('roster', this)">
             <span class="nav-icon">📋</span>
@@ -623,7 +729,70 @@
                 });
             }
 
-            // 5. Render Articles
+            // 5. Schedule Render (2026 Full NFL Schedule & KST Kickoffs)
+            const sched = briefing.schedule || {};
+            const nextGame = sched.next_game || {};
+            
+            const recordEl = document.getElementById('seasonRecordBadge');
+            if (recordEl) recordEl.textContent = sched.record || '0승 0패';
+            
+            if (nextGame && nextGame.opponent) {
+                const ddayEl = document.getElementById('nextMatchDDay');
+                const titleEl = document.getElementById('nextMatchTitle');
+                const kstEl = document.getElementById('nextMatchKst');
+                const stadiumEl = document.getElementById('nextMatchStadium');
+                const broadEl = document.getElementById('nextMatchBroadcast');
+
+                if (ddayEl) ddayEl.textContent = nextGame.d_day || 'D-Day 계산 중';
+                if (titleEl) titleEl.textContent = `${nextGame.is_home ? 'vs' : '@'} ${nextGame.opponent}`;
+                if (kstEl) kstEl.textContent = nextGame.date_kst || '-';
+                if (stadiumEl) stadiumEl.textContent = nextGame.stadium || '-';
+                if (broadEl) broadEl.textContent = nextGame.broadcast || '-';
+            }
+
+            const schedContainer = document.getElementById('fullScheduleContainer');
+            if (schedContainer) {
+                schedContainer.innerHTML = '';
+                (sched.games || []).forEach(g => {
+                    const card = document.createElement('div');
+                    card.className = 'schedule-card';
+                    
+                    let resultBadgeHtml = '';
+                    if (g.status === 'upcoming') {
+                        resultBadgeHtml = `<span class="badge-upcoming">${g.d_day || '예정'}</span>`;
+                    } else if (g.status === 'bye') {
+                        resultBadgeHtml = `<span class="badge-bye">휴식주</span>`;
+                    } else if (g.result === 'WIN') {
+                        resultBadgeHtml = `<span class="badge-win">승리 W</span>`;
+                    } else if (g.result === 'LOSS') {
+                        resultBadgeHtml = `<span class="badge-loss">패배 L</span>`;
+                    } else {
+                        resultBadgeHtml = `<span class="badge-upcoming">종료</span>`;
+                    }
+
+                    const homeBadge = g.is_home ? '<span class="badge-home">🏠 홈</span>' : '<span class="badge-away">✈️ 원정</span>';
+                    
+                    card.innerHTML = `
+                        <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 4px;">
+                            <span style="font-weight: 800; font-size: 0.82rem; color: var(--powder-blue-light);">Week ${g.week} ${homeBadge}</span>
+                            ${resultBadgeHtml}
+                        </div>
+                        <div style="font-size: 0.98rem; font-weight: 800; color: #FFFFFF; margin: 4px 0;">
+                            ${g.is_home ? 'vs' : '@'} ${g.opponent}
+                        </div>
+                        <div style="font-size: 0.8rem; color: var(--sunshine-gold); font-weight: 700; margin-top: 2px;">
+                            ⏰ ${g.date_kst}
+                        </div>
+                        ${g.score ? `<div style="font-size: 0.8rem; color: #FFFFFF; background: var(--navy-card); padding: 4px 8px; border-radius: 4px; margin-top: 4px;">📊 스코어: ${g.score}</div>` : ''}
+                        <div style="font-size: 0.75rem; color: var(--text-muted); margin-top: 4px;">
+                            📍 ${g.stadium} ${g.broadcast && g.broadcast !== '-' ? `| 📺 ${g.broadcast}` : ''}
+                        </div>
+                    `;
+                    schedContainer.appendChild(card);
+                });
+            }
+
+            // 6. Render Articles
             renderArticleCards(articles);
         }
 
