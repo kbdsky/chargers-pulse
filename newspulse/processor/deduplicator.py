@@ -1,6 +1,7 @@
-"""Deduplication and quality filtering engine for news articles."""
+"""Deduplication and quality filtering engine for news articles with freshness validation."""
 
 import re
+import datetime
 from typing import Dict, List, Set
 
 ERROR_PATTERNS = [
@@ -11,20 +12,23 @@ ERROR_PATTERNS = [
 
 
 class Deduplicator:
-    """Deduplicates articles based on URL and title similarity, and filters out error items."""
+    """Deduplicates articles based on URL and title similarity, and filters out error/outdated items."""
 
-    def __init__(self, similarity_threshold: float = 0.65):
+    def __init__(self, similarity_threshold: float = 0.65, max_age_days: int = 10):
         self.similarity_threshold = similarity_threshold
+        self.max_age_days = max_age_days
 
     def deduplicate(self, articles: List[Dict[str, any]]) -> List[Dict[str, any]]:
-        """Remove duplicate and corrupted error articles."""
+        """Remove duplicate and corrupted/outdated error articles."""
         unique_articles: List[Dict[str, any]] = []
         seen_urls: Set[str] = set()
+        now_utc = datetime.datetime.now(datetime.timezone.utc)
 
         for art in articles:
             url = self._normalize_url(art.get("url", ""))
             title = art.get("title", "")
             summary = art.get("summary", "")
+            pub_str = art.get("published", "")
 
             if not url or not title:
                 continue
@@ -33,6 +37,18 @@ class Deduplicator:
             content_lower = f"{title} {summary}".lower()
             if any(err in content_lower for err in ERROR_PATTERNS):
                 continue
+
+            # Strict freshness validation (exclude articles older than max_age_days or from previous years)
+            if pub_str and self.max_age_days is not None:
+                try:
+                    pub_dt = datetime.datetime.fromisoformat(pub_str.replace("Z", "+00:00"))
+                    if not pub_dt.tzinfo:
+                        pub_dt = pub_dt.replace(tzinfo=datetime.timezone.utc)
+                    age_days = (now_utc - pub_dt).total_seconds() / 86400
+                    if age_days > self.max_age_days:
+                        continue
+                except Exception:
+                    pass
 
             if url in seen_urls:
                 continue
