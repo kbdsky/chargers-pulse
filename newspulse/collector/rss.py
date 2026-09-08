@@ -1,4 +1,4 @@
-"""RSS & Atom feed collector for Chargers news with freshness filtering."""
+"""RSS & Atom feed collector for Chargers news with 30-day freshness filtering."""
 
 import logging
 import datetime
@@ -13,7 +13,7 @@ USER_AGENT = "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTM
 
 
 class RSSCollector:
-    """Collects news articles from RSS & Atom feeds with recency filtering."""
+    """Collects news articles from RSS & Atom feeds with 30-day scope."""
 
     def __init__(self, headers: Optional[Dict[str, str]] = None, timeout: int = 15):
         self.headers = headers or {"User-Agent": USER_AGENT}
@@ -25,9 +25,9 @@ class RSSCollector:
         source_name: str = "",
         filter_chargers: bool = False,
         limit: int = 100,
-        max_age_days: Optional[int] = 10,
+        max_age_days: Optional[int] = 31,
     ) -> List[Dict[str, any]]:
-        """Fetch and parse an RSS feed URL with recency filter."""
+        """Fetch and parse an RSS feed URL within a 30-day window."""
         articles = []
         now_utc = datetime.datetime.now(datetime.timezone.utc)
 
@@ -47,7 +47,7 @@ class RSSCollector:
                 author = entry.get("author") or entry.get("dc_creator", "")
                 pub_date = self._parse_date(entry)
 
-                # Filter out ancient/outdated articles
+                # Filter out ancient articles older than 31 days
                 if pub_date and max_age_days is not None:
                     try:
                         pub_utc = pub_date if pub_date.tzinfo else pub_date.replace(tzinfo=datetime.timezone.utc)
@@ -83,7 +83,7 @@ class RSSCollector:
         self,
         feed_configs: List[Dict[str, any]],
         limit_per_feed: int = 50,
-        max_age_days: int = 10,
+        max_age_days: int = 31,
     ) -> List[Dict[str, any]]:
         """Fetch articles across a list of configured feeds."""
         all_articles = []
