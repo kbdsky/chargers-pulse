@@ -1,4 +1,4 @@
-"""Game and Matchup Intelligence Analyzer for Chargers (English Proper Nouns)."""
+"""Game and Matchup Intelligence Analyzer for Chargers (English Proper Nouns & Recency Sorting)."""
 
 import re
 from typing import Dict, List, Optional
@@ -9,14 +9,19 @@ class GameAnalyzer:
     """Analyzes game results, opponents, scores, and tactical takeaways with English proper nouns."""
 
     def analyze_game_news(self, articles: List[Dict[str, any]]) -> Dict[str, any]:
-        """Synthesize game-specific news and match intelligence."""
-        game_articles = [a for a in articles if a.get("category_key") == "game" or "vs" in a.get("title", "").lower() or "recap" in a.get("title", "").lower()]
+        """Synthesize game-specific news and match intelligence prioritizing the latest matchups."""
+        # Sort by published date descending (newest first)
+        game_articles = sorted(
+            [a for a in articles if a.get("category_key") == "game" or "vs" in a.get("title", "").lower() or "recap" in a.get("title", "").lower() or "week 1" in a.get("title", "").lower() or "opener" in a.get("title", "").lower()],
+            key=lambda x: x.get("published", ""),
+            reverse=True
+        )
 
         if not game_articles:
             return {
                 "has_game_data": False,
                 "opponent": "미정",
-                "game_type": "시즌 준비 단계",
+                "game_type": "정규시즌 개막 준비 단계",
                 "score_detected": None,
                 "highlights": ["현재 수집된 경기 결과 소식이 없습니다."],
                 "offense_notes": "정규시즌 개막 대비 공격 전술 훈련 진행 중",
@@ -25,15 +30,18 @@ class GameAnalyzer:
 
         detected_opponents = []
         detected_scores = []
+        is_regular_season = False
         is_preseason = False
         is_joint_practice = False
-        game_type = "정규시즌/프리시즌 경기"
+        game_type = "정규시즌 1주차 매치업"
 
         for art in game_articles:
             text = f"{art.get('title', '')} {art.get('summary', '')}"
             lower = text.lower()
 
-            if "preseason" in lower:
+            if "week 1" in lower or "season opener" in lower or "regular season" in lower:
+                is_regular_season = True
+            elif "preseason" in lower:
                 is_preseason = True
             if "joint practice" in lower or "합동 훈련" in text:
                 is_joint_practice = True
@@ -44,17 +52,20 @@ class GameAnalyzer:
 
             for opp_key, opp_val in NFL_TEAMS.items():
                 if re.search(r"\b" + re.escape(opp_key) + r"\b", lower):
-                    detected_opponents.append(opp_val)
+                    if opp_val not in detected_opponents:
+                        detected_opponents.append(opp_val)
 
-        if is_preseason:
+        if is_regular_season:
+            game_type = "정규시즌 1주차 개막전"
+        elif is_preseason:
             game_type = "프리시즌 매치"
-        if is_joint_practice:
+        if is_joint_practice and not is_regular_season:
             game_type = "합동 훈련 및 평가전"
 
-        main_opponent = detected_opponents[0] if detected_opponents else "SF 49ers"
-        score_info = detected_scores[0] if detected_scores else "스코어 미확정 / 프리뷰"
+        main_opponent = detected_opponents[0] if detected_opponents else "Cardinals / Rams"
+        score_info = detected_scores[0] if detected_scores else "매치업 프리뷰 (개막전 대비)"
 
-        # Generate structured key points
+        # Generate structured key points from newest 4 articles
         game_points = []
         for art in game_articles[:4]:
             t = art.get("title", "")
