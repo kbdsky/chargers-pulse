@@ -1,4 +1,4 @@
-"""Deduplication and quality filtering engine for news articles with freshness validation."""
+"""Deduplication and quality filtering engine for news articles with 30-day window."""
 
 import re
 import datetime
@@ -12,9 +12,9 @@ ERROR_PATTERNS = [
 
 
 class Deduplicator:
-    """Deduplicates articles based on URL and title similarity, and filters out error/outdated items."""
+    """Deduplicates articles based on URL and title similarity with a 30-day scope."""
 
-    def __init__(self, similarity_threshold: float = 0.65, max_age_days: int = 10):
+    def __init__(self, similarity_threshold: float = 0.65, max_age_days: int = 31):
         self.similarity_threshold = similarity_threshold
         self.max_age_days = max_age_days
 
@@ -38,7 +38,7 @@ class Deduplicator:
             if any(err in content_lower for err in ERROR_PATTERNS):
                 continue
 
-            # Strict freshness validation (exclude articles older than max_age_days or from previous years)
+            # Exclude articles older than 31 days or from past years
             if pub_str and self.max_age_days is not None:
                 try:
                     pub_dt = datetime.datetime.fromisoformat(pub_str.replace("Z", "+00:00"))
