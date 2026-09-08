@@ -1,4 +1,6 @@
-"""Importance Scoring and Smart Article Ranker for Chargers News."""
+"""Importance Scoring and Smart Article Ranker for Chargers News.
+Prioritizes the most recent 1-week (7 days) articles while archiving 1-month (30 days) context.
+"""
 
 import re
 import datetime
@@ -6,7 +8,7 @@ from typing import Dict, List, Tuple
 
 
 class ArticleRanker:
-    """Calculates importance score (0-100) and curates top priority highlights."""
+    """Calculates importance score (0-100) prioritizing recent 7-day breaking news."""
 
     # High-impact football/team impact keywords
     HIGH_IMPACT_KEYWORDS = {
@@ -38,42 +40,42 @@ class ArticleRanker:
 
     def score_article(self, article: Dict[str, any], all_articles: List[Dict[str, any]] = None) -> int:
         """Calculate an importance score from 0 to 100 for an article."""
-        score = 30  # Baseline
+        score = 25  # Baseline
 
         title = article.get("title", "").lower()
         summary = article.get("summary", "").lower()
         content = f"{title} {summary}"
 
-        # 1. Keyword Impact (Max +40)
+        # 1. Keyword Impact (Max +35)
         keyword_score = 0
         for kw, pts in self.HIGH_IMPACT_KEYWORDS.items():
             pattern = r"\b" + re.escape(kw) + r"\b"
             if re.search(pattern, content, re.IGNORECASE):
                 keyword_score += pts
-                if keyword_score >= 40:
+                if keyword_score >= 35:
                     break
-        score += min(keyword_score, 40)
+        score += min(keyword_score, 35)
 
         # 2. Source Credibility (Max +15)
         source = article.get("source", "").lower()
-        if "bolts from the blue" in source or "espn" in source:
+        if "bolts from the blue" in source or "espn" in source or "chargers.com" in source:
             score += 15
-        elif "yardbarker" in source:
+        elif "yardbarker" in source or "sports illustrated" in source or "yahoo" in source:
             score += 10
         elif "google news" in source:
             score += 8
 
-        # 3. Cross-Coverage / Repetition across outlets (Max +20)
+        # 3. Cross-Coverage / Repetition across outlets (Max +15)
         if all_articles:
             cross_coverage = 0
-            title_words = set(re.findall(r"\b\w{4,}\b", title)) - {"chargers", "angeles", "with", "from", "that"}
+            title_words = set(re.findall(r"\b\w{4,}\b", title)) - {"chargers", "angeles", "with", "from", "that", "news"}
             for other in all_articles:
                 if other is not article:
                     other_title = other.get("title", "").lower()
                     overlap = sum(1 for w in title_words if w in other_title)
                     if overlap >= 2:
                         cross_coverage += 5
-            score += min(cross_coverage, 20)
+            score += min(cross_coverage, 15)
 
         # 4. Content Richness (Max +10)
         if len(summary) > 100:
@@ -81,18 +83,21 @@ class ArticleRanker:
         elif len(summary) > 40:
             score += 5
 
-        # 5. Freshness Bonus (Max +10)
+        # 5. Freshness Bonus (Max +25) - High priority for recent 1 week (0-7 days)
         pub_str = article.get("published", "")
         if pub_str:
             try:
-                # Basic check for recent ISO date
                 pub_date = datetime.datetime.fromisoformat(pub_str[:19])
                 now = datetime.datetime.now()
                 days_diff = (now - pub_date).total_seconds() / 86400.0
-                if days_diff <= 1.0:
-                    score += 10
-                elif days_diff <= 3.0:
-                    score += 5
+                if days_diff <= 2.0:
+                    score += 25  # Within 48 hours: Maximum breaking news bonus
+                elif days_diff <= 7.0:
+                    score += 18  # Within past 1 week: High priority
+                elif days_diff <= 14.0:
+                    score += 8   # 2 weeks old
+                elif days_diff <= 30.0:
+                    score += 0   # 1 month archive (kept in collection, lower score)
             except Exception:
                 pass
 
@@ -113,12 +118,16 @@ class ArticleRanker:
         return final_score
 
     def rank_articles(self, articles: List[Dict[str, any]]) -> List[Dict[str, any]]:
-        """Score and sort all articles by importance."""
+        """Score and sort all articles by importance and recency."""
         for art in articles:
             self.score_article(art, all_articles=articles)
 
-        # Sort descending by importance_score
-        return sorted(articles, key=lambda x: x.get("importance_score", 0), reverse=True)
+        # Sort descending by importance_score and published date
+        return sorted(
+            articles,
+            key=lambda x: (x.get("importance_score", 0), x.get("published", "")),
+            reverse=True
+        )
 
     def get_top_priority(self, articles: List[Dict[str, any]], limit: int = 5) -> List[Dict[str, any]]:
         """Extract the top critical articles."""
