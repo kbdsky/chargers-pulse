@@ -26,6 +26,12 @@ ENGLISH_PROPER_NOUNS = [
 KOREAN_TO_ENGLISH_NAMES = {
     "로스앤젤레스 차저스": "LA Chargers",
     "차저스": "Chargers",
+    "충전기들의": "Chargers의",
+    "충전기에": "Chargers에",
+    "충전기를": "Chargers를",
+    "충전기가": "Chargers가",
+    "충전기": "Chargers",
+    "충전기들": "Chargers",
     "볼츠": "Bolts",
     "샌프란시스코 49ers": "SF 49ers",
     "샌프란시스코": "San Francisco",
@@ -40,8 +46,10 @@ KOREAN_TO_ENGLISH_NAMES = {
     "카우보이스": "Cowboys",
     "소파이 스타디움": "SoFi Stadium",
     "저스틴 허버트": "Justin Herbert",
+    "허버트": "Justin Herbert",
     "짐 하보": "Jim Harbaugh",
     "짐 하버": "Jim Harbaugh",
+    "하보": "Jim Harbaugh",
     "조 알트": "Joe Alt",
     "래드 맥콩키": "Ladd McConkey",
     "더윈 제임스": "Derwin James",
@@ -61,6 +69,10 @@ KOREAN_TO_ENGLISH_NAMES = {
     "마이크 브레이블": "Mike Vrabel",
     "그렉 로만": "Greg Roman",
     "제시 민터": "Jesse Minter",
+    "레이더 아래로 날아갑니다": "다크호스로 주목받음",
+    "레이더 아래": "다크호스(언더더레이더)",
+    "축구에서": "NFL 미식축구에서",
+    "축구": "NFL 미식축구",
 }
 
 INVALID_ERROR_SNIPPETS = [
