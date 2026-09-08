@@ -10,6 +10,7 @@ from .game_analyzer import GameAnalyzer
 from .dynamic_keywords import DynamicKeywordTracker
 from .ranker import ArticleRanker
 from .translator import KoreanTranslator
+from .schedule_manager import ScheduleManager
 
 logger = logging.getLogger(__name__)
 
@@ -77,6 +78,7 @@ class Summarizer:
         self.keyword_tracker = DynamicKeywordTracker()
         self.ranker = ArticleRanker()
         self.translator = KoreanTranslator()
+        self.schedule_manager = ScheduleManager()
 
     def summarize_article(self, article: Dict[str, any]) -> Dict[str, any]:
         """Generate fluent Korean headline and summary bullet points with English proper nouns."""
@@ -107,6 +109,8 @@ class Summarizer:
 
     def generate_executive_briefing(self, articles: List[Dict[str, any]]) -> Dict[str, any]:
         """Generate comprehensive executive team briefing in Korean with English proper nouns."""
+        schedule_data = self.schedule_manager.get_schedule_data(articles)
+
         if not articles:
             return {
                 "headline": "수집된 Chargers 뉴스가 없습니다.",
@@ -114,6 +118,7 @@ class Summarizer:
                 "injury_update": "특이사항 없음",
                 "team_outlook": "최신 뉴스를 업데이트해 주세요.",
                 "game_center": {},
+                "schedule": schedule_data,
                 "trending_keywords": [],
                 "top_highlights": [],
             }
@@ -126,12 +131,14 @@ class Summarizer:
             ai_brief = self._generate_ai_briefing(articles)
             if ai_brief:
                 ai_brief["game_center"] = game_data
+                ai_brief["schedule"] = schedule_data
                 ai_brief["trending_keywords"] = trend_data.get("trending_keywords", [])
                 ai_brief["top_highlights"] = top_highlights
                 return ai_brief
 
         briefing = self._generate_heuristic_briefing(articles, game_data, trend_data)
         briefing["game_center"] = game_data
+        briefing["schedule"] = schedule_data
         briefing["trending_keywords"] = trend_data.get("trending_keywords", [])
         briefing["top_highlights"] = top_highlights
         return briefing
