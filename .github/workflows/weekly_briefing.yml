@@ -1,9 +1,9 @@
-name: ⚡ LA Chargers NewsPulse 24/7 Cloud Auto-Briefing
+name: ⚡ LA Chargers NewsPulse 24/7 Cloud Daily Auto-Briefing
 
 on:
   schedule:
-    # Runs every Monday at 00:00 UTC (09:00 AM KST)
-    - cron: '0 0 * * 1'
+    # Runs EVERY DAY at 00:00 UTC (09:00 AM KST)
+    - cron: '0 0 * * *'
   workflow_dispatch: # Allows manual run anytime from GitHub web/phone!
 
 permissions:
