@@ -302,7 +302,7 @@
     "injury_report_table": {
       "title": "⚡ LA Chargers 공식 부상 리포트 (Official Injury Report)",
       "last_updated": "2026-09-18",
-      "summary_counts": "총 7명 등재 (결장/IR: 4명, 출전 불투명: 1명, 정상 출전: 2명)",
+      "summary_counts": "총 9명 등재 (결장/IR: 6명, 출전 불투명: 1명, 정상 출전: 2명)",
       "legend": {
         "DNP": "Did Not Participate (훈련 전면 불참)",
         "LP": "Limited Participation (제한적 훈련 참여)",
@@ -313,6 +313,17 @@
       },
       "players": [
         {
+          "player": "Ladd McConkey",
+          "position": "WR",
+          "injury": "Rib (늑골/갈비뼈 부상)",
+          "wednesday": "DNP",
+          "thursday": "DNP",
+          "friday": "DNP",
+          "game_status": "Out (결장 유력)",
+          "status_code": "OUT",
+          "status_detail": "1주차 경기 중 늑골 부상. 트레이너와 개별 재활 훈련 진행 중이며 2주차 결장 유력."
+        },
+        {
           "player": "Justin Herbert",
           "position": "QB",
           "injury": "Plantar Fascia (오른발 족저근막염)",
@@ -321,18 +332,40 @@
           "friday": "FP",
           "game_status": "Active (정상 출전)",
           "status_code": "ACTIVE",
-          "status_detail": "보호대 착용 후 정상 훈련(Full Practice) 소화. 1주차 선발 출전 확정."
+          "status_detail": "보호대 착용 후 정상 훈련(Full Practice) 완벽 소화. 2주차 Raiders전 선발 출전."
         },
         {
           "player": "Joey Bosa",
           "position": "OLB",
-          "injury": "Hand / Wrist (손/손목 부상)",
+          "injury": "Hand / Wrist (손목 부상)",
           "wednesday": "LP",
           "thursday": "FP",
           "friday": "FP",
           "game_status": "Active (정상 출전)",
           "status_code": "ACTIVE",
-          "status_detail": "프리시즌 중 손목 보호대 착용 훈련 완료. 개막전 엣지 러시 정상 가동."
+          "status_detail": "손목 보호대 착용 후 풀 훈련 복귀. Raiders전 엣지 러시 선발 가동."
+        },
+        {
+          "player": "Trey Pipkins III",
+          "position": "OT",
+          "injury": "Knee / Ankle (무릎/발목)",
+          "wednesday": "DNP",
+          "thursday": "DNP",
+          "friday": "DNP",
+          "game_status": "Out (결장)",
+          "status_code": "OUT",
+          "status_detail": "2회 연속 훈련 불참(DNP). 오펜시브 라인 뎁스 변경 불가피."
+        },
+        {
+          "player": "Elijah Molden",
+          "position": "S",
+          "injury": "Hamstring (햄스트링)",
+          "wednesday": "DNP",
+          "thursday": "DNP",
+          "friday": "DNP",
+          "game_status": "Out (결장)",
+          "status_code": "OUT",
+          "status_detail": "햄스트링 통증으로 훈련 불참(DNP). 세컨더리 로테이션 조정."
         },
         {
           "player": "DJ Chark Jr.",
@@ -343,7 +376,18 @@
           "friday": "DNP",
           "game_status": "Out (결장)",
           "status_code": "OUT",
-          "status_detail": "엉덩이 부상으로 훈련 불참(DNP). 1주차 결장 확정."
+          "status_detail": "엉덩이 부상으로 훈련 전면 불참(DNP)."
+        },
+        {
+          "player": "Scott Matlock",
+          "position": "FB/DL",
+          "injury": "Ankle (발목 부상)",
+          "wednesday": "LP",
+          "thursday": "LP",
+          "friday": "LP",
+          "game_status": "Questionable (출전 불투명)",
+          "status_code": "QUESTIONABLE",
+          "status_detail": "제한적 훈련(LP) 소화. 경기 당일 워밍업 후 최종 출전 여부 결정."
         },
         {
           "player": "Keaton Mitchell",
@@ -365,29 +409,7 @@
           "friday": "DNP",
           "game_status": "IR (Injured Reserve)",
           "status_code": "IR",
-          "status_detail": "IR(Designated to Return) 등재. 최소 4주 결장 후 복귀 타진."
-        },
-        {
-          "player": "Scott Matlock",
-          "position": "FB/DL",
-          "injury": "Ankle (발목 부상)",
-          "wednesday": "LP",
-          "thursday": "LP",
-          "friday": "LP",
-          "game_status": "Questionable (출전 불투명)",
-          "status_code": "QUESTIONABLE",
-          "status_detail": "제한적 훈련(LP) 소화. 경기 당일 워밍업 후 최종 출전 여부 결정."
-        },
-        {
-          "player": "Isaiah World",
-          "position": "OT",
-          "injury": "Non-Football Injury (NFI)",
-          "wednesday": "DNP",
-          "thursday": "DNP",
-          "friday": "DNP",
-          "game_status": "Reserve / NFI",
-          "status_code": "IR",
-          "status_detail": "NFI 리스트로 이동하여 당분간 로스터 제외."
+          "status_detail": "IR 등재. 최소 4주 결장 후 복귀 타진."
         }
       ]
     },
@@ -406,8 +428,8 @@
       "herbert",
       "preseason",
       "sports",
-      "cardinals",
-      "justin"
+      "justin",
+      "submitted"
     ],
     "top_highlights": [
       {
@@ -1655,7 +1677,7 @@
       },
       "related_sources": [
         "Bolts From The Blue (SB Nation)",
-        "Yahoo Sports"
+        "Bolts From The Blue"
       ],
       "category_key": "game",
       "category_name": "경기 결과/프리뷰",
@@ -2904,7 +2926,7 @@
           "title": "Yahoo Sports"
         }
       },
-      "search_query": "Jim Harbaugh Chargers",
+      "search_query": "Chargers Jim Harbaugh",
       "related_sources": [
         "Yahoo Sports"
       ],
@@ -2985,6 +3007,71 @@
       "summary_bullets_kr": [
         "⚡ **핵심 소식**: 패닉인가 인내심: LA Chargers(Los Angeles Chargers)와 Justin Herbert(Justin Herbert) – 싸게 사야 할까요, 아니면 빨리 팔아야 할까요? 센트럴 오레곤 데일리",
         "🏈 **주요 인물**: Justin Herbert (QB)의 경기력과 훈련 컨디션이 집중 조명되고 있습니다."
+      ]
+    },
+    {
+      "title": "Raiders vs. Chargers prediction: Odds, expert picks, QB matchup, injury update, betting trends, and stats",
+      "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxNNXRzWmVEUVh4Y0xKVlFvT1FmOFBfT21YWk5iSm02UnRiOVI2QjJTMGpacnpMa1ZtQ3lZM1U3WGVJOEc0QUhGWmhYckZIX1Q2UDFCeDFUeExERDBQNXpUZjdTMzQ2Zm9TWlhhUU9DX3B1SjdwbHlBU25iMDFKdHZkdE5qOEl4bDRwWVJxOHhfV21kMUR5MzNvelN5dFFSVHlFVUdsdWJBQmVERWgwM1M1dkNwcXpmYjltSVpMZjQyeWN3YS1pMHpIRE5JYV9ZZw?oc=5",
+      "summary": "Raiders vs. Chargers prediction: Odds, expert picks, QB matchup, injury update, betting trends, and stats NBC Sports",
+      "published": "2026-09-16T10:29:46+00:00",
+      "source": "NBC Sports",
+      "author": "",
+      "raw_entry": {
+        "title": "Raiders vs. Chargers prediction: Odds, expert picks, QB matchup, injury update, betting trends, and stats - NBC Sports",
+        "title_detail": {
+          "type": "text/plain",
+          "language": null,
+          "base": "",
+          "value": "Raiders vs. Chargers prediction: Odds, expert picks, QB matchup, injury update, betting trends, and stats - NBC Sports"
+        },
+        "links": [
+          {
+            "rel": "alternate",
+            "type": "text/html",
+            "href": "https://news.google.com/rss/articles/CBMizgFBVV95cUxNNXRzWmVEUVh4Y0xKVlFvT1FmOFBfT21YWk5iSm02UnRiOVI2QjJTMGpacnpMa1ZtQ3lZM1U3WGVJOEc0QUhGWmhYckZIX1Q2UDFCeDFUeExERDBQNXpUZjdTMzQ2Zm9TWlhhUU9DX3B1SjdwbHlBU25iMDFKdHZkdE5qOEl4bDRwWVJxOHhfV21kMUR5MzNvelN5dFFSVHlFVUdsdWJBQmVERWgwM1M1dkNwcXpmYjltSVpMZjQyeWN3YS1pMHpIRE5JYV9ZZw?oc=5"
+          }
+        ],
+        "link": "https://news.google.com/rss/articles/CBMizgFBVV95cUxNNXRzWmVEUVh4Y0xKVlFvT1FmOFBfT21YWk5iSm02UnRiOVI2QjJTMGpacnpMa1ZtQ3lZM1U3WGVJOEc0QUhGWmhYckZIX1Q2UDFCeDFUeExERDBQNXpUZjdTMzQ2Zm9TWlhhUU9DX3B1SjdwbHlBU25iMDFKdHZkdE5qOEl4bDRwWVJxOHhfV21kMUR5MzNvelN5dFFSVHlFVUdsdWJBQmVERWgwM1M1dkNwcXpmYjltSVpMZjQyeWN3YS1pMHpIRE5JYV9ZZw?oc=5",
+        "id": "CBMizgFBVV95cUxNNXRzWmVEUVh4Y0xKVlFvT1FmOFBfT21YWk5iSm02UnRiOVI2QjJTMGpacnpMa1ZtQ3lZM1U3WGVJOEc0QUhGWmhYckZIX1Q2UDFCeDFUeExERDBQNXpUZjdTMzQ2Zm9TWlhhUU9DX3B1SjdwbHlBU25iMDFKdHZkdE5qOEl4bDRwWVJxOHhfV21kMUR5MzNvelN5dFFSVHlFVUdsdWJBQmVERWgwM1M1dkNwcXpmYjltSVpMZjQyeWN3YS1pMHpIRE5JYV9ZZw",
+        "guidislink": false,
+        "published": "Wed, 16 Sep 2026 19:29:46 GMT",
+        "published_parsed": [
+          2026,
+          9,
+          16,
+          19,
+          29,
+          46,
+          2,
+          259,
+          0
+        ],
+        "summary": "<a href=\"https://news.google.com/rss/articles/CBMizgFBVV95cUxNNXRzWmVEUVh4Y0xKVlFvT1FmOFBfT21YWk5iSm02UnRiOVI2QjJTMGpacnpMa1ZtQ3lZM1U3WGVJOEc0QUhGWmhYckZIX1Q2UDFCeDFUeExERDBQNXpUZjdTMzQ2Zm9TWlhhUU9DX3B1SjdwbHlBU25iMDFKdHZkdE5qOEl4bDRwWVJxOHhfV21kMUR5MzNvelN5dFFSVHlFVUdsdWJBQmVERWgwM1M1dkNwcXpmYjltSVpMZjQyeWN3YS1pMHpIRE5JYV9ZZw?oc=5\" target=\"_blank\">Raiders vs. Chargers prediction: Odds, expert picks, QB matchup, injury update, betting trends, and stats</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">NBC Sports</font>",
+        "summary_detail": {
+          "type": "text/html",
+          "language": null,
+          "base": "",
+          "value": "<a href=\"https://news.google.com/rss/articles/CBMizgFBVV95cUxNNXRzWmVEUVh4Y0xKVlFvT1FmOFBfT21YWk5iSm02UnRiOVI2QjJTMGpacnpMa1ZtQ3lZM1U3WGVJOEc0QUhGWmhYckZIX1Q2UDFCeDFUeExERDBQNXpUZjdTMzQ2Zm9TWlhhUU9DX3B1SjdwbHlBU25iMDFKdHZkdE5qOEl4bDRwWVJxOHhfV21kMUR5MzNvelN5dFFSVHlFVUdsdWJBQmVERWgwM1M1dkNwcXpmYjltSVpMZjQyeWN3YS1pMHpIRE5JYV9ZZw?oc=5\" target=\"_blank\">Raiders vs. Chargers prediction: Odds, expert picks, QB matchup, injury update, betting trends, and stats</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">NBC Sports</font>"
+        },
+        "source": {
+          "href": "https://www.nbcsports.com",
+          "title": "NBC Sports"
+        }
+      },
+      "search_query": "LA Chargers",
+      "related_sources": [
+        "NBC Sports"
+      ],
+      "category_key": "game",
+      "category_name": "경기 결과/프리뷰",
+      "category_badge": "⚡ 경기 소식",
+      "category_icon": "🏈",
+      "importance_score": 93,
+      "priority_tier": "🚨 긴급/핵심",
+      "priority_class": "tier-critical",
+      "headline_kr": "레이더 대 Chargers 예측: 승률, 전문가 선택, QB 매치업, 부상 업데이트, 베팅 동향 및 통계",
+      "summary_bullets_kr": [
+        "⚡ **핵심 소식**: Chargers 예측: 승률, 전문가 선택, QB 매치업, 부상 업데이트, 베팅 동향 및 통계 NBC Sports"
       ]
     },
     {
@@ -3299,7 +3386,7 @@
           "title": "Los Angeles Chargers"
         }
       },
-      "search_query": "LA Chargers",
+      "search_query": "Los Angeles Chargers",
       "related_sources": [
         "Los Angeles Chargers"
       ],
@@ -3365,7 +3452,7 @@
           "title": "Yahoo Sports"
         }
       },
-      "search_query": "Chargers Jim Harbaugh",
+      "search_query": "Jim Harbaugh Chargers",
       "related_sources": [
         "Yahoo Sports"
       ],
@@ -4511,7 +4598,7 @@
           "title": "Los Angeles Chargers"
         }
       },
-      "search_query": "Los Angeles Chargers",
+      "search_query": "LA Chargers",
       "related_sources": [
         "Los Angeles Chargers",
         "Yahoo Sports",
@@ -4854,71 +4941,6 @@
       "headline_kr": "Los Angeles Chargers 주식 보고서: 1주차 이후 2명의 플레이어 상승 및 2명의 하락",
       "summary_bullets_kr": [
         "⚡ **핵심 소식**: Los Angeles Chargers 주식 보고서: Sports Illustrated의 1주차 이후 2명의 플레이어 상승 및 2명의 하락"
-      ]
-    },
-    {
-      "title": "How Experts Pick Cardinals vs. Chargers Week 1, What it Means for LA",
-      "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTFByVUFGdno0ZzlwS2xIWWQ0YS1ydlVNYXNySDVxM2Fxc0xrV2kwYkFfd1N1b1pEVmdHeGF5TFlnRGp3S1htajZNQ09WQ0xhNUlaTURtZ0ZFdFB2cnRQc0NwbV9FQXVxeFVLdEFsdmR2LWVMdGFrSFc4?oc=5",
-      "summary": "How Experts Pick Cardinals vs. Chargers Week 1, What it Means for LA Sports Illustrated",
-      "published": "2026-09-12T16:00:00+00:00",
-      "source": "Sports Illustrated",
-      "author": "",
-      "raw_entry": {
-        "title": "How Experts Pick Cardinals vs. Chargers Week 1, What it Means for LA - Sports Illustrated",
-        "title_detail": {
-          "type": "text/plain",
-          "language": null,
-          "base": "",
-          "value": "How Experts Pick Cardinals vs. Chargers Week 1, What it Means for LA - Sports Illustrated"
-        },
-        "links": [
-          {
-            "rel": "alternate",
-            "type": "text/html",
-            "href": "https://news.google.com/rss/articles/CBMid0FVX3lxTFByVUFGdno0ZzlwS2xIWWQ0YS1ydlVNYXNySDVxM2Fxc0xrV2kwYkFfd1N1b1pEVmdHeGF5TFlnRGp3S1htajZNQ09WQ0xhNUlaTURtZ0ZFdFB2cnRQc0NwbV9FQXVxeFVLdEFsdmR2LWVMdGFrSFc4?oc=5"
-          }
-        ],
-        "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTFByVUFGdno0ZzlwS2xIWWQ0YS1ydlVNYXNySDVxM2Fxc0xrV2kwYkFfd1N1b1pEVmdHeGF5TFlnRGp3S1htajZNQ09WQ0xhNUlaTURtZ0ZFdFB2cnRQc0NwbV9FQXVxeFVLdEFsdmR2LWVMdGFrSFc4?oc=5",
-        "id": "CBMid0FVX3lxTFByVUFGdno0ZzlwS2xIWWQ0YS1ydlVNYXNySDVxM2Fxc0xrV2kwYkFfd1N1b1pEVmdHeGF5TFlnRGp3S1htajZNQ09WQ0xhNUlaTURtZ0ZFdFB2cnRQc0NwbV9FQXVxeFVLdEFsdmR2LWVMdGFrSFc4",
-        "guidislink": false,
-        "published": "Sun, 13 Sep 2026 01:00:00 GMT",
-        "published_parsed": [
-          2026,
-          9,
-          13,
-          1,
-          0,
-          0,
-          6,
-          256,
-          0
-        ],
-        "summary": "<a href=\"https://news.google.com/rss/articles/CBMid0FVX3lxTFByVUFGdno0ZzlwS2xIWWQ0YS1ydlVNYXNySDVxM2Fxc0xrV2kwYkFfd1N1b1pEVmdHeGF5TFlnRGp3S1htajZNQ09WQ0xhNUlaTURtZ0ZFdFB2cnRQc0NwbV9FQXVxeFVLdEFsdmR2LWVMdGFrSFc4?oc=5\" target=\"_blank\">How Experts Pick Cardinals vs. Chargers Week 1, What it Means for LA</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Sports Illustrated</font>",
-        "summary_detail": {
-          "type": "text/html",
-          "language": null,
-          "base": "",
-          "value": "<a href=\"https://news.google.com/rss/articles/CBMid0FVX3lxTFByVUFGdno0ZzlwS2xIWWQ0YS1ydlVNYXNySDVxM2Fxc0xrV2kwYkFfd1N1b1pEVmdHeGF5TFlnRGp3S1htajZNQ09WQ0xhNUlaTURtZ0ZFdFB2cnRQc0NwbV9FQXVxeFVLdEFsdmR2LWVMdGFrSFc4?oc=5\" target=\"_blank\">How Experts Pick Cardinals vs. Chargers Week 1, What it Means for LA</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Sports Illustrated</font>"
-        },
-        "source": {
-          "href": "https://www.si.com",
-          "title": "Sports Illustrated"
-        }
-      },
-      "search_query": "LA Chargers",
-      "related_sources": [
-        "Sports Illustrated"
-      ],
-      "category_key": "game",
-      "category_name": "경기 결과/프리뷰",
-      "category_badge": "⚡ 경기 소식",
-      "category_icon": "🏈",
-      "importance_score": 73,
-      "priority_tier": "⚡ 주요",
-      "priority_class": "tier-high",
-      "headline_kr": "전문가들이 Cardinals 대 Chargers를 선택하는 방법 1주차, LA에 미치는 영향",
-      "summary_bullets_kr": [
-        "⚡ **핵심 소식**: 전문가들이 Cardinals 대 Chargers를 선택하는 방법 1주차, LA Sports Illustrated에 미치는 영향"
       ]
     },
     {
@@ -6125,6 +6147,71 @@
       ]
     },
     {
+      "title": "Chargers vs. Arizona Cardinals: How to watch, start time, odds and prediction",
+      "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQck1ONFNpa2s2akdFR2tkc081WTg1aF96Mk84ZXFnZ2RBMGV0WEk1TngtZjhFX1J0djRhS1ltOWduSU1fRkFFMDJUNkItNHU0bk5mUDNFUmFKVmhaZVMxRHV6YkUxZERkdVYyeFZSQ0tqbDBoM3A2ZmFDZFJyNnJjTzV0aGdMRlN6SzZLNnRJZmhXOXlScHI0T3dNdE1NcUl6OUNkTWxma0p3Qk5OWXhFenJ2ZjM4OG9EMFE?oc=5",
+      "summary": "Chargers vs. Arizona Cardinals: How to watch, start time, odds and prediction Los Angeles Times",
+      "published": "2026-09-12T02:00:00+00:00",
+      "source": "Los Angeles Times",
+      "author": "",
+      "raw_entry": {
+        "title": "Chargers vs. Arizona Cardinals: How to watch, start time, odds and prediction - Los Angeles Times",
+        "title_detail": {
+          "type": "text/plain",
+          "language": null,
+          "base": "",
+          "value": "Chargers vs. Arizona Cardinals: How to watch, start time, odds and prediction - Los Angeles Times"
+        },
+        "links": [
+          {
+            "rel": "alternate",
+            "type": "text/html",
+            "href": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQck1ONFNpa2s2akdFR2tkc081WTg1aF96Mk84ZXFnZ2RBMGV0WEk1TngtZjhFX1J0djRhS1ltOWduSU1fRkFFMDJUNkItNHU0bk5mUDNFUmFKVmhaZVMxRHV6YkUxZERkdVYyeFZSQ0tqbDBoM3A2ZmFDZFJyNnJjTzV0aGdMRlN6SzZLNnRJZmhXOXlScHI0T3dNdE1NcUl6OUNkTWxma0p3Qk5OWXhFenJ2ZjM4OG9EMFE?oc=5"
+          }
+        ],
+        "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQck1ONFNpa2s2akdFR2tkc081WTg1aF96Mk84ZXFnZ2RBMGV0WEk1TngtZjhFX1J0djRhS1ltOWduSU1fRkFFMDJUNkItNHU0bk5mUDNFUmFKVmhaZVMxRHV6YkUxZERkdVYyeFZSQ0tqbDBoM3A2ZmFDZFJyNnJjTzV0aGdMRlN6SzZLNnRJZmhXOXlScHI0T3dNdE1NcUl6OUNkTWxma0p3Qk5OWXhFenJ2ZjM4OG9EMFE?oc=5",
+        "id": "CBMiugFBVV95cUxQck1ONFNpa2s2akdFR2tkc081WTg1aF96Mk84ZXFnZ2RBMGV0WEk1TngtZjhFX1J0djRhS1ltOWduSU1fRkFFMDJUNkItNHU0bk5mUDNFUmFKVmhaZVMxRHV6YkUxZERkdVYyeFZSQ0tqbDBoM3A2ZmFDZFJyNnJjTzV0aGdMRlN6SzZLNnRJZmhXOXlScHI0T3dNdE1NcUl6OUNkTWxma0p3Qk5OWXhFenJ2ZjM4OG9EMFE",
+        "guidislink": false,
+        "published": "Sat, 12 Sep 2026 11:00:00 GMT",
+        "published_parsed": [
+          2026,
+          9,
+          12,
+          11,
+          0,
+          0,
+          5,
+          255,
+          0
+        ],
+        "summary": "<a href=\"https://news.google.com/rss/articles/CBMiugFBVV95cUxQck1ONFNpa2s2akdFR2tkc081WTg1aF96Mk84ZXFnZ2RBMGV0WEk1TngtZjhFX1J0djRhS1ltOWduSU1fRkFFMDJUNkItNHU0bk5mUDNFUmFKVmhaZVMxRHV6YkUxZERkdVYyeFZSQ0tqbDBoM3A2ZmFDZFJyNnJjTzV0aGdMRlN6SzZLNnRJZmhXOXlScHI0T3dNdE1NcUl6OUNkTWxma0p3Qk5OWXhFenJ2ZjM4OG9EMFE?oc=5\" target=\"_blank\">Chargers vs. Arizona Cardinals: How to watch, start time, odds and prediction</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Los Angeles Times</font>",
+        "summary_detail": {
+          "type": "text/html",
+          "language": null,
+          "base": "",
+          "value": "<a href=\"https://news.google.com/rss/articles/CBMiugFBVV95cUxQck1ONFNpa2s2akdFR2tkc081WTg1aF96Mk84ZXFnZ2RBMGV0WEk1TngtZjhFX1J0djRhS1ltOWduSU1fRkFFMDJUNkItNHU0bk5mUDNFUmFKVmhaZVMxRHV6YkUxZERkdVYyeFZSQ0tqbDBoM3A2ZmFDZFJyNnJjTzV0aGdMRlN6SzZLNnRJZmhXOXlScHI0T3dNdE1NcUl6OUNkTWxma0p3Qk5OWXhFenJ2ZjM4OG9EMFE?oc=5\" target=\"_blank\">Chargers vs. Arizona Cardinals: How to watch, start time, odds and prediction</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Los Angeles Times</font>"
+        },
+        "source": {
+          "href": "https://www.latimes.com",
+          "title": "Los Angeles Times"
+        }
+      },
+      "search_query": "Chargers The Los Angeles Chargers",
+      "related_sources": [
+        "Los Angeles Times"
+      ],
+      "category_key": "game",
+      "category_name": "경기 결과/프리뷰",
+      "category_badge": "⚡ 경기 소식",
+      "category_icon": "🏈",
+      "importance_score": 63,
+      "priority_tier": "⚡ 주요",
+      "priority_class": "tier-high",
+      "headline_kr": "Chargers 대 Arizona Cardinals: 시청 방법, 시작 시간, 확률 및 예측",
+      "summary_bullets_kr": [
+        "⚡ **핵심 소식**: Arizona Cardinals: 시청 방법, 시작 시간, 확률 및 예측 Los Angeles Times"
+      ]
+    },
+    {
       "title": "Daily Discussion Thread - September 17, 2026",
       "url": "https://www.reddit.com/r/Chargers/comments/1witddf/daily_discussion_thread_september_17_2026/",
       "summary": "submitted by /u/AutoModerator [link] [comments]",
@@ -6704,71 +6791,6 @@
       "headline_kr": "QB Jacoby Brissett 경기 후 기자 회견 | 1주 차 대 LA Chargers",
       "summary_bullets_kr": [
         "⚡ **핵심 소식**: QB Jacoby Brissett 경기 후 기자 회견 | 1주차 대 LA Chargers Arizona Cardinals"
-      ]
-    },
-    {
-      "title": "Chargers vs. Arizona Cardinals: How to watch, start time, odds and prediction",
-      "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQck1ONFNpa2s2akdFR2tkc081WTg1aF96Mk84ZXFnZ2RBMGV0WEk1TngtZjhFX1J0djRhS1ltOWduSU1fRkFFMDJUNkItNHU0bk5mUDNFUmFKVmhaZVMxRHV6YkUxZERkdVYyeFZSQ0tqbDBoM3A2ZmFDZFJyNnJjTzV0aGdMRlN6SzZLNnRJZmhXOXlScHI0T3dNdE1NcUl6OUNkTWxma0p3Qk5OWXhFenJ2ZjM4OG9EMFE?oc=5",
-      "summary": "Chargers vs. Arizona Cardinals: How to watch, start time, odds and prediction Los Angeles Times",
-      "published": "2026-09-12T02:00:00+00:00",
-      "source": "Los Angeles Times",
-      "author": "",
-      "raw_entry": {
-        "title": "Chargers vs. Arizona Cardinals: How to watch, start time, odds and prediction - Los Angeles Times",
-        "title_detail": {
-          "type": "text/plain",
-          "language": null,
-          "base": "",
-          "value": "Chargers vs. Arizona Cardinals: How to watch, start time, odds and prediction - Los Angeles Times"
-        },
-        "links": [
-          {
-            "rel": "alternate",
-            "type": "text/html",
-            "href": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQck1ONFNpa2s2akdFR2tkc081WTg1aF96Mk84ZXFnZ2RBMGV0WEk1TngtZjhFX1J0djRhS1ltOWduSU1fRkFFMDJUNkItNHU0bk5mUDNFUmFKVmhaZVMxRHV6YkUxZERkdVYyeFZSQ0tqbDBoM3A2ZmFDZFJyNnJjTzV0aGdMRlN6SzZLNnRJZmhXOXlScHI0T3dNdE1NcUl6OUNkTWxma0p3Qk5OWXhFenJ2ZjM4OG9EMFE?oc=5"
-          }
-        ],
-        "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQck1ONFNpa2s2akdFR2tkc081WTg1aF96Mk84ZXFnZ2RBMGV0WEk1TngtZjhFX1J0djRhS1ltOWduSU1fRkFFMDJUNkItNHU0bk5mUDNFUmFKVmhaZVMxRHV6YkUxZERkdVYyeFZSQ0tqbDBoM3A2ZmFDZFJyNnJjTzV0aGdMRlN6SzZLNnRJZmhXOXlScHI0T3dNdE1NcUl6OUNkTWxma0p3Qk5OWXhFenJ2ZjM4OG9EMFE?oc=5",
-        "id": "CBMiugFBVV95cUxQck1ONFNpa2s2akdFR2tkc081WTg1aF96Mk84ZXFnZ2RBMGV0WEk1TngtZjhFX1J0djRhS1ltOWduSU1fRkFFMDJUNkItNHU0bk5mUDNFUmFKVmhaZVMxRHV6YkUxZERkdVYyeFZSQ0tqbDBoM3A2ZmFDZFJyNnJjTzV0aGdMRlN6SzZLNnRJZmhXOXlScHI0T3dNdE1NcUl6OUNkTWxma0p3Qk5OWXhFenJ2ZjM4OG9EMFE",
-        "guidislink": false,
-        "published": "Sat, 12 Sep 2026 11:00:00 GMT",
-        "published_parsed": [
-          2026,
-          9,
-          12,
-          11,
-          0,
-          0,
-          5,
-          255,
-          0
-        ],
-        "summary": "<a href=\"https://news.google.com/rss/articles/CBMiugFBVV95cUxQck1ONFNpa2s2akdFR2tkc081WTg1aF96Mk84ZXFnZ2RBMGV0WEk1TngtZjhFX1J0djRhS1ltOWduSU1fRkFFMDJUNkItNHU0bk5mUDNFUmFKVmhaZVMxRHV6YkUxZERkdVYyeFZSQ0tqbDBoM3A2ZmFDZFJyNnJjTzV0aGdMRlN6SzZLNnRJZmhXOXlScHI0T3dNdE1NcUl6OUNkTWxma0p3Qk5OWXhFenJ2ZjM4OG9EMFE?oc=5\" target=\"_blank\">Chargers vs. Arizona Cardinals: How to watch, start time, odds and prediction</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Los Angeles Times</font>",
-        "summary_detail": {
-          "type": "text/html",
-          "language": null,
-          "base": "",
-          "value": "<a href=\"https://news.google.com/rss/articles/CBMiugFBVV95cUxQck1ONFNpa2s2akdFR2tkc081WTg1aF96Mk84ZXFnZ2RBMGV0WEk1TngtZjhFX1J0djRhS1ltOWduSU1fRkFFMDJUNkItNHU0bk5mUDNFUmFKVmhaZVMxRHV6YkUxZERkdVYyeFZSQ0tqbDBoM3A2ZmFDZFJyNnJjTzV0aGdMRlN6SzZLNnRJZmhXOXlScHI0T3dNdE1NcUl6OUNkTWxma0p3Qk5OWXhFenJ2ZjM4OG9EMFE?oc=5\" target=\"_blank\">Chargers vs. Arizona Cardinals: How to watch, start time, odds and prediction</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Los Angeles Times</font>"
-        },
-        "source": {
-          "href": "https://www.latimes.com",
-          "title": "Los Angeles Times"
-        }
-      },
-      "search_query": "Chargers The Los Angeles Chargers",
-      "related_sources": [
-        "Los Angeles Times"
-      ],
-      "category_key": "game",
-      "category_name": "경기 결과/프리뷰",
-      "category_badge": "⚡ 경기 소식",
-      "category_icon": "🏈",
-      "importance_score": 58,
-      "priority_tier": "⚡ 주요",
-      "priority_class": "tier-high",
-      "headline_kr": "Chargers 대 Arizona Cardinals: 시청 방법, 시작 시간, 확률 및 예측",
-      "summary_bullets_kr": [
-        "⚡ **핵심 소식**: Arizona Cardinals: 시청 방법, 시작 시간, 확률 및 예측 Los Angeles Times"
       ]
     },
     {
@@ -7633,8 +7655,7 @@
       },
       "search_query": "Los Angeles Chargers",
       "related_sources": [
-        "Los Angeles Chargers",
-        "Arizona Cardinals"
+        "Los Angeles Chargers"
       ],
       "category_key": "game",
       "category_name": "경기 결과/프리뷰",
@@ -7944,17 +7965,17 @@
     {
       "title": "Go Metro to the LA Chargers' season opener and the best September events in Los Angeles: September 11-13",
       "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxNN0dteGNyOUpIaV9IbGNtSUxTa2FXRGFza2YweEpuTEd1YTI3bzRKR0k5akl4RzhmUWswYkh4LXp3T2wxV21vNU1xcWF2N29aUHo3aERXdkVyc29nMTVzZEFTendUSi1aSEUxS2NtZnRuM3RtR3hCM3FzbTdmcUlVeFl4YVdDUE1JaFlqQ0NkN2lSeF9PVThueGFqUzB4bWoxWkFmWTd0NWFkak44X29xR185M0lldGoyNG1YV1pxZl83SEwxbjk2a0JDSQ?oc=5",
-      "summary": "Go Metro to the LA Chargers' season opener and the best September events in Los Angeles: September 11-13 thesource.metro.net",
+      "summary": "Go Metro to the LA Chargers' season opener and the best September events in Los Angeles: September 11-13 LA Metro",
       "published": "2026-09-10T16:03:15+00:00",
-      "source": "thesource.metro.net",
+      "source": "LA Metro",
       "author": "",
       "raw_entry": {
-        "title": "Go Metro to the LA Chargers' season opener and the best September events in Los Angeles: September 11-13 - thesource.metro.net",
+        "title": "Go Metro to the LA Chargers' season opener and the best September events in Los Angeles: September 11-13 - LA Metro",
         "title_detail": {
           "type": "text/plain",
           "language": null,
           "base": "",
-          "value": "Go Metro to the LA Chargers' season opener and the best September events in Los Angeles: September 11-13 - thesource.metro.net"
+          "value": "Go Metro to the LA Chargers' season opener and the best September events in Los Angeles: September 11-13 - LA Metro"
         },
         "links": [
           {
@@ -7978,21 +7999,21 @@
           254,
           0
         ],
-        "summary": "<a href=\"https://news.google.com/rss/articles/CBMiywFBVV95cUxNN0dteGNyOUpIaV9IbGNtSUxTa2FXRGFza2YweEpuTEd1YTI3bzRKR0k5akl4RzhmUWswYkh4LXp3T2wxV21vNU1xcWF2N29aUHo3aERXdkVyc29nMTVzZEFTendUSi1aSEUxS2NtZnRuM3RtR3hCM3FzbTdmcUlVeFl4YVdDUE1JaFlqQ0NkN2lSeF9PVThueGFqUzB4bWoxWkFmWTd0NWFkak44X29xR185M0lldGoyNG1YV1pxZl83SEwxbjk2a0JDSQ?oc=5\" target=\"_blank\">Go Metro to the LA Chargers' season opener and the best September events in Los Angeles: September 11-13</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">thesource.metro.net</font>",
+        "summary": "<a href=\"https://news.google.com/rss/articles/CBMiywFBVV95cUxNN0dteGNyOUpIaV9IbGNtSUxTa2FXRGFza2YweEpuTEd1YTI3bzRKR0k5akl4RzhmUWswYkh4LXp3T2wxV21vNU1xcWF2N29aUHo3aERXdkVyc29nMTVzZEFTendUSi1aSEUxS2NtZnRuM3RtR3hCM3FzbTdmcUlVeFl4YVdDUE1JaFlqQ0NkN2lSeF9PVThueGFqUzB4bWoxWkFmWTd0NWFkak44X29xR185M0lldGoyNG1YV1pxZl83SEwxbjk2a0JDSQ?oc=5\" target=\"_blank\">Go Metro to the LA Chargers' season opener and the best September events in Los Angeles: September 11-13</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">LA Metro</font>",
         "summary_detail": {
           "type": "text/html",
           "language": null,
           "base": "",
-          "value": "<a href=\"https://news.google.com/rss/articles/CBMiywFBVV95cUxNN0dteGNyOUpIaV9IbGNtSUxTa2FXRGFza2YweEpuTEd1YTI3bzRKR0k5akl4RzhmUWswYkh4LXp3T2wxV21vNU1xcWF2N29aUHo3aERXdkVyc29nMTVzZEFTendUSi1aSEUxS2NtZnRuM3RtR3hCM3FzbTdmcUlVeFl4YVdDUE1JaFlqQ0NkN2lSeF9PVThueGFqUzB4bWoxWkFmWTd0NWFkak44X29xR185M0lldGoyNG1YV1pxZl83SEwxbjk2a0JDSQ?oc=5\" target=\"_blank\">Go Metro to the LA Chargers' season opener and the best September events in Los Angeles: September 11-13</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">thesource.metro.net</font>"
+          "value": "<a href=\"https://news.google.com/rss/articles/CBMiywFBVV95cUxNN0dteGNyOUpIaV9IbGNtSUxTa2FXRGFza2YweEpuTEd1YTI3bzRKR0k5akl4RzhmUWswYkh4LXp3T2wxV21vNU1xcWF2N29aUHo3aERXdkVyc29nMTVzZEFTendUSi1aSEUxS2NtZnRuM3RtR3hCM3FzbTdmcUlVeFl4YVdDUE1JaFlqQ0NkN2lSeF9PVThueGFqUzB4bWoxWkFmWTd0NWFkak44X29xR185M0lldGoyNG1YV1pxZl83SEwxbjk2a0JDSQ?oc=5\" target=\"_blank\">Go Metro to the LA Chargers' season opener and the best September events in Los Angeles: September 11-13</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">LA Metro</font>"
         },
         "source": {
           "href": "https://thesource.metro.net",
-          "title": "thesource.metro.net"
+          "title": "LA Metro"
         }
       },
       "search_query": "LA Chargers",
       "related_sources": [
-        "thesource.metro.net"
+        "LA Metro"
       ],
       "category_key": "general",
       "category_name": "팀 일반 소식",
@@ -8003,7 +8024,7 @@
       "priority_class": "tier-normal",
       "headline_kr": "메트로를 타고 LA Chargers(LA Chargers)의 시즌 개막전과 로스앤젤레스 최고의 9월 이벤트(9월 11~13일)를 관람하세요.",
       "summary_bullets_kr": [
-        "⚡ **핵심 소식**: Metro로 가서 LA Chargers의 시즌 개막전과 로스앤젤레스 최고의 9월 이벤트(9월 11~13일)를 관람하세요. thesource.metro.net"
+        "⚡ **핵심 소식**: LA Chargers(LA Chargers)의 시즌 개막전과 로스앤젤레스 최고의 9월 이벤트(9월 11~13일)를 메트로로 만나보세요 LA Metro"
       ]
     },
     {
@@ -8621,5 +8642,5 @@
     }
   ],
   "total_count": 102,
-  "updated_at": "2026-09-18 15:07:29"
+  "updated_at": "2026-09-18 15:17:50"
 }
