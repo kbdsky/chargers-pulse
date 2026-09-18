@@ -1,26 +1,36 @@
 {
   "trending_keywords": [
+    "link comments",
     "justin herbert",
-    "herbert shines",
-    "shines harbaugh",
-    "harbaugh praises",
-    "praises defense",
-    "Justin Herbert",
+    "submitted link",
+    "mike mcdaniel",
+    "vegas raiders",
     "Jim Harbaugh",
-    "The Los Angeles Chargers",
-    "justin",
-    "herbert",
-    "shines",
+    "Los Angeles Chargers",
+    "Justin Herbert",
+    "Las Vegas Raiders",
+    "Arizona Cardinals",
     "harbaugh",
-    "praises",
-    "defense"
+    "herbert",
+    "raiders",
+    "justin",
+    "cardinals",
+    "submitted"
   ],
   "emerging_players": [
-    "Justin Herbert",
     "Jim Harbaugh",
+    "Los Angeles Chargers",
+    "Justin Herbert",
+    "Las Vegas Raiders",
+    "Arizona Cardinals",
     "The Los Angeles Chargers"
   ],
-  "opponents": [],
+  "opponents": [
+    "라스베이거스 레이더스 (LV Raiders)",
+    "애리조나 카디널스 (ARI Cardinals)",
+    "샌프란시스코 포티나이너스 (SF 49ers)",
+    "캔자스시티 치프스 (KC Chiefs)"
+  ],
   "expanded_queries": [
     "Los Angeles Chargers",
     "LA Chargers",
@@ -28,9 +38,10 @@
     "Jim Harbaugh Chargers",
     "Chargers injury report",
     "Chargers game recap Raiders",
-    "Chargers Justin Herbert",
     "Chargers Jim Harbaugh",
-    "Chargers The Los Angeles Chargers"
+    "Chargers Los Angeles Chargers",
+    "Chargers Justin Herbert",
+    "Chargers vs LV Raiders"
   ],
-  "last_updated": "2026-09-18T15:50:42.447993"
+  "last_updated": "2026-09-18T16:01:19.981912"
 }
