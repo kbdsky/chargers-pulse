@@ -42,7 +42,7 @@ powershell -ExecutionPolicy Bypass -File .\scripts\setup_weekly_scheduler.ps1 -D
 ## ☁️ 24/7 Standalone Cloud Deployment
 
 When deploying for 24/7 access without needing a local PC:
-1. **GitHub Actions Workflow**: `.github/workflows/weekly_briefing.yml` automatically triggers every Monday at 09:00 KST, scrapes all news, and publishes the PWA to GitHub Pages.
+1. **GitHub Actions Workflow**: `.github/workflows/weekly_briefing.yml` automatically triggers EVERY DAY at 09:00 AM KST, scrapes all news, and publishes the PWA to GitHub Pages.
 2. **Render.com Web Service**: Uses `render.yaml` and `Procfile` with `uvicorn newspulse.mobile.server:app --host 0.0.0.0 --port $PORT`.
 
 ---
