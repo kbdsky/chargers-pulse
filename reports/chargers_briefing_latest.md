@@ -1,5 +1,5 @@
 # ⚡ LA Chargers 종합 뉴스 인텔리전스 주간 리포트
-> 📅 **생성 일시:** 2026-09-18 15:07:29 | ⚡ **전수 수집 기사:** 102건 | 🏈 **팀:** Los Angeles Chargers (NFL)
+> 📅 **생성 일시:** 2026-09-18 15:17:50 | ⚡ **전수 수집 기사:** 102건 | 🏈 **팀:** Los Angeles Chargers (NFL)
 
 ## ⚡ 팀 총괄 주간 브리핑 (Executive Summary)
 ### ⚡ LA Chargers 주간 인텔리전스 종합 리포트 (총 102건 정밀 분석)
@@ -10,7 +10,7 @@
 - 🎯 **집중 조명된 핵심 인물**: Jim Harbaugh (HC)(21건), Justin Herbert (QB)(14건), Ladd McConkey (WR)(4건)
 - 🔥 **헤드라인 키워드**: link comments, justin herbert, yahoo sports, submitted link
 
-**🔥 실시간 트렌드 키워드:** `#link comments`, `#justin herbert`, `#yahoo sports`, `#submitted link`, `#mike mcdaniel`, `#Jim Harbaugh`, `#Los Angeles Chargers`, `#Justin Herbert`, `#Yahoo Sports`, `#Arizona Cardinals`, `#harbaugh`, `#herbert`, `#preseason`, `#sports`, `#cardinals`, `#justin`
+**🔥 실시간 트렌드 키워드:** `#link comments`, `#justin herbert`, `#yahoo sports`, `#submitted link`, `#mike mcdaniel`, `#Jim Harbaugh`, `#Los Angeles Chargers`, `#Justin Herbert`, `#Yahoo Sports`, `#Arizona Cardinals`, `#harbaugh`, `#herbert`, `#preseason`, `#sports`, `#justin`, `#submitted`
 
 **📋 부상 및 53인 로스터 동향:** 부상 리포트 공식 테이블(Injury Report Table)에서 상세 출전 상태 및 연습 참가 여부(DNP/LP/FP)를 확인하세요.
 
@@ -156,6 +156,11 @@
 - ⚡ **핵심 소식**: Chargers의 Justin Herbert : Raiders 수비에는 2 주차 Las Vegas Review-Journal을 앞두고 '약점이 없습니다'
 - 🏈 **주요 인물**: Justin Herbert (QB)의 경기력과 훈련 컨디션이 집중 조명되고 있습니다.
 
+#### [레이더 대 Chargers 예측: 승률, 전문가 선택, QB 매치업, 부상 업데이트, 베팅 동향 및 통계](https://news.google.com/rss/articles/CBMizgFBVV95cUxNNXRzWmVEUVh4Y0xKVlFvT1FmOFBfT21YWk5iSm02UnRiOVI2QjJTMGpacnpMa1ZtQ3lZM1U3WGVJOEc0QUhGWmhYckZIX1Q2UDFCeDFUeExERDBQNXpUZjdTMzQ2Zm9TWlhhUU9DX3B1SjdwbHlBU25iMDFKdHZkdE5qOEl4bDRwWVJxOHhfV21kMUR5MzNvelN5dFFSVHlFVUdsdWJBQmVERWgwM1M1dkNwcXpmYjltSVpMZjQyeWN3YS1pMHpIRE5JYV9ZZw?oc=5) `[점수:93]`
+*출처: NBC Sports | 일자: 2026-09-16*
+- **원제:** Raiders vs. Chargers prediction: Odds, expert picks, QB matchup, injury update, betting trends, and stats
+- ⚡ **핵심 소식**: Chargers 예측: 승률, 전문가 선택, QB 매치업, 부상 업데이트, 베팅 동향 및 통계 NBC Sports
+
 #### [AFC 메모: Mack Hollins, TreVeyon Henderson, Bills, Jets, Patriots](https://www.yardbarker.com/nfl/articles/afc_notes_mack_hollins_treveyon_henderson_bills_jets_patriots/s1_17039_44316822) `[점수:85]`
 *출처: Yardbarker (LA Chargers Feed) | 일자: 2026-09-17*
 - **원제:** AFC Notes: Mack Hollins, TreVeyon Henderson, Bills, Jets, Patriots
@@ -217,11 +222,6 @@
 - **원제:** Los Angeles Chargers Stock Report: 2 Players Rising and 2 Falling After Week 1
 - ⚡ **핵심 소식**: Los Angeles Chargers 주식 보고서: Sports Illustrated의 1주차 이후 2명의 플레이어 상승 및 2명의 하락
 
-#### [전문가들이 Cardinals 대 Chargers를 선택하는 방법 1주차, LA에 미치는 영향](https://news.google.com/rss/articles/CBMid0FVX3lxTFByVUFGdno0ZzlwS2xIWWQ0YS1ydlVNYXNySDVxM2Fxc0xrV2kwYkFfd1N1b1pEVmdHeGF5TFlnRGp3S1htajZNQ09WQ0xhNUlaTURtZ0ZFdFB2cnRQc0NwbV9FQXVxeFVLdEFsdmR2LWVMdGFrSFc4?oc=5) `[점수:73]`
-*출처: Sports Illustrated | 일자: 2026-09-12*
-- **원제:** How Experts Pick Cardinals vs. Chargers Week 1, What it Means for LA
-- ⚡ **핵심 소식**: 전문가들이 Cardinals 대 Chargers를 선택하는 방법 1주차, LA Sports Illustrated에 미치는 영향
-
 #### ['우리는 우리 자신을 이겼다.' Chargers는 49ers에게 프리시즌 패배로 전반적으로 어려움을 겪고 있습니다.](https://news.google.com/rss/articles/CBMiiAFBVV95cUxOeHZWZUkzUGR6eGZRYzNsQVQwNmdYMzdRNi1HdE8xcXhUYnBKekFiR2VDemJKQmhjTWdIOEFDam84Y0hMZVI5ME15aWgxSFdtOHNxSnlEdXR1S3hfV3ZZNkhVbVlDdm9CTmdyUnVPSEs0RzdNelk3a3IxZVJ1LWZwNkl4dk8wQ2c0?oc=5) `[점수:70]`
 *출처: Yahoo Sports | 일자: 2026-08-19*
 - **원제:** 'We beat ourselves.' Chargers struggle across the board in preseason loss to 49ers
@@ -267,6 +267,11 @@
 - **원제:** Chargers-Cardinals Week 1 Inactives: Tuli Tuipulotu To Play in Season Opener
 - ⚡ **핵심 소식**: Chargers-Cardinals 1주차 비활성 팀: 툴리 투이풀로투, 시즌 개막전에서 출전 LA Chargers
 
+#### [Chargers 대 Arizona Cardinals: 시청 방법, 시작 시간, 확률 및 예측](https://news.google.com/rss/articles/CBMiugFBVV95cUxQck1ONFNpa2s2akdFR2tkc081WTg1aF96Mk84ZXFnZ2RBMGV0WEk1TngtZjhFX1J0djRhS1ltOWduSU1fRkFFMDJUNkItNHU0bk5mUDNFUmFKVmhaZVMxRHV6YkUxZERkdVYyeFZSQ0tqbDBoM3A2ZmFDZFJyNnJjTzV0aGdMRlN6SzZLNnRJZmhXOXlScHI0T3dNdE1NcUl6OUNkTWxma0p3Qk5OWXhFenJ2ZjM4OG9EMFE?oc=5) `[점수:63]`
+*출처: Los Angeles Times | 일자: 2026-09-12*
+- **원제:** Chargers vs. Arizona Cardinals: How to watch, start time, odds and prediction
+- ⚡ **핵심 소식**: Arizona Cardinals: 시청 방법, 시작 시간, 확률 및 예측 Los Angeles Times
+
 #### [영화 연구: 5 온 파이어(1주차)](https://www.reddit.com/r/Chargers/comments/1wiq6a4/film_study_5_on_fire_week1/) `[점수:60]`
 *출처: Reddit r/Chargers | 일자: 2026-09-17*
 - **원제:** Film Study: 5 on Fire (week1)
@@ -281,11 +286,6 @@
 *출처: Arizona Cardinals | 일자: 2026-09-13*
 - **원제:** QB Jacoby Brissett Postgame Press Conference | Week 1 vs. Los Angeles Chargers
 - ⚡ **핵심 소식**: QB Jacoby Brissett 경기 후 기자 회견 | 1주차 대 LA Chargers Arizona Cardinals
-
-#### [Chargers 대 Arizona Cardinals: 시청 방법, 시작 시간, 확률 및 예측](https://news.google.com/rss/articles/CBMiugFBVV95cUxQck1ONFNpa2s2akdFR2tkc081WTg1aF96Mk84ZXFnZ2RBMGV0WEk1TngtZjhFX1J0djRhS1ltOWduSU1fRkFFMDJUNkItNHU0bk5mUDNFUmFKVmhaZVMxRHV6YkUxZERkdVYyeFZSQ0tqbDBoM3A2ZmFDZFJyNnJjTzV0aGdMRlN6SzZLNnRJZmhXOXlScHI0T3dNdE1NcUl6OUNkTWxma0p3Qk5OWXhFenJ2ZjM4OG9EMFE?oc=5) `[점수:58]`
-*출처: Los Angeles Times | 일자: 2026-09-12*
-- **원제:** Chargers vs. Arizona Cardinals: How to watch, start time, odds and prediction
-- ⚡ **핵심 소식**: Arizona Cardinals: 시청 방법, 시작 시간, 확률 및 예측 Los Angeles Times
 
 #### [Chris O'Leary는 다음 주에 이를 억제해야 한다는 것을 알고 이 Buffalo 공격을 지켜보고 있습니다.](https://www.reddit.com/r/Chargers/comments/1wjct4m/chris_oleary_watching_this_buffalo_offense/) `[점수:55]`
 *출처: Reddit r/Chargers | 일자: 2026-09-17*
@@ -592,9 +592,9 @@
 - ⚡ **핵심 소식**: 2026 NFL 시즌 KTLA를 앞두고 토런스에서 Chargers 벽화 공개
 
 #### [메트로를 타고 LA Chargers(LA Chargers)의 시즌 개막전과 로스앤젤레스 최고의 9월 이벤트(9월 11~13일)를 관람하세요.](https://news.google.com/rss/articles/CBMiywFBVV95cUxNN0dteGNyOUpIaV9IbGNtSUxTa2FXRGFza2YweEpuTEd1YTI3bzRKR0k5akl4RzhmUWswYkh4LXp3T2wxV21vNU1xcWF2N29aUHo3aERXdkVyc29nMTVzZEFTendUSi1aSEUxS2NtZnRuM3RtR3hCM3FzbTdmcUlVeFl4YVdDUE1JaFlqQ0NkN2lSeF9PVThueGFqUzB4bWoxWkFmWTd0NWFkak44X29xR185M0lldGoyNG1YV1pxZl83SEwxbjk2a0JDSQ?oc=5) `[점수:48]`
-*출처: thesource.metro.net | 일자: 2026-09-10*
+*출처: LA Metro | 일자: 2026-09-10*
 - **원제:** Go Metro to the LA Chargers' season opener and the best September events in Los Angeles: September 11-13
-- ⚡ **핵심 소식**: Metro로 가서 LA Chargers의 시즌 개막전과 로스앤젤레스 최고의 9월 이벤트(9월 11~13일)를 관람하세요. thesource.metro.net
+- ⚡ **핵심 소식**: LA Chargers(LA Chargers)의 시즌 개막전과 로스앤젤레스 최고의 9월 이벤트(9월 11~13일)를 메트로로 만나보세요 LA Metro
 
 #### [토런스에 있는 예술가 Robert Vargas의 새로운 Chargers 벽화에 관한 5가지 사실](https://news.google.com/rss/articles/CBMieEFVX3lxTE9vajN4MzhPbEsyS1VzUGhQdm9mek1DQ0RJOTBHdGdjOFFNc0RBNGpYRHlVdXBWeXBZSXVrY1UwWDhZWE83Uk5PREp4LVFUVGxOR2dIS0pBb0gxZjZEVFJieFdZMUxTSUp4b0FKSGJTV3ZlY1JXck83RA?oc=5) `[점수:43]`
 *출처: Los Angeles Chargers | 일자: 2026-09-08*
