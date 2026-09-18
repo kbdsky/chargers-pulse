@@ -91,13 +91,13 @@ class ArticleRanker:
                 now = datetime.datetime.now()
                 days_diff = (now - pub_date).total_seconds() / 86400.0
                 if days_diff <= 2.0:
-                    score += 25  # Within 48 hours: Maximum breaking news bonus
+                    score += 30  # Within 48 hours: Maximum breaking news boost
                 elif days_diff <= 7.0:
-                    score += 18  # Within past 1 week: High priority
+                    score += 15  # Within past 1 week: High priority
                 elif days_diff <= 14.0:
-                    score += 8   # 2 weeks old
-                elif days_diff <= 30.0:
-                    score += 0   # 1 month archive (kept in collection, lower score)
+                    score -= 15  # 2 weeks old: Demote from top highlights
+                elif days_diff <= 31.0:
+                    score -= 30  # 1 month archive: Available in search, lower ranking
             except Exception:
                 pass
 
