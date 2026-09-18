@@ -1,37 +1,36 @@
 {
   "status": "success",
   "briefing": {
-    "headline": "⚡ LA Chargers 주간 인텔리전스 종합 리포트 (총 100건 정밀 분석)",
+    "headline": "⚡ LA Chargers 주간 인텔리전스 종합 리포트 (총 102건 정밀 분석)",
     "key_takeaways": [
-      "⚡ **스마트 큐레이션 및 중복 제거**: 총 100건의 언론 기사를 정밀 클러스터링하여 핵심 이슈 위주로 요약했습니다.",
-      "🏈 **매치업 포커스**: 2026 정규시즌 1주차 (SoFi Stadium) (상대: Arizona Cardinals (AZ Cardinals))",
-      "🎯 **집중 조명된 핵심 인물**: Jim Harbaugh (HC)(19건), Justin Herbert (QB)(14건), Ladd McConkey (WR)(4건)",
+      "⚡ **스마트 큐레이션 및 중복 제거**: 총 102건의 언론 기사를 정밀 클러스터링하여 핵심 이슈 위주로 요약했습니다.",
+      "🏈 **매치업 포커스**: 2026 정규시즌 2주차 (SoFi Stadium / AFC West 라이벌전) (상대: 라스베이거스 레이더스 (LV Raiders))",
+      "🎯 **집중 조명된 핵심 인물**: Jim Harbaugh (HC)(21건), Justin Herbert (QB)(14건), Ladd McConkey (WR)(4건)",
       "🔥 **헤드라인 키워드**: link comments, justin herbert, yahoo sports, submitted link"
     ],
     "injury_update": "부상 리포트 공식 테이블(Injury Report Table)에서 상세 출전 상태 및 연습 참가 여부(DNP/LP/FP)를 확인하세요.",
     "team_outlook": "Jim Harbaugh 감독 체제 하에서 공수 밸런스와 오펜시브 라인의 견고함을 구축하며 시즌 순항 중입니다.",
     "game_center": {
       "has_game_data": true,
-      "opponent": "Arizona Cardinals (AZ Cardinals)",
-      "game_type": "2026 정규시즌 1주차 (SoFi Stadium)",
+      "opponent": "라스베이거스 레이더스 (LV Raiders)",
+      "game_type": "2026 정규시즌 2주차 (SoFi Stadium / AFC West 라이벌전)",
       "score_detected": "26-14",
-      "game_articles_count": 45,
+      "game_articles_count": 46,
       "highlights": [
-        "🏈 **2026 NFL 1주차 홈 개막전**: SoFi Stadium에서 열리는 Arizona Cardinals와의 정규시즌 첫 맞대결",
-        "🏈 **Jim Harbaugh 감독 체제 공식 데뷔전**: 오프시즌 팀 체질 개선 이후 첫 공식 정규시즌 경기",
-        "🏈 **공격진 핵심 관전 포인트**: QB Justin Herbert의 딥패스와 신예 Joe Alt, Rashawn Slater의 오펜시브 라인 프로텍션",
-        "🏈 **수비진 핵심 관전 포인트**: Jesse Minter 수비 코디네이터의 압박 스킴 및 Joey Bosa, Khalil Mack의 강력한 엣지 러시",
-        "📰 **Chargers 파워 랭킹 요약: 볼트는 Cardinals에게 패한 후 급격한 하락세를 보입니다.**: ⚡ **핵심 소식**: Chargers와 전체 ​​팬층은 1주차에 ​​Cardinals에게 두 자릿수 손실을 입혀 충격을 받았습니다. 대부분의 경우 Bolts는 시즌을 시작할 잠재적인 상위 10위권 팀으로 간주되었으며 대부분 전체 팀에서 상위 16위 안에 드는 것으로 나타났습니다."
+        "🏈 **2026 NFL 2주차 AFC West 라이벌전**: SoFi Stadium에서 열리는 Las Vegas Raiders와의 홈 맞대결",
+        "🔥 **반등을 위한 필승전**: 1주차 Cardinals전 패배(14-26)를 딛고 분위기 반전을 노리는 Jim Harbaugh호의 총력전",
+        "🏈 **공격진 핵심 관전 포인트**: QB Justin Herbert의 패싱 어택 정상화 및 Joe Alt, Rashawn Slater의 오펜시브 라인 수호",
+        "🏈 **수비진 핵심 관전 포인트**: Joey Bosa, Khalil Mack의 강력한 패스 러시로 상대 쿼터백 압박"
       ],
-      "offense_notes": "QB Justin Herbert의 정교한 딥패스와 Joe Alt, Rashawn Slater의 오펜시브 라인 프로텍션으로 Cardinals 수비진 공략",
-      "defense_notes": "Jesse Minter 수비 코디네이터 지휘 아래 Joey Bosa, Khalil Mack의 엣지 러시로 Kyler Murray 기동력 차단 및 Derwin James Jr.의 세컨더리 지휘"
+      "offense_notes": "1주차 침묵을 깬 QB Justin Herbert의 딥패스 부활 및 Ladd McConkey 부상 공백을 메울 리시빙 코어 가동",
+      "defense_notes": "Jesse Minter 수비 코디네이터의 압박 스킴으로 Raiders 오펜스 차단 및 Joey Bosa, Khalil Mack의 엣지 러시 총력전"
     },
     "schedule": {
       "season": "2026 NFL Regular Season",
       "team": "Los Angeles Chargers",
-      "record": "1승 0패",
-      "wins": 1,
-      "losses": 0,
+      "record": "0승 1패",
+      "wins": 0,
+      "losses": 1,
       "next_game": {
         "week": 2,
         "date_utc": "2026-09-20T20:05:00Z",
@@ -57,8 +56,8 @@
           "broadcast": "CBS (미국) | DAZN(한국 전경기) / 쿠팡플레이(선별)",
           "game_type": "정규시즌 1주차 홈 개막전",
           "status": "final",
-          "score": "Chargers 26 - 14 Arizona Cardinals (AZ Cardinals)",
-          "result": "WIN",
+          "score": "Chargers 14 - 26 Arizona Cardinals (AZ Cardinals)",
+          "result": "LOSS",
           "d_day": "경기 종료"
         },
         {
@@ -398,8 +397,8 @@
       "yahoo sports",
       "submitted link",
       "mike mcdaniel",
-      "Los Angeles Chargers",
       "Jim Harbaugh",
+      "Los Angeles Chargers",
       "Justin Herbert",
       "Yahoo Sports",
       "Arizona Cardinals",
@@ -408,7 +407,7 @@
       "preseason",
       "sports",
       "cardinals",
-      "injury"
+      "justin"
     ],
     "top_highlights": [
       {
@@ -597,8 +596,7 @@
           ]
         },
         "related_sources": [
-          "Bolts From The Blue (SB Nation)",
-          "Bolts From The Blue"
+          "Bolts From The Blue (SB Nation)"
         ],
         "category_key": "game",
         "category_name": "경기 결과/프리뷰",
@@ -1097,8 +1095,7 @@
         ]
       },
       "related_sources": [
-        "Bolts From The Blue (SB Nation)",
-        "Bolts From The Blue"
+        "Bolts From The Blue (SB Nation)"
       ],
       "category_key": "game",
       "category_name": "경기 결과/프리뷰",
@@ -2037,6 +2034,72 @@
       ]
     },
     {
+      "title": "Chargers' Jim Harbaugh has one major regret after Week 1 loss",
+      "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxNMU5oSFBienYzLWloZzN2eEtTQmZrMmxmMTluTXFlMnRzS0p1Sl9TRVEwUzR4b0otS3A2YUlUek9fb0JHc0g3RTZsQUxURzB1R0ZYbC1sdlpFQmJ4amNFR2ZtbG1fOXg2eWNPMTc1VHpDczdHeGFaUmdpWUVhZHRHdnhLVkNDd00?oc=5",
+      "summary": "Chargers' Jim Harbaugh has one major regret after Week 1 loss Yahoo Sports",
+      "published": "2026-09-14T12:36:53+00:00",
+      "source": "Yahoo Sports",
+      "author": "",
+      "raw_entry": {
+        "title": "Chargers' Jim Harbaugh has one major regret after Week 1 loss - Yahoo Sports",
+        "title_detail": {
+          "type": "text/plain",
+          "language": null,
+          "base": "",
+          "value": "Chargers' Jim Harbaugh has one major regret after Week 1 loss - Yahoo Sports"
+        },
+        "links": [
+          {
+            "rel": "alternate",
+            "type": "text/html",
+            "href": "https://news.google.com/rss/articles/CBMihwFBVV95cUxNMU5oSFBienYzLWloZzN2eEtTQmZrMmxmMTluTXFlMnRzS0p1Sl9TRVEwUzR4b0otS3A2YUlUek9fb0JHc0g3RTZsQUxURzB1R0ZYbC1sdlpFQmJ4amNFR2ZtbG1fOXg2eWNPMTc1VHpDczdHeGFaUmdpWUVhZHRHdnhLVkNDd00?oc=5"
+          }
+        ],
+        "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxNMU5oSFBienYzLWloZzN2eEtTQmZrMmxmMTluTXFlMnRzS0p1Sl9TRVEwUzR4b0otS3A2YUlUek9fb0JHc0g3RTZsQUxURzB1R0ZYbC1sdlpFQmJ4amNFR2ZtbG1fOXg2eWNPMTc1VHpDczdHeGFaUmdpWUVhZHRHdnhLVkNDd00?oc=5",
+        "id": "CBMihwFBVV95cUxNMU5oSFBienYzLWloZzN2eEtTQmZrMmxmMTluTXFlMnRzS0p1Sl9TRVEwUzR4b0otS3A2YUlUek9fb0JHc0g3RTZsQUxURzB1R0ZYbC1sdlpFQmJ4amNFR2ZtbG1fOXg2eWNPMTc1VHpDczdHeGFaUmdpWUVhZHRHdnhLVkNDd00",
+        "guidislink": false,
+        "published": "Mon, 14 Sep 2026 21:36:53 GMT",
+        "published_parsed": [
+          2026,
+          9,
+          14,
+          21,
+          36,
+          53,
+          0,
+          257,
+          0
+        ],
+        "summary": "<a href=\"https://news.google.com/rss/articles/CBMihwFBVV95cUxNMU5oSFBienYzLWloZzN2eEtTQmZrMmxmMTluTXFlMnRzS0p1Sl9TRVEwUzR4b0otS3A2YUlUek9fb0JHc0g3RTZsQUxURzB1R0ZYbC1sdlpFQmJ4amNFR2ZtbG1fOXg2eWNPMTc1VHpDczdHeGFaUmdpWUVhZHRHdnhLVkNDd00?oc=5\" target=\"_blank\">Chargers' Jim Harbaugh has one major regret after Week 1 loss</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Yahoo Sports</font>",
+        "summary_detail": {
+          "type": "text/html",
+          "language": null,
+          "base": "",
+          "value": "<a href=\"https://news.google.com/rss/articles/CBMihwFBVV95cUxNMU5oSFBienYzLWloZzN2eEtTQmZrMmxmMTluTXFlMnRzS0p1Sl9TRVEwUzR4b0otS3A2YUlUek9fb0JHc0g3RTZsQUxURzB1R0ZYbC1sdlpFQmJ4amNFR2ZtbG1fOXg2eWNPMTc1VHpDczdHeGFaUmdpWUVhZHRHdnhLVkNDd00?oc=5\" target=\"_blank\">Chargers' Jim Harbaugh has one major regret after Week 1 loss</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Yahoo Sports</font>"
+        },
+        "source": {
+          "href": "https://sports.yahoo.com",
+          "title": "Yahoo Sports"
+        }
+      },
+      "search_query": "Chargers Jim Harbaugh",
+      "related_sources": [
+        "Yahoo Sports"
+      ],
+      "category_key": "game",
+      "category_name": "경기 결과/프리뷰",
+      "category_badge": "⚡ 경기 소식",
+      "category_icon": "🏈",
+      "importance_score": 100,
+      "priority_tier": "🚨 긴급/핵심",
+      "priority_class": "tier-critical",
+      "headline_kr": "Chargers의 Jim Harbaugh는 1주 차 패배 이후 한 가지 큰 후회를 했습니다.",
+      "summary_bullets_kr": [
+        "⚡ **핵심 소식**: Chargers의 Jim Harbaugh는 1주 차 패배 이후 한 가지 큰 후회를 했습니다. Yahoo Sports",
+        "🏈 **전술 관전 포인트**: Jim Harbaugh 감독 및 코칭스태프의 피지컬 중심 미식축구 철학이 반영된 행보입니다."
+      ]
+    },
+    {
       "title": "Chargers HC Jim Harbaugh after Week 1 loss: 'I wish we played our starters more in the preseason'",
       "url": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxNZ3E5M09fWGlFNDAxOEFmSDh5d3RXRGUxdHFGU2YwTGl1RlE0RTA1T0lWOWxwNWVnOUdWV1ZJSjJXeEVKR2RnQUxuemUwLXF6WkhMSGtnS0JsVkJUZUJnZEY2Mk5GaUh5ZzJnTDlDM3VidGVQYXBLM20tM0R3X3Y3WlQzLTY4ZUc4Y0pJNi0zUHhndGRnWnI0NUl2dTc1cGtpS09Lc3h0RGt6OW5ncWJzNkNJaEdsbHc2SlFxM1hPWkl3NTIyZDBTdDhYSF90dHdsS2NfODNtaVZoNzV4TEV3?oc=5",
       "summary": "Chargers HC Jim Harbaugh after Week 1 loss: 'I wish we played our starters more in the preseason' Yahoo Sports",
@@ -2643,7 +2706,7 @@
           "title": "A to Z Sports"
         }
       },
-      "search_query": "Los Angeles Chargers",
+      "search_query": "Jim Harbaugh Chargers",
       "related_sources": [
         "A to Z Sports"
       ],
@@ -2790,6 +2853,72 @@
       "summary_bullets_kr": [
         "⚡ **핵심 소식**: Chargers의 Justin Herbert : Raiders 수비에는 2 주차 Las Vegas Review-Journal을 앞두고 '약점이 없습니다'",
         "🏈 **주요 인물**: Justin Herbert (QB)의 경기력과 훈련 컨디션이 집중 조명되고 있습니다."
+      ]
+    },
+    {
+      "title": "Chargers' Jim Harbaugh sends clear message about offensive line play",
+      "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxQbW1NNjdaRVNQZlRIb1E2ZDJfLXp6ZlVOSlpocncxY2c2Y1lpRGg1MVpydGE3UXQ2V2N2Z043RmhReWh0UWU1MndOcFo5dERtSmZaTHBvUjVWQmVqVGROYThELXp0Z0xkVUVjeEIxcVp0WUhIT0ZRZ2hkblJ1RTlMMFZuQldfWTNsUGc?oc=5",
+      "summary": "Chargers' Jim Harbaugh sends clear message about offensive line play Yahoo Sports",
+      "published": "2026-09-17T09:48:28+00:00",
+      "source": "Yahoo Sports",
+      "author": "",
+      "raw_entry": {
+        "title": "Chargers' Jim Harbaugh sends clear message about offensive line play - Yahoo Sports",
+        "title_detail": {
+          "type": "text/plain",
+          "language": null,
+          "base": "",
+          "value": "Chargers' Jim Harbaugh sends clear message about offensive line play - Yahoo Sports"
+        },
+        "links": [
+          {
+            "rel": "alternate",
+            "type": "text/html",
+            "href": "https://news.google.com/rss/articles/CBMiigFBVV95cUxQbW1NNjdaRVNQZlRIb1E2ZDJfLXp6ZlVOSlpocncxY2c2Y1lpRGg1MVpydGE3UXQ2V2N2Z043RmhReWh0UWU1MndOcFo5dERtSmZaTHBvUjVWQmVqVGROYThELXp0Z0xkVUVjeEIxcVp0WUhIT0ZRZ2hkblJ1RTlMMFZuQldfWTNsUGc?oc=5"
+          }
+        ],
+        "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxQbW1NNjdaRVNQZlRIb1E2ZDJfLXp6ZlVOSlpocncxY2c2Y1lpRGg1MVpydGE3UXQ2V2N2Z043RmhReWh0UWU1MndOcFo5dERtSmZaTHBvUjVWQmVqVGROYThELXp0Z0xkVUVjeEIxcVp0WUhIT0ZRZ2hkblJ1RTlMMFZuQldfWTNsUGc?oc=5",
+        "id": "CBMiigFBVV95cUxQbW1NNjdaRVNQZlRIb1E2ZDJfLXp6ZlVOSlpocncxY2c2Y1lpRGg1MVpydGE3UXQ2V2N2Z043RmhReWh0UWU1MndOcFo5dERtSmZaTHBvUjVWQmVqVGROYThELXp0Z0xkVUVjeEIxcVp0WUhIT0ZRZ2hkblJ1RTlMMFZuQldfWTNsUGc",
+        "guidislink": false,
+        "published": "Thu, 17 Sep 2026 18:48:28 GMT",
+        "published_parsed": [
+          2026,
+          9,
+          17,
+          18,
+          48,
+          28,
+          3,
+          260,
+          0
+        ],
+        "summary": "<a href=\"https://news.google.com/rss/articles/CBMiigFBVV95cUxQbW1NNjdaRVNQZlRIb1E2ZDJfLXp6ZlVOSlpocncxY2c2Y1lpRGg1MVpydGE3UXQ2V2N2Z043RmhReWh0UWU1MndOcFo5dERtSmZaTHBvUjVWQmVqVGROYThELXp0Z0xkVUVjeEIxcVp0WUhIT0ZRZ2hkblJ1RTlMMFZuQldfWTNsUGc?oc=5\" target=\"_blank\">Chargers' Jim Harbaugh sends clear message about offensive line play</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Yahoo Sports</font>",
+        "summary_detail": {
+          "type": "text/html",
+          "language": null,
+          "base": "",
+          "value": "<a href=\"https://news.google.com/rss/articles/CBMiigFBVV95cUxQbW1NNjdaRVNQZlRIb1E2ZDJfLXp6ZlVOSlpocncxY2c2Y1lpRGg1MVpydGE3UXQ2V2N2Z043RmhReWh0UWU1MndOcFo5dERtSmZaTHBvUjVWQmVqVGROYThELXp0Z0xkVUVjeEIxcVp0WUhIT0ZRZ2hkblJ1RTlMMFZuQldfWTNsUGc?oc=5\" target=\"_blank\">Chargers' Jim Harbaugh sends clear message about offensive line play</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Yahoo Sports</font>"
+        },
+        "source": {
+          "href": "https://sports.yahoo.com",
+          "title": "Yahoo Sports"
+        }
+      },
+      "search_query": "Jim Harbaugh Chargers",
+      "related_sources": [
+        "Yahoo Sports"
+      ],
+      "category_key": "interview",
+      "category_name": "감독/선수 인터뷰",
+      "category_badge": "🎙️ 인터뷰/발언",
+      "category_icon": "🎙️",
+      "importance_score": 95,
+      "priority_tier": "🚨 긴급/핵심",
+      "priority_class": "tier-critical",
+      "headline_kr": "Chargers의 Jim Harbaugh는 공격 라인 플레이에 대한 명확한 메시지를 보냅니다.",
+      "summary_bullets_kr": [
+        "⚡ **핵심 소식**: Chargers의 Jim Harbaugh는 공격 라인 플레이에 대한 명확한 메시지를 보냅니다. Yahoo Sports",
+        "🏈 **전술 관전 포인트**: Jim Harbaugh 감독 및 코칭스태프의 피지컬 중심 미식축구 철학이 반영된 행보입니다."
       ]
     },
     {
@@ -3170,7 +3299,7 @@
           "title": "Los Angeles Chargers"
         }
       },
-      "search_query": "Los Angeles Chargers",
+      "search_query": "LA Chargers",
       "related_sources": [
         "Los Angeles Chargers"
       ],
@@ -3236,7 +3365,7 @@
           "title": "Yahoo Sports"
         }
       },
-      "search_query": "Jim Harbaugh Chargers",
+      "search_query": "Chargers Jim Harbaugh",
       "related_sources": [
         "Yahoo Sports"
       ],
@@ -3251,6 +3380,99 @@
       "summary_bullets_kr": [
         "⚡ **핵심 소식**: Chargers의 Jim Harbaugh는 공격 라인 Yahoo Sports의 고무적인 상태를 밝힙니다.",
         "🏈 **전술 관전 포인트**: Jim Harbaugh 감독 및 코칭스태프의 피지컬 중심 미식축구 철학이 반영된 행보입니다."
+      ]
+    },
+    {
+      "title": "[Raanan] The Giants are signing CB Nikko Reed from the Chargers practice squad, sources told me and @krisrhim1. Reed lands on the Giants active roster with them short on healthy cornerbacks. Paulson Adebo didn't practice Thursday. Deonte Banks and Greg Newsome were limited.",
+      "url": "https://www.reddit.com/r/Chargers/comments/1wj71wj/raanan_the_giants_are_signing_cb_nikko_reed_from/",
+      "summary": "submitted by /u/Schnix54 [link] [comments]",
+      "published": "2026-09-17T12:33:43+00:00",
+      "source": "Reddit r/Chargers",
+      "author": "/u/Schnix54",
+      "raw_entry": {
+        "authors": [
+          {
+            "name": "/u/Schnix54",
+            "href": "https://www.reddit.com/user/Schnix54"
+          }
+        ],
+        "author_detail": {
+          "name": "/u/Schnix54",
+          "href": "https://www.reddit.com/user/Schnix54"
+        },
+        "href": "https://www.reddit.com/user/Schnix54",
+        "author": "/u/Schnix54",
+        "tags": [
+          {
+            "term": "Chargers",
+            "scheme": null,
+            "label": "r/Chargers"
+          }
+        ],
+        "content": [
+          {
+            "type": "text/html",
+            "language": null,
+            "base": "",
+            "value": "&#32; submitted by &#32; <a href=\"https://www.reddit.com/user/Schnix54\"> /u/Schnix54 </a> <br /> <span><a href=\"https://x.com/JordanRaanan/status/2100683480132735366\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/Chargers/comments/1wj71wj/raanan_the_giants_are_signing_cb_nikko_reed_from/\">[comments]</a></span>"
+          }
+        ],
+        "summary": "&#32; submitted by &#32; <a href=\"https://www.reddit.com/user/Schnix54\"> /u/Schnix54 </a> <br /> <span><a href=\"https://x.com/JordanRaanan/status/2100683480132735366\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/Chargers/comments/1wj71wj/raanan_the_giants_are_signing_cb_nikko_reed_from/\">[comments]</a></span>",
+        "id": "t3_1wj71wj",
+        "guidislink": true,
+        "link": "https://www.reddit.com/r/Chargers/comments/1wj71wj/raanan_the_giants_are_signing_cb_nikko_reed_from/",
+        "links": [
+          {
+            "href": "https://www.reddit.com/r/Chargers/comments/1wj71wj/raanan_the_giants_are_signing_cb_nikko_reed_from/",
+            "rel": "alternate",
+            "type": "text/html"
+          }
+        ],
+        "updated": "2026-09-17T21:33:43+00:00",
+        "updated_parsed": [
+          2026,
+          9,
+          17,
+          21,
+          33,
+          43,
+          3,
+          260,
+          0
+        ],
+        "published": "2026-09-17T21:33:43+00:00",
+        "published_parsed": [
+          2026,
+          9,
+          17,
+          21,
+          33,
+          43,
+          3,
+          260,
+          0
+        ],
+        "title": "[Raanan] The Giants are signing CB Nikko Reed from the Chargers practice squad, sources told me and @krisrhim1. Reed lands on the Giants active roster with them short on healthy cornerbacks. Paulson Adebo didn't practice Thursday. Deonte Banks and Greg Newsome were limited.",
+        "title_detail": {
+          "type": "text/plain",
+          "language": null,
+          "base": "",
+          "value": "[Raanan] The Giants are signing CB Nikko Reed from the Chargers practice squad, sources told me and @krisrhim1. Reed lands on the Giants active roster with them short on healthy cornerbacks. Paulson Adebo didn't practice Thursday. Deonte Banks and Greg Newsome were limited."
+        }
+      },
+      "related_sources": [
+        "Reddit r/Chargers"
+      ],
+      "category_key": "roster",
+      "category_name": "계약/트레이드/드래프트",
+      "category_badge": "🎯 영입/계약",
+      "category_icon": "✍️",
+      "importance_score": 85,
+      "priority_tier": "🚨 긴급/핵심",
+      "priority_class": "tier-critical",
+      "headline_kr": "[Raanan] 자이언츠가 Chargers 연습팀의 CB Nikko Reed와 계약한다고 소식통이 나와 @krisrhim1에 말했습니다. 리드는 건강한 팀이 부족한 자이언츠 현역 명단에 올랐습니다.",
+      "summary_bullets_kr": [
+        "⚡ **핵심 소식**: 자이언츠가 Chargers 연습팀의 CB Nikko Reed와 계약할 예정이라고 소식통과 @krisrhim1이 말했습니다. Reed는 건강한 코너백이 부족한 자이언츠 현역 명단에 올랐습니다."
       ]
     },
     {
@@ -3489,72 +3711,6 @@
       ]
     },
     {
-      "title": "Tyler Biadasz injury: Chargers center out indefinitely with knee injury in massive blow to oft-injured line",
-      "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNYlB1cXpNSHRpd1hyM0hMXzZJRDVaVnNTaEpGZTNPeEc2WkNpLVlUdkdrQVpYaWJvU25keDMzRFM0N09PYkRXaUF1aVk1YzZlT0ZVa25UcnY3M1psbXJfemVUbHJ6QkNwejdtVW94b0JTMUp3QVo0clltcDlfSnNIM0d0ZW9SVGtJVnotbnNINGJ3R21DNUVvXzExRXZPZGdyZFlLdGcyMA?oc=5",
-      "summary": "Tyler Biadasz injury: Chargers center out indefinitely with knee injury in massive blow to oft-injured line CBS Sports",
-      "published": "2026-08-18T22:00:00+00:00",
-      "source": "CBS Sports",
-      "author": "",
-      "raw_entry": {
-        "title": "Tyler Biadasz injury: Chargers center out indefinitely with knee injury in massive blow to oft-injured line - CBS Sports",
-        "title_detail": {
-          "type": "text/plain",
-          "language": null,
-          "base": "",
-          "value": "Tyler Biadasz injury: Chargers center out indefinitely with knee injury in massive blow to oft-injured line - CBS Sports"
-        },
-        "links": [
-          {
-            "rel": "alternate",
-            "type": "text/html",
-            "href": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNYlB1cXpNSHRpd1hyM0hMXzZJRDVaVnNTaEpGZTNPeEc2WkNpLVlUdkdrQVpYaWJvU25keDMzRFM0N09PYkRXaUF1aVk1YzZlT0ZVa25UcnY3M1psbXJfemVUbHJ6QkNwejdtVW94b0JTMUp3QVo0clltcDlfSnNIM0d0ZW9SVGtJVnotbnNINGJ3R21DNUVvXzExRXZPZGdyZFlLdGcyMA?oc=5"
-          }
-        ],
-        "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNYlB1cXpNSHRpd1hyM0hMXzZJRDVaVnNTaEpGZTNPeEc2WkNpLVlUdkdrQVpYaWJvU25keDMzRFM0N09PYkRXaUF1aVk1YzZlT0ZVa25UcnY3M1psbXJfemVUbHJ6QkNwejdtVW94b0JTMUp3QVo0clltcDlfSnNIM0d0ZW9SVGtJVnotbnNINGJ3R21DNUVvXzExRXZPZGdyZFlLdGcyMA?oc=5",
-        "id": "CBMipwFBVV95cUxNYlB1cXpNSHRpd1hyM0hMXzZJRDVaVnNTaEpGZTNPeEc2WkNpLVlUdkdrQVpYaWJvU25keDMzRFM0N09PYkRXaUF1aVk1YzZlT0ZVa25UcnY3M1psbXJfemVUbHJ6QkNwejdtVW94b0JTMUp3QVo0clltcDlfSnNIM0d0ZW9SVGtJVnotbnNINGJ3R21DNUVvXzExRXZPZGdyZFlLdGcyMA",
-        "guidislink": false,
-        "published": "Wed, 19 Aug 2026 07:00:00 GMT",
-        "published_parsed": [
-          2026,
-          8,
-          19,
-          7,
-          0,
-          0,
-          2,
-          231,
-          0
-        ],
-        "summary": "<a href=\"https://news.google.com/rss/articles/CBMipwFBVV95cUxNYlB1cXpNSHRpd1hyM0hMXzZJRDVaVnNTaEpGZTNPeEc2WkNpLVlUdkdrQVpYaWJvU25keDMzRFM0N09PYkRXaUF1aVk1YzZlT0ZVa25UcnY3M1psbXJfemVUbHJ6QkNwejdtVW94b0JTMUp3QVo0clltcDlfSnNIM0d0ZW9SVGtJVnotbnNINGJ3R21DNUVvXzExRXZPZGdyZFlLdGcyMA?oc=5\" target=\"_blank\">Tyler Biadasz injury: Chargers center out indefinitely with knee injury in massive blow to oft-injured line</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">CBS Sports</font>",
-        "summary_detail": {
-          "type": "text/html",
-          "language": null,
-          "base": "",
-          "value": "<a href=\"https://news.google.com/rss/articles/CBMipwFBVV95cUxNYlB1cXpNSHRpd1hyM0hMXzZJRDVaVnNTaEpGZTNPeEc2WkNpLVlUdkdrQVpYaWJvU25keDMzRFM0N09PYkRXaUF1aVk1YzZlT0ZVa25UcnY3M1psbXJfemVUbHJ6QkNwejdtVW94b0JTMUp3QVo0clltcDlfSnNIM0d0ZW9SVGtJVnotbnNINGJ3R21DNUVvXzExRXZPZGdyZFlLdGcyMA?oc=5\" target=\"_blank\">Tyler Biadasz injury: Chargers center out indefinitely with knee injury in massive blow to oft-injured line</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">CBS Sports</font>"
-        },
-        "source": {
-          "href": "https://www.cbssports.com",
-          "title": "CBS Sports"
-        }
-      },
-      "search_query": "Chargers injury roster",
-      "related_sources": [
-        "CBS Sports"
-      ],
-      "category_key": "injury",
-      "category_name": "부상/로스터 보고",
-      "category_badge": "📋 부상/로스터",
-      "category_icon": "🏥",
-      "importance_score": 85,
-      "priority_tier": "🚨 긴급/핵심",
-      "priority_class": "tier-critical",
-      "headline_kr": "Tyler Biadasz(Tyler Biadasz) 부상: 자주 부상을 당하는 라인에 엄청난 타격을 입힌 무릎 부상으로 Chargers는 무기한 센터 아웃되었습니다.",
-      "summary_bullets_kr": [
-        "⚡ **핵심 소식**: Tyler Biadasz(Tyler Biadasz) 부상: Chargers는 무릎 부상으로 자주 부상을 당하는 라인에 막대한 타격을 입혀 무기한 센터 아웃 CBS 스포츠",
-        "📋 **선수단 영향**: Tyler Biadasz (C)의 부상 경과 및 훈련 소화 여부가 주간 라인업 구성의 핵심 변수로 작용합니다."
-      ]
-    },
-    {
       "title": "Los Angeles Chargers quarterback Justin Herbert",
       "url": "https://news.google.com/rss/articles/CBMijgJBVV95cUxPWW1Lc2h1QkZQZk5la2FTR0d4REl1ZHJMS1FQUlctODhKZ19PcHNUM2xMZ0VZZlNNa1hHM1BjZTV5WldiXzU1TEJSOEoweVNURGU1Z3Itbk5vcmRWMnRWREtmZ3pRX2c3QVZSTGZ0ZUNVejB4OGZ5SG11a3B5aTQ2VEJaNW1fazVkUFduaHFCdnBkZEV1czFjNkNzTUtILWs5YmlOVFNRYVlvbm9OV3NRNTM3cVBvaW5QbmZHci13Mlcwb3RHTmc0YUY1bUgtYzRvSEFqWGFXOURYZzRNZlpUT2QxR1BDakRFM1VudnJpUmhVcDMybnBPOWhWbTZJWWpTc185UDh3Sk9mVWNNb3c?oc=5",
       "summary": "Los Angeles Chargers quarterback Justin Herbert Sky Sports",
@@ -3689,17 +3845,17 @@
     {
       "title": "Los Angeles Chargers coach Jim Harbaugh weighs in on former Michigan teammate Sim Nelson's 2026 induction into the Indiana Football Hall of Fame",
       "url": "https://news.google.com/rss/articles/CBMijAJBVV95cUxNd1FwWnBXempzQjM0UGxjWUI1UFRad25JczA3NHgxZDQ1QURucklSdGpfdFdNQ09FSEF6Wm9kRHpwLWQ2TmtYaUtBdFExR3hwVm8zSFZZTS1iOHpiTjB1UUNFVklsNDZCQWpUMmNrNUtPbE53RE9kSVdqZUJOMzdzbkc3SnJUYVRUbDFCa1p1U0FqUTlSV0dCdy1MNkpXTTRKdUx6SHMzV2l5QWVuZ2FfSGxmemNkWjdqX09ldUhWWlNVMm55X2h0cHhyVDVyUEItM0FUMkNEOWlXZG0tdk42cDVxYzFZcnpPbmtmRHZ1RlhxaG85RFhLVmhpSUo1MmEtSy1DMVlMR3YwejZO?oc=5",
-      "summary": "Los Angeles Chargers coach Jim Harbaugh weighs in on former Michigan teammate Sim Nelson's 2026 induction into the Indiana Football Hall of Fame WANE 15",
+      "summary": "Los Angeles Chargers coach Jim Harbaugh weighs in on former Michigan teammate Sim Nelson's 2026 induction into the Indiana Football Hall of Fame wane.com",
       "published": "2026-09-13T01:07:52+00:00",
-      "source": "WANE 15",
+      "source": "wane.com",
       "author": "",
       "raw_entry": {
-        "title": "Los Angeles Chargers coach Jim Harbaugh weighs in on former Michigan teammate Sim Nelson's 2026 induction into the Indiana Football Hall of Fame - WANE 15",
+        "title": "Los Angeles Chargers coach Jim Harbaugh weighs in on former Michigan teammate Sim Nelson's 2026 induction into the Indiana Football Hall of Fame - wane.com",
         "title_detail": {
           "type": "text/plain",
           "language": null,
           "base": "",
-          "value": "Los Angeles Chargers coach Jim Harbaugh weighs in on former Michigan teammate Sim Nelson's 2026 induction into the Indiana Football Hall of Fame - WANE 15"
+          "value": "Los Angeles Chargers coach Jim Harbaugh weighs in on former Michigan teammate Sim Nelson's 2026 induction into the Indiana Football Hall of Fame - wane.com"
         },
         "links": [
           {
@@ -3723,21 +3879,21 @@
           256,
           0
         ],
-        "summary": "<a href=\"https://news.google.com/rss/articles/CBMijAJBVV95cUxNd1FwWnBXempzQjM0UGxjWUI1UFRad25JczA3NHgxZDQ1QURucklSdGpfdFdNQ09FSEF6Wm9kRHpwLWQ2TmtYaUtBdFExR3hwVm8zSFZZTS1iOHpiTjB1UUNFVklsNDZCQWpUMmNrNUtPbE53RE9kSVdqZUJOMzdzbkc3SnJUYVRUbDFCa1p1U0FqUTlSV0dCdy1MNkpXTTRKdUx6SHMzV2l5QWVuZ2FfSGxmemNkWjdqX09ldUhWWlNVMm55X2h0cHhyVDVyUEItM0FUMkNEOWlXZG0tdk42cDVxYzFZcnpPbmtmRHZ1RlhxaG85RFhLVmhpSUo1MmEtSy1DMVlMR3YwejZO?oc=5\" target=\"_blank\">Los Angeles Chargers coach Jim Harbaugh weighs in on former Michigan teammate Sim Nelson's 2026 induction into the Indiana Football Hall of Fame</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">WANE 15</font>",
+        "summary": "<a href=\"https://news.google.com/rss/articles/CBMijAJBVV95cUxNd1FwWnBXempzQjM0UGxjWUI1UFRad25JczA3NHgxZDQ1QURucklSdGpfdFdNQ09FSEF6Wm9kRHpwLWQ2TmtYaUtBdFExR3hwVm8zSFZZTS1iOHpiTjB1UUNFVklsNDZCQWpUMmNrNUtPbE53RE9kSVdqZUJOMzdzbkc3SnJUYVRUbDFCa1p1U0FqUTlSV0dCdy1MNkpXTTRKdUx6SHMzV2l5QWVuZ2FfSGxmemNkWjdqX09ldUhWWlNVMm55X2h0cHhyVDVyUEItM0FUMkNEOWlXZG0tdk42cDVxYzFZcnpPbmtmRHZ1RlhxaG85RFhLVmhpSUo1MmEtSy1DMVlMR3YwejZO?oc=5\" target=\"_blank\">Los Angeles Chargers coach Jim Harbaugh weighs in on former Michigan teammate Sim Nelson's 2026 induction into the Indiana Football Hall of Fame</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">wane.com</font>",
         "summary_detail": {
           "type": "text/html",
           "language": null,
           "base": "",
-          "value": "<a href=\"https://news.google.com/rss/articles/CBMijAJBVV95cUxNd1FwWnBXempzQjM0UGxjWUI1UFRad25JczA3NHgxZDQ1QURucklSdGpfdFdNQ09FSEF6Wm9kRHpwLWQ2TmtYaUtBdFExR3hwVm8zSFZZTS1iOHpiTjB1UUNFVklsNDZCQWpUMmNrNUtPbE53RE9kSVdqZUJOMzdzbkc3SnJUYVRUbDFCa1p1U0FqUTlSV0dCdy1MNkpXTTRKdUx6SHMzV2l5QWVuZ2FfSGxmemNkWjdqX09ldUhWWlNVMm55X2h0cHhyVDVyUEItM0FUMkNEOWlXZG0tdk42cDVxYzFZcnpPbmtmRHZ1RlhxaG85RFhLVmhpSUo1MmEtSy1DMVlMR3YwejZO?oc=5\" target=\"_blank\">Los Angeles Chargers coach Jim Harbaugh weighs in on former Michigan teammate Sim Nelson's 2026 induction into the Indiana Football Hall of Fame</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">WANE 15</font>"
+          "value": "<a href=\"https://news.google.com/rss/articles/CBMijAJBVV95cUxNd1FwWnBXempzQjM0UGxjWUI1UFRad25JczA3NHgxZDQ1QURucklSdGpfdFdNQ09FSEF6Wm9kRHpwLWQ2TmtYaUtBdFExR3hwVm8zSFZZTS1iOHpiTjB1UUNFVklsNDZCQWpUMmNrNUtPbE53RE9kSVdqZUJOMzdzbkc3SnJUYVRUbDFCa1p1U0FqUTlSV0dCdy1MNkpXTTRKdUx6SHMzV2l5QWVuZ2FfSGxmemNkWjdqX09ldUhWWlNVMm55X2h0cHhyVDVyUEItM0FUMkNEOWlXZG0tdk42cDVxYzFZcnpPbmtmRHZ1RlhxaG85RFhLVmhpSUo1MmEtSy1DMVlMR3YwejZO?oc=5\" target=\"_blank\">Los Angeles Chargers coach Jim Harbaugh weighs in on former Michigan teammate Sim Nelson's 2026 induction into the Indiana Football Hall of Fame</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">wane.com</font>"
         },
         "source": {
           "href": "https://www.wane.com",
-          "title": "WANE 15"
+          "title": "wane.com"
         }
       },
       "search_query": "Jim Harbaugh Chargers",
       "related_sources": [
-        "WANE 15"
+        "wane.com"
       ],
       "category_key": "interview",
       "category_name": "감독/선수 인터뷰",
@@ -3748,101 +3904,8 @@
       "priority_class": "tier-critical",
       "headline_kr": "LA Chargers의 Jim Harbaugh 감독은 전 미시간 팀 동료인 심 넬슨의 2026년 인디애나 NFL 미식축구 명예의 전당 헌액에 대해 이야기합니다.",
       "summary_bullets_kr": [
-        "⚡ **핵심 소식**: LA Chargers의 Jim Harbaugh(Jim Harbaugh) 감독은 전 미시간 팀 동료인 심 넬슨(Sim Nelson)의 2026년 인디애나 NFL 미식축구 명예의 전당 WANE 15 입성에 대해 언급합니다.",
+        "⚡ **핵심 소식**: LA Chargers의 Jim Harbaugh(Jim Harbaugh) 감독은 전 미시간 팀 동료인 심 넬슨(Sim Nelson)의 2026년 인디애나 NFL 미식축구 명예의 전당 입성식에 대해 이야기합니다. wane.com",
         "🏈 **전술 관전 포인트**: Jim Harbaugh 감독 및 코칭스태프의 피지컬 중심 미식축구 철학이 반영된 행보입니다."
-      ]
-    },
-    {
-      "title": "[Raanan] The Giants are signing CB Nikko Reed from the Chargers practice squad, sources told me and @krisrhim1. Reed lands on the Giants active roster with them short on healthy cornerbacks. Paulson Adebo didn't practice Thursday. Deonte Banks and Greg Newsome were limited.",
-      "url": "https://www.reddit.com/r/Chargers/comments/1wj71wj/raanan_the_giants_are_signing_cb_nikko_reed_from/",
-      "summary": "submitted by /u/Schnix54 [link] [comments]",
-      "published": "2026-09-17T12:33:43+00:00",
-      "source": "Reddit r/Chargers",
-      "author": "/u/Schnix54",
-      "raw_entry": {
-        "authors": [
-          {
-            "name": "/u/Schnix54",
-            "href": "https://www.reddit.com/user/Schnix54"
-          }
-        ],
-        "author_detail": {
-          "name": "/u/Schnix54",
-          "href": "https://www.reddit.com/user/Schnix54"
-        },
-        "href": "https://www.reddit.com/user/Schnix54",
-        "author": "/u/Schnix54",
-        "tags": [
-          {
-            "term": "Chargers",
-            "scheme": null,
-            "label": "r/Chargers"
-          }
-        ],
-        "content": [
-          {
-            "type": "text/html",
-            "language": null,
-            "base": "",
-            "value": "&#32; submitted by &#32; <a href=\"https://www.reddit.com/user/Schnix54\"> /u/Schnix54 </a> <br /> <span><a href=\"https://x.com/JordanRaanan/status/2100683480132735366\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/Chargers/comments/1wj71wj/raanan_the_giants_are_signing_cb_nikko_reed_from/\">[comments]</a></span>"
-          }
-        ],
-        "summary": "&#32; submitted by &#32; <a href=\"https://www.reddit.com/user/Schnix54\"> /u/Schnix54 </a> <br /> <span><a href=\"https://x.com/JordanRaanan/status/2100683480132735366\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/Chargers/comments/1wj71wj/raanan_the_giants_are_signing_cb_nikko_reed_from/\">[comments]</a></span>",
-        "id": "t3_1wj71wj",
-        "guidislink": true,
-        "link": "https://www.reddit.com/r/Chargers/comments/1wj71wj/raanan_the_giants_are_signing_cb_nikko_reed_from/",
-        "links": [
-          {
-            "href": "https://www.reddit.com/r/Chargers/comments/1wj71wj/raanan_the_giants_are_signing_cb_nikko_reed_from/",
-            "rel": "alternate",
-            "type": "text/html"
-          }
-        ],
-        "updated": "2026-09-17T21:33:43+00:00",
-        "updated_parsed": [
-          2026,
-          9,
-          17,
-          21,
-          33,
-          43,
-          3,
-          260,
-          0
-        ],
-        "published": "2026-09-17T21:33:43+00:00",
-        "published_parsed": [
-          2026,
-          9,
-          17,
-          21,
-          33,
-          43,
-          3,
-          260,
-          0
-        ],
-        "title": "[Raanan] The Giants are signing CB Nikko Reed from the Chargers practice squad, sources told me and @krisrhim1. Reed lands on the Giants active roster with them short on healthy cornerbacks. Paulson Adebo didn't practice Thursday. Deonte Banks and Greg Newsome were limited.",
-        "title_detail": {
-          "type": "text/plain",
-          "language": null,
-          "base": "",
-          "value": "[Raanan] The Giants are signing CB Nikko Reed from the Chargers practice squad, sources told me and @krisrhim1. Reed lands on the Giants active roster with them short on healthy cornerbacks. Paulson Adebo didn't practice Thursday. Deonte Banks and Greg Newsome were limited."
-        }
-      },
-      "related_sources": [
-        "Reddit r/Chargers"
-      ],
-      "category_key": "roster",
-      "category_name": "계약/트레이드/드래프트",
-      "category_badge": "🎯 영입/계약",
-      "category_icon": "✍️",
-      "importance_score": 80,
-      "priority_tier": "🚨 긴급/핵심",
-      "priority_class": "tier-critical",
-      "headline_kr": "[Raanan] 자이언츠가 Chargers 연습팀의 CB Nikko Reed와 계약한다고 소식통이 나와 @krisrhim1에 말했습니다. 리드는 건강한 팀이 부족한 자이언츠 현역 명단에 올랐습니다.",
-      "summary_bullets_kr": [
-        "⚡ **핵심 소식**: 자이언츠가 Chargers 연습팀의 CB Nikko Reed와 계약할 예정이라고 소식통과 @krisrhim1이 말했습니다. Reed는 건강한 코너백이 부족한 자이언츠 현역 명단에 올랐습니다."
       ]
     },
     {
@@ -4027,7 +4090,8 @@
       },
       "search_query": "Chargers injury roster",
       "related_sources": [
-        "Los Angeles Times"
+        "Los Angeles Times",
+        "Yahoo Sports"
       ],
       "category_key": "injury",
       "category_name": "부상/로스터 보고",
@@ -4134,6 +4198,71 @@
       "summary_bullets_kr": [
         "⚡ **핵심 소식**: Chargers HC Jim Harbaugh가 2주차에 진입하는 공격 라인 플레이에 만족하는지에 대해: \"저 아시다시피 저는 NFL 미식축구와 관련된 어떤 것에서도 만족한 적이 없습니다. 그건 말이 아닙니다.\"",
         "🏈 **전술 관전 포인트**: Jim Harbaugh 감독 및 코칭스태프의 피지컬 중심 미식축구 철학이 반영된 행보입니다."
+      ]
+    },
+    {
+      "title": "Source: Chargers signing Valdes-Scantling to practice squad",
+      "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPQ1dLc1RtY1NtbEZJeVVCVkFkeDdCdzZqcmIzNlVodWxMMlZMN2h6ODVjRTVlTkxIaDdIU3FaWV8wVEpKQzhRVDNNRGdSMnFBZUdneUMwVjc2ZnF3MzlGSE92Ri04QmgySFNXbUtwRXdMOHItdjNiRjA4ZG9kUy1xOW1uSE1hM1dQZzVuR3ZubUNzcWpMVkQ5UQ?oc=5",
+      "summary": "Source: Chargers signing Valdes-Scantling to practice squad ESPN",
+      "published": "2026-09-15T16:23:00+00:00",
+      "source": "ESPN",
+      "author": "",
+      "raw_entry": {
+        "title": "Source: Chargers signing Valdes-Scantling to practice squad - ESPN",
+        "title_detail": {
+          "type": "text/plain",
+          "language": null,
+          "base": "",
+          "value": "Source: Chargers signing Valdes-Scantling to practice squad - ESPN"
+        },
+        "links": [
+          {
+            "rel": "alternate",
+            "type": "text/html",
+            "href": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPQ1dLc1RtY1NtbEZJeVVCVkFkeDdCdzZqcmIzNlVodWxMMlZMN2h6ODVjRTVlTkxIaDdIU3FaWV8wVEpKQzhRVDNNRGdSMnFBZUdneUMwVjc2ZnF3MzlGSE92Ri04QmgySFNXbUtwRXdMOHItdjNiRjA4ZG9kUy1xOW1uSE1hM1dQZzVuR3ZubUNzcWpMVkQ5UQ?oc=5"
+          }
+        ],
+        "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPQ1dLc1RtY1NtbEZJeVVCVkFkeDdCdzZqcmIzNlVodWxMMlZMN2h6ODVjRTVlTkxIaDdIU3FaWV8wVEpKQzhRVDNNRGdSMnFBZUdneUMwVjc2ZnF3MzlGSE92Ri04QmgySFNXbUtwRXdMOHItdjNiRjA4ZG9kUy1xOW1uSE1hM1dQZzVuR3ZubUNzcWpMVkQ5UQ?oc=5",
+        "id": "CBMimAFBVV95cUxPQ1dLc1RtY1NtbEZJeVVCVkFkeDdCdzZqcmIzNlVodWxMMlZMN2h6ODVjRTVlTkxIaDdIU3FaWV8wVEpKQzhRVDNNRGdSMnFBZUdneUMwVjc2ZnF3MzlGSE92Ri04QmgySFNXbUtwRXdMOHItdjNiRjA4ZG9kUy1xOW1uSE1hM1dQZzVuR3ZubUNzcWpMVkQ5UQ",
+        "guidislink": false,
+        "published": "Wed, 16 Sep 2026 01:23:00 GMT",
+        "published_parsed": [
+          2026,
+          9,
+          16,
+          1,
+          23,
+          0,
+          2,
+          259,
+          0
+        ],
+        "summary": "<a href=\"https://news.google.com/rss/articles/CBMimAFBVV95cUxPQ1dLc1RtY1NtbEZJeVVCVkFkeDdCdzZqcmIzNlVodWxMMlZMN2h6ODVjRTVlTkxIaDdIU3FaWV8wVEpKQzhRVDNNRGdSMnFBZUdneUMwVjc2ZnF3MzlGSE92Ri04QmgySFNXbUtwRXdMOHItdjNiRjA4ZG9kUy1xOW1uSE1hM1dQZzVuR3ZubUNzcWpMVkQ5UQ?oc=5\" target=\"_blank\">Source: Chargers signing Valdes-Scantling to practice squad</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">ESPN</font>",
+        "summary_detail": {
+          "type": "text/html",
+          "language": null,
+          "base": "",
+          "value": "<a href=\"https://news.google.com/rss/articles/CBMimAFBVV95cUxPQ1dLc1RtY1NtbEZJeVVCVkFkeDdCdzZqcmIzNlVodWxMMlZMN2h6ODVjRTVlTkxIaDdIU3FaWV8wVEpKQzhRVDNNRGdSMnFBZUdneUMwVjc2ZnF3MzlGSE92Ri04QmgySFNXbUtwRXdMOHItdjNiRjA4ZG9kUy1xOW1uSE1hM1dQZzVuR3ZubUNzcWpMVkQ5UQ?oc=5\" target=\"_blank\">Source: Chargers signing Valdes-Scantling to practice squad</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">ESPN</font>"
+        },
+        "source": {
+          "href": "https://www.espn.com",
+          "title": "ESPN"
+        }
+      },
+      "search_query": "Los Angeles Chargers",
+      "related_sources": [
+        "ESPN"
+      ],
+      "category_key": "roster",
+      "category_name": "계약/트레이드/드래프트",
+      "category_badge": "🎯 영입/계약",
+      "category_icon": "✍️",
+      "importance_score": 78,
+      "priority_tier": "🚨 긴급/핵심",
+      "priority_class": "tier-critical",
+      "headline_kr": "출처: 연습팀에 Valdes-Scantling을 영입한 Chargers",
+      "summary_bullets_kr": [
+        "⚡ **핵심 소식**: 출처: ESPN 연습팀에 Valdes-Scantling을 영입한 Chargers"
       ]
     },
     {
@@ -4382,9 +4511,10 @@
           "title": "Los Angeles Chargers"
         }
       },
-      "search_query": "Chargers injury roster",
+      "search_query": "Los Angeles Chargers",
       "related_sources": [
         "Los Angeles Chargers",
+        "Yahoo Sports",
         "Arizona Cardinals"
       ],
       "category_key": "game",
@@ -6642,6 +6772,99 @@
       ]
     },
     {
+      "title": "Former NFL Player Marcellus Wiley Surprises Fan Wearing His Jersey",
+      "url": "https://www.reddit.com/r/Chargers/comments/1wjhpal/former_nfl_player_marcellus_wiley_surprises_fan/",
+      "summary": "submitted by /u/Kahzgul [link] [comments]",
+      "published": "2026-09-17T20:46:32+00:00",
+      "source": "Reddit r/Chargers",
+      "author": "/u/Kahzgul",
+      "raw_entry": {
+        "authors": [
+          {
+            "name": "/u/Kahzgul",
+            "href": "https://www.reddit.com/user/Kahzgul"
+          }
+        ],
+        "author_detail": {
+          "name": "/u/Kahzgul",
+          "href": "https://www.reddit.com/user/Kahzgul"
+        },
+        "href": "https://www.reddit.com/user/Kahzgul",
+        "author": "/u/Kahzgul",
+        "tags": [
+          {
+            "term": "Chargers",
+            "scheme": null,
+            "label": "r/Chargers"
+          }
+        ],
+        "content": [
+          {
+            "type": "text/html",
+            "language": null,
+            "base": "",
+            "value": "&#32; submitted by &#32; <a href=\"https://www.reddit.com/user/Kahzgul\"> /u/Kahzgul </a> <br /> <span><a href=\"https://v.redd.it/cp0jvwcmo5qh1\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/Chargers/comments/1wjhpal/former_nfl_player_marcellus_wiley_surprises_fan/\">[comments]</a></span>"
+          }
+        ],
+        "summary": "&#32; submitted by &#32; <a href=\"https://www.reddit.com/user/Kahzgul\"> /u/Kahzgul </a> <br /> <span><a href=\"https://v.redd.it/cp0jvwcmo5qh1\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/Chargers/comments/1wjhpal/former_nfl_player_marcellus_wiley_surprises_fan/\">[comments]</a></span>",
+        "id": "t3_1wjhpal",
+        "guidislink": true,
+        "link": "https://www.reddit.com/r/Chargers/comments/1wjhpal/former_nfl_player_marcellus_wiley_surprises_fan/",
+        "links": [
+          {
+            "href": "https://www.reddit.com/r/Chargers/comments/1wjhpal/former_nfl_player_marcellus_wiley_surprises_fan/",
+            "rel": "alternate",
+            "type": "text/html"
+          }
+        ],
+        "updated": "2026-09-18T05:46:32+00:00",
+        "updated_parsed": [
+          2026,
+          9,
+          18,
+          5,
+          46,
+          32,
+          4,
+          261,
+          0
+        ],
+        "published": "2026-09-18T05:46:32+00:00",
+        "published_parsed": [
+          2026,
+          9,
+          18,
+          5,
+          46,
+          32,
+          4,
+          261,
+          0
+        ],
+        "title": "Former NFL Player Marcellus Wiley Surprises Fan Wearing His Jersey",
+        "title_detail": {
+          "type": "text/plain",
+          "language": null,
+          "base": "",
+          "value": "Former NFL Player Marcellus Wiley Surprises Fan Wearing His Jersey"
+        }
+      },
+      "related_sources": [
+        "Reddit r/Chargers"
+      ],
+      "category_key": "interview",
+      "category_name": "감독/선수 인터뷰",
+      "category_badge": "🎙️ 인터뷰/발언",
+      "category_icon": "🎙️",
+      "importance_score": 55,
+      "priority_tier": "⚡ 주요",
+      "priority_class": "tier-high",
+      "headline_kr": "전 NFL 선수 Marcellus Wiley가 자신의 저지를 입고 있는 팬을 놀라게 했습니다.",
+      "summary_bullets_kr": [
+        "⚡ **핵심 소식**: 전 NFL 선수 Marcellus Wiley가 자신의 저지를 입고 있는 팬을 놀라게 했습니다."
+      ]
+    },
+    {
       "title": "Chris O’Leary watching this Buffalo offense knowing he has to contain it next week",
       "url": "https://www.reddit.com/r/Chargers/comments/1wjct4m/chris_oleary_watching_this_buffalo_offense/",
       "summary": "submitted by /u/silas_p_silas [link] [comments]",
@@ -7621,104 +7844,6 @@
       ]
     },
     {
-      "title": "2026 - Stadium Schedule - Wk1 - Chargers (0-1)",
-      "url": "https://www.reddit.com/r/Chargers/comments/1wictuz/2026_stadium_schedule_wk1_chargers_01/",
-      "summary": "submitted by /u/Labate54 [link] [comments]",
-      "published": "2026-09-16T14:06:25+00:00",
-      "source": "Reddit r/Chargers",
-      "author": "/u/Labate54",
-      "raw_entry": {
-        "authors": [
-          {
-            "name": "/u/Labate54",
-            "href": "https://www.reddit.com/user/Labate54"
-          }
-        ],
-        "author_detail": {
-          "name": "/u/Labate54",
-          "href": "https://www.reddit.com/user/Labate54"
-        },
-        "href": "",
-        "author": "/u/Labate54",
-        "tags": [
-          {
-            "term": "Chargers",
-            "scheme": null,
-            "label": "r/Chargers"
-          }
-        ],
-        "content": [
-          {
-            "type": "text/html",
-            "language": null,
-            "base": "",
-            "value": "<table> <tr><td> <a href=\"https://www.reddit.com/r/Chargers/comments/1wictuz/2026_stadium_schedule_wk1_chargers_01/\"> <img alt=\"2026 - Stadium Schedule - Wk1 - Chargers (0-1)\" src=\"https://preview.redd.it/br7ninyjryph1.png?width=640&amp;crop=smart&amp;auto=webp&amp;s=9a4fbad3b74e0e877977c32a54a6160b0c25d0ac\" title=\"2026 - Stadium Schedule - Wk1 - Chargers (0-1)\" /> </a> </td><td> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/Labate54\"> /u/Labate54 </a> <br /> <span><a href=\"https://i.redd.it/br7ninyjryph1.png\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/Chargers/comments/1wictuz/2026_stadium_schedule_wk1_chargers_01/\">[comments]</a></span> </td></tr></table>"
-          }
-        ],
-        "summary": "<table> <tr><td> <a href=\"https://www.reddit.com/r/Chargers/comments/1wictuz/2026_stadium_schedule_wk1_chargers_01/\"> <img alt=\"2026 - Stadium Schedule - Wk1 - Chargers (0-1)\" src=\"https://preview.redd.it/br7ninyjryph1.png?width=640&amp;crop=smart&amp;auto=webp&amp;s=9a4fbad3b74e0e877977c32a54a6160b0c25d0ac\" title=\"2026 - Stadium Schedule - Wk1 - Chargers (0-1)\" /> </a> </td><td> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/Labate54\"> /u/Labate54 </a> <br /> <span><a href=\"https://i.redd.it/br7ninyjryph1.png\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/Chargers/comments/1wictuz/2026_stadium_schedule_wk1_chargers_01/\">[comments]</a></span> </td></tr></table>",
-        "id": "t3_1wictuz",
-        "guidislink": true,
-        "link": "https://www.reddit.com/r/Chargers/comments/1wictuz/2026_stadium_schedule_wk1_chargers_01/",
-        "media_thumbnail": [
-          {
-            "url": "https://preview.redd.it/br7ninyjryph1.png?width=640&crop=smart&auto=webp&s=9a4fbad3b74e0e877977c32a54a6160b0c25d0ac"
-          }
-        ],
-        "links": [
-          {
-            "href": "https://www.reddit.com/r/Chargers/comments/1wictuz/2026_stadium_schedule_wk1_chargers_01/",
-            "rel": "alternate",
-            "type": "text/html"
-          }
-        ],
-        "updated": "2026-09-16T23:06:25+00:00",
-        "updated_parsed": [
-          2026,
-          9,
-          16,
-          23,
-          6,
-          25,
-          2,
-          259,
-          0
-        ],
-        "published": "2026-09-16T23:06:25+00:00",
-        "published_parsed": [
-          2026,
-          9,
-          16,
-          23,
-          6,
-          25,
-          2,
-          259,
-          0
-        ],
-        "title": "2026 - Stadium Schedule - Wk1 - Chargers (0-1)",
-        "title_detail": {
-          "type": "text/plain",
-          "language": null,
-          "base": "",
-          "value": "2026 - Stadium Schedule - Wk1 - Chargers (0-1)"
-        }
-      },
-      "related_sources": [
-        "Reddit r/Chargers"
-      ],
-      "category_key": "interview",
-      "category_name": "감독/선수 인터뷰",
-      "category_badge": "🎙️ 인터뷰/발언",
-      "category_icon": "🎙️",
-      "importance_score": 48,
-      "priority_tier": "📰 일반",
-      "priority_class": "tier-normal",
-      "headline_kr": "2026 - 경기장 일정 - 1주차 - 차저(0-1)",
-      "summary_bullets_kr": [
-        "⚡ **핵심 소식**: 2026 - 경기장 일정 - 1주차 - 차저(0-1)"
-      ]
-    },
-    {
       "title": "How we feel about these predictions?",
       "url": "https://www.reddit.com/r/Chargers/comments/1wic6cf/how_we_feel_about_these_predictions/",
       "summary": "submitted by /u/prevailto [link] [comments]",
@@ -8495,6 +8620,6 @@
       ]
     }
   ],
-  "total_count": 100,
-  "updated_at": "2026-09-18 14:41:32"
+  "total_count": 102,
+  "updated_at": "2026-09-18 15:07:29"
 }
