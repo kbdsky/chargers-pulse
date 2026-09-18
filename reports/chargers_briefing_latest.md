@@ -1,27 +1,27 @@
 # ⚡ LA Chargers 종합 뉴스 인텔리전스 주간 리포트
-> 📅 **생성 일시:** 2026-09-18 14:41:32 | ⚡ **전수 수집 기사:** 100건 | 🏈 **팀:** Los Angeles Chargers (NFL)
+> 📅 **생성 일시:** 2026-09-18 15:07:29 | ⚡ **전수 수집 기사:** 102건 | 🏈 **팀:** Los Angeles Chargers (NFL)
 
 ## ⚡ 팀 총괄 주간 브리핑 (Executive Summary)
-### ⚡ LA Chargers 주간 인텔리전스 종합 리포트 (총 100건 정밀 분석)
+### ⚡ LA Chargers 주간 인텔리전스 종합 리포트 (총 102건 정밀 분석)
 
 #### 📌 핵심 주요 사항
-- ⚡ **스마트 큐레이션 및 중복 제거**: 총 100건의 언론 기사를 정밀 클러스터링하여 핵심 이슈 위주로 요약했습니다.
-- 🏈 **매치업 포커스**: 2026 정규시즌 1주차 (SoFi Stadium) (상대: Arizona Cardinals (AZ Cardinals))
-- 🎯 **집중 조명된 핵심 인물**: Jim Harbaugh (HC)(19건), Justin Herbert (QB)(14건), Ladd McConkey (WR)(4건)
+- ⚡ **스마트 큐레이션 및 중복 제거**: 총 102건의 언론 기사를 정밀 클러스터링하여 핵심 이슈 위주로 요약했습니다.
+- 🏈 **매치업 포커스**: 2026 정규시즌 2주차 (SoFi Stadium / AFC West 라이벌전) (상대: 라스베이거스 레이더스 (LV Raiders))
+- 🎯 **집중 조명된 핵심 인물**: Jim Harbaugh (HC)(21건), Justin Herbert (QB)(14건), Ladd McConkey (WR)(4건)
 - 🔥 **헤드라인 키워드**: link comments, justin herbert, yahoo sports, submitted link
 
-**🔥 실시간 트렌드 키워드:** `#link comments`, `#justin herbert`, `#yahoo sports`, `#submitted link`, `#mike mcdaniel`, `#Los Angeles Chargers`, `#Jim Harbaugh`, `#Justin Herbert`, `#Yahoo Sports`, `#Arizona Cardinals`, `#harbaugh`, `#herbert`, `#preseason`, `#sports`, `#cardinals`, `#injury`
+**🔥 실시간 트렌드 키워드:** `#link comments`, `#justin herbert`, `#yahoo sports`, `#submitted link`, `#mike mcdaniel`, `#Jim Harbaugh`, `#Los Angeles Chargers`, `#Justin Herbert`, `#Yahoo Sports`, `#Arizona Cardinals`, `#harbaugh`, `#herbert`, `#preseason`, `#sports`, `#cardinals`, `#justin`
 
 **📋 부상 및 53인 로스터 동향:** 부상 리포트 공식 테이블(Injury Report Table)에서 상세 출전 상태 및 연습 참가 여부(DNP/LP/FP)를 확인하세요.
 
 **🏈 종합 코멘트:** Jim Harbaugh 감독 체제 하에서 공수 밸런스와 오펜시브 라인의 견고함을 구축하며 시즌 순항 중입니다.
 
 ## 🏈 경기 및 매치업 분석 (Game Center)
-- **상대팀:** Arizona Cardinals (AZ Cardinals)
-- **경기 구분:** 2026 정규시즌 1주차 (SoFi Stadium)
+- **상대팀:** 라스베이거스 레이더스 (LV Raiders)
+- **경기 구분:** 2026 정규시즌 2주차 (SoFi Stadium / AFC West 라이벌전)
 - **스코어/현황:** 26-14
-- **⚔️ 공격진(Offense):** QB Justin Herbert의 정교한 딥패스와 Joe Alt, Rashawn Slater의 오펜시브 라인 프로텍션으로 Cardinals 수비진 공략
-- **🛡️ 수비진(Defense):** Jesse Minter 수비 코디네이터 지휘 아래 Joey Bosa, Khalil Mack의 엣지 러시로 Kyler Murray 기동력 차단 및 Derwin James Jr.의 세컨더리 지휘
+- **⚔️ 공격진(Offense):** 1주차 침묵을 깬 QB Justin Herbert의 딥패스 부활 및 Ladd McConkey 부상 공백을 메울 리시빙 코어 가동
+- **🛡️ 수비진(Defense):** Jesse Minter 수비 코디네이터의 압박 스킴으로 Raiders 오펜스 차단 및 Joey Bosa, Khalil Mack의 엣지 러시 총력전
 
 ## 🚨 최우선 핵심 뉴스 (Top Priority Highlights)
 
@@ -52,7 +52,7 @@
 
 ## 📰 전체 수집 뉴스 카테고리별 아카이브
 
-### ⚡ 경기 결과 및 프리뷰 소식 (52건)
+### ⚡ 경기 결과 및 프리뷰 소식 (53건)
 
 #### [Chargers는 Ladd McConkey에서 심각한 부상 소식을 접했습니다.](https://www.boltsfromtheblue.com/los-angeles-chargers-injuries/65528/chargers-get-bad-injury-news-on-ladd-mcconkey) `[점수:100]`
 *출처: Bolts From The Blue (SB Nation) | 일자: 2026-09-17*
@@ -103,6 +103,12 @@
 - **원제:** Chargers sign two-time Super Bowl champion to practice squad
 - ⚡ **핵심 소식**: Los Angeles Chargers는 Las Vegas Raiders를 상대로 2주 차에 접어들면서 넓은 리시버 룸을 강화하고 있습니다. ESPN 내부자 Jeremy Fowler에 따르면 Chargers는 와이드 리시버 Marquez Valdes-Scantling을 연습반에 영입할 예정입니다.
 - 📋 **선수단 영향**: Ladd McConkey (WR)의 부상 경과 및 훈련 소화 여부가 주간 라인업 구성의 핵심 변수로 작용합니다.
+
+#### [Chargers의 Jim Harbaugh는 1주 차 패배 이후 한 가지 큰 후회를 했습니다.](https://news.google.com/rss/articles/CBMihwFBVV95cUxNMU5oSFBienYzLWloZzN2eEtTQmZrMmxmMTluTXFlMnRzS0p1Sl9TRVEwUzR4b0otS3A2YUlUek9fb0JHc0g3RTZsQUxURzB1R0ZYbC1sdlpFQmJ4amNFR2ZtbG1fOXg2eWNPMTc1VHpDczdHeGFaUmdpWUVhZHRHdnhLVkNDd00?oc=5) `[점수:100]`
+*출처: Yahoo Sports | 일자: 2026-09-14*
+- **원제:** Chargers' Jim Harbaugh has one major regret after Week 1 loss
+- ⚡ **핵심 소식**: Chargers의 Jim Harbaugh는 1주 차 패배 이후 한 가지 큰 후회를 했습니다. Yahoo Sports
+- 🏈 **전술 관전 포인트**: Jim Harbaugh 감독 및 코칭스태프의 피지컬 중심 미식축구 철학이 반영된 행보입니다.
 
 #### [Chargers HC Jim Harbaugh, 1주 차 패배 후: '프리시즌에 선발 투수를 더 많이 뛰었으면 좋겠다'](https://news.google.com/rss/articles/CBMi3wFBVV95cUxNZ3E5M09fWGlFNDAxOEFmSDh5d3RXRGUxdHFGU2YwTGl1RlE0RTA1T0lWOWxwNWVnOUdWV1ZJSjJXeEVKR2RnQUxuemUwLXF6WkhMSGtnS0JsVkJUZUJnZEY2Mk5GaUh5ZzJnTDlDM3VidGVQYXBLM20tM0R3X3Y3WlQzLTY4ZUc4Y0pJNi0zUHhndGRnWnI0NUl2dTc1cGtpS09Lc3h0RGt6OW5ncWJzNkNJaEdsbHc2SlFxM1hPWkl3NTIyZDBTdDhYSF90dHdsS2NfODNtaVZoNzV4TEV3?oc=5) `[점수:100]`
 *출처: Yahoo Sports | 일자: 2026-09-14*
@@ -331,7 +337,7 @@
 - **원제:** Chargers Name Kayode Awosika Starting Left Guard for Week 1
 - ⚡ **핵심 소식**: Chargers 이름 Kayode Awosika 1 주차 로스 앤젤레스 Chargers의 왼쪽 가드 시작
 
-### 📋 부상 및 로스터 변동 리포트 (8건)
+### 📋 부상 및 로스터 변동 리포트 (7건)
 
 #### [Chargers는 KeAndre Lambert-Smith를 부상당한 보호 구역에 배치합니다. 게리 제닝스 영입](https://news.google.com/rss/articles/CBMilgFBVV95cUxNVHFnVDYwQlRIa0h5b0M4NnlOUmR5TUtId2ZfazVLT0F1VGJzSV9JUnJqSTM5UlJrYk9PS2FUZ2czMzVma3RqMmk2NkdiWDdiTUhveVltUGlCT3FEb3lBdlJ2RnhqRk9NNTRlSk5SSzlmNDRXUkdzbjlvb01BbWIyRTYzTGVxd0plOVRQOWRQXzRsSFpXbmc?oc=5) `[점수:88]`
 *출처: Los Angeles Chargers | 일자: 2026-09-15*
@@ -342,12 +348,6 @@
 *출처: Sports Illustrated | 일자: 2026-08-19*
 - **원제:** Chargers Injury Updates and Roster Moves Don’t Provide Much Good News
 - ⚡ **핵심 소식**: Chargers 부상 업데이트 및 명단 이동은 많은 좋은 소식을 제공하지 않습니다. Sports Illustrated
-
-#### [Tyler Biadasz(Tyler Biadasz) 부상: 자주 부상을 당하는 라인에 엄청난 타격을 입힌 무릎 부상으로 Chargers는 무기한 센터 아웃되었습니다.](https://news.google.com/rss/articles/CBMipwFBVV95cUxNYlB1cXpNSHRpd1hyM0hMXzZJRDVaVnNTaEpGZTNPeEc2WkNpLVlUdkdrQVpYaWJvU25keDMzRFM0N09PYkRXaUF1aVk1YzZlT0ZVa25UcnY3M1psbXJfemVUbHJ6QkNwejdtVW94b0JTMUp3QVo0clltcDlfSnNIM0d0ZW9SVGtJVnotbnNINGJ3R21DNUVvXzExRXZPZGdyZFlLdGcyMA?oc=5) `[점수:85]`
-*출처: CBS Sports | 일자: 2026-08-18*
-- **원제:** Tyler Biadasz injury: Chargers center out indefinitely with knee injury in massive blow to oft-injured line
-- ⚡ **핵심 소식**: Tyler Biadasz(Tyler Biadasz) 부상: Chargers는 무릎 부상으로 자주 부상을 당하는 라인에 막대한 타격을 입혀 무기한 센터 아웃 CBS 스포츠
-- 📋 **선수단 영향**: Tyler Biadasz (C)의 부상 경과 및 훈련 소화 여부가 주간 라인업 구성의 핵심 변수로 작용합니다.
 
 #### [Chargers 센터 Tyler Biadasz(Tyler Biadasz)가 ACL 부상으로 시즌 아웃](https://news.google.com/rss/articles/CBMixAFBVV95cUxNdlRjcTQ2cHBEc0gyeWxpMF9WYS1ZTUs0Tjh4ZUU3ektWOW1jdXNKbGZweVBYUkF6dy1nSlczb0pZeHlDOWFHV0NDd2lJaTNWLTB2Y3dqRXhReGlpMkVpUFNsenhERWpFdFVUM0c4UUNibjJzMlp5TzdYNmhtRTVHZ2ZqRklBQmpPT3FmeFQ1cEljX2FOcTk2OWZCX1RlT051UDl5Z2pJaUVlcE0wQ05oTmpiNXZtdlRSS2FoZXZPanNTamc4?oc=5) `[점수:80]`
 *출처: Los Angeles Times | 일자: 2026-08-18*
@@ -376,7 +376,7 @@
 - **원제:** Chargers Place Branson Taylor, Scott Matlock on Injured Reserve, Designated to Return
 - ⚡ **핵심 소식**: Chargers Place Branson Taylor, Scott Matlock on Injured Reserve, LA Chargers 반환 지정
 
-### 🎯 선수 계약 및 영입/트레이드 (6건)
+### 🎯 선수 계약 및 영입/트레이드 (7건)
 
 #### [LA Chargers 뉴스: 볼트는 베테랑 WR Marquez Valdez-Scantling을 연습반에 영입했습니다.](https://www.boltsfromtheblue.com/los-angeles-chargers-news/65445/los-angeles-chargers-news-marquez-valdez-scantling) `[점수:100]`
 *출처: Bolts From The Blue (SB Nation) | 일자: 2026-09-16*
@@ -384,7 +384,7 @@
 - ⚡ **핵심 소식**: 안녕하세요, Chargers 팬 여러분! Ladd McConkey, KeAndre Lambert-Smith 및 Derius Davis가 부상을 입은 후 Bolts는 화요일에 리시버와 관련된 여러 거래를 진행했습니다.
 - 📋 **선수단 영향**: Ladd McConkey (WR)의 부상 경과 및 훈련 소화 여부가 주간 라인업 구성의 핵심 변수로 작용합니다.
 
-#### [[Raanan] 자이언츠가 Chargers 연습팀의 CB Nikko Reed와 계약한다고 소식통이 나와 @krisrhim1에 말했습니다. 리드는 건강한 팀이 부족한 자이언츠 현역 명단에 올랐습니다.](https://www.reddit.com/r/Chargers/comments/1wj71wj/raanan_the_giants_are_signing_cb_nikko_reed_from/) `[점수:80]`
+#### [[Raanan] 자이언츠가 Chargers 연습팀의 CB Nikko Reed와 계약한다고 소식통이 나와 @krisrhim1에 말했습니다. 리드는 건강한 팀이 부족한 자이언츠 현역 명단에 올랐습니다.](https://www.reddit.com/r/Chargers/comments/1wj71wj/raanan_the_giants_are_signing_cb_nikko_reed_from/) `[점수:85]`
 *출처: Reddit r/Chargers | 일자: 2026-09-17*
 - **원제:** [Raanan] The Giants are signing CB Nikko Reed from the Chargers practice squad, sources told me and @krisrhim1. Reed lands on the Giants active roster with them short on healthy cornerbacks. Paulson Adebo didn't practice Thursday. Deonte Banks and Greg Newsome were limited.
 - ⚡ **핵심 소식**: 자이언츠가 Chargers 연습팀의 CB Nikko Reed와 계약할 예정이라고 소식통과 @krisrhim1이 말했습니다. Reed는 건강한 코너백이 부족한 자이언츠 현역 명단에 올랐습니다.
@@ -394,6 +394,11 @@
 - **원제:** Chargers sign TE Patrick Herbert, brother of starting QB
 - ⚡ **핵심 소식**: Chargers, QB ESPN 시작의 형제인 TE Patrick Herbert와 계약
 - 📋 **로스터 분석**: Justin Herbert (QB) 관련 뎁스 차트 변동으로 팀 전력 구성에 변화가 생겼습니다.
+
+#### [출처: 연습팀에 Valdes-Scantling을 영입한 Chargers](https://news.google.com/rss/articles/CBMimAFBVV95cUxPQ1dLc1RtY1NtbEZJeVVCVkFkeDdCdzZqcmIzNlVodWxMMlZMN2h6ODVjRTVlTkxIaDdIU3FaWV8wVEpKQzhRVDNNRGdSMnFBZUdneUMwVjc2ZnF3MzlGSE92Ri04QmgySFNXbUtwRXdMOHItdjNiRjA4ZG9kUy1xOW1uSE1hM1dQZzVuR3ZubUNzcWpMVkQ5UQ?oc=5) `[점수:78]`
+*출처: ESPN | 일자: 2026-09-15*
+- **원제:** Source: Chargers signing Valdes-Scantling to practice squad
+- ⚡ **핵심 소식**: 출처: ESPN 연습팀에 Valdes-Scantling을 영입한 Chargers
 
 #### [Chargers는 Tyler Biadasz의 시즌 종료 명단 이동을 공식적으로 발표했습니다.](https://news.google.com/rss/articles/CBMilgFBVV95cUxNeTdxQWRYbmZqanhkdmpkM2E4N1k4TTFpQVZBdWdEUnpic21SV3hQM1VxSXFlN2JHOXBRTEg5YjBIWlpzc2pDMW1jMVpBazQzN2h3Z19PVUtDcExZU0xZdV83UW9aNUdkNWNZMkV4MDZzWDFjcnZaeF9KbnRWVno0NXptdlVkQWlFbEtDLURXTW5BY3NLT2c?oc=5) `[점수:70]`
 *출처: Yahoo Sports | 일자: 2026-08-22*
@@ -411,7 +416,7 @@
 - **원제:** Chargers Make Clear Stance on $24.3 Million Signing
 - ⚡ **핵심 소식**: Chargers는 Yahoo Sports와 2,430만 달러 계약에 대해 명확한 입장을 밝혔습니다.
 
-### 🎙️ 감독 및 선수 주요 인터뷰 (25건)
+### 🎙️ 감독 및 선수 주요 인터뷰 (26건)
 
 #### [[Florio]Jim Harbaugh는 Justin Herbert의 과대광고를 중단해야 합니다. Justin Herbert에게 호의를 베풀지 않는 것입니다.](https://www.reddit.com/r/Chargers/comments/1wjam92/floriojim_harbaugh_has_got_to_stop_with_the/) `[점수:100]`
 *출처: Reddit r/Chargers | 일자: 2026-09-17*
@@ -436,6 +441,12 @@
 - **원제:** Justin Herbert's Fiancée Madison Beer Steals Spotlight Amid Chargers' Brutal Collapse
 - ⚡ **핵심 소식**: Justin Herbert(Justin Herbert)의 약혼자 매디슨 비어(Madison Beer)가 Chargers(Chargers)의 잔혹한 붕괴 속에서 스포트라이트를 훔쳤습니다. Sports Illustrated
 - 🏈 **주요 인물**: Justin Herbert (QB)의 경기력과 훈련 컨디션이 집중 조명되고 있습니다.
+
+#### [Chargers의 Jim Harbaugh는 공격 라인 플레이에 대한 명확한 메시지를 보냅니다.](https://news.google.com/rss/articles/CBMiigFBVV95cUxQbW1NNjdaRVNQZlRIb1E2ZDJfLXp6ZlVOSlpocncxY2c2Y1lpRGg1MVpydGE3UXQ2V2N2Z043RmhReWh0UWU1MndOcFo5dERtSmZaTHBvUjVWQmVqVGROYThELXp0Z0xkVUVjeEIxcVp0WUhIT0ZRZ2hkblJ1RTlMMFZuQldfWTNsUGc?oc=5) `[점수:95]`
+*출처: Yahoo Sports | 일자: 2026-09-17*
+- **원제:** Chargers' Jim Harbaugh sends clear message about offensive line play
+- ⚡ **핵심 소식**: Chargers의 Jim Harbaugh는 공격 라인 플레이에 대한 명확한 메시지를 보냅니다. Yahoo Sports
+- 🏈 **전술 관전 포인트**: Jim Harbaugh 감독 및 코칭스태프의 피지컬 중심 미식축구 철학이 반영된 행보입니다.
 
 #### [패닉인가 인내심: LA Chargers(Los Angeles Chargers)와 Justin Herbert(Justin Herbert) – 싸게 사야 할까요, 아니면 빨리 팔아야 할까요?](https://news.google.com/rss/articles/CBMihgJBVV95cUxNbXBUaGVVa2xBQXdUWk9NQklNN0tiUWJOaTZhNGdmZFZRTGRnTkVPWnd2d2dPNlZxTTM4SFktaHBBSVRQZktMUWlzVXJIRTRFWEU1VHBKTVFkN3VVQ29Fd1RwUW5xM2ZMcFVRUWplSmV4UVloMXdyWkpmUFB6THRzbFBldjVfOV93OE1ZR2VUMVdaa09oQklrUFkyc0VXZjZPYXB3UTdUaGFkU3g1RFNhU0Z0cGJxZFVXYVFDaWkzR2V4SlBfZktRcGZmOEthclEyb1JMSDZWSGVyYVI0YllSel9rSHMwc1pSUTFrbGdia0IxZnlJbEhPdGQtVm9Kc2FTbVNUVG9n?oc=5) `[점수:95]`
 *출처: Central Oregon Daily | 일자: 2026-09-17*
@@ -480,9 +491,9 @@
 - 🏈 **주요 인물**: Justin Herbert (QB)의 경기력과 훈련 컨디션이 집중 조명되고 있습니다.
 
 #### [LA Chargers의 Jim Harbaugh 감독은 전 미시간 팀 동료인 심 넬슨의 2026년 인디애나 NFL 미식축구 명예의 전당 헌액에 대해 이야기합니다.](https://news.google.com/rss/articles/CBMijAJBVV95cUxNd1FwWnBXempzQjM0UGxjWUI1UFRad25JczA3NHgxZDQ1QURucklSdGpfdFdNQ09FSEF6Wm9kRHpwLWQ2TmtYaUtBdFExR3hwVm8zSFZZTS1iOHpiTjB1UUNFVklsNDZCQWpUMmNrNUtPbE53RE9kSVdqZUJOMzdzbkc3SnJUYVRUbDFCa1p1U0FqUTlSV0dCdy1MNkpXTTRKdUx6SHMzV2l5QWVuZ2FfSGxmemNkWjdqX09ldUhWWlNVMm55X2h0cHhyVDVyUEItM0FUMkNEOWlXZG0tdk42cDVxYzFZcnpPbmtmRHZ1RlhxaG85RFhLVmhpSUo1MmEtSy1DMVlMR3YwejZO?oc=5) `[점수:83]`
-*출처: WANE 15 | 일자: 2026-09-13*
+*출처: wane.com | 일자: 2026-09-13*
 - **원제:** Los Angeles Chargers coach Jim Harbaugh weighs in on former Michigan teammate Sim Nelson's 2026 induction into the Indiana Football Hall of Fame
-- ⚡ **핵심 소식**: LA Chargers의 Jim Harbaugh(Jim Harbaugh) 감독은 전 미시간 팀 동료인 심 넬슨(Sim Nelson)의 2026년 인디애나 NFL 미식축구 명예의 전당 WANE 15 입성에 대해 언급합니다.
+- ⚡ **핵심 소식**: LA Chargers의 Jim Harbaugh(Jim Harbaugh) 감독은 전 미시간 팀 동료인 심 넬슨(Sim Nelson)의 2026년 인디애나 NFL 미식축구 명예의 전당 입성식에 대해 이야기합니다. wane.com
 - 🏈 **전술 관전 포인트**: Jim Harbaugh 감독 및 코칭스태프의 피지컬 중심 미식축구 철학이 반영된 행보입니다.
 
 #### [Jim Harbaugh, 2026 NFL 시즌을 앞두고 Chargers의 위대함을 지지하는 최신 유행 인용문 삭제](https://news.google.com/rss/articles/CBMixgFBVV95cUxQRGxzNGs5bWF3aUNvRXBrRDNCMEVOcHhQblVSTmNDU1lCMUZEYTNIVUdXSmozbW9qeWdBRmI3WmtUelRid2hUdlBiczhnMjJCOFhMR2k5Yy1LT2lUeEVFY3ZSUGNEWVVMdGdrWjB6OW9vcGtCcEx6VUd0NzhMSzlGelF2THBjdXVuNDV1d0NicGg1NDd1Rlc4ZmctV3VkaGJvODNGSjNMN0JoUVg5a01WR2Y5WGtwbmNZSlBpLXctcWFaZHczUkE?oc=5) `[점수:73]`
@@ -518,6 +529,11 @@
 - ⚡ **핵심 소식**: NFL 미식축구가 돌아왔습니다! Jim Harbaugh의 3년차 Barstool Sports에서 Chargers 일정 예측
 - 📋 **선수단 영향**: Jim Harbaugh (HC)의 부상 경과 및 훈련 소화 여부가 주간 라인업 구성의 핵심 변수로 작용합니다.
 
+#### [전 NFL 선수 Marcellus Wiley가 자신의 저지를 입고 있는 팬을 놀라게 했습니다.](https://www.reddit.com/r/Chargers/comments/1wjhpal/former_nfl_player_marcellus_wiley_surprises_fan/) `[점수:55]`
+*출처: Reddit r/Chargers | 일자: 2026-09-17*
+- **원제:** Former NFL Player Marcellus Wiley Surprises Fan Wearing His Jersey
+- ⚡ **핵심 소식**: 전 NFL 선수 Marcellus Wiley가 자신의 저지를 입고 있는 팬을 놀라게 했습니다.
+
 #### [베이 지역의 모든 Bolt Fam을 불러주세요🗣️](https://www.reddit.com/r/Chargers/comments/1wjalrb/calling_all_bay_area_bolt_fam/) `[점수:55]`
 *출처: Reddit r/Chargers | 일자: 2026-09-17*
 - **원제:** Calling all Bay Area Bolt Fam🗣️
@@ -537,11 +553,6 @@
 *출처: Reddit r/Chargers | 일자: 2026-09-16*
 - **원제:** [Rhim] Only numbers 13, 17 & 85 were available to MVS. (Keenan/Rivers/Gates)
 - ⚡ **핵심 소식**: MVS에서는 숫자 13, 17, 85만 사용할 수 있었습니다. (키넌/리버스/게이트)
-
-#### [2026 - 경기장 일정 - 1주차 - 차저(0-1)](https://www.reddit.com/r/Chargers/comments/1wictuz/2026_stadium_schedule_wk1_chargers_01/) `[점수:48]`
-*출처: Reddit r/Chargers | 일자: 2026-09-16*
-- **원제:** 2026 - Stadium Schedule - Wk1 - Chargers (0-1)
-- ⚡ **핵심 소식**: 2026 - 경기장 일정 - 1주차 - 차저(0-1)
 
 #### [우리는 이러한 예측에 대해 어떻게 생각합니까?](https://www.reddit.com/r/Chargers/comments/1wic6cf/how_we_feel_about_these_predictions/) `[점수:48]`
 *출처: Reddit r/Chargers | 일자: 2026-09-16*
