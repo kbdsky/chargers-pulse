@@ -41,8 +41,8 @@ BASE_GOOGLE_NEWS_QUERIES = [
     "LA Chargers",
     "Justin Herbert Chargers",
     "Jim Harbaugh Chargers",
-    "Chargers injury roster",
-    "Chargers preseason game recap",
+    "Chargers injury report",
+    "Chargers game recap Raiders",
 ]
 
 # NFL Teams / Opponents for Matchup Detection
