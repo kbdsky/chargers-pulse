@@ -88,11 +88,20 @@ class GameAnalyzer:
                     highlights.append(f"📰 **{h_kr}**: {b_text_clean}")
                 break
 
+        # Detect score if present in recap articles
+        score_detected = None
+        for art in valid_game_articles:
+            text = f"{art.get('title', '')} {art.get('summary', '')}"
+            score_match = re.search(r"\b(\d{1,2})\s*[-–]\s*(\d{1,2})\b", text)
+            if score_match and ("win" in text.lower() or "beat" in text.lower() or "final" in text.lower() or "recap" in text.lower()):
+                score_detected = f"{score_match.group(1)}-{score_match.group(2)}"
+                break
+
         return {
             "has_game_data": True,
             "opponent": latest_opponent,
             "game_type": game_type,
-            "score_detected": game_status,
+            "score_detected": score_detected or game_status,
             "game_articles_count": len(valid_game_articles),
             "highlights": highlights,
             "offense_notes": "QB Justin Herbert의 정교한 딥패스와 Joe Alt, Rashawn Slater의 오펜시브 라인 프로텍션으로 Cardinals 수비진 공략",
