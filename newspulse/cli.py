@@ -143,7 +143,7 @@ def run_generate(args=None):
 
     # 2. Deduplicate
     print(f"\n[2/5] 🧹 중복 제거 및 데이터 정제 중 (총 {len(raw_articles)}개 수집)...", flush=True)
-    deduplicator = Deduplicator(similarity_threshold=0.6)
+    deduplicator = Deduplicator(similarity_threshold=0.40, max_age_days=31)
     unique_articles = deduplicator.deduplicate(raw_articles)
     print(f"  ✓ 중복 필터링 완료: 고유 기사 {len(unique_articles)}개 선별", flush=True)
 
