@@ -1,16 +1,16 @@
 # ⚡ LA Chargers 종합 뉴스 인텔리전스 주간 리포트
-> 📅 **생성 일시:** 2026-09-18 16:01:20 | ⚡ **전수 수집 기사:** 99건 | 🏈 **팀:** Los Angeles Chargers (NFL)
+> 📅 **생성 일시:** 2026-09-18 16:11:11 | ⚡ **전수 수집 기사:** 100건 | 🏈 **팀:** Los Angeles Chargers (NFL)
 
 ## ⚡ 팀 총괄 주간 브리핑 (Executive Summary)
-### ⚡ LA Chargers 주간 인텔리전스 종합 리포트 (총 99건 정밀 분석)
+### ⚡ LA Chargers 주간 인텔리전스 종합 리포트 (총 100건 정밀 분석)
 
 #### 📌 핵심 주요 사항
-- ⚡ **스마트 큐레이션 및 중복 제거**: 총 99건의 언론 기사를 정밀 클러스터링하여 핵심 이슈 위주로 요약했습니다.
+- ⚡ **스마트 큐레이션 및 중복 제거**: 총 100건의 언론 기사를 정밀 클러스터링하여 핵심 이슈 위주로 요약했습니다.
 - 🏈 **매치업 포커스**: 2026 정규시즌 2주차 (SoFi Stadium / AFC West 라이벌전) (상대: 라스베이거스 레이더스 (LV Raiders))
-- 🎯 **집중 조명된 핵심 인물**: Jim Harbaugh (HC)(19건), Justin Herbert (QB)(15건), Ladd McConkey (WR)(4건)
+- 🎯 **집중 조명된 핵심 인물**: Jim Harbaugh (HC)(20건), Justin Herbert (QB)(15건), Ladd McConkey (WR)(4건)
 - 🔥 **헤드라인 키워드**: link comments, justin herbert, submitted link, mike mcdaniel
 
-**🔥 실시간 트렌드 키워드:** `#link comments`, `#justin herbert`, `#submitted link`, `#mike mcdaniel`, `#vegas raiders`, `#Jim Harbaugh`, `#Los Angeles Chargers`, `#Justin Herbert`, `#Las Vegas Raiders`, `#Arizona Cardinals`, `#harbaugh`, `#herbert`, `#raiders`, `#justin`, `#cardinals`, `#submitted`
+**🔥 실시간 트렌드 키워드:** `#link comments`, `#justin herbert`, `#submitted link`, `#mike mcdaniel`, `#yahoo sports`, `#Jim Harbaugh`, `#Los Angeles Chargers`, `#Justin Herbert`, `#Las Vegas Raiders`, `#Arizona Cardinals`, `#harbaugh`, `#herbert`, `#raiders`, `#justin`, `#submitted`, `#link`
 
 **📋 부상 및 53인 로스터 동향:** 부상 리포트 공식 테이블(Injury Report Table)에서 상세 출전 상태 및 연습 참가 여부(DNP/LP/FP)를 확인하세요.
 
@@ -19,9 +19,9 @@
 ## 🏈 경기 및 매치업 분석 (Game Center)
 - **상대팀:** 라스베이거스 레이더스 (LV Raiders)
 - **경기 구분:** 2026 정규시즌 2주차 (SoFi Stadium / AFC West 라이벌전)
-- **스코어/현황:** 26-14
+- **스코어/현황:** 킥오프 대기 (2주차 라이벌전)
 - **⚔️ 공격진(Offense):** 1주차 침묵을 깬 QB Justin Herbert의 딥패스 부활 및 Ladd McConkey 부상 공백을 메울 리시빙 코어 가동
-- **🛡️ 수비진(Defense):** Jesse Minter 수비 코디네이터의 압박 스킴으로 Raiders 오펜스 차단 및 Joey Bosa, Khalil Mack의 엣지 러시 총력전
+- **🛡️ 수비진(Defense):** Jesse Minter 수비 코디네이터의 변칙 블리츠 스킴, Khalil Mack·Tuli Tuipulotu·Bud Dupree의 엣지 압박 및 All-Pro 세이프티 Derwin James Jr. 중심의 타이트엔드/슬롯 차단
 
 ## 🚨 최우선 핵심 뉴스 (Top Priority Highlights)
 
@@ -53,7 +53,7 @@
 
 ## 📰 전체 수집 뉴스 카테고리별 아카이브
 
-### ⚡ 경기 결과 및 프리뷰 소식 (50건)
+### ⚡ 경기 결과 및 프리뷰 소식 (48건)
 
 #### [선수단의 부상 상태 업데이트 및 향후 출전 가능 여부에 대한 팀 공식 리포트입니다.](https://www.reddit.com/r/Chargers/comments/1wjec0a/chargers_thursdays_injury_report_for_week_2_vs_lv/) `[점수:100]`
 *출처: Reddit r/Chargers | 일자: 2026-09-17*
@@ -77,6 +77,11 @@
 - **원제:** The Fact that all 3 phases looked off tells me it's more rust than just not being good enough
 - ⚡ **핵심 소식**: Chargers 구단 및 선수단 관련 최신 뉴스 업데이트입니다.
 - 📋 **선수단 영향**: Justin Herbert (QB), Jim Harbaugh (HC)의 부상 경과 및 훈련 소화 여부가 주간 라인업 구성의 핵심 변수로 작용합니다.
+
+#### [Chargers의 최근 경기 결과 및 플레이 하이라이트 분석 소식입니다.](https://news.google.com/rss/articles/CBMimAFBVV95cUxOc2FKTDdDLTR6M0dmN1J0MHZ3SjF6SFhiaWt6cTN3eXM1dlltT3g3bFowa0lqRDNsa3JLUUFYUHZRRmtkS0w4VXpSX0FMcTdLRmNvRkR0QVV2QVlmWTF5RkNaY1JkQmFuak0xWDJiNF9Gc0huN3hSb0pFYWIzOVowcGFqSU9iMy1qc0hJYnF5clI4R0FXZnM1QQ?oc=5) `[점수:100]`
+*출처: ESPN | 일자: 2026-09-17*
+- **원제:** Chargers didn't play up to 'vision' in loss, Mike McDaniel says
+- ⚡ **핵심 소식**: Chargers의 최근 경기 결과 및 플레이 하이라이트 분석 소식입니다.
 
 #### [Chargers와 Raiders의 경기 결과 분석 및 주요 플레이 하이라이트 소식입니다. 선수단의 실전 경기력 점검이 이루어졌습니다.](https://www.boltsfromtheblue.com/los-angeles-chargers-news/65521/chargers-face-must-win-game-vs-raiders-in-week-2) `[점수:100]`
 *출처: Bolts From The Blue (SB Nation) | 일자: 2026-09-17*
@@ -118,19 +123,19 @@
 - 🏈 **전술 관전 포인트**: Jim Harbaugh 감독 및 코칭스태프의 피지컬 중심 미식축구 철학이 반영된 행보입니다.
 
 #### [Chargers의 최근 경기 결과 및 플레이 하이라이트 분석 소식입니다.](https://news.google.com/rss/articles/CBMi3wFBVV95cUxNZ3E5M09fWGlFNDAxOEFmSDh5d3RXRGUxdHFGU2YwTGl1RlE0RTA1T0lWOWxwNWVnOUdWV1ZJSjJXeEVKR2RnQUxuemUwLXF6WkhMSGtnS0JsVkJUZUJnZEY2Mk5GaUh5ZzJnTDlDM3VidGVQYXBLM20tM0R3X3Y3WlQzLTY4ZUc4Y0pJNi0zUHhndGRnWnI0NUl2dTc1cGtpS09Lc3h0RGt6OW5ncWJzNkNJaEdsbHc2SlFxM1hPWkl3NTIyZDBTdDhYSF90dHdsS2NfODNtaVZoNzV4TEV3?oc=5) `[점수:100]`
-*출처: sports.yahoo.com | 일자: 2026-09-14*
+*출처: Yahoo Sports | 일자: 2026-09-14*
 - **원제:** Chargers HC Jim Harbaugh after Week 1 loss: 'I wish we played our starters more in the preseason'
 - ⚡ **핵심 소식**: Chargers의 최근 경기 결과 및 플레이 하이라이트 분석 소식입니다.
 - 🏈 **전술 관전 포인트**: Jim Harbaugh 감독 및 코칭스태프의 피지컬 중심 미식축구 철학이 반영된 행보입니다.
 
 #### [Chargers의 최근 경기 결과 및 플레이 하이라이트 분석 소식입니다.](https://news.google.com/rss/articles/CBMihgFBVV95cUxNaHhRZGVfWnBLVmw5VF9WVDlFcm5UOXd5MV8xMVUyRFdLRnZSSVlIbHhTelB1eWtfSVlUOEFRcThBZHdmMmptWV9PblJkUjdBcFNPTE9mNHAzYXMzS2NUN3k0MjdXSkN6SWVMRjZUT05mOHR6YkNWVnUzbVhZckVJMXJGNktuQQ?oc=5) `[점수:100]`
-*출처: sports.yahoo.com | 일자: 2026-09-14*
+*출처: Yahoo Sports | 일자: 2026-09-14*
 - **원제:** Former Chargers DT Implies Jim Harbaugh Needs To Be Fired After Sunday's Loss
 - ⚡ **핵심 소식**: Chargers의 최근 경기 결과 및 플레이 하이라이트 분석 소식입니다.
 - 📋 **선수단 영향**: Jim Harbaugh (HC)의 부상 경과 및 훈련 소화 여부가 주간 라인업 구성의 핵심 변수로 작용합니다.
 
 #### [Chargers의 최근 경기 결과 및 플레이 하이라이트 분석 소식입니다.](https://news.google.com/rss/articles/CBMihwFBVV95cUxQMFFITE4tWUdudXp6SkFYdDV3QVZDYkVCb2FWcVlfOXVqYm95NDRZdjlwOVNuc054eERGcU1ranFuYnphSElZczRsTXVzamZXblN2QUM0Q3VURks5aWJHT3djVjdSMlRpVld2d1ZkQ3NvNzI1VzZBcmFNV0tGOTZkMW44LWYyVFE?oc=5) `[점수:100]`
-*출처: sports.yahoo.com | 일자: 2026-09-13*
+*출처: Yahoo Sports | 일자: 2026-09-13*
 - **원제:** “Time To Start Over,” “That Was Malpractice”: NFL Fans Call for Jim Harbaugh’s Firing After “Embarrassing” Performance in Chargers’ Upset Loss to Cardinals
 - ⚡ **핵심 소식**: Chargers의 최근 경기 결과 및 플레이 하이라이트 분석 소식입니다.
 - 📋 **선수단 영향**: Jim Harbaugh (HC)의 부상 경과 및 훈련 소화 여부가 주간 라인업 구성의 핵심 변수로 작용합니다.
@@ -218,11 +223,6 @@
 - **원제:** Los Angeles Chargers Stock Report: 2 Players Rising and 2 Falling After Week 1
 - ⚡ **핵심 소식**: Chargers 구단 및 선수단 관련 최신 뉴스 업데이트입니다.
 
-#### [Chargers 구단 및 선수단 관련 최신 뉴스 업데이트입니다.](https://news.google.com/rss/articles/CBMid0FVX3lxTFByVUFGdno0ZzlwS2xIWWQ0YS1ydlVNYXNySDVxM2Fxc0xrV2kwYkFfd1N1b1pEVmdHeGF5TFlnRGp3S1htajZNQ09WQ0xhNUlaTURtZ0ZFdFB2cnRQc0NwbV9FQXVxeFVLdEFsdmR2LWVMdGFrSFc4?oc=5) `[점수:70]`
-*출처: Sports Illustrated | 일자: 2026-09-12*
-- **원제:** How Experts Pick Cardinals vs. Chargers Week 1, What it Means for LA
-- ⚡ **핵심 소식**: Chargers 구단 및 선수단 관련 최신 뉴스 업데이트입니다.
-
 #### [선수단의 부상 상태 업데이트 및 향후 출전 가능 여부에 대한 팀 공식 리포트입니다.](https://www.reddit.com/r/Chargers/comments/1wiq6a4/film_study_5_on_fire_week1/) `[점수:65]`
 *출처: Reddit r/Chargers | 일자: 2026-09-17*
 - **원제:** Film Study: 5 on Fire (week1)
@@ -268,11 +268,6 @@
 - **원제:** Chargers vs. Arizona Cardinals: How to watch, start time, odds and prediction
 - ⚡ **핵심 소식**: Chargers의 프리시즌 경기 일정 및 팀 훈련 준비 소식입니다.
 
-#### [Chargers의 프리시즌 경기 일정 및 팀 훈련 준비 소식입니다.](https://news.google.com/rss/articles/CBMiiwFBVV95cUxPR0pDaVFTNnROT25hZURYUVVzREpXZmJXbjNOSjR3cEF6VUo0UVJyalo0azUtUTY5X3NoQjNfT1lYV3JRc2R3aHNSSmVnTXNEZ1Vxa2R1eUYtZHR2TTZ3RnBNNzVMTjlpVnp6N3BTRzZ2ZUVNSGMweS05eEI1djNTaWxxUWxlVnMxZTNv?oc=5) `[점수:60]`
-*출처: Yahoo Sports | 일자: 2026-08-21*
-- **원제:** Chargers Injuries, Preseason Week 2 Reshape 53-Man Roster Prediction
-- ⚡ **핵심 소식**: Chargers의 프리시즌 경기 일정 및 팀 훈련 준비 소식입니다.
-
 #### [Chargers 구단 및 선수단 관련 최신 뉴스 업데이트입니다.](https://news.google.com/rss/articles/CBMiigFBVV95cUxQS211RFpXa0o0cjAzV0ZNTXppMFFuNXJySWp6QWNoNDR0MlR4VzdmRHV0Z2JEbXB5NWd1aDdPV0dubzFLdXR4cmRDcGVnZDBRVkloX29FVEdKZEdYekw4STd0c3BSYWNVSlpveGZrZmpxNXVLWnlVV05YcnFzQ0hXdldsLVRSLUF4YlE?oc=5) `[점수:55]`
 *출처: Los Angeles Chargers | 일자: 2026-09-15*
 - **원제:** Los Angeles Chargers vs. Las Vegas Raiders: Where to Watch, Listen & Live Stream
@@ -312,11 +307,6 @@
 *출처: Los Angeles Chargers | 일자: 2026-09-09*
 - **원제:** Chargers Name Kayode Awosika Starting Left Guard for Week 1
 - ⚡ **핵심 소식**: Chargers 구단 및 선수단 관련 최신 뉴스 업데이트입니다.
-
-#### [Chargers의 최근 경기 결과 및 플레이 하이라이트 분석 소식입니다.](https://news.google.com/rss/articles/CBMihgFBVV95cUxNTDNBYURFYmhobE1UQVU2M0FMNklCZE02aDc4OUNEQXIxQXhtZVdxbjJnV0t2MFpQTkdlSzRwVXlzbFlnSm1ocE1FREtpUFlRY3A4YXEtSjFlOW5qQUp6aHMwVlNMRURBYVBBbHliQjlLSUxnalQ5dFh0REpZeU9GdG9Ga0tEdw?oc=5) `[점수:15]`
-*출처: San Francisco 49ers | 일자: 2026-08-20*
-- **원제:** Adrian Martinez Scores 9-Yard Touchdown vs. Chargers
-- ⚡ **핵심 소식**: Chargers와 49ers의 경기 결과 분석 및 주요 플레이 하이라이트 소식입니다. 선수단의 실전 경기력 점검이 이루어졌습니다.
 
 #### [49ers와의 프리시즌 경기 일정, 중계 안내 및 주요 관전 포인트 소식입니다.](https://news.google.com/rss/articles/CBMioAFBVV95cUxNdS1ZNFhVSEhsZzlXVHNaWFdaME1VZGtZV3ZmMkQxZy1tOWpPclRUV1dQMU9vcS1ZTVF4RXpVekFtSnBkTnNXUDFDYm05eFZFUHJXM2V4SEZ5V0p2Q2tCX0JYUjhNZDlZRk5wS1hkeDJKUXljOThpdkZSMFFRc0pSeXpVdUJaV0ZuS2NxR2hrLUlkN19XQ0tET0Rla09OUGp4?oc=5) `[점수:15]`
 *출처: San Francisco 49ers | 일자: 2026-08-19*
@@ -369,7 +359,7 @@
 - **원제:** Chargers Place Branson Taylor, Scott Matlock on Injured Reserve, Designated to Return
 - ⚡ **핵심 소식**: 선수단의 부상 상태 업데이트 및 향후 출전 가능 여부에 대한 팀 공식 리포트입니다.
 
-### 🎯 선수 계약 및 영입/트레이드 (4건)
+### 🎯 선수 계약 및 영입/트레이드 (5건)
 
 #### [Chargers의 53인 최종 로스터 진입 경쟁 및 선수단의 계약/영입 관련 최신 소식입니다.](https://www.boltsfromtheblue.com/los-angeles-chargers-news/65445/los-angeles-chargers-news-marquez-valdez-scantling) `[점수:100]`
 *출처: Bolts From The Blue (SB Nation) | 일자: 2026-09-16*
@@ -377,9 +367,14 @@
 - ⚡ **핵심 소식**: Chargers의 최근 경기 결과 및 플레이 하이라이트 분석 소식입니다.
 - 📋 **선수단 영향**: Ladd McConkey (WR)의 부상 경과 및 훈련 소화 여부가 주간 라인업 구성의 핵심 변수로 작용합니다.
 
-#### [Chargers의 53인 최종 로스터 진입 경쟁 및 선수단의 계약/영입 관련 최신 소식입니다.](https://www.reddit.com/r/Chargers/comments/1wj71wj/raanan_the_giants_are_signing_cb_nikko_reed_from/) `[점수:85]`
+#### [Chargers의 53인 최종 로스터 진입 경쟁 및 선수단의 계약/영입 관련 최신 소식입니다.](https://www.reddit.com/r/Chargers/comments/1wj71wj/raanan_the_giants_are_signing_cb_nikko_reed_from/) `[점수:90]`
 *출처: Reddit r/Chargers | 일자: 2026-09-17*
 - **원제:** [Raanan] The Giants are signing CB Nikko Reed from the Chargers practice squad, sources told me and @krisrhim1. Reed lands on the Giants active roster with them short on healthy cornerbacks. Paulson Adebo didn't practice Thursday. Deonte Banks and Greg Newsome were limited.
+- ⚡ **핵심 소식**: Chargers의 53인 최종 로스터 진입 경쟁 및 선수단의 계약/영입 관련 최신 소식입니다.
+
+#### [Chargers의 53인 최종 로스터 진입 경쟁 및 선수단의 계약/영입 관련 최신 소식입니다.](https://news.google.com/rss/articles/CBMimAFBVV95cUxPQ1dLc1RtY1NtbEZJeVVCVkFkeDdCdzZqcmIzNlVodWxMMlZMN2h6ODVjRTVlTkxIaDdIU3FaWV8wVEpKQzhRVDNNRGdSMnFBZUdneUMwVjc2ZnF3MzlGSE92Ri04QmgySFNXbUtwRXdMOHItdjNiRjA4ZG9kUy1xOW1uSE1hM1dQZzVuR3ZubUNzcWpMVkQ5UQ?oc=5) `[점수:75]`
+*출처: ESPN | 일자: 2026-09-15*
+- **원제:** Source: Chargers signing Valdes-Scantling to practice squad
 - ⚡ **핵심 소식**: Chargers의 53인 최종 로스터 진입 경쟁 및 선수단의 계약/영입 관련 최신 소식입니다.
 
 #### [Chargers의 53인 최종 로스터 진입 경쟁 및 선수단의 계약/영입 관련 최신 소식입니다.](https://news.google.com/rss/articles/CBMipwFBVV95cUxQU19SNEpDazRNalQ5RVlzUGkwenNqQjFndHlGclI1ZXk3c0s3ZlBOU0dsbktyNnpwbE9zYjBvazJiYWt5NzFGUWlnOVJ2TVRDbGRTT29leTVJMkpUTmNUMExhMkJyS01UYnhROGhobXVVbW1QV3V2aW4yLW0yc2pIZVYzYWFpWE50cGUyZDIyTGl4Z3pmaEluVzJnVFpJQUYtNGZ0alpGZw?oc=5) `[점수:50]`
@@ -389,15 +384,21 @@
 - 📋 **로스터 분석**: Justin Herbert (QB) 관련 뎁스 차트 변동으로 팀 전력 구성에 변화가 생겼습니다.
 
 #### [Chargers의 53인 최종 로스터 진입 경쟁 및 선수단의 계약/영입 관련 최신 소식입니다.](https://news.google.com/rss/articles/CBMigAFBVV95cUxNZUxuczZXdDBUWTJRcnM3SDJzTWdHeUVsZzRSd2FFQlcyZVZuYkgzVlZnaXlMeHdhRlBnVUZQUUhRWmFHR01QX0otMk1GeTItYTVKdDZPSGM3Y2xNX0tLUk1sS1FJWTVvNlNWTVZ3dlRKc1pENTByNlM4V1hxQWxqcQ?oc=5) `[점수:25]`
-*출처: sports.yahoo.com | 일자: 2026-09-07*
+*출처: Yahoo Sports | 일자: 2026-09-07*
 - **원제:** Chargers Make Clear Stance on $24.3 Million Signing
 - ⚡ **핵심 소식**: Chargers의 53인 최종 로스터 진입 경쟁 및 선수단의 계약/영입 관련 최신 소식입니다.
 
-### 🎙️ 감독 및 선수 주요 인터뷰 (26건)
+### 🎙️ 감독 및 선수 주요 인터뷰 (27건)
 
 #### [Jim Harbaugh 감독 및 코칭스태프의 인터뷰로, 팀 문화 쇄신과 선수단 훈련 평가를 전달했습니다.](https://www.reddit.com/r/Chargers/comments/1wjam92/floriojim_harbaugh_has_got_to_stop_with_the/) `[점수:100]`
 *출처: Reddit r/Chargers | 일자: 2026-09-17*
 - **원제:** [Florio]Jim Harbaugh has got to stop with the Justin Herbert hype. It's doing Herbert no favors.
+- ⚡ **핵심 소식**: Jim Harbaugh 감독 및 코칭스태프의 인터뷰로, 팀 문화 쇄신과 선수단 훈련 평가를 전달했습니다.
+- 🏈 **전술 관전 포인트**: Jim Harbaugh 감독 및 코칭스태프의 피지컬 중심 미식축구 철학이 반영된 행보입니다.
+
+#### [Jim Harbaugh 감독 및 코칭스태프의 인터뷰로, 팀 문화 쇄신과 선수단 훈련 평가를 전달했습니다.](https://news.google.com/rss/articles/CBMiigFBVV95cUxQbW1NNjdaRVNQZlRIb1E2ZDJfLXp6ZlVOSlpocncxY2c2Y1lpRGg1MVpydGE3UXQ2V2N2Z043RmhReWh0UWU1MndOcFo5dERtSmZaTHBvUjVWQmVqVGROYThELXp0Z0xkVUVjeEIxcVp0WUhIT0ZRZ2hkblJ1RTlMMFZuQldfWTNsUGc?oc=5) `[점수:100]`
+*출처: Yahoo Sports | 일자: 2026-09-17*
+- **원제:** Chargers' Jim Harbaugh sends clear message about offensive line play
 - ⚡ **핵심 소식**: Jim Harbaugh 감독 및 코칭스태프의 인터뷰로, 팀 문화 쇄신과 선수단 훈련 평가를 전달했습니다.
 - 🏈 **전술 관전 포인트**: Jim Harbaugh 감독 및 코칭스태프의 피지컬 중심 미식축구 철학이 반영된 행보입니다.
 
@@ -432,7 +433,7 @@
 - 🏈 **주요 인물**: Justin Herbert (QB)의 경기력과 훈련 컨디션이 집중 조명되고 있습니다.
 
 #### [Jim Harbaugh 감독 및 코칭스태프의 인터뷰로, 팀 문화 쇄신과 선수단 훈련 평가를 전달했습니다.](https://news.google.com/rss/articles/CBMigAFBVV95cUxOeVZCNElwRFowNTFVWlBmeXV6MTZ0bjJsOTVxUG1EQ1JwRUEtN2I2ZGI2VGd2NWd1THRvZWl4VkItdDFPZEpnbzVzWFo2ZEVjRWExeEQ4VXhxX0tIYTNhczNoa2lkbWJyMHdrMXFtZy1wWW5WZlJCRlQ3djVPTmRHOA?oc=5) `[점수:90]`
-*출처: sports.yahoo.com | 일자: 2026-09-14*
+*출처: Yahoo Sports | 일자: 2026-09-14*
 - **원제:** “Weak And Washed Up” – NFL Fans Blast Chargers HC Jim Harbaugh Over Cryptic Press Conference
 - ⚡ **핵심 소식**: Jim Harbaugh 감독 및 코칭스태프의 인터뷰로, 팀 문화 쇄신과 선수단 훈련 평가를 전달했습니다.
 - 🏈 **전술 관전 포인트**: Jim Harbaugh 감독 및 코칭스태프의 피지컬 중심 미식축구 철학이 반영된 행보입니다.
@@ -450,7 +451,7 @@
 - 🏈 **주요 인물**: Justin Herbert (QB)의 경기력과 훈련 컨디션이 집중 조명되고 있습니다.
 
 #### [Jim Harbaugh 감독 및 코칭스태프의 인터뷰로, 팀 문화 쇄신과 선수단 훈련 평가를 전달했습니다.](https://news.google.com/rss/articles/CBMilAFBVV95cUxOWlNXaldob2dOUE8xWEo1VzFEN055WllFUWpZSXFSU2VuOFNtUVBadWtkQnV5dlhLMFE5LTNGcVpaZTFkTm80T2MtazFlX0J6SmpFQm4wMDlqQTVPRTBnUXExWVl4SHdXUlNUd2E2NjdNZmxNTzBiME1EYmhGeW95R1BwQlJGYzVEaEphellUV2FsR05D?oc=5) `[점수:85]`
-*출처: sports.yahoo.com | 일자: 2026-09-12*
+*출처: Yahoo Sports | 일자: 2026-09-12*
 - **원제:** Chargers' Jim Harbaugh reveals encouraging status of offensive line
 - ⚡ **핵심 소식**: Jim Harbaugh 감독 및 코칭스태프의 인터뷰로, 팀 문화 쇄신과 선수단 훈련 평가를 전달했습니다.
 - 🏈 **전술 관전 포인트**: Jim Harbaugh 감독 및 코칭스태프의 피지컬 중심 미식축구 철학이 반영된 행보입니다.
@@ -462,7 +463,7 @@
 - 🏈 **주요 인물**: Justin Herbert (QB)의 경기력과 훈련 컨디션이 집중 조명되고 있습니다.
 
 #### [Jim Harbaugh 감독 및 코칭스태프의 인터뷰로, 팀 문화 쇄신과 선수단 훈련 평가를 전달했습니다.](https://news.google.com/rss/articles/CBMijAJBVV95cUxNd1FwWnBXempzQjM0UGxjWUI1UFRad25JczA3NHgxZDQ1QURucklSdGpfdFdNQ09FSEF6Wm9kRHpwLWQ2TmtYaUtBdFExR3hwVm8zSFZZTS1iOHpiTjB1UUNFVklsNDZCQWpUMmNrNUtPbE53RE9kSVdqZUJOMzdzbkc3SnJUYVRUbDFCa1p1U0FqUTlSV0dCdy1MNkpXTTRKdUx6SHMzV2l5QWVuZ2FfSGxmemNkWjdqX09ldUhWWlNVMm55X2h0cHhyVDVyUEItM0FUMkNEOWlXZG0tdk42cDVxYzFZcnpPbmtmRHZ1RlhxaG85RFhLVmhpSUo1MmEtSy1DMVlMR3YwejZO?oc=5) `[점수:80]`
-*출처: wane.com | 일자: 2026-09-13*
+*출처: WANE 15 | 일자: 2026-09-13*
 - **원제:** Los Angeles Chargers coach Jim Harbaugh weighs in on former Michigan teammate Sim Nelson's 2026 induction into the Indiana Football Hall of Fame
 - ⚡ **핵심 소식**: Jim Harbaugh 감독 및 코칭스태프의 인터뷰로, 팀 문화 쇄신과 선수단 훈련 평가를 전달했습니다.
 - 🏈 **전술 관전 포인트**: Jim Harbaugh 감독 및 코칭스태프의 피지컬 중심 미식축구 철학이 반영된 행보입니다.
@@ -525,13 +526,13 @@
 - ⚡ **핵심 소식**: Chargers 구단 및 선수단 관련 최신 뉴스 업데이트입니다.
 
 #### [Jim Harbaugh 감독 및 코칭스태프의 인터뷰로, 팀 문화 쇄신과 선수단 훈련 평가를 전달했습니다.](https://news.google.com/rss/articles/CBMiugFBVV95cUxPWXlhMmM0M2tvcnBHSlpoREh5NDNZZEluRHFfZERrdjE0S2RQdHJ0LWNkN0NsVzhCU0VfWHYwS05DWk1saTIzdjUxSlJPY2lFYmhPWVEyZDlXSnJ1dE5MR2xVdnRaWFdsRXZnX1AxZlJyVFhmYWY3V1B4Vk16ODUyQWJxa1BweTFmdk1JLXZvY1dyRUhHak81VG1HZ05yemJ2Vko4a0R5U2h4d3dTY0pDMmtXbndpa25hYUE?oc=5) `[점수:45]`
-*출처: barstoolsports.com | 일자: 2026-09-09*
+*출처: Barstool Sports | 일자: 2026-09-09*
 - **원제:** "I support no cause, foreign or domestic, other than the greatness of the Los Angeles Chargers" - Jim Harbaugh
 - ⚡ **핵심 소식**: Jim Harbaugh 감독 및 코칭스태프의 인터뷰로, 팀 문화 쇄신과 선수단 훈련 평가를 전달했습니다.
 - 🏈 **전술 관전 포인트**: Jim Harbaugh 감독 및 코칭스태프의 피지컬 중심 미식축구 철학이 반영된 행보입니다.
 
 #### [Chargers의 프리시즌 경기 일정 및 팀 훈련 준비 소식입니다.](https://news.google.com/rss/articles/CBMivgFBVV95cUxOQS1HZktEOW5FQmdtQmxpZ3NiY1p6dDdNUmtYNXF3Y1NaNUNMMzlxYUNvb3FwN2xMaVQzMTlHT01QbDMxejNENkNTMWhHNVNrQnVpT0xuWFRUQlNwQnB0dFhnYnFMLU1rQjVndWxJNWpYRmQ5MFQydFpsNldNc2U2RTBlX1pqQnVWM1I2UUFhTTl4Q240YmJBTlJDRmxCRHJ3X2tEejZ2ZVU0N3hkQUdUcGpMdXdVNG1MMUY3Sjl3?oc=5) `[점수:30]`
-*출처: barstoolsports.com | 일자: 2026-08-27*
+*출처: Barstool Sports | 일자: 2026-08-27*
 - **원제:** Football Is BACK! Predicting The Chargers Schedule In Jim Harbaugh's Third Year
 - ⚡ **핵심 소식**: Chargers의 프리시즌 경기 일정 및 팀 훈련 준비 소식입니다.
 - 📋 **선수단 영향**: Jim Harbaugh (HC)의 부상 경과 및 훈련 소화 여부가 주간 라인업 구성의 핵심 변수로 작용합니다.
@@ -541,7 +542,7 @@
 - **원제:** Official /r/Chargers Buy/Sell Thread - September 2026
 - ⚡ **핵심 소식**: Chargers 구단 및 선수단 관련 최신 뉴스 업데이트입니다.
 
-### ⚡ 팀 일반 소식 (11건)
+### ⚡ 팀 일반 소식 (12건)
 
 #### [Raiders와의 프리시즌 경기 일정, 중계 안내 및 주요 관전 포인트 소식입니다.](https://news.google.com/rss/articles/CBMixAFBVV95cUxNSHJGZ3VQMnNIOFBhckQ0WDk2M041SnJFZzVNRC1JSHhIX0Fnbk55YlFtX25JdnVMUEZ5UG5vbWhBQnVyOWJYT1E5eWdCLW1yTDlZeEttUDFleUNtZHJMVTFXRmFvZExCaWFwWUlQNzljSEpYdG14c3dhWUYzdkNIQmJ0cnJ3UXdjdk1XNndXbHlOWFI5S1QxMXFyWGpYTkF0SE5pWllGRGdYcElLMG9rcEIzRVFzV3FDRFMwb3FlUEZyalRw?oc=5) `[점수:65]`
 *출처: Las Vegas Raiders | 일자: 2026-09-17*
@@ -568,6 +569,11 @@
 - **원제:** Brock Bowers shows off balance, caps off historic rookie season with TD
 - ⚡ **핵심 소식**: Chargers 구단 및 선수단 관련 최신 뉴스 업데이트입니다.
 
+#### [Chargers 구단 및 선수단 관련 최신 뉴스 업데이트입니다.](https://news.google.com/rss/articles/CBMiywFBVV95cUxNN0dteGNyOUpIaV9IbGNtSUxTa2FXRGFza2YweEpuTEd1YTI3bzRKR0k5akl4RzhmUWswYkh4LXp3T2wxV21vNU1xcWF2N29aUHo3aERXdkVyc29nMTVzZEFTendUSi1aSEUxS2NtZnRuM3RtR3hCM3FzbTdmcUlVeFl4YVdDUE1JaFlqQ0NkN2lSeF9PVThueGFqUzB4bWoxWkFmWTd0NWFkak44X29xR185M0lldGoyNG1YV1pxZl83SEwxbjk2a0JDSQ?oc=5) `[점수:25]`
+*출처: LA Metro | 일자: 2026-09-10*
+- **원제:** Go Metro to the LA Chargers' season opener and the best September events in Los Angeles: September 11-13
+- ⚡ **핵심 소식**: Chargers 구단 및 선수단 관련 최신 뉴스 업데이트입니다.
+
 #### [Chargers 구단 및 선수단 관련 최신 뉴스 업데이트입니다.](https://news.google.com/rss/articles/CBMie0FVX3lxTFBkNUZiVWxWd3dhRHRVakUwOWlHWjA4cmZJbGVVR3k1QVdXUTFQOGFQblpVRGY5SldWSTNuNGpKUmYtblBJeWVqc3kzc1YtTVYzS05GSFNSekNNaERzZlNWeC1XQWVycXVDd01fcHdZSDg4YVUyVHdkakJYSdIBgAFBVV95cUxOQjJxMzVKVXR5eHVVOVpxTUN0Q1lnLVh2ZXBUemJlR1NIbDdvLUtUZmVLaU1McWR0VFRQRlc1dmdkalY0dUhfaFJrdm1ld3pwT1VtVlhLUnZMQ1lYWEFMT3FjNkJZTlM5bm9tT0lqOXpEYzQtOVppMHBKVU13cmpJRg?oc=5) `[점수:25]`
 *출처: KTLA | 일자: 2026-09-07*
 - **원제:** New L.A. Chargers mural unveiled in Torrance ahead of 2026 NFL season
@@ -578,14 +584,14 @@
 - **원제:** Chargers aim for a Super Bowl title amid key injuries and a brutal schedule
 - ⚡ **핵심 소식**: Chargers의 프리시즌 경기 일정 및 팀 훈련 준비 소식입니다.
 
-#### [Chargers 구단 및 선수단 관련 최신 뉴스 업데이트입니다.](https://news.google.com/rss/articles/CBMilgFBVV95cUxNeGVDSFM4alcyc1pNS0xPbVBXODk0dDZUWENzUG5DQVdIOGZxalJaSG40ZlhzUTc1VzBkUUZjakRoT1VZR0dJRHhiZDNUUzdBeGt3cGlzY0VFMzdEbF9Ka0xzTlA5bjFoUjFjV1BVdTEzTXFFamRqQ1N6R1JaQ3hRZUh3aEFNakZVYjlkTVZtcUVfUF95b2c?oc=5) `[점수:25]`
-*출처: Yahoo Sports | 일자: 2026-08-21*
-- **원제:** Latest Update Provides New Insight Into the Chargers' Offensive Line Injuries
-- ⚡ **핵심 소식**: Chargers 구단 및 선수단 관련 최신 뉴스 업데이트입니다.
-
 #### [Chargers 구단 및 선수단 관련 최신 뉴스 업데이트입니다.](https://news.google.com/rss/articles/CBMieEFVX3lxTE9vajN4MzhPbEsyS1VzUGhQdm9mek1DQ0RJOTBHdGdjOFFNc0RBNGpYRHlVdXBWeXBZSXVrY1UwWDhZWE83Uk5PREp4LVFUVGxOR2dIS0pBb0gxZjZEVFJieFdZMUxTSUp4b0FKSGJTV3ZlY1JXck83RA?oc=5) `[점수:20]`
 *출처: Los Angeles Chargers | 일자: 2026-09-08*
 - **원제:** 5 Facts About New Chargers Mural by Artist Robert Vargas in Torrance
+- ⚡ **핵심 소식**: Chargers 구단 및 선수단 관련 최신 뉴스 업데이트입니다.
+
+#### [Chargers 구단 및 선수단 관련 최신 뉴스 업데이트입니다.](https://news.google.com/rss/articles/CBMihAFBVV95cUxOZjFmSWFRZDZJbTJCTmQwQW1QUEhlcFVHeXRnT0gxci1ScTl0aG1LR3ktUC1qdnJYZHFpenJyelZTWHBFak8yVVBydlR6R1JoeWRmeUQtNVJ2cHpualNmUEhOcTl3NWh1ZkdhVFFBY2NLa2FVZzVLcVVLOEtYcHhFMHRDUWw?oc=5) `[점수:10]`
+*출처: Las Vegas Raiders | 일자: 2026-08-27*
+- **원제:** Official Team Website | Raiders.com
 - ⚡ **핵심 소식**: Chargers 구단 및 선수단 관련 최신 뉴스 업데이트입니다.
 
 #### [Chargers 구단 및 선수단 관련 최신 뉴스 업데이트입니다.](https://news.google.com/rss/articles/CBMiiAFBVV95cUxQbTd1U0NCY2VrcHN1a3Z3TzB3MWZCc05TcWVoclFMNkJOcUxpODNSbWN4NEphcy0tVl9POGRYX1pTQWxRQ2dWQnhTZUVoZ3VjNk04X2hBV0FSZTBwRjBmakItdGhFMHpBMWR4OFFEdlhFQ0hua0xFbnVvSHNuVzM5cmdfTFpsTllS?oc=5) `[점수:10]`
@@ -594,7 +600,7 @@
 - ⚡ **핵심 소식**: Chargers 구단 및 선수단 관련 최신 뉴스 업데이트입니다.
 
 #### [Chargers 구단 및 선수단 관련 최신 뉴스 업데이트입니다.](https://news.google.com/rss/articles/CBMidEFVX3lxTE0xWGN6eEpBYnBfaU9Wcmd5YU1QNmx3ZERNTkdWSURVMk9rcFFBZ1dTVWlkRkpfWjVtd2RsQllRNmVmSGxRdDBfMnc4cmlEZWlGb0NMaVE5cjBBM0hfbzBGSFg1RHc3Q2VNeHhyTlZQbmJpa1Uz?oc=5) `[점수:10]`
-*출처: defector.com | 일자: 2026-08-20*
+*출처: Defector | 일자: 2026-08-20*
 - **원제:** Why Your Team Sucks 2026: Los Angeles Chargers
 - ⚡ **핵심 소식**: Chargers 구단 및 선수단 관련 최신 뉴스 업데이트입니다.
 
