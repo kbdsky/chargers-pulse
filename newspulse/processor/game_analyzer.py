@@ -69,38 +69,39 @@ class GameAnalyzer:
             game_type = "2026 정규시즌 2주차 (SoFi Stadium / AFC West 라이벌전)"
             game_status = "킥오프 대기 (2주차 라이벌전)"
             offense_notes = "1주차 침묵을 깬 QB Justin Herbert의 딥패스 부활 및 Ladd McConkey 부상 공백을 메울 리시빙 코어 가동"
-            defense_notes = "Jesse Minter 수비 코디네이터의 압박 스킴으로 Raiders 오펜스 차단 및 Joey Bosa, Khalil Mack의 엣지 러시 총력전"
+            defense_notes = "Jesse Minter 수비 코디네이터의 변칙 블리츠 스킴, Khalil Mack·Tuli Tuipulotu·Bud Dupree의 엣지 압박 및 All-Pro 세이프티 Derwin James Jr. 중심의 타이트엔드/슬롯 차단"
             highlights = [
                 "🏈 **2026 NFL 2주차 AFC West 라이벌전**: SoFi Stadium에서 열리는 Las Vegas Raiders와의 홈 맞대결",
                 "🔥 **반등을 위한 필승전**: 1주차 Cardinals전 패배(14-26)를 딛고 분위기 반전을 노리는 Jim Harbaugh호의 총력전",
                 "🏈 **공격진 핵심 관전 포인트**: QB Justin Herbert의 패싱 어택 정상화 및 Joe Alt, Rashawn Slater의 오펜시브 라인 수호",
-                "🏈 **수비진 핵심 관전 포인트**: Joey Bosa, Khalil Mack의 강력한 패스 러시로 상대 쿼터백 압박"
+                "🏈 **수비진 핵심 관전 포인트**: Khalil Mack, Tuli Tuipulotu, Bud Dupree의 패스 러시 및 Derwin James Jr.의 전방위 수비 지휘"
             ]
         elif "cardinals" in latest_opponent.lower():
             game_type = "2026 정규시즌 1주차 (SoFi Stadium)"
             game_status = "14 - 26 (패배)"
             offense_notes = "QB Justin Herbert 중심의 패싱 전술과 Joe Alt, Rashawn Slater의 오펜시브 라인 프로텍션"
-            defense_notes = "Jesse Minter 수비 코디네이터 지휘 아래 Joey Bosa, Khalil Mack의 엣지 러시"
+            defense_notes = "Jesse Minter 수비 코디네이터 지휘 아래 Khalil Mack, Tuli Tuipulotu의 엣지 러시 및 수비진 조직력"
             highlights = [
                 "🏈 **2026 NFL 1주차 경기 결과**: Arizona Cardinals에 14-26 패배",
                 "🏈 **Jim Harbaugh 감독 체제 점검**: 오펜스 라인 및 수비진 조직력 재정비 필요",
             ]
         else:
             game_type = f"2026 시즌 경기 (상대: {latest_opponent})"
-            game_status = "경기 분석 완료"
+            game_status = "경기 프리뷰"
             offense_notes = "QB Justin Herbert 중심의 패싱 전술과 오펜시브 라인 프로텍션"
-            defense_notes = "Jesse Minter 수비 코디네이터 지휘 아래 패스 러시 및 세컨더리 압박"
+            defense_notes = "Jesse Minter 수비 코디네이터 지휘 아래 Khalil Mack 중심의 패스 러시 및 세컨더리 압박"
             highlights = [
                 f"🏈 **{latest_opponent} 맞대결**: 팀 전력 및 주요 전술 점검",
             ]
 
-        # Detect score if present in recap articles
-        for art in valid_game_articles:
-            text = f"{art.get('title', '')} {art.get('summary', '')}"
-            score_match = re.search(r"\b(\d{1,2})\s*[-–]\s*(\d{1,2})\b", text)
-            if score_match and ("win" in text.lower() or "beat" in text.lower() or "loss" in text.lower() or "recap" in text.lower()):
-                game_status = f"{score_match.group(1)}-{score_match.group(2)}"
-                break
+        # Detect score ONLY if current matchup is not an upcoming kickoff wait
+        if "킥오프 대기" not in game_status:
+            for art in valid_game_articles:
+                text = f"{art.get('title', '')} {art.get('summary', '')}"
+                score_match = re.search(r"\b(\d{1,2})\s*[-–]\s*(\d{1,2})\b", text)
+                if score_match and ("final" in text.lower() or "win" in text.lower() or "loss" in text.lower() or "recap" in text.lower()):
+                    game_status = f"{score_match.group(1)}-{score_match.group(2)}"
+                    break
 
         return {
             "has_game_data": True,
