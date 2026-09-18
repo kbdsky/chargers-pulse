@@ -46,7 +46,7 @@ class GameAnalyzer:
                 "score_detected": "킥오프 대기 (개막전 프리뷰)",
                 "highlights": ["현재 정규시즌 1주차 Arizona Cardinals와의 홈 개막전 대비 훈련 및 전술 점검이 진행 중입니다."],
                 "offense_notes": "QB Justin Herbert 중심의 패싱 전술과 Joe Alt, Rashawn Slater의 든든한 태클 라인 프로텍션",
-                "defense_notes": "Jesse Minter 수비 코디네이터 지휘 아래 Joey Bosa, Khalil Mack의 패스 러시 및 Kyler Murray 봉쇄",
+                "defense_notes": "Jesse Minter 수비 코디네이터 지휘 아래 Khalil Mack, Tuli Tuipulotu, Bud Dupree의 강력한 엣지 패스 러시 가동",
             }
 
         # 2. Determine current opponent and matchup
