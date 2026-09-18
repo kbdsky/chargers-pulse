@@ -1,26 +1,36 @@
 {
   "trending_keywords": [
+    "link comments",
     "justin herbert",
-    "herbert shines",
-    "shines harbaugh",
-    "harbaugh praises",
-    "praises defense",
-    "Justin Herbert",
+    "yahoo sports",
+    "submitted link",
+    "mike mcdaniel",
+    "Los Angeles Chargers",
     "Jim Harbaugh",
-    "The Los Angeles Chargers",
-    "justin",
-    "herbert",
-    "shines",
+    "Justin Herbert",
+    "Yahoo Sports",
+    "Arizona Cardinals",
     "harbaugh",
-    "praises",
-    "defense"
+    "herbert",
+    "preseason",
+    "sports",
+    "cardinals",
+    "injury"
   ],
   "emerging_players": [
-    "Justin Herbert",
+    "Los Angeles Chargers",
     "Jim Harbaugh",
+    "Justin Herbert",
+    "Yahoo Sports",
+    "Arizona Cardinals",
     "The Los Angeles Chargers"
   ],
-  "opponents": [],
+  "opponents": [
+    "애리조나 카디널스 (ARI Cardinals)",
+    "라스베이거스 레이더스 (LV Raiders)",
+    "샌프란시스코 포티나이너스 (SF 49ers)",
+    "LA 램스 (LA Rams)"
+  ],
   "expanded_queries": [
     "Los Angeles Chargers",
     "LA Chargers",
@@ -28,9 +38,10 @@
     "Jim Harbaugh Chargers",
     "Chargers injury roster",
     "Chargers preseason game recap",
-    "Chargers Justin Herbert",
+    "Chargers Los Angeles Chargers",
     "Chargers Jim Harbaugh",
-    "Chargers The Los Angeles Chargers"
+    "Chargers Justin Herbert",
+    "Chargers vs ARI Cardinals"
   ],
-  "last_updated": "2026-09-04T00:27:14.034458"
+  "last_updated": "2026-09-18T14:41:32.109903"
 }
