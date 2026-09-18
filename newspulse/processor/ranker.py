@@ -34,7 +34,8 @@ class ArticleRanker:
         "harbaugh": 15,
         "herbert": 20,
         "alt": 15,
-        "bosa": 15,
+        "tuipulotu": 15,
+        "dupree": 15,
         "mack": 15,
     }
 
