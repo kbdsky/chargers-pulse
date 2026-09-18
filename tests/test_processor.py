@@ -1,6 +1,7 @@
 """Unit tests for news processor (deduplication, categorizer, summarizer, ranker, dynamic keywords, game analyzer)."""
 
 import pytest
+from datetime import datetime
 from newspulse.processor import (
     Deduplicator,
     Categorizer,
@@ -43,7 +44,7 @@ def test_ranker():
         "title": "Justin Herbert questionable with ankle injury, placed on IR",
         "summary": "Coach Jim Harbaugh announced starter Justin Herbert suffered a severe ankle injury.",
         "source": "ESPN NFL",
-        "published": "2026-08-23T10:00:00",
+        "published": datetime.now().isoformat(),
     }
     low_impact_art = {
         "title": "Chargers fan fest photos",
