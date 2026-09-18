@@ -1,4 +1,4 @@
-"""Summarization engine supporting AI, deep Korean translation, and smart sports NLP synthesis.
+"""Summarization engine supporting high-quality Korean sports NLP synthesis and Injury Table integration.
 Strictly preserves player names, team names, and proper nouns in English while formatting fluent Korean summaries.
 """
 
@@ -11,77 +11,46 @@ from .dynamic_keywords import DynamicKeywordTracker
 from .ranker import ArticleRanker
 from .translator import KoreanTranslator
 from .schedule_manager import ScheduleManager
+from .injury_tracker import InjuryTracker
 
 logger = logging.getLogger(__name__)
 
-FOOTBALL_TERMS = {
-    "injury": "부상",
-    "injured": "부상자",
-    "injured reserve": "부상자 명단(IR)",
-    "surgery": "수술",
-    "concussion": "뇌진탕",
-    "ankle": "발목 부상",
-    "knee": "무릎 부상",
-    "hamstring": "햄스트링",
-    "touchdown": "터치다운",
-    "interception": "인터셉션(가로채기)",
-    "quarterback": "쿼터백(QB)",
-    "starter": "선발 스타터",
-    "53-man roster": "53인 로스터",
-    "53-man": "53인 로스터",
-    "roster": "선수 로스터",
-    "head coach": "헤드코치(감독)",
-    "offensive coordinator": "공격 코디네이터",
-    "defensive coordinator": "수비 코디네이터",
-    "preseason": "프리시즌",
-    "regular season": "정규시즌",
-    "recap": "경기 결과 분석",
-    "joint practice": "합동 훈련",
-    "practice squad": "연습 스쿼드",
-    "free agency": "자유계약(FA)",
-    "trade": "트레이드",
-    "contract": "계약/연장",
-    "draft": "드래프트",
-}
-
 KEY_PLAYERS_EN = {
-    "justin herbert": "Justin Herbert (QB)",
-    "jim harbaugh": "Jim Harbaugh (HC)",
-    "joe alt": "Joe Alt (OT)",
-    "ladd mcconkey": "Ladd McConkey (WR)",
-    "derwin james": "Derwin James (S)",
-    "joey bosa": "Joey Bosa (EDGE)",
-    "khalil mack": "Khalil Mack (EDGE)",
-    "jk dobbins": "J.K. Dobbins (RB)",
-    "gus edwards": "Gus Edwards (RB)",
-    "quentin johnston": "Quentin Johnston (WR)",
-    "joshua palmer": "Joshua Palmer (WR)",
-    "rashawn slater": "Rashawn Slater (OT)",
-    "greg roman": "Greg Roman (OC)",
-    "jesse minter": "Jesse Minter (DC)",
-    "tyler biadasz": "Tyler Biadasz (C)",
-    "omarion hampton": "Omarion Hampton (RB)",
-    "genesis smith": "Genesis Smith (DB)",
-    "nadame tucker": "Nadame Tucker (EDGE)",
-    "mike vrabel": "Mike Vrabel (Coach)",
+    "herbert": "Justin Herbert (QB)",
+    "harbaugh": "Jim Harbaugh (HC)",
+    "alt": "Joe Alt (OT)",
+    "mcconkey": "Ladd McConkey (WR)",
+    "johnston": "Quentin Johnston (WR)",
+    "palmer": "Joshua Palmer (WR)",
+    "chark": "DJ Chark Jr. (WR)",
+    "bosa": "Joey Bosa (OLB)",
+    "mack": "Khalil Mack (OLB)",
+    "derwin": "Derwin James Jr. (S)",
+    "dobbins": "J.K. Dobbins (RB)",
+    "edwards": "Gus Edwards (RB)",
+    "hampton": "Omarion Hampton (RB)",
+    "slater": "Rashawn Slater (OT)",
+    "biadasz": "Tyler Biadasz (C)",
+    "minter": "Jesse Minter (DC)",
+    "roman": "Greg Roman (OC)",
+    "hortiz": "Joe Hortiz (GM)",
 }
 
 
 class Summarizer:
-    """Generates fluent Korean bullet summaries with English proper nouns preserved."""
+    """Produces fluent Korean summaries and structured intelligence briefings."""
 
-    def __init__(self, api_key: Optional[str] = None, provider: str = "auto"):
-        self.gemini_key = api_key or os.getenv("GEMINI_API_KEY")
-        self.openai_key = os.getenv("OPENAI_API_KEY")
-        self.provider = provider
+    def __init__(self, gemini_api_key: Optional[str] = None):
+        self.gemini_key = gemini_api_key or os.getenv("GEMINI_API_KEY")
         self.game_analyzer = GameAnalyzer()
         self.keyword_tracker = DynamicKeywordTracker()
         self.ranker = ArticleRanker()
         self.translator = KoreanTranslator()
         self.schedule_manager = ScheduleManager()
+        self.injury_tracker = InjuryTracker()
 
     def summarize_article(self, article: Dict[str, any]) -> Dict[str, any]:
-        """Generate fluent Korean headline and summary bullet points with English proper nouns."""
+        """Generate high-quality Korean headline and contextual summary bullets with English proper nouns."""
         title = article.get("title", "")
         summary = article.get("summary", "")
         category_name = article.get("category_name", "팀 소식")
@@ -92,7 +61,7 @@ class Summarizer:
             kr_headline = self.translator.synthesize_korean_sentence(title)
         article["headline_kr"] = kr_headline if kr_headline else title
 
-        # 2. Bullet points
+        # 2. Contextual Summary
         kr_bullets = self._generate_korean_bullets(title, summary, category_name)
         article["summary_bullets_kr"] = kr_bullets
 
@@ -108,8 +77,9 @@ class Summarizer:
         return summarized_list
 
     def generate_executive_briefing(self, articles: List[Dict[str, any]]) -> Dict[str, any]:
-        """Generate comprehensive executive team briefing in Korean with English proper nouns."""
+        """Generate comprehensive executive team briefing with schedule and official injury table."""
         schedule_data = self.schedule_manager.get_schedule_data(articles)
+        injury_table_data = self.injury_tracker.get_injury_report_table(articles)
 
         if not articles:
             return {
@@ -119,6 +89,7 @@ class Summarizer:
                 "team_outlook": "최신 뉴스를 업데이트해 주세요.",
                 "game_center": {},
                 "schedule": schedule_data,
+                "injury_report_table": injury_table_data,
                 "trending_keywords": [],
                 "top_highlights": [],
             }
@@ -127,46 +98,43 @@ class Summarizer:
         trend_data = self.keyword_tracker.extract_trends_from_articles(articles)
         top_highlights = self.ranker.get_top_priority(articles, limit=5)
 
-        if self.gemini_key:
-            ai_brief = self._generate_ai_briefing(articles)
-            if ai_brief:
-                ai_brief["game_center"] = game_data
-                ai_brief["schedule"] = schedule_data
-                ai_brief["trending_keywords"] = trend_data.get("trending_keywords", [])
-                ai_brief["top_highlights"] = top_highlights
-                return ai_brief
-
         briefing = self._generate_heuristic_briefing(articles, game_data, trend_data)
         briefing["game_center"] = game_data
         briefing["schedule"] = schedule_data
+        briefing["injury_report_table"] = injury_table_data
         briefing["trending_keywords"] = trend_data.get("trending_keywords", [])
         briefing["top_highlights"] = top_highlights
         return briefing
 
     def _generate_korean_bullets(self, title: str, summary: str, category_name: str) -> List[str]:
-        """Generate 2-3 structured Korean bullets with translated summary and English names."""
+        """Generate fluent, readable Korean bullet points focusing on context and impact."""
         bullets = []
         text = f"{title}. {summary}"
         lower_text = text.lower()
 
-        # 1. Fluent Korean Summary with English Proper Nouns
-        if summary and len(summary.strip()) > 20:
-            sentences = [s.strip() for s in re.split(r"(?<=[.!?])\s+", summary) if len(s.strip()) > 15]
-            raw_text_to_translate = " ".join(sentences[:2]) if len(sentences) > 1 else sentences[0]
-            if len(raw_text_to_translate) > 250:
-                raw_text_to_translate = raw_text_to_translate[:247] + "..."
+        # 1. Main Core Story Paragraph
+        clean_sum = re.sub(r"<[^>]+>", "", summary).strip() if summary else ""
+        is_boilerplate = (
+            "submitted by" in clean_sum.lower()
+            or "[link]" in clean_sum.lower()
+            or "[comments]" in clean_sum.lower()
+            or len(clean_sum) < 25
+        )
 
-            translated_summary = self.translator.translate_text(raw_text_to_translate, max_chars=250)
-            if not self.translator._is_valid_translation(translated_summary):
-                translated_summary = self.translator.synthesize_korean_sentence(raw_text_to_translate)
-            bullets.append(f"📌 **핵심 요약:** {translated_summary}")
+        if clean_sum and not is_boilerplate:
+            sentences = [s.strip() for s in re.split(r"(?<=[.!?])\s+", clean_sum) if len(s.strip()) > 15]
+            raw_text = " ".join(sentences[:2]) if len(sentences) > 1 else (sentences[0] if sentences else clean_sum)
+            if len(raw_text) > 250:
+                raw_text = raw_text[:247] + "..."
+
+            translated = self.translator.translate_text(raw_text, max_chars=250)
+            bullets.append(f"⚡ **핵심 소식**: {translated}")
         else:
-            translated_title = self.translator.translate_text(title, max_chars=150)
-            if not self.translator._is_valid_translation(translated_title):
-                translated_title = self.translator.synthesize_korean_sentence(title)
-            bullets.append(f"📌 **핵심 요약:** {translated_title}")
+            clean_title = re.sub(r"\[.*?\]", "", title).strip() or title
+            translated_title = self.translator.translate_text(clean_title, max_chars=180)
+            bullets.append(f"⚡ **핵심 소식**: {translated_title}")
 
-        # 2. Key Players in English with Position Code
+        # 2. Team Impact / Tactical Context
         involved = []
         for name, en_label in KEY_PLAYERS_EN.items():
             pattern = r"\b" + re.escape(name) + r"\b"
@@ -174,20 +142,17 @@ class Summarizer:
                 involved.append(en_label)
 
         if involved:
-            bullets.append(f"🏈 **주요 인물:** {', '.join(involved[:3])}")
+            players_str = ", ".join(involved[:2])
+            if "injury" in lower_text or "ankle" in lower_text or "knee" in lower_text or "ir" in lower_text:
+                bullets.append(f"📋 **선수단 영향**: {players_str}의 부상 경과 및 훈련 소화 여부가 주간 라인업 구성의 핵심 변수로 작용합니다.")
+            elif "roster" in lower_text or "53-man" in lower_text or "sign" in lower_text or "cut" in lower_text:
+                bullets.append(f"📋 **로스터 분석**: {players_str} 관련 뎁스 차트 변동으로 팀 전력 구성에 변화가 생겼습니다.")
+            elif "harbaugh" in lower_text or "coach" in lower_text:
+                bullets.append(f"🏈 **전술 관전 포인트**: Jim Harbaugh 감독 및 코칭스태프의 피지컬 중심 미식축구 철학이 반영된 행보입니다.")
+            else:
+                bullets.append(f"🏈 **주요 인물**: {players_str}의 경기력과 훈련 컨디션이 집중 조명되고 있습니다.")
 
-        # 3. Key Football Points in Korean
-        terms = []
-        for eng, kor in FOOTBALL_TERMS.items():
-            pattern = r"\b" + re.escape(eng) + r"\b"
-            if re.search(pattern, lower_text):
-                if kor not in terms:
-                    terms.append(kor)
-
-        if terms:
-            bullets.append(f"⚡ **주요 포인트:** {', '.join(terms[:3])} 관련 동향 ({category_name})")
-
-        return bullets[:3]
+        return bullets[:2]
 
     def _generate_heuristic_briefing(
         self,
@@ -198,11 +163,6 @@ class Summarizer:
         """Create a structured executive briefing in Korean with English proper nouns."""
         total_count = len(articles)
 
-        cat_counts: Dict[str, int] = {}
-        for art in articles:
-            cat = art.get("category_name", "팀 소식")
-            cat_counts[cat] = cat_counts.get(cat, 0) + 1
-
         player_counts: Dict[str, int] = {}
         for art in articles:
             text = f"{art.get('title', '')} {art.get('summary', '')}".lower()
@@ -212,78 +172,22 @@ class Summarizer:
                     player_counts[en_label] = player_counts.get(en_label, 0) + 1
 
         top_players = sorted(player_counts.items(), key=lambda x: x[1], reverse=True)[:3]
-        top_players_str = ", ".join([f"{p[0]}({p[1]}건)" for p in top_players]) if top_players else "Justin Herbert, Jim Harbaugh"
+        top_players_str = ", ".join([f"{p}({c}건)" for p, c in top_players]) if top_players else "선수단 전원"
 
-        injuries = [art for art in articles if art.get("category_key") == "injury"]
-        if injuries:
-            first_inj = injuries[0]
-            inj_title = first_inj.get("headline_kr", first_inj.get("title", ""))
-            injury_summary = f"총 {len(injuries)}건의 부상 및 로스터 관련 소식이 집계되었습니다. (주요 이슈: {inj_title})"
-        else:
-            injury_summary = "현재 긴급 추가 부상자 이슈 없이 정규시즌 대비 훈련 및 53인 로스터 정비가 순조롭게 진행 중입니다."
-
-        game_status = (
-            f"최근 경기/일정: {game_data.get('game_type', '경기')} (상대: {game_data.get('opponent', '미정')})"
-            if game_data.get("has_game_data")
-            else "정규시즌 개막 대비 팀 전술 훈련 진행 중"
-        )
-
-        hot_trends = trend_data.get("trending_keywords", [])
-        trends_str = ", ".join(hot_trends[:5]) if hot_trends else "Justin Herbert, Jim Harbaugh, Tyler Biadasz, 49ers"
+        headline = f"⚡ LA Chargers 주간 인텔리전스 종합 리포트 (총 {total_count}건 정밀 분석)"
 
         takeaways = [
-            f"⚡ 전수 수집 및 스마트 랭킹: 총 {total_count}건의 기사를 전수 분석하여 중요도 순으로 큐레이션했습니다.",
-            f"🏈 경기 및 매치업 동향: {game_status}",
-            f"🎯 집중 조명된 핵심 인물: {top_players_str}",
-            f"🔥 실시간 급상승 키워드: {trends_str}",
-            f"📊 카테고리별 분포: " + ", ".join([f"{k} {v}건" for k, v in cat_counts.items()]),
-            f"🛡️ Jim Harbaugh 감독과 Jesse Minter 코디네이터 체제 하에서 피지컬과 수비 규율이 강화되고 있습니다.",
+            f"⚡ **스마트 큐레이션 및 중복 제거**: 총 {total_count}건의 언론 기사를 정밀 클러스터링하여 핵심 이슈 위주로 요약했습니다.",
+            f"🏈 **매치업 포커스**: {game_data.get('game_type', '정규시즌 경기')} (상대: {game_data.get('opponent', '미정')})",
+            f"🎯 **집중 조명된 핵심 인물**: {top_players_str}",
+            f"🔥 **헤드라인 키워드**: {', '.join(trend_data.get('trending_keywords', [])[:4]) if trend_data.get('trending_keywords') else 'Justin Herbert, Jim Harbaugh'}",
         ]
 
+        injury_str = "부상 리포트 공식 테이블(Injury Report Table)에서 상세 출전 상태 및 연습 참가 여부(DNP/LP/FP)를 확인하세요."
+
         return {
-            "headline": f"⚡ LA Chargers 종합 인텔리전스 주간 리포트 (총 {total_count}건 전수 분석)",
+            "headline": headline,
             "key_takeaways": takeaways,
-            "injury_update": injury_summary,
-            "team_outlook": f"전문 미디어 전수 수집 데이터 기반 Chargers 브리핑입니다. {game_data.get('offense_notes', '')}",
+            "injury_update": injury_str,
+            "team_outlook": "Jim Harbaugh 감독 체제 하에서 공수 밸런스와 오펜시브 라인의 견고함을 구축하며 시즌 순항 중입니다.",
         }
-
-    def _generate_ai_briefing(self, articles: List[Dict[str, any]]) -> Optional[Dict[str, any]]:
-        """Optional Gemini API integration for deep Korean executive synthesis."""
-        try:
-            import requests
-
-            titles_and_summaries = "\n".join(
-                [f"- [중요도:{art.get('importance_score', 50)}][{art.get('category_name')}] {art.get('title')}: {art.get('summary')[:200]}" for art in articles[:20]]
-            )
-
-            prompt = (
-                "당신은 NFL LA Chargers 전문 수석 스포츠 분석가입니다. "
-                "아래 전수 수집된 최신 영문 뉴스들을 심층 분석하여 한국어로 고품질 주간 인텔리전스 브리핑을 작성해 주세요.\n"
-                "규칙:\n"
-                "1. 설명과 해설은 100% 매끄럽고 완벽한 한국어 문장으로 작성하세요.\n"
-                "2. 선수 이름(Justin Herbert, Tyler Biadasz 등)과 팀 이름(Chargers, 49ers 등)은 고유명사이므로 영어 원문 그대로 표기하세요.\n\n"
-                f"{titles_and_summaries}\n\n"
-                "다음 JSON 포맷으로만 응답해 주세요:\n"
-                "{\n"
-                '  "headline": "한 줄 핵심 총괄 브리핑 헤드라인",\n'
-                '  "key_takeaways": ["핵심 분석 1", "핵심 분석 2", "핵심 분석 3", "핵심 분석 4", "핵심 분석 5"],\n'
-                '  "injury_update": "부상 및 53인 로스터 정비 상황 상세 요약",\n'
-                '  "team_outlook": "팀 전력 및 향후 경기/시즌 종합 전망"\n'
-                "}"
-            )
-
-            url = f"https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash:generateContent?key={self.gemini_key}"
-            payload = {
-                "contents": [{"parts": [{"text": prompt}]}],
-                "generationConfig": {"responseMimeType": "application/json"}
-            }
-            res = requests.post(url, json=payload, timeout=20)
-            if res.status_code == 200:
-                data = res.json()
-                import json
-                text_content = data["candidates"][0]["content"]["parts"][0]["text"]
-                return json.loads(text_content)
-        except Exception as e:
-            logger.warning(f"AI Briefing failed, falling back to heuristic: {e}")
-
-        return None
