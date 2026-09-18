@@ -25,6 +25,7 @@ ENGLISH_PROPER_NOUNS = [
 # Map Korean phonetic translations back to English proper nouns
 KOREAN_TO_ENGLISH_NAMES = {
     "로스앤젤레스 차저스": "LA Chargers",
+    "LA 차저스": "LA Chargers",
     "차저스": "Chargers",
     "충전기들의": "Chargers의",
     "충전기에": "Chargers에",
@@ -34,16 +35,23 @@ KOREAN_TO_ENGLISH_NAMES = {
     "충전기들": "Chargers",
     "볼츠": "Bolts",
     "샌프란시스코 49ers": "SF 49ers",
+    "샌프란시스코 49ers": "SF 49ers",
     "샌프란시스코": "San Francisco",
     "포티나이너스": "49ers",
     "49에르스": "49ers",
     "치프스": "Chiefs",
     "레이더스": "Raiders",
+    "라스베가스 레이더스": "Las Vegas Raiders",
+    "카디널스": "Cardinals",
+    "애리조나 카디널스": "Arizona Cardinals",
     "브롱코스": "Broncos",
     "패트리어츠": "Patriots",
     "이글스": "Eagles",
     "램스": "Rams",
     "카우보이스": "Cowboys",
+    "카우보이": "Cowboys",
+    "텍사스인들": "Texans",
+    "텍산스": "Texans",
     "소파이 스타디움": "SoFi Stadium",
     "저스틴 허버트": "Justin Herbert",
     "허버트": "Justin Herbert",
@@ -51,19 +59,36 @@ KOREAN_TO_ENGLISH_NAMES = {
     "짐 하버": "Jim Harbaugh",
     "하보": "Jim Harbaugh",
     "조 알트": "Joe Alt",
+    "조 알트": "Joe Alt",
+    "래드 맥콘키": "Ladd McConkey",
     "래드 맥콩키": "Ladd McConkey",
-    "더윈 제임스": "Derwin James",
+    "맥콘키": "Ladd McConkey",
+    "맥콩키": "Ladd McConkey",
+    "더윈 제임스 주니어": "Derwin James Jr.",
+    "더윈 제임스": "Derwin James Jr.",
     "조이 보사": "Joey Bosa",
+    "보사": "Joey Bosa",
     "칼릴 맥": "Khalil Mack",
+    "맥": "Khalil Mack",
     "도빈스": "J.K. Dobbins",
     "J.K. 도빈스": "J.K. Dobbins",
     "거스 에드워즈": "Gus Edwards",
     "퀸틴 존스턴": "Quentin Johnston",
     "조슈아 파머": "Joshua Palmer",
     "라샨 슬레이터": "Rashawn Slater",
+    "슬레이터": "Rashawn Slater",
     "타일러 비아다즈": "Tyler Biadasz",
     "타일러 비아다스": "Tyler Biadasz",
     "비아다즈": "Tyler Biadasz",
+    "트레이 핍킨스": "Trey Pipkins",
+    "트레이 피프킨스": "Trey Pipkins",
+    "핍킨스": "Trey Pipkins",
+    "DJ 차크": "DJ Chark Jr.",
+    "차크": "DJ Chark Jr.",
+    "엘리야 몰든": "Elijah Molden",
+    "몰든": "Elijah Molden",
+    "버드 듀프리": "Bud Dupree",
+    "듀프리": "Bud Dupree",
     "오마리온 햄튼": "Omarion Hampton",
     "제네시스 스미스": "Genesis Smith",
     "마이크 브레이블": "Mike Vrabel",
@@ -90,9 +115,27 @@ class KoreanTranslator:
     def __init__(self):
         try:
             from deep_translator import GoogleTranslator
-            self.translator = GoogleTranslator(source="auto", target="ko")
+            self.fallback_gt = GoogleTranslator(source="auto", target="ko")
         except Exception:
-            self.translator = None
+            self.fallback_gt = None
+
+    def _translate_gtx(self, text: str) -> Optional[str]:
+        """Direct, fast Google Translate endpoint with high reliability."""
+        import urllib.request
+        import urllib.parse
+        import json
+
+        try:
+            url = "https://translate.googleapis.com/translate_a/single?client=gtx&sl=auto&tl=ko&dt=t&q=" + urllib.parse.quote(text)
+            req = urllib.request.Request(url, headers={"User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64)"})
+            with urllib.request.urlopen(req, timeout=5) as response:
+                data = json.loads(response.read().decode("utf-8"))
+                translated = "".join([part[0] for part in data[0] if part and part[0]])
+                if self._is_valid_translation(translated):
+                    return translated
+        except Exception as e:
+            logger.debug(f"GTX translation error: {e}")
+        return None
 
     def translate_text(self, text: str, max_chars: int = 250) -> str:
         """Translate text to Korean with proper noun restoration and fallback."""
@@ -106,18 +149,25 @@ class KoreanTranslator:
         if clean_text in self._cache:
             return self._cache[clean_text]
 
-        # 1. Try Web Translation via GoogleTranslator
-        if self.translator:
+        # 1. Try Direct Google GTX Engine
+        gtx_res = self._translate_gtx(clean_text)
+        if gtx_res:
+            restored = self.restore_english_proper_nouns(gtx_res)
+            self._cache[clean_text] = restored
+            return restored
+
+        # 2. Try deep_translator fallback
+        if self.fallback_gt:
             try:
-                translated = self.translator.translate(clean_text)
+                translated = self.fallback_gt.translate(clean_text)
                 if self._is_valid_translation(translated):
                     restored = self.restore_english_proper_nouns(translated)
                     self._cache[clean_text] = restored
                     return restored
             except Exception as e:
-                logger.debug(f"Translator error: {e}")
+                logger.debug(f"Fallback translator error: {e}")
 
-        # 2. Smart Korean Synthesis Fallback
+        # 3. Smart Korean Synthesis Fallback
         fallback = self.synthesize_korean_sentence(clean_text)
         self._cache[clean_text] = fallback
         return fallback
