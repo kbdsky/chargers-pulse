@@ -324,21 +324,53 @@ class ScheduleManager:
         }
 
     def _detect_game_result(self, game: Dict[str, any], articles: List[Dict[str, any]]) -> (Optional[str], Optional[str]):
-        """Detect final score and win/loss result from collected articles."""
+        """Detect final score and win/loss result from collected articles with strict accuracy."""
         opp_clean = game["opponent"].lower()
-        week_str = f"week {game['week']}"
+        week_num = game["week"]
+        week_str = f"week {week_num}"
 
         for art in articles:
             text = f"{art.get('title', '')} {art.get('summary', '')}".lower()
-            if week_str in text or any(word in text for word in opp_clean.split() if len(word) > 3):
-                # Search score pattern like 24-17 or 24 - 17
-                scores = re.findall(r"\b(\d{1,2})\s*[-–]\s*(\d{1,2})\b", text)
-                if scores:
-                    s1, s2 = scores[0]
-                    if "win" in text or "defeat" in text or "beat" in text or "over" in text:
-                        return f"Chargers {max(int(s1), int(s2))} - {min(int(s1), int(s2))} {game['opponent']}", "WIN"
-                    elif "loss" in text or "fall" in text or "fell" in text or "drop" in text:
-                        return f"Chargers {min(int(s1), int(s2))} - {max(int(s1), int(s2))} {game['opponent']}", "LOSS"
-                    return f"{s1} - {s2}", "FINAL"
+
+            # Check if this article discusses this specific week or opponent
+            has_opp = any(word in text for word in opp_clean.split() if len(word) > 3)
+            has_week = week_str in text or (week_num == 1 and ("season opener" in text or "opener" in text))
+            if not (has_opp and has_week):
+                continue
+
+            # Search score pattern like 26-14 or 26 - 14
+            scores = re.findall(r"\b(\d{1,2})\s*[-–]\s*(\d{1,2})\b", text)
+            if scores:
+                s1, s2 = int(scores[0][0]), int(scores[0][1])
+                higher_score = max(s1, s2)
+                lower_score = min(s1, s2)
+
+                # Prioritize loss indicators to prevent false positive from "must-win"
+                is_loss = (
+                    "loss" in text
+                    or "lost" in text
+                    or "upset by" in text
+                    or "upset loss" in text
+                    or "stun chargers" in text
+                    or "stuns chargers" in text
+                    or "fell to" in text
+                    or "fall to" in text
+                    or "defeated by" in text
+                    or "wrong end" in text
+                    or "lose their" in text
+                )
+                is_win = (
+                    ("chargers win" in text or "chargers defeat" in text or "win over" in text or "victory over" in text or "chargers beat" in text)
+                    and not ("must-win" in text or "need a win" in text or "loss" in text or "lost" in text)
+                )
+
+                if is_loss:
+                    return f"Chargers {lower_score} - {higher_score} {game['opponent']}", "LOSS"
+                elif is_win:
+                    return f"Chargers {higher_score} - {lower_score} {game['opponent']}", "WIN"
+                else:
+                    if "loss" in text or "lost" in text or "lose" in text:
+                        return f"Chargers {lower_score} - {higher_score} {game['opponent']}", "LOSS"
+                    return f"Chargers {s1} - {s2} {game['opponent']}", "FINAL"
 
         return None, None
