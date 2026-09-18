@@ -278,6 +278,65 @@
             font-weight: 800;
         }
 
+        /* Dedicated Injury Tab Styles */
+        .injury-filter-bar {
+            display: flex;
+            gap: 6px;
+            overflow-x: auto;
+            padding: 2px 0 10px 0;
+            margin-bottom: 8px;
+            scrollbar-width: none;
+        }
+        .injury-filter-bar::-webkit-scrollbar { display: none; }
+
+        .injury-filter-btn {
+            background: var(--navy-card);
+            border: 1px solid var(--navy-border);
+            color: var(--text-muted);
+            padding: 6px 12px;
+            border-radius: 20px;
+            font-size: 0.76rem;
+            font-weight: 700;
+            cursor: pointer;
+            white-space: nowrap;
+            transition: all 0.2s;
+        }
+
+        .injury-filter-btn.active {
+            background: rgba(0, 128, 198, 0.2);
+            border-color: var(--powder-blue);
+            color: var(--powder-blue-light);
+        }
+
+        .injury-view-toggle {
+            display: flex;
+            background: var(--navy-surface);
+            border: 1px solid var(--navy-border);
+            border-radius: 8px;
+            padding: 3px;
+            margin-bottom: 14px;
+        }
+
+        .view-toggle-btn {
+            flex: 1;
+            background: transparent;
+            border: none;
+            color: var(--text-muted);
+            padding: 7px;
+            font-size: 0.78rem;
+            font-weight: 700;
+            border-radius: 6px;
+            cursor: pointer;
+            text-align: center;
+            transition: all 0.2s;
+        }
+
+        .view-toggle-btn.active {
+            background: var(--powder-blue);
+            color: #FFFFFF;
+            box-shadow: 0 2px 6px rgba(0, 128, 198, 0.4);
+        }
+
         /* Official Injury Report Table */
         .injury-table-wrap {
             width: 100%;
@@ -285,7 +344,7 @@
             border-radius: 10px;
             border: 1px solid var(--navy-border);
             background: var(--navy-surface);
-            margin-bottom: 16px;
+            margin-bottom: 14px;
             -webkit-overflow-scrolling: touch;
         }
 
@@ -320,12 +379,72 @@
             background: rgba(19, 42, 77, 0.4);
         }
 
+        /* Mobile Injury Cards */
+        .injury-card-list {
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+            margin-bottom: 14px;
+        }
+
+        .injury-player-card {
+            background: var(--navy-surface);
+            border: 1px solid var(--navy-border);
+            border-radius: 12px;
+            padding: 14px;
+            box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+        }
+
+        .injury-card-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 8px;
+        }
+
+        .injury-player-name {
+            font-size: 0.98rem;
+            font-weight: 800;
+            color: #FFFFFF;
+        }
+
+        .injury-pos-chip {
+            font-size: 0.72rem;
+            font-weight: 800;
+            color: var(--powder-blue-light);
+            background: rgba(0, 128, 198, 0.15);
+            border: 1px solid rgba(0, 128, 198, 0.4);
+            padding: 2px 6px;
+            border-radius: 4px;
+            margin-left: 4px;
+        }
+
+        .practice-matrix-row {
+            display: flex;
+            gap: 6px;
+            background: var(--navy-card);
+            padding: 8px 10px;
+            border-radius: 8px;
+            margin: 8px 0;
+            align-items: center;
+        }
+
+        .matrix-day {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            flex: 1;
+            font-size: 0.72rem;
+            color: var(--text-muted);
+            gap: 4px;
+        }
+
         /* Practice Status Chips */
         .badge-practice {
             display: inline-block;
-            min-width: 32px;
+            min-width: 34px;
             text-align: center;
-            padding: 2px 6px;
+            padding: 3px 6px;
             border-radius: 4px;
             font-weight: 800;
             font-size: 0.72rem;
@@ -689,37 +808,36 @@
             </div>
         </div>
 
-        <!-- TAB 4: ROSTER / INJURY -->
-        <div id="tab-roster" class="tab-view">
-            <!-- Header Banner -->
-            <div class="card card-blue-left">
+        <!-- TAB 4: DEDICATED INDEPENDENT INJURY REPORT TAB -->
+        <div id="tab-injury" class="tab-view">
+            <!-- Header Card with Live Status -->
+            <div class="card card-blue-left" style="background: linear-gradient(135deg, #0C2340 0%, #004D7A 100%);">
                 <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 6px;">
-                    <div class="card-header-title" style="color: var(--powder-blue-light); margin-bottom: 0;">
+                    <div class="card-header-title" style="color: #FFFFFF; margin-bottom: 0;">
                         <span>🏥</span>
                         <span id="injuryTableTitle">공식 NFL 부상 리포트</span>
                     </div>
-                    <span id="injuryLastUpdated" style="font-size: 0.72rem; color: var(--sunshine-gold); font-weight: 700;"></span>
+                    <span id="injuryLastUpdated" style="font-size: 0.72rem; color: var(--sunshine-gold); font-weight: 800; background: rgba(255,194,14,0.15); border: 1px solid var(--sunshine-gold); padding: 2px 8px; border-radius: 12px;"></span>
                 </div>
                 <p id="injurySummaryCounts" style="font-size: 0.85rem; color: #E2E8F0; line-height: 1.45;"></p>
             </div>
 
-            <!-- Legend Info Box -->
-            <div class="legend-card">
-                <div style="color: var(--sunshine-gold); font-weight: 800; font-size: 0.8rem; margin-bottom: 6px;">
-                    📌 공식 부상 리포트 표기 기준 (Practice & Status Guide)
-                </div>
-                <div class="legend-grid">
-                    <div class="legend-item"><span class="badge-practice badge-dnp">DNP</span> <span>훈련 전면 불참</span></div>
-                    <div class="legend-item"><span class="badge-practice badge-lp">LP</span> <span>제한적 훈련 참여</span></div>
-                    <div class="legend-item"><span class="badge-practice badge-fp">FP</span> <span>정상 훈련 소화</span></div>
-                    <div class="legend-item"><span class="badge-status badge-status-active">Active</span> <span>정상 출전 가능</span></div>
-                    <div class="legend-item"><span class="badge-status badge-status-questionable">Questionable</span> <span>출전 불투명 (50%)</span></div>
-                    <div class="legend-item"><span class="badge-status badge-status-out">Out / IR</span> <span>결장 / 부상자 명단</span></div>
-                </div>
+            <!-- Filter Pills Bar -->
+            <div class="injury-filter-bar">
+                <button class="injury-filter-btn active" onclick="filterInjuryStatus('ALL', this)">전체 명단 (<span id="countAll">0</span>)</button>
+                <button class="injury-filter-btn" onclick="filterInjuryStatus('OUT_IR', this)">🚨 결장 / IR (<span id="countOut">0</span>)</button>
+                <button class="injury-filter-btn" onclick="filterInjuryStatus('QUESTIONABLE', this)">⚠️ 출전 불투명 (<span id="countQuest">0</span>)</button>
+                <button class="injury-filter-btn" onclick="filterInjuryStatus('ACTIVE', this)">✅ 정상 출전 (<span id="countActive">0</span>)</button>
             </div>
 
-            <!-- Official Injury Report Table -->
-            <div class="injury-table-wrap">
+            <!-- View Switcher (Table vs Card) -->
+            <div class="injury-view-toggle">
+                <button class="view-toggle-btn active" id="btnViewTable" onclick="toggleInjuryView('table')">📊 공식 테이블 뷰</button>
+                <button class="view-toggle-btn" id="btnViewCards" onclick="toggleInjuryView('cards')">📱 스마트 카드 뷰</button>
+            </div>
+
+            <!-- View 1: Official Table View -->
+            <div id="injuryTableView" class="injury-table-wrap">
                 <table class="injury-table">
                     <thead>
                         <tr>
@@ -738,8 +856,28 @@
                 </table>
             </div>
 
-            <h3 style="font-size: 1rem; font-weight: 800; margin: 18px 0 10px 0;">📋 선수단 및 로스터 관련 기사</h3>
-            <div id="rosterArticlesContainer">
+            <!-- View 2: Mobile Player Cards View -->
+            <div id="injuryCardsView" class="injury-card-list" style="display: none;">
+                <!-- Injected via JS -->
+            </div>
+
+            <!-- Legend Info Box -->
+            <div class="legend-card">
+                <div style="color: var(--sunshine-gold); font-weight: 800; font-size: 0.8rem; margin-bottom: 6px;">
+                    📌 공식 부상 리포트 표기 기준 (Practice & Status Guide)
+                </div>
+                <div class="legend-grid">
+                    <div class="legend-item"><span class="badge-practice badge-dnp">DNP</span> <span>훈련 전면 불참 (Did Not Participate)</span></div>
+                    <div class="legend-item"><span class="badge-practice badge-lp">LP</span> <span>제한적 훈련 참여 (Limited)</span></div>
+                    <div class="legend-item"><span class="badge-practice badge-fp">FP</span> <span>정상 훈련 소화 (Full Practice)</span></div>
+                    <div class="legend-item"><span class="badge-status badge-status-active">Active</span> <span>정상 출전 가능</span></div>
+                    <div class="legend-item"><span class="badge-status badge-status-questionable">Questionable</span> <span>출전 불투명 (경기 당일 50%)</span></div>
+                    <div class="legend-item"><span class="badge-status badge-status-out">Out / IR</span> <span>결장 확정 / 부상자 명단</span></div>
+                </div>
+            </div>
+
+            <h3 style="font-size: 1rem; font-weight: 800; margin: 18px 0 10px 0;">🏥 부상 및 훈련 관련 속보</h3>
+            <div id="injuryArticlesContainer">
                 <!-- Injected via JS -->
             </div>
         </div>
@@ -768,9 +906,9 @@
             <span class="nav-icon">📅</span>
             <span>스케줄</span>
         </div>
-        <div class="nav-item" onclick="switchTab('roster', this)">
-            <span class="nav-icon">📋</span>
-            <span>부상/로스터</span>
+        <div class="nav-item" onclick="switchTab('injury', this)">
+            <span class="nav-icon">🏥</span>
+            <span>부상 리포트</span>
         </div>
         <div class="nav-item" onclick="switchTab('all', this)">
             <span class="nav-icon">📰</span>
@@ -876,58 +1014,21 @@
                 takeawaysList.appendChild(li);
             });
 
-            // 3. Injury & Official Injury Report Table Render
+            // 3. Dedicated Injury Report Tab Render
             document.getElementById('injuryStatus').textContent = briefing.injury_update || '특이사항 없음';
             
             const injuryData = briefing.injury_report_table || {};
             const injuryTitleEl = document.getElementById('injuryTableTitle');
             const injuryDateEl = document.getElementById('injuryLastUpdated');
             const injurySummaryCountsEl = document.getElementById('injurySummaryCounts');
-            const injuryTbody = document.getElementById('injuryTableBody');
 
             if (injuryTitleEl) injuryTitleEl.textContent = injuryData.title || 'LA Chargers 공식 부상 리포트';
-            if (injuryDateEl) injuryDateEl.textContent = injuryData.last_updated ? '기준일: ' + injuryData.last_updated : '';
+            if (injuryDateEl) injuryDateEl.textContent = injuryData.last_updated ? injuryData.last_updated + ' 기준' : '최신 업데이트';
             if (injurySummaryCountsEl) injurySummaryCountsEl.textContent = injuryData.summary_counts || briefing.injury_update || '특이사항 없음';
 
-            if (injuryTbody) {
-                injuryTbody.innerHTML = '';
-                const players = injuryData.players || [];
-                if (players.length === 0) {
-                    injuryTbody.innerHTML = `<tr><td colspan="7" style="text-align:center; padding: 20px; color: var(--text-muted);">현재 등재된 부상자 명단이 없습니다.</td></tr>`;
-                } else {
-                    players.forEach(p => {
-                        const tr = document.createElement('tr');
-                        
-                        const getPracticeBadge = (val) => {
-                            const v = (val || '-').toUpperCase();
-                            if (v === 'DNP') return `<span class="badge-practice badge-dnp">DNP</span>`;
-                            if (v === 'LP') return `<span class="badge-practice badge-lp">LP</span>`;
-                            if (v === 'FP') return `<span class="badge-practice badge-fp">FP</span>`;
-                            return `<span style="color:var(--text-muted);">-</span>`;
-                        };
-
-                        const getStatusBadge = (code, text) => {
-                            const c = (code || '').toUpperCase();
-                            if (c === 'ACTIVE') return `<span class="badge-status badge-status-active">Active</span>`;
-                            if (c === 'QUESTIONABLE') return `<span class="badge-status badge-status-questionable">Questionable</span>`;
-                            if (c === 'OUT') return `<span class="badge-status badge-status-out">Out</span>`;
-                            if (c === 'IR') return `<span class="badge-status badge-status-ir">IR / PUP</span>`;
-                            return `<span class="badge-status badge-status-active">${text || 'Active'}</span>`;
-                        };
-
-                        tr.innerHTML = `
-                            <td><strong style="color: #FFFFFF; font-size: 0.88rem;">${p.player}</strong> <span style="font-size: 0.75rem; color: var(--powder-blue-light); font-weight: 700;">(${p.position})</span></td>
-                            <td style="color: #E2E8F0; font-size: 0.8rem; font-weight: 600;">${p.injury}</td>
-                            <td style="text-align: center;">${getPracticeBadge(p.wednesday)}</td>
-                            <td style="text-align: center;">${getPracticeBadge(p.thursday)}</td>
-                            <td style="text-align: center;">${getPracticeBadge(p.friday)}</td>
-                            <td>${getStatusBadge(p.status_code, p.game_status)}</td>
-                            <td style="font-size: 0.78rem; color: var(--text-muted); line-height: 1.4;">${p.status_detail || '-'}</td>
-                        `;
-                        injuryTbody.appendChild(tr);
-                    });
-                }
-            }
+            allInjuryPlayers = injuryData.players || [];
+            updateInjuryCounts(allInjuryPlayers);
+            renderInjuryData(allInjuryPlayers);
 
             // 4. Game Center
             const gc = briefing.game_center || {};
@@ -956,7 +1057,7 @@
             const nextGame = sched.next_game || {};
             
             const recordEl = document.getElementById('seasonRecordBadge');
-            if (recordEl) recordEl.textContent = sched.record || '0승 0패';
+            if (recordEl) recordEl.textContent = sched.record || '0승 1패';
             
             if (nextGame && nextGame.opponent) {
                 const ddayEl = document.getElementById('nextMatchDDay');
@@ -1018,15 +1119,153 @@
             renderArticleCards(articles);
         }
 
+        let allInjuryPlayers = [];
+
+        function updateInjuryCounts(players) {
+            const outCount = players.filter(p => p.status_code === 'OUT' || p.status_code === 'IR').length;
+            const questCount = players.filter(p => p.status_code === 'QUESTIONABLE').length;
+            const activeCount = players.filter(p => p.status_code === 'ACTIVE').length;
+
+            const cAll = document.getElementById('countAll');
+            const cOut = document.getElementById('countOut');
+            const cQuest = document.getElementById('countQuest');
+            const cActive = document.getElementById('countActive');
+
+            if (cAll) cAll.textContent = players.length;
+            if (cOut) cOut.textContent = outCount;
+            if (cQuest) cQuest.textContent = questCount;
+            if (cActive) cActive.textContent = activeCount;
+        }
+
+        function filterInjuryStatus(filterType, btn) {
+            document.querySelectorAll('.injury-filter-btn').forEach(b => b.classList.remove('active'));
+            if (btn) btn.classList.add('active');
+
+            let filtered = allInjuryPlayers;
+            if (filterType === 'OUT_IR') {
+                filtered = allInjuryPlayers.filter(p => p.status_code === 'OUT' || p.status_code === 'IR');
+            } else if (filterType === 'QUESTIONABLE') {
+                filtered = allInjuryPlayers.filter(p => p.status_code === 'QUESTIONABLE');
+            } else if (filterType === 'ACTIVE') {
+                filtered = allInjuryPlayers.filter(p => p.status_code === 'ACTIVE');
+            }
+
+            renderInjuryData(filtered);
+        }
+
+        function toggleInjuryView(viewType) {
+            const tableWrap = document.getElementById('injuryTableView');
+            const cardsWrap = document.getElementById('injuryCardsView');
+            const btnTable = document.getElementById('btnViewTable');
+            const btnCards = document.getElementById('btnViewCards');
+
+            if (viewType === 'table') {
+                tableWrap.style.display = 'block';
+                cardsWrap.style.display = 'none';
+                btnTable.classList.add('active');
+                btnCards.classList.remove('active');
+            } else {
+                tableWrap.style.display = 'none';
+                cardsWrap.style.display = 'flex';
+                btnCards.classList.add('active');
+                btnTable.classList.remove('active');
+            }
+        }
+
+        function getPracticeBadge(val) {
+            const v = (val || '-').toUpperCase();
+            if (v === 'DNP') return `<span class="badge-practice badge-dnp">DNP</span>`;
+            if (v === 'LP') return `<span class="badge-practice badge-lp">LP</span>`;
+            if (v === 'FP') return `<span class="badge-practice badge-fp">FP</span>`;
+            return `<span style="color:var(--text-muted); font-size:0.75rem;">-</span>`;
+        }
+
+        function getStatusBadge(code, text) {
+            const c = (code || '').toUpperCase();
+            if (c === 'ACTIVE') return `<span class="badge-status badge-status-active">Active</span>`;
+            if (c === 'QUESTIONABLE') return `<span class="badge-status badge-status-questionable">Questionable</span>`;
+            if (c === 'OUT') return `<span class="badge-status badge-status-out">Out</span>`;
+            if (c === 'IR') return `<span class="badge-status badge-status-ir">IR / PUP</span>`;
+            return `<span class="badge-status badge-status-active">${text || 'Active'}</span>`;
+        }
+
+        function renderInjuryData(players) {
+            const injuryTbody = document.getElementById('injuryTableBody');
+            const injuryCardsView = document.getElementById('injuryCardsView');
+
+            if (injuryTbody) {
+                injuryTbody.innerHTML = '';
+                if (players.length === 0) {
+                    injuryTbody.innerHTML = `<tr><td colspan="7" style="text-align:center; padding: 25px; color: var(--text-muted);">해당 조건의 등재 선수가 없습니다.</td></tr>`;
+                } else {
+                    players.forEach(p => {
+                        const tr = document.createElement('tr');
+                        tr.innerHTML = `
+                            <td><strong style="color: #FFFFFF; font-size: 0.88rem;">${p.player}</strong> <span style="font-size: 0.74rem; color: var(--powder-blue-light); font-weight: 800;">(${p.position})</span></td>
+                            <td style="color: #E2E8F0; font-size: 0.8rem; font-weight: 600;">${p.injury}</td>
+                            <td style="text-align: center;">${getPracticeBadge(p.wednesday)}</td>
+                            <td style="text-align: center;">${getPracticeBadge(p.thursday)}</td>
+                            <td style="text-align: center;">${getPracticeBadge(p.friday)}</td>
+                            <td>${getStatusBadge(p.status_code, p.game_status)}</td>
+                            <td style="font-size: 0.78rem; color: var(--text-muted); line-height: 1.4;">${p.status_detail || '-'}</td>
+                        `;
+                        injuryTbody.appendChild(tr);
+                    });
+                }
+            }
+
+            if (injuryCardsView) {
+                injuryCardsView.innerHTML = '';
+                if (players.length === 0) {
+                    injuryCardsView.innerHTML = `<div style="text-align:center; padding: 25px; color: var(--text-muted);">해당 조건의 등재 선수가 없습니다.</div>`;
+                } else {
+                    players.forEach(p => {
+                        const card = document.createElement('div');
+                        card.className = 'injury-player-card';
+                        card.innerHTML = `
+                            <div class="injury-card-header">
+                                <div>
+                                    <span class="injury-player-name">${p.player}</span>
+                                    <span class="injury-pos-chip">${p.position}</span>
+                                </div>
+                                <div>${getStatusBadge(p.status_code, p.game_status)}</div>
+                            </div>
+                            <div style="font-size: 0.82rem; color: var(--sunshine-gold); font-weight: 700; margin-bottom: 6px;">
+                                🏥 ${p.injury}
+                            </div>
+                            <div class="practice-matrix-row">
+                                <div class="matrix-day">
+                                    <span>수 (Wed)</span>
+                                    ${getPracticeBadge(p.wednesday)}
+                                </div>
+                                <div class="matrix-day">
+                                    <span>목 (Thu)</span>
+                                    ${getPracticeBadge(p.thursday)}
+                                </div>
+                                <div class="matrix-day">
+                                    <span>금 (Fri)</span>
+                                    ${getPracticeBadge(p.friday)}
+                                </div>
+                            </div>
+                            <div style="font-size: 0.78rem; color: #CBD5E1; line-height: 1.45; background: rgba(0,0,0,0.2); padding: 8px 10px; border-radius: 6px;">
+                                💡 ${p.status_detail || '특이사항 없음'}
+                            </div>
+                        `;
+                        injuryCardsView.appendChild(card);
+                    });
+                }
+            }
+        }
+
         function renderArticleCards(articles) {
             const topHighlightsContainer = document.getElementById('topHighlightsContainer');
             const gameArticlesContainer = document.getElementById('gameArticlesContainer');
-            const rosterArticlesContainer = document.getElementById('rosterArticlesContainer');
+            const injuryArticlesContainer = document.getElementById('injuryArticlesContainer');
             const allArticlesContainer = document.getElementById('allArticlesContainer');
 
             topHighlightsContainer.innerHTML = '';
             gameArticlesContainer.innerHTML = '';
-            rosterArticlesContainer.innerHTML = '';
+            injuryArticlesContainer.innerHTML = '';
             allArticlesContainer.innerHTML = '';
 
             // Top Highlights (Score >= 75)
@@ -1040,7 +1279,7 @@
                     gameArticlesContainer.appendChild(createCard(art));
                 }
                 if (art.category_key === 'injury' || art.category_key === 'roster') {
-                    rosterArticlesContainer.appendChild(createCard(art));
+                    injuryArticlesContainer.appendChild(createCard(art));
                 }
             });
         }
