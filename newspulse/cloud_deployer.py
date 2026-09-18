@@ -57,7 +57,48 @@ def push_to_github(token: str, repo_name: str, private: bool = False):
             except Exception as ex:
                 logger.warning(f"Failed to upload {rel_path}: {ex}")
 
-    print(f"🎉 총 {files_uploaded}개 파일의 GitHub 업로드가 완료되었습니다!", flush=True)
+    print(f"🎉 총 {files_uploaded}개 파일의 GitHub (main 브랜치) 업로드가 완료되었습니다!", flush=True)
+
+    # 2. Sync gh-pages branch for GitHub Pages PWA hosting
+    print("🚀 GitHub Pages (gh-pages 브랜치) 웹 앱 배포 중...", flush=True)
+    try:
+        # Check if gh-pages branch exists
+        try:
+            repo.get_branch("gh-pages")
+        except GithubException:
+            # Create gh-pages branch from main
+            main_branch = repo.get_branch("main")
+            repo.create_git_ref(ref="refs/heads/gh-pages", sha=main_branch.commit.sha)
+
+        gh_pages_files = {
+            "index.html": root_dir / "newspulse" / "mobile" / "static" / "index.html",
+            "manifest.json": root_dir / "newspulse" / "mobile" / "static" / "manifest.json",
+            "service-worker.js": root_dir / "newspulse" / "mobile" / "static" / "service-worker.js",
+            "latest_mobile_data.json": root_dir / "reports" / "latest_mobile_data.json",
+        }
+
+        # Also add icon files
+        icons_dir = root_dir / "newspulse" / "mobile" / "static" / "icons"
+        if icons_dir.exists():
+            for icon_file in icons_dir.glob("*"):
+                if icon_file.is_file():
+                    gh_pages_files[f"icons/{icon_file.name}"] = icon_file
+
+        for target_path, src_path in gh_pages_files.items():
+            if src_path.exists():
+                with open(src_path, "rb") as f:
+                    content = f.read()
+                try:
+                    contents = repo.get_contents(target_path, ref="gh-pages")
+                    repo.update_file(contents.path, f"⚡ Deploy {target_path}", content, contents.sha, branch="gh-pages")
+                except GithubException:
+                    repo.create_file(target_path, f"⚡ Deploy {target_path}", content, branch="gh-pages")
+
+        print("✨ GitHub Pages (gh-pages) 배포 완료!", flush=True)
+        print(f"📱 실시간 모바일 PWA 웹사이트: https://{user.login.lower()}.github.io/{repo_name}/", flush=True)
+    except Exception as e:
+        logger.warning(f"gh-pages deployment note: {e}")
+
     print(f"🌐 24시간 클라우드 저장소 주소: {repo.html_url}", flush=True)
     print(f"⚡ GitHub Actions를 통한 24/7 주간 자동 실행이 활성화되었습니다.", flush=True)
     return repo.html_url
