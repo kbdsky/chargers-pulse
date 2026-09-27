@@ -49,32 +49,45 @@ class GameAnalyzer:
                 "defense_notes": "Jesse Minter 수비 코디네이터 지휘 아래 Khalil Mack, Tuli Tuipulotu, Bud Dupree의 강력한 엣지 패스 러시 가동",
             }
 
-        # 2. Determine current opponent and matchup
-        latest_opponent = None
+        # 2. Determine current opponent and matchup based on mention frequency
+        opp_counts = {}
         for art in valid_game_articles:
             text = f"{art.get('title', '')} {art.get('summary', '')}".lower()
             for opp_key, opp_val in NFL_TEAMS.items():
                 if opp_key in ["chargers", "los angeles", "la"]:
                     continue
                 if re.search(r"\b" + re.escape(opp_key) + r"\b", text):
-                    latest_opponent = opp_val
-                    break
-            if latest_opponent:
-                break
+                    opp_counts[opp_val] = opp_counts.get(opp_val, 0) + 1
 
-        if not latest_opponent:
-            latest_opponent = "Las Vegas Raiders (LV Raiders)"
+        if opp_counts:
+            latest_opponent = max(opp_counts.items(), key=lambda x: x[1])[0]
+        else:
+            try:
+                from .schedule_manager import ScheduleManager
+                sched = ScheduleManager().get_schedule_data()
+                latest_opponent = sched.get("next_game", {}).get("opponent", "Buffalo Bills (BUF Bills)")
+            except Exception:
+                latest_opponent = "Buffalo Bills (BUF Bills)"
 
-        if "raiders" in latest_opponent.lower():
-            game_type = "2026 정규시즌 2주차 (SoFi Stadium / AFC West 라이벌전)"
-            game_status = "킥오프 대기 (2주차 라이벌전)"
-            offense_notes = "1주차 침묵을 깬 QB Justin Herbert의 딥패스 부활 및 Ladd McConkey 부상 공백을 메울 리시빙 코어 가동"
-            defense_notes = "Jesse Minter 수비 코디네이터의 변칙 블리츠 스킴, Khalil Mack·Tuli Tuipulotu·Bud Dupree의 엣지 압박 및 All-Pro 세이프티 Derwin James Jr. 중심의 타이트엔드/슬롯 차단"
+        if "bills" in latest_opponent.lower():
+            game_type = "2026 정규시즌 3주차 (Highmark Stadium / 원정)"
+            game_status = "오늘 킥오프 대기 (3주차 버팔로 원정)"
+            offense_notes = "Mike McDaniel OC 체제 공격진 전술 정비, QB Justin Herbert와 리시버진의 패싱 게임 부활 및 Joe Alt, Rashawn Slater의 오펜시브 라인 수호"
+            defense_notes = "Jesse Minter 수비 코디네이터 지휘 아래 Josh Allen 봉쇄, Khalil Mack·Tuli Tuipulotu·Bud Dupree의 엣지 패스 러시 및 All-Pro 세이프티 Derwin James Jr.의 수비 라인 지휘"
             highlights = [
-                "🏈 **2026 NFL 2주차 AFC West 라이벌전**: SoFi Stadium에서 열리는 Las Vegas Raiders와의 홈 맞대결",
-                "🔥 **반등을 위한 필승전**: 1주차 Cardinals전 패배(14-26)를 딛고 분위기 반전을 노리는 Jim Harbaugh호의 총력전",
-                "🏈 **공격진 핵심 관전 포인트**: QB Justin Herbert의 패싱 어택 정상화 및 Joe Alt, Rashawn Slater의 오펜시브 라인 수호",
-                "🏈 **수비진 핵심 관전 포인트**: Khalil Mack, Tuli Tuipulotu, Bud Dupree의 패스 러시 및 Derwin James Jr.의 전방위 수비 지휘"
+                "🏈 **2026 NFL 3주차 AFC 격돌**: Highmark Stadium에서 열리는 Buffalo Bills와의 험난한 원정 매치업",
+                "🔥 **시즌 첫 승 도전**: 개막 후 2연패(Cardinals 14-26, Raiders 14-26)를 끊어내고 반등의 불씨를 살려야 하는 Jim Harbaugh호의 총력전",
+                "🏈 **공격진 핵심 관전 포인트**: Mike McDaniel OC의 공격 전술 정상화 및 QB Justin Herbert의 득점권 해결 능력",
+                "🏈 **수비진 핵심 관전 포인트**: Josh Allen을 필두로 한 Bills 화력을 제어할 Khalil Mack, Tuli Tuipulotu, Derwin James Jr.의 수비 조직력"
+            ]
+        elif "raiders" in latest_opponent.lower():
+            game_type = "2026 정규시즌 2주차 (SoFi Stadium / AFC West 라이벌전)"
+            game_status = "14 - 26 (패배)"
+            offense_notes = "QB Justin Herbert 중심의 패싱 전술과 Joe Alt, Rashawn Slater의 태클 프로텍션"
+            defense_notes = "Khalil Mack, Tuli Tuipulotu, Bud Dupree의 엣지 압박 및 Derwin James Jr.의 수비 조율"
+            highlights = [
+                "🏈 **2026 NFL 2주차 경기 결과**: Las Vegas Raiders에 14-26 패배 (시즌 0승 2패)",
+                "🏈 **Jim Harbaugh 감독 체제 점검**: 턴오버 억제 및 공격 전술 재정비 필요",
             ]
         elif "cardinals" in latest_opponent.lower():
             game_type = "2026 정규시즌 1주차 (SoFi Stadium)"
