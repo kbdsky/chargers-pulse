@@ -1,26 +1,36 @@
 {
   "trending_keywords": [
+    "mike mcdaniel",
     "justin herbert",
-    "herbert shines",
-    "shines harbaugh",
-    "harbaugh praises",
-    "praises defense",
-    "Justin Herbert",
+    "link comments",
+    "yahoo sports",
+    "injury report",
     "Jim Harbaugh",
-    "The Los Angeles Chargers",
-    "justin",
+    "Los Angeles Chargers",
+    "Justin Herbert",
+    "Yahoo Sports",
+    "Buffalo Bills",
+    "bills",
     "herbert",
-    "shines",
-    "harbaugh",
-    "praises",
-    "defense"
+    "raiders",
+    "mike",
+    "mcdaniel",
+    "harbaugh"
   ],
   "emerging_players": [
-    "Justin Herbert",
     "Jim Harbaugh",
-    "The Los Angeles Chargers"
+    "Los Angeles Chargers",
+    "Justin Herbert",
+    "Yahoo Sports",
+    "Buffalo Bills",
+    "The Chargers"
   ],
-  "opponents": [],
+  "opponents": [
+    "버팔로 빌스 (BUF Bills)",
+    "라스베이거스 레이더스 (LV Raiders)",
+    "애리조나 카디널스 (ARI Cardinals)",
+    "그린베이 패커스 (GB Packers)"
+  ],
   "expanded_queries": [
     "Los Angeles Chargers",
     "LA Chargers",
@@ -30,8 +40,8 @@
     "Chargers vs Bills",
     "Chargers injury report",
     "Chargers game recap",
-    "Chargers Justin Herbert",
-    "Chargers Jim Harbaugh"
+    "Chargers Jim Harbaugh",
+    "Chargers Los Angeles Chargers"
   ],
-  "last_updated": "2026-09-27T22:22:16.928462"
+  "last_updated": "2026-09-27T22:31:26.457037"
 }
