@@ -1,16 +1,16 @@
 # ⚡ LA Chargers 종합 뉴스 인텔리전스 주간 리포트
-> 📅 **생성 일시:** 2026-09-27 22:21:59 | ⚡ **전수 수집 기사:** 111건 | 🏈 **팀:** Los Angeles Chargers (NFL)
+> 📅 **생성 일시:** 2026-09-27 22:31:26 | ⚡ **전수 수집 기사:** 112건 | 🏈 **팀:** Los Angeles Chargers (NFL)
 
 ## ⚡ 팀 총괄 주간 브리핑 (Executive Summary)
-### ⚡ LA Chargers 주간 인텔리전스 종합 리포트 (총 111건 정밀 분석)
+### ⚡ LA Chargers 주간 인텔리전스 종합 리포트 (총 112건 정밀 분석)
 
 #### 📌 핵심 주요 사항
-- ⚡ **스마트 큐레이션 및 중복 제거**: 총 111건의 언론 기사를 정밀 클러스터링하여 핵심 이슈 위주로 요약했습니다.
+- ⚡ **스마트 큐레이션 및 중복 제거**: 총 112건의 언론 기사를 정밀 클러스터링하여 핵심 이슈 위주로 요약했습니다.
 - 🏈 **매치업 포커스**: 2026 정규시즌 3주차 (Highmark Stadium / 원정) (상대: 버팔로 빌스 (BUF Bills))
-- 🎯 **집중 조명된 핵심 인물**: Mike McDaniel (OC)(20건), Jim Harbaugh (HC)(19건), Justin Herbert (QB)(18건)
+- 🎯 **집중 조명된 핵심 인물**: Justin Herbert (QB)(19건), Mike McDaniel (OC)(19건), Jim Harbaugh (HC)(19건)
 - 🔥 **헤드라인 키워드**: mike mcdaniel, justin herbert, link comments, yahoo sports
 
-**🔥 실시간 트렌드 키워드:** `#mike mcdaniel`, `#justin herbert`, `#link comments`, `#yahoo sports`, `#injury report`, `#Jim Harbaugh`, `#Los Angeles Chargers`, `#Justin Herbert`, `#Yahoo Sports`, `#Buffalo Bills`, `#bills`, `#mike`, `#mcdaniel`, `#raiders`, `#harbaugh`, `#herbert`
+**🔥 실시간 트렌드 키워드:** `#mike mcdaniel`, `#justin herbert`, `#link comments`, `#yahoo sports`, `#injury report`, `#Jim Harbaugh`, `#Los Angeles Chargers`, `#Justin Herbert`, `#Yahoo Sports`, `#Buffalo Bills`, `#bills`, `#herbert`, `#raiders`, `#mike`, `#mcdaniel`, `#harbaugh`
 
 **📋 부상 및 53인 로스터 동향:** 부상 리포트 공식 테이블(Injury Report Table)에서 상세 출전 상태 및 연습 참가 여부(DNP/LP/FP)를 확인하세요.
 
@@ -54,7 +54,7 @@
 
 ## 📰 전체 수집 뉴스 카테고리별 아카이브
 
-### ⚡ 경기 결과 및 프리뷰 소식 (51건)
+### ⚡ 경기 결과 및 프리뷰 소식 (52건)
 
 #### [NFL 분석가는 Chargers의 Justin Herbert의 가장 큰 약점은 Bills에 비해 전체 화면에 표시될 것이라고 말합니다.](https://news.google.com/rss/articles/CBMiwgFBVV95cUxNdkFEUXZTei1sVEZZNnk0MDJoZXdyUEE3ZEh5dy1sSlhHa1VwblY2QjBxdDQ5Um5sY1VCUk1DbjZ0VjhCd3UtOW4xWWpJVmlYSmh3cDB3MEFlNl9YSnhVUlZWUXVYNmsyMlhJVjFjQVhsSzNyWEJ4MmJ0NlRvRl9EVjN0TUR1RTR4Qml2cEdFTFF1RzdrbzZ0SHBqM2xkM0lqOVg3Mkp0VTN3LS16YndDSlZVNk9USzFlTWtqRmJIZk1oZw?oc=5) `[점수:100]`
 *출처: Chargers Wire | 일자: 2026-09-26*
@@ -125,9 +125,9 @@
 - 🏈 **전술 관전 포인트**: Jim Harbaugh 감독 및 코칭스태프의 피지컬 중심 미식축구 철학이 반영된 행보입니다.
 
 #### [Bills 대 Chargers 부상 업데이트: Buffalo는 좋은 소식을 접하고 LA는 여러 선수를 잃습니다.](https://news.google.com/rss/articles/CBMijwJBVV95cUxQWUhtaDVObENsX3VodjhuanpUT0VrZ21VTkJybGpvYXg4dDNfQ0dyYmZnalllMEpfYV9UQ1R2ZjJvbmJwSFdDSDFsd3B2Q2VEMjFYVEJpSlpaRnJtTzd0MFlJUDBLaTBMc2RCWHJ3SjlYVHNqbWYzNXJLWDVSeXFwdHVrUVZCOHljY2Z6dURGU3NmcndMOG1jU0JMc1dXS21QdV9UczREOXl0azYwRHZtNlZRdUw3YjY4czVsNkFscXkweWFQYmprenB1ZUJhRDNlVm9qWHVYVkt4czN6Qlk0NVd3RG1YdDNLbTltVjF5SW1UWDY1cTRiQ2hXbFZNcElvTEgwUzFyYk9lSF94RHBv?oc=5) `[점수:90]`
-*출처: Democrat and Chronicle | 일자: 2026-09-21*
+*출처: democratandchronicle.com | 일자: 2026-09-21*
 - **원제:** Bills vs. Chargers injury update: Buffalo gets good news, LA loses several players
-- ⚡ **핵심 소식**: Chargers 부상 업데이트: Buffalo는 좋은 소식을 접하고 LA는 여러 선수 민주당 및 크로니클을 잃습니다.
+- ⚡ **핵심 소식**: Chargers 부상 업데이트: Buffalo는 좋은 소식을 접하고 LA는 여러 선수를 잃었습니다.democratandchronicle.com
 
 #### [NFL Week 3의 Chargers 대 청구서 예측, 선택, 승률](https://news.google.com/rss/articles/CBMiigFBVV95cUxOT3owdldjVnpFYnZSa1R0LWxYYkE5OFpodmhJVnRsemVUNjNMaHNaZUVVX2pReGM4dGQzZDhUT1NhYVIwMHNJZnlQWFdDSTFRYWlpUlBZYkxrVkx6dUhFakdoT0YwWV9uUWFLam1JNFV1M3VYbTJHbVBXZThXMmFkcTZ3YnItd0VEMFE?oc=5) `[점수:85]`
 *출처: Yahoo Sports | 일자: 2026-09-27*
@@ -144,6 +144,11 @@
 *출처: Bolts From The Blue (SB Nation) | 일자: 2026-09-23*
 - **원제:** Chargers signing WR Marquez Valdez-Scantling to active roster
 - ⚡ **핵심 소식**: Chargers는 2주 차에 그를 연습에 영입한 후 베테랑 와이드 리시버 Marquez Valdez-Scantling을 현역 명단에 올릴 예정입니다. 이러한 움직임은 Chargers가 타이트한 계약에 이어 와이드 리시버 Greg Jennings를 출시한 이후에 나온 것입니다.
+
+#### [이제 Bolt Up할 시간입니다. 오늘 우리가 승리했습니다 ⚡️⚡️⚡️](https://www.reddit.com/r/Chargers/comments/1wrk374/time_to_bolt_up_today_we_win/) `[점수:80]`
+*출처: Reddit r/Chargers | 일자: 2026-09-27*
+- **원제:** Time to Bolt Up, today we win ⚡️⚡️⚡️
+- ⚡ **핵심 소식**: 이제 Bolt Up할 시간입니다. 오늘 우리가 승리했습니다 ⚡️⚡️⚡️
 
 #### [Chargers vs. Bills 시청 방법: 9월 27일 TV 채널 및 스트리밍 옵션 - The Athletic](https://news.google.com/rss/articles/CBMinwFBVV95cUxQSlFhM1RmcC02aUhSeDdtQ3BOT3lRQjR5U0M4VTJhQXZIWVZfelI5N2t3elJhNGNrTlZUQkdxT0dBTGU5RndaT0llX29IN3hseXZ3akEzYzVsNTg4eng1TGk1eTFQN3c0U1QwSDhVd1p3OUI0NktwZEtxQ1JncFZjYnNvaHd4RXFyS0RwQWYxRV9HU19zdTAyV3AtYlhXbUU?oc=5) `[점수:80]`
 *출처: The New York Times | 일자: 2026-09-26*
@@ -178,15 +183,10 @@
 - ⚡ **핵심 소식**: NFL 감독 핫 시트 순위: Chargers의 0-2 출발 이후 3주차에 살얼음판 위에서 Jim Harbaugh CBS Sports
 - 🏈 **전술 관전 포인트**: Jim Harbaugh 감독 및 코칭스태프의 피지컬 중심 미식축구 철학이 반영된 행보입니다.
 
-#### [3주차 경기에 대한 8개 이상의 Bills vs. Chargers 예측, 점수, 확률](https://news.google.com/rss/articles/CBMi6wFBVV95cUxOSVA5cjNxbUtIT1VqYjRyaEJabk9nNnlkN3BMQ1BpS0VmRTNhUGtnY09wREZtalBUSlZtWWx5TEt4STVhaUExdEpnQ2pDUm5mcUxTeHdVczF5YTA4LXVHTDVsRUpwREZJbWdqUmZjMENMTmtlZ2U5VHFOU1pWVTdsS3hKTTk1VjhNTEd1ZXFmTTNoZHpSbFhMN2hTazVGcUFlM2xGX1c4MXRZclVWd3lLdlBPUWpiaVFHT3REQktrbkZnRm41eGswdkZRVlJRbV83MVc1NDYyZEo0dmNwX0Myc0RlMHBCeHJXcS1v?oc=5) `[점수:75]`
-*출처: Democrat and Chronicle | 일자: 2026-09-26*
-- **원제:** 8 more Bills vs. Chargers predictions, scores, odds for Week 3 game
-- ⚡ **핵심 소식**: 3주차 민주당 및 크로니클 경기에 대한 8개 이상의 Bills vs. Chargers 예측, 점수, 확률
-
 #### [Mike McDaniel이 3주 차에 Chargers의 공격을 조정하기 위해 서둘러야 할 때 찾아야 할 4가지](https://news.google.com/rss/articles/CBMiqAFBVV95cUxPQTN2QXF6dld5bm8wTGJydkhUaFNVOGNldUtocmd4bkRwLWlTcldVei1yX2drVDg3enBMUWdmRzlmSm9rMlBsX0ZRZkxpU21pb1BZblJCd2dHRFduMWdQRkNlTWRQSUM2SlR6bEpqYkVyLWtHQXExSURpYTk1WlhhejVoN1dqaGdLYnJaTU1KZWZSeDRHT1A1dnNObDA0WlpXQkRtMC1DdWs?oc=5) `[점수:75]`
-*출처: Bolt Beat | 일자: 2026-09-26*
+*출처: boltbeat.com | 일자: 2026-09-26*
 - **원제:** 4 things to look for as Mike McDaniel rushes to tweak the Chargers offense in Week 3
-- ⚡ **핵심 소식**: Mike McDaniel이 3주 차 Bolt Beat에서 Chargers 공격을 조정하기 위해 서두르는 동안 찾아야 할 4가지
+- ⚡ **핵심 소식**: Mike McDaniel이 3주차에 Chargers의 공격을 조정하기 위해 서두르는 동안 찾아야 할 4가지 boltbeat.com
 - 🏈 **공격 전술 관전 포인트**: Mike McDaniel 신임 오펜시브 코디네이터의 전술 안착과 QB Justin Herbert의 플레이메이킹 극대화가 핵심 과제입니다.
 
 #### [Bills 대 Chargers 예측: Buffalo의 공격이 3주차에 지배적일 수 있습니다.](https://news.google.com/rss/articles/CBMiowFBVV95cUxObUpGWG1xNFVma1NFTk9tSkpndFl2bWpaY1BCSi1ESWpYMmRNWktmUTZkNU9fLXJvWG9sSVhXbTRabWdlbWpETkRIREtVbEJjd2VGck1DamxwekdnWEVwNElnSFlfVF90a0t4MkJDWG02NVBwY05fSkwwRjNBckozQzBRSDFjZl9uTXVNbGhCZDAxT3hCZGQzeGJ1WGh4NmdicmhJ?oc=5) `[점수:75]`
@@ -200,9 +200,9 @@
 - ⚡ **핵심 소식**: Buffalo Bills: 시청 방법, 시작 시간, 확률 및 예측 Los Angeles Times
 
 #### [오차드 파크 경기 조건에 대한 Bills vs Chargers 일기 예보](https://news.google.com/rss/articles/CBMi7wFBVV95cUxNR1pReXNQSHJESnRwSk1QNlRDdktYd1hnaEZsaFJHcVBucXdhSHAtMlYxZVdydW1lQlJsamRON3RZYmVtdXczV3lfQTVVWWh1V0Ezb1hvd1RnZm1DNlp0YUN2VTJfZy1KdjNlSWtTcFphTWZhSzQxbXk2VDFHMzNGRWJLZUpXVDZqNGhZOFhVX2ljUG9aRWR5ZGMwSGZjU3ZOSmk1ZXpWR3loaDd5anFQMzh0RGZCb1hJWEJnbmRJSDk5a3NBS3lRVmFiUlpCc1dmd2l3NGF6cWw0VzJGVm5WSmhvUGtGbktUSDBheWhHcw?oc=5) `[점수:75]`
-*출처: Democrat and Chronicle | 일자: 2026-09-25*
+*출처: democratandchronicle.com | 일자: 2026-09-25*
 - **원제:** Bills vs Chargers weather forecast for game conditions in Orchard Park
-- ⚡ **핵심 소식**: Orchard Park Democratic 및 Chronicle의 게임 조건에 대한 Bills vs Chargers 일기 예보
+- ⚡ **핵심 소식**: 오차드 파크의 경기 상황에 대한 Bills vs Chargers 일기 예보democratandchronicle.com
 
 #### [Los Angeles Chargers 뉴스: Mike McDaniel의 런 게임이 사상 최저치에 가까워졌습니다.](https://news.google.com/rss/articles/CBMivAFBVV95cUxOT2JEODBkQzZ1T0FVOHBQc2h4WHNKcVFsNTgzZGhYYXA2anNTWWVSNnZjTzFfTHU5dkphZjJyQ1o5MkpudUMxcTJteDlSQmtlcFRZaVdnREd0VVp3aWtHbnNGOXN5eHB2YWNLYzRrNG04R3FYdWd5dFY5bTExdWxPYkFZZEt1T0RCVmF5V2J3TndlV08ySU9uNGlOUTlBQV93TWRMak9Hem1BU3NvUHBMODVvb09WOFJXcDZCcw?oc=5) `[점수:75]`
 *출처: Bolts From The Blue | 일자: 2026-09-21*
@@ -233,15 +233,20 @@
 - ⚡ **핵심 소식**: Raiders 부상 보고서: Ladd McConkey 의심, Elijah Molden이 2주차 Los Angeles Chargers에 출전하지 않음
 - 📋 **선수단 영향**: Ladd McConkey (WR)의 부상 경과 및 훈련 소화 여부가 주간 라인업 구성의 핵심 변수로 작용합니다.
 
+#### [Chargers vs Bills의 선택, 예측, NFL Week 3 경기 일요일 배당률](https://news.google.com/rss/articles/CBMi0AFBVV95cUxQOG1wWDktUlpleG1mYWgyUHltWElhdnRTeU9IRXlJX1Z6YkFGbkppdVBZek5TWW1WcDQ0Vm5nSTlRSDlsdWZFbEJSc0gxdl9feFcxSjFyNHRFSUlaTGdaODJYZUZISmNpQkg0SnE4M0hNdHN4OTJDbEV0VmFsRnNnMndlRTFMVHc4aV9oa3Q0SzhGVG1JVS1oZXhjeVFJWVZQWWlodHRlVHRYWExsbno2anF6QXNuakM5dnRhMnE5Yzg1LVJ3blpzY0NXTkxTOXpq?oc=5) `[점수:65]`
+*출처: azcentral.com and The Arizona Republic | 일자: 2026-09-21*
+- **원제:** Chargers vs Bills picks, predictions, odds for NFL Week 3 game Sunday
+- ⚡ **핵심 소식**: Chargers vs Bills의 선택, 예측, NFL Week 3 경기 일요일 azcentral.com 및 The Arizona Republic의 확률
+
 #### [Chargers Week 2 부상 보고서 vs. Raiders: 판타지 NFL 미식축구의 의미](https://news.google.com/rss/articles/CBMihAFBVV95cUxQay1peFc2aFNlMm1xU1ZoYXVTSU5YQzRMZEtJWm8wVnBkVkNpTU1NT0FOMzd2WVlJODFlWllicjF5aW1weTl5UlJ0bWpjMVNvcmQ5eDNrZHFEQkxkbmtWeS1FZHF0cXIxN2hScW5BdW1IbWxSZEQwWEI0ajhaOC04cDVNVUI?oc=5) `[점수:65]`
 *출처: Yahoo Sports | 일자: 2026-09-19*
 - **원제:** Chargers Week 2 injury report vs. Raiders: What it means for fantasy football
 - ⚡ **핵심 소식**: Chargers Week 2 부상 보고서 vs. Raiders: 판타지 NFL 미식축구에 대한 의미 Yahoo Sports
 
 #### [Bills에는 Chargers에 비해 의심스러운 2명의 수신기가 있지만 주요 플레이어가 돌아오고 있습니다.](https://news.google.com/rss/articles/CBMikgJBVV95cUxNdlJlWEstYVBXbXNPeVRibWF0ZVRxNUZHYmdpRVpwQUhoTk92WWNUclVjVjJteHRuV1JjVTRqWGlyXzdVV3hYQnp3YmVheFpxVHNUZ25BVk9IU0RtVlJxMnFUU1V6ZkxWbUdMOHBDbjBrNldXRk0tQlU0YzR3NkVpXzhSRWpnb0FLUTBTOTdKUTY4ME9xRHo4YXo4aWVpMXQ4LXZ5N01iaWtMdXFXLXZqazBhRXpsc3Rnd1p3dklfLTZYck9VaUJTNi1QX0dYNzZNT3lCWGhCbEpWN19pR1JNQlFCTk52T09hdl9JbGZkNEFfckFrbnFKdlNkX19EVUc1Y21SeHNVam52SjZGTi1xUHV3?oc=5) `[점수:60]`
-*출처: Democrat and Chronicle | 일자: 2026-09-25*
+*출처: democratandchronicle.com | 일자: 2026-09-25*
 - **원제:** Bills have 2 receivers questionable vs Chargers, but key players are returning
-- ⚡ **핵심 소식**: Bills에는 Chargers에 비해 의심스러운 수신기 2개가 있지만 주요 플레이어는 민주당과 Chronicle을 반환합니다.
+- ⚡ **핵심 소식**: Bills에는 Chargers에 비해 의심스러운 2명의 수신기가 있지만 주요 플레이어는 Democratandchronicle.com으로 돌아오고 있습니다.
 
 #### [버팔로 빌스 vs. LA Chargers | 보고, 스트리밍하고, 들을 수 있는 곳 | 3주차](https://news.google.com/rss/articles/CBMisAFBVV95cUxOSXI1TVM4Y2F0eUV6aDBFQkpVYUZFa0NOR0IyS0NFd3d0UkFaRWxOc0U3dFl6dl8zeE9HalYtRkhMbXBWMkJmVnZxbEJhUkVkZS1Sc1lxSkd6QVRRcnVKSmhRX0hCUjloVF9idzVWZlZYaWxLaGJXRjVYbjMxa2JEcUw5S2o0Yk5NTHdmaXRsejgyT3hnQWItM2h3cXhTaC1Kc1ZpV0tnSm9OWUJwbFhDUQ?oc=5) `[점수:60]`
 *출처: Buffalo Bills | 일자: 2026-09-25*
@@ -249,9 +254,9 @@
 - ⚡ **핵심 소식**: 버팔로 빌스 vs. LA Chargers | 보고, 스트리밍하고, 들을 수 있는 곳 | 3주차 버팔로 빌
 
 #### [청구서 대 Chargers 예측, 중요한 3주차 매치업의 핵심](https://news.google.com/rss/articles/CBMiyAFBVV95cUxPZ2hjNzBrNGZ1R0cwYlFMdkNBY2lnRXhpZUo0UG40VlppMGhjNmtGeUtmcmczMWY2UUtSM1IwUU9DeUdKLW5ySHZQSjdjT1JZbS1PRHBVb3pXYXRZbURmNV83MTRKRzJEWUd6TVlsNUpHZl9uenEyVEoxai02SEVVTjJER1dJek5LVjZzalpzMFVDeGRoWUhsS2pkYUhxdmRxSGxIRDBVTnVXRmpNSjNVeTRxRmJWT1hXcHZ5LWQ2Uzk1SWUxWlRIeQ?oc=5) `[점수:60]`
-*출처: Democrat and Chronicle | 일자: 2026-09-24*
+*출처: democratandchronicle.com | 일자: 2026-09-24*
 - **원제:** Bills vs Chargers prediction, keys to pivotal Week 3 matchup
-- ⚡ **핵심 소식**: Bills vs Chargers 예측, 3주차 매치업의 핵심인 민주당과 크로니클
+- ⚡ **핵심 소식**: 청구서 대 Chargers 예측, 중추적인 3주차 매치업의 핵심democratandchronicle.com
 
 #### [[임] Khalil Mack다니엘은 3루와 1루의 실패가 자신의 생각을 바꾸었다고 인정합니다. 짧은 거리에서 산탄총을 사용하는 것에 대해: “나는 그것이 가치 있다고 생각하고 게임에 들어갔고 게임을 떠났다.](https://www.reddit.com/r/Chargers/comments/1wpb1rh/rhim_mcdaniel_admits_the_failed_thirdand1_changed/) `[점수:60]`
 *출처: Reddit r/Chargers | 일자: 2026-09-24*
@@ -275,9 +280,9 @@
 - ⚡ **핵심 소식**: 청구서와 Chargers에 대한 주요 스토리라인 | 3주차 버팔로 빌
 
 #### [NFL 전문가들이 시류에 뛰어들다: 6가지 초기 청구서 대 Chargers 예측](https://news.google.com/rss/articles/CBMi9gFBVV95cUxQQU5faVVRZjNaZ3dUTU10dnlwcC1SRWl4ekprdUdYeUs0T2Fab1Y0SzZrTWJXNDNpbkRWS1VidzE0djJQVVFFQlNYVzgtTzBIQmxkOFZNbmF2VGh5bUJnMTkybXJOTkViM0M5YVlsNWVtbTgyVFA2Sk9mTlBFTldrc2I4OF9NRldZSXc4SWhxYnlldFZwbzd4NkZhRHVtdUZnMHg4RlJIVHhJT3lLVXJMNWlieDRONUZpQTJocHBwRkZtSV9Ma2hSU2lHbWljUWVXbEoxd0pDTHFxa0t2LXpNOUlyUWlqdXhySTlxd0RuTTFfS0t3RVE?oc=5) `[점수:60]`
-*출처: Democrat and Chronicle | 일자: 2026-09-23*
+*출처: democratandchronicle.com | 일자: 2026-09-23*
 - **원제:** NFL experts jump on bandwagon: 6 early Bills vs. Chargers predictions
-- ⚡ **핵심 소식**: NFL 전문가들이 시류에 뛰어들다: 6개의 초기 Bills 대 Chargers 예측 민주당과 크로니클
+- ⚡ **핵심 소식**: NFL 전문가들이 시류에 뛰어들다: 6가지 초기 청구서 대 Chargers 예측 Democratandchronicle.com
 
 #### [Chargers, 청구서 반대 3주차를 앞두고 비공식 깊이 차트 공개](https://news.google.com/rss/articles/CBMiY0FVX3lxTE5RTmQ5clhrNzNLdXVMb0VBZk1MYVRTMlhkQlI4M0R2ZDFGWGxGSV9MU296SFRHQUhkbUpxdmVseXhsT04yN2RQdnAxWTNtajZnUWtFOXdxb2kyWWJFSGoyWXI5SQ?oc=5) `[점수:60]`
 *출처: Los Angeles Chargers | 일자: 2026-09-21*
@@ -340,9 +345,9 @@
 - 📋 **선수단 영향**: Justin Herbert (QB)의 부상 경과 및 훈련 소화 여부가 주간 라인업 구성의 핵심 변수로 작용합니다.
 
 #### [Bills는 시즌 중 가장 긴 부상 보고를 받았지만 Chargers는 훨씬 더 깁니다.](https://news.google.com/rss/articles/CBMi-gFBVV95cUxQVFJIUzJDcVFOYWRDVUxmazlELWdaVUtXc1ZtVENVQ1RSQUF4aGFjcWZEemVOUVhWUDZoOUcyeXUwRmktZ09yWWRxOVJ0azZSd1E1XzlRRW1LSVhUVGNZbUozQWNXTWVtaTVZb1hZelpmU1hVNExSRVJRdmd3V3U0ZXlXNTFoNW1ONWRCaW1obmo1c3BJQXltcEZuRUJRYmx1RXVEU09tcWZ4ekZvR3NXSWFWZmhFeW1kWVNPNTl3OG4xeVdFTnM2MVF2d1dqSEpERjhOMzE4MWdhY0V3Rzd6emtZemctcW1zRFZGS0RGVTloMlB2RnpXdDVB?oc=5) `[점수:85]`
-*출처: Democrat and Chronicle | 일자: 2026-09-24*
+*출처: democratandchronicle.com | 일자: 2026-09-24*
 - **원제:** Bills have longest injury report of season, but Chargers' is even longer
-- ⚡ **핵심 소식**: Bills는 시즌 중 가장 긴 부상 보고를 받았지만 Chargers는 민주당과 크로니클보다 더 길었습니다.
+- ⚡ **핵심 소식**: Bills는 시즌 중 가장 긴 부상 보고를 받았지만 Chargers는 훨씬 더 길었습니다.democratandchronicle.com
 
 #### [Chargers의 목요일 부상 보고서는 Ladd McConkey에게 좋은 징조가 아닙니다.](https://news.google.com/rss/articles/CBMijwFBVV95cUxNa2MzVzc4NlFUZzNVc3pnUWJqenVxY3RmSkl5RlJSZ2RBUTN5aERYZ0xkc3Z2V0RYY0VqclpMT21fWmxDanpvUXd2aWZtMWRNNlcydVFSNmFRaDgwWmVQZkF3bGtDcURQRGpTMkxNRjFvRWJYVGpta3A4aHZXRFdIc1RJNWFmMjVtMFdicGVicw?oc=5) `[점수:65]`
 *출처: Yahoo Sports | 일자: 2026-09-16*
@@ -390,9 +395,9 @@
 - 🏈 **전술 관전 포인트**: Jim Harbaugh 감독 및 코칭스태프의 피지컬 중심 미식축구 철학이 반영된 행보입니다.
 
 #### [Chargers가 타이트 엔드 패트릭 Justin Herbert를 승격시키면서 Justin Herbert가 형에게 패스할 수 있습니다.](https://news.google.com/rss/articles/CBMi4gFBVV95cUxOaUhJdGJhRDBZVFVnTHlLS1A4YnB2U2ZZT1N3Q3FMcWg4V3NzaWhNMGd1Ui0xOEZmRHNFQkUxYUt3ZzFKVzYwYnVDQ1JydXNPS2kxNURiLTFQWlowWkNyMTZJNkp2RWI1eGozUnBiUklyTEtnQnh4TThHNjVaVFJJVVZMMVpqU1N3OEY4Y19iZVY3U2Nmc09oRVJTUkJmYkl4bm1ST2kxaVpWaXlueHpob25ONkZramZnTXNxZDlfc0dORmJ6UzV4Q2p5LUtFUDZKQ2VFb21PNm9kMzFteC0yczRR?oc=5) `[점수:95]`
-*출처: nbcsports.com | 일자: 2026-09-27*
+*출처: NBC Sports | 일자: 2026-09-27*
 - **원제:** Justin Herbert could pass to his brother as Chargers elevate tight end Patrick Herbert
-- ⚡ **핵심 소식**: Chargers가 타이트한 엔드를 가져가면서 Justin Herbert(Justin Herbert)가 형에게 패스할 수 있음 패트릭 Justin Herbert(Patrick Herbert) nbcsports.com
+- ⚡ **핵심 소식**: Chargers가 타이트 엔드를 높이면서 Justin Herbert가 형에게 패스할 수 있음 패트릭 Justin Herbert NBC 스포츠
 - 🏈 **주요 인물**: Justin Herbert (QB)의 경기력과 훈련 컨디션이 집중 조명되고 있습니다.
 
 #### [Jim Harbaugh가 Chargers를 잃어가고 있나요? Khalil Mack의 코멘트가 힌트일 수도 있습니다](https://news.google.com/rss/articles/CBMilAFBVV95cUxNR3Y0REk3RmpQVEhsU2ZjLWZQUW1RSmFkdEdRaHZSOEY3VGRHWjZnbWkwZnNyR1VqVXROLUtiLXpHZ2d1OUhGbEs5VHkyNnRqMTNBV0lPS0dSRGZrTkNjZkRQcWd6MDdBU1RuVnFIYW9IYk9yNDZVY2JKZ1ptblIzVTF4QUVXMFF3TW9ZekotckJDTU1y?oc=5) `[점수:95]`
@@ -405,6 +410,12 @@
 *출처: Yahoo Sports | 일자: 2026-09-22*
 - **원제:** Vikings Get Intriguing Justin Herbert Take Amid Chargers Struggles
 - ⚡ **핵심 소식**: Vikings는 Chargers의 투쟁 속에서 흥미로운 Justin Herbert를 얻습니다. Yahoo Sports
+- 🏈 **주요 인물**: Justin Herbert (QB)의 경기력과 훈련 컨디션이 집중 조명되고 있습니다.
+
+#### [Chargers QB Justin Herbert는 더 나아질 필요가 있습니다.](https://news.google.com/rss/articles/CBMiiAFBVV95cUxPWTJOaTZ6STBoZkI1TUpmdHFucTdCVWFKNE43WktSV1RPVWl3RFBoZ2cwbXAxRjRDZXh2OVJEeFlBNzNPYzJRdEhTTWtCYkdBOHBuU0tGSDFZTnMwMHFUczluNHNURlg5Ty1HcHdsYUpQeFJKSUJZVHh2ekI0VzVhMmF0amsxV2Zx?oc=5) `[점수:90]`
+*출처: Yahoo Sports | 일자: 2026-09-22*
+- **원제:** Chargers QB Justin Herbert Needs to Be Better
+- ⚡ **핵심 소식**: Chargers QB Justin Herbert는 더 나은 사람이 필요합니다 Yahoo Sports
 - 🏈 **주요 인물**: Justin Herbert (QB)의 경기력과 훈련 컨디션이 집중 조명되고 있습니다.
 
 #### [Chargers의 Jim Harbaugh는 Super Bowl QB에서 놀라운 핫 시트 경고를 받았습니다.](https://news.google.com/rss/articles/CBMijwFBVV95cUxOMjZoSXBIZkhoMUFlaktTTnBWREhyU1p0aElUX0JaVmZ5M3FxNEU2RW9GaU5JQWpLNE9qNnNzNWh4ZnNockc2TFdFWDEzWWV6SzhKYzNsdU9XLUxfMnJuREFVZUx2cnhJbVRfd3lJVGJYUnd3WEFab1NXd3l6UlpORHFyWFFldDhfRGoyNzV0WQ?oc=5) `[점수:85]`
@@ -444,9 +455,9 @@
 - 🏈 **주요 인물**: Justin Herbert (QB)의 경기력과 훈련 컨디션이 집중 조명되고 있습니다.
 
 #### [Jim Harbaugh는 0-2였던 적이 없습니다. Chargers는 이제 앞으로 힘든 상황을 겪고 있습니다.](https://news.google.com/rss/articles/CBMigwJBVV95cUxNNWt4UVJ0SC1mRTRqTmxMd29UYXpTRGd6NEhhOEFYUkxxS3U1M2syUkFmanlzc1UzV1ZWVWFFazVDcWdFQTVSVWZzTjRfUXppWDRKWURNWWM5RjlLT3JDMVRXSEpSZDFzUndiVUdwY1UyOTcyUEVSTk9sQXJ3VnhXQUtwWVJmcTYtbjMzZmlHVEJaM3Ezb3RkaDg3SFdXQUU0Y0UyUGpRS2lSLWFsaUx4X3pCeER2eXRZSV80QVZMRmJwcnBfUzdyVGFyRklzSENCVG9nSmZwVDBSTndCZVl5ek5veDg1ZDBwZTh0STUzTHlwM1BNS1RIRGtjVkhZYzFTbzlN?oc=5) `[점수:70]`
-*출처: bozemandailychronicle.com | 일자: 2026-09-21*
+*출처: Bozeman Daily Chronicle | 일자: 2026-09-21*
 - **원제:** Jim Harbaugh has never been 0-2. The Chargers are now, with a tough stretch ahead
-- ⚡ **핵심 소식**: Jim Harbaugh는 0-2였던 적이 없습니다. Chargers는 이제 힘든 상황을 앞두고 있습니다. bozemandailychronicle.com
+- ⚡ **핵심 소식**: Jim Harbaugh는 0-2였던 적이 없습니다. Chargers는 이제 힘든 상황을 앞두고 있습니다. Bozeman Daily Chronicle
 - 🏈 **전술 관전 포인트**: Jim Harbaugh 감독 및 코칭스태프의 피지컬 중심 미식축구 철학이 반영된 행보입니다.
 
 #### [Jim Harbaugh는 낯선 영역에 있습니다... 그리고 Chargers는 곤경에 처해 있습니다.](https://news.google.com/rss/articles/CBMiwgFBVV95cUxOaEdrTlNSM185ODhucTF2aTZhVmNYYmdTQmRQdnVmREZGcDI1bkxMcXJURHFDQWRfNjZkQzhiQ3VKRXNNQ3k4anhENnZMX2NKdFd4bjUtaTBDbnA0c1czRjRLY0ZZa3RMU3F6a3d2MXF4SG9BLVRnRW80Rm55cE1hNzlPa3dnOHVXREVHRjd1ZHlad2Mwa2lZYWxaQlBKYnNSc0wyQ1FVb1JJMTNYeFp0cVp6NWRJNHh5SWRRaHlBaU5IZw?oc=5) `[점수:70]`
@@ -492,12 +503,6 @@
 - ⚡ **핵심 소식**: 기자 회견: 초기 좌절에 대한 공격의 대응에 대한 Mike McDaniel Los Angeles Chargers
 - 🏈 **공격 전술 관전 포인트**: Mike McDaniel 신임 오펜시브 코디네이터의 전술 안착과 QB Justin Herbert의 플레이메이킹 극대화가 핵심 과제입니다.
 
-#### [[림] 공격 단순화에 대한 마이크 Khalil Mack다니엘:"물론 고려한다. 거의 모든 것을 고려한다. 내 입장에서 중요한 것은 과민반응하지 말라는 것이다.](https://www.reddit.com/r/Chargers/comments/1wpb3fz/rhim_mike_mcdaniel_on_simplifying_the_offenseof/) `[점수:60]`
-*출처: Reddit r/Chargers | 일자: 2026-09-24*
-- **원제:** [Rhim] Mike McDaniel on simplifying the offense:"Of course I consider. I consider pretty much everything. What's important for my position is that if I'm saying not to overreact either way, good or bad, I can't do the same. I have to assess. "... What I know how to do is evolve.
-- ⚡ **핵심 소식**: 공격 단순화에 대한 Mike McDaniel:"물론 고려합니다. 거의 모든 것을 고려합니다. 내 입장에서 중요한 것은 내가 과민반응하지 말라고 말하는 것입니다.
-- 🏈 **공격 전술 관전 포인트**: Mike McDaniel 신임 오펜시브 코디네이터의 전술 안착과 QB Justin Herbert의 플레이메이킹 극대화가 핵심 과제입니다.
-
 #### [Jim Harbaugh가 감독으로서 처음으로 0-2로 떨어지면서 Chargers는 다시 실패하고 놀라운 Raiders는 2-0으로 향상됩니다.](https://news.google.com/rss/articles/CBMigAJBVV95cUxOUlFoNHA0eEVlSUpVOWZ6djJ1c3VjM2N0bWNidXVDVFNvYUYxU1czdTBHY1dWZ0VKeXdGODAxTUhFMTVNRE01SWYzYUpyT3dJUHRRSGdOWC1ld3Z0MzRxcjJJQ1NIMnRiUFNnNWppOVMwc2hhbVRyM2R6Q0lmTHJCYXZqLVdESm5kOWloR1Fud3lCMHlLLWFkLWphbGJCeTdPbmh1d1pwdG1yRU9LZ3kteW5ndFo0ZVF3MEh2X3J5S3h1UElQNV8zNEtxQzl0N01YeEh6OHA3Tmt3a3h3dTg4NG13d1JFNTVGVkN2VUdoWXBxaXNQV05PMmtvaUtVQWVs?oc=5) `[점수:60]`
 *출처: Yahoo Sports | 일자: 2026-09-20*
 - **원제:** Chargers flop again as Jim Harbaugh falls to 0-2 for first time as a head coach while surprising Raiders improve to 2-0
@@ -509,16 +514,16 @@
 - **원제:** 2026 Season Ticket Gifts
 - ⚡ **핵심 소식**: 2026 시즌 티켓 선물
 
-#### [공격에 무슨 일이 일어나고 있는지에 대해 Kurt Warner가 꽤 잘 분석했습니다.](https://www.reddit.com/r/Chargers/comments/1wpjbr6/pretty_good_breakdown_from_kurt_warner_as_to/) `[점수:55]`
-*출처: Reddit r/Chargers | 일자: 2026-09-24*
-- **원제:** Pretty good breakdown from Kurt Warner as to what’s going on with the offense.
-- ⚡ **핵심 소식**: 공격에 무슨 일이 일어나고 있는지에 대해 Kurt Warner가 꽤 잘 분석했습니다.
-
 #### [Chargers의 Justin Herbert 대신 49ers의 Brock Purdy를 선택하시겠습니까? 당신이해야 할 이유는 다음과 같습니다](https://news.google.com/rss/articles/CBMilAFBVV95cUxNbm5sc24yZWh1OTYtcE1JODRfbjEtUDhMZDdmc3dldWtXT2FITWswRWVXdU52akhrSlhJNXAwcjUwOTRsb1dHLWp3b0szZFhnM3RLbnUzcVdoYlVOQ3RIS3N1ZlkwSVZUTjAwblU3QzB3ODczM2VPMnRhV2pibXpCd0tPR1cyR3BuaWFMS0xiazMyWWZr?oc=5) `[점수:55]`
 *출처: San Francisco Chronicle | 일자: 2026-09-19*
 - **원제:** Would you take 49ers’ Brock Purdy over Chargers’ Justin Herbert? Here’s why you should
 - ⚡ **핵심 소식**: Chargers의 Justin Herbert 대신 49ers의 Brock Purdy를 선택하시겠습니까? San Francisco Chronicle을 선택해야 하는 이유는 다음과 같습니다.
 - 🏈 **주요 인물**: Justin Herbert (QB)의 경기력과 훈련 컨디션이 집중 조명되고 있습니다.
+
+#### [공격에 무슨 일이 일어나고 있는지에 대해 Kurt Warner가 꽤 잘 분석했습니다.](https://www.reddit.com/r/Chargers/comments/1wpjbr6/pretty_good_breakdown_from_kurt_warner_as_to/) `[점수:50]`
+*출처: Reddit r/Chargers | 일자: 2026-09-24*
+- **원제:** Pretty good breakdown from Kurt Warner as to what’s going on with the offense.
+- ⚡ **핵심 소식**: 공격에 무슨 일이 일어나고 있는지에 대해 Kurt Warner가 꽤 잘 분석했습니다.
 
 #### [AMA 발표: ESPN Chargers가 Kris Rhim 기자를 이겼습니다.](https://www.reddit.com/r/Chargers/comments/1wngx2h/ama_announcement_espn_chargers_beat_reporter_kris/) `[점수:50]`
 *출처: Reddit r/Chargers | 일자: 2026-09-22*
@@ -555,7 +560,7 @@
 
 ### ⚡ 팀 일반 소식 (22건)
 
-#### ['성장통': Chargers의 공격에 무슨 일이 일어나고 있는 걸까요?](https://news.google.com/rss/articles/CBMirgFBVV95cUxNSklITHhURHUySDVaRmRZdnc3TXc3SmZaSFc2Y2JYcmZoTHNXNkxieTV5N00xTFNMYWJjUy1td1lldVBCRDUzMkNpTk4xN2lCZ2ZzZHl5TG5wQUlWUTFBN05pVGpxR19Ld20tNWItUUNscVFyUzM0VXJLNzVqX21sTnNSNTdUSmhsMXJldjM3VmxGTXNZUHl0bmJpYmh2NG43VnlnM29vbms2LTlGemc?oc=5) `[점수:90]`
+#### ['성장통': Chargers의 공격에 무슨 일이 일어나고 있는 걸까요?](https://news.google.com/rss/articles/CBMirgFBVV95cUxNSklITHhURHUySDVaRmRZdnc3TXc3SmZaSFc2Y2JYcmZoTHNXNkxieTV5N00xTFNMYWJjUy1td1lldVBCRDUzMkNpTk4xN2lCZ2ZzZHl5TG5wQUlWUTFBN05pVGpxR19Ld20tNWItUUNscVFyUzM0VXJLNzVqX21sTnNSNTdUSmhsMXJldjM3VmxGTXNZUHl0bmJpYmh2NG43VnlnM29vbms2LTlGemc?oc=5) `[점수:85]`
 *출처: ESPN | 일자: 2026-09-26*
 - **원제:** 'Growing pains': What's going on with the Chargers' offense?
 - ⚡ **핵심 소식**: '성장통': Chargers의 공격에 무슨 일이 일어나고 있는 걸까요?
@@ -590,9 +595,9 @@
 - 🏈 **공격 전술 관전 포인트**: Mike McDaniel 신임 오펜시브 코디네이터의 전술 안착과 QB Justin Herbert의 플레이메이킹 극대화가 핵심 과제입니다.
 
 #### [Chargers의 악몽 같은 시작은 Mike McDaniel에게 단순한 걸림돌 이상입니다.](https://news.google.com/rss/articles/CBMioAFBVV95cUxNYlUzZ285b2tqM1pYRWRxcU5WZU84eGhfWUlRVmZPZTZUaXl5M19lNy1RN0hPY2p5d3pzTkpBY3hQdFFPYkNMdGt4OUJMVzF4VmVsVjNKbzFyNjh4eUdOQW5xLVFYR0NqS3ZPYWZVRXlGQlFWNG94VzBnRXppYlIyU0I4YXM1bUVHTEVMSUZFc2YxYkd2SzNiVm1QTXg5ZmtW?oc=5) `[점수:60]`
-*출처: Bolt Beat | 일자: 2026-09-25*
+*출처: boltbeat.com | 일자: 2026-09-25*
 - **원제:** Chargers' nightmare start is more than just a stumbling block for Mike McDaniel
-- ⚡ **핵심 소식**: Chargers의 악몽 같은 시작은 Mike McDaniel Bolt Beat에게 단순한 걸림돌 이상입니다.
+- ⚡ **핵심 소식**: Chargers의 악몽 같은 시작은 Mike McDaniel에게 단순한 걸림돌 그 이상입니다 boltbeat.com
 - 🏈 **공격 전술 관전 포인트**: Mike McDaniel 신임 오펜시브 코디네이터의 전술 안착과 QB Justin Herbert의 플레이메이킹 극대화가 핵심 과제입니다.
 
 #### [Chargers OC Mike McDaniel: 공격 수정을 위한 '마법의 공식은 없습니다'](https://news.google.com/rss/articles/CBMiqwFBVV95cUxOY05kUEREeTY3cFotck1YbG5MLTZhUW1FLWlWeVdndmhSY0J1RUJfNVc0MzlIVkVPbnpzekNiXzV4QWFjbkFPNzJNc1ZOYnhvdHhZU1BZbUd0bktMS1VfQnphMWtSMExCYnYyeC1lYjJ0bkluY3MwX05aUUdyNzZWNHBHbVJWSTlzc2ZfU2xHUG9mMmllME9Ra1lLRWJrb2lCQXQ0cUVCcEw0Qjg?oc=5) `[점수:60]`
@@ -660,9 +665,9 @@
 - 🏈 **공격 전술 관전 포인트**: Mike McDaniel 신임 오펜시브 코디네이터의 전술 안착과 QB Justin Herbert의 플레이메이킹 극대화가 핵심 과제입니다.
 
 #### [Chargers는 매주 폭발을 일으키고 LV에 패합니다.](https://news.google.com/rss/articles/CBMitgFBVV95cUxNMW9QUFBRQUYxMzROcnBoRUttZF90MzRRdlhfNVpNOHpHLW5Dc3FpSmZBMDRMekRYV3FfT2VHUG5heHRndG96MVFDZzA4NGEyQnR5WGFaazFyemZXZXlrWDM1N1c2UDJZSU5EWUhuVndwNWpZZnZqR2g2OGZtMDAxNE90V05jcW1FRlhmenNSVlZWLWs2N0l1YkV4YmF0WWhhQ0YyWHNkMXZvZk9ZUi1RUURFbkdrdw?oc=5) `[점수:15]`
-*출처: nbcsports.com | 일자: 2026-09-20*
+*출처: NBC Sports | 일자: 2026-09-20*
 - **원제:** Chargers make imploding a weekly thing, lose to LV
-- ⚡ **핵심 소식**: Chargers는 매주 폭발을 일으키고 LV nbcsports.com에 패합니다.
+- ⚡ **핵심 소식**: Chargers는 매주 폭발을 일으키고 LV NBC Sports에 패합니다.
 
 #### [Ashton Jeanty는 차저를 타고 압도적인 13야드를 달리고 있습니다.](https://news.google.com/rss/articles/CBMidkFVX3lxTE03Rm1GMW1zQVU2V0Y2N1dIbHdKeHFNZzFvOXh0VnZBWXA5MEdiSzVkZHpLSVlYSnlrMXF1OGxwTDliczB2RUZLcVJXSjhsdVVhYms2QklNV0FTeVFtMTNZWG42WVFyVDB6WkVPRXVDMExuS2EyR3c?oc=5) `[점수:15]`
 *출처: Raiders.com | 일자: 2026-09-19*
