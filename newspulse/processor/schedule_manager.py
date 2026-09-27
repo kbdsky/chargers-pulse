@@ -15,9 +15,9 @@ CHARGERS_2026_SCHEDULE = [
         "stadium": "SoFi Stadium (Los Angeles, CA)",
         "broadcast": "CBS (미국) | DAZN(한국 전경기) / 쿠팡플레이(선별)",
         "game_type": "정규시즌 1주차 홈 개막전",
-        "status": "upcoming",
-        "score": None,
-        "result": None,
+        "status": "final",
+        "score": "Chargers 14 - 26 Arizona Cardinals (AZ Cardinals)",
+        "result": "LOSS",
     },
     {
         "week": 2,
@@ -28,19 +28,19 @@ CHARGERS_2026_SCHEDULE = [
         "stadium": "SoFi Stadium (Los Angeles, CA)",
         "broadcast": "CBS (미국) | DAZN(한국 전경기) / 쿠팡플레이(선별)",
         "game_type": "정규시즌 2주차 (AFC West 라이벌전)",
-        "status": "upcoming",
-        "score": None,
-        "result": None,
+        "status": "final",
+        "score": "Chargers 14 - 26 Las Vegas Raiders (LV Raiders)",
+        "result": "LOSS",
     },
     {
         "week": 3,
-        "date_utc": "2026-09-27T20:25:00Z",
-        "date_kst": "2026년 9월 28일 (월) 오전 05:25 (KST)",
-        "opponent": "Kansas City Chiefs (KC Chiefs)",
+        "date_utc": "2026-09-27T17:00:00Z",
+        "date_kst": "2026년 9월 28일 (월) 오전 02:00 (KST)",
+        "opponent": "Buffalo Bills (BUF Bills)",
         "is_home": False,
-        "stadium": "GEHA Field at Arrowhead (Kansas City, MO)",
-        "broadcast": "CBS (미국) | DAZN(한국 전경기) / 쿠팡플레이(선별)",
-        "game_type": "정규시즌 3주차 (지구 원정)",
+        "stadium": "Highmark Stadium (Orchard Park, NY)",
+        "broadcast": "FOX (미국) | DAZN(한국 전경기) / 쿠팡플레이(선별)",
+        "game_type": "정규시즌 3주차 (버팔로 원정)",
         "status": "upcoming",
         "score": None,
         "result": None,
@@ -295,15 +295,19 @@ class ScheduleManager:
                     if score:
                         item["score"] = score
                         item["result"] = result
-                        if result == "WIN":
-                            wins += 1
-                        elif result == "LOSS":
-                            losses += 1
-                        elif result == "TIE":
-                            ties += 1
+                    elif item.get("score") and item.get("result"):
+                        pass
                     else:
                         item["score"] = "경기 종료 (상세 스코어 집계 중)"
                         item["result"] = "FINAL"
+
+                    res = item.get("result")
+                    if res == "WIN":
+                        wins += 1
+                    elif res == "LOSS":
+                        losses += 1
+                    elif res == "TIE":
+                        ties += 1
 
             except Exception:
                 pass
