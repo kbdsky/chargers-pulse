@@ -54,35 +54,35 @@ CHARGERS_OFFICIAL_INJURY_REPORT = [
     {
         "player": "Charlie Kolar",
         "position": "TE",
-        "injury": "Undisclosed (비공개 경미 부상)",
+        "injury": "Forearm (전완부/팔 부상)",
         "wednesday": "DNP",
         "thursday": "DNP",
         "friday": "DNP",
         "game_status": "Out (결장 확정)",
         "status_code": "OUT",
-        "status_detail": "타이트엔드 뎁스 차트 결장. 대체 타이트엔드 가동.",
+        "status_detail": "전완부 부상으로 주중 훈련 전면 불참. 타이트엔드 결장.",
     },
     {
         "player": "Kayode Awosika",
         "position": "G",
-        "injury": "Undisclosed (비공개 부상)",
+        "injury": "Fibula (비골 통증/부상)",
         "wednesday": "DNP",
         "thursday": "DNP",
         "friday": "DNP",
         "game_status": "Out (결장 확정)",
         "status_code": "OUT",
-        "status_detail": "오펜시브 가드 결장 확정으로 라인업 백업 로테이션.",
+        "status_detail": "비골(종아리뼈) 부상으로 훈련 불참. 오펜시브 라인 백업 로테이션.",
     },
     {
         "player": "Ladd McConkey",
         "position": "WR",
-        "injury": "Rib (늑골/갈비뼈 통증)",
-        "wednesday": "DNP",
-        "thursday": "LP",
-        "friday": "LP",
-        "game_status": "Questionable (출전 불투명)",
-        "status_code": "QUESTIONABLE",
-        "status_detail": "갈비뼈 통증 완화 후 제한적 훈련(LP) 소화. 경기 당일 워밍업 후 출전 결정.",
+        "injury": "Rib (늑골 통증 완쾌 / FP 소화)",
+        "wednesday": "LP",
+        "thursday": "FP",
+        "friday": "FP",
+        "game_status": "Active (부상 해제 / 정상 출전)",
+        "status_code": "ACTIVE",
+        "status_detail": "갈비뼈 통증 회복 후 주말 정상 훈련(Full Practice) 100% 완주. 최종 부상 리포트에서 제외(No Injury Designation)되어 선발 출전.",
     },
     {
         "player": "Trey Lance",
@@ -225,6 +225,13 @@ class InjuryTracker:
                 for row in table_rows:
                     p_name = row["player"].lower()
                     if p_name in text:
+                        # Safeguard: Do not downgrade players verified active for Week 3 unless an explicit Week 3 rule-out article is found
+                        if row["player"] in ["Ladd McConkey", "Justin Herbert"]:
+                            if ("rule out" in text or "ruled out" in text) and "week 3" in text:
+                                row["game_status"] = "Out (결장 확정)"
+                                row["status_code"] = "OUT"
+                            continue
+
                         if "out" in text and ("rule out" in text or "ruled out" in text):
                             row["game_status"] = "Out (결장 확정)"
                             row["status_code"] = "OUT"
