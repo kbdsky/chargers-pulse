@@ -1,11 +1,11 @@
 {
   "status": "success",
   "briefing": {
-    "headline": "⚡ LA Chargers 주간 인텔리전스 종합 리포트 (총 111건 정밀 분석)",
+    "headline": "⚡ LA Chargers 주간 인텔리전스 종합 리포트 (총 112건 정밀 분석)",
     "key_takeaways": [
-      "⚡ **스마트 큐레이션 및 중복 제거**: 총 111건의 언론 기사를 정밀 클러스터링하여 핵심 이슈 위주로 요약했습니다.",
+      "⚡ **스마트 큐레이션 및 중복 제거**: 총 112건의 언론 기사를 정밀 클러스터링하여 핵심 이슈 위주로 요약했습니다.",
       "🏈 **매치업 포커스**: 2026 정규시즌 3주차 (Highmark Stadium / 원정) (상대: 버팔로 빌스 (BUF Bills))",
-      "🎯 **집중 조명된 핵심 인물**: Mike McDaniel (OC)(20건), Jim Harbaugh (HC)(19건), Justin Herbert (QB)(18건)",
+      "🎯 **집중 조명된 핵심 인물**: Justin Herbert (QB)(19건), Mike McDaniel (OC)(19건), Jim Harbaugh (HC)(19건)",
       "🔥 **헤드라인 키워드**: mike mcdaniel, justin herbert, link comments, yahoo sports"
     ],
     "injury_update": "부상 리포트 공식 테이블(Injury Report Table)에서 상세 출전 상태 및 연습 참가 여부(DNP/LP/FP)를 확인하세요.",
@@ -302,7 +302,7 @@
     "injury_report_table": {
       "title": "⚡ LA Chargers 공식 부상 리포트 (Official Injury Report)",
       "last_updated": "2026-09-27",
-      "summary_counts": "총 18명 등재 (결장/IR: 7명, 출전 불투명: 6명, 정상 출전: 5명)",
+      "summary_counts": "총 18명 등재 (결장/IR: 7명, 출전 불투명: 5명, 정상 출전: 6명)",
       "legend": {
         "DNP": "Did Not Participate (훈련 전면 불참)",
         "LP": "Limited Participation (제한적 훈련 참여)",
@@ -359,35 +359,35 @@
         {
           "player": "Charlie Kolar",
           "position": "TE",
-          "injury": "Undisclosed (비공개 경미 부상)",
+          "injury": "Forearm (전완부/팔 부상)",
           "wednesday": "DNP",
           "thursday": "DNP",
           "friday": "DNP",
           "game_status": "Out (결장 확정)",
           "status_code": "OUT",
-          "status_detail": "타이트엔드 뎁스 차트 결장. 대체 타이트엔드 가동."
+          "status_detail": "전완부 부상으로 주중 훈련 전면 불참. 타이트엔드 결장."
         },
         {
           "player": "Kayode Awosika",
           "position": "G",
-          "injury": "Undisclosed (비공개 부상)",
+          "injury": "Fibula (비골 통증/부상)",
           "wednesday": "DNP",
           "thursday": "DNP",
           "friday": "DNP",
           "game_status": "Out (결장 확정)",
           "status_code": "OUT",
-          "status_detail": "오펜시브 가드 결장 확정으로 라인업 백업 로테이션."
+          "status_detail": "비골(종아리뼈) 부상으로 훈련 불참. 오펜시브 라인 백업 로테이션."
         },
         {
           "player": "Ladd McConkey",
           "position": "WR",
-          "injury": "Rib (늑골/갈비뼈 통증)",
-          "wednesday": "DNP",
-          "thursday": "LP",
-          "friday": "LP",
-          "game_status": "Questionable (출전 불투명)",
-          "status_code": "QUESTIONABLE",
-          "status_detail": "갈비뼈 통증 완화 후 제한적 훈련(LP) 소화. 경기 당일 워밍업 후 출전 결정."
+          "injury": "Rib (늑골 통증 완쾌 / FP 소화)",
+          "wednesday": "LP",
+          "thursday": "FP",
+          "friday": "FP",
+          "game_status": "Active (부상 해제 / 정상 출전)",
+          "status_code": "ACTIVE",
+          "status_detail": "갈비뼈 통증 회복 후 주말 정상 훈련(Full Practice) 100% 완주. 최종 부상 리포트에서 제외(No Injury Designation)되어 선발 출전."
         },
         {
           "player": "Trey Lance",
@@ -524,11 +524,11 @@
       "Yahoo Sports",
       "Buffalo Bills",
       "bills",
+      "herbert",
+      "raiders",
       "mike",
       "mcdaniel",
-      "raiders",
-      "harbaugh",
-      "herbert"
+      "harbaugh"
     ],
     "top_highlights": [
       {
@@ -1915,17 +1915,17 @@
     {
       "title": "Justin Herbert could pass to his brother as Chargers elevate tight end Patrick Herbert",
       "url": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxOaUhJdGJhRDBZVFVnTHlLS1A4YnB2U2ZZT1N3Q3FMcWg4V3NzaWhNMGd1Ui0xOEZmRHNFQkUxYUt3ZzFKVzYwYnVDQ1JydXNPS2kxNURiLTFQWlowWkNyMTZJNkp2RWI1eGozUnBiUklyTEtnQnh4TThHNjVaVFJJVVZMMVpqU1N3OEY4Y19iZVY3U2Nmc09oRVJTUkJmYkl4bm1ST2kxaVpWaXlueHpob25ONkZramZnTXNxZDlfc0dORmJ6UzV4Q2p5LUtFUDZKQ2VFb21PNm9kMzFteC0yczRR?oc=5",
-      "summary": "Justin Herbert could pass to his brother as Chargers elevate tight end Patrick Herbert nbcsports.com",
+      "summary": "Justin Herbert could pass to his brother as Chargers elevate tight end Patrick Herbert NBC Sports",
       "published": "2026-09-27T02:50:47+00:00",
-      "source": "nbcsports.com",
+      "source": "NBC Sports",
       "author": "",
       "raw_entry": {
-        "title": "Justin Herbert could pass to his brother as Chargers elevate tight end Patrick Herbert - nbcsports.com",
+        "title": "Justin Herbert could pass to his brother as Chargers elevate tight end Patrick Herbert - NBC Sports",
         "title_detail": {
           "type": "text/plain",
           "language": null,
           "base": "",
-          "value": "Justin Herbert could pass to his brother as Chargers elevate tight end Patrick Herbert - nbcsports.com"
+          "value": "Justin Herbert could pass to his brother as Chargers elevate tight end Patrick Herbert - NBC Sports"
         },
         "links": [
           {
@@ -1949,21 +1949,21 @@
           270,
           0
         ],
-        "summary": "<a href=\"https://news.google.com/rss/articles/CBMi4gFBVV95cUxOaUhJdGJhRDBZVFVnTHlLS1A4YnB2U2ZZT1N3Q3FMcWg4V3NzaWhNMGd1Ui0xOEZmRHNFQkUxYUt3ZzFKVzYwYnVDQ1JydXNPS2kxNURiLTFQWlowWkNyMTZJNkp2RWI1eGozUnBiUklyTEtnQnh4TThHNjVaVFJJVVZMMVpqU1N3OEY4Y19iZVY3U2Nmc09oRVJTUkJmYkl4bm1ST2kxaVpWaXlueHpob25ONkZramZnTXNxZDlfc0dORmJ6UzV4Q2p5LUtFUDZKQ2VFb21PNm9kMzFteC0yczRR?oc=5\" target=\"_blank\">Justin Herbert could pass to his brother as Chargers elevate tight end Patrick Herbert</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">nbcsports.com</font>",
+        "summary": "<a href=\"https://news.google.com/rss/articles/CBMi4gFBVV95cUxOaUhJdGJhRDBZVFVnTHlLS1A4YnB2U2ZZT1N3Q3FMcWg4V3NzaWhNMGd1Ui0xOEZmRHNFQkUxYUt3ZzFKVzYwYnVDQ1JydXNPS2kxNURiLTFQWlowWkNyMTZJNkp2RWI1eGozUnBiUklyTEtnQnh4TThHNjVaVFJJVVZMMVpqU1N3OEY4Y19iZVY3U2Nmc09oRVJTUkJmYkl4bm1ST2kxaVpWaXlueHpob25ONkZramZnTXNxZDlfc0dORmJ6UzV4Q2p5LUtFUDZKQ2VFb21PNm9kMzFteC0yczRR?oc=5\" target=\"_blank\">Justin Herbert could pass to his brother as Chargers elevate tight end Patrick Herbert</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">NBC Sports</font>",
         "summary_detail": {
           "type": "text/html",
           "language": null,
           "base": "",
-          "value": "<a href=\"https://news.google.com/rss/articles/CBMi4gFBVV95cUxOaUhJdGJhRDBZVFVnTHlLS1A4YnB2U2ZZT1N3Q3FMcWg4V3NzaWhNMGd1Ui0xOEZmRHNFQkUxYUt3ZzFKVzYwYnVDQ1JydXNPS2kxNURiLTFQWlowWkNyMTZJNkp2RWI1eGozUnBiUklyTEtnQnh4TThHNjVaVFJJVVZMMVpqU1N3OEY4Y19iZVY3U2Nmc09oRVJTUkJmYkl4bm1ST2kxaVpWaXlueHpob25ONkZramZnTXNxZDlfc0dORmJ6UzV4Q2p5LUtFUDZKQ2VFb21PNm9kMzFteC0yczRR?oc=5\" target=\"_blank\">Justin Herbert could pass to his brother as Chargers elevate tight end Patrick Herbert</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">nbcsports.com</font>"
+          "value": "<a href=\"https://news.google.com/rss/articles/CBMi4gFBVV95cUxOaUhJdGJhRDBZVFVnTHlLS1A4YnB2U2ZZT1N3Q3FMcWg4V3NzaWhNMGd1Ui0xOEZmRHNFQkUxYUt3ZzFKVzYwYnVDQ1JydXNPS2kxNURiLTFQWlowWkNyMTZJNkp2RWI1eGozUnBiUklyTEtnQnh4TThHNjVaVFJJVVZMMVpqU1N3OEY4Y19iZVY3U2Nmc09oRVJTUkJmYkl4bm1ST2kxaVpWaXlueHpob25ONkZramZnTXNxZDlfc0dORmJ6UzV4Q2p5LUtFUDZKQ2VFb21PNm9kMzFteC0yczRR?oc=5\" target=\"_blank\">Justin Herbert could pass to his brother as Chargers elevate tight end Patrick Herbert</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">NBC Sports</font>"
         },
         "source": {
           "href": "https://www.nbcsports.com",
-          "title": "nbcsports.com"
+          "title": "NBC Sports"
         }
       },
       "search_query": "Justin Herbert Chargers",
       "related_sources": [
-        "nbcsports.com"
+        "NBC Sports"
       ],
       "category_key": "interview",
       "category_name": "감독/선수 인터뷰",
@@ -1974,7 +1974,7 @@
       "priority_class": "tier-critical",
       "headline_kr": "Chargers가 타이트 엔드 패트릭 Justin Herbert를 승격시키면서 Justin Herbert가 형에게 패스할 수 있습니다.",
       "summary_bullets_kr": [
-        "⚡ **핵심 소식**: Chargers가 타이트한 엔드를 가져가면서 Justin Herbert(Justin Herbert)가 형에게 패스할 수 있음 패트릭 Justin Herbert(Patrick Herbert) nbcsports.com",
+        "⚡ **핵심 소식**: Chargers가 타이트 엔드를 높이면서 Justin Herbert가 형에게 패스할 수 있음 패트릭 Justin Herbert NBC 스포츠",
         "🏈 **주요 인물**: Justin Herbert (QB)의 경기력과 훈련 컨디션이 집중 조명되고 있습니다."
       ]
     },
@@ -2433,71 +2433,6 @@
       ]
     },
     {
-      "title": "'Growing pains': What's going on with the Chargers' offense?",
-      "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNSklITHhURHUySDVaRmRZdnc3TXc3SmZaSFc2Y2JYcmZoTHNXNkxieTV5N00xTFNMYWJjUy1td1lldVBCRDUzMkNpTk4xN2lCZ2ZzZHl5TG5wQUlWUTFBN05pVGpxR19Ld20tNWItUUNscVFyUzM0VXJLNzVqX21sTnNSNTdUSmhsMXJldjM3VmxGTXNZUHl0bmJpYmh2NG43VnlnM29vbms2LTlGemc?oc=5",
-      "summary": "'Growing pains': What's going on with the Chargers' offense? ESPN",
-      "published": "2026-09-26T01:00:00+00:00",
-      "source": "ESPN",
-      "author": "",
-      "raw_entry": {
-        "title": "'Growing pains': What's going on with the Chargers' offense? - ESPN",
-        "title_detail": {
-          "type": "text/plain",
-          "language": null,
-          "base": "",
-          "value": "'Growing pains': What's going on with the Chargers' offense? - ESPN"
-        },
-        "links": [
-          {
-            "rel": "alternate",
-            "type": "text/html",
-            "href": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNSklITHhURHUySDVaRmRZdnc3TXc3SmZaSFc2Y2JYcmZoTHNXNkxieTV5N00xTFNMYWJjUy1td1lldVBCRDUzMkNpTk4xN2lCZ2ZzZHl5TG5wQUlWUTFBN05pVGpxR19Ld20tNWItUUNscVFyUzM0VXJLNzVqX21sTnNSNTdUSmhsMXJldjM3VmxGTXNZUHl0bmJpYmh2NG43VnlnM29vbms2LTlGemc?oc=5"
-          }
-        ],
-        "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNSklITHhURHUySDVaRmRZdnc3TXc3SmZaSFc2Y2JYcmZoTHNXNkxieTV5N00xTFNMYWJjUy1td1lldVBCRDUzMkNpTk4xN2lCZ2ZzZHl5TG5wQUlWUTFBN05pVGpxR19Ld20tNWItUUNscVFyUzM0VXJLNzVqX21sTnNSNTdUSmhsMXJldjM3VmxGTXNZUHl0bmJpYmh2NG43VnlnM29vbms2LTlGemc?oc=5",
-        "id": "CBMirgFBVV95cUxNSklITHhURHUySDVaRmRZdnc3TXc3SmZaSFc2Y2JYcmZoTHNXNkxieTV5N00xTFNMYWJjUy1td1lldVBCRDUzMkNpTk4xN2lCZ2ZzZHl5TG5wQUlWUTFBN05pVGpxR19Ld20tNWItUUNscVFyUzM0VXJLNzVqX21sTnNSNTdUSmhsMXJldjM3VmxGTXNZUHl0bmJpYmh2NG43VnlnM29vbms2LTlGemc",
-        "guidislink": false,
-        "published": "Sat, 26 Sep 2026 10:00:00 GMT",
-        "published_parsed": [
-          2026,
-          9,
-          26,
-          10,
-          0,
-          0,
-          5,
-          269,
-          0
-        ],
-        "summary": "<a href=\"https://news.google.com/rss/articles/CBMirgFBVV95cUxNSklITHhURHUySDVaRmRZdnc3TXc3SmZaSFc2Y2JYcmZoTHNXNkxieTV5N00xTFNMYWJjUy1td1lldVBCRDUzMkNpTk4xN2lCZ2ZzZHl5TG5wQUlWUTFBN05pVGpxR19Ld20tNWItUUNscVFyUzM0VXJLNzVqX21sTnNSNTdUSmhsMXJldjM3VmxGTXNZUHl0bmJpYmh2NG43VnlnM29vbms2LTlGemc?oc=5\" target=\"_blank\">'Growing pains': What's going on with the Chargers' offense?</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">ESPN</font>",
-        "summary_detail": {
-          "type": "text/html",
-          "language": null,
-          "base": "",
-          "value": "<a href=\"https://news.google.com/rss/articles/CBMirgFBVV95cUxNSklITHhURHUySDVaRmRZdnc3TXc3SmZaSFc2Y2JYcmZoTHNXNkxieTV5N00xTFNMYWJjUy1td1lldVBCRDUzMkNpTk4xN2lCZ2ZzZHl5TG5wQUlWUTFBN05pVGpxR19Ld20tNWItUUNscVFyUzM0VXJLNzVqX21sTnNSNTdUSmhsMXJldjM3VmxGTXNZUHl0bmJpYmh2NG43VnlnM29vbms2LTlGemc?oc=5\" target=\"_blank\">'Growing pains': What's going on with the Chargers' offense?</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">ESPN</font>"
-        },
-        "source": {
-          "href": "https://www.espn.com",
-          "title": "ESPN"
-        }
-      },
-      "search_query": "Mike McDaniel Chargers",
-      "related_sources": [
-        "ESPN"
-      ],
-      "category_key": "general",
-      "category_name": "팀 일반 소식",
-      "category_badge": "⚡ 팀 소식",
-      "category_icon": "⚡",
-      "importance_score": 90,
-      "priority_tier": "🚨 긴급/핵심",
-      "priority_class": "tier-critical",
-      "headline_kr": "'성장통': Chargers의 공격에 무슨 일이 일어나고 있는 걸까요?",
-      "summary_bullets_kr": [
-        "⚡ **핵심 소식**: '성장통': Chargers의 공격에 무슨 일이 일어나고 있는 걸까요?"
-      ]
-    },
-    {
       "title": "Vikings Get Intriguing Justin Herbert Take Amid Chargers Struggles",
       "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxPNmw3ZlVBbXBHRWx0OXBvdHNoVks0dVJfZ04yMElIcG0zM3g2M24xR2dzMTBhUkJSYTRmYVh1dkRZUEpreDVubElYdVNyeVM3SGdWN01nMi1UbV90eTVIcWsyYXpjelhmYlR3eVRKa3lzX0h0OUd3N05BNUxmNDVacG9uWnQ2YkpHRklOUjNaOEo?oc=5",
       "summary": "Vikings Get Intriguing Justin Herbert Take Amid Chargers Struggles Yahoo Sports",
@@ -2564,19 +2499,85 @@
       ]
     },
     {
-      "title": "Bills vs. Chargers injury update: Buffalo gets good news, LA loses several players",
-      "url": "https://news.google.com/rss/articles/CBMijwJBVV95cUxQWUhtaDVObENsX3VodjhuanpUT0VrZ21VTkJybGpvYXg4dDNfQ0dyYmZnalllMEpfYV9UQ1R2ZjJvbmJwSFdDSDFsd3B2Q2VEMjFYVEJpSlpaRnJtTzd0MFlJUDBLaTBMc2RCWHJ3SjlYVHNqbWYzNXJLWDVSeXFwdHVrUVZCOHljY2Z6dURGU3NmcndMOG1jU0JMc1dXS21QdV9UczREOXl0azYwRHZtNlZRdUw3YjY4czVsNkFscXkweWFQYmprenB1ZUJhRDNlVm9qWHVYVkt4czN6Qlk0NVd3RG1YdDNLbTltVjF5SW1UWDY1cTRiQ2hXbFZNcElvTEgwUzFyYk9lSF94RHBv?oc=5",
-      "summary": "Bills vs. Chargers injury update: Buffalo gets good news, LA loses several players Democrat and Chronicle",
-      "published": "2026-09-21T05:32:08+00:00",
-      "source": "Democrat and Chronicle",
+      "title": "Chargers QB Justin Herbert Needs to Be Better",
+      "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPWTJOaTZ6STBoZkI1TUpmdHFucTdCVWFKNE43WktSV1RPVWl3RFBoZ2cwbXAxRjRDZXh2OVJEeFlBNzNPYzJRdEhTTWtCYkdBOHBuU0tGSDFZTnMwMHFUczluNHNURlg5Ty1HcHdsYUpQeFJKSUJZVHh2ekI0VzVhMmF0amsxV2Zx?oc=5",
+      "summary": "Chargers QB Justin Herbert Needs to Be Better Yahoo Sports",
+      "published": "2026-09-22T10:11:00+00:00",
+      "source": "Yahoo Sports",
       "author": "",
       "raw_entry": {
-        "title": "Bills vs. Chargers injury update: Buffalo gets good news, LA loses several players - Democrat and Chronicle",
+        "title": "Chargers QB Justin Herbert Needs to Be Better - Yahoo Sports",
         "title_detail": {
           "type": "text/plain",
           "language": null,
           "base": "",
-          "value": "Bills vs. Chargers injury update: Buffalo gets good news, LA loses several players - Democrat and Chronicle"
+          "value": "Chargers QB Justin Herbert Needs to Be Better - Yahoo Sports"
+        },
+        "links": [
+          {
+            "rel": "alternate",
+            "type": "text/html",
+            "href": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPWTJOaTZ6STBoZkI1TUpmdHFucTdCVWFKNE43WktSV1RPVWl3RFBoZ2cwbXAxRjRDZXh2OVJEeFlBNzNPYzJRdEhTTWtCYkdBOHBuU0tGSDFZTnMwMHFUczluNHNURlg5Ty1HcHdsYUpQeFJKSUJZVHh2ekI0VzVhMmF0amsxV2Zx?oc=5"
+          }
+        ],
+        "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPWTJOaTZ6STBoZkI1TUpmdHFucTdCVWFKNE43WktSV1RPVWl3RFBoZ2cwbXAxRjRDZXh2OVJEeFlBNzNPYzJRdEhTTWtCYkdBOHBuU0tGSDFZTnMwMHFUczluNHNURlg5Ty1HcHdsYUpQeFJKSUJZVHh2ekI0VzVhMmF0amsxV2Zx?oc=5",
+        "id": "CBMiiAFBVV95cUxPWTJOaTZ6STBoZkI1TUpmdHFucTdCVWFKNE43WktSV1RPVWl3RFBoZ2cwbXAxRjRDZXh2OVJEeFlBNzNPYzJRdEhTTWtCYkdBOHBuU0tGSDFZTnMwMHFUczluNHNURlg5Ty1HcHdsYUpQeFJKSUJZVHh2ekI0VzVhMmF0amsxV2Zx",
+        "guidislink": false,
+        "published": "Tue, 22 Sep 2026 19:11:00 GMT",
+        "published_parsed": [
+          2026,
+          9,
+          22,
+          19,
+          11,
+          0,
+          1,
+          265,
+          0
+        ],
+        "summary": "<a href=\"https://news.google.com/rss/articles/CBMiiAFBVV95cUxPWTJOaTZ6STBoZkI1TUpmdHFucTdCVWFKNE43WktSV1RPVWl3RFBoZ2cwbXAxRjRDZXh2OVJEeFlBNzNPYzJRdEhTTWtCYkdBOHBuU0tGSDFZTnMwMHFUczluNHNURlg5Ty1HcHdsYUpQeFJKSUJZVHh2ekI0VzVhMmF0amsxV2Zx?oc=5\" target=\"_blank\">Chargers QB Justin Herbert Needs to Be Better</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Yahoo Sports</font>",
+        "summary_detail": {
+          "type": "text/html",
+          "language": null,
+          "base": "",
+          "value": "<a href=\"https://news.google.com/rss/articles/CBMiiAFBVV95cUxPWTJOaTZ6STBoZkI1TUpmdHFucTdCVWFKNE43WktSV1RPVWl3RFBoZ2cwbXAxRjRDZXh2OVJEeFlBNzNPYzJRdEhTTWtCYkdBOHBuU0tGSDFZTnMwMHFUczluNHNURlg5Ty1HcHdsYUpQeFJKSUJZVHh2ekI0VzVhMmF0amsxV2Zx?oc=5\" target=\"_blank\">Chargers QB Justin Herbert Needs to Be Better</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Yahoo Sports</font>"
+        },
+        "source": {
+          "href": "https://sports.yahoo.com",
+          "title": "Yahoo Sports"
+        }
+      },
+      "search_query": "Justin Herbert Chargers",
+      "related_sources": [
+        "Yahoo Sports"
+      ],
+      "category_key": "interview",
+      "category_name": "감독/선수 인터뷰",
+      "category_badge": "🎙️ 인터뷰/발언",
+      "category_icon": "🎙️",
+      "importance_score": 90,
+      "priority_tier": "🚨 긴급/핵심",
+      "priority_class": "tier-critical",
+      "headline_kr": "Chargers QB Justin Herbert는 더 나아질 필요가 있습니다.",
+      "summary_bullets_kr": [
+        "⚡ **핵심 소식**: Chargers QB Justin Herbert는 더 나은 사람이 필요합니다 Yahoo Sports",
+        "🏈 **주요 인물**: Justin Herbert (QB)의 경기력과 훈련 컨디션이 집중 조명되고 있습니다."
+      ]
+    },
+    {
+      "title": "Bills vs. Chargers injury update: Buffalo gets good news, LA loses several players",
+      "url": "https://news.google.com/rss/articles/CBMijwJBVV95cUxQWUhtaDVObENsX3VodjhuanpUT0VrZ21VTkJybGpvYXg4dDNfQ0dyYmZnalllMEpfYV9UQ1R2ZjJvbmJwSFdDSDFsd3B2Q2VEMjFYVEJpSlpaRnJtTzd0MFlJUDBLaTBMc2RCWHJ3SjlYVHNqbWYzNXJLWDVSeXFwdHVrUVZCOHljY2Z6dURGU3NmcndMOG1jU0JMc1dXS21QdV9UczREOXl0azYwRHZtNlZRdUw3YjY4czVsNkFscXkweWFQYmprenB1ZUJhRDNlVm9qWHVYVkt4czN6Qlk0NVd3RG1YdDNLbTltVjF5SW1UWDY1cTRiQ2hXbFZNcElvTEgwUzFyYk9lSF94RHBv?oc=5",
+      "summary": "Bills vs. Chargers injury update: Buffalo gets good news, LA loses several players democratandchronicle.com",
+      "published": "2026-09-21T05:32:08+00:00",
+      "source": "democratandchronicle.com",
+      "author": "",
+      "raw_entry": {
+        "title": "Bills vs. Chargers injury update: Buffalo gets good news, LA loses several players - democratandchronicle.com",
+        "title_detail": {
+          "type": "text/plain",
+          "language": null,
+          "base": "",
+          "value": "Bills vs. Chargers injury update: Buffalo gets good news, LA loses several players - democratandchronicle.com"
         },
         "links": [
           {
@@ -2600,21 +2601,21 @@
           264,
           0
         ],
-        "summary": "<a href=\"https://news.google.com/rss/articles/CBMijwJBVV95cUxQWUhtaDVObENsX3VodjhuanpUT0VrZ21VTkJybGpvYXg4dDNfQ0dyYmZnalllMEpfYV9UQ1R2ZjJvbmJwSFdDSDFsd3B2Q2VEMjFYVEJpSlpaRnJtTzd0MFlJUDBLaTBMc2RCWHJ3SjlYVHNqbWYzNXJLWDVSeXFwdHVrUVZCOHljY2Z6dURGU3NmcndMOG1jU0JMc1dXS21QdV9UczREOXl0azYwRHZtNlZRdUw3YjY4czVsNkFscXkweWFQYmprenB1ZUJhRDNlVm9qWHVYVkt4czN6Qlk0NVd3RG1YdDNLbTltVjF5SW1UWDY1cTRiQ2hXbFZNcElvTEgwUzFyYk9lSF94RHBv?oc=5\" target=\"_blank\">Bills vs. Chargers injury update: Buffalo gets good news, LA loses several players</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Democrat and Chronicle</font>",
+        "summary": "<a href=\"https://news.google.com/rss/articles/CBMijwJBVV95cUxQWUhtaDVObENsX3VodjhuanpUT0VrZ21VTkJybGpvYXg4dDNfQ0dyYmZnalllMEpfYV9UQ1R2ZjJvbmJwSFdDSDFsd3B2Q2VEMjFYVEJpSlpaRnJtTzd0MFlJUDBLaTBMc2RCWHJ3SjlYVHNqbWYzNXJLWDVSeXFwdHVrUVZCOHljY2Z6dURGU3NmcndMOG1jU0JMc1dXS21QdV9UczREOXl0azYwRHZtNlZRdUw3YjY4czVsNkFscXkweWFQYmprenB1ZUJhRDNlVm9qWHVYVkt4czN6Qlk0NVd3RG1YdDNLbTltVjF5SW1UWDY1cTRiQ2hXbFZNcElvTEgwUzFyYk9lSF94RHBv?oc=5\" target=\"_blank\">Bills vs. Chargers injury update: Buffalo gets good news, LA loses several players</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">democratandchronicle.com</font>",
         "summary_detail": {
           "type": "text/html",
           "language": null,
           "base": "",
-          "value": "<a href=\"https://news.google.com/rss/articles/CBMijwJBVV95cUxQWUhtaDVObENsX3VodjhuanpUT0VrZ21VTkJybGpvYXg4dDNfQ0dyYmZnalllMEpfYV9UQ1R2ZjJvbmJwSFdDSDFsd3B2Q2VEMjFYVEJpSlpaRnJtTzd0MFlJUDBLaTBMc2RCWHJ3SjlYVHNqbWYzNXJLWDVSeXFwdHVrUVZCOHljY2Z6dURGU3NmcndMOG1jU0JMc1dXS21QdV9UczREOXl0azYwRHZtNlZRdUw3YjY4czVsNkFscXkweWFQYmprenB1ZUJhRDNlVm9qWHVYVkt4czN6Qlk0NVd3RG1YdDNLbTltVjF5SW1UWDY1cTRiQ2hXbFZNcElvTEgwUzFyYk9lSF94RHBv?oc=5\" target=\"_blank\">Bills vs. Chargers injury update: Buffalo gets good news, LA loses several players</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Democrat and Chronicle</font>"
+          "value": "<a href=\"https://news.google.com/rss/articles/CBMijwJBVV95cUxQWUhtaDVObENsX3VodjhuanpUT0VrZ21VTkJybGpvYXg4dDNfQ0dyYmZnalllMEpfYV9UQ1R2ZjJvbmJwSFdDSDFsd3B2Q2VEMjFYVEJpSlpaRnJtTzd0MFlJUDBLaTBMc2RCWHJ3SjlYVHNqbWYzNXJLWDVSeXFwdHVrUVZCOHljY2Z6dURGU3NmcndMOG1jU0JMc1dXS21QdV9UczREOXl0azYwRHZtNlZRdUw3YjY4czVsNkFscXkweWFQYmprenB1ZUJhRDNlVm9qWHVYVkt4czN6Qlk0NVd3RG1YdDNLbTltVjF5SW1UWDY1cTRiQ2hXbFZNcElvTEgwUzFyYk9lSF94RHBv?oc=5\" target=\"_blank\">Bills vs. Chargers injury update: Buffalo gets good news, LA loses several players</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">democratandchronicle.com</font>"
         },
         "source": {
           "href": "https://www.democratandchronicle.com",
-          "title": "Democrat and Chronicle"
+          "title": "democratandchronicle.com"
         }
       },
       "search_query": "Chargers injury report",
       "related_sources": [
-        "Democrat and Chronicle"
+        "democratandchronicle.com"
       ],
       "category_key": "game",
       "category_name": "경기 결과/프리뷰",
@@ -2625,7 +2626,7 @@
       "priority_class": "tier-critical",
       "headline_kr": "Bills 대 Chargers 부상 업데이트: Buffalo는 좋은 소식을 접하고 LA는 여러 선수를 잃습니다.",
       "summary_bullets_kr": [
-        "⚡ **핵심 소식**: Chargers 부상 업데이트: Buffalo는 좋은 소식을 접하고 LA는 여러 선수 민주당 및 크로니클을 잃습니다."
+        "⚡ **핵심 소식**: Chargers 부상 업데이트: Buffalo는 좋은 소식을 접하고 LA는 여러 선수를 잃었습니다.democratandchronicle.com"
       ]
     },
     {
@@ -2692,6 +2693,71 @@
       "headline_kr": "NFL Week 3의 Chargers 대 청구서 예측, 선택, 승률",
       "summary_bullets_kr": [
         "⚡ **핵심 소식**: NFL Week 3의 차저 대 청구서 예측, 선택, 확률 Yahoo Sports"
+      ]
+    },
+    {
+      "title": "'Growing pains': What's going on with the Chargers' offense?",
+      "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNSklITHhURHUySDVaRmRZdnc3TXc3SmZaSFc2Y2JYcmZoTHNXNkxieTV5N00xTFNMYWJjUy1td1lldVBCRDUzMkNpTk4xN2lCZ2ZzZHl5TG5wQUlWUTFBN05pVGpxR19Ld20tNWItUUNscVFyUzM0VXJLNzVqX21sTnNSNTdUSmhsMXJldjM3VmxGTXNZUHl0bmJpYmh2NG43VnlnM29vbms2LTlGemc?oc=5",
+      "summary": "'Growing pains': What's going on with the Chargers' offense? ESPN",
+      "published": "2026-09-26T01:00:00+00:00",
+      "source": "ESPN",
+      "author": "",
+      "raw_entry": {
+        "title": "'Growing pains': What's going on with the Chargers' offense? - ESPN",
+        "title_detail": {
+          "type": "text/plain",
+          "language": null,
+          "base": "",
+          "value": "'Growing pains': What's going on with the Chargers' offense? - ESPN"
+        },
+        "links": [
+          {
+            "rel": "alternate",
+            "type": "text/html",
+            "href": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNSklITHhURHUySDVaRmRZdnc3TXc3SmZaSFc2Y2JYcmZoTHNXNkxieTV5N00xTFNMYWJjUy1td1lldVBCRDUzMkNpTk4xN2lCZ2ZzZHl5TG5wQUlWUTFBN05pVGpxR19Ld20tNWItUUNscVFyUzM0VXJLNzVqX21sTnNSNTdUSmhsMXJldjM3VmxGTXNZUHl0bmJpYmh2NG43VnlnM29vbms2LTlGemc?oc=5"
+          }
+        ],
+        "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNSklITHhURHUySDVaRmRZdnc3TXc3SmZaSFc2Y2JYcmZoTHNXNkxieTV5N00xTFNMYWJjUy1td1lldVBCRDUzMkNpTk4xN2lCZ2ZzZHl5TG5wQUlWUTFBN05pVGpxR19Ld20tNWItUUNscVFyUzM0VXJLNzVqX21sTnNSNTdUSmhsMXJldjM3VmxGTXNZUHl0bmJpYmh2NG43VnlnM29vbms2LTlGemc?oc=5",
+        "id": "CBMirgFBVV95cUxNSklITHhURHUySDVaRmRZdnc3TXc3SmZaSFc2Y2JYcmZoTHNXNkxieTV5N00xTFNMYWJjUy1td1lldVBCRDUzMkNpTk4xN2lCZ2ZzZHl5TG5wQUlWUTFBN05pVGpxR19Ld20tNWItUUNscVFyUzM0VXJLNzVqX21sTnNSNTdUSmhsMXJldjM3VmxGTXNZUHl0bmJpYmh2NG43VnlnM29vbms2LTlGemc",
+        "guidislink": false,
+        "published": "Sat, 26 Sep 2026 10:00:00 GMT",
+        "published_parsed": [
+          2026,
+          9,
+          26,
+          10,
+          0,
+          0,
+          5,
+          269,
+          0
+        ],
+        "summary": "<a href=\"https://news.google.com/rss/articles/CBMirgFBVV95cUxNSklITHhURHUySDVaRmRZdnc3TXc3SmZaSFc2Y2JYcmZoTHNXNkxieTV5N00xTFNMYWJjUy1td1lldVBCRDUzMkNpTk4xN2lCZ2ZzZHl5TG5wQUlWUTFBN05pVGpxR19Ld20tNWItUUNscVFyUzM0VXJLNzVqX21sTnNSNTdUSmhsMXJldjM3VmxGTXNZUHl0bmJpYmh2NG43VnlnM29vbms2LTlGemc?oc=5\" target=\"_blank\">'Growing pains': What's going on with the Chargers' offense?</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">ESPN</font>",
+        "summary_detail": {
+          "type": "text/html",
+          "language": null,
+          "base": "",
+          "value": "<a href=\"https://news.google.com/rss/articles/CBMirgFBVV95cUxNSklITHhURHUySDVaRmRZdnc3TXc3SmZaSFc2Y2JYcmZoTHNXNkxieTV5N00xTFNMYWJjUy1td1lldVBCRDUzMkNpTk4xN2lCZ2ZzZHl5TG5wQUlWUTFBN05pVGpxR19Ld20tNWItUUNscVFyUzM0VXJLNzVqX21sTnNSNTdUSmhsMXJldjM3VmxGTXNZUHl0bmJpYmh2NG43VnlnM29vbms2LTlGemc?oc=5\" target=\"_blank\">'Growing pains': What's going on with the Chargers' offense?</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">ESPN</font>"
+        },
+        "source": {
+          "href": "https://www.espn.com",
+          "title": "ESPN"
+        }
+      },
+      "search_query": "Mike McDaniel Chargers",
+      "related_sources": [
+        "ESPN"
+      ],
+      "category_key": "general",
+      "category_name": "팀 일반 소식",
+      "category_badge": "⚡ 팀 소식",
+      "category_icon": "⚡",
+      "importance_score": 85,
+      "priority_tier": "🚨 긴급/핵심",
+      "priority_class": "tier-critical",
+      "headline_kr": "'성장통': Chargers의 공격에 무슨 일이 일어나고 있는 걸까요?",
+      "summary_bullets_kr": [
+        "⚡ **핵심 소식**: '성장통': Chargers의 공격에 무슨 일이 일어나고 있는 걸까요?"
       ]
     },
     {
@@ -2796,17 +2862,17 @@
     {
       "title": "Bills have longest injury report of season, but Chargers' is even longer",
       "url": "https://news.google.com/rss/articles/CBMi-gFBVV95cUxQVFJIUzJDcVFOYWRDVUxmazlELWdaVUtXc1ZtVENVQ1RSQUF4aGFjcWZEemVOUVhWUDZoOUcyeXUwRmktZ09yWWRxOVJ0azZSd1E1XzlRRW1LSVhUVGNZbUozQWNXTWVtaTVZb1hZelpmU1hVNExSRVJRdmd3V3U0ZXlXNTFoNW1ONWRCaW1obmo1c3BJQXltcEZuRUJRYmx1RXVEU09tcWZ4ekZvR3NXSWFWZmhFeW1kWVNPNTl3OG4xeVdFTnM2MVF2d1dqSEpERjhOMzE4MWdhY0V3Rzd6emtZemctcW1zRFZGS0RGVTloMlB2RnpXdDVB?oc=5",
-      "summary": "Bills have longest injury report of season, but Chargers' is even longer Democrat and Chronicle",
+      "summary": "Bills have longest injury report of season, but Chargers' is even longer democratandchronicle.com",
       "published": "2026-09-24T06:41:00+00:00",
-      "source": "Democrat and Chronicle",
+      "source": "democratandchronicle.com",
       "author": "",
       "raw_entry": {
-        "title": "Bills have longest injury report of season, but Chargers' is even longer - Democrat and Chronicle",
+        "title": "Bills have longest injury report of season, but Chargers' is even longer - democratandchronicle.com",
         "title_detail": {
           "type": "text/plain",
           "language": null,
           "base": "",
-          "value": "Bills have longest injury report of season, but Chargers' is even longer - Democrat and Chronicle"
+          "value": "Bills have longest injury report of season, but Chargers' is even longer - democratandchronicle.com"
         },
         "links": [
           {
@@ -2830,21 +2896,21 @@
           267,
           0
         ],
-        "summary": "<a href=\"https://news.google.com/rss/articles/CBMi-gFBVV95cUxQVFJIUzJDcVFOYWRDVUxmazlELWdaVUtXc1ZtVENVQ1RSQUF4aGFjcWZEemVOUVhWUDZoOUcyeXUwRmktZ09yWWRxOVJ0azZSd1E1XzlRRW1LSVhUVGNZbUozQWNXTWVtaTVZb1hZelpmU1hVNExSRVJRdmd3V3U0ZXlXNTFoNW1ONWRCaW1obmo1c3BJQXltcEZuRUJRYmx1RXVEU09tcWZ4ekZvR3NXSWFWZmhFeW1kWVNPNTl3OG4xeVdFTnM2MVF2d1dqSEpERjhOMzE4MWdhY0V3Rzd6emtZemctcW1zRFZGS0RGVTloMlB2RnpXdDVB?oc=5\" target=\"_blank\">Bills have longest injury report of season, but Chargers' is even longer</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Democrat and Chronicle</font>",
+        "summary": "<a href=\"https://news.google.com/rss/articles/CBMi-gFBVV95cUxQVFJIUzJDcVFOYWRDVUxmazlELWdaVUtXc1ZtVENVQ1RSQUF4aGFjcWZEemVOUVhWUDZoOUcyeXUwRmktZ09yWWRxOVJ0azZSd1E1XzlRRW1LSVhUVGNZbUozQWNXTWVtaTVZb1hZelpmU1hVNExSRVJRdmd3V3U0ZXlXNTFoNW1ONWRCaW1obmo1c3BJQXltcEZuRUJRYmx1RXVEU09tcWZ4ekZvR3NXSWFWZmhFeW1kWVNPNTl3OG4xeVdFTnM2MVF2d1dqSEpERjhOMzE4MWdhY0V3Rzd6emtZemctcW1zRFZGS0RGVTloMlB2RnpXdDVB?oc=5\" target=\"_blank\">Bills have longest injury report of season, but Chargers' is even longer</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">democratandchronicle.com</font>",
         "summary_detail": {
           "type": "text/html",
           "language": null,
           "base": "",
-          "value": "<a href=\"https://news.google.com/rss/articles/CBMi-gFBVV95cUxQVFJIUzJDcVFOYWRDVUxmazlELWdaVUtXc1ZtVENVQ1RSQUF4aGFjcWZEemVOUVhWUDZoOUcyeXUwRmktZ09yWWRxOVJ0azZSd1E1XzlRRW1LSVhUVGNZbUozQWNXTWVtaTVZb1hZelpmU1hVNExSRVJRdmd3V3U0ZXlXNTFoNW1ONWRCaW1obmo1c3BJQXltcEZuRUJRYmx1RXVEU09tcWZ4ekZvR3NXSWFWZmhFeW1kWVNPNTl3OG4xeVdFTnM2MVF2d1dqSEpERjhOMzE4MWdhY0V3Rzd6emtZemctcW1zRFZGS0RGVTloMlB2RnpXdDVB?oc=5\" target=\"_blank\">Bills have longest injury report of season, but Chargers' is even longer</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Democrat and Chronicle</font>"
+          "value": "<a href=\"https://news.google.com/rss/articles/CBMi-gFBVV95cUxQVFJIUzJDcVFOYWRDVUxmazlELWdaVUtXc1ZtVENVQ1RSQUF4aGFjcWZEemVOUVhWUDZoOUcyeXUwRmktZ09yWWRxOVJ0azZSd1E1XzlRRW1LSVhUVGNZbUozQWNXTWVtaTVZb1hZelpmU1hVNExSRVJRdmd3V3U0ZXlXNTFoNW1ONWRCaW1obmo1c3BJQXltcEZuRUJRYmx1RXVEU09tcWZ4ekZvR3NXSWFWZmhFeW1kWVNPNTl3OG4xeVdFTnM2MVF2d1dqSEpERjhOMzE4MWdhY0V3Rzd6emtZemctcW1zRFZGS0RGVTloMlB2RnpXdDVB?oc=5\" target=\"_blank\">Bills have longest injury report of season, but Chargers' is even longer</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">democratandchronicle.com</font>"
         },
         "source": {
           "href": "https://www.democratandchronicle.com",
-          "title": "Democrat and Chronicle"
+          "title": "democratandchronicle.com"
         }
       },
       "search_query": "Chargers injury report",
       "related_sources": [
-        "Democrat and Chronicle",
+        "democratandchronicle.com",
         "Bills Wire",
         "Yahoo Sports"
       ],
@@ -2857,7 +2923,7 @@
       "priority_class": "tier-critical",
       "headline_kr": "Bills는 시즌 중 가장 긴 부상 보고를 받았지만 Chargers는 훨씬 더 깁니다.",
       "summary_bullets_kr": [
-        "⚡ **핵심 소식**: Bills는 시즌 중 가장 긴 부상 보고를 받았지만 Chargers는 민주당과 크로니클보다 더 길었습니다."
+        "⚡ **핵심 소식**: Bills는 시즌 중 가장 긴 부상 보고를 받았지만 Chargers는 훨씬 더 길었습니다.democratandchronicle.com"
       ]
     },
     {
@@ -3020,6 +3086,104 @@
       "summary_bullets_kr": [
         "⚡ **핵심 소식**: Chargers의 Jim Harbaugh는 Super Bowl QB Yahoo Sports로부터 놀라운 핫 시트 경고를 받았습니다.",
         "🏈 **전술 관전 포인트**: Jim Harbaugh 감독 및 코칭스태프의 피지컬 중심 미식축구 철학이 반영된 행보입니다."
+      ]
+    },
+    {
+      "title": "Time to Bolt Up, today we win ⚡️⚡️⚡️",
+      "url": "https://www.reddit.com/r/Chargers/comments/1wrk374/time_to_bolt_up_today_we_win/",
+      "summary": "Apologies for the 2nd pic, it won't be a regular thing 🤣⚡️ submitted by /u/SanDiegoSteve78 [link] [comments]",
+      "published": "2026-09-27T04:21:06+00:00",
+      "source": "Reddit r/Chargers",
+      "author": "/u/SanDiegoSteve78",
+      "raw_entry": {
+        "authors": [
+          {
+            "name": "/u/SanDiegoSteve78",
+            "href": "https://www.reddit.com/user/SanDiegoSteve78"
+          }
+        ],
+        "author_detail": {
+          "name": "/u/SanDiegoSteve78",
+          "href": "https://www.reddit.com/user/SanDiegoSteve78"
+        },
+        "href": "",
+        "author": "/u/SanDiegoSteve78",
+        "tags": [
+          {
+            "term": "Chargers",
+            "scheme": null,
+            "label": "r/Chargers"
+          }
+        ],
+        "content": [
+          {
+            "type": "text/html",
+            "language": null,
+            "base": "",
+            "value": "<table> <tr><td> <a href=\"https://www.reddit.com/r/Chargers/comments/1wrk374/time_to_bolt_up_today_we_win/\"> <img alt=\"Time to Bolt Up, today we win ⚡️⚡️⚡️\" src=\"https://preview.redd.it/sqlldgs5d2sh1.jpg?width=140&amp;height=140&amp;crop=1:1,smart&amp;auto=webp&amp;s=b7dbca5a33a2f5ee5027aa596ecfc1db9eb0e24c\" title=\"Time to Bolt Up, today we win ⚡️⚡️⚡️\" /> </a> </td><td> <!-- SC_OFF --><div class=\"md\"><p>Apologies for the 2nd pic, it won't be a regular thing 🤣⚡️</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/SanDiegoSteve78\"> /u/SanDiegoSteve78 </a> <br /> <span><a href=\"https://www.reddit.com/gallery/1wrk374\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/Chargers/comments/1wrk374/time_to_bolt_up_today_we_win/\">[comments]</a></span> </td></tr></table>"
+          }
+        ],
+        "summary": "<table> <tr><td> <a href=\"https://www.reddit.com/r/Chargers/comments/1wrk374/time_to_bolt_up_today_we_win/\"> <img alt=\"Time to Bolt Up, today we win ⚡️⚡️⚡️\" src=\"https://preview.redd.it/sqlldgs5d2sh1.jpg?width=140&amp;height=140&amp;crop=1:1,smart&amp;auto=webp&amp;s=b7dbca5a33a2f5ee5027aa596ecfc1db9eb0e24c\" title=\"Time to Bolt Up, today we win ⚡️⚡️⚡️\" /> </a> </td><td> <!-- SC_OFF --><div class=\"md\"><p>Apologies for the 2nd pic, it won't be a regular thing 🤣⚡️</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/SanDiegoSteve78\"> /u/SanDiegoSteve78 </a> <br /> <span><a href=\"https://www.reddit.com/gallery/1wrk374\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/Chargers/comments/1wrk374/time_to_bolt_up_today_we_win/\">[comments]</a></span> </td></tr></table>",
+        "id": "t3_1wrk374",
+        "guidislink": true,
+        "link": "https://www.reddit.com/r/Chargers/comments/1wrk374/time_to_bolt_up_today_we_win/",
+        "media_thumbnail": [
+          {
+            "url": "https://preview.redd.it/sqlldgs5d2sh1.jpg?width=140&height=140&crop=1:1,smart&auto=webp&s=b7dbca5a33a2f5ee5027aa596ecfc1db9eb0e24c"
+          }
+        ],
+        "links": [
+          {
+            "href": "https://www.reddit.com/r/Chargers/comments/1wrk374/time_to_bolt_up_today_we_win/",
+            "rel": "alternate",
+            "type": "text/html"
+          }
+        ],
+        "updated": "2026-09-27T13:21:06+00:00",
+        "updated_parsed": [
+          2026,
+          9,
+          27,
+          13,
+          21,
+          6,
+          6,
+          270,
+          0
+        ],
+        "published": "2026-09-27T13:21:06+00:00",
+        "published_parsed": [
+          2026,
+          9,
+          27,
+          13,
+          21,
+          6,
+          6,
+          270,
+          0
+        ],
+        "title": "Time to Bolt Up, today we win ⚡️⚡️⚡️",
+        "title_detail": {
+          "type": "text/plain",
+          "language": null,
+          "base": "",
+          "value": "Time to Bolt Up, today we win ⚡️⚡️⚡️"
+        }
+      },
+      "related_sources": [
+        "Reddit r/Chargers"
+      ],
+      "category_key": "game",
+      "category_name": "경기 결과/프리뷰",
+      "category_badge": "⚡ 경기 소식",
+      "category_icon": "🏈",
+      "importance_score": 80,
+      "priority_tier": "🚨 긴급/핵심",
+      "priority_class": "tier-critical",
+      "headline_kr": "이제 Bolt Up할 시간입니다. 오늘 우리가 승리했습니다 ⚡️⚡️⚡️",
+      "summary_bullets_kr": [
+        "⚡ **핵심 소식**: 이제 Bolt Up할 시간입니다. 오늘 우리가 승리했습니다 ⚡️⚡️⚡️"
       ]
     },
     {
@@ -3770,86 +3934,19 @@
       ]
     },
     {
-      "title": "8 more Bills vs. Chargers predictions, scores, odds for Week 3 game",
-      "url": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxOSVA5cjNxbUtIT1VqYjRyaEJabk9nNnlkN3BMQ1BpS0VmRTNhUGtnY09wREZtalBUSlZtWWx5TEt4STVhaUExdEpnQ2pDUm5mcUxTeHdVczF5YTA4LXVHTDVsRUpwREZJbWdqUmZjMENMTmtlZ2U5VHFOU1pWVTdsS3hKTTk1VjhNTEd1ZXFmTTNoZHpSbFhMN2hTazVGcUFlM2xGX1c4MXRZclVWd3lLdlBPUWpiaVFHT3REQktrbkZnRm41eGswdkZRVlJRbV83MVc1NDYyZEo0dmNwX0Myc0RlMHBCeHJXcS1v?oc=5",
-      "summary": "8 more Bills vs. Chargers predictions, scores, odds for Week 3 game Democrat and Chronicle",
-      "published": "2026-09-26T22:00:00+00:00",
-      "source": "Democrat and Chronicle",
-      "author": "",
-      "raw_entry": {
-        "title": "8 more Bills vs. Chargers predictions, scores, odds for Week 3 game - Democrat and Chronicle",
-        "title_detail": {
-          "type": "text/plain",
-          "language": null,
-          "base": "",
-          "value": "8 more Bills vs. Chargers predictions, scores, odds for Week 3 game - Democrat and Chronicle"
-        },
-        "links": [
-          {
-            "rel": "alternate",
-            "type": "text/html",
-            "href": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxOSVA5cjNxbUtIT1VqYjRyaEJabk9nNnlkN3BMQ1BpS0VmRTNhUGtnY09wREZtalBUSlZtWWx5TEt4STVhaUExdEpnQ2pDUm5mcUxTeHdVczF5YTA4LXVHTDVsRUpwREZJbWdqUmZjMENMTmtlZ2U5VHFOU1pWVTdsS3hKTTk1VjhNTEd1ZXFmTTNoZHpSbFhMN2hTazVGcUFlM2xGX1c4MXRZclVWd3lLdlBPUWpiaVFHT3REQktrbkZnRm41eGswdkZRVlJRbV83MVc1NDYyZEo0dmNwX0Myc0RlMHBCeHJXcS1v?oc=5"
-          }
-        ],
-        "link": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxOSVA5cjNxbUtIT1VqYjRyaEJabk9nNnlkN3BMQ1BpS0VmRTNhUGtnY09wREZtalBUSlZtWWx5TEt4STVhaUExdEpnQ2pDUm5mcUxTeHdVczF5YTA4LXVHTDVsRUpwREZJbWdqUmZjMENMTmtlZ2U5VHFOU1pWVTdsS3hKTTk1VjhNTEd1ZXFmTTNoZHpSbFhMN2hTazVGcUFlM2xGX1c4MXRZclVWd3lLdlBPUWpiaVFHT3REQktrbkZnRm41eGswdkZRVlJRbV83MVc1NDYyZEo0dmNwX0Myc0RlMHBCeHJXcS1v?oc=5",
-        "id": "CBMi6wFBVV95cUxOSVA5cjNxbUtIT1VqYjRyaEJabk9nNnlkN3BMQ1BpS0VmRTNhUGtnY09wREZtalBUSlZtWWx5TEt4STVhaUExdEpnQ2pDUm5mcUxTeHdVczF5YTA4LXVHTDVsRUpwREZJbWdqUmZjMENMTmtlZ2U5VHFOU1pWVTdsS3hKTTk1VjhNTEd1ZXFmTTNoZHpSbFhMN2hTazVGcUFlM2xGX1c4MXRZclVWd3lLdlBPUWpiaVFHT3REQktrbkZnRm41eGswdkZRVlJRbV83MVc1NDYyZEo0dmNwX0Myc0RlMHBCeHJXcS1v",
-        "guidislink": false,
-        "published": "Sun, 27 Sep 2026 07:00:00 GMT",
-        "published_parsed": [
-          2026,
-          9,
-          27,
-          7,
-          0,
-          0,
-          6,
-          270,
-          0
-        ],
-        "summary": "<a href=\"https://news.google.com/rss/articles/CBMi6wFBVV95cUxOSVA5cjNxbUtIT1VqYjRyaEJabk9nNnlkN3BMQ1BpS0VmRTNhUGtnY09wREZtalBUSlZtWWx5TEt4STVhaUExdEpnQ2pDUm5mcUxTeHdVczF5YTA4LXVHTDVsRUpwREZJbWdqUmZjMENMTmtlZ2U5VHFOU1pWVTdsS3hKTTk1VjhNTEd1ZXFmTTNoZHpSbFhMN2hTazVGcUFlM2xGX1c4MXRZclVWd3lLdlBPUWpiaVFHT3REQktrbkZnRm41eGswdkZRVlJRbV83MVc1NDYyZEo0dmNwX0Myc0RlMHBCeHJXcS1v?oc=5\" target=\"_blank\">8 more Bills vs. Chargers predictions, scores, odds for Week 3 game</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Democrat and Chronicle</font>",
-        "summary_detail": {
-          "type": "text/html",
-          "language": null,
-          "base": "",
-          "value": "<a href=\"https://news.google.com/rss/articles/CBMi6wFBVV95cUxOSVA5cjNxbUtIT1VqYjRyaEJabk9nNnlkN3BMQ1BpS0VmRTNhUGtnY09wREZtalBUSlZtWWx5TEt4STVhaUExdEpnQ2pDUm5mcUxTeHdVczF5YTA4LXVHTDVsRUpwREZJbWdqUmZjMENMTmtlZ2U5VHFOU1pWVTdsS3hKTTk1VjhNTEd1ZXFmTTNoZHpSbFhMN2hTazVGcUFlM2xGX1c4MXRZclVWd3lLdlBPUWpiaVFHT3REQktrbkZnRm41eGswdkZRVlJRbV83MVc1NDYyZEo0dmNwX0Myc0RlMHBCeHJXcS1v?oc=5\" target=\"_blank\">8 more Bills vs. Chargers predictions, scores, odds for Week 3 game</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Democrat and Chronicle</font>"
-        },
-        "source": {
-          "href": "https://www.democratandchronicle.com",
-          "title": "Democrat and Chronicle"
-        }
-      },
-      "search_query": "Chargers vs Bills",
-      "related_sources": [
-        "Democrat and Chronicle",
-        "azcentral.com",
-        "Los Angeles Chargers"
-      ],
-      "category_key": "game",
-      "category_name": "경기 결과/프리뷰",
-      "category_badge": "⚡ 경기 소식",
-      "category_icon": "🏈",
-      "importance_score": 75,
-      "priority_tier": "🚨 긴급/핵심",
-      "priority_class": "tier-critical",
-      "headline_kr": "3주차 경기에 대한 8개 이상의 Bills vs. Chargers 예측, 점수, 확률",
-      "summary_bullets_kr": [
-        "⚡ **핵심 소식**: 3주차 민주당 및 크로니클 경기에 대한 8개 이상의 Bills vs. Chargers 예측, 점수, 확률"
-      ]
-    },
-    {
       "title": "4 things to look for as Mike McDaniel rushes to tweak the Chargers offense in Week 3",
       "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPQTN2QXF6dld5bm8wTGJydkhUaFNVOGNldUtocmd4bkRwLWlTcldVei1yX2drVDg3enBMUWdmRzlmSm9rMlBsX0ZRZkxpU21pb1BZblJCd2dHRFduMWdQRkNlTWRQSUM2SlR6bEpqYkVyLWtHQXExSURpYTk1WlhhejVoN1dqaGdLYnJaTU1KZWZSeDRHT1A1dnNObDA0WlpXQkRtMC1DdWs?oc=5",
-      "summary": "4 things to look for as Mike McDaniel rushes to tweak the Chargers offense in Week 3 Bolt Beat",
+      "summary": "4 things to look for as Mike McDaniel rushes to tweak the Chargers offense in Week 3 boltbeat.com",
       "published": "2026-09-26T10:00:01+00:00",
-      "source": "Bolt Beat",
+      "source": "boltbeat.com",
       "author": "",
       "raw_entry": {
-        "title": "4 things to look for as Mike McDaniel rushes to tweak the Chargers offense in Week 3 - Bolt Beat",
+        "title": "4 things to look for as Mike McDaniel rushes to tweak the Chargers offense in Week 3 - boltbeat.com",
         "title_detail": {
           "type": "text/plain",
           "language": null,
           "base": "",
-          "value": "4 things to look for as Mike McDaniel rushes to tweak the Chargers offense in Week 3 - Bolt Beat"
+          "value": "4 things to look for as Mike McDaniel rushes to tweak the Chargers offense in Week 3 - boltbeat.com"
         },
         "links": [
           {
@@ -3873,21 +3970,21 @@
           269,
           0
         ],
-        "summary": "<a href=\"https://news.google.com/rss/articles/CBMiqAFBVV95cUxPQTN2QXF6dld5bm8wTGJydkhUaFNVOGNldUtocmd4bkRwLWlTcldVei1yX2drVDg3enBMUWdmRzlmSm9rMlBsX0ZRZkxpU21pb1BZblJCd2dHRFduMWdQRkNlTWRQSUM2SlR6bEpqYkVyLWtHQXExSURpYTk1WlhhejVoN1dqaGdLYnJaTU1KZWZSeDRHT1A1dnNObDA0WlpXQkRtMC1DdWs?oc=5\" target=\"_blank\">4 things to look for as Mike McDaniel rushes to tweak the Chargers offense in Week 3</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Bolt Beat</font>",
+        "summary": "<a href=\"https://news.google.com/rss/articles/CBMiqAFBVV95cUxPQTN2QXF6dld5bm8wTGJydkhUaFNVOGNldUtocmd4bkRwLWlTcldVei1yX2drVDg3enBMUWdmRzlmSm9rMlBsX0ZRZkxpU21pb1BZblJCd2dHRFduMWdQRkNlTWRQSUM2SlR6bEpqYkVyLWtHQXExSURpYTk1WlhhejVoN1dqaGdLYnJaTU1KZWZSeDRHT1A1dnNObDA0WlpXQkRtMC1DdWs?oc=5\" target=\"_blank\">4 things to look for as Mike McDaniel rushes to tweak the Chargers offense in Week 3</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">boltbeat.com</font>",
         "summary_detail": {
           "type": "text/html",
           "language": null,
           "base": "",
-          "value": "<a href=\"https://news.google.com/rss/articles/CBMiqAFBVV95cUxPQTN2QXF6dld5bm8wTGJydkhUaFNVOGNldUtocmd4bkRwLWlTcldVei1yX2drVDg3enBMUWdmRzlmSm9rMlBsX0ZRZkxpU21pb1BZblJCd2dHRFduMWdQRkNlTWRQSUM2SlR6bEpqYkVyLWtHQXExSURpYTk1WlhhejVoN1dqaGdLYnJaTU1KZWZSeDRHT1A1dnNObDA0WlpXQkRtMC1DdWs?oc=5\" target=\"_blank\">4 things to look for as Mike McDaniel rushes to tweak the Chargers offense in Week 3</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Bolt Beat</font>"
+          "value": "<a href=\"https://news.google.com/rss/articles/CBMiqAFBVV95cUxPQTN2QXF6dld5bm8wTGJydkhUaFNVOGNldUtocmd4bkRwLWlTcldVei1yX2drVDg3enBMUWdmRzlmSm9rMlBsX0ZRZkxpU21pb1BZblJCd2dHRFduMWdQRkNlTWRQSUM2SlR6bEpqYkVyLWtHQXExSURpYTk1WlhhejVoN1dqaGdLYnJaTU1KZWZSeDRHT1A1dnNObDA0WlpXQkRtMC1DdWs?oc=5\" target=\"_blank\">4 things to look for as Mike McDaniel rushes to tweak the Chargers offense in Week 3</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">boltbeat.com</font>"
         },
         "source": {
           "href": "https://boltbeat.com",
-          "title": "Bolt Beat"
+          "title": "boltbeat.com"
         }
       },
       "search_query": "Mike McDaniel Chargers",
       "related_sources": [
-        "Bolt Beat"
+        "boltbeat.com"
       ],
       "category_key": "game",
       "category_name": "경기 결과/프리뷰",
@@ -3898,7 +3995,7 @@
       "priority_class": "tier-critical",
       "headline_kr": "Mike McDaniel이 3주 차에 Chargers의 공격을 조정하기 위해 서둘러야 할 때 찾아야 할 4가지",
       "summary_bullets_kr": [
-        "⚡ **핵심 소식**: Mike McDaniel이 3주 차 Bolt Beat에서 Chargers 공격을 조정하기 위해 서두르는 동안 찾아야 할 4가지",
+        "⚡ **핵심 소식**: Mike McDaniel이 3주차에 Chargers의 공격을 조정하기 위해 서두르는 동안 찾아야 할 4가지 boltbeat.com",
         "🏈 **공격 전술 관전 포인트**: Mike McDaniel 신임 오펜시브 코디네이터의 전술 안착과 QB Justin Herbert의 플레이메이킹 극대화가 핵심 과제입니다."
       ]
     },
@@ -4035,17 +4132,17 @@
     {
       "title": "Bills vs Chargers weather forecast for game conditions in Orchard Park",
       "url": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxNR1pReXNQSHJESnRwSk1QNlRDdktYd1hnaEZsaFJHcVBucXdhSHAtMlYxZVdydW1lQlJsamRON3RZYmVtdXczV3lfQTVVWWh1V0Ezb1hvd1RnZm1DNlp0YUN2VTJfZy1KdjNlSWtTcFphTWZhSzQxbXk2VDFHMzNGRWJLZUpXVDZqNGhZOFhVX2ljUG9aRWR5ZGMwSGZjU3ZOSmk1ZXpWR3loaDd5anFQMzh0RGZCb1hJWEJnbmRJSDk5a3NBS3lRVmFiUlpCc1dmd2l3NGF6cWw0VzJGVm5WSmhvUGtGbktUSDBheWhHcw?oc=5",
-      "summary": "Bills vs Chargers weather forecast for game conditions in Orchard Park Democrat and Chronicle",
+      "summary": "Bills vs Chargers weather forecast for game conditions in Orchard Park democratandchronicle.com",
       "published": "2026-09-25T23:30:00+00:00",
-      "source": "Democrat and Chronicle",
+      "source": "democratandchronicle.com",
       "author": "",
       "raw_entry": {
-        "title": "Bills vs Chargers weather forecast for game conditions in Orchard Park - Democrat and Chronicle",
+        "title": "Bills vs Chargers weather forecast for game conditions in Orchard Park - democratandchronicle.com",
         "title_detail": {
           "type": "text/plain",
           "language": null,
           "base": "",
-          "value": "Bills vs Chargers weather forecast for game conditions in Orchard Park - Democrat and Chronicle"
+          "value": "Bills vs Chargers weather forecast for game conditions in Orchard Park - democratandchronicle.com"
         },
         "links": [
           {
@@ -4069,21 +4166,21 @@
           269,
           0
         ],
-        "summary": "<a href=\"https://news.google.com/rss/articles/CBMi7wFBVV95cUxNR1pReXNQSHJESnRwSk1QNlRDdktYd1hnaEZsaFJHcVBucXdhSHAtMlYxZVdydW1lQlJsamRON3RZYmVtdXczV3lfQTVVWWh1V0Ezb1hvd1RnZm1DNlp0YUN2VTJfZy1KdjNlSWtTcFphTWZhSzQxbXk2VDFHMzNGRWJLZUpXVDZqNGhZOFhVX2ljUG9aRWR5ZGMwSGZjU3ZOSmk1ZXpWR3loaDd5anFQMzh0RGZCb1hJWEJnbmRJSDk5a3NBS3lRVmFiUlpCc1dmd2l3NGF6cWw0VzJGVm5WSmhvUGtGbktUSDBheWhHcw?oc=5\" target=\"_blank\">Bills vs Chargers weather forecast for game conditions in Orchard Park</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Democrat and Chronicle</font>",
+        "summary": "<a href=\"https://news.google.com/rss/articles/CBMi7wFBVV95cUxNR1pReXNQSHJESnRwSk1QNlRDdktYd1hnaEZsaFJHcVBucXdhSHAtMlYxZVdydW1lQlJsamRON3RZYmVtdXczV3lfQTVVWWh1V0Ezb1hvd1RnZm1DNlp0YUN2VTJfZy1KdjNlSWtTcFphTWZhSzQxbXk2VDFHMzNGRWJLZUpXVDZqNGhZOFhVX2ljUG9aRWR5ZGMwSGZjU3ZOSmk1ZXpWR3loaDd5anFQMzh0RGZCb1hJWEJnbmRJSDk5a3NBS3lRVmFiUlpCc1dmd2l3NGF6cWw0VzJGVm5WSmhvUGtGbktUSDBheWhHcw?oc=5\" target=\"_blank\">Bills vs Chargers weather forecast for game conditions in Orchard Park</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">democratandchronicle.com</font>",
         "summary_detail": {
           "type": "text/html",
           "language": null,
           "base": "",
-          "value": "<a href=\"https://news.google.com/rss/articles/CBMi7wFBVV95cUxNR1pReXNQSHJESnRwSk1QNlRDdktYd1hnaEZsaFJHcVBucXdhSHAtMlYxZVdydW1lQlJsamRON3RZYmVtdXczV3lfQTVVWWh1V0Ezb1hvd1RnZm1DNlp0YUN2VTJfZy1KdjNlSWtTcFphTWZhSzQxbXk2VDFHMzNGRWJLZUpXVDZqNGhZOFhVX2ljUG9aRWR5ZGMwSGZjU3ZOSmk1ZXpWR3loaDd5anFQMzh0RGZCb1hJWEJnbmRJSDk5a3NBS3lRVmFiUlpCc1dmd2l3NGF6cWw0VzJGVm5WSmhvUGtGbktUSDBheWhHcw?oc=5\" target=\"_blank\">Bills vs Chargers weather forecast for game conditions in Orchard Park</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Democrat and Chronicle</font>"
+          "value": "<a href=\"https://news.google.com/rss/articles/CBMi7wFBVV95cUxNR1pReXNQSHJESnRwSk1QNlRDdktYd1hnaEZsaFJHcVBucXdhSHAtMlYxZVdydW1lQlJsamRON3RZYmVtdXczV3lfQTVVWWh1V0Ezb1hvd1RnZm1DNlp0YUN2VTJfZy1KdjNlSWtTcFphTWZhSzQxbXk2VDFHMzNGRWJLZUpXVDZqNGhZOFhVX2ljUG9aRWR5ZGMwSGZjU3ZOSmk1ZXpWR3loaDd5anFQMzh0RGZCb1hJWEJnbmRJSDk5a3NBS3lRVmFiUlpCc1dmd2l3NGF6cWw0VzJGVm5WSmhvUGtGbktUSDBheWhHcw?oc=5\" target=\"_blank\">Bills vs Chargers weather forecast for game conditions in Orchard Park</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">democratandchronicle.com</font>"
         },
         "source": {
           "href": "https://www.democratandchronicle.com",
-          "title": "Democrat and Chronicle"
+          "title": "democratandchronicle.com"
         }
       },
       "search_query": "Chargers vs Bills",
       "related_sources": [
-        "Democrat and Chronicle"
+        "democratandchronicle.com"
       ],
       "category_key": "game",
       "category_name": "경기 결과/프리뷰",
@@ -4094,7 +4191,7 @@
       "priority_class": "tier-critical",
       "headline_kr": "오차드 파크 경기 조건에 대한 Bills vs Chargers 일기 예보",
       "summary_bullets_kr": [
-        "⚡ **핵심 소식**: Orchard Park Democratic 및 Chronicle의 게임 조건에 대한 Bills vs Chargers 일기 예보"
+        "⚡ **핵심 소식**: 오차드 파크의 경기 상황에 대한 Bills vs Chargers 일기 예보democratandchronicle.com"
       ]
     },
     {
@@ -4594,17 +4691,17 @@
     {
       "title": "Jim Harbaugh has never been 0-2. The Chargers are now, with a tough stretch ahead",
       "url": "https://news.google.com/rss/articles/CBMigwJBVV95cUxNNWt4UVJ0SC1mRTRqTmxMd29UYXpTRGd6NEhhOEFYUkxxS3U1M2syUkFmanlzc1UzV1ZWVWFFazVDcWdFQTVSVWZzTjRfUXppWDRKWURNWWM5RjlLT3JDMVRXSEpSZDFzUndiVUdwY1UyOTcyUEVSTk9sQXJ3VnhXQUtwWVJmcTYtbjMzZmlHVEJaM3Ezb3RkaDg3SFdXQUU0Y0UyUGpRS2lSLWFsaUx4X3pCeER2eXRZSV80QVZMRmJwcnBfUzdyVGFyRklzSENCVG9nSmZwVDBSTndCZVl5ek5veDg1ZDBwZTh0STUzTHlwM1BNS1RIRGtjVkhZYzFTbzlN?oc=5",
-      "summary": "Jim Harbaugh has never been 0-2. The Chargers are now, with a tough stretch ahead bozemandailychronicle.com",
+      "summary": "Jim Harbaugh has never been 0-2. The Chargers are now, with a tough stretch ahead Bozeman Daily Chronicle",
       "published": "2026-09-21T13:29:59+00:00",
-      "source": "bozemandailychronicle.com",
+      "source": "Bozeman Daily Chronicle",
       "author": "",
       "raw_entry": {
-        "title": "Jim Harbaugh has never been 0-2. The Chargers are now, with a tough stretch ahead - bozemandailychronicle.com",
+        "title": "Jim Harbaugh has never been 0-2. The Chargers are now, with a tough stretch ahead - Bozeman Daily Chronicle",
         "title_detail": {
           "type": "text/plain",
           "language": null,
           "base": "",
-          "value": "Jim Harbaugh has never been 0-2. The Chargers are now, with a tough stretch ahead - bozemandailychronicle.com"
+          "value": "Jim Harbaugh has never been 0-2. The Chargers are now, with a tough stretch ahead - Bozeman Daily Chronicle"
         },
         "links": [
           {
@@ -4628,21 +4725,21 @@
           264,
           0
         ],
-        "summary": "<a href=\"https://news.google.com/rss/articles/CBMigwJBVV95cUxNNWt4UVJ0SC1mRTRqTmxMd29UYXpTRGd6NEhhOEFYUkxxS3U1M2syUkFmanlzc1UzV1ZWVWFFazVDcWdFQTVSVWZzTjRfUXppWDRKWURNWWM5RjlLT3JDMVRXSEpSZDFzUndiVUdwY1UyOTcyUEVSTk9sQXJ3VnhXQUtwWVJmcTYtbjMzZmlHVEJaM3Ezb3RkaDg3SFdXQUU0Y0UyUGpRS2lSLWFsaUx4X3pCeER2eXRZSV80QVZMRmJwcnBfUzdyVGFyRklzSENCVG9nSmZwVDBSTndCZVl5ek5veDg1ZDBwZTh0STUzTHlwM1BNS1RIRGtjVkhZYzFTbzlN?oc=5\" target=\"_blank\">Jim Harbaugh has never been 0-2. The Chargers are now, with a tough stretch ahead</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">bozemandailychronicle.com</font>",
+        "summary": "<a href=\"https://news.google.com/rss/articles/CBMigwJBVV95cUxNNWt4UVJ0SC1mRTRqTmxMd29UYXpTRGd6NEhhOEFYUkxxS3U1M2syUkFmanlzc1UzV1ZWVWFFazVDcWdFQTVSVWZzTjRfUXppWDRKWURNWWM5RjlLT3JDMVRXSEpSZDFzUndiVUdwY1UyOTcyUEVSTk9sQXJ3VnhXQUtwWVJmcTYtbjMzZmlHVEJaM3Ezb3RkaDg3SFdXQUU0Y0UyUGpRS2lSLWFsaUx4X3pCeER2eXRZSV80QVZMRmJwcnBfUzdyVGFyRklzSENCVG9nSmZwVDBSTndCZVl5ek5veDg1ZDBwZTh0STUzTHlwM1BNS1RIRGtjVkhZYzFTbzlN?oc=5\" target=\"_blank\">Jim Harbaugh has never been 0-2. The Chargers are now, with a tough stretch ahead</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Bozeman Daily Chronicle</font>",
         "summary_detail": {
           "type": "text/html",
           "language": null,
           "base": "",
-          "value": "<a href=\"https://news.google.com/rss/articles/CBMigwJBVV95cUxNNWt4UVJ0SC1mRTRqTmxMd29UYXpTRGd6NEhhOEFYUkxxS3U1M2syUkFmanlzc1UzV1ZWVWFFazVDcWdFQTVSVWZzTjRfUXppWDRKWURNWWM5RjlLT3JDMVRXSEpSZDFzUndiVUdwY1UyOTcyUEVSTk9sQXJ3VnhXQUtwWVJmcTYtbjMzZmlHVEJaM3Ezb3RkaDg3SFdXQUU0Y0UyUGpRS2lSLWFsaUx4X3pCeER2eXRZSV80QVZMRmJwcnBfUzdyVGFyRklzSENCVG9nSmZwVDBSTndCZVl5ek5veDg1ZDBwZTh0STUzTHlwM1BNS1RIRGtjVkhZYzFTbzlN?oc=5\" target=\"_blank\">Jim Harbaugh has never been 0-2. The Chargers are now, with a tough stretch ahead</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">bozemandailychronicle.com</font>"
+          "value": "<a href=\"https://news.google.com/rss/articles/CBMigwJBVV95cUxNNWt4UVJ0SC1mRTRqTmxMd29UYXpTRGd6NEhhOEFYUkxxS3U1M2syUkFmanlzc1UzV1ZWVWFFazVDcWdFQTVSVWZzTjRfUXppWDRKWURNWWM5RjlLT3JDMVRXSEpSZDFzUndiVUdwY1UyOTcyUEVSTk9sQXJ3VnhXQUtwWVJmcTYtbjMzZmlHVEJaM3Ezb3RkaDg3SFdXQUU0Y0UyUGpRS2lSLWFsaUx4X3pCeER2eXRZSV80QVZMRmJwcnBfUzdyVGFyRklzSENCVG9nSmZwVDBSTndCZVl5ek5veDg1ZDBwZTh0STUzTHlwM1BNS1RIRGtjVkhZYzFTbzlN?oc=5\" target=\"_blank\">Jim Harbaugh has never been 0-2. The Chargers are now, with a tough stretch ahead</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Bozeman Daily Chronicle</font>"
         },
         "source": {
           "href": "https://www.bozemandailychronicle.com",
-          "title": "bozemandailychronicle.com"
+          "title": "Bozeman Daily Chronicle"
         }
       },
-      "search_query": "Chargers Jim Harbaugh",
+      "search_query": "Jim Harbaugh Chargers",
       "related_sources": [
-        "bozemandailychronicle.com"
+        "Bozeman Daily Chronicle"
       ],
       "category_key": "interview",
       "category_name": "감독/선수 인터뷰",
@@ -4653,7 +4750,7 @@
       "priority_class": "tier-high",
       "headline_kr": "Jim Harbaugh는 0-2였던 적이 없습니다. Chargers는 이제 앞으로 힘든 상황을 겪고 있습니다.",
       "summary_bullets_kr": [
-        "⚡ **핵심 소식**: Jim Harbaugh는 0-2였던 적이 없습니다. Chargers는 이제 힘든 상황을 앞두고 있습니다. bozemandailychronicle.com",
+        "⚡ **핵심 소식**: Jim Harbaugh는 0-2였던 적이 없습니다. Chargers는 이제 힘든 상황을 앞두고 있습니다. Bozeman Daily Chronicle",
         "🏈 **전술 관전 포인트**: Jim Harbaugh 감독 및 코칭스태프의 피지컬 중심 미식축구 철학이 반영된 행보입니다."
       ]
     },
@@ -5052,69 +5149,70 @@
       ]
     },
     {
-      "title": "Jim Harbaugh Thought He’d Built a Winning Machine. Now He Can’t Stop Losing.",
-      "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNODdKdDFZNGMzYjNLU0U3RHhhTG5kMW81eTlGemdXVFJHV0VNdlk2cW9Yd0lVNVNCVmFmbk5Ja291THc4WUlXdU5TNEllVGJkVE1DNC1RRUFNZ0dROGZRWFZWY2RoaEo1bS1ISWNidEQ4TDVvTVhuaHR6RzRxT3MtRUVnZUd1cmRMWGdZOG5tb0plakpOWEcw?oc=5",
-      "summary": "Jim Harbaugh Thought He’d Built a Winning Machine. Now He Can’t Stop Losing. WSJ",
-      "published": "2026-09-21T02:00:59+00:00",
-      "source": "WSJ",
+      "title": "Chargers vs Bills picks, predictions, odds for NFL Week 3 game Sunday",
+      "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxQOG1wWDktUlpleG1mYWgyUHltWElhdnRTeU9IRXlJX1Z6YkFGbkppdVBZek5TWW1WcDQ0Vm5nSTlRSDlsdWZFbEJSc0gxdl9feFcxSjFyNHRFSUlaTGdaODJYZUZISmNpQkg0SnE4M0hNdHN4OTJDbEV0VmFsRnNnMndlRTFMVHc4aV9oa3Q0SzhGVG1JVS1oZXhjeVFJWVZQWWlodHRlVHRYWExsbno2anF6QXNuakM5dnRhMnE5Yzg1LVJ3blpzY0NXTkxTOXpq?oc=5",
+      "summary": "Chargers vs Bills picks, predictions, odds for NFL Week 3 game Sunday azcentral.com and The Arizona Republic",
+      "published": "2026-09-21T07:15:50+00:00",
+      "source": "azcentral.com and The Arizona Republic",
       "author": "",
       "raw_entry": {
-        "title": "Jim Harbaugh Thought He’d Built a Winning Machine. Now He Can’t Stop Losing. - WSJ",
+        "title": "Chargers vs Bills picks, predictions, odds for NFL Week 3 game Sunday - azcentral.com and The Arizona Republic",
         "title_detail": {
           "type": "text/plain",
           "language": null,
           "base": "",
-          "value": "Jim Harbaugh Thought He’d Built a Winning Machine. Now He Can’t Stop Losing. - WSJ"
+          "value": "Chargers vs Bills picks, predictions, odds for NFL Week 3 game Sunday - azcentral.com and The Arizona Republic"
         },
         "links": [
           {
             "rel": "alternate",
             "type": "text/html",
-            "href": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNODdKdDFZNGMzYjNLU0U3RHhhTG5kMW81eTlGemdXVFJHV0VNdlk2cW9Yd0lVNVNCVmFmbk5Ja291THc4WUlXdU5TNEllVGJkVE1DNC1RRUFNZ0dROGZRWFZWY2RoaEo1bS1ISWNidEQ4TDVvTVhuaHR6RzRxT3MtRUVnZUd1cmRMWGdZOG5tb0plakpOWEcw?oc=5"
+            "href": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxQOG1wWDktUlpleG1mYWgyUHltWElhdnRTeU9IRXlJX1Z6YkFGbkppdVBZek5TWW1WcDQ0Vm5nSTlRSDlsdWZFbEJSc0gxdl9feFcxSjFyNHRFSUlaTGdaODJYZUZISmNpQkg0SnE4M0hNdHN4OTJDbEV0VmFsRnNnMndlRTFMVHc4aV9oa3Q0SzhGVG1JVS1oZXhjeVFJWVZQWWlodHRlVHRYWExsbno2anF6QXNuakM5dnRhMnE5Yzg1LVJ3blpzY0NXTkxTOXpq?oc=5"
           }
         ],
-        "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNODdKdDFZNGMzYjNLU0U3RHhhTG5kMW81eTlGemdXVFJHV0VNdlk2cW9Yd0lVNVNCVmFmbk5Ja291THc4WUlXdU5TNEllVGJkVE1DNC1RRUFNZ0dROGZRWFZWY2RoaEo1bS1ISWNidEQ4TDVvTVhuaHR6RzRxT3MtRUVnZUd1cmRMWGdZOG5tb0plakpOWEcw?oc=5",
-        "id": "CBMilwFBVV95cUxNODdKdDFZNGMzYjNLU0U3RHhhTG5kMW81eTlGemdXVFJHV0VNdlk2cW9Yd0lVNVNCVmFmbk5Ja291THc4WUlXdU5TNEllVGJkVE1DNC1RRUFNZ0dROGZRWFZWY2RoaEo1bS1ISWNidEQ4TDVvTVhuaHR6RzRxT3MtRUVnZUd1cmRMWGdZOG5tb0plakpOWEcw",
+        "link": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxQOG1wWDktUlpleG1mYWgyUHltWElhdnRTeU9IRXlJX1Z6YkFGbkppdVBZek5TWW1WcDQ0Vm5nSTlRSDlsdWZFbEJSc0gxdl9feFcxSjFyNHRFSUlaTGdaODJYZUZISmNpQkg0SnE4M0hNdHN4OTJDbEV0VmFsRnNnMndlRTFMVHc4aV9oa3Q0SzhGVG1JVS1oZXhjeVFJWVZQWWlodHRlVHRYWExsbno2anF6QXNuakM5dnRhMnE5Yzg1LVJ3blpzY0NXTkxTOXpq?oc=5",
+        "id": "CBMi0AFBVV95cUxQOG1wWDktUlpleG1mYWgyUHltWElhdnRTeU9IRXlJX1Z6YkFGbkppdVBZek5TWW1WcDQ0Vm5nSTlRSDlsdWZFbEJSc0gxdl9feFcxSjFyNHRFSUlaTGdaODJYZUZISmNpQkg0SnE4M0hNdHN4OTJDbEV0VmFsRnNnMndlRTFMVHc4aV9oa3Q0SzhGVG1JVS1oZXhjeVFJWVZQWWlodHRlVHRYWExsbno2anF6QXNuakM5dnRhMnE5Yzg1LVJ3blpzY0NXTkxTOXpq",
         "guidislink": false,
-        "published": "Mon, 21 Sep 2026 11:00:59 GMT",
+        "published": "Mon, 21 Sep 2026 16:15:50 GMT",
         "published_parsed": [
           2026,
           9,
           21,
-          11,
-          0,
-          59,
+          16,
+          15,
+          50,
           0,
           264,
           0
         ],
-        "summary": "<a href=\"https://news.google.com/rss/articles/CBMilwFBVV95cUxNODdKdDFZNGMzYjNLU0U3RHhhTG5kMW81eTlGemdXVFJHV0VNdlk2cW9Yd0lVNVNCVmFmbk5Ja291THc4WUlXdU5TNEllVGJkVE1DNC1RRUFNZ0dROGZRWFZWY2RoaEo1bS1ISWNidEQ4TDVvTVhuaHR6RzRxT3MtRUVnZUd1cmRMWGdZOG5tb0plakpOWEcw?oc=5\" target=\"_blank\">Jim Harbaugh Thought He’d Built a Winning Machine. Now He Can’t Stop Losing.</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">WSJ</font>",
+        "summary": "<a href=\"https://news.google.com/rss/articles/CBMi0AFBVV95cUxQOG1wWDktUlpleG1mYWgyUHltWElhdnRTeU9IRXlJX1Z6YkFGbkppdVBZek5TWW1WcDQ0Vm5nSTlRSDlsdWZFbEJSc0gxdl9feFcxSjFyNHRFSUlaTGdaODJYZUZISmNpQkg0SnE4M0hNdHN4OTJDbEV0VmFsRnNnMndlRTFMVHc4aV9oa3Q0SzhGVG1JVS1oZXhjeVFJWVZQWWlodHRlVHRYWExsbno2anF6QXNuakM5dnRhMnE5Yzg1LVJ3blpzY0NXTkxTOXpq?oc=5\" target=\"_blank\">Chargers vs Bills picks, predictions, odds for NFL Week 3 game Sunday</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">azcentral.com and The Arizona Republic</font>",
         "summary_detail": {
           "type": "text/html",
           "language": null,
           "base": "",
-          "value": "<a href=\"https://news.google.com/rss/articles/CBMilwFBVV95cUxNODdKdDFZNGMzYjNLU0U3RHhhTG5kMW81eTlGemdXVFJHV0VNdlk2cW9Yd0lVNVNCVmFmbk5Ja291THc4WUlXdU5TNEllVGJkVE1DNC1RRUFNZ0dROGZRWFZWY2RoaEo1bS1ISWNidEQ4TDVvTVhuaHR6RzRxT3MtRUVnZUd1cmRMWGdZOG5tb0plakpOWEcw?oc=5\" target=\"_blank\">Jim Harbaugh Thought He’d Built a Winning Machine. Now He Can’t Stop Losing.</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">WSJ</font>"
+          "value": "<a href=\"https://news.google.com/rss/articles/CBMi0AFBVV95cUxQOG1wWDktUlpleG1mYWgyUHltWElhdnRTeU9IRXlJX1Z6YkFGbkppdVBZek5TWW1WcDQ0Vm5nSTlRSDlsdWZFbEJSc0gxdl9feFcxSjFyNHRFSUlaTGdaODJYZUZISmNpQkg0SnE4M0hNdHN4OTJDbEV0VmFsRnNnMndlRTFMVHc4aV9oa3Q0SzhGVG1JVS1oZXhjeVFJWVZQWWlodHRlVHRYWExsbno2anF6QXNuakM5dnRhMnE5Yzg1LVJ3blpzY0NXTkxTOXpq?oc=5\" target=\"_blank\">Chargers vs Bills picks, predictions, odds for NFL Week 3 game Sunday</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">azcentral.com and The Arizona Republic</font>"
         },
         "source": {
-          "href": "https://www.wsj.com",
-          "title": "WSJ"
+          "href": "https://www.azcentral.com",
+          "title": "azcentral.com and The Arizona Republic"
         }
       },
-      "search_query": "Jim Harbaugh Chargers",
+      "search_query": "Chargers vs Bills",
       "related_sources": [
-        "WSJ"
+        "azcentral.com and The Arizona Republic",
+        "democratandchronicle.com",
+        "Los Angeles Chargers"
       ],
-      "category_key": "interview",
-      "category_name": "감독/선수 인터뷰",
-      "category_badge": "🎙️ 인터뷰/발언",
-      "category_icon": "🎙️",
+      "category_key": "game",
+      "category_name": "경기 결과/프리뷰",
+      "category_badge": "⚡ 경기 소식",
+      "category_icon": "🏈",
       "importance_score": 65,
       "priority_tier": "⚡ 주요",
       "priority_class": "tier-high",
-      "headline_kr": "Jim Harbaugh는 자신이 승리하는 기계를 만들었다고 생각했습니다. 이제 그는 패배를 멈출 수 없습니다.",
+      "headline_kr": "Chargers vs Bills의 선택, 예측, NFL Week 3 경기 일요일 배당률",
       "summary_bullets_kr": [
-        "⚡ **핵심 소식**: Jim Harbaugh는 자신이 승리하는 기계를 만들었다고 생각했습니다. 이제 그는 패배를 멈출 수 없습니다.",
-        "🏈 **전술 관전 포인트**: Jim Harbaugh 감독 및 코칭스태프의 피지컬 중심 미식축구 철학이 반영된 행보입니다."
+        "⚡ **핵심 소식**: Chargers vs Bills의 선택, 예측, NFL Week 3 경기 일요일 azcentral.com 및 The Arizona Republic의 확률"
       ]
     },
     {
@@ -5181,6 +5279,72 @@
       "summary_bullets_kr": [
         "⚡ **핵심 소식**: 해설: 마이크 Khalil Mack다니엘의 복잡한 계략이 Chargers의 공격을 재앙으로 만들고 있다. Los Angeles Times",
         "🏈 **공격 전술 관전 포인트**: Mike McDaniel 신임 오펜시브 코디네이터의 전술 안착과 QB Justin Herbert의 플레이메이킹 극대화가 핵심 과제입니다."
+      ]
+    },
+    {
+      "title": "Jim Harbaugh Thought He’d Built a Winning Machine. Now He Can’t Stop Losing.",
+      "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNODdKdDFZNGMzYjNLU0U3RHhhTG5kMW81eTlGemdXVFJHV0VNdlk2cW9Yd0lVNVNCVmFmbk5Ja291THc4WUlXdU5TNEllVGJkVE1DNC1RRUFNZ0dROGZRWFZWY2RoaEo1bS1ISWNidEQ4TDVvTVhuaHR6RzRxT3MtRUVnZUd1cmRMWGdZOG5tb0plakpOWEcw?oc=5",
+      "summary": "Jim Harbaugh Thought He’d Built a Winning Machine. Now He Can’t Stop Losing. WSJ",
+      "published": "2026-09-21T02:00:00+00:00",
+      "source": "WSJ",
+      "author": "",
+      "raw_entry": {
+        "title": "Jim Harbaugh Thought He’d Built a Winning Machine. Now He Can’t Stop Losing. - WSJ",
+        "title_detail": {
+          "type": "text/plain",
+          "language": null,
+          "base": "",
+          "value": "Jim Harbaugh Thought He’d Built a Winning Machine. Now He Can’t Stop Losing. - WSJ"
+        },
+        "links": [
+          {
+            "rel": "alternate",
+            "type": "text/html",
+            "href": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNODdKdDFZNGMzYjNLU0U3RHhhTG5kMW81eTlGemdXVFJHV0VNdlk2cW9Yd0lVNVNCVmFmbk5Ja291THc4WUlXdU5TNEllVGJkVE1DNC1RRUFNZ0dROGZRWFZWY2RoaEo1bS1ISWNidEQ4TDVvTVhuaHR6RzRxT3MtRUVnZUd1cmRMWGdZOG5tb0plakpOWEcw?oc=5"
+          }
+        ],
+        "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNODdKdDFZNGMzYjNLU0U3RHhhTG5kMW81eTlGemdXVFJHV0VNdlk2cW9Yd0lVNVNCVmFmbk5Ja291THc4WUlXdU5TNEllVGJkVE1DNC1RRUFNZ0dROGZRWFZWY2RoaEo1bS1ISWNidEQ4TDVvTVhuaHR6RzRxT3MtRUVnZUd1cmRMWGdZOG5tb0plakpOWEcw?oc=5",
+        "id": "CBMilwFBVV95cUxNODdKdDFZNGMzYjNLU0U3RHhhTG5kMW81eTlGemdXVFJHV0VNdlk2cW9Yd0lVNVNCVmFmbk5Ja291THc4WUlXdU5TNEllVGJkVE1DNC1RRUFNZ0dROGZRWFZWY2RoaEo1bS1ISWNidEQ4TDVvTVhuaHR6RzRxT3MtRUVnZUd1cmRMWGdZOG5tb0plakpOWEcw",
+        "guidislink": false,
+        "published": "Mon, 21 Sep 2026 11:00:00 GMT",
+        "published_parsed": [
+          2026,
+          9,
+          21,
+          11,
+          0,
+          0,
+          0,
+          264,
+          0
+        ],
+        "summary": "<a href=\"https://news.google.com/rss/articles/CBMilwFBVV95cUxNODdKdDFZNGMzYjNLU0U3RHhhTG5kMW81eTlGemdXVFJHV0VNdlk2cW9Yd0lVNVNCVmFmbk5Ja291THc4WUlXdU5TNEllVGJkVE1DNC1RRUFNZ0dROGZRWFZWY2RoaEo1bS1ISWNidEQ4TDVvTVhuaHR6RzRxT3MtRUVnZUd1cmRMWGdZOG5tb0plakpOWEcw?oc=5\" target=\"_blank\">Jim Harbaugh Thought He’d Built a Winning Machine. Now He Can’t Stop Losing.</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">WSJ</font>",
+        "summary_detail": {
+          "type": "text/html",
+          "language": null,
+          "base": "",
+          "value": "<a href=\"https://news.google.com/rss/articles/CBMilwFBVV95cUxNODdKdDFZNGMzYjNLU0U3RHhhTG5kMW81eTlGemdXVFJHV0VNdlk2cW9Yd0lVNVNCVmFmbk5Ja291THc4WUlXdU5TNEllVGJkVE1DNC1RRUFNZ0dROGZRWFZWY2RoaEo1bS1ISWNidEQ4TDVvTVhuaHR6RzRxT3MtRUVnZUd1cmRMWGdZOG5tb0plakpOWEcw?oc=5\" target=\"_blank\">Jim Harbaugh Thought He’d Built a Winning Machine. Now He Can’t Stop Losing.</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">WSJ</font>"
+        },
+        "source": {
+          "href": "https://www.wsj.com",
+          "title": "WSJ"
+        }
+      },
+      "search_query": "Jim Harbaugh Chargers",
+      "related_sources": [
+        "WSJ"
+      ],
+      "category_key": "interview",
+      "category_name": "감독/선수 인터뷰",
+      "category_badge": "🎙️ 인터뷰/발언",
+      "category_icon": "🎙️",
+      "importance_score": 65,
+      "priority_tier": "⚡ 주요",
+      "priority_class": "tier-high",
+      "headline_kr": "Jim Harbaugh는 자신이 승리하는 기계를 만들었다고 생각했습니다. 이제 그는 패배를 멈출 수 없습니다.",
+      "summary_bullets_kr": [
+        "⚡ **핵심 소식**: Jim Harbaugh는 자신이 승리하는 기계를 만들었다고 생각했습니다. 이제 그는 패배를 멈출 수 없습니다.",
+        "🏈 **전술 관전 포인트**: Jim Harbaugh 감독 및 코칭스태프의 피지컬 중심 미식축구 철학이 반영된 행보입니다."
       ]
     },
     {
@@ -5771,17 +5935,17 @@
     {
       "title": "Bills have 2 receivers questionable vs Chargers, but key players are returning",
       "url": "https://news.google.com/rss/articles/CBMikgJBVV95cUxNdlJlWEstYVBXbXNPeVRibWF0ZVRxNUZHYmdpRVpwQUhoTk92WWNUclVjVjJteHRuV1JjVTRqWGlyXzdVV3hYQnp3YmVheFpxVHNUZ25BVk9IU0RtVlJxMnFUU1V6ZkxWbUdMOHBDbjBrNldXRk0tQlU0YzR3NkVpXzhSRWpnb0FLUTBTOTdKUTY4ME9xRHo4YXo4aWVpMXQ4LXZ5N01iaWtMdXFXLXZqazBhRXpsc3Rnd1p3dklfLTZYck9VaUJTNi1QX0dYNzZNT3lCWGhCbEpWN19pR1JNQlFCTk52T09hdl9JbGZkNEFfckFrbnFKdlNkX19EVUc1Y21SeHNVam52SjZGTi1xUHV3?oc=5",
-      "summary": "Bills have 2 receivers questionable vs Chargers, but key players are returning Democrat and Chronicle",
+      "summary": "Bills have 2 receivers questionable vs Chargers, but key players are returning democratandchronicle.com",
       "published": "2026-09-25T09:45:00+00:00",
-      "source": "Democrat and Chronicle",
+      "source": "democratandchronicle.com",
       "author": "",
       "raw_entry": {
-        "title": "Bills have 2 receivers questionable vs Chargers, but key players are returning - Democrat and Chronicle",
+        "title": "Bills have 2 receivers questionable vs Chargers, but key players are returning - democratandchronicle.com",
         "title_detail": {
           "type": "text/plain",
           "language": null,
           "base": "",
-          "value": "Bills have 2 receivers questionable vs Chargers, but key players are returning - Democrat and Chronicle"
+          "value": "Bills have 2 receivers questionable vs Chargers, but key players are returning - democratandchronicle.com"
         },
         "links": [
           {
@@ -5805,21 +5969,21 @@
           268,
           0
         ],
-        "summary": "<a href=\"https://news.google.com/rss/articles/CBMikgJBVV95cUxNdlJlWEstYVBXbXNPeVRibWF0ZVRxNUZHYmdpRVpwQUhoTk92WWNUclVjVjJteHRuV1JjVTRqWGlyXzdVV3hYQnp3YmVheFpxVHNUZ25BVk9IU0RtVlJxMnFUU1V6ZkxWbUdMOHBDbjBrNldXRk0tQlU0YzR3NkVpXzhSRWpnb0FLUTBTOTdKUTY4ME9xRHo4YXo4aWVpMXQ4LXZ5N01iaWtMdXFXLXZqazBhRXpsc3Rnd1p3dklfLTZYck9VaUJTNi1QX0dYNzZNT3lCWGhCbEpWN19pR1JNQlFCTk52T09hdl9JbGZkNEFfckFrbnFKdlNkX19EVUc1Y21SeHNVam52SjZGTi1xUHV3?oc=5\" target=\"_blank\">Bills have 2 receivers questionable vs Chargers, but key players are returning</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Democrat and Chronicle</font>",
+        "summary": "<a href=\"https://news.google.com/rss/articles/CBMikgJBVV95cUxNdlJlWEstYVBXbXNPeVRibWF0ZVRxNUZHYmdpRVpwQUhoTk92WWNUclVjVjJteHRuV1JjVTRqWGlyXzdVV3hYQnp3YmVheFpxVHNUZ25BVk9IU0RtVlJxMnFUU1V6ZkxWbUdMOHBDbjBrNldXRk0tQlU0YzR3NkVpXzhSRWpnb0FLUTBTOTdKUTY4ME9xRHo4YXo4aWVpMXQ4LXZ5N01iaWtMdXFXLXZqazBhRXpsc3Rnd1p3dklfLTZYck9VaUJTNi1QX0dYNzZNT3lCWGhCbEpWN19pR1JNQlFCTk52T09hdl9JbGZkNEFfckFrbnFKdlNkX19EVUc1Y21SeHNVam52SjZGTi1xUHV3?oc=5\" target=\"_blank\">Bills have 2 receivers questionable vs Chargers, but key players are returning</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">democratandchronicle.com</font>",
         "summary_detail": {
           "type": "text/html",
           "language": null,
           "base": "",
-          "value": "<a href=\"https://news.google.com/rss/articles/CBMikgJBVV95cUxNdlJlWEstYVBXbXNPeVRibWF0ZVRxNUZHYmdpRVpwQUhoTk92WWNUclVjVjJteHRuV1JjVTRqWGlyXzdVV3hYQnp3YmVheFpxVHNUZ25BVk9IU0RtVlJxMnFUU1V6ZkxWbUdMOHBDbjBrNldXRk0tQlU0YzR3NkVpXzhSRWpnb0FLUTBTOTdKUTY4ME9xRHo4YXo4aWVpMXQ4LXZ5N01iaWtMdXFXLXZqazBhRXpsc3Rnd1p3dklfLTZYck9VaUJTNi1QX0dYNzZNT3lCWGhCbEpWN19pR1JNQlFCTk52T09hdl9JbGZkNEFfckFrbnFKdlNkX19EVUc1Y21SeHNVam52SjZGTi1xUHV3?oc=5\" target=\"_blank\">Bills have 2 receivers questionable vs Chargers, but key players are returning</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Democrat and Chronicle</font>"
+          "value": "<a href=\"https://news.google.com/rss/articles/CBMikgJBVV95cUxNdlJlWEstYVBXbXNPeVRibWF0ZVRxNUZHYmdpRVpwQUhoTk92WWNUclVjVjJteHRuV1JjVTRqWGlyXzdVV3hYQnp3YmVheFpxVHNUZ25BVk9IU0RtVlJxMnFUU1V6ZkxWbUdMOHBDbjBrNldXRk0tQlU0YzR3NkVpXzhSRWpnb0FLUTBTOTdKUTY4ME9xRHo4YXo4aWVpMXQ4LXZ5N01iaWtMdXFXLXZqazBhRXpsc3Rnd1p3dklfLTZYck9VaUJTNi1QX0dYNzZNT3lCWGhCbEpWN19pR1JNQlFCTk52T09hdl9JbGZkNEFfckFrbnFKdlNkX19EVUc1Y21SeHNVam52SjZGTi1xUHV3?oc=5\" target=\"_blank\">Bills have 2 receivers questionable vs Chargers, but key players are returning</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">democratandchronicle.com</font>"
         },
         "source": {
           "href": "https://www.democratandchronicle.com",
-          "title": "Democrat and Chronicle"
+          "title": "democratandchronicle.com"
         }
       },
       "search_query": "Chargers injury report",
       "related_sources": [
-        "Democrat and Chronicle"
+        "democratandchronicle.com"
       ],
       "category_key": "game",
       "category_name": "경기 결과/프리뷰",
@@ -5830,7 +5994,7 @@
       "priority_class": "tier-high",
       "headline_kr": "Bills에는 Chargers에 비해 의심스러운 2명의 수신기가 있지만 주요 플레이어가 돌아오고 있습니다.",
       "summary_bullets_kr": [
-        "⚡ **핵심 소식**: Bills에는 Chargers에 비해 의심스러운 수신기 2개가 있지만 주요 플레이어는 민주당과 Chronicle을 반환합니다."
+        "⚡ **핵심 소식**: Bills에는 Chargers에 비해 의심스러운 2명의 수신기가 있지만 주요 플레이어는 Democratandchronicle.com으로 돌아오고 있습니다."
       ]
     },
     {
@@ -5902,17 +6066,17 @@
     {
       "title": "Chargers' nightmare start is more than just a stumbling block for Mike McDaniel",
       "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNYlUzZ285b2tqM1pYRWRxcU5WZU84eGhfWUlRVmZPZTZUaXl5M19lNy1RN0hPY2p5d3pzTkpBY3hQdFFPYkNMdGt4OUJMVzF4VmVsVjNKbzFyNjh4eUdOQW5xLVFYR0NqS3ZPYWZVRXlGQlFWNG94VzBnRXppYlIyU0I4YXM1bUVHTEVMSUZFc2YxYkd2SzNiVm1QTXg5ZmtW?oc=5",
-      "summary": "Chargers' nightmare start is more than just a stumbling block for Mike McDaniel Bolt Beat",
+      "summary": "Chargers' nightmare start is more than just a stumbling block for Mike McDaniel boltbeat.com",
       "published": "2026-09-25T04:00:01+00:00",
-      "source": "Bolt Beat",
+      "source": "boltbeat.com",
       "author": "",
       "raw_entry": {
-        "title": "Chargers' nightmare start is more than just a stumbling block for Mike McDaniel - Bolt Beat",
+        "title": "Chargers' nightmare start is more than just a stumbling block for Mike McDaniel - boltbeat.com",
         "title_detail": {
           "type": "text/plain",
           "language": null,
           "base": "",
-          "value": "Chargers' nightmare start is more than just a stumbling block for Mike McDaniel - Bolt Beat"
+          "value": "Chargers' nightmare start is more than just a stumbling block for Mike McDaniel - boltbeat.com"
         },
         "links": [
           {
@@ -5936,21 +6100,21 @@
           268,
           0
         ],
-        "summary": "<a href=\"https://news.google.com/rss/articles/CBMioAFBVV95cUxNYlUzZ285b2tqM1pYRWRxcU5WZU84eGhfWUlRVmZPZTZUaXl5M19lNy1RN0hPY2p5d3pzTkpBY3hQdFFPYkNMdGt4OUJMVzF4VmVsVjNKbzFyNjh4eUdOQW5xLVFYR0NqS3ZPYWZVRXlGQlFWNG94VzBnRXppYlIyU0I4YXM1bUVHTEVMSUZFc2YxYkd2SzNiVm1QTXg5ZmtW?oc=5\" target=\"_blank\">Chargers' nightmare start is more than just a stumbling block for Mike McDaniel</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Bolt Beat</font>",
+        "summary": "<a href=\"https://news.google.com/rss/articles/CBMioAFBVV95cUxNYlUzZ285b2tqM1pYRWRxcU5WZU84eGhfWUlRVmZPZTZUaXl5M19lNy1RN0hPY2p5d3pzTkpBY3hQdFFPYkNMdGt4OUJMVzF4VmVsVjNKbzFyNjh4eUdOQW5xLVFYR0NqS3ZPYWZVRXlGQlFWNG94VzBnRXppYlIyU0I4YXM1bUVHTEVMSUZFc2YxYkd2SzNiVm1QTXg5ZmtW?oc=5\" target=\"_blank\">Chargers' nightmare start is more than just a stumbling block for Mike McDaniel</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">boltbeat.com</font>",
         "summary_detail": {
           "type": "text/html",
           "language": null,
           "base": "",
-          "value": "<a href=\"https://news.google.com/rss/articles/CBMioAFBVV95cUxNYlUzZ285b2tqM1pYRWRxcU5WZU84eGhfWUlRVmZPZTZUaXl5M19lNy1RN0hPY2p5d3pzTkpBY3hQdFFPYkNMdGt4OUJMVzF4VmVsVjNKbzFyNjh4eUdOQW5xLVFYR0NqS3ZPYWZVRXlGQlFWNG94VzBnRXppYlIyU0I4YXM1bUVHTEVMSUZFc2YxYkd2SzNiVm1QTXg5ZmtW?oc=5\" target=\"_blank\">Chargers' nightmare start is more than just a stumbling block for Mike McDaniel</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Bolt Beat</font>"
+          "value": "<a href=\"https://news.google.com/rss/articles/CBMioAFBVV95cUxNYlUzZ285b2tqM1pYRWRxcU5WZU84eGhfWUlRVmZPZTZUaXl5M19lNy1RN0hPY2p5d3pzTkpBY3hQdFFPYkNMdGt4OUJMVzF4VmVsVjNKbzFyNjh4eUdOQW5xLVFYR0NqS3ZPYWZVRXlGQlFWNG94VzBnRXppYlIyU0I4YXM1bUVHTEVMSUZFc2YxYkd2SzNiVm1QTXg5ZmtW?oc=5\" target=\"_blank\">Chargers' nightmare start is more than just a stumbling block for Mike McDaniel</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">boltbeat.com</font>"
         },
         "source": {
           "href": "https://boltbeat.com",
-          "title": "Bolt Beat"
+          "title": "boltbeat.com"
         }
       },
       "search_query": "Mike McDaniel Chargers",
       "related_sources": [
-        "Bolt Beat"
+        "boltbeat.com"
       ],
       "category_key": "general",
       "category_name": "팀 일반 소식",
@@ -5961,24 +6125,24 @@
       "priority_class": "tier-high",
       "headline_kr": "Chargers의 악몽 같은 시작은 Mike McDaniel에게 단순한 걸림돌 이상입니다.",
       "summary_bullets_kr": [
-        "⚡ **핵심 소식**: Chargers의 악몽 같은 시작은 Mike McDaniel Bolt Beat에게 단순한 걸림돌 이상입니다.",
+        "⚡ **핵심 소식**: Chargers의 악몽 같은 시작은 Mike McDaniel에게 단순한 걸림돌 그 이상입니다 boltbeat.com",
         "🏈 **공격 전술 관전 포인트**: Mike McDaniel 신임 오펜시브 코디네이터의 전술 안착과 QB Justin Herbert의 플레이메이킹 극대화가 핵심 과제입니다."
       ]
     },
     {
       "title": "Bills vs Chargers prediction, keys to pivotal Week 3 matchup",
       "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxPZ2hjNzBrNGZ1R0cwYlFMdkNBY2lnRXhpZUo0UG40VlppMGhjNmtGeUtmcmczMWY2UUtSM1IwUU9DeUdKLW5ySHZQSjdjT1JZbS1PRHBVb3pXYXRZbURmNV83MTRKRzJEWUd6TVlsNUpHZl9uenEyVEoxai02SEVVTjJER1dJek5LVjZzalpzMFVDeGRoWUhsS2pkYUhxdmRxSGxIRDBVTnVXRmpNSjNVeTRxRmJWT1hXcHZ5LWQ2Uzk1SWUxWlRIeQ?oc=5",
-      "summary": "Bills vs Chargers prediction, keys to pivotal Week 3 matchup Democrat and Chronicle",
+      "summary": "Bills vs Chargers prediction, keys to pivotal Week 3 matchup democratandchronicle.com",
       "published": "2026-09-24T23:06:00+00:00",
-      "source": "Democrat and Chronicle",
+      "source": "democratandchronicle.com",
       "author": "",
       "raw_entry": {
-        "title": "Bills vs Chargers prediction, keys to pivotal Week 3 matchup - Democrat and Chronicle",
+        "title": "Bills vs Chargers prediction, keys to pivotal Week 3 matchup - democratandchronicle.com",
         "title_detail": {
           "type": "text/plain",
           "language": null,
           "base": "",
-          "value": "Bills vs Chargers prediction, keys to pivotal Week 3 matchup - Democrat and Chronicle"
+          "value": "Bills vs Chargers prediction, keys to pivotal Week 3 matchup - democratandchronicle.com"
         },
         "links": [
           {
@@ -6002,21 +6166,21 @@
           268,
           0
         ],
-        "summary": "<a href=\"https://news.google.com/rss/articles/CBMiyAFBVV95cUxPZ2hjNzBrNGZ1R0cwYlFMdkNBY2lnRXhpZUo0UG40VlppMGhjNmtGeUtmcmczMWY2UUtSM1IwUU9DeUdKLW5ySHZQSjdjT1JZbS1PRHBVb3pXYXRZbURmNV83MTRKRzJEWUd6TVlsNUpHZl9uenEyVEoxai02SEVVTjJER1dJek5LVjZzalpzMFVDeGRoWUhsS2pkYUhxdmRxSGxIRDBVTnVXRmpNSjNVeTRxRmJWT1hXcHZ5LWQ2Uzk1SWUxWlRIeQ?oc=5\" target=\"_blank\">Bills vs Chargers prediction, keys to pivotal Week 3 matchup</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Democrat and Chronicle</font>",
+        "summary": "<a href=\"https://news.google.com/rss/articles/CBMiyAFBVV95cUxPZ2hjNzBrNGZ1R0cwYlFMdkNBY2lnRXhpZUo0UG40VlppMGhjNmtGeUtmcmczMWY2UUtSM1IwUU9DeUdKLW5ySHZQSjdjT1JZbS1PRHBVb3pXYXRZbURmNV83MTRKRzJEWUd6TVlsNUpHZl9uenEyVEoxai02SEVVTjJER1dJek5LVjZzalpzMFVDeGRoWUhsS2pkYUhxdmRxSGxIRDBVTnVXRmpNSjNVeTRxRmJWT1hXcHZ5LWQ2Uzk1SWUxWlRIeQ?oc=5\" target=\"_blank\">Bills vs Chargers prediction, keys to pivotal Week 3 matchup</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">democratandchronicle.com</font>",
         "summary_detail": {
           "type": "text/html",
           "language": null,
           "base": "",
-          "value": "<a href=\"https://news.google.com/rss/articles/CBMiyAFBVV95cUxPZ2hjNzBrNGZ1R0cwYlFMdkNBY2lnRXhpZUo0UG40VlppMGhjNmtGeUtmcmczMWY2UUtSM1IwUU9DeUdKLW5ySHZQSjdjT1JZbS1PRHBVb3pXYXRZbURmNV83MTRKRzJEWUd6TVlsNUpHZl9uenEyVEoxai02SEVVTjJER1dJek5LVjZzalpzMFVDeGRoWUhsS2pkYUhxdmRxSGxIRDBVTnVXRmpNSjNVeTRxRmJWT1hXcHZ5LWQ2Uzk1SWUxWlRIeQ?oc=5\" target=\"_blank\">Bills vs Chargers prediction, keys to pivotal Week 3 matchup</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Democrat and Chronicle</font>"
+          "value": "<a href=\"https://news.google.com/rss/articles/CBMiyAFBVV95cUxPZ2hjNzBrNGZ1R0cwYlFMdkNBY2lnRXhpZUo0UG40VlppMGhjNmtGeUtmcmczMWY2UUtSM1IwUU9DeUdKLW5ySHZQSjdjT1JZbS1PRHBVb3pXYXRZbURmNV83MTRKRzJEWUd6TVlsNUpHZl9uenEyVEoxai02SEVVTjJER1dJek5LVjZzalpzMFVDeGRoWUhsS2pkYUhxdmRxSGxIRDBVTnVXRmpNSjNVeTRxRmJWT1hXcHZ5LWQ2Uzk1SWUxWlRIeQ?oc=5\" target=\"_blank\">Bills vs Chargers prediction, keys to pivotal Week 3 matchup</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">democratandchronicle.com</font>"
         },
         "source": {
           "href": "https://www.democratandchronicle.com",
-          "title": "Democrat and Chronicle"
+          "title": "democratandchronicle.com"
         }
       },
       "search_query": "Chargers vs Bills",
       "related_sources": [
-        "Democrat and Chronicle"
+        "democratandchronicle.com"
       ],
       "category_key": "game",
       "category_name": "경기 결과/프리뷰",
@@ -6027,7 +6191,7 @@
       "priority_class": "tier-high",
       "headline_kr": "청구서 대 Chargers 예측, 중요한 3주차 매치업의 핵심",
       "summary_bullets_kr": [
-        "⚡ **핵심 소식**: Bills vs Chargers 예측, 3주차 매치업의 핵심인 민주당과 크로니클"
+        "⚡ **핵심 소식**: 청구서 대 Chargers 예측, 중추적인 3주차 매치업의 핵심democratandchronicle.com"
       ]
     },
     {
@@ -6159,105 +6323,6 @@
       "headline_kr": "Chargers OC Mike McDaniel: 공격 수정을 위한 '마법의 공식은 없습니다'",
       "summary_bullets_kr": [
         "⚡ **핵심 소식**: Chargers OC Mike McDaniel: 범죄를 바로잡는 '마법의 공식은 없습니다' Orange County Register",
-        "🏈 **공격 전술 관전 포인트**: Mike McDaniel 신임 오펜시브 코디네이터의 전술 안착과 QB Justin Herbert의 플레이메이킹 극대화가 핵심 과제입니다."
-      ]
-    },
-    {
-      "title": "[Rhim] Mike McDaniel on simplifying the offense:\"Of course I consider. I consider pretty much everything. What's important for my position is that if I'm saying not to overreact either way, good or bad, I can't do the same. I have to assess. \"... What I know how to do is evolve.",
-      "url": "https://www.reddit.com/r/Chargers/comments/1wpb3fz/rhim_mike_mcdaniel_on_simplifying_the_offenseof/",
-      "summary": "https://x.com/krisrhim1/status/2103189201940595122 submitted by /u/LakeShowBoltUp [link] [comments]",
-      "published": "2026-09-24T10:26:56+00:00",
-      "source": "Reddit r/Chargers",
-      "author": "/u/LakeShowBoltUp",
-      "raw_entry": {
-        "authors": [
-          {
-            "name": "/u/LakeShowBoltUp",
-            "href": "https://www.reddit.com/user/LakeShowBoltUp"
-          }
-        ],
-        "author_detail": {
-          "name": "/u/LakeShowBoltUp",
-          "href": "https://www.reddit.com/user/LakeShowBoltUp"
-        },
-        "href": "",
-        "author": "/u/LakeShowBoltUp",
-        "tags": [
-          {
-            "term": "Chargers",
-            "scheme": null,
-            "label": "r/Chargers"
-          }
-        ],
-        "content": [
-          {
-            "type": "text/html",
-            "language": null,
-            "base": "",
-            "value": "<table> <tr><td> <a href=\"https://www.reddit.com/r/Chargers/comments/1wpb3fz/rhim_mike_mcdaniel_on_simplifying_the_offenseof/\"> <img alt=\"[Rhim] Mike McDaniel on simplifying the offense:&quot;Of course I consider. I consider pretty much everything. What's important for my position is that if I'm saying not to overreact either way, good or bad, I can't do the same. I have to assess. &quot;... What I know how to do is evolve.\" src=\"https://preview.redd.it/eragzwclrirh1.png?width=320&amp;crop=smart&amp;auto=webp&amp;s=a9108d332dc00287031e5e348f5f5d7605025488\" title=\"[Rhim] Mike McDaniel on simplifying the offense:&quot;Of course I consider. I consider pretty much everything. What's important for my position is that if I'm saying not to overreact either way, good or bad, I can't do the same. I have to assess. &quot;... What I know how to do is evolve.\" /> </a> </td><td> <!-- SC_OFF --><div class=\"md\"><p><a href=\"https://x.com/krisrhim1/status/2103189201940595122\">https://x.com/krisrhim1/status/2103189201940595122</a></p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/LakeShowBoltUp\"> /u/LakeShowBoltUp </a> <br /> <span><a href=\"https://i.redd.it/eragzwclrirh1.png\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/Chargers/comments/1wpb3fz/rhim_mike_mcdaniel_on_simplifying_the_offenseof/\">[comments]</a></span> </td></tr></table>"
-          }
-        ],
-        "summary": "<table> <tr><td> <a href=\"https://www.reddit.com/r/Chargers/comments/1wpb3fz/rhim_mike_mcdaniel_on_simplifying_the_offenseof/\"> <img alt=\"[Rhim] Mike McDaniel on simplifying the offense:&quot;Of course I consider. I consider pretty much everything. What's important for my position is that if I'm saying not to overreact either way, good or bad, I can't do the same. I have to assess. &quot;... What I know how to do is evolve.\" src=\"https://preview.redd.it/eragzwclrirh1.png?width=320&amp;crop=smart&amp;auto=webp&amp;s=a9108d332dc00287031e5e348f5f5d7605025488\" title=\"[Rhim] Mike McDaniel on simplifying the offense:&quot;Of course I consider. I consider pretty much everything. What's important for my position is that if I'm saying not to overreact either way, good or bad, I can't do the same. I have to assess. &quot;... What I know how to do is evolve.\" /> </a> </td><td> <!-- SC_OFF --><div class=\"md\"><p><a href=\"https://x.com/krisrhim1/status/2103189201940595122\">https://x.com/krisrhim1/status/2103189201940595122</a></p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/LakeShowBoltUp\"> /u/LakeShowBoltUp </a> <br /> <span><a href=\"https://i.redd.it/eragzwclrirh1.png\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/Chargers/comments/1wpb3fz/rhim_mike_mcdaniel_on_simplifying_the_offenseof/\">[comments]</a></span> </td></tr></table>",
-        "id": "t3_1wpb3fz",
-        "guidislink": true,
-        "link": "https://www.reddit.com/r/Chargers/comments/1wpb3fz/rhim_mike_mcdaniel_on_simplifying_the_offenseof/",
-        "media_thumbnail": [
-          {
-            "url": "https://preview.redd.it/eragzwclrirh1.png?width=320&crop=smart&auto=webp&s=a9108d332dc00287031e5e348f5f5d7605025488"
-          }
-        ],
-        "links": [
-          {
-            "href": "https://www.reddit.com/r/Chargers/comments/1wpb3fz/rhim_mike_mcdaniel_on_simplifying_the_offenseof/",
-            "rel": "alternate",
-            "type": "text/html"
-          }
-        ],
-        "updated": "2026-09-24T19:26:56+00:00",
-        "updated_parsed": [
-          2026,
-          9,
-          24,
-          19,
-          26,
-          56,
-          3,
-          267,
-          0
-        ],
-        "published": "2026-09-24T19:26:56+00:00",
-        "published_parsed": [
-          2026,
-          9,
-          24,
-          19,
-          26,
-          56,
-          3,
-          267,
-          0
-        ],
-        "title": "[Rhim] Mike McDaniel on simplifying the offense:\"Of course I consider. I consider pretty much everything. What's important for my position is that if I'm saying not to overreact either way, good or bad, I can't do the same. I have to assess. \"... What I know how to do is evolve.",
-        "title_detail": {
-          "type": "text/plain",
-          "language": null,
-          "base": "",
-          "value": "[Rhim] Mike McDaniel on simplifying the offense:\"Of course I consider. I consider pretty much everything. What's important for my position is that if I'm saying not to overreact either way, good or bad, I can't do the same. I have to assess. \"... What I know how to do is evolve."
-        }
-      },
-      "related_sources": [
-        "Reddit r/Chargers"
-      ],
-      "category_key": "interview",
-      "category_name": "감독/선수 인터뷰",
-      "category_badge": "🎙️ 인터뷰/발언",
-      "category_icon": "🎙️",
-      "importance_score": 60,
-      "priority_tier": "⚡ 주요",
-      "priority_class": "tier-high",
-      "headline_kr": "[림] 공격 단순화에 대한 마이크 Khalil Mack다니엘:\"물론 고려한다. 거의 모든 것을 고려한다. 내 입장에서 중요한 것은 과민반응하지 말라는 것이다.",
-      "summary_bullets_kr": [
-        "⚡ **핵심 소식**: 공격 단순화에 대한 Mike McDaniel:\"물론 고려합니다. 거의 모든 것을 고려합니다. 내 입장에서 중요한 것은 내가 과민반응하지 말라고 말하는 것입니다.",
         "🏈 **공격 전술 관전 포인트**: Mike McDaniel 신임 오펜시브 코디네이터의 전술 안착과 QB Justin Herbert의 플레이메이킹 극대화가 핵심 과제입니다."
       ]
     },
@@ -6558,17 +6623,17 @@
     {
       "title": "NFL experts jump on bandwagon: 6 early Bills vs. Chargers predictions",
       "url": "https://news.google.com/rss/articles/CBMi9gFBVV95cUxQQU5faVVRZjNaZ3dUTU10dnlwcC1SRWl4ekprdUdYeUs0T2Fab1Y0SzZrTWJXNDNpbkRWS1VidzE0djJQVVFFQlNYVzgtTzBIQmxkOFZNbmF2VGh5bUJnMTkybXJOTkViM0M5YVlsNWVtbTgyVFA2Sk9mTlBFTldrc2I4OF9NRldZSXc4SWhxYnlldFZwbzd4NkZhRHVtdUZnMHg4RlJIVHhJT3lLVXJMNWlieDRONUZpQTJocHBwRkZtSV9Ma2hSU2lHbWljUWVXbEoxd0pDTHFxa0t2LXpNOUlyUWlqdXhySTlxd0RuTTFfS0t3RVE?oc=5",
-      "summary": "NFL experts jump on bandwagon: 6 early Bills vs. Chargers predictions Democrat and Chronicle",
+      "summary": "NFL experts jump on bandwagon: 6 early Bills vs. Chargers predictions democratandchronicle.com",
       "published": "2026-09-23T02:02:00+00:00",
-      "source": "Democrat and Chronicle",
+      "source": "democratandchronicle.com",
       "author": "",
       "raw_entry": {
-        "title": "NFL experts jump on bandwagon: 6 early Bills vs. Chargers predictions - Democrat and Chronicle",
+        "title": "NFL experts jump on bandwagon: 6 early Bills vs. Chargers predictions - democratandchronicle.com",
         "title_detail": {
           "type": "text/plain",
           "language": null,
           "base": "",
-          "value": "NFL experts jump on bandwagon: 6 early Bills vs. Chargers predictions - Democrat and Chronicle"
+          "value": "NFL experts jump on bandwagon: 6 early Bills vs. Chargers predictions - democratandchronicle.com"
         },
         "links": [
           {
@@ -6592,21 +6657,21 @@
           266,
           0
         ],
-        "summary": "<a href=\"https://news.google.com/rss/articles/CBMi9gFBVV95cUxQQU5faVVRZjNaZ3dUTU10dnlwcC1SRWl4ekprdUdYeUs0T2Fab1Y0SzZrTWJXNDNpbkRWS1VidzE0djJQVVFFQlNYVzgtTzBIQmxkOFZNbmF2VGh5bUJnMTkybXJOTkViM0M5YVlsNWVtbTgyVFA2Sk9mTlBFTldrc2I4OF9NRldZSXc4SWhxYnlldFZwbzd4NkZhRHVtdUZnMHg4RlJIVHhJT3lLVXJMNWlieDRONUZpQTJocHBwRkZtSV9Ma2hSU2lHbWljUWVXbEoxd0pDTHFxa0t2LXpNOUlyUWlqdXhySTlxd0RuTTFfS0t3RVE?oc=5\" target=\"_blank\">NFL experts jump on bandwagon: 6 early Bills vs. Chargers predictions</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Democrat and Chronicle</font>",
+        "summary": "<a href=\"https://news.google.com/rss/articles/CBMi9gFBVV95cUxQQU5faVVRZjNaZ3dUTU10dnlwcC1SRWl4ekprdUdYeUs0T2Fab1Y0SzZrTWJXNDNpbkRWS1VidzE0djJQVVFFQlNYVzgtTzBIQmxkOFZNbmF2VGh5bUJnMTkybXJOTkViM0M5YVlsNWVtbTgyVFA2Sk9mTlBFTldrc2I4OF9NRldZSXc4SWhxYnlldFZwbzd4NkZhRHVtdUZnMHg4RlJIVHhJT3lLVXJMNWlieDRONUZpQTJocHBwRkZtSV9Ma2hSU2lHbWljUWVXbEoxd0pDTHFxa0t2LXpNOUlyUWlqdXhySTlxd0RuTTFfS0t3RVE?oc=5\" target=\"_blank\">NFL experts jump on bandwagon: 6 early Bills vs. Chargers predictions</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">democratandchronicle.com</font>",
         "summary_detail": {
           "type": "text/html",
           "language": null,
           "base": "",
-          "value": "<a href=\"https://news.google.com/rss/articles/CBMi9gFBVV95cUxQQU5faVVRZjNaZ3dUTU10dnlwcC1SRWl4ekprdUdYeUs0T2Fab1Y0SzZrTWJXNDNpbkRWS1VidzE0djJQVVFFQlNYVzgtTzBIQmxkOFZNbmF2VGh5bUJnMTkybXJOTkViM0M5YVlsNWVtbTgyVFA2Sk9mTlBFTldrc2I4OF9NRldZSXc4SWhxYnlldFZwbzd4NkZhRHVtdUZnMHg4RlJIVHhJT3lLVXJMNWlieDRONUZpQTJocHBwRkZtSV9Ma2hSU2lHbWljUWVXbEoxd0pDTHFxa0t2LXpNOUlyUWlqdXhySTlxd0RuTTFfS0t3RVE?oc=5\" target=\"_blank\">NFL experts jump on bandwagon: 6 early Bills vs. Chargers predictions</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Democrat and Chronicle</font>"
+          "value": "<a href=\"https://news.google.com/rss/articles/CBMi9gFBVV95cUxQQU5faVVRZjNaZ3dUTU10dnlwcC1SRWl4ekprdUdYeUs0T2Fab1Y0SzZrTWJXNDNpbkRWS1VidzE0djJQVVFFQlNYVzgtTzBIQmxkOFZNbmF2VGh5bUJnMTkybXJOTkViM0M5YVlsNWVtbTgyVFA2Sk9mTlBFTldrc2I4OF9NRldZSXc4SWhxYnlldFZwbzd4NkZhRHVtdUZnMHg4RlJIVHhJT3lLVXJMNWlieDRONUZpQTJocHBwRkZtSV9Ma2hSU2lHbWljUWVXbEoxd0pDTHFxa0t2LXpNOUlyUWlqdXhySTlxd0RuTTFfS0t3RVE?oc=5\" target=\"_blank\">NFL experts jump on bandwagon: 6 early Bills vs. Chargers predictions</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">democratandchronicle.com</font>"
         },
         "source": {
           "href": "https://www.democratandchronicle.com",
-          "title": "Democrat and Chronicle"
+          "title": "democratandchronicle.com"
         }
       },
       "search_query": "Chargers vs Bills",
       "related_sources": [
-        "Democrat and Chronicle"
+        "democratandchronicle.com"
       ],
       "category_key": "game",
       "category_name": "경기 결과/프리뷰",
@@ -6617,7 +6682,7 @@
       "priority_class": "tier-high",
       "headline_kr": "NFL 전문가들이 시류에 뛰어들다: 6가지 초기 청구서 대 Chargers 예측",
       "summary_bullets_kr": [
-        "⚡ **핵심 소식**: NFL 전문가들이 시류에 뛰어들다: 6개의 초기 Bills 대 Chargers 예측 민주당과 크로니클"
+        "⚡ **핵심 소식**: NFL 전문가들이 시류에 뛰어들다: 6가지 초기 청구서 대 Chargers 예측 Democratandchronicle.com"
       ]
     },
     {
@@ -6916,99 +6981,6 @@
       ]
     },
     {
-      "title": "Pretty good breakdown from Kurt Warner as to what’s going on with the offense.",
-      "url": "https://www.reddit.com/r/Chargers/comments/1wpjbr6/pretty_good_breakdown_from_kurt_warner_as_to/",
-      "summary": "submitted by /u/xThe-Legend-Killerx [link] [comments]",
-      "published": "2026-09-24T16:23:12+00:00",
-      "source": "Reddit r/Chargers",
-      "author": "/u/xThe-Legend-Killerx",
-      "raw_entry": {
-        "authors": [
-          {
-            "name": "/u/xThe-Legend-Killerx",
-            "href": "https://www.reddit.com/user/xThe-Legend-Killerx"
-          }
-        ],
-        "author_detail": {
-          "name": "/u/xThe-Legend-Killerx",
-          "href": "https://www.reddit.com/user/xThe-Legend-Killerx"
-        },
-        "href": "https://www.reddit.com/user/xThe-Legend-Killerx",
-        "author": "/u/xThe-Legend-Killerx",
-        "tags": [
-          {
-            "term": "Chargers",
-            "scheme": null,
-            "label": "r/Chargers"
-          }
-        ],
-        "content": [
-          {
-            "type": "text/html",
-            "language": null,
-            "base": "",
-            "value": "&#32; submitted by &#32; <a href=\"https://www.reddit.com/user/xThe-Legend-Killerx\"> /u/xThe-Legend-Killerx </a> <br /> <span><a href=\"https://x.com/kurt13warner/status/2103249387388629468?s=46\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/Chargers/comments/1wpjbr6/pretty_good_breakdown_from_kurt_warner_as_to/\">[comments]</a></span>"
-          }
-        ],
-        "summary": "&#32; submitted by &#32; <a href=\"https://www.reddit.com/user/xThe-Legend-Killerx\"> /u/xThe-Legend-Killerx </a> <br /> <span><a href=\"https://x.com/kurt13warner/status/2103249387388629468?s=46\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/Chargers/comments/1wpjbr6/pretty_good_breakdown_from_kurt_warner_as_to/\">[comments]</a></span>",
-        "id": "t3_1wpjbr6",
-        "guidislink": true,
-        "link": "https://www.reddit.com/r/Chargers/comments/1wpjbr6/pretty_good_breakdown_from_kurt_warner_as_to/",
-        "links": [
-          {
-            "href": "https://www.reddit.com/r/Chargers/comments/1wpjbr6/pretty_good_breakdown_from_kurt_warner_as_to/",
-            "rel": "alternate",
-            "type": "text/html"
-          }
-        ],
-        "updated": "2026-09-25T01:23:12+00:00",
-        "updated_parsed": [
-          2026,
-          9,
-          25,
-          1,
-          23,
-          12,
-          4,
-          268,
-          0
-        ],
-        "published": "2026-09-25T01:23:12+00:00",
-        "published_parsed": [
-          2026,
-          9,
-          25,
-          1,
-          23,
-          12,
-          4,
-          268,
-          0
-        ],
-        "title": "Pretty good breakdown from Kurt Warner as to what’s going on with the offense.",
-        "title_detail": {
-          "type": "text/plain",
-          "language": null,
-          "base": "",
-          "value": "Pretty good breakdown from Kurt Warner as to what’s going on with the offense."
-        }
-      },
-      "related_sources": [
-        "Reddit r/Chargers"
-      ],
-      "category_key": "interview",
-      "category_name": "감독/선수 인터뷰",
-      "category_badge": "🎙️ 인터뷰/발언",
-      "category_icon": "🎙️",
-      "importance_score": 55,
-      "priority_tier": "⚡ 주요",
-      "priority_class": "tier-high",
-      "headline_kr": "공격에 무슨 일이 일어나고 있는지에 대해 Kurt Warner가 꽤 잘 분석했습니다.",
-      "summary_bullets_kr": [
-        "⚡ **핵심 소식**: 공격에 무슨 일이 일어나고 있는지에 대해 Kurt Warner가 꽤 잘 분석했습니다."
-      ]
-    },
-    {
       "title": "Los Angeles Chargers Week 3 Matchup Doodle! :)",
       "url": "https://www.reddit.com/r/Chargers/comments/1wp7ng1/los_angeles_chargers_week_3_matchup_doodle/",
       "summary": "submitted by /u/CornDoggyLOL [link] [comments]",
@@ -7286,7 +7258,7 @@
           "title": "San Francisco Chronicle"
         }
       },
-      "search_query": "Justin Herbert Chargers",
+      "search_query": "Chargers Justin Herbert",
       "related_sources": [
         "San Francisco Chronicle"
       ],
@@ -7301,6 +7273,99 @@
       "summary_bullets_kr": [
         "⚡ **핵심 소식**: Chargers의 Justin Herbert 대신 49ers의 Brock Purdy를 선택하시겠습니까? San Francisco Chronicle을 선택해야 하는 이유는 다음과 같습니다.",
         "🏈 **주요 인물**: Justin Herbert (QB)의 경기력과 훈련 컨디션이 집중 조명되고 있습니다."
+      ]
+    },
+    {
+      "title": "Pretty good breakdown from Kurt Warner as to what’s going on with the offense.",
+      "url": "https://www.reddit.com/r/Chargers/comments/1wpjbr6/pretty_good_breakdown_from_kurt_warner_as_to/",
+      "summary": "submitted by /u/xThe-Legend-Killerx [link] [comments]",
+      "published": "2026-09-24T16:23:12+00:00",
+      "source": "Reddit r/Chargers",
+      "author": "/u/xThe-Legend-Killerx",
+      "raw_entry": {
+        "authors": [
+          {
+            "name": "/u/xThe-Legend-Killerx",
+            "href": "https://www.reddit.com/user/xThe-Legend-Killerx"
+          }
+        ],
+        "author_detail": {
+          "name": "/u/xThe-Legend-Killerx",
+          "href": "https://www.reddit.com/user/xThe-Legend-Killerx"
+        },
+        "href": "https://www.reddit.com/user/xThe-Legend-Killerx",
+        "author": "/u/xThe-Legend-Killerx",
+        "tags": [
+          {
+            "term": "Chargers",
+            "scheme": null,
+            "label": "r/Chargers"
+          }
+        ],
+        "content": [
+          {
+            "type": "text/html",
+            "language": null,
+            "base": "",
+            "value": "&#32; submitted by &#32; <a href=\"https://www.reddit.com/user/xThe-Legend-Killerx\"> /u/xThe-Legend-Killerx </a> <br /> <span><a href=\"https://x.com/kurt13warner/status/2103249387388629468?s=46\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/Chargers/comments/1wpjbr6/pretty_good_breakdown_from_kurt_warner_as_to/\">[comments]</a></span>"
+          }
+        ],
+        "summary": "&#32; submitted by &#32; <a href=\"https://www.reddit.com/user/xThe-Legend-Killerx\"> /u/xThe-Legend-Killerx </a> <br /> <span><a href=\"https://x.com/kurt13warner/status/2103249387388629468?s=46\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/Chargers/comments/1wpjbr6/pretty_good_breakdown_from_kurt_warner_as_to/\">[comments]</a></span>",
+        "id": "t3_1wpjbr6",
+        "guidislink": true,
+        "link": "https://www.reddit.com/r/Chargers/comments/1wpjbr6/pretty_good_breakdown_from_kurt_warner_as_to/",
+        "links": [
+          {
+            "href": "https://www.reddit.com/r/Chargers/comments/1wpjbr6/pretty_good_breakdown_from_kurt_warner_as_to/",
+            "rel": "alternate",
+            "type": "text/html"
+          }
+        ],
+        "updated": "2026-09-25T01:23:12+00:00",
+        "updated_parsed": [
+          2026,
+          9,
+          25,
+          1,
+          23,
+          12,
+          4,
+          268,
+          0
+        ],
+        "published": "2026-09-25T01:23:12+00:00",
+        "published_parsed": [
+          2026,
+          9,
+          25,
+          1,
+          23,
+          12,
+          4,
+          268,
+          0
+        ],
+        "title": "Pretty good breakdown from Kurt Warner as to what’s going on with the offense.",
+        "title_detail": {
+          "type": "text/plain",
+          "language": null,
+          "base": "",
+          "value": "Pretty good breakdown from Kurt Warner as to what’s going on with the offense."
+        }
+      },
+      "related_sources": [
+        "Reddit r/Chargers"
+      ],
+      "category_key": "interview",
+      "category_name": "감독/선수 인터뷰",
+      "category_badge": "🎙️ 인터뷰/발언",
+      "category_icon": "🎙️",
+      "importance_score": 50,
+      "priority_tier": "📰 일반",
+      "priority_class": "tier-normal",
+      "headline_kr": "공격에 무슨 일이 일어나고 있는지에 대해 Kurt Warner가 꽤 잘 분석했습니다.",
+      "summary_bullets_kr": [
+        "⚡ **핵심 소식**: 공격에 무슨 일이 일어나고 있는지에 대해 Kurt Warner가 꽤 잘 분석했습니다."
       ]
     },
     {
@@ -8870,17 +8935,17 @@
     {
       "title": "Chargers make imploding a weekly thing, lose to LV",
       "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNMW9QUFBRQUYxMzROcnBoRUttZF90MzRRdlhfNVpNOHpHLW5Dc3FpSmZBMDRMekRYV3FfT2VHUG5heHRndG96MVFDZzA4NGEyQnR5WGFaazFyemZXZXlrWDM1N1c2UDJZSU5EWUhuVndwNWpZZnZqR2g2OGZtMDAxNE90V05jcW1FRlhmenNSVlZWLWs2N0l1YkV4YmF0WWhhQ0YyWHNkMXZvZk9ZUi1RUURFbkdrdw?oc=5",
-      "summary": "Chargers make imploding a weekly thing, lose to LV nbcsports.com",
+      "summary": "Chargers make imploding a weekly thing, lose to LV NBC Sports",
       "published": "2026-09-20T14:12:00+00:00",
-      "source": "nbcsports.com",
+      "source": "NBC Sports",
       "author": "",
       "raw_entry": {
-        "title": "Chargers make imploding a weekly thing, lose to LV - nbcsports.com",
+        "title": "Chargers make imploding a weekly thing, lose to LV - NBC Sports",
         "title_detail": {
           "type": "text/plain",
           "language": null,
           "base": "",
-          "value": "Chargers make imploding a weekly thing, lose to LV - nbcsports.com"
+          "value": "Chargers make imploding a weekly thing, lose to LV - NBC Sports"
         },
         "links": [
           {
@@ -8904,21 +8969,21 @@
           263,
           0
         ],
-        "summary": "<a href=\"https://news.google.com/rss/articles/CBMitgFBVV95cUxNMW9QUFBRQUYxMzROcnBoRUttZF90MzRRdlhfNVpNOHpHLW5Dc3FpSmZBMDRMekRYV3FfT2VHUG5heHRndG96MVFDZzA4NGEyQnR5WGFaazFyemZXZXlrWDM1N1c2UDJZSU5EWUhuVndwNWpZZnZqR2g2OGZtMDAxNE90V05jcW1FRlhmenNSVlZWLWs2N0l1YkV4YmF0WWhhQ0YyWHNkMXZvZk9ZUi1RUURFbkdrdw?oc=5\" target=\"_blank\">Chargers make imploding a weekly thing, lose to LV</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">nbcsports.com</font>",
+        "summary": "<a href=\"https://news.google.com/rss/articles/CBMitgFBVV95cUxNMW9QUFBRQUYxMzROcnBoRUttZF90MzRRdlhfNVpNOHpHLW5Dc3FpSmZBMDRMekRYV3FfT2VHUG5heHRndG96MVFDZzA4NGEyQnR5WGFaazFyemZXZXlrWDM1N1c2UDJZSU5EWUhuVndwNWpZZnZqR2g2OGZtMDAxNE90V05jcW1FRlhmenNSVlZWLWs2N0l1YkV4YmF0WWhhQ0YyWHNkMXZvZk9ZUi1RUURFbkdrdw?oc=5\" target=\"_blank\">Chargers make imploding a weekly thing, lose to LV</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">NBC Sports</font>",
         "summary_detail": {
           "type": "text/html",
           "language": null,
           "base": "",
-          "value": "<a href=\"https://news.google.com/rss/articles/CBMitgFBVV95cUxNMW9QUFBRQUYxMzROcnBoRUttZF90MzRRdlhfNVpNOHpHLW5Dc3FpSmZBMDRMekRYV3FfT2VHUG5heHRndG96MVFDZzA4NGEyQnR5WGFaazFyemZXZXlrWDM1N1c2UDJZSU5EWUhuVndwNWpZZnZqR2g2OGZtMDAxNE90V05jcW1FRlhmenNSVlZWLWs2N0l1YkV4YmF0WWhhQ0YyWHNkMXZvZk9ZUi1RUURFbkdrdw?oc=5\" target=\"_blank\">Chargers make imploding a weekly thing, lose to LV</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">nbcsports.com</font>"
+          "value": "<a href=\"https://news.google.com/rss/articles/CBMitgFBVV95cUxNMW9QUFBRQUYxMzROcnBoRUttZF90MzRRdlhfNVpNOHpHLW5Dc3FpSmZBMDRMekRYV3FfT2VHUG5heHRndG96MVFDZzA4NGEyQnR5WGFaazFyemZXZXlrWDM1N1c2UDJZSU5EWUhuVndwNWpZZnZqR2g2OGZtMDAxNE90V05jcW1FRlhmenNSVlZWLWs2N0l1YkV4YmF0WWhhQ0YyWHNkMXZvZk9ZUi1RUURFbkdrdw?oc=5\" target=\"_blank\">Chargers make imploding a weekly thing, lose to LV</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">NBC Sports</font>"
         },
         "source": {
           "href": "https://www.nbcsports.com",
-          "title": "nbcsports.com"
+          "title": "NBC Sports"
         }
       },
       "search_query": "Justin Herbert Chargers",
       "related_sources": [
-        "nbcsports.com"
+        "NBC Sports"
       ],
       "category_key": "general",
       "category_name": "팀 일반 소식",
@@ -8929,7 +8994,7 @@
       "priority_class": "tier-normal",
       "headline_kr": "Chargers는 매주 폭발을 일으키고 LV에 패합니다.",
       "summary_bullets_kr": [
-        "⚡ **핵심 소식**: Chargers는 매주 폭발을 일으키고 LV nbcsports.com에 패합니다."
+        "⚡ **핵심 소식**: Chargers는 매주 폭발을 일으키고 LV NBC Sports에 패합니다."
       ]
     },
     {
@@ -9063,6 +9128,6 @@
       ]
     }
   ],
-  "total_count": 111,
-  "updated_at": "2026-09-27 22:21:59"
+  "total_count": 112,
+  "updated_at": "2026-09-27 22:31:26"
 }
