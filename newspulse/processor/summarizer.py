@@ -32,7 +32,7 @@ KEY_PLAYERS_EN = {
     "slater": "Rashawn Slater (OT)",
     "biadasz": "Tyler Biadasz (C)",
     "minter": "Jesse Minter (DC)",
-    "roman": "Greg Roman (OC)",
+    "mcdaniel": "Mike McDaniel (OC)",
     "hortiz": "Joe Hortiz (GM)",
 }
 
@@ -147,6 +147,8 @@ class Summarizer:
                 bullets.append(f"📋 **선수단 영향**: {players_str}의 부상 경과 및 훈련 소화 여부가 주간 라인업 구성의 핵심 변수로 작용합니다.")
             elif "roster" in lower_text or "53-man" in lower_text or "sign" in lower_text or "cut" in lower_text:
                 bullets.append(f"📋 **로스터 분석**: {players_str} 관련 뎁스 차트 변동으로 팀 전력 구성에 변화가 생겼습니다.")
+            elif "mcdaniel" in lower_text or "offensive coordinator" in lower_text:
+                bullets.append(f"🏈 **공격 전술 관전 포인트**: Mike McDaniel 신임 오펜시브 코디네이터의 전술 안착과 QB Justin Herbert의 플레이메이킹 극대화가 핵심 과제입니다.")
             elif "harbaugh" in lower_text or "coach" in lower_text:
                 bullets.append(f"🏈 **전술 관전 포인트**: Jim Harbaugh 감독 및 코칭스태프의 피지컬 중심 미식축구 철학이 반영된 행보입니다.")
             else:
