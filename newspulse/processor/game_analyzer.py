@@ -59,26 +59,50 @@ class GameAnalyzer:
                 if re.search(r"\b" + re.escape(opp_key) + r"\b", text):
                     opp_counts[opp_val] = opp_counts.get(opp_val, 0) + 1
 
-        if opp_counts:
-            latest_opponent = max(opp_counts.items(), key=lambda x: x[1])[0]
-        else:
-            try:
-                from .schedule_manager import ScheduleManager
-                sched = ScheduleManager().get_schedule_data()
-                latest_opponent = sched.get("next_game", {}).get("opponent", "Buffalo Bills (BUF Bills)")
-            except Exception:
-                latest_opponent = "Buffalo Bills (BUF Bills)"
+        # Check upcoming game from schedule
+        sched_next_opp = None
+        try:
+            from .schedule_manager import ScheduleManager
+            sched = ScheduleManager().get_schedule_data()
+            sched_next_opp = sched.get("next_game", {}).get("opponent")
+        except Exception:
+            pass
 
-        if "bills" in latest_opponent.lower():
-            game_type = "2026 정규시즌 3주차 (Highmark Stadium / 원정)"
-            game_status = "오늘 킥오프 대기 (3주차 버팔로 원정)"
-            offense_notes = "Mike McDaniel OC 체제 공격진 전술 정비, QB Justin Herbert와 리시버진의 패싱 게임 부활 및 Joe Alt, Rashawn Slater의 오펜시브 라인 수호"
-            defense_notes = "Jesse Minter 수비 코디네이터 지휘 아래 Josh Allen 봉쇄, Khalil Mack·Tuli Tuipulotu·Bud Dupree의 엣지 패스 러시 및 All-Pro 세이프티 Derwin James Jr.의 수비 라인 지휘"
+        latest_opponent = None
+        if sched_next_opp and opp_counts:
+            clean_next = sched_next_opp.lower()
+            for opp_val in opp_counts.keys():
+                if any(part in clean_next for part in opp_val.lower().split() if len(part) > 3):
+                    latest_opponent = sched_next_opp
+                    break
+
+        if not latest_opponent:
+            if opp_counts:
+                latest_opponent = max(opp_counts.items(), key=lambda x: x[1])[0]
+            elif sched_next_opp:
+                latest_opponent = sched_next_opp
+            else:
+                latest_opponent = "Seattle Seahawks (SEA Seahawks)"
+
+        if "seahawks" in latest_opponent.lower():
+            game_type = "2026 정규시즌 4주차 (Lumen Field / NFC 원정)"
+            game_status = "킥오프 대기 (4주차 시애틀 원정)"
+            offense_notes = "0승 3패 벼랑 끝에서 배수의 진을 친 Jim Harbaugh호와 Mike McDaniel OC의 공격진 반등 총력전, QB Justin Herbert와 리시빙 코어의 다운필드 전개 및 Joe Alt, Rashawn Slater의 패스 프로텍션"
+            defense_notes = "Jesse Minter 수비 코디네이터 지휘 아래 시애틀 패싱 어택 차단, Khalil Mack·Tuli Tuipulotu·Bud Dupree의 엣지 압박 및 후방 세컨더리 정비"
             highlights = [
-                "🏈 **2026 NFL 3주차 AFC 격돌**: Highmark Stadium에서 열리는 Buffalo Bills와의 험난한 원정 매치업",
-                "🔥 **시즌 첫 승 도전**: 개막 후 2연패(Cardinals 14-26, Raiders 14-26)를 끊어내고 반등의 불씨를 살려야 하는 Jim Harbaugh호의 총력전",
-                "🏈 **공격진 핵심 관전 포인트**: Mike McDaniel OC의 공격 전술 정상화 및 QB Justin Herbert의 득점권 해결 능력",
-                "🏈 **수비진 핵심 관전 포인트**: Josh Allen을 필두로 한 Bills 화력을 제어할 Khalil Mack, Tuli Tuipulotu, Derwin James Jr.의 수비 조직력"
+                "🏈 **2026 NFL 4주차 원정 맞대결**: Lumen Field에서 열리는 Seattle Seahawks와의 인터컨퍼런스 원정전",
+                "🔥 **시즌 첫 승을 향한 총력전**: 개막 3연패(Cardinals 14-26, Raiders 14-26, Bills 16-24)로 위기에 몰린 Chargers의 필승 승부처",
+                "🏈 **공격진 핵심 관전 포인트**: Mike McDaniel OC 체제 공격진의 득점력 회복 및 QB Justin Herbert의 클러치 리딩",
+                "🏈 **수비진 핵심 관전 포인트**: Khalil Mack의 쿼터백 압박 및 시애틀의 공격 옵션 무력화"
+            ]
+        elif "bills" in latest_opponent.lower():
+            game_type = "2026 정규시즌 3주차 (Highmark Stadium)"
+            game_status = "16 - 24 (패배)"
+            offense_notes = "QB Justin Herbert 중심의 패싱 전술과 Joe Alt, Rashawn Slater의 오펜시브 라인 수호"
+            defense_notes = "Jesse Minter 수비 코디네이터 지휘 아래 Josh Allen 봉쇄 시도 및 수비진 분전"
+            highlights = [
+                "🏈 **2026 NFL 3주차 경기 결과**: Buffalo Bills에 16-24 패배 (시즌 0승 3패)",
+                "🏈 **Jim Harbaugh호 반등 과제**: 턴오버 및 레드존 득점 효율성 개선 필요",
             ]
         elif "raiders" in latest_opponent.lower():
             game_type = "2026 정규시즌 2주차 (SoFi Stadium / AFC West 라이벌전)"
