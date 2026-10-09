@@ -14,9 +14,10 @@ logger = logging.getLogger("newspulse.deployer")
 
 def push_to_github(token: str, repo_name: str, private: bool = False):
     """Create repository and push files directly using PyGithub."""
-    from github import Github, GithubException
+    from github import Github, GithubException, Auth
 
-    g = Github(token)
+    auth = Auth.Token(token)
+    g = Github(auth=auth)
     user = g.get_user()
     print(f"👤 GitHub 로그인 성공: {user.login}", flush=True)
 
@@ -29,6 +30,39 @@ def push_to_github(token: str, repo_name: str, private: bool = False):
             print(f"ℹ️ 기존 저장소 연결: {repo.html_url}", flush=True)
         else:
             raise e
+
+    def _sync_file(repo_obj, branch: str, file_path_rel: str, file_bytes: bytes, commit_msg: str):
+        """Helper to create or update file without sha conflicts, skipping identical files."""
+        try:
+            contents = repo_obj.get_contents(file_path_rel, ref=branch)
+            # Skip if identical content
+            if contents.decoded_content == file_bytes:
+                return True
+            try:
+                repo_obj.update_file(contents.path, commit_msg, file_bytes, contents.sha, branch=branch)
+                return True
+            except GithubException as ge_up:
+                if ge_up.status in (409, 422):
+                    # Refetch freshest SHA and retry once
+                    fresh = repo_obj.get_contents(file_path_rel, ref=branch)
+                    if fresh.decoded_content != file_bytes:
+                        repo_obj.update_file(fresh.path, commit_msg, file_bytes, fresh.sha, branch=branch)
+                    return True
+                raise ge_up
+        except GithubException as ge:
+            if ge.status == 404:
+                repo_obj.create_file(file_path_rel, commit_msg, file_bytes, branch=branch)
+                return True
+            else:
+                # Retry getting content in case of race condition
+                try:
+                    fresh = repo_obj.get_contents(file_path_rel, ref=branch)
+                    if fresh.decoded_content != file_bytes:
+                        repo_obj.update_file(fresh.path, commit_msg, file_bytes, fresh.sha, branch=branch)
+                    return True
+                except Exception:
+                    raise ge
+        return False
 
     # Upload core project files
     root_dir = Path(os.getcwd())
@@ -47,17 +81,12 @@ def push_to_github(token: str, repo_name: str, private: bool = False):
                 with open(file_path, "rb") as f:
                     content = f.read()
 
-                # Try to get existing file
-                try:
-                    contents = repo.get_contents(rel_path, ref="main")
-                    repo.update_file(contents.path, f"⚡ Auto-sync {rel_path}", content, contents.sha, branch="main")
-                except GithubException:
-                    repo.create_file(rel_path, f"⚡ Add {rel_path}", content, branch="main")
-                files_uploaded += 1
+                if _sync_file(repo, "main", rel_path, content, f"⚡ Auto-sync {rel_path}"):
+                    files_uploaded += 1
             except Exception as ex:
                 logger.warning(f"Failed to upload {rel_path}: {ex}")
 
-    print(f"🎉 총 {files_uploaded}개 파일의 GitHub (main 브랜치) 업로드가 완료되었습니다!", flush=True)
+    print(f"🎉 총 {files_uploaded}개 파일의 GitHub (main 브랜치) 동기화가 완료되었습니다!", flush=True)
 
     # 2. Sync gh-pages branch for GitHub Pages PWA hosting
     print("🚀 GitHub Pages (gh-pages 브랜치) 웹 앱 배포 중...", flush=True)
@@ -84,17 +113,18 @@ def push_to_github(token: str, repo_name: str, private: bool = False):
                 if icon_file.is_file():
                     gh_pages_files[f"icons/{icon_file.name}"] = icon_file
 
+        gh_synced = 0
         for target_path, src_path in gh_pages_files.items():
             if src_path.exists():
                 with open(src_path, "rb") as f:
                     content = f.read()
                 try:
-                    contents = repo.get_contents(target_path, ref="gh-pages")
-                    repo.update_file(contents.path, f"⚡ Deploy {target_path}", content, contents.sha, branch="gh-pages")
-                except GithubException:
-                    repo.create_file(target_path, f"⚡ Deploy {target_path}", content, branch="gh-pages")
+                    if _sync_file(repo, "gh-pages", target_path, content, f"⚡ Deploy {target_path}"):
+                        gh_synced += 1
+                except Exception as ex:
+                    logger.warning(f"Failed to sync {target_path} to gh-pages: {ex}")
 
-        print("✨ GitHub Pages (gh-pages) 배포 완료!", flush=True)
+        print(f"✨ GitHub Pages (gh-pages) 배포 완료! ({gh_synced}개 파일 동기화)", flush=True)
         print(f"📱 실시간 모바일 PWA 웹사이트: https://{user.login.lower()}.github.io/{repo_name}/", flush=True)
     except Exception as e:
         logger.warning(f"gh-pages deployment note: {e}")
