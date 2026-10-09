@@ -99,12 +99,34 @@ class Summarizer:
         top_highlights = self.ranker.get_top_priority(articles, limit=5)
 
         briefing = self._generate_heuristic_briefing(articles, game_data, trend_data)
+        briefing["team_outlook"] = self._build_team_outlook(schedule_data)
         briefing["game_center"] = game_data
         briefing["schedule"] = schedule_data
         briefing["injury_report_table"] = injury_table_data
         briefing["trending_keywords"] = trend_data.get("trending_keywords", [])
         briefing["top_highlights"] = top_highlights
         return briefing
+
+    @staticmethod
+    def _build_team_outlook(schedule_data: Dict[str, any]) -> str:
+        """Build a factual one-line outlook from the actual record (no hardcoded optimism)."""
+        wins = schedule_data.get("wins", 0)
+        losses = schedule_data.get("losses", 0)
+        record = schedule_data.get("record", "")
+        next_game = schedule_data.get("next_game") or {}
+        opp = next_game.get("opponent", "")
+        venue = "홈" if next_game.get("is_home") else "원정"
+        next_str = f" 다음 경기는 {next_game.get('week')}주차 {opp} {venue}전입니다." if opp else ""
+
+        if wins + losses == 0:
+            return f"Jim Harbaugh 감독 체제 3년차 시즌 개막을 앞두고 있습니다.{next_str}"
+        if wins == 0:
+            return f"현재 {record}로 시즌 첫 승을 거두지 못하고 있습니다.{next_str}"
+        if wins > losses:
+            return f"현재 {record}로 승률 5할 이상을 기록 중입니다.{next_str}"
+        if wins == losses:
+            return f"현재 {record}로 승률 5할입니다.{next_str}"
+        return f"현재 {record}로 승률 5할 미만입니다.{next_str}"
 
     def _generate_korean_bullets(self, title: str, summary: str, category_name: str) -> List[str]:
         """Generate fluent, readable Korean bullet points focusing on context and impact."""
@@ -191,5 +213,5 @@ class Summarizer:
             "headline": headline,
             "key_takeaways": takeaways,
             "injury_update": injury_str,
-            "team_outlook": "Jim Harbaugh 감독 체제 하에서 공수 밸런스와 오펜시브 라인의 견고함을 구축하며 시즌 순항 중입니다.",
+            "team_outlook": "Jim Harbaugh 감독 체제 하에서 전력 재정비 및 연패 탈출을 모색 중입니다.",
         }
