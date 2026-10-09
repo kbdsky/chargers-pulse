@@ -1,5 +1,5 @@
 # ⚡ LA Chargers 종합 뉴스 인텔리전스 주간 리포트
-> 📅 **생성 일시:** 2026-10-09 14:10:39 | ⚡ **전수 수집 기사:** 121건 | 🏈 **팀:** Los Angeles Chargers (NFL)
+> 📅 **생성 일시:** 2026-10-09 14:34:16 | ⚡ **전수 수집 기사:** 121건 | 🏈 **팀:** Los Angeles Chargers (NFL)
 
 ## ⚡ 팀 총괄 주간 브리핑 (Executive Summary)
 ### ⚡ LA Chargers 주간 인텔리전스 종합 리포트 (총 121건 정밀 분석)
@@ -10,18 +10,18 @@
 - 🎯 **집중 조명된 핵심 인물**: Justin Herbert (QB)(25건), Mike McDaniel (OC)(22건), Jim Harbaugh (HC)(21건)
 - 🔥 **헤드라인 키워드**: justin herbert, mike mcdaniel, link comments, yahoo sports
 
-**🔥 실시간 트렌드 키워드:** `#justin herbert`, `#mike mcdaniel`, `#link comments`, `#yahoo sports`, `#injury report`, `#Jim Harbaugh`, `#Justin Herbert`, `#Los Angeles Chargers`, `#Yahoo Sports`, `#Bolts From The Blue`, `#herbert`, `#seahawks`, `#harbaugh`, `#justin`, `#mcdaniel`, `#broncos`
+**🔥 실시간 트렌드 키워드:** `#justin herbert`, `#mike mcdaniel`, `#link comments`, `#yahoo sports`, `#injury report`, `#Jim Harbaugh`, `#Justin Herbert`, `#Los Angeles Chargers`, `#Yahoo Sports`, `#Injury Report`, `#herbert`, `#seahawks`, `#harbaugh`, `#justin`, `#mcdaniel`, `#broncos`
 
 **📋 부상 및 53인 로스터 동향:** 부상 리포트 공식 테이블(Injury Report Table)에서 상세 출전 상태 및 연습 참가 여부(DNP/LP/FP)를 확인하세요.
 
-**🏈 종합 코멘트:** Jim Harbaugh 감독 체제 하에서 공수 밸런스와 오펜시브 라인의 견고함을 구축하며 시즌 순항 중입니다.
+**🏈 종합 코멘트:** 현재 0승 4패로 시즌 첫 승을 거두지 못하고 있습니다. 다음 경기는 5주차 Denver Broncos (DEN Broncos) 홈전입니다.
 
 ## 🏈 경기 및 매치업 분석 (Game Center)
 - **상대팀:** Denver Broncos (DEN Broncos)
 - **경기 구분:** 2026 정규시즌 5주차 (SoFi Stadium / AFC West 디비전 라이벌전)
 - **스코어/현황:** 킥오프 대기 (5주차 덴버 브롱코스 홈경기)
-- **⚔️ 공격진(Offense):** 0승 4패 배수의 진을 친 Jim Harbaugh호와 Mike McDaniel OC의 공격진 반등 총력전, Joe Alt·Rashawn Slater 부상 공백 속 QB Justin Herbert의 퀵릴리즈 패싱 및 턴오버 억제
-- **🛡️ 수비진(Defense):** Chris O'Leary 수비 코디네이터 지휘 아래 Bo Nix의 덴버 오펜스 봉쇄, Khalil Mack·Tuli Tuipulotu의 패스 러시 및 세컨더리 턴오버 유도
+- **⚔️ 공격진(Offense):** 개막 4연패 탈출이 걸린 Jim Harbaugh호와 Mike McDaniel OC 공격진. 양쪽 주전 태클 Joe Alt·Rashawn Slater가 목요일까지 훈련 불참(DNP)해 패스 프로텍션이 최대 변수 (4주차 Justin Herbert 피색 4회)
+- **🛡️ 수비진(Defense):** Chris O'Leary 수비 코디네이터 체제에서 QB Bo Nix가 이끄는 Broncos 공격 봉쇄. 세컨더리 Derwin James Jr.·Donte Jackson이 목요일까지 DNP로 출전 여부 미정
 
 ## 🚨 최우선 핵심 뉴스 (Top Priority Highlights)
 
@@ -54,7 +54,7 @@
 
 ## 📰 전체 수집 뉴스 카테고리별 아카이브
 
-### ⚡ 경기 결과 및 프리뷰 소식 (61건)
+### ⚡ 경기 결과 및 프리뷰 소식 (62건)
 
 #### [Chargers 부상 보고서: 스타터들에게 많은 쓰레기가 목요일 보고서](https://www.boltsfromtheblue.com/los-angeles-chargers-injuries/66135/los-angeles-chargers-injury-report-ladd-mcconkey-derwin-james) `[점수:100]`
 *출처: Bolts From The Blue (SB Nation) | 일자: 2026-10-08*
@@ -111,17 +111,6 @@
 *출처: Bolts From The Blue | 일자: 2026-10-04*
 - **원제:** Chargers-Bills Game Recap: Bolts lose despite 5 takeaways by defense
 - ⚡ **핵심 소식**: Chargers-Bills 게임 요약: 수비진의 5번의 테이크어웨이에도 불구하고 Bolts의 패배 Bolts From The Blue
-
-#### [Seahawks와의 4주차 전투로 향하는 Chargers의 최종 부상 보고서](https://news.google.com/rss/articles/CBMijgFBVV95cUxPLUF2aGpmVzNyRkgyVHJhbkNZQl9TbFRJcWRveTl3eDk0cEtJSEFfWFJ2cl9TZ2xHSWN6WWZwUVhlLXRBZGhfWGtfaXg3ZDUza01oNzRNalktdVg1N09SbE5vZzQyS0Uxa294Rm16Yl8zbjAwUHZGSjlNbC02bHBLbEloTHpjSXk3d3E0TE1R?oc=5) `[점수:95]`
-*출처: Yahoo Sports | 일자: 2026-10-03*
-- **원제:** Final Injury Report For the Chargers Heading into Week 4 Battle Against the Seahawks
-- ⚡ **핵심 소식**: Seahawks와의 4주차 전투를 앞두고 있는 Chargers의 최종 부상 보고서 Yahoo Sports
-
-#### [기자 회견: Jim Harbaugh는 시애틀을 앞두고 좋은 한 주를 준비했습니다.](https://news.google.com/rss/articles/CBMihgFBVV95cUxPMmRGeFZoclFzX3dQQW9OZnlKVjgxVWx2MU5BTzFEcldwaDdHU0tJNmlCM3dXS1FnQ25EdzZBQzVzM0w0bDQ2TTdDcjNteC01eFNrVVRMV3FwWVFDTnRkX19BSDczR3BGVGxkdmFvVUFEdkRZdWQxYTBxS1hFbmhsTTVkOFFNUQ?oc=5) `[점수:90]`
-*출처: Los Angeles Chargers | 일자: 2026-10-08*
-- **원제:** Press Conference: Jim Harbaugh on a Good Week of Preparation Ahead of Seattle
-- ⚡ **핵심 소식**: 기자 회견: Jim Harbaugh는 시애틀 LA Chargers를 앞두고 좋은 한 주 동안 준비했습니다.
-- 🏈 **전술 관전 포인트**: Jim Harbaugh 감독 및 코칭스태프의 피지컬 중심 미식축구 철학이 반영된 행보입니다.
 
 #### [부상 보고서: 덴버가 Chargers와의 5주 차 경기 준비를 시작하면서 Broncos 3명이 연습을 하지 않습니다.](https://news.google.com/rss/articles/CBMiwgFBVV95cUxQX1ZudHhtWXNVbnhfNllMSFFSVVhxWVo5STNUVFRwMFN0eFVIajZfaXJZYXZwM1pLLUFfMk1NblhCWGNVVWp0ZmpuRW92MzJNMFZ3WWpBdjZKdVhsSGszT041NHZ3bU5yRGNCcURZbTh4ZzJ5Z2RETVZSUG5HS28xNW9VT0JxYV9COFpCcHFvaVJXc0ZkVXV5VkJ0cWNkLWFRVGdJT3d6OFhiaEdCam9RMlFDVFltOXFHaU0zSXpGSi1OQQ?oc=5) `[점수:90]`
 *출처: Denver Broncos | 일자: 2026-10-07*
@@ -180,6 +169,11 @@
 - ⚡ **핵심 소식**: 금주의 차세대 통계: Seahawks Pass Rush가 Justin Herbert에 대한 압박을 유지함 Seattle Seahawks
 - 🏈 **주요 인물**: Justin Herbert (QB)의 경기력과 훈련 컨디션이 집중 조명되고 있습니다.
 
+#### [Los Angeles Chargers 뉴스: Seahawks의 패배에서 얻은 긍정적인 교훈](https://news.google.com/rss/articles/CBMizgFBVV95cUxOY0tVUFVtLWpIMnBvV3lFOTVVSmdKcGtqTU9zMDJqaXJmTmU1SDdNM1lUR1FtR3N4UHd0U0VqcHBZVUtPbHpQWDc4QUpQWE1iMzRxOTZwTDMyTE1kcFU5RnhDeEV2eHNWcXNzcDRFOW1lOHd3ZklvbTZlczVYSU1OMkRDYTFKR05TNExMcno3aVlxQl9hU09IUkR4alZmT0FEcEN2VjZWVFdNUjBISUJKVnFtak5FMVc0cWF4bWZsUkE3REVqTGtZNGhEaEp1Zw?oc=5) `[점수:80]`
+*출처: Bolts From The Blue | 일자: 2026-10-05*
+- **원제:** Los Angeles Chargers news: A positive takeaway from the loss to the Seahawks
+- ⚡ **핵심 소식**: Los Angeles Chargers 뉴스: Seahawks Bolts From The Blue의 패배에서 얻은 긍정적인 교훈
+
 #### [Justin Herbert 경기 후 기자회견 vs. 시호크스](https://news.google.com/rss/articles/CBMimwFBVV95cUxPaEFCVW5CcllQbWkwMzZSTlhrRjBrQ3dQUExfNTRRa3NiYS12NEdWaUgxbWRSU3E4a3VINXk0bTEwYmxRNGF0QmZXbnZPVzJJWmZHdGhlTVhOMnYwbUNtRl9ZeGE1QVdPdXAzRzlrNF9tSUMzTUFqZ0VxUUl4X1hrcTVBaDJXNjFDem80NlZ4NkdReXZSa00wOXRhUQ?oc=5) `[점수:80]`
 *출처: Los Angeles Chargers | 일자: 2026-10-04*
 - **원제:** Justin Herbert Postgame Press Conference vs. Seahawks
@@ -196,10 +190,10 @@
 - **원제:** Game Recap: Chargers Lose to Seahawks in Week 4 Road Game
 - ⚡ **핵심 소식**: 게임 요약: Chargers가 4주차 로드 게임에서 Seahawks에게 패했습니다. Los Angeles Chargers
 
-#### [[림] 수비 코디네이터 크리스 오리어리(Chris O'Leary)가 일요일 경기가 끝난 후 다이얀이 경기장에 나오지 않은 이유에 대해: "그건 인력 패키지 문제에 가깝습니다. 그래서 우리는 확실하게 알 수 있습니다.](https://www.reddit.com/r/Chargers/comments/1x12q0y/rhim_defensive_coordinator_chris_oleary_on_why/) `[점수:75]`
+#### [[림] Chris O'Leary 수비 코디네이터 Chris O'Leary(Chris O'Leary)가 일요일 경기가 끝난 후 다이얀이 경기장에 나오지 않은 이유에 대해: "그건 인력 패키지 문제에 가깝습니다. 그래서 우리는 확실하게 알 수 있습니다.](https://www.reddit.com/r/Chargers/comments/1x12q0y/rhim_defensive_coordinator_chris_oleary_on_why/) `[점수:75]`
 *출처: Reddit r/Chargers | 일자: 2026-10-08*
 - **원제:** [Rhim] Defensive coordinator Chris O'Leary on why Daiyan wasn't on the field for part of the end of the game Sunday: "That's more of a personnel package thing. So we get in certain situations, different personnels, we put a certain guy on the field other than him.
-- ⚡ **핵심 소식**: 수비 코디네이터 Chris O'Leary는 Daiyan이 일요일 경기가 끝날 때 현장에 나오지 않은 이유에 대해 다음과 같이 말했습니다. "그건 인력 패키지 문제에 가깝습니다. 그래서 우리는 특정 상황에 처하게 됩니다.
+- ⚡ **핵심 소식**: Chris O'Leary 수비 코디네이터 Chris O'Leary는 Daiyan이 일요일 경기가 끝날 때 현장에 나오지 않은 이유에 대해 다음과 같이 말했습니다. "그건 인력 패키지 문제에 가깝습니다. 그래서 우리는 특정 상황에 처하게 됩니다.
 
 #### [Broncos vs. Chargers 방송 지도: 게임이 TV에 방영되나요?](https://news.google.com/rss/articles/CBMizwFBVV95cUxQNHV4THFrS3JkM2dWLXRzZE82NG1aeEhIeWNnQWw3cXFRZmhPbkg3eXRDSWROQ2dRaFJ6N19CN2NxdHJNZmNIbjZiMnVpbUZQdUpKZ0kyZS1BbmhnRE5SVHo2ODVSdzB4ZExQdTZaU3FrSXV4cXAxZjhwYjdGQzkwRU9EckFNN0RGd0xINVdOZ2Q5MVE0SXVKNXRCMGs4RTRvSHZ1cUNMYzVmMXhCTW9FdUZuMmFxZzhDUXd6V251bHUxaTdudUg2dnBfb2h0QUE?oc=5) `[점수:75]`
 *출처: Broncos Wire | 일자: 2026-10-08*
@@ -281,10 +275,10 @@
 - **원제:** Broncos vs. Chargers odds: Opening lines for Week 5 matchup
 - ⚡ **핵심 소식**: Chargers 확률: 5주차 매치업 마일 하이 보고서의 오프닝 라인
 
-#### [Seahawks 대 Chargers 4주차 비활성 경기](https://news.google.com/rss/articles/CBMidkFVX3lxTFBncGRHVmpaZkNGcWtON0FDRzR2aWM5OGlqVDV1VHJtYTFDWS1Oai1paXlUT2xXYTVwY0ZpMTk1TzhwRGdiWXBqd2ozM244UEJ4a0pCLU5ZUzl2WnpYMHJKQThVMVFkclk3RHdqZGIyMUpNSW05cVE?oc=5) `[점수:60]`
-*출처: Seattle Seahawks | 일자: 2026-10-04*
-- **원제:** Seahawks vs. Chargers Week 4 Inactives
-- ⚡ **핵심 소식**: Chargers Week 4 비활성 시애틀 시호크스
+#### [LA Chargers의 충격적인 턴오버: 3주차 경기 요약](https://news.google.com/rss/articles/CBMiigFBVV95cUxQOUd3Q242akxLWFNlc1QwSmhCRG1Ic1V3WnhVS1pIMkxwdXhrVjdFaURmYTJGQVF6TnY1Q3MwNThOMTJwRlhqZXA5LU1MdmRoZGNPQXhRc1diNkIzQ2w3OWg1ZVhFOXlLSUhYZUxwM25wdWdIenptbkMxc05iMzJPQUhMZG5SU3Bhd3c?oc=5) `[점수:60]`
+*출처: Yahoo Sports | 일자: 2026-09-28*
+- **원제:** LA Chargers' Shocking Turnovers: Week 3 Game Recap
+- ⚡ **핵심 소식**: LA Chargers의 충격적인 턴오버: 3주 차 경기 요약 Yahoo Sports
 
 #### [청구서 24개, Chargers 16개 | 최종 점수, 요약 + 하이라이트](https://news.google.com/rss/articles/CBMiiwFBVV95cUxPeFlBMm9XaFRGX0FDWXdOQ21vVF9LeWlGRm1KQmhvVlJCVGFXNFhZVXk3enFaeU9QYlF6MXREVko5NWRtcEluSDhNelN6ZTdNdGp4QnVzMkN5cGtPcjdSVV96MGh0Q2RlRmM1TWZhUUtqc05yTWNmWmItWXpOd0dvdHlwNmcyNjhxaVVj?oc=5) `[점수:60]`
 *출처: Buffalo Bills | 일자: 2026-09-26*
@@ -295,6 +289,11 @@
 *출처: Sports Illustrated | 일자: 2026-10-05*
 - **원제:** NFL Week 4 Lessons: Why the Chargers Should Consider Making the Ultimate Move
 - ⚡ **핵심 소식**: NFL 4주차 레슨: Chargers가 궁극의 움직임을 고려해야 하는 이유 Sports Illustrated
+
+#### [4주차 부상 보고서: Seahawks 대 Chargers](https://news.google.com/rss/articles/CBMie0FVX3lxTFB6RGxOM2pmRjQxQU92N0doSXZvQUF2aEExQkczWEozcm9PTmFRRUhEbWxwdWh1WUYzWFFYVXpGRlhWbHdGck8xbHh6bEx4T0h5aGs1dGVkU2lxMFZuMm9jWDM0UlhaNTh4UTB2VmJCZUZZRzhmcHg4UTdZWQ?oc=5) `[점수:55]`
+*출처: Seattle Seahawks | 일자: 2026-10-02*
+- **원제:** Week 4 Injury Report: Seahawks vs. Chargers
+- ⚡ **핵심 소식**: 4주차 부상 보고서: Seahawks 대 Chargers Seattle Seahawks
 
 #### [Chargers 대 청구서 부상 보고서: 톰슨 아웃, 셸리 & 랜스 3주차 의심](https://news.google.com/rss/articles/CBMihAFBVV95cUxOQU9URlUtYlRESTNPVDBkUHVrb3hPMEhTX2YxZmtMSlBqNEhvWTdOZ3hDY3BvWFkybjg3Vmxvc3N0STRDRlVVSm54cktHMFlCbnNleFdHQlZmTGl1VDVreWFXZWFTTXFiOGZ6SHhwamVLbVp6RnF6d3VCSVVlRlBrZnJmTDY?oc=5) `[점수:55]`
 *출처: Los Angeles Chargers | 일자: 2026-09-24*
@@ -328,6 +327,12 @@
 *출처: Los Angeles Chargers | 일자: 2026-10-04*
 - **원제:** 5 Takeaways: Chargers 4th-Quarter Rally Falls Short in Seattle
 - ⚡ **핵심 소식**: 5가지 시사점: Chargers의 4분기 랠리가 시애틀에서 실패했습니다. LA Chargers
+
+#### [기자 회견: Jim Harbaugh는 시애틀을 앞두고 좋은 한 주를 준비했습니다.](https://news.google.com/rss/articles/CBMihgFBVV95cUxPMmRGeFZoclFzX3dQQW9OZnlKVjgxVWx2MU5BTzFEcldwaDdHU0tJNmlCM3dXS1FnQ25EdzZBQzVzM0w0bDQ2TTdDcjNteC01eFNrVVRMV3FwWVFDTnRkX19BSDczR3BGVGxkdmFvVUFEdkRZdWQxYTBxS1hFbmhsTTVkOFFNUQ?oc=5) `[점수:45]`
+*출처: Los Angeles Chargers | 일자: 2026-10-02*
+- **원제:** Press Conference: Jim Harbaugh on a Good Week of Preparation Ahead of Seattle
+- ⚡ **핵심 소식**: 기자 회견: Jim Harbaugh는 시애틀 LA Chargers를 앞두고 좋은 한 주 동안 준비했습니다.
+- 🏈 **전술 관전 포인트**: Jim Harbaugh 감독 및 코칭스태프의 피지컬 중심 미식축구 철학이 반영된 행보입니다.
 
 #### [Bills 대 Chargers 부상 업데이트: Buffalo는 좋은 소식을 접하고 LA는 여러 선수를 잃습니다.](https://news.google.com/rss/articles/CBMijwJBVV95cUxQWUhtaDVObENsX3VodjhuanpUT0VrZ21VTkJybGpvYXg4dDNfQ0dyYmZnalllMEpfYV9UQ1R2ZjJvbmJwSFdDSDFsd3B2Q2VEMjFYVEJpSlpaRnJtTzd0MFlJUDBLaTBMc2RCWHJ3SjlYVHNqbWYzNXJLWDVSeXFwdHVrUVZCOHljY2Z6dURGU3NmcndMOG1jU0JMc1dXS21QdV9UczREOXl0azYwRHZtNlZRdUw3YjY4czVsNkFscXkweWFQYmprenB1ZUJhRDNlVm9qWHVYVkt4czN6Qlk0NVd3RG1YdDNLbTltVjF5SW1UWDY1cTRiQ2hXbFZNcElvTEgwUzFyYk9lSF94RHBv?oc=5) `[점수:45]`
 *출처: Democrat and Chronicle | 일자: 2026-09-20*
@@ -424,7 +429,7 @@
 #### [Chargers는 OL 다니엘 브런스킬을 연습팀에 영입했습니다.](https://www.boltsfromtheblue.com/los-angeles-chargers-roster/66089/chargers-sign-daniel-brunskill-practice-squad-mike-mcdaniel) `[점수:85]`
 *출처: Bolts From The Blue (SB Nation) | 일자: 2026-10-07*
 - **원제:** Chargers sign OL Daniel Brunskill to practice squad
-- ⚡ **핵심 소식**: Chargers는 공격 코디네이터 Mike McDaniel과 친숙한 또 다른 공격 라인 맨을 추가하고 있습니다. 화요일에 Chargers는 전 49ers와 Dolphins 공격 태클 Daniel Brunskill을 연습 팀에 영입했다고 발표했습니다.
+- ⚡ **핵심 소식**: Chargers는 Mike McDaniel 공격 코디네이터 Mike McDaniel과 친숙한 또 다른 공격 라인 맨을 추가하고 있습니다. 화요일에 Chargers는 전 49ers와 Dolphins 공격 태클 Daniel Brunskill을 연습 팀에 영입했다고 발표했습니다.
 - 📋 **선수단 영향**: Mike McDaniel (OC)의 부상 경과 및 훈련 소화 여부가 주간 라인업 구성의 핵심 변수로 작용합니다.
 
 #### [Chargers는 Justin의 남동생인 TE Patrick Herbert와 연습반의 OLB Caleb Murphy를 승격시킵니다.](https://news.google.com/rss/articles/CBMiwgFBVV95cUxPLXJTZ2tDdmRmcHlSSHlkR290cFd3SE8zUHpnV2EwZTRIZG8wNlJHVFJOUGJ6UktiRHhhZTR2UUZHV3VlWl8zUm5zcDlNUndUdjJHRGNhbm5xeVRtNnhhU0lKX1lkeUNqTGxudDAzT0xJQ05tcEg5X0NiOS1MS3RrZ0xNZWFEOTFLazZkT3pFNmRBenVIX04zbmVzVXdqUWZnY3o3QUtjampPWldwelpGcTkxenJPSnNOOEZTM3EwZzk1Zw?oc=5) `[점수:85]`
@@ -671,7 +676,7 @@
 - ⚡ **핵심 소식**: "나는 LA Chargers(Los Angeles Chargers)의 위대함 외에는 국내외 어떤 명분도 지지하지 않습니다." - Jim Harbaugh Barstool Sports
 - 🏈 **전술 관전 포인트**: Jim Harbaugh 감독 및 코칭스태프의 피지컬 중심 미식축구 철학이 반영된 행보입니다.
 
-### ⚡ 팀 일반 소식 (10건)
+### ⚡ 팀 일반 소식 (9건)
 
 #### [Chargers OC Khalil Mack다니엘 - 해고 요구는 '영토와 함께' 온다](https://news.google.com/rss/articles/CBMimgFBVV95cUxOaHBfRFFRbnJJdnQxOHk4WUZEVHpqUGRPRm9oODFRMDFGM3VPODUyWE0yVnVwaFM4YmN3UVN2cjhWdDRJRzUxbGFvc2prblFld3pjOTgwUUY4RHNLSUlpS0ltQmEtTl9BbkxaaXNVLUtCSnAyVHFjTUQzak1rbjNqRUFxNkt1Q2ItTVM3bVF6LV9OMVBVWFVJQkdR?oc=5) `[점수:85]`
 *출처: ESPN | 일자: 2026-10-08*
@@ -725,11 +730,6 @@
 *출처: Los Angeles Chargers | 일자: 2026-09-19*
 - **원제:** 5 Takeaways: Chargers Vow to be Better After 0-2 Start
 - ⚡ **핵심 소식**: 5가지 시사점: Chargers는 0-2 스타트 이후 더 나아질 것을 맹세합니다. LA Chargers
-
-#### [Chargers는 Wayne State를 공백으로 만들고 49-0 승리로 2-0으로 굴립니다.](https://news.google.com/rss/articles/CBMitgFBVV95cUxNQTVVRm9EMWFlNkpfMlFKUGpRSkZHdVJBMjFFU3pzaFdOelJrYmctaGFlRFNYeXFWRHc2VE1IcU0tY2Q4Yks2NlREdGxfR2ZhTmgwOXRrdVlzSnp2YmVyNW5pSllKYjctRzRzZnhCdC1MOHJONjVhOFV4NnlVNkN3RVltS1hSLVgxdGVtMUwtR3laMTlQTHQxdHJwd3ctZkVCS3F5dE1EaG1xNUJhTmY5YURXMUEwUQ?oc=5) `[점수:10]`
-*출처: Hillsdale College Athletics | 일자: 2026-09-11*
-- **원제:** Chargers blank Wayne State, roll to 2-0 with 49-0 victory
-- ⚡ **핵심 소식**: Chargers는 Wayne State를 공백으로 만들고 Hillsdale College Athletics에 49-0 승리로 2-0으로 승리했습니다.
 
 ---
 
