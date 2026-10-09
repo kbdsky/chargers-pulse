@@ -9,21 +9,21 @@
       "🔥 **헤드라인 키워드**: justin herbert, mike mcdaniel, link comments, yahoo sports"
     ],
     "injury_update": "부상 리포트 공식 테이블(Injury Report Table)에서 상세 출전 상태 및 연습 참가 여부(DNP/LP/FP)를 확인하세요.",
-    "team_outlook": "Jim Harbaugh 감독 체제 하에서 공수 밸런스와 오펜시브 라인의 견고함을 구축하며 시즌 순항 중입니다.",
+    "team_outlook": "현재 0승 4패로 시즌 첫 승을 거두지 못하고 있습니다. 다음 경기는 5주차 Denver Broncos (DEN Broncos) 홈전입니다.",
     "game_center": {
       "has_game_data": true,
       "opponent": "Denver Broncos (DEN Broncos)",
       "game_type": "2026 정규시즌 5주차 (SoFi Stadium / AFC West 디비전 라이벌전)",
       "score_detected": "킥오프 대기 (5주차 덴버 브롱코스 홈경기)",
-      "game_articles_count": 55,
+      "game_articles_count": 56,
       "highlights": [
-        "🏈 **2026 NFL 5주차 홈 맞대결**: SoFi Stadium에서 열리는 Denver Broncos와의 AFC West 디비전 라이벌전",
-        "🔥 **시즌 첫 승을 향한 배수의 진**: 개막 4연패(0승 4패) 수렁 탈출을 위한 Jim Harbaugh호의 필승 분수령",
-        "🏈 **공격진 핵심 관전 포인트**: Mike McDaniel OC 체제의 레드존 결정력 개선 및 주전 태클 부상 공백 극복",
-        "🏈 **수비진 핵심 관전 포인트**: Chris O'Leary DC 체제 하에서 Khalil Mack의 압박과 덴버 Bo Nix 봉쇄"
+        "🏈 **2026 NFL 5주차 홈 맞대결**: 10월 11일(현지) SoFi Stadium, Denver Broncos와의 AFC West 디비전 라이벌전 (CBS)",
+        "🔥 **시즌 첫 승 도전**: 0승 4패로 AFC West 최하위, 연패 탈출이 걸린 경기",
+        "🏈 **공격 관전 포인트**: 주전 태클 공백 가능성 속 Mike McDaniel OC의 퀵 패스·보호 전략",
+        "🩹 **부상 변수**: 금요일 최종 부상 리포트에서 Joe Alt·Rashawn Slater·Derwin James Jr.·Ladd McConkey의 출전 지정 확정 예정"
       ],
-      "offense_notes": "0승 4패 배수의 진을 친 Jim Harbaugh호와 Mike McDaniel OC의 공격진 반등 총력전, Joe Alt·Rashawn Slater 부상 공백 속 QB Justin Herbert의 퀵릴리즈 패싱 및 턴오버 억제",
-      "defense_notes": "Chris O'Leary 수비 코디네이터 지휘 아래 Bo Nix의 덴버 오펜스 봉쇄, Khalil Mack·Tuli Tuipulotu의 패스 러시 및 세컨더리 턴오버 유도"
+      "offense_notes": "개막 4연패 탈출이 걸린 Jim Harbaugh호와 Mike McDaniel OC 공격진. 양쪽 주전 태클 Joe Alt·Rashawn Slater가 목요일까지 훈련 불참(DNP)해 패스 프로텍션이 최대 변수 (4주차 Justin Herbert 피색 4회)",
+      "defense_notes": "Chris O'Leary 수비 코디네이터 체제에서 QB Bo Nix가 이끄는 Broncos 공격 봉쇄. 세컨더리 Derwin James Jr.·Donte Jackson이 목요일까지 DNP로 출전 여부 미정"
     },
     "schedule": {
       "season": "2026 NFL Regular Season",
@@ -192,7 +192,7 @@
           "opponent": "New York Jets (NY Jets)",
           "is_home": true,
           "stadium": "SoFi Stadium (Los Angeles, CA)",
-          "broadcast": "CBS (미국) | DAZN(한국 전경기) / 쿠팡플레이(선별)",
+          "broadcast": "FOX (미국) | DAZN(한국 전경기) / 쿠팡플레이(선별)",
           "game_type": "정규시즌 11주차 홈경기",
           "status": "upcoming",
           "score": null,
@@ -201,13 +201,13 @@
         },
         {
           "week": 12,
-          "date_utc": "2026-11-29T21:25:00Z",
-          "date_kst": "2026년 11월 30일 (월) 오전 06:25 (KST)",
+          "date_utc": "2026-11-30T01:20:00Z",
+          "date_kst": "2026년 11월 30일 (월) 오전 10:20 (KST)",
           "opponent": "New England Patriots (NE Patriots)",
           "is_home": true,
           "stadium": "SoFi Stadium (Los Angeles, CA)",
-          "broadcast": "CBS (미국) | DAZN(한국 전경기) / 쿠팡플레이(선별)",
-          "game_type": "정규시즌 12주차 홈경기",
+          "broadcast": "NBC (미국) | DAZN(한국 전경기) / 쿠팡플레이(선별)",
+          "game_type": "정규시즌 12주차 (선데이 나이트 풋볼)",
           "status": "upcoming",
           "score": null,
           "result": null,
@@ -216,11 +216,11 @@
         {
           "week": 13,
           "date_utc": "2026-12-06T18:00:00Z",
-          "date_kst": "2026년 12월 7일 (월) 오전 03:00 (KST)",
+          "date_kst": "2026년 12월 6일 (일, 현지) · 킥오프 시간 미정 (NFL 발표 대기)",
           "opponent": "Tampa Bay Buccaneers (TB Buccaneers)",
           "is_home": false,
           "stadium": "Raymond James Stadium (Tampa, FL)",
-          "broadcast": "FOX (미국) | DAZN(한국 전경기) / 쿠팡플레이(선별)",
+          "broadcast": "중계사 미정 | DAZN(한국 전경기) / 쿠팡플레이(선별)",
           "game_type": "정규시즌 13주차 (탬파베이 원정)",
           "status": "upcoming",
           "score": null,
@@ -230,12 +230,12 @@
         {
           "week": 14,
           "date_utc": "2026-12-13T21:05:00Z",
-          "date_kst": "2026년 12월 14일 (월) 오전 06:05 (KST)",
+          "date_kst": "2026년 12월 13일 (일, 현지) · 킥오프 시간 미정 (NFL 발표 대기)",
           "opponent": "Las Vegas Raiders (LV Raiders)",
           "is_home": false,
           "stadium": "Allegiant Stadium (Las Vegas, NV)",
-          "broadcast": "CBS (미국) | DAZN(한국 전경기) / 쿠팡플레이(선별)",
-          "game_type": "정규시즌 14주차 (라베 원정)",
+          "broadcast": "중계사 미정 | DAZN(한국 전경기) / 쿠팡플레이(선별)",
+          "game_type": "정규시즌 14주차 (라스베이거스 원정)",
           "status": "upcoming",
           "score": null,
           "result": null,
@@ -258,11 +258,11 @@
         {
           "week": 16,
           "date_utc": "2026-12-27T18:00:00Z",
-          "date_kst": "2026년 12월 28일 (월) 오전 03:00 (KST)",
+          "date_kst": "2026년 12월 26~27일 주간 (현지) · 요일/킥오프 시간 미정 (플렉스 스케줄)",
           "opponent": "Miami Dolphins (MIA Dolphins)",
           "is_home": false,
           "stadium": "Hard Rock Stadium (Miami Gardens, FL)",
-          "broadcast": "CBS (미국) | DAZN(한국 전경기) / 쿠팡플레이(선별)",
+          "broadcast": "중계사 미정 | DAZN(한국 전경기) / 쿠팡플레이(선별)",
           "game_type": "정규시즌 16주차 (마이애미 원정)",
           "status": "upcoming",
           "score": null,
@@ -272,11 +272,11 @@
         {
           "week": 17,
           "date_utc": "2027-01-03T21:25:00Z",
-          "date_kst": "2027년 1월 4일 (월) 오전 06:25 (KST)",
+          "date_kst": "2027년 1월 2~3일 주간 (현지) · 요일/킥오프 시간 미정 (15주차 종료 후 발표)",
           "opponent": "Kansas City Chiefs (KC Chiefs)",
           "is_home": true,
           "stadium": "SoFi Stadium (Los Angeles, CA)",
-          "broadcast": "CBS (미국) | DAZN(한국 전경기) / 쿠팡플레이(선별)",
+          "broadcast": "중계사 미정 | DAZN(한국 전경기) / 쿠팡플레이(선별)",
           "game_type": "정규시즌 17주차 (치프스 홈경기)",
           "status": "upcoming",
           "score": null,
@@ -286,11 +286,11 @@
         {
           "week": 18,
           "date_utc": "2027-01-10T21:25:00Z",
-          "date_kst": "2027년 1월 11일 (월) 오전 06:25 (KST)",
+          "date_kst": "2027년 1월 9~10일 주간 (현지) · 요일/킥오프 시간 미정 (17주차 종료 후 발표)",
           "opponent": "Denver Broncos (DEN Broncos)",
           "is_home": false,
           "stadium": "Empower Field at Mile High (Denver, CO)",
-          "broadcast": "CBS (미국) | DAZN(한국 전경기) / 쿠팡플레이(선별)",
+          "broadcast": "중계사 미정 | DAZN(한국 전경기) / 쿠팡플레이(선별)",
           "game_type": "정규시즌 18주차 최종전 (덴버 원정)",
           "status": "upcoming",
           "score": null,
@@ -302,59 +302,62 @@
     "injury_report_table": {
       "title": "⚡ LA Chargers 공식 부상 리포트 (Official Injury Report)",
       "last_updated": "2026-10-09",
-      "summary_counts": "총 20명 등재 (결장/IR: 8명, 출전 불투명: 10명, 정상 출전: 2명)",
+      "report_basis": "2026-10-08 (목) 공식 연습 리포트 기준",
+      "summary_counts": "5주차 vs Denver Broncos · 2026-10-08 (목) 공식 연습 리포트 기준 · 총 20명 (결장/IR: 2명, 출전 불투명: 0명, 출전 여부 미정: 17명, 부상 아님: 1명). 금요일 최종 리포트 발표 후 Out/Questionable 지정이 확정됩니다.",
       "legend": {
         "DNP": "Did Not Participate (훈련 전면 불참)",
         "LP": "Limited Participation (제한적 훈련 참여)",
         "FP": "Full Participation (정상 훈련 소화)",
+        "-": "미발표 또는 해당 일자 리포트 미기재",
+        "미정": "금요일 최종 리포트 전 (출전 지정 미발표)",
         "Out": "결장 확정 (출전 불가)",
-        "Questionable": "출전 불투명 (경기 당일 50% 확률)",
-        "IR": "Injured Reserve (부상자 명단 / 최소 4주 결장)"
+        "Questionable": "출전 불투명",
+        "IR": "Injured Reserve (부상자 명단 / 최소 4경기 결장)"
       },
       "players": [
         {
           "player": "Joe Alt",
           "position": "OT",
-          "injury": "Neck (목 부상)",
+          "injury": "Neck (목)",
           "wednesday": "DNP",
           "thursday": "DNP",
-          "friday": "DNP",
-          "game_status": "Out (결장 유력)",
-          "status_code": "OUT",
-          "status_detail": "주전 라이트 태클 목 부상으로 훈련 전면 불참(DNP). 5주차 브롱코스전 결장 유력."
+          "friday": "-",
+          "game_status": "미정 (금요일 최종 리포트 대기)",
+          "status_code": "PENDING",
+          "status_detail": "수·목 연속 훈련 불참(DNP). 출전 여부는 금요일 리포트에서 확정."
         },
         {
           "player": "Rashawn Slater",
           "position": "OT",
-          "injury": "Ankle (발목 부상)",
-          "wednesday": "DNP",
+          "injury": "Ankle (발목)",
+          "wednesday": "-",
           "thursday": "DNP",
-          "friday": "DNP",
-          "game_status": "Out (결장 유력)",
-          "status_code": "OUT",
-          "status_detail": "올프로 레프트 태클 발목 부상으로 주중 훈련 전면 불참. 양쪽 주전 태클 동반 이탈 비상."
+          "friday": "-",
+          "game_status": "미정 (금요일 최종 리포트 대기)",
+          "status_code": "PENDING",
+          "status_detail": "4주차 Seahawks전에서 하이 앵클 스프레인. 목요일 DNP, 현지 언론에서 IR 등재 가능성 거론."
         },
         {
           "player": "Trevor Penning",
           "position": "OL",
-          "injury": "Concussion (뇌진탕 프로토콜)",
+          "injury": "Concussion (뇌진탕)",
           "wednesday": "DNP",
           "thursday": "DNP",
-          "friday": "DNP",
-          "game_status": "Out (결장 유력)",
-          "status_code": "OUT",
-          "status_detail": "뇌진탕 프로토콜 단계별 회복 절차 진행 중으로 훈련 불참 지속."
+          "friday": "-",
+          "game_status": "미정 (금요일 최종 리포트 대기)",
+          "status_code": "PENDING",
+          "status_detail": "뇌진탕 프로토콜 진행 중. 수·목 연속 DNP."
         },
         {
           "player": "Kayode Awosika",
           "position": "G",
-          "injury": "Fibula (비골 부상)",
+          "injury": "Fibula (비골)",
           "wednesday": "DNP",
           "thursday": "DNP",
-          "friday": "DNP",
-          "game_status": "Out (결장 유력)",
-          "status_code": "OUT",
-          "status_detail": "비골(종아리뼈) 부상으로 훈련 전면 불참(DNP). 오펜시브 라인 뎁스 공백."
+          "friday": "-",
+          "game_status": "미정 (금요일 최종 리포트 대기)",
+          "status_code": "PENDING",
+          "status_detail": "비골 부상으로 수·목 연속 DNP."
         },
         {
           "player": "Donte Jackson",
@@ -362,21 +365,10 @@
           "injury": "Hamstring (햄스트링)",
           "wednesday": "DNP",
           "thursday": "DNP",
-          "friday": "DNP",
-          "game_status": "Out (결장 유력)",
-          "status_code": "OUT",
-          "status_detail": "햄스트링 통증으로 훈련 전면 불참. 코너백 세컨더리 전력 손실."
-        },
-        {
-          "player": "Brenen Thompson",
-          "position": "WR",
-          "injury": "Quadriceps (대퇴사두근 부상)",
-          "wednesday": "DNP",
-          "thursday": "DNP",
-          "friday": "DNP",
-          "game_status": "Out (결장 유력)",
-          "status_code": "OUT",
-          "status_detail": "대퇴사두근 통증으로 훈련 불참 지속. 5주차 출전 불가 전망."
+          "friday": "-",
+          "game_status": "미정 (금요일 최종 리포트 대기)",
+          "status_code": "PENDING",
+          "status_detail": "햄스트링 부상으로 수·목 연속 DNP."
         },
         {
           "player": "Derwin James Jr.",
@@ -384,153 +376,164 @@
           "injury": "Hamstring (햄스트링)",
           "wednesday": "DNP",
           "thursday": "DNP",
-          "friday": "LP",
-          "game_status": "Questionable (출전 불투명)",
-          "status_code": "QUESTIONABLE",
-          "status_detail": "햄스트링 부상으로 주초 불참 후 금요일 제한적 훈련(LP) 소화. 세컨더리 리더 출전 조율."
+          "friday": "-",
+          "game_status": "미정 (금요일 최종 리포트 대기)",
+          "status_code": "PENDING",
+          "status_detail": "햄스트링 부상으로 수·목 연속 DNP."
         },
         {
           "player": "Ladd McConkey",
           "position": "WR",
-          "injury": "Foot (발 통증)",
+          "injury": "Foot (발)",
           "wednesday": "DNP",
           "thursday": "DNP",
-          "friday": "LP",
-          "game_status": "Questionable (출전 불투명)",
-          "status_code": "QUESTIONABLE",
-          "status_detail": "발 통증 관리 후 주말 제한적 훈련(LP) 복귀. 경기 당일 워밍업 후 최종 출전 여부 확정."
+          "friday": "-",
+          "game_status": "미정 (금요일 최종 리포트 대기)",
+          "status_code": "PENDING",
+          "status_detail": "발 부상으로 수·목 연속 DNP."
         },
         {
-          "player": "Quentin Johnston",
+          "player": "Brenen Thompson",
           "position": "WR",
-          "injury": "Chest (흉부 타박)",
+          "injury": "Quadriceps (대퇴사두근)",
           "wednesday": "LP",
-          "thursday": "LP",
-          "friday": "LP",
-          "game_status": "Questionable (출전 불투명)",
-          "status_code": "QUESTIONABLE",
-          "status_detail": "가슴 부위 타박상으로 제한적 훈련 소화 중이나 경기 출전 의지 피력."
-        },
-        {
-          "player": "Charlie Kolar",
-          "position": "TE",
-          "injury": "Forearm (전완부 부상)",
-          "wednesday": "LP",
-          "thursday": "LP",
-          "friday": "LP",
-          "game_status": "Questionable (출전 불투명)",
-          "status_code": "QUESTIONABLE",
-          "status_detail": "전완부 부상 호전 후 제한적 훈련(LP) 참여. 타이트엔드 백업 로테이션 대기."
-        },
-        {
-          "player": "Trey Lance",
-          "position": "QB",
-          "injury": "Groin (사타구니 통증)",
-          "wednesday": "LP",
-          "thursday": "LP",
-          "friday": "FP",
-          "game_status": "Questionable (출전 불투명)",
-          "status_code": "QUESTIONABLE",
-          "status_detail": "사타구니 통증 관리 후 정상 훈련(FP) 소화 완료. 백업 쿼터백 출전 대기."
-        },
-        {
-          "player": "Dalvin Tomlinson",
-          "position": "DT",
-          "injury": "Hamstring (햄스트링)",
-          "wednesday": "LP",
-          "thursday": "LP",
-          "friday": "LP",
-          "game_status": "Questionable (출전 불투명)",
-          "status_code": "QUESTIONABLE",
-          "status_detail": "햄스트링 부상 회복세로 제한적 훈련 참가. 디펜시브 태클 런 디펜스 투입 조율."
+          "thursday": "DNP",
+          "friday": "-",
+          "game_status": "미정 (금요일 최종 리포트 대기)",
+          "status_code": "PENDING",
+          "status_detail": "수요일 제한적 참여(LP) 후 목요일 불참(DNP)으로 하향."
         },
         {
           "player": "Cam Hart",
           "position": "CB",
-          "injury": "Knee (무릎 부상)",
+          "injury": "Knee (무릎)",
           "wednesday": "LP",
           "thursday": "LP",
-          "friday": "LP",
-          "game_status": "Questionable (출전 불투명)",
-          "status_code": "QUESTIONABLE",
-          "status_detail": "무릎 통증으로 보호대 착용 후 제한적 훈련(LP) 소화 중."
+          "friday": "-",
+          "game_status": "미정 (금요일 최종 리포트 대기)",
+          "status_code": "PENDING",
+          "status_detail": "수·목 제한적 참여(LP)."
         },
         {
           "player": "Alec Ingold",
           "position": "FB",
-          "injury": "Shoulder (어깨 부상)",
+          "injury": "Shoulder (어깨)",
           "wednesday": "LP",
           "thursday": "LP",
-          "friday": "LP",
-          "game_status": "Questionable (출전 불투명)",
-          "status_code": "QUESTIONABLE",
-          "status_detail": "어깨 부상 관리 중 제한적 훈련 소화. 리드 블로커 출전 대비."
+          "friday": "-",
+          "game_status": "미정 (금요일 최종 리포트 대기)",
+          "status_code": "PENDING",
+          "status_detail": "수·목 제한적 참여(LP)."
+        },
+        {
+          "player": "Quentin Johnston",
+          "position": "WR",
+          "injury": "Chest (흉부)",
+          "wednesday": "LP",
+          "thursday": "LP",
+          "friday": "-",
+          "game_status": "미정 (금요일 최종 리포트 대기)",
+          "status_code": "PENDING",
+          "status_detail": "수·목 제한적 참여(LP)."
+        },
+        {
+          "player": "Charlie Kolar",
+          "position": "TE",
+          "injury": "Forearm (전완부)",
+          "wednesday": "LP",
+          "thursday": "LP",
+          "friday": "-",
+          "game_status": "미정 (금요일 최종 리포트 대기)",
+          "status_code": "PENDING",
+          "status_detail": "수·목 제한적 참여(LP)."
+        },
+        {
+          "player": "Trey Lance",
+          "position": "QB",
+          "injury": "Groin (사타구니)",
+          "wednesday": "LP",
+          "thursday": "LP",
+          "friday": "-",
+          "game_status": "미정 (금요일 최종 리포트 대기)",
+          "status_code": "PENDING",
+          "status_detail": "수·목 제한적 참여(LP). 백업 QB."
+        },
+        {
+          "player": "Deane Leonard",
+          "position": "DB",
+          "injury": "Rib (갈비뼈)",
+          "wednesday": "LP",
+          "thursday": "LP",
+          "friday": "-",
+          "game_status": "미정 (금요일 최종 리포트 대기)",
+          "status_code": "PENDING",
+          "status_detail": "수·목 제한적 참여(LP)."
         },
         {
           "player": "Scott Matlock",
-          "position": "FB/DL",
-          "injury": "Foot (발 통증)",
+          "position": "DL/FB",
+          "injury": "Foot (발)",
           "wednesday": "LP",
           "thursday": "LP",
-          "friday": "LP",
-          "game_status": "Questionable (출전 불투명)",
-          "status_code": "QUESTIONABLE",
-          "status_detail": "발 통증 치료 병행하며 제한적 훈련 참가."
+          "friday": "-",
+          "game_status": "미정 (금요일 최종 리포트 대기)",
+          "status_code": "PENDING",
+          "status_detail": "수·목 제한적 참여(LP)."
         },
         {
           "player": "Branson Taylor",
-          "position": "G/T",
-          "injury": "Shoulder (어깨 부상)",
+          "position": "OL",
+          "injury": "Shoulder/Neck (어깨/목)",
           "wednesday": "LP",
           "thursday": "LP",
-          "friday": "LP",
-          "game_status": "Questionable (출전 불투명)",
-          "status_code": "QUESTIONABLE",
-          "status_detail": "어깨 부상 치료 후 제한적 훈련 소화. 오펜시브 라인 백업 대기."
+          "friday": "-",
+          "game_status": "미정 (금요일 최종 리포트 대기)",
+          "status_code": "PENDING",
+          "status_detail": "수·목 제한적 참여(LP)."
         },
         {
-          "player": "Justin Herbert",
-          "position": "QB",
-          "injury": "Plantar Fascia (오른발 완쾌)",
-          "wednesday": "FP",
-          "thursday": "FP",
-          "friday": "FP",
-          "game_status": "Active (정상 출전)",
-          "status_code": "ACTIVE",
-          "status_detail": "공식 부상 리포트 명단 제외. 100% 정상 선발 출전."
+          "player": "Dalvin Tomlinson",
+          "position": "DL",
+          "injury": "Hamstring (햄스트링)",
+          "wednesday": "LP",
+          "thursday": "LP",
+          "friday": "-",
+          "game_status": "미정 (금요일 최종 리포트 대기)",
+          "status_code": "PENDING",
+          "status_detail": "수·목 제한적 참여(LP)."
         },
         {
           "player": "Khalil Mack",
           "position": "OLB",
-          "injury": "NIR-Rest (베테랑 휴식/관리)",
+          "injury": "NIR-Rest (부상 아님, 베테랑 휴식)",
           "wednesday": "DNP",
           "thursday": "FP",
-          "friday": "FP",
-          "game_status": "Active (정상 출전)",
+          "friday": "-",
+          "game_status": "부상 아님 (목요일 정상 훈련)",
           "status_code": "ACTIVE",
-          "status_detail": "주중 베테랑 휴식 관리 후 정상 훈련 복귀. Bo Nix 상대 선발 엣지 러셔 출전."
+          "status_detail": "수요일 베테랑 휴식(DNP) 후 목요일 정상 훈련(FP)."
         },
         {
           "player": "Keandre Lambert-Smith",
           "position": "WR",
-          "injury": "Hamstring (햄스트링 중상)",
-          "wednesday": "DNP",
-          "thursday": "DNP",
-          "friday": "DNP",
+          "injury": "Hamstring (햄스트링)",
+          "wednesday": "-",
+          "thursday": "-",
+          "friday": "-",
           "game_status": "IR (부상자 명단)",
           "status_code": "IR",
-          "status_detail": "공식 IR(Injured Reserve) 등재. 최소 4주 결장."
+          "status_detail": "1주차 Cardinals전 부상, 9월 15일 IR 등재. 6주차(10/18 Chiefs전)부터 복귀 가능."
         },
         {
           "player": "Tyler Biadasz",
           "position": "C",
-          "injury": "Knee (무릎 시즌 아웃)",
-          "wednesday": "DNP",
-          "thursday": "DNP",
-          "friday": "DNP",
+          "injury": "Knee (무릎, ACL)",
+          "wednesday": "-",
+          "thursday": "-",
+          "friday": "-",
           "game_status": "IR (시즌 아웃)",
           "status_code": "IR",
-          "status_detail": "프리시즌 무릎 부상으로 IR 등재. 2026 시즌 아웃."
+          "status_detail": "8월 18일 49ers 합동훈련 중 왼쪽 무릎 부상, 시즌 아웃 IR."
         }
       ]
     },
@@ -544,7 +547,7 @@
       "Justin Herbert",
       "Los Angeles Chargers",
       "Yahoo Sports",
-      "Bolts From The Blue",
+      "Injury Report",
       "herbert",
       "seahawks",
       "harbaugh",
@@ -2724,72 +2727,6 @@
       ]
     },
     {
-      "title": "Final Injury Report For the Chargers Heading into Week 4 Battle Against the Seahawks",
-      "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPLUF2aGpmVzNyRkgyVHJhbkNZQl9TbFRJcWRveTl3eDk0cEtJSEFfWFJ2cl9TZ2xHSWN6WWZwUVhlLXRBZGhfWGtfaXg3ZDUza01oNzRNalktdVg1N09SbE5vZzQyS0Uxa294Rm16Yl8zbjAwUHZGSjlNbC02bHBLbEloTHpjSXk3d3E0TE1R?oc=5",
-      "summary": "Final Injury Report For the Chargers Heading into Week 4 Battle Against the Seahawks Yahoo Sports",
-      "published": "2026-10-03T16:18:00+00:00",
-      "source": "Yahoo Sports",
-      "author": "",
-      "raw_entry": {
-        "title": "Final Injury Report For the Chargers Heading into Week 4 Battle Against the Seahawks - Yahoo Sports",
-        "title_detail": {
-          "type": "text/plain",
-          "language": null,
-          "base": "",
-          "value": "Final Injury Report For the Chargers Heading into Week 4 Battle Against the Seahawks - Yahoo Sports"
-        },
-        "links": [
-          {
-            "rel": "alternate",
-            "type": "text/html",
-            "href": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPLUF2aGpmVzNyRkgyVHJhbkNZQl9TbFRJcWRveTl3eDk0cEtJSEFfWFJ2cl9TZ2xHSWN6WWZwUVhlLXRBZGhfWGtfaXg3ZDUza01oNzRNalktdVg1N09SbE5vZzQyS0Uxa294Rm16Yl8zbjAwUHZGSjlNbC02bHBLbEloTHpjSXk3d3E0TE1R?oc=5"
-          }
-        ],
-        "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPLUF2aGpmVzNyRkgyVHJhbkNZQl9TbFRJcWRveTl3eDk0cEtJSEFfWFJ2cl9TZ2xHSWN6WWZwUVhlLXRBZGhfWGtfaXg3ZDUza01oNzRNalktdVg1N09SbE5vZzQyS0Uxa294Rm16Yl8zbjAwUHZGSjlNbC02bHBLbEloTHpjSXk3d3E0TE1R?oc=5",
-        "id": "CBMijgFBVV95cUxPLUF2aGpmVzNyRkgyVHJhbkNZQl9TbFRJcWRveTl3eDk0cEtJSEFfWFJ2cl9TZ2xHSWN6WWZwUVhlLXRBZGhfWGtfaXg3ZDUza01oNzRNalktdVg1N09SbE5vZzQyS0Uxa294Rm16Yl8zbjAwUHZGSjlNbC02bHBLbEloTHpjSXk3d3E0TE1R",
-        "guidislink": false,
-        "published": "Sun, 04 Oct 2026 01:18:00 GMT",
-        "published_parsed": [
-          2026,
-          10,
-          4,
-          1,
-          18,
-          0,
-          6,
-          277,
-          0
-        ],
-        "summary": "<a href=\"https://news.google.com/rss/articles/CBMijgFBVV95cUxPLUF2aGpmVzNyRkgyVHJhbkNZQl9TbFRJcWRveTl3eDk0cEtJSEFfWFJ2cl9TZ2xHSWN6WWZwUVhlLXRBZGhfWGtfaXg3ZDUza01oNzRNalktdVg1N09SbE5vZzQyS0Uxa294Rm16Yl8zbjAwUHZGSjlNbC02bHBLbEloTHpjSXk3d3E0TE1R?oc=5\" target=\"_blank\">Final Injury Report For the Chargers Heading into Week 4 Battle Against the Seahawks</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Yahoo Sports</font>",
-        "summary_detail": {
-          "type": "text/html",
-          "language": null,
-          "base": "",
-          "value": "<a href=\"https://news.google.com/rss/articles/CBMijgFBVV95cUxPLUF2aGpmVzNyRkgyVHJhbkNZQl9TbFRJcWRveTl3eDk0cEtJSEFfWFJ2cl9TZ2xHSWN6WWZwUVhlLXRBZGhfWGtfaXg3ZDUza01oNzRNalktdVg1N09SbE5vZzQyS0Uxa294Rm16Yl8zbjAwUHZGSjlNbC02bHBLbEloTHpjSXk3d3E0TE1R?oc=5\" target=\"_blank\">Final Injury Report For the Chargers Heading into Week 4 Battle Against the Seahawks</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Yahoo Sports</font>"
-        },
-        "source": {
-          "href": "https://sports.yahoo.com",
-          "title": "Yahoo Sports"
-        }
-      },
-      "search_query": "Chargers injury report",
-      "related_sources": [
-        "Yahoo Sports",
-        "Seattle Seahawks"
-      ],
-      "category_key": "game",
-      "category_name": "경기 결과/프리뷰",
-      "category_badge": "⚡ 경기 소식",
-      "category_icon": "🏈",
-      "importance_score": 95,
-      "priority_tier": "🚨 긴급/핵심",
-      "priority_class": "tier-critical",
-      "headline_kr": "Seahawks와의 4주차 전투로 향하는 Chargers의 최종 부상 보고서",
-      "summary_bullets_kr": [
-        "⚡ **핵심 소식**: Seahawks와의 4주차 전투를 앞두고 있는 Chargers의 최종 부상 보고서 Yahoo Sports"
-      ]
-    },
-    {
       "title": "“Don’t Feel Like Justin Herbert Is Comfortable Yet”: Russell Wilson Breaks Down Chargers QB’s Struggles With Mike McDaniel Amid 0–3 Start",
       "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTFA5Mk1LM0JIWG5fZWNkUFdwYXg2cENQSVlDSFUtQmw1LWJLRkNuZmRmZlRxV1F5dFBrRjBFM2lDWEhnU0VQNkhOWXJUU1FLY1VYcU5KSHdGOFF5RXRUZTVtYXBQcWR6Q2RCbS02VEMxc0xsUzNrT3BpblZFOUxuZ1E?oc=5",
       "summary": "“Don’t Feel Like Justin Herbert Is Comfortable Yet”: Russell Wilson Breaks Down Chargers QB’s Struggles With Mike McDaniel Amid 0–3 Start Yahoo Sports",
@@ -2853,72 +2790,6 @@
       "summary_bullets_kr": [
         "⚡ **핵심 소식**: \"아직 Justin Herbert가 편안하다고 생각하지 마세요\": 러셀 윌슨은 0-3 시작 야후 스포츠에서 Chargers QB와 마이크 Khalil Mack다니엘의 투쟁을 무너뜨렸습니다.",
         "🏈 **공격 전술 관전 포인트**: Mike McDaniel 신임 오펜시브 코디네이터의 전술 안착과 QB Justin Herbert의 플레이메이킹 극대화가 핵심 과제입니다."
-      ]
-    },
-    {
-      "title": "Press Conference: Jim Harbaugh on a Good Week of Preparation Ahead of Seattle",
-      "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxPMmRGeFZoclFzX3dQQW9OZnlKVjgxVWx2MU5BTzFEcldwaDdHU0tJNmlCM3dXS1FnQ25EdzZBQzVzM0w0bDQ2TTdDcjNteC01eFNrVVRMV3FwWVFDTnRkX19BSDczR3BGVGxkdmFvVUFEdkRZdWQxYTBxS1hFbmhsTTVkOFFNUQ?oc=5",
-      "summary": "Press Conference: Jim Harbaugh on a Good Week of Preparation Ahead of Seattle Los Angeles Chargers",
-      "published": "2026-10-08T12:50:01+00:00",
-      "source": "Los Angeles Chargers",
-      "author": "",
-      "raw_entry": {
-        "title": "Press Conference: Jim Harbaugh on a Good Week of Preparation Ahead of Seattle - Los Angeles Chargers",
-        "title_detail": {
-          "type": "text/plain",
-          "language": null,
-          "base": "",
-          "value": "Press Conference: Jim Harbaugh on a Good Week of Preparation Ahead of Seattle - Los Angeles Chargers"
-        },
-        "links": [
-          {
-            "rel": "alternate",
-            "type": "text/html",
-            "href": "https://news.google.com/rss/articles/CBMihgFBVV95cUxPMmRGeFZoclFzX3dQQW9OZnlKVjgxVWx2MU5BTzFEcldwaDdHU0tJNmlCM3dXS1FnQ25EdzZBQzVzM0w0bDQ2TTdDcjNteC01eFNrVVRMV3FwWVFDTnRkX19BSDczR3BGVGxkdmFvVUFEdkRZdWQxYTBxS1hFbmhsTTVkOFFNUQ?oc=5"
-          }
-        ],
-        "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxPMmRGeFZoclFzX3dQQW9OZnlKVjgxVWx2MU5BTzFEcldwaDdHU0tJNmlCM3dXS1FnQ25EdzZBQzVzM0w0bDQ2TTdDcjNteC01eFNrVVRMV3FwWVFDTnRkX19BSDczR3BGVGxkdmFvVUFEdkRZdWQxYTBxS1hFbmhsTTVkOFFNUQ?oc=5",
-        "id": "CBMihgFBVV95cUxPMmRGeFZoclFzX3dQQW9OZnlKVjgxVWx2MU5BTzFEcldwaDdHU0tJNmlCM3dXS1FnQ25EdzZBQzVzM0w0bDQ2TTdDcjNteC01eFNrVVRMV3FwWVFDTnRkX19BSDczR3BGVGxkdmFvVUFEdkRZdWQxYTBxS1hFbmhsTTVkOFFNUQ",
-        "guidislink": false,
-        "published": "Thu, 08 Oct 2026 21:50:01 GMT",
-        "published_parsed": [
-          2026,
-          10,
-          8,
-          21,
-          50,
-          1,
-          3,
-          281,
-          0
-        ],
-        "summary": "<a href=\"https://news.google.com/rss/articles/CBMihgFBVV95cUxPMmRGeFZoclFzX3dQQW9OZnlKVjgxVWx2MU5BTzFEcldwaDdHU0tJNmlCM3dXS1FnQ25EdzZBQzVzM0w0bDQ2TTdDcjNteC01eFNrVVRMV3FwWVFDTnRkX19BSDczR3BGVGxkdmFvVUFEdkRZdWQxYTBxS1hFbmhsTTVkOFFNUQ?oc=5\" target=\"_blank\">Press Conference: Jim Harbaugh on a Good Week of Preparation Ahead of Seattle</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Los Angeles Chargers</font>",
-        "summary_detail": {
-          "type": "text/html",
-          "language": null,
-          "base": "",
-          "value": "<a href=\"https://news.google.com/rss/articles/CBMihgFBVV95cUxPMmRGeFZoclFzX3dQQW9OZnlKVjgxVWx2MU5BTzFEcldwaDdHU0tJNmlCM3dXS1FnQ25EdzZBQzVzM0w0bDQ2TTdDcjNteC01eFNrVVRMV3FwWVFDTnRkX19BSDczR3BGVGxkdmFvVUFEdkRZdWQxYTBxS1hFbmhsTTVkOFFNUQ?oc=5\" target=\"_blank\">Press Conference: Jim Harbaugh on a Good Week of Preparation Ahead of Seattle</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Los Angeles Chargers</font>"
-        },
-        "source": {
-          "href": "https://www.chargers.com",
-          "title": "Los Angeles Chargers"
-        }
-      },
-      "search_query": "Jim Harbaugh Chargers",
-      "related_sources": [
-        "Los Angeles Chargers"
-      ],
-      "category_key": "game",
-      "category_name": "경기 결과/프리뷰",
-      "category_badge": "⚡ 경기 소식",
-      "category_icon": "🏈",
-      "importance_score": 90,
-      "priority_tier": "🚨 긴급/핵심",
-      "priority_class": "tier-critical",
-      "headline_kr": "기자 회견: Jim Harbaugh는 시애틀을 앞두고 좋은 한 주를 준비했습니다.",
-      "summary_bullets_kr": [
-        "⚡ **핵심 소식**: 기자 회견: Jim Harbaugh는 시애틀 LA Chargers를 앞두고 좋은 한 주 동안 준비했습니다.",
-        "🏈 **전술 관전 포인트**: Jim Harbaugh 감독 및 코칭스태프의 피지컬 중심 미식축구 철학이 반영된 행보입니다."
       ]
     },
     {
@@ -3634,7 +3505,7 @@
       "priority_class": "tier-critical",
       "headline_kr": "Chargers는 OL 다니엘 브런스킬을 연습팀에 영입했습니다.",
       "summary_bullets_kr": [
-        "⚡ **핵심 소식**: Chargers는 공격 코디네이터 Mike McDaniel과 친숙한 또 다른 공격 라인 맨을 추가하고 있습니다. 화요일에 Chargers는 전 49ers와 Dolphins 공격 태클 Daniel Brunskill을 연습 팀에 영입했다고 발표했습니다.",
+        "⚡ **핵심 소식**: Chargers는 Mike McDaniel 공격 코디네이터 Mike McDaniel과 친숙한 또 다른 공격 라인 맨을 추가하고 있습니다. 화요일에 Chargers는 전 49ers와 Dolphins 공격 태클 Daniel Brunskill을 연습 팀에 영입했다고 발표했습니다.",
         "📋 **선수단 영향**: Mike McDaniel (OC)의 부상 경과 및 훈련 소화 여부가 주간 라인업 구성의 핵심 변수로 작용합니다."
       ]
     },
@@ -4487,6 +4358,71 @@
       ]
     },
     {
+      "title": "Los Angeles Chargers news: A positive takeaway from the loss to the Seahawks",
+      "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxOY0tVUFVtLWpIMnBvV3lFOTVVSmdKcGtqTU9zMDJqaXJmTmU1SDdNM1lUR1FtR3N4UHd0U0VqcHBZVUtPbHpQWDc4QUpQWE1iMzRxOTZwTDMyTE1kcFU5RnhDeEV2eHNWcXNzcDRFOW1lOHd3ZklvbTZlczVYSU1OMkRDYTFKR05TNExMcno3aVlxQl9hU09IUkR4alZmT0FEcEN2VjZWVFdNUjBISUJKVnFtak5FMVc0cWF4bWZsUkE3REVqTGtZNGhEaEp1Zw?oc=5",
+      "summary": "Los Angeles Chargers news: A positive takeaway from the loss to the Seahawks Bolts From The Blue",
+      "published": "2026-10-05T04:50:00+00:00",
+      "source": "Bolts From The Blue",
+      "author": "",
+      "raw_entry": {
+        "title": "Los Angeles Chargers news: A positive takeaway from the loss to the Seahawks - Bolts From The Blue",
+        "title_detail": {
+          "type": "text/plain",
+          "language": null,
+          "base": "",
+          "value": "Los Angeles Chargers news: A positive takeaway from the loss to the Seahawks - Bolts From The Blue"
+        },
+        "links": [
+          {
+            "rel": "alternate",
+            "type": "text/html",
+            "href": "https://news.google.com/rss/articles/CBMizgFBVV95cUxOY0tVUFVtLWpIMnBvV3lFOTVVSmdKcGtqTU9zMDJqaXJmTmU1SDdNM1lUR1FtR3N4UHd0U0VqcHBZVUtPbHpQWDc4QUpQWE1iMzRxOTZwTDMyTE1kcFU5RnhDeEV2eHNWcXNzcDRFOW1lOHd3ZklvbTZlczVYSU1OMkRDYTFKR05TNExMcno3aVlxQl9hU09IUkR4alZmT0FEcEN2VjZWVFdNUjBISUJKVnFtak5FMVc0cWF4bWZsUkE3REVqTGtZNGhEaEp1Zw?oc=5"
+          }
+        ],
+        "link": "https://news.google.com/rss/articles/CBMizgFBVV95cUxOY0tVUFVtLWpIMnBvV3lFOTVVSmdKcGtqTU9zMDJqaXJmTmU1SDdNM1lUR1FtR3N4UHd0U0VqcHBZVUtPbHpQWDc4QUpQWE1iMzRxOTZwTDMyTE1kcFU5RnhDeEV2eHNWcXNzcDRFOW1lOHd3ZklvbTZlczVYSU1OMkRDYTFKR05TNExMcno3aVlxQl9hU09IUkR4alZmT0FEcEN2VjZWVFdNUjBISUJKVnFtak5FMVc0cWF4bWZsUkE3REVqTGtZNGhEaEp1Zw?oc=5",
+        "id": "CBMizgFBVV95cUxOY0tVUFVtLWpIMnBvV3lFOTVVSmdKcGtqTU9zMDJqaXJmTmU1SDdNM1lUR1FtR3N4UHd0U0VqcHBZVUtPbHpQWDc4QUpQWE1iMzRxOTZwTDMyTE1kcFU5RnhDeEV2eHNWcXNzcDRFOW1lOHd3ZklvbTZlczVYSU1OMkRDYTFKR05TNExMcno3aVlxQl9hU09IUkR4alZmT0FEcEN2VjZWVFdNUjBISUJKVnFtak5FMVc0cWF4bWZsUkE3REVqTGtZNGhEaEp1Zw",
+        "guidislink": false,
+        "published": "Mon, 05 Oct 2026 13:50:00 GMT",
+        "published_parsed": [
+          2026,
+          10,
+          5,
+          13,
+          50,
+          0,
+          0,
+          278,
+          0
+        ],
+        "summary": "<a href=\"https://news.google.com/rss/articles/CBMizgFBVV95cUxOY0tVUFVtLWpIMnBvV3lFOTVVSmdKcGtqTU9zMDJqaXJmTmU1SDdNM1lUR1FtR3N4UHd0U0VqcHBZVUtPbHpQWDc4QUpQWE1iMzRxOTZwTDMyTE1kcFU5RnhDeEV2eHNWcXNzcDRFOW1lOHd3ZklvbTZlczVYSU1OMkRDYTFKR05TNExMcno3aVlxQl9hU09IUkR4alZmT0FEcEN2VjZWVFdNUjBISUJKVnFtak5FMVc0cWF4bWZsUkE3REVqTGtZNGhEaEp1Zw?oc=5\" target=\"_blank\">Los Angeles Chargers news: A positive takeaway from the loss to the Seahawks</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Bolts From The Blue</font>",
+        "summary_detail": {
+          "type": "text/html",
+          "language": null,
+          "base": "",
+          "value": "<a href=\"https://news.google.com/rss/articles/CBMizgFBVV95cUxOY0tVUFVtLWpIMnBvV3lFOTVVSmdKcGtqTU9zMDJqaXJmTmU1SDdNM1lUR1FtR3N4UHd0U0VqcHBZVUtPbHpQWDc4QUpQWE1iMzRxOTZwTDMyTE1kcFU5RnhDeEV2eHNWcXNzcDRFOW1lOHd3ZklvbTZlczVYSU1OMkRDYTFKR05TNExMcno3aVlxQl9hU09IUkR4alZmT0FEcEN2VjZWVFdNUjBISUJKVnFtak5FMVc0cWF4bWZsUkE3REVqTGtZNGhEaEp1Zw?oc=5\" target=\"_blank\">Los Angeles Chargers news: A positive takeaway from the loss to the Seahawks</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Bolts From The Blue</font>"
+        },
+        "source": {
+          "href": "https://www.boltsfromtheblue.com",
+          "title": "Bolts From The Blue"
+        }
+      },
+      "search_query": "LA Chargers",
+      "related_sources": [
+        "Bolts From The Blue"
+      ],
+      "category_key": "game",
+      "category_name": "경기 결과/프리뷰",
+      "category_badge": "⚡ 경기 소식",
+      "category_icon": "🏈",
+      "importance_score": 80,
+      "priority_tier": "🚨 긴급/핵심",
+      "priority_class": "tier-critical",
+      "headline_kr": "Los Angeles Chargers 뉴스: Seahawks의 패배에서 얻은 긍정적인 교훈",
+      "summary_bullets_kr": [
+        "⚡ **핵심 소식**: Los Angeles Chargers 뉴스: Seahawks Bolts From The Blue의 패배에서 얻은 긍정적인 교훈"
+      ]
+    },
+    {
       "title": "Mike McDaniel tried to change Justin Herbert, and now the Chargers are 0-4",
       "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNTzNvdTNZVHEtaWFNUkhPVWx1Zng0dVFjczFJdWZUQUlUdFhVWDN0YlRSTTFUeG9PU0ctLUwyQVQzcjV6WFVqOTBkRGN1QlloVGlwZEZqcVhDc3k4eElzOThIYjJvcXVwSmJnaEt3WEQxcjl6OFpvV1dNUmJQMGU5cmxIcHlrX1hfazlsYVFJbHRBYlhrS09LM1NoOUJTUWhk?oc=5",
       "summary": "Mike McDaniel tried to change Justin Herbert, and now the Chargers are 0-4 The New York Times",
@@ -4950,7 +4886,7 @@
       "title": "Press Conference: Mike McDaniel on His Confidence in the Rookie Offensive Line",
       "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxNVm83eDRzcWVkcWtTb1E1RHc1TmJUdllXSW9ITWZVMFl0Nk4xXzd3MnJyWDdKeUt0N3dWWkp0NnJpdjVaLUZHZ0pjRzU1VjFPd25DV3l5ZDhJR1FCMER1c1pzb0l1a213dDYxRGpWcEZKVTI4V3VBNC1EQVNIcUF0VmpSWEltb2lkM3c?oc=5",
       "summary": "Press Conference: Mike McDaniel on His Confidence in the Rookie Offensive Line Los Angeles Chargers",
-      "published": "2026-10-08T12:21:56+00:00",
+      "published": "2026-10-08T12:07:40+00:00",
       "source": "Los Angeles Chargers",
       "author": "",
       "raw_entry": {
@@ -4971,14 +4907,14 @@
         "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxNVm83eDRzcWVkcWtTb1E1RHc1TmJUdllXSW9ITWZVMFl0Nk4xXzd3MnJyWDdKeUt0N3dWWkp0NnJpdjVaLUZHZ0pjRzU1VjFPd25DV3l5ZDhJR1FCMER1c1pzb0l1a213dDYxRGpWcEZKVTI4V3VBNC1EQVNIcUF0VmpSWEltb2lkM3c?oc=5",
         "id": "CBMiigFBVV95cUxNVm83eDRzcWVkcWtTb1E1RHc1TmJUdllXSW9ITWZVMFl0Nk4xXzd3MnJyWDdKeUt0N3dWWkp0NnJpdjVaLUZHZ0pjRzU1VjFPd25DV3l5ZDhJR1FCMER1c1pzb0l1a213dDYxRGpWcEZKVTI4V3VBNC1EQVNIcUF0VmpSWEltb2lkM3c",
         "guidislink": false,
-        "published": "Thu, 08 Oct 2026 21:21:56 GMT",
+        "published": "Thu, 08 Oct 2026 21:07:40 GMT",
         "published_parsed": [
           2026,
           10,
           8,
           21,
-          21,
-          56,
+          7,
+          40,
           3,
           281,
           0
@@ -5100,9 +5036,9 @@
       "importance_score": 75,
       "priority_tier": "🚨 긴급/핵심",
       "priority_class": "tier-critical",
-      "headline_kr": "[림] 수비 코디네이터 크리스 오리어리(Chris O'Leary)가 일요일 경기가 끝난 후 다이얀이 경기장에 나오지 않은 이유에 대해: \"그건 인력 패키지 문제에 가깝습니다. 그래서 우리는 확실하게 알 수 있습니다.",
+      "headline_kr": "[림] Chris O'Leary 수비 코디네이터 Chris O'Leary(Chris O'Leary)가 일요일 경기가 끝난 후 다이얀이 경기장에 나오지 않은 이유에 대해: \"그건 인력 패키지 문제에 가깝습니다. 그래서 우리는 확실하게 알 수 있습니다.",
       "summary_bullets_kr": [
-        "⚡ **핵심 소식**: 수비 코디네이터 Chris O'Leary는 Daiyan이 일요일 경기가 끝날 때 현장에 나오지 않은 이유에 대해 다음과 같이 말했습니다. \"그건 인력 패키지 문제에 가깝습니다. 그래서 우리는 특정 상황에 처하게 됩니다."
+        "⚡ **핵심 소식**: Chris O'Leary 수비 코디네이터 Chris O'Leary는 Daiyan이 일요일 경기가 끝날 때 현장에 나오지 않은 이유에 대해 다음과 같이 말했습니다. \"그건 인력 패키지 문제에 가깝습니다. 그래서 우리는 특정 상황에 처하게 됩니다."
       ]
     },
     {
@@ -7778,71 +7714,6 @@
       ]
     },
     {
-      "title": "Seahawks vs. Chargers Week 4 Inactives",
-      "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTFBncGRHVmpaZkNGcWtON0FDRzR2aWM5OGlqVDV1VHJtYTFDWS1Oai1paXlUT2xXYTVwY0ZpMTk1TzhwRGdiWXBqd2ozM244UEJ4a0pCLU5ZUzl2WnpYMHJKQThVMVFkclk3RHdqZGIyMUpNSW05cVE?oc=5",
-      "summary": "Seahawks vs. Chargers Week 4 Inactives Seattle Seahawks",
-      "published": "2026-10-04T09:58:07+00:00",
-      "source": "Seattle Seahawks",
-      "author": "",
-      "raw_entry": {
-        "title": "Seahawks vs. Chargers Week 4 Inactives - Seattle Seahawks",
-        "title_detail": {
-          "type": "text/plain",
-          "language": null,
-          "base": "",
-          "value": "Seahawks vs. Chargers Week 4 Inactives - Seattle Seahawks"
-        },
-        "links": [
-          {
-            "rel": "alternate",
-            "type": "text/html",
-            "href": "https://news.google.com/rss/articles/CBMidkFVX3lxTFBncGRHVmpaZkNGcWtON0FDRzR2aWM5OGlqVDV1VHJtYTFDWS1Oai1paXlUT2xXYTVwY0ZpMTk1TzhwRGdiWXBqd2ozM244UEJ4a0pCLU5ZUzl2WnpYMHJKQThVMVFkclk3RHdqZGIyMUpNSW05cVE?oc=5"
-          }
-        ],
-        "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTFBncGRHVmpaZkNGcWtON0FDRzR2aWM5OGlqVDV1VHJtYTFDWS1Oai1paXlUT2xXYTVwY0ZpMTk1TzhwRGdiWXBqd2ozM244UEJ4a0pCLU5ZUzl2WnpYMHJKQThVMVFkclk3RHdqZGIyMUpNSW05cVE?oc=5",
-        "id": "CBMidkFVX3lxTFBncGRHVmpaZkNGcWtON0FDRzR2aWM5OGlqVDV1VHJtYTFDWS1Oai1paXlUT2xXYTVwY0ZpMTk1TzhwRGdiWXBqd2ozM244UEJ4a0pCLU5ZUzl2WnpYMHJKQThVMVFkclk3RHdqZGIyMUpNSW05cVE",
-        "guidislink": false,
-        "published": "Sun, 04 Oct 2026 18:58:07 GMT",
-        "published_parsed": [
-          2026,
-          10,
-          4,
-          18,
-          58,
-          7,
-          6,
-          277,
-          0
-        ],
-        "summary": "<a href=\"https://news.google.com/rss/articles/CBMidkFVX3lxTFBncGRHVmpaZkNGcWtON0FDRzR2aWM5OGlqVDV1VHJtYTFDWS1Oai1paXlUT2xXYTVwY0ZpMTk1TzhwRGdiWXBqd2ozM244UEJ4a0pCLU5ZUzl2WnpYMHJKQThVMVFkclk3RHdqZGIyMUpNSW05cVE?oc=5\" target=\"_blank\">Seahawks vs. Chargers Week 4 Inactives</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Seattle Seahawks</font>",
-        "summary_detail": {
-          "type": "text/html",
-          "language": null,
-          "base": "",
-          "value": "<a href=\"https://news.google.com/rss/articles/CBMidkFVX3lxTFBncGRHVmpaZkNGcWtON0FDRzR2aWM5OGlqVDV1VHJtYTFDWS1Oai1paXlUT2xXYTVwY0ZpMTk1TzhwRGdiWXBqd2ozM244UEJ4a0pCLU5ZUzl2WnpYMHJKQThVMVFkclk3RHdqZGIyMUpNSW05cVE?oc=5\" target=\"_blank\">Seahawks vs. Chargers Week 4 Inactives</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Seattle Seahawks</font>"
-        },
-        "source": {
-          "href": "https://www.seahawks.com",
-          "title": "Seattle Seahawks"
-        }
-      },
-      "search_query": "Chargers injury report",
-      "related_sources": [
-        "Seattle Seahawks"
-      ],
-      "category_key": "game",
-      "category_name": "경기 결과/프리뷰",
-      "category_badge": "⚡ 경기 소식",
-      "category_icon": "🏈",
-      "importance_score": 60,
-      "priority_tier": "⚡ 주요",
-      "priority_class": "tier-high",
-      "headline_kr": "Seahawks 대 Chargers 4주차 비활성 경기",
-      "summary_bullets_kr": [
-        "⚡ **핵심 소식**: Chargers Week 4 비활성 시애틀 시호크스"
-      ]
-    },
-    {
       "title": "NFL Executive Doubts Justin Herbert Can Be the Leader the Chargers Need Him To Be",
       "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxPNzN6RVlfM0ZaZmh6bmNITUJtX3hPU0FmcEpKbUxNWmltb0NYNFpRc3h0MnJFTy00eFZ3Vm14MDhMT0RoOXZKQnhoVHV2Qi1tRTZOaUtBZlk0Z0w3QnVWRF9QcDc0QU8wMHVtcTVQYkNwYnNxTjBTWVpzR1RGWks1Y3hJQ3d3RzJEelJaTw?oc=5",
       "summary": "NFL Executive Doubts Justin Herbert Can Be the Leader the Chargers Need Him To Be Yahoo Sports",
@@ -7972,6 +7843,71 @@
       "summary_bullets_kr": [
         "⚡ **핵심 소식**: Chargers가 어려움을 겪는 가운데 Jim Harbaugh가 대학 순위로 다시 도약할 수 있을까요? 복잡해요 ...",
         "🏈 **전술 관전 포인트**: Jim Harbaugh 감독 및 코칭스태프의 피지컬 중심 미식축구 철학이 반영된 행보입니다."
+      ]
+    },
+    {
+      "title": "LA Chargers' Shocking Turnovers: Week 3 Game Recap",
+      "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxQOUd3Q242akxLWFNlc1QwSmhCRG1Ic1V3WnhVS1pIMkxwdXhrVjdFaURmYTJGQVF6TnY1Q3MwNThOMTJwRlhqZXA5LU1MdmRoZGNPQXhRc1diNkIzQ2w3OWg1ZVhFOXlLSUhYZUxwM25wdWdIenptbkMxc05iMzJPQUhMZG5SU3Bhd3c?oc=5",
+      "summary": "LA Chargers' Shocking Turnovers: Week 3 Game Recap Yahoo Sports",
+      "published": "2026-09-28T22:00:00+00:00",
+      "source": "Yahoo Sports",
+      "author": "",
+      "raw_entry": {
+        "title": "LA Chargers' Shocking Turnovers: Week 3 Game Recap - Yahoo Sports",
+        "title_detail": {
+          "type": "text/plain",
+          "language": null,
+          "base": "",
+          "value": "LA Chargers' Shocking Turnovers: Week 3 Game Recap - Yahoo Sports"
+        },
+        "links": [
+          {
+            "rel": "alternate",
+            "type": "text/html",
+            "href": "https://news.google.com/rss/articles/CBMiigFBVV95cUxQOUd3Q242akxLWFNlc1QwSmhCRG1Ic1V3WnhVS1pIMkxwdXhrVjdFaURmYTJGQVF6TnY1Q3MwNThOMTJwRlhqZXA5LU1MdmRoZGNPQXhRc1diNkIzQ2w3OWg1ZVhFOXlLSUhYZUxwM25wdWdIenptbkMxc05iMzJPQUhMZG5SU3Bhd3c?oc=5"
+          }
+        ],
+        "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxQOUd3Q242akxLWFNlc1QwSmhCRG1Ic1V3WnhVS1pIMkxwdXhrVjdFaURmYTJGQVF6TnY1Q3MwNThOMTJwRlhqZXA5LU1MdmRoZGNPQXhRc1diNkIzQ2w3OWg1ZVhFOXlLSUhYZUxwM25wdWdIenptbkMxc05iMzJPQUhMZG5SU3Bhd3c?oc=5",
+        "id": "CBMiigFBVV95cUxQOUd3Q242akxLWFNlc1QwSmhCRG1Ic1V3WnhVS1pIMkxwdXhrVjdFaURmYTJGQVF6TnY1Q3MwNThOMTJwRlhqZXA5LU1MdmRoZGNPQXhRc1diNkIzQ2w3OWg1ZVhFOXlLSUhYZUxwM25wdWdIenptbkMxc05iMzJPQUhMZG5SU3Bhd3c",
+        "guidislink": false,
+        "published": "Tue, 29 Sep 2026 07:00:00 GMT",
+        "published_parsed": [
+          2026,
+          9,
+          29,
+          7,
+          0,
+          0,
+          1,
+          272,
+          0
+        ],
+        "summary": "<a href=\"https://news.google.com/rss/articles/CBMiigFBVV95cUxQOUd3Q242akxLWFNlc1QwSmhCRG1Ic1V3WnhVS1pIMkxwdXhrVjdFaURmYTJGQVF6TnY1Q3MwNThOMTJwRlhqZXA5LU1MdmRoZGNPQXhRc1diNkIzQ2w3OWg1ZVhFOXlLSUhYZUxwM25wdWdIenptbkMxc05iMzJPQUhMZG5SU3Bhd3c?oc=5\" target=\"_blank\">LA Chargers' Shocking Turnovers: Week 3 Game Recap</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Yahoo Sports</font>",
+        "summary_detail": {
+          "type": "text/html",
+          "language": null,
+          "base": "",
+          "value": "<a href=\"https://news.google.com/rss/articles/CBMiigFBVV95cUxQOUd3Q242akxLWFNlc1QwSmhCRG1Ic1V3WnhVS1pIMkxwdXhrVjdFaURmYTJGQVF6TnY1Q3MwNThOMTJwRlhqZXA5LU1MdmRoZGNPQXhRc1diNkIzQ2w3OWg1ZVhFOXlLSUhYZUxwM25wdWdIenptbkMxc05iMzJPQUhMZG5SU3Bhd3c?oc=5\" target=\"_blank\">LA Chargers' Shocking Turnovers: Week 3 Game Recap</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Yahoo Sports</font>"
+        },
+        "source": {
+          "href": "https://sports.yahoo.com",
+          "title": "Yahoo Sports"
+        }
+      },
+      "search_query": "Chargers game recap",
+      "related_sources": [
+        "Yahoo Sports"
+      ],
+      "category_key": "game",
+      "category_name": "경기 결과/프리뷰",
+      "category_badge": "⚡ 경기 소식",
+      "category_icon": "🏈",
+      "importance_score": 60,
+      "priority_tier": "⚡ 주요",
+      "priority_class": "tier-high",
+      "headline_kr": "LA Chargers의 충격적인 턴오버: 3주차 경기 요약",
+      "summary_bullets_kr": [
+        "⚡ **핵심 소식**: LA Chargers의 충격적인 턴오버: 3주 차 경기 요약 Yahoo Sports"
       ]
     },
     {
@@ -8288,6 +8224,71 @@
       "headline_kr": "NFL 4주차 레슨: Chargers가 궁극적인 움직임을 고려해야 하는 이유",
       "summary_bullets_kr": [
         "⚡ **핵심 소식**: NFL 4주차 레슨: Chargers가 궁극의 움직임을 고려해야 하는 이유 Sports Illustrated"
+      ]
+    },
+    {
+      "title": "Week 4 Injury Report: Seahawks vs. Chargers",
+      "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTFB6RGxOM2pmRjQxQU92N0doSXZvQUF2aEExQkczWEozcm9PTmFRRUhEbWxwdWh1WUYzWFFYVXpGRlhWbHdGck8xbHh6bEx4T0h5aGs1dGVkU2lxMFZuMm9jWDM0UlhaNTh4UTB2VmJCZUZZRzhmcHg4UTdZWQ?oc=5",
+      "summary": "Week 4 Injury Report: Seahawks vs. Chargers Seattle Seahawks",
+      "published": "2026-10-02T14:06:26+00:00",
+      "source": "Seattle Seahawks",
+      "author": "",
+      "raw_entry": {
+        "title": "Week 4 Injury Report: Seahawks vs. Chargers - Seattle Seahawks",
+        "title_detail": {
+          "type": "text/plain",
+          "language": null,
+          "base": "",
+          "value": "Week 4 Injury Report: Seahawks vs. Chargers - Seattle Seahawks"
+        },
+        "links": [
+          {
+            "rel": "alternate",
+            "type": "text/html",
+            "href": "https://news.google.com/rss/articles/CBMie0FVX3lxTFB6RGxOM2pmRjQxQU92N0doSXZvQUF2aEExQkczWEozcm9PTmFRRUhEbWxwdWh1WUYzWFFYVXpGRlhWbHdGck8xbHh6bEx4T0h5aGs1dGVkU2lxMFZuMm9jWDM0UlhaNTh4UTB2VmJCZUZZRzhmcHg4UTdZWQ?oc=5"
+          }
+        ],
+        "link": "https://news.google.com/rss/articles/CBMie0FVX3lxTFB6RGxOM2pmRjQxQU92N0doSXZvQUF2aEExQkczWEozcm9PTmFRRUhEbWxwdWh1WUYzWFFYVXpGRlhWbHdGck8xbHh6bEx4T0h5aGs1dGVkU2lxMFZuMm9jWDM0UlhaNTh4UTB2VmJCZUZZRzhmcHg4UTdZWQ?oc=5",
+        "id": "CBMie0FVX3lxTFB6RGxOM2pmRjQxQU92N0doSXZvQUF2aEExQkczWEozcm9PTmFRRUhEbWxwdWh1WUYzWFFYVXpGRlhWbHdGck8xbHh6bEx4T0h5aGs1dGVkU2lxMFZuMm9jWDM0UlhaNTh4UTB2VmJCZUZZRzhmcHg4UTdZWQ",
+        "guidislink": false,
+        "published": "Fri, 02 Oct 2026 23:06:26 GMT",
+        "published_parsed": [
+          2026,
+          10,
+          2,
+          23,
+          6,
+          26,
+          4,
+          275,
+          0
+        ],
+        "summary": "<a href=\"https://news.google.com/rss/articles/CBMie0FVX3lxTFB6RGxOM2pmRjQxQU92N0doSXZvQUF2aEExQkczWEozcm9PTmFRRUhEbWxwdWh1WUYzWFFYVXpGRlhWbHdGck8xbHh6bEx4T0h5aGs1dGVkU2lxMFZuMm9jWDM0UlhaNTh4UTB2VmJCZUZZRzhmcHg4UTdZWQ?oc=5\" target=\"_blank\">Week 4 Injury Report: Seahawks vs. Chargers</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Seattle Seahawks</font>",
+        "summary_detail": {
+          "type": "text/html",
+          "language": null,
+          "base": "",
+          "value": "<a href=\"https://news.google.com/rss/articles/CBMie0FVX3lxTFB6RGxOM2pmRjQxQU92N0doSXZvQUF2aEExQkczWEozcm9PTmFRRUhEbWxwdWh1WUYzWFFYVXpGRlhWbHdGck8xbHh6bEx4T0h5aGs1dGVkU2lxMFZuMm9jWDM0UlhaNTh4UTB2VmJCZUZZRzhmcHg4UTdZWQ?oc=5\" target=\"_blank\">Week 4 Injury Report: Seahawks vs. Chargers</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Seattle Seahawks</font>"
+        },
+        "source": {
+          "href": "https://www.seahawks.com",
+          "title": "Seattle Seahawks"
+        }
+      },
+      "search_query": "Chargers injury report",
+      "related_sources": [
+        "Seattle Seahawks"
+      ],
+      "category_key": "game",
+      "category_name": "경기 결과/프리뷰",
+      "category_badge": "⚡ 경기 소식",
+      "category_icon": "🏈",
+      "importance_score": 55,
+      "priority_tier": "⚡ 주요",
+      "priority_class": "tier-high",
+      "headline_kr": "4주차 부상 보고서: Seahawks 대 Chargers",
+      "summary_bullets_kr": [
+        "⚡ **핵심 소식**: 4주차 부상 보고서: Seahawks 대 Chargers Seattle Seahawks"
       ]
     },
     {
@@ -8672,6 +8673,7 @@
       "related_sources": [
         "Los Angeles Chargers",
         "Democrat and Chronicle",
+        "Seattle Sports",
         "Yahoo Sports"
       ],
       "category_key": "game",
@@ -8750,6 +8752,72 @@
       "headline_kr": "5가지 시사점: Chargers의 4분기 랠리가 시애틀에서 부족함",
       "summary_bullets_kr": [
         "⚡ **핵심 소식**: 5가지 시사점: Chargers의 4분기 랠리가 시애틀에서 실패했습니다. LA Chargers"
+      ]
+    },
+    {
+      "title": "Press Conference: Jim Harbaugh on a Good Week of Preparation Ahead of Seattle",
+      "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxPMmRGeFZoclFzX3dQQW9OZnlKVjgxVWx2MU5BTzFEcldwaDdHU0tJNmlCM3dXS1FnQ25EdzZBQzVzM0w0bDQ2TTdDcjNteC01eFNrVVRMV3FwWVFDTnRkX19BSDczR3BGVGxkdmFvVUFEdkRZdWQxYTBxS1hFbmhsTTVkOFFNUQ?oc=5",
+      "summary": "Press Conference: Jim Harbaugh on a Good Week of Preparation Ahead of Seattle Los Angeles Chargers",
+      "published": "2026-10-02T12:49:53+00:00",
+      "source": "Los Angeles Chargers",
+      "author": "",
+      "raw_entry": {
+        "title": "Press Conference: Jim Harbaugh on a Good Week of Preparation Ahead of Seattle - Los Angeles Chargers",
+        "title_detail": {
+          "type": "text/plain",
+          "language": null,
+          "base": "",
+          "value": "Press Conference: Jim Harbaugh on a Good Week of Preparation Ahead of Seattle - Los Angeles Chargers"
+        },
+        "links": [
+          {
+            "rel": "alternate",
+            "type": "text/html",
+            "href": "https://news.google.com/rss/articles/CBMihgFBVV95cUxPMmRGeFZoclFzX3dQQW9OZnlKVjgxVWx2MU5BTzFEcldwaDdHU0tJNmlCM3dXS1FnQ25EdzZBQzVzM0w0bDQ2TTdDcjNteC01eFNrVVRMV3FwWVFDTnRkX19BSDczR3BGVGxkdmFvVUFEdkRZdWQxYTBxS1hFbmhsTTVkOFFNUQ?oc=5"
+          }
+        ],
+        "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxPMmRGeFZoclFzX3dQQW9OZnlKVjgxVWx2MU5BTzFEcldwaDdHU0tJNmlCM3dXS1FnQ25EdzZBQzVzM0w0bDQ2TTdDcjNteC01eFNrVVRMV3FwWVFDTnRkX19BSDczR3BGVGxkdmFvVUFEdkRZdWQxYTBxS1hFbmhsTTVkOFFNUQ?oc=5",
+        "id": "CBMihgFBVV95cUxPMmRGeFZoclFzX3dQQW9OZnlKVjgxVWx2MU5BTzFEcldwaDdHU0tJNmlCM3dXS1FnQ25EdzZBQzVzM0w0bDQ2TTdDcjNteC01eFNrVVRMV3FwWVFDTnRkX19BSDczR3BGVGxkdmFvVUFEdkRZdWQxYTBxS1hFbmhsTTVkOFFNUQ",
+        "guidislink": false,
+        "published": "Fri, 02 Oct 2026 21:49:53 GMT",
+        "published_parsed": [
+          2026,
+          10,
+          2,
+          21,
+          49,
+          53,
+          4,
+          275,
+          0
+        ],
+        "summary": "<a href=\"https://news.google.com/rss/articles/CBMihgFBVV95cUxPMmRGeFZoclFzX3dQQW9OZnlKVjgxVWx2MU5BTzFEcldwaDdHU0tJNmlCM3dXS1FnQ25EdzZBQzVzM0w0bDQ2TTdDcjNteC01eFNrVVRMV3FwWVFDTnRkX19BSDczR3BGVGxkdmFvVUFEdkRZdWQxYTBxS1hFbmhsTTVkOFFNUQ?oc=5\" target=\"_blank\">Press Conference: Jim Harbaugh on a Good Week of Preparation Ahead of Seattle</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Los Angeles Chargers</font>",
+        "summary_detail": {
+          "type": "text/html",
+          "language": null,
+          "base": "",
+          "value": "<a href=\"https://news.google.com/rss/articles/CBMihgFBVV95cUxPMmRGeFZoclFzX3dQQW9OZnlKVjgxVWx2MU5BTzFEcldwaDdHU0tJNmlCM3dXS1FnQ25EdzZBQzVzM0w0bDQ2TTdDcjNteC01eFNrVVRMV3FwWVFDTnRkX19BSDczR3BGVGxkdmFvVUFEdkRZdWQxYTBxS1hFbmhsTTVkOFFNUQ?oc=5\" target=\"_blank\">Press Conference: Jim Harbaugh on a Good Week of Preparation Ahead of Seattle</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Los Angeles Chargers</font>"
+        },
+        "source": {
+          "href": "https://www.chargers.com",
+          "title": "Los Angeles Chargers"
+        }
+      },
+      "search_query": "Jim Harbaugh Chargers",
+      "related_sources": [
+        "Los Angeles Chargers"
+      ],
+      "category_key": "game",
+      "category_name": "경기 결과/프리뷰",
+      "category_badge": "⚡ 경기 소식",
+      "category_icon": "🏈",
+      "importance_score": 45,
+      "priority_tier": "📰 일반",
+      "priority_class": "tier-normal",
+      "headline_kr": "기자 회견: Jim Harbaugh는 시애틀을 앞두고 좋은 한 주를 준비했습니다.",
+      "summary_bullets_kr": [
+        "⚡ **핵심 소식**: 기자 회견: Jim Harbaugh는 시애틀 LA Chargers를 앞두고 좋은 한 주 동안 준비했습니다.",
+        "🏈 **전술 관전 포인트**: Jim Harbaugh 감독 및 코칭스태프의 피지컬 중심 미식축구 철학이 반영된 행보입니다."
       ]
     },
     {
@@ -9196,8 +9264,7 @@
       },
       "search_query": "Mike McDaniel Chargers",
       "related_sources": [
-        "NFL.com",
-        "NBC Sports"
+        "NFL.com"
       ],
       "category_key": "general",
       "category_name": "팀 일반 소식",
@@ -9866,73 +9933,8 @@
       "summary_bullets_kr": [
         "⚡ **핵심 소식**: 5가지 시사점: Chargers는 0-2 스타트 이후 더 나아질 것을 맹세합니다. LA Chargers"
       ]
-    },
-    {
-      "title": "Chargers blank Wayne State, roll to 2-0 with 49-0 victory",
-      "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNQTVVRm9EMWFlNkpfMlFKUGpRSkZHdVJBMjFFU3pzaFdOelJrYmctaGFlRFNYeXFWRHc2VE1IcU0tY2Q4Yks2NlREdGxfR2ZhTmgwOXRrdVlzSnp2YmVyNW5pSllKYjctRzRzZnhCdC1MOHJONjVhOFV4NnlVNkN3RVltS1hSLVgxdGVtMUwtR3laMTlQTHQxdHJwd3ctZkVCS3F5dE1EaG1xNUJhTmY5YURXMUEwUQ?oc=5",
-      "summary": "Chargers blank Wayne State, roll to 2-0 with 49-0 victory Hillsdale College Athletics",
-      "published": "2026-09-11T22:00:00+00:00",
-      "source": "Hillsdale College Athletics",
-      "author": "",
-      "raw_entry": {
-        "title": "Chargers blank Wayne State, roll to 2-0 with 49-0 victory - Hillsdale College Athletics",
-        "title_detail": {
-          "type": "text/plain",
-          "language": null,
-          "base": "",
-          "value": "Chargers blank Wayne State, roll to 2-0 with 49-0 victory - Hillsdale College Athletics"
-        },
-        "links": [
-          {
-            "rel": "alternate",
-            "type": "text/html",
-            "href": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNQTVVRm9EMWFlNkpfMlFKUGpRSkZHdVJBMjFFU3pzaFdOelJrYmctaGFlRFNYeXFWRHc2VE1IcU0tY2Q4Yks2NlREdGxfR2ZhTmgwOXRrdVlzSnp2YmVyNW5pSllKYjctRzRzZnhCdC1MOHJONjVhOFV4NnlVNkN3RVltS1hSLVgxdGVtMUwtR3laMTlQTHQxdHJwd3ctZkVCS3F5dE1EaG1xNUJhTmY5YURXMUEwUQ?oc=5"
-          }
-        ],
-        "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNQTVVRm9EMWFlNkpfMlFKUGpRSkZHdVJBMjFFU3pzaFdOelJrYmctaGFlRFNYeXFWRHc2VE1IcU0tY2Q4Yks2NlREdGxfR2ZhTmgwOXRrdVlzSnp2YmVyNW5pSllKYjctRzRzZnhCdC1MOHJONjVhOFV4NnlVNkN3RVltS1hSLVgxdGVtMUwtR3laMTlQTHQxdHJwd3ctZkVCS3F5dE1EaG1xNUJhTmY5YURXMUEwUQ?oc=5",
-        "id": "CBMitgFBVV95cUxNQTVVRm9EMWFlNkpfMlFKUGpRSkZHdVJBMjFFU3pzaFdOelJrYmctaGFlRFNYeXFWRHc2VE1IcU0tY2Q4Yks2NlREdGxfR2ZhTmgwOXRrdVlzSnp2YmVyNW5pSllKYjctRzRzZnhCdC1MOHJONjVhOFV4NnlVNkN3RVltS1hSLVgxdGVtMUwtR3laMTlQTHQxdHJwd3ctZkVCS3F5dE1EaG1xNUJhTmY5YURXMUEwUQ",
-        "guidislink": false,
-        "published": "Sat, 12 Sep 2026 07:00:00 GMT",
-        "published_parsed": [
-          2026,
-          9,
-          12,
-          7,
-          0,
-          0,
-          5,
-          255,
-          0
-        ],
-        "summary": "<a href=\"https://news.google.com/rss/articles/CBMitgFBVV95cUxNQTVVRm9EMWFlNkpfMlFKUGpRSkZHdVJBMjFFU3pzaFdOelJrYmctaGFlRFNYeXFWRHc2VE1IcU0tY2Q4Yks2NlREdGxfR2ZhTmgwOXRrdVlzSnp2YmVyNW5pSllKYjctRzRzZnhCdC1MOHJONjVhOFV4NnlVNkN3RVltS1hSLVgxdGVtMUwtR3laMTlQTHQxdHJwd3ctZkVCS3F5dE1EaG1xNUJhTmY5YURXMUEwUQ?oc=5\" target=\"_blank\">Chargers blank Wayne State, roll to 2-0 with 49-0 victory</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Hillsdale College Athletics</font>",
-        "summary_detail": {
-          "type": "text/html",
-          "language": null,
-          "base": "",
-          "value": "<a href=\"https://news.google.com/rss/articles/CBMitgFBVV95cUxNQTVVRm9EMWFlNkpfMlFKUGpRSkZHdVJBMjFFU3pzaFdOelJrYmctaGFlRFNYeXFWRHc2VE1IcU0tY2Q4Yks2NlREdGxfR2ZhTmgwOXRrdVlzSnp2YmVyNW5pSllKYjctRzRzZnhCdC1MOHJONjVhOFV4NnlVNkN3RVltS1hSLVgxdGVtMUwtR3laMTlQTHQxdHJwd3ctZkVCS3F5dE1EaG1xNUJhTmY5YURXMUEwUQ?oc=5\" target=\"_blank\">Chargers blank Wayne State, roll to 2-0 with 49-0 victory</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Hillsdale College Athletics</font>"
-        },
-        "source": {
-          "href": "https://hillsdalechargers.com",
-          "title": "Hillsdale College Athletics"
-        }
-      },
-      "search_query": "Chargers game recap",
-      "related_sources": [
-        "Hillsdale College Athletics"
-      ],
-      "category_key": "general",
-      "category_name": "팀 일반 소식",
-      "category_badge": "⚡ 팀 소식",
-      "category_icon": "⚡",
-      "importance_score": 10,
-      "priority_tier": "📰 일반",
-      "priority_class": "tier-normal",
-      "headline_kr": "Chargers는 Wayne State를 공백으로 만들고 49-0 승리로 2-0으로 굴립니다.",
-      "summary_bullets_kr": [
-        "⚡ **핵심 소식**: Chargers는 Wayne State를 공백으로 만들고 Hillsdale College Athletics에 49-0 승리로 2-0으로 승리했습니다."
-      ]
     }
   ],
   "total_count": 121,
-  "updated_at": "2026-10-09 14:10:39"
+  "updated_at": "2026-10-09 14:34:16"
 }
