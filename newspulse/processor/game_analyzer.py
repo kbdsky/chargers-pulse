@@ -41,12 +41,12 @@ class GameAnalyzer:
         if not valid_game_articles:
             return {
                 "has_game_data": False,
-                "opponent": "Arizona Cardinals (AZ Cardinals)",
-                "game_type": "2026 정규시즌 1주차 홈 개막전 (SoFi Stadium)",
-                "score_detected": "킥오프 대기 (개막전 프리뷰)",
-                "highlights": ["현재 정규시즌 1주차 Arizona Cardinals와의 홈 개막전 대비 훈련 및 전술 점검이 진행 중입니다."],
-                "offense_notes": "QB Justin Herbert 중심의 패싱 전술과 Joe Alt, Rashawn Slater의 든든한 태클 라인 프로텍션",
-                "defense_notes": "Jesse Minter 수비 코디네이터 지휘 아래 Khalil Mack, Tuli Tuipulotu, Bud Dupree의 강력한 엣지 패스 러시 가동",
+                "opponent": "Denver Broncos (DEN Broncos)",
+                "game_type": "2026 정규시즌 5주차 (SoFi Stadium / 디비전 라이벌전)",
+                "score_detected": "킥오프 대기 (5주차 덴버전 프리뷰)",
+                "highlights": ["현재 정규시즌 5주차 Denver Broncos와의 AFC West 홈경기 대비 훈련 및 전술 점검이 진행 중입니다."],
+                "offense_notes": "Jim Harbaugh 감독과 Mike McDaniel OC 체제 하에서 QB Justin Herbert 중심의 패싱 전술 및 턴오버 억제",
+                "defense_notes": "Chris O'Leary 수비 코디네이터 지휘 아래 Khalil Mack, Tuli Tuipulotu, Bud Dupree의 강력한 엣지 패스 러시 가동",
             }
 
         # 2. Determine current opponent and matchup based on mention frequency
@@ -82,24 +82,33 @@ class GameAnalyzer:
             elif sched_next_opp:
                 latest_opponent = sched_next_opp
             else:
-                latest_opponent = "Seattle Seahawks (SEA Seahawks)"
+                latest_opponent = "Denver Broncos (DEN Broncos)"
 
-        if "seahawks" in latest_opponent.lower():
-            game_type = "2026 정규시즌 4주차 (Lumen Field / NFC 원정)"
-            game_status = "킥오프 대기 (4주차 시애틀 원정)"
-            offense_notes = "0승 3패 벼랑 끝에서 배수의 진을 친 Jim Harbaugh호와 Mike McDaniel OC의 공격진 반등 총력전, QB Justin Herbert와 리시빙 코어의 다운필드 전개 및 Joe Alt, Rashawn Slater의 패스 프로텍션"
-            defense_notes = "Jesse Minter 수비 코디네이터 지휘 아래 시애틀 패싱 어택 차단, Khalil Mack·Tuli Tuipulotu·Bud Dupree의 엣지 압박 및 후방 세컨더리 정비"
+        if "broncos" in latest_opponent.lower():
+            game_type = "2026 정규시즌 5주차 (SoFi Stadium / AFC West 디비전 라이벌전)"
+            game_status = "킥오프 대기 (5주차 덴버 브롱코스 홈경기)"
+            offense_notes = "0승 4패 배수의 진을 친 Jim Harbaugh호와 Mike McDaniel OC의 공격진 반등 총력전, Joe Alt·Rashawn Slater 부상 공백 속 QB Justin Herbert의 퀵릴리즈 패싱 및 턴오버 억제"
+            defense_notes = "Chris O'Leary 수비 코디네이터 지휘 아래 Bo Nix의 덴버 오펜스 봉쇄, Khalil Mack·Tuli Tuipulotu의 패스 러시 및 세컨더리 턴오버 유도"
             highlights = [
-                "🏈 **2026 NFL 4주차 원정 맞대결**: Lumen Field에서 열리는 Seattle Seahawks와의 인터컨퍼런스 원정전",
-                "🔥 **시즌 첫 승을 향한 총력전**: 개막 3연패(Cardinals 14-26, Raiders 14-26, Bills 16-24)로 위기에 몰린 Chargers의 필승 승부처",
-                "🏈 **공격진 핵심 관전 포인트**: Mike McDaniel OC 체제 공격진의 득점력 회복 및 QB Justin Herbert의 클러치 리딩",
-                "🏈 **수비진 핵심 관전 포인트**: Khalil Mack의 쿼터백 압박 및 시애틀의 공격 옵션 무력화"
+                "🏈 **2026 NFL 5주차 홈 맞대결**: SoFi Stadium에서 열리는 Denver Broncos와의 AFC West 디비전 라이벌전",
+                "🔥 **시즌 첫 승을 향한 배수의 진**: 개막 4연패(0승 4패) 수렁 탈출을 위한 Jim Harbaugh호의 필승 분수령",
+                "🏈 **공격진 핵심 관전 포인트**: Mike McDaniel OC 체제의 레드존 결정력 개선 및 주전 태클 부상 공백 극복",
+                "🏈 **수비진 핵심 관전 포인트**: Chris O'Leary DC 체제 하에서 Khalil Mack의 압박과 덴버 Bo Nix 봉쇄",
+            ]
+        elif "seahawks" in latest_opponent.lower():
+            game_type = "2026 정규시즌 4주차 (Lumen Field / NFC 원정)"
+            game_status = "23 - 30 (패배)"
+            offense_notes = "QB Justin Herbert와 Mike McDaniel OC의 후반 추격전에도 불구하고 결정적 턴오버로 석패"
+            defense_notes = "Chris O'Leary 수비 코디네이터 지휘 아래 막판 시애틀 득점 억제 실패"
+            highlights = [
+                "🏈 **2026 NFL 4주차 경기 결과**: Seattle Seahawks에 23-30 석패 (시즌 0승 4패)",
+                "🏈 **Jim Harbaugh 감독 체제 점검**: 4쿼터 맹추격에도 불구하고 실점 누적으로 개막 4연패 기록",
             ]
         elif "bills" in latest_opponent.lower():
             game_type = "2026 정규시즌 3주차 (Highmark Stadium)"
             game_status = "16 - 24 (패배)"
-            offense_notes = "QB Justin Herbert 중심의 패싱 전술과 Joe Alt, Rashawn Slater의 오펜시브 라인 수호"
-            defense_notes = "Jesse Minter 수비 코디네이터 지휘 아래 Josh Allen 봉쇄 시도 및 수비진 분전"
+            offense_notes = "QB Justin Herbert 중심의 패싱 전술과 오펜시브 라인 수호"
+            defense_notes = "Chris O'Leary 수비 코디네이터 지휘 아래 Buffalo Bills 봉쇄 시도 및 수비진 분전"
             highlights = [
                 "🏈 **2026 NFL 3주차 경기 결과**: Buffalo Bills에 16-24 패배 (시즌 0승 3패)",
                 "🏈 **Jim Harbaugh호 반등 과제**: 턴오버 및 레드존 득점 효율성 개선 필요",
@@ -107,7 +116,7 @@ class GameAnalyzer:
         elif "raiders" in latest_opponent.lower():
             game_type = "2026 정규시즌 2주차 (SoFi Stadium / AFC West 라이벌전)"
             game_status = "14 - 26 (패배)"
-            offense_notes = "QB Justin Herbert 중심의 패싱 전술과 Joe Alt, Rashawn Slater의 태클 프로텍션"
+            offense_notes = "QB Justin Herbert 중심의 패싱 전술과 태클 프로텍션"
             defense_notes = "Khalil Mack, Tuli Tuipulotu, Bud Dupree의 엣지 압박 및 Derwin James Jr.의 수비 조율"
             highlights = [
                 "🏈 **2026 NFL 2주차 경기 결과**: Las Vegas Raiders에 14-26 패배 (시즌 0승 2패)",
@@ -116,8 +125,8 @@ class GameAnalyzer:
         elif "cardinals" in latest_opponent.lower():
             game_type = "2026 정규시즌 1주차 (SoFi Stadium)"
             game_status = "14 - 26 (패배)"
-            offense_notes = "QB Justin Herbert 중심의 패싱 전술과 Joe Alt, Rashawn Slater의 오펜시브 라인 프로텍션"
-            defense_notes = "Jesse Minter 수비 코디네이터 지휘 아래 Khalil Mack, Tuli Tuipulotu의 엣지 러시 및 수비진 조직력"
+            offense_notes = "QB Justin Herbert 중심의 패싱 전술과 오펜시브 라인 프로텍션"
+            defense_notes = "Chris O'Leary 수비 코디네이터 지휘 아래 Khalil Mack, Tuli Tuipulotu의 엣지 러시 및 수비진 조직력"
             highlights = [
                 "🏈 **2026 NFL 1주차 경기 결과**: Arizona Cardinals에 14-26 패배",
                 "🏈 **Jim Harbaugh 감독 체제 점검**: 오펜스 라인 및 수비진 조직력 재정비 필요",
@@ -126,7 +135,7 @@ class GameAnalyzer:
             game_type = f"2026 시즌 경기 (상대: {latest_opponent})"
             game_status = "경기 프리뷰"
             offense_notes = "QB Justin Herbert 중심의 패싱 전술과 오펜시브 라인 프로텍션"
-            defense_notes = "Jesse Minter 수비 코디네이터 지휘 아래 Khalil Mack 중심의 패스 러시 및 세컨더리 압박"
+            defense_notes = "Chris O'Leary 수비 코디네이터 지휘 아래 Khalil Mack 중심의 패스 러시 및 세컨더리 압박"
             highlights = [
                 f"🏈 **{latest_opponent} 맞대결**: 팀 전력 및 주요 전술 점검",
             ]
