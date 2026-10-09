@@ -42,7 +42,7 @@ BASE_GOOGLE_NEWS_QUERIES = [
     "Justin Herbert Chargers",
     "Jim Harbaugh Chargers",
     "Mike McDaniel Chargers",
-    "Chargers vs Seahawks",
+    "Chargers vs Broncos",
     "Chargers injury report",
     "Chargers game recap",
 ]
