@@ -826,8 +826,8 @@
             <div class="injury-filter-bar">
                 <button class="injury-filter-btn active" onclick="filterInjuryStatus('ALL', this)">전체 명단 (<span id="countAll">0</span>)</button>
                 <button class="injury-filter-btn" onclick="filterInjuryStatus('OUT_IR', this)">🚨 결장 / IR (<span id="countOut">0</span>)</button>
-                <button class="injury-filter-btn" onclick="filterInjuryStatus('QUESTIONABLE', this)">⚠️ 출전 불투명 (<span id="countQuest">0</span>)</button>
-                <button class="injury-filter-btn" onclick="filterInjuryStatus('ACTIVE', this)">✅ 정상 출전 (<span id="countActive">0</span>)</button>
+                <button class="injury-filter-btn" onclick="filterInjuryStatus('QUESTIONABLE', this)">⚠️ 출전 미정/불투명 (<span id="countQuest">0</span>)</button>
+                <button class="injury-filter-btn" onclick="filterInjuryStatus('ACTIVE', this)">✅ 부상 아님/정상 (<span id="countActive">0</span>)</button>
             </div>
 
             <!-- View Switcher (Table vs Card) -->
@@ -1121,9 +1121,11 @@
 
         let allInjuryPlayers = [];
 
+        const isUndecided = (p) => p.status_code === 'QUESTIONABLE' || p.status_code === 'PENDING';
+
         function updateInjuryCounts(players) {
             const outCount = players.filter(p => p.status_code === 'OUT' || p.status_code === 'IR').length;
-            const questCount = players.filter(p => p.status_code === 'QUESTIONABLE').length;
+            const questCount = players.filter(isUndecided).length;
             const activeCount = players.filter(p => p.status_code === 'ACTIVE').length;
 
             const cAll = document.getElementById('countAll');
@@ -1145,7 +1147,7 @@
             if (filterType === 'OUT_IR') {
                 filtered = allInjuryPlayers.filter(p => p.status_code === 'OUT' || p.status_code === 'IR');
             } else if (filterType === 'QUESTIONABLE') {
-                filtered = allInjuryPlayers.filter(p => p.status_code === 'QUESTIONABLE');
+                filtered = allInjuryPlayers.filter(isUndecided);
             } else if (filterType === 'ACTIVE') {
                 filtered = allInjuryPlayers.filter(p => p.status_code === 'ACTIVE');
             }
@@ -1182,11 +1184,12 @@
 
         function getStatusBadge(code, text) {
             const c = (code || '').toUpperCase();
-            if (c === 'ACTIVE') return `<span class="badge-status badge-status-active">Active</span>`;
-            if (c === 'QUESTIONABLE') return `<span class="badge-status badge-status-questionable">Questionable</span>`;
+            if (c === 'ACTIVE') return `<span class="badge-status badge-status-active">${text || 'Active'}</span>`;
+            if (c === 'QUESTIONABLE') return `<span class="badge-status badge-status-questionable">${text || 'Questionable'}</span>`;
+            if (c === 'PENDING') return `<span class="badge-status badge-status-questionable">${text || '미정'}</span>`;
             if (c === 'OUT') return `<span class="badge-status badge-status-out">Out</span>`;
-            if (c === 'IR') return `<span class="badge-status badge-status-ir">IR / PUP</span>`;
-            return `<span class="badge-status badge-status-active">${text || 'Active'}</span>`;
+            if (c === 'IR') return `<span class="badge-status badge-status-ir">IR</span>`;
+            return `<span class="badge-status badge-status-questionable">${text || '미정'}</span>`;
         }
 
         function renderInjuryData(players) {
