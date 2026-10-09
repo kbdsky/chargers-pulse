@@ -31,7 +31,7 @@ KEY_PLAYERS_EN = {
     "hampton": "Omarion Hampton (RB)",
     "slater": "Rashawn Slater (OT)",
     "biadasz": "Tyler Biadasz (C)",
-    "minter": "Jesse Minter (DC)",
+    "oleary": "Chris O'Leary (DC)",
     "mcdaniel": "Mike McDaniel (OC)",
     "hortiz": "Joe Hortiz (GM)",
 }
