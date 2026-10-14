@@ -1,0 +1,3816 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>⚡ LA Chargers 종합 뉴스 인텔리전스 주간 리포트 - LA Chargers News Briefing</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Pretendard:wght@300;400;600;700;800&family=Montserrat:wght@700;900&display=swap" rel="stylesheet">
+    <style>
+        :root {
+            --powder-blue: #0080C6;
+            --powder-blue-light: #38b6ff;
+            --powder-blue-glow: rgba(0, 128, 198, 0.25);
+            --sunshine-gold: #FFC20E;
+            --navy-deep: #07101E;
+            --navy-surface: #0C1E38;
+            --navy-card: #132A4D;
+            --navy-card-hover: #183560;
+            --navy-border: #1E3E6B;
+            --text-main: #F1F5F9;
+            --text-muted: #94A3B8;
+            --text-dark: #07101E;
+            --red-alert: #EF4444;
+            --green-success: #10B981;
+        }
+
+        * { box-sizing: border-box; margin: 0; padding: 0; }
+
+        body {
+            font-family: 'Pretendard', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+            background-color: var(--navy-deep);
+            color: var(--text-main);
+            line-height: 1.6;
+            padding-bottom: 60px;
+        }
+
+        /* Top Header */
+        header {
+            background: linear-gradient(135deg, #0C2340 0%, #004D7A 60%, #0080C6 100%);
+            border-bottom: 3px solid var(--sunshine-gold);
+            padding: 36px 20px;
+            text-align: center;
+            position: relative;
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.4);
+        }
+
+        .header-content { max-width: 1150px; margin: 0 auto; }
+
+        .bolt-badge {
+            display: inline-flex;
+            align-items: center;
+            gap: 6px;
+            background: var(--sunshine-gold);
+            color: var(--navy-deep);
+            font-family: 'Montserrat', sans-serif;
+            font-weight: 900;
+            font-size: 0.85rem;
+            letter-spacing: 1.5px;
+            padding: 5px 16px;
+            border-radius: 9999px;
+            margin-bottom: 10px;
+            box-shadow: 0 4px 12px rgba(255, 194, 14, 0.3);
+        }
+
+        h1 {
+            font-family: 'Montserrat', 'Pretendard', sans-serif;
+            font-size: 2.3rem;
+            font-weight: 900;
+            color: #FFFFFF;
+            letter-spacing: -0.5px;
+            margin-bottom: 6px;
+        }
+
+        h1 span { color: var(--sunshine-gold); }
+
+        .header-meta {
+            color: #E2E8F0;
+            font-size: 0.92rem;
+            display: flex;
+            justify-content: center;
+            gap: 18px;
+            flex-wrap: wrap;
+            margin-top: 8px;
+        }
+
+        .container { max-width: 1150px; margin: 0 auto; padding: 0 20px; }
+
+        /* Executive Briefing Banner */
+        .briefing-card {
+            background: var(--navy-surface);
+            border: 1px solid var(--navy-border);
+            border-left: 5px solid var(--sunshine-gold);
+            border-radius: 14px;
+            padding: 24px 28px;
+            margin-top: -24px;
+            box-shadow: 0 8px 24px rgba(0, 0, 0, 0.3);
+        }
+
+        .briefing-title {
+            font-size: 1.25rem;
+            font-weight: 700;
+            color: var(--sunshine-gold);
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            margin-bottom: 16px;
+        }
+
+        .takeaways-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+            gap: 12px;
+            margin-bottom: 18px;
+        }
+
+        .takeaway-item {
+            background: var(--navy-card);
+            border: 1px solid var(--navy-border);
+            border-radius: 10px;
+            padding: 12px 16px;
+            font-size: 0.92rem;
+            line-height: 1.5;
+        }
+
+        .briefing-extras {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 14px;
+            margin-top: 14px;
+            padding-top: 14px;
+            border-top: 1px solid var(--navy-border);
+        }
+
+        @media (max-width: 768px) { .briefing-extras { grid-template-columns: 1fr; } }
+
+        .extra-box {
+            background: rgba(0, 128, 198, 0.1);
+            border: 1px solid var(--powder-blue-glow);
+            border-radius: 8px;
+            padding: 12px 16px;
+            font-size: 0.88rem;
+        }
+
+        .extra-box strong { color: var(--powder-blue-light); display: block; margin-bottom: 4px; }
+
+        /* Dynamic Trending Keyword Pills */
+        .trends-section {
+            background: var(--navy-surface);
+            border: 1px solid var(--navy-border);
+            border-radius: 12px;
+            padding: 16px 20px;
+            margin: 20px 0;
+            display: flex;
+            align-items: center;
+            gap: 14px;
+            flex-wrap: wrap;
+        }
+
+        .trends-title {
+            font-weight: 700;
+            color: var(--sunshine-gold);
+            font-size: 0.9rem;
+            white-space: nowrap;
+        }
+
+        .trend-pill {
+            background: var(--navy-card);
+            border: 1px solid var(--powder-blue);
+            color: var(--powder-blue-light);
+            padding: 4px 12px;
+            border-radius: 20px;
+            font-size: 0.82rem;
+            font-weight: 600;
+        }
+
+        /* Game & Matchup Intelligence Center */
+        .game-center-card {
+            background: linear-gradient(145deg, #0C1E38 0%, #102A4E 100%);
+            border: 1px solid var(--navy-border);
+            border-top: 4px solid var(--powder-blue);
+            border-radius: 14px;
+            padding: 24px;
+            margin-bottom: 24px;
+            box-shadow: 0 6px 20px rgba(0,0,0,0.25);
+        }
+
+        .game-center-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            flex-wrap: wrap;
+            gap: 12px;
+            margin-bottom: 16px;
+        }
+
+        .game-title {
+            font-size: 1.25rem;
+            font-weight: 800;
+            color: #FFFFFF;
+            display: flex;
+            align-items: center;
+            gap: 8px;
+        }
+
+        .game-meta-pills { display: flex; gap: 8px; flex-wrap: wrap; }
+
+        .game-pill {
+            background: var(--navy-card);
+            border: 1px solid var(--navy-border);
+            color: var(--sunshine-gold);
+            padding: 4px 10px;
+            border-radius: 6px;
+            font-size: 0.82rem;
+            font-weight: 700;
+        }
+
+        .game-grid {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 14px;
+            margin-top: 14px;
+        }
+
+        @media (max-width: 768px) { .game-grid { grid-template-columns: 1fr; } }
+
+        .tactical-box {
+            background: var(--navy-card);
+            border: 1px solid var(--navy-border);
+            border-radius: 10px;
+            padding: 14px 16px;
+            font-size: 0.88rem;
+        }
+
+        .tactical-box h4 {
+            color: var(--powder-blue-light);
+            margin-bottom: 6px;
+            font-size: 0.95rem;
+        }
+
+        /* Top Priority Highlights Section */
+        .section-header {
+            font-size: 1.25rem;
+            font-weight: 800;
+            color: #FFFFFF;
+            margin: 28px 0 16px 0;
+            display: flex;
+            align-items: center;
+            gap: 8px;
+        }
+
+        .top-highlights-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+            gap: 16px;
+            margin-bottom: 28px;
+        }
+
+        .highlight-card {
+            background: var(--navy-surface);
+            border: 1px solid var(--navy-border);
+            border-top: 3px solid var(--sunshine-gold);
+            border-radius: 12px;
+            padding: 18px;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+        }
+
+        .highlight-card:hover {
+            border-color: var(--sunshine-gold);
+            transform: translateY(-2px);
+            transition: all 0.2s ease;
+        }
+
+        /* Stats Bar */
+        .stats-bar {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+            gap: 12px;
+            margin: 20px 0;
+        }
+
+        .stat-card {
+            background: var(--navy-surface);
+            border: 1px solid var(--navy-border);
+            border-radius: 12px;
+            padding: 14px;
+            text-align: center;
+        }
+
+        .stat-val {
+            font-size: 1.7rem;
+            font-weight: 800;
+            color: var(--powder-blue-light);
+            font-family: 'Montserrat', sans-serif;
+        }
+
+        .stat-label { font-size: 0.8rem; color: var(--text-muted); margin-top: 2px; }
+
+        /* Controls / Filters */
+        .controls-row {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            gap: 14px;
+            flex-wrap: wrap;
+            margin: 24px 0 16px 0;
+        }
+
+        .filter-buttons { display: flex; gap: 8px; flex-wrap: wrap; }
+
+        .filter-btn {
+            background: var(--navy-surface);
+            border: 1px solid var(--navy-border);
+            color: var(--text-muted);
+            padding: 7px 13px;
+            border-radius: 8px;
+            font-size: 0.84rem;
+            font-weight: 600;
+            cursor: pointer;
+            transition: all 0.2s ease;
+        }
+
+        .filter-btn:hover, .filter-btn.active {
+            background: var(--powder-blue);
+            color: #FFFFFF;
+            border-color: var(--powder-blue-light);
+        }
+
+        .search-box { position: relative; min-width: 240px; }
+
+        .search-box input {
+            width: 100%;
+            background: var(--navy-surface);
+            border: 1px solid var(--navy-border);
+            color: #FFFFFF;
+            padding: 7px 14px 7px 32px;
+            border-radius: 8px;
+            font-size: 0.86rem;
+            outline: none;
+        }
+
+        .search-box input:focus {
+            border-color: var(--powder-blue);
+            box-shadow: 0 0 0 2px var(--powder-blue-glow);
+        }
+
+        .search-box span {
+            position: absolute;
+            left: 10px;
+            top: 50%;
+            transform: translateY(-50%);
+            color: var(--text-muted);
+        }
+
+        /* News Cards List */
+        .news-grid { display: flex; flex-direction: column; gap: 14px; }
+
+        .news-card {
+            background: var(--navy-surface);
+            border: 1px solid var(--navy-border);
+            border-radius: 12px;
+            padding: 20px;
+            transition: transform 0.2s ease, border-color 0.2s ease;
+        }
+
+        .news-card:hover {
+            transform: translateY(-2px);
+            border-color: var(--powder-blue);
+            box-shadow: 0 6px 20px rgba(0, 128, 198, 0.15);
+        }
+
+        .card-header-meta {
+            display: flex;
+            align-items: center;
+            gap: 8px;
+            margin-bottom: 10px;
+            flex-wrap: wrap;
+        }
+
+        .badge-cat {
+            background: rgba(0, 128, 198, 0.2);
+            color: var(--powder-blue-light);
+            border: 1px solid var(--powder-blue);
+            font-size: 0.75rem;
+            font-weight: 700;
+            padding: 2px 8px;
+            border-radius: 6px;
+        }
+
+        .badge-tier {
+            background: rgba(255, 194, 14, 0.15);
+            color: var(--sunshine-gold);
+            border: 1px solid rgba(255, 194, 14, 0.4);
+            font-size: 0.75rem;
+            font-weight: 700;
+            padding: 2px 8px;
+            border-radius: 6px;
+        }
+
+        .badge-source { font-size: 0.78rem; color: #E2E8F0; font-weight: 600; }
+        .badge-date { font-size: 0.76rem; color: var(--text-muted); margin-left: auto; }
+
+        .news-title-kr {
+            font-size: 1.1rem;
+            font-weight: 700;
+            color: #FFFFFF;
+            margin-bottom: 4px;
+            line-height: 1.4;
+        }
+
+        .news-title-en {
+            font-size: 0.85rem;
+            color: var(--text-muted);
+            margin-bottom: 12px;
+            font-style: italic;
+        }
+
+        .news-bullets {
+            background: var(--navy-card);
+            border-radius: 8px;
+            padding: 10px 14px 10px 26px;
+            margin-bottom: 14px;
+            border-left: 3px solid var(--powder-blue);
+        }
+
+        .news-bullets li { font-size: 0.88rem; color: #E2E8F0; margin-bottom: 4px; }
+        .news-bullets li:last-child { margin-bottom: 0; }
+
+        .card-footer { display: flex; justify-content: flex-end; align-items: center; }
+
+        .read-btn {
+            background: var(--navy-card);
+            color: var(--powder-blue-light);
+            border: 1px solid var(--navy-border);
+            padding: 5px 12px;
+            border-radius: 6px;
+            font-size: 0.8rem;
+            font-weight: 600;
+            text-decoration: none;
+            transition: all 0.2s ease;
+        }
+
+        .read-btn:hover {
+            background: var(--powder-blue);
+            color: #FFFFFF;
+            border-color: var(--powder-blue);
+        }
+
+        footer { text-align: center; margin-top: 60px; color: var(--text-muted); font-size: 0.82rem; }
+    </style>
+</head>
+<body>
+
+    <header>
+        <div class="header-content">
+            <div class="bolt-badge">⚡ BOLT UP INTELLIGENCE REPORT</div>
+            <h1>LA CHARGERS <span>FULL BRIEFING</span></h1>
+            <div class="header-meta">
+                <span>📅 생성 일시: <strong>2026-10-14 03:40:24</strong></span>
+                <span>⚡ 전수 수집 기사: <strong>122건</strong></span>
+                <span>🏈 대상: <strong>Los Angeles Chargers (NFL)</strong></span>
+            </div>
+        </div>
+    </header>
+
+    <div class="container">
+        <!-- Executive Briefing -->
+        <section class="briefing-card">
+            <div class="briefing-title">
+                <span>⚡</span>
+                <span>⚡ LA Chargers 주간 인텔리전스 종합 리포트 (총 122건 정밀 분석)</span>
+            </div>
+            
+            <div class="takeaways-grid">
+                
+                <div class="takeaway-item">⚡ **스마트 큐레이션 및 중복 제거**: 총 122건의 언론 기사를 정밀 클러스터링하여 핵심 이슈 위주로 요약했습니다.</div>
+                
+                <div class="takeaway-item">🏈 **매치업 포커스**: 2026 시즌 경기 (상대: Kansas City Chiefs (KC Chiefs)) (상대: Kansas City Chiefs (KC Chiefs))</div>
+                
+                <div class="takeaway-item">🎯 **집중 조명된 핵심 인물**: Justin Herbert (QB)(26건), Jim Harbaugh (HC)(24건), Mike McDaniel (OC)(15건)</div>
+                
+                <div class="takeaway-item">🔥 **헤드라인 키워드**: justin herbert, mike mcdaniel, link comments, yahoo sports</div>
+                
+            </div>
+
+            <div class="briefing-extras">
+                <div class="extra-box">
+                    <strong>📋 부상 및 53인 로스터 동향</strong>
+                    <div>부상 리포트 공식 테이블(Injury Report Table)에서 상세 출전 상태 및 연습 참가 여부(DNP/LP/FP)를 확인하세요.</div>
+                </div>
+                <div class="extra-box">
+                    <strong>🏈 종합 분석 및 코멘트</strong>
+                    <div>현재 0승 4패로 시즌 첫 승을 거두지 못하고 있습니다. 다음 경기는 6주차 Kansas City Chiefs (KC Chiefs) 원정전입니다.</div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Dynamic Trending Keyword Pills -->
+        
+        <div class="trends-section">
+            <div class="trends-title">🔥 실시간 트렌드 키워드:</div>
+            
+            <span class="trend-pill">#justin herbert</span>
+            
+            <span class="trend-pill">#mike mcdaniel</span>
+            
+            <span class="trend-pill">#link comments</span>
+            
+            <span class="trend-pill">#yahoo sports</span>
+            
+            <span class="trend-pill">#injury report</span>
+            
+            <span class="trend-pill">#Justin Herbert</span>
+            
+            <span class="trend-pill">#Jim Harbaugh</span>
+            
+            <span class="trend-pill">#Los Angeles Chargers</span>
+            
+            <span class="trend-pill">#Yahoo Sports</span>
+            
+            <span class="trend-pill">#Denver Broncos</span>
+            
+            <span class="trend-pill">#herbert</span>
+            
+            <span class="trend-pill">#justin</span>
+            
+            <span class="trend-pill">#harbaugh</span>
+            
+            <span class="trend-pill">#broncos</span>
+            
+            <span class="trend-pill">#sports</span>
+            
+            <span class="trend-pill">#mcdaniel</span>
+            
+        </div>
+        
+
+        <!-- Game Intelligence Center -->
+        
+        <section class="game-center-card">
+            <div class="game-center-header">
+                <div class="game-title">
+                    <span>🏈</span>
+                    <span>경기 및 매치업 분석 (Game Center)</span>
+                </div>
+                <div class="game-meta-pills">
+                    <span class="game-pill">상대: Kansas City Chiefs (KC Chiefs)</span>
+                    <span class="game-pill">구분: 2026 시즌 경기 (상대: Kansas City Chiefs (KC Chiefs))</span>
+                    <span class="game-pill">스코어/현황: 0-5</span>
+                </div>
+            </div>
+
+            <div class="game-grid">
+                <div class="tactical-box">
+                    <h4>⚔️ 공격진(Offense) 분석</h4>
+                    <p>QB Justin Herbert 중심의 패싱 전술과 오펜시브 라인 프로텍션</p>
+                </div>
+                <div class="tactical-box">
+                    <h4>🛡️ 수비진(Defense) 분석</h4>
+                    <p>Chris O'Leary 수비 코디네이터 지휘 아래 Khalil Mack 중심의 패스 러시 및 세컨더리 압박</p>
+                </div>
+            </div>
+        </section>
+        
+
+        <!-- Top Priority Highlights (TOP 5) -->
+        
+        <div class="section-header">
+            <span>🚨</span>
+            <span>최우선 핵심 뉴스 (Top Priority Highlights)</span>
+        </div>
+        <div class="top-highlights-grid">
+            
+            <div class="highlight-card">
+                <div>
+                    <div class="card-header-meta">
+                        <span class="badge-tier">🚨 긴급/핵심</span>
+                        <span class="badge-cat">📋 부상/로스터</span>
+                        <span class="badge-source">Bolts From The Blue (SB Nation)</span>
+                    </div>
+                    <h3 class="news-title-kr">Chargers는 전 Bengals QB Jake Browning과 계약을 맺었습니다.</h3>
+                    <div class="news-title-en">Chargers sign former Bengals QB Jake Browning</div>
+                    <ul class="news-bullets">
+                        
+                        <li>⚡ **핵심 소식**: 백업 쿼터백 Trey Lance가 최근 IR에 배치됨에 따라 Chargers는 긴급 상황에 대비하여 Justin Herbert에 대한 옵션을 강화하고 있습니다. NFL 내부자 Tom Pelissero에 따르면 Chargers는 전 Bengals 및 Bucs 쿼터백 Jake Browning과 계약했습니다.</li>
+                        
+                        <li>📋 **선수단 영향**: Justin Herbert (QB)의 부상 경과 및 훈련 소화 여부가 주간 라인업 구성의 핵심 변수로 작용합니다.</li>
+                        
+                    </ul>
+                </div>
+                <div class="card-footer">
+                    <a href="https://www.boltsfromtheblue.com/los-angeles-chargers-roster/66274/chargers-workout-steelers-chiefs-wr-juju-smith-schuster" target="_blank" rel="noopener noreferrer" class="read-btn">원문 보기 ↗</a>
+                </div>
+            </div>
+            
+            <div class="highlight-card">
+                <div>
+                    <div class="card-header-meta">
+                        <span class="badge-tier">🚨 긴급/핵심</span>
+                        <span class="badge-cat">⚡ 경기 소식</span>
+                        <span class="badge-source">Bolts From The Blue (SB Nation)</span>
+                    </div>
+                    <h3 class="news-title-kr">Kimani Vidal, Akheem Mesidor 헤드라인 5주차 Chargers 승자/패자</h3>
+                    <div class="news-title-en">Kimani Vidal, Akheem Mesidor headline Week 5’s Chargers Winners/Losers</div>
+                    <ul class="news-bullets">
+                        
+                        <li>⚡ **핵심 소식**: Chargers가 5주 동안 여전히 승리를 거두지 못한 상황에서 승자 열에 머물 선수를 찾는 것이 점점 더 어려워지고 있습니다. 놀랍게도 이번 주는 그러한 플레이어를 찾기가 가장 쉬운 주였습니다.</li>
+                        
+                    </ul>
+                </div>
+                <div class="card-footer">
+                    <a href="https://www.boltsfromtheblue.com/los-angeles-chargers-news/66241/kimani-vidal-akheem-mesidor-headline-week-5s-chargers-winners-losers" target="_blank" rel="noopener noreferrer" class="read-btn">원문 보기 ↗</a>
+                </div>
+            </div>
+            
+            <div class="highlight-card">
+                <div>
+                    <div class="card-header-meta">
+                        <span class="badge-tier">🚨 긴급/핵심</span>
+                        <span class="badge-cat">🎯 영입/계약</span>
+                        <span class="badge-source">CBS Sports</span>
+                    </div>
+                    <h3 class="news-title-kr">Chargers가 Justin Herbert를 트레이드할 예정인가요? QB 처리 가능성 및 착륙 지점 업데이트</h3>
+                    <div class="news-title-en">Will Chargers trade Justin Herbert? Update on possibility of QB being dealt and possible landing spots</div>
+                    <ul class="news-bullets">
+                        
+                        <li>⚡ **핵심 소식**: Chargers가 Justin Herbert를 트레이드할 예정인가요? QB 딜 가능성 및 착륙 지점 업데이트 CBS Sports</li>
+                        
+                        <li>🏈 **주요 인물**: Justin Herbert (QB)의 경기력과 훈련 컨디션이 집중 조명되고 있습니다.</li>
+                        
+                    </ul>
+                </div>
+                <div class="card-footer">
+                    <a href="https://news.google.com/rss/articles/CBMimAFBVV95cUxPRHJuU0RlaURwUDZtQ0JPRkpoaERqWWpkaEVVYmhIc0VFZzBObVRnZDhjX25PS1hfWU0wbDR3QXZYWEN6R1daUUp5Mlkyc0VJOGN4WE9QNzRDOWRud0YyTnRLLTVQc2dtQUFrVDhXM0hVbE9aN2JPZ3VHclJXaTM1VThuaFlVbzZFSk4yTWRNR1hNRDVmRDRZbw?oc=5" target="_blank" rel="noopener noreferrer" class="read-btn">원문 보기 ↗</a>
+                </div>
+            </div>
+            
+            <div class="highlight-card">
+                <div>
+                    <div class="card-header-meta">
+                        <span class="badge-tier">🚨 긴급/핵심</span>
+                        <span class="badge-cat">🎙️ 인터뷰/발언</span>
+                        <span class="badge-source">Reddit r/Chargers</span>
+                    </div>
+                    <h3 class="news-title-kr">재구축...</h3>
+                    <div class="news-title-en">Rebuild...</div>
+                    <ul class="news-bullets">
+                        
+                        <li>⚡ **핵심 소식**: 재구축...</li>
+                        
+                        <li>📋 **선수단 영향**: Justin Herbert (QB), Joe Alt (OT)의 부상 경과 및 훈련 소화 여부가 주간 라인업 구성의 핵심 변수로 작용합니다.</li>
+                        
+                    </ul>
+                </div>
+                <div class="card-footer">
+                    <a href="https://www.reddit.com/r/Chargers/comments/1x54oew/rebuild/" target="_blank" rel="noopener noreferrer" class="read-btn">원문 보기 ↗</a>
+                </div>
+            </div>
+            
+            <div class="highlight-card">
+                <div>
+                    <div class="card-header-meta">
+                        <span class="badge-tier">🚨 긴급/핵심</span>
+                        <span class="badge-cat">⚡ 경기 소식</span>
+                        <span class="badge-source">Bolts From The Blue (SB Nation)</span>
+                    </div>
+                    <h3 class="news-title-kr">Chargers Power Ranking 요약: 무승부 Bolts에 대한 하강이 계속됩니다.</h3>
+                    <div class="news-title-en">Chargers Power Rankings Roundup: The descent continues for winless Bolts</div>
+                    <ul class="news-bullets">
+                        
+                        <li>⚡ **핵심 소식**: Chargers는 Broncos를 상대로 4쿼터에 무너진 후 0-5로 떨어졌습니다. 그들은 이 게임에서 승리할 수 있는 실제적이고 합법적인 기회를 가지고 있었지만 잘못된 네 번째 다운 콜과 약한 볼 보안으로 인해 덴버는 4연속 드라이브에 공을 가져갔습니다.</li>
+                        
+                    </ul>
+                </div>
+                <div class="card-footer">
+                    <a href="https://www.boltsfromtheblue.com/los-angeles-chargers-power-rankings/66093/chargers-power-rankings-espn-cbs-sports-nfl-athletic-yahoo-bleacher-report" target="_blank" rel="noopener noreferrer" class="read-btn">원문 보기 ↗</a>
+                </div>
+            </div>
+            
+        </div>
+        
+
+        <!-- Stats Bar -->
+        <section class="stats-bar">
+            <div class="stat-card">
+                <div class="stat-val">122</div>
+                <div class="stat-label">전수 수집 기사</div>
+            </div>
+            <div class="stat-card">
+                <div class="stat-val">28</div>
+                <div class="stat-label">참여 언론/소스</div>
+            </div>
+            <div class="stat-card">
+                <div class="stat-val">11</div>
+                <div class="stat-label">부상/로스터 리포트</div>
+            </div>
+            <div class="stat-card">
+                <div class="stat-val">49</div>
+                <div class="stat-label">경기/프리뷰 보도</div>
+            </div>
+        </section>
+
+        <!-- Filtering and Search -->
+        <div class="controls-row">
+            <div class="filter-buttons">
+                <button class="filter-btn active" onclick="filterCategory('all', this)">전체 기사 (122)</button>
+                <button class="filter-btn" onclick="filterCategory('game', this)">⚡ 경기 소식</button>
+                <button class="filter-btn" onclick="filterCategory('injury', this)">📋 부상/로스터</button>
+                <button class="filter-btn" onclick="filterCategory('roster', this)">🎯 영입/계약</button>
+                <button class="filter-btn" onclick="filterCategory('interview', this)">🎙️ 인터뷰</button>
+                <button class="filter-btn" onclick="filterCategory('general', this)">⚡ 일반</button>
+            </div>
+            <div class="search-box">
+                <span>🔍</span>
+                <input type="text" id="searchInput" placeholder="기사 검색..." onkeyup="searchArticles()">
+            </div>
+        </div>
+
+        <!-- Full News Archive Grid -->
+        <main class="news-grid" id="newsGrid">
+            
+            <article class="news-card" data-category="injury">
+                <div class="card-header-meta">
+                    <span class="badge-tier">🚨 긴급/핵심</span>
+                    <span class="badge-cat">📋 부상/로스터</span>
+                    <span class="badge-source">📰 Bolts From The Blue (SB Nation)</span>
+                    <span class="badge-date">2026-10-13</span>
+                </div>
+
+                <h2 class="news-title-kr">Chargers는 전 Bengals QB Jake Browning과 계약을 맺었습니다.</h2>
+                <div class="news-title-en">Original: Chargers sign former Bengals QB Jake Browning</div>
+
+                <ul class="news-bullets">
+                    
+                    <li>⚡ **핵심 소식**: 백업 쿼터백 Trey Lance가 최근 IR에 배치됨에 따라 Chargers는 긴급 상황에 대비하여 Justin Herbert에 대한 옵션을 강화하고 있습니다. NFL 내부자 Tom Pelissero에 따르면 Chargers는 전 Bengals 및 Bucs 쿼터백 Jake Browning과 계약했습니다.</li>
+                    
+                    <li>📋 **선수단 영향**: Justin Herbert (QB)의 부상 경과 및 훈련 소화 여부가 주간 라인업 구성의 핵심 변수로 작용합니다.</li>
+                    
+                </ul>
+
+                <div class="card-footer">
+                    <a href="https://www.boltsfromtheblue.com/los-angeles-chargers-roster/66274/chargers-workout-steelers-chiefs-wr-juju-smith-schuster" target="_blank" rel="noopener noreferrer" class="read-btn">
+                        원문 기사 보기 ↗
+                    </a>
+                </div>
+            </article>
+            
+            <article class="news-card" data-category="game">
+                <div class="card-header-meta">
+                    <span class="badge-tier">🚨 긴급/핵심</span>
+                    <span class="badge-cat">⚡ 경기 소식</span>
+                    <span class="badge-source">📰 Bolts From The Blue (SB Nation)</span>
+                    <span class="badge-date">2026-10-13</span>
+                </div>
+
+                <h2 class="news-title-kr">Kimani Vidal, Akheem Mesidor 헤드라인 5주차 Chargers 승자/패자</h2>
+                <div class="news-title-en">Original: Kimani Vidal, Akheem Mesidor headline Week 5’s Chargers Winners/Losers</div>
+
+                <ul class="news-bullets">
+                    
+                    <li>⚡ **핵심 소식**: Chargers가 5주 동안 여전히 승리를 거두지 못한 상황에서 승자 열에 머물 선수를 찾는 것이 점점 더 어려워지고 있습니다. 놀랍게도 이번 주는 그러한 플레이어를 찾기가 가장 쉬운 주였습니다.</li>
+                    
+                </ul>
+
+                <div class="card-footer">
+                    <a href="https://www.boltsfromtheblue.com/los-angeles-chargers-news/66241/kimani-vidal-akheem-mesidor-headline-week-5s-chargers-winners-losers" target="_blank" rel="noopener noreferrer" class="read-btn">
+                        원문 기사 보기 ↗
+                    </a>
+                </div>
+            </article>
+            
+            <article class="news-card" data-category="roster">
+                <div class="card-header-meta">
+                    <span class="badge-tier">🚨 긴급/핵심</span>
+                    <span class="badge-cat">🎯 영입/계약</span>
+                    <span class="badge-source">📰 CBS Sports</span>
+                    <span class="badge-date">2026-10-13</span>
+                </div>
+
+                <h2 class="news-title-kr">Chargers가 Justin Herbert를 트레이드할 예정인가요? QB 처리 가능성 및 착륙 지점 업데이트</h2>
+                <div class="news-title-en">Original: Will Chargers trade Justin Herbert? Update on possibility of QB being dealt and possible landing spots</div>
+
+                <ul class="news-bullets">
+                    
+                    <li>⚡ **핵심 소식**: Chargers가 Justin Herbert를 트레이드할 예정인가요? QB 딜 가능성 및 착륙 지점 업데이트 CBS Sports</li>
+                    
+                    <li>🏈 **주요 인물**: Justin Herbert (QB)의 경기력과 훈련 컨디션이 집중 조명되고 있습니다.</li>
+                    
+                </ul>
+
+                <div class="card-footer">
+                    <a href="https://news.google.com/rss/articles/CBMimAFBVV95cUxPRHJuU0RlaURwUDZtQ0JPRkpoaERqWWpkaEVVYmhIc0VFZzBObVRnZDhjX25PS1hfWU0wbDR3QXZYWEN6R1daUUp5Mlkyc0VJOGN4WE9QNzRDOWRud0YyTnRLLTVQc2dtQUFrVDhXM0hVbE9aN2JPZ3VHclJXaTM1VThuaFlVbzZFSk4yTWRNR1hNRDVmRDRZbw?oc=5" target="_blank" rel="noopener noreferrer" class="read-btn">
+                        원문 기사 보기 ↗
+                    </a>
+                </div>
+            </article>
+            
+            <article class="news-card" data-category="interview">
+                <div class="card-header-meta">
+                    <span class="badge-tier">🚨 긴급/핵심</span>
+                    <span class="badge-cat">🎙️ 인터뷰/발언</span>
+                    <span class="badge-source">📰 Reddit r/Chargers</span>
+                    <span class="badge-date">2026-10-13</span>
+                </div>
+
+                <h2 class="news-title-kr">재구축...</h2>
+                <div class="news-title-en">Original: Rebuild...</div>
+
+                <ul class="news-bullets">
+                    
+                    <li>⚡ **핵심 소식**: 재구축...</li>
+                    
+                    <li>📋 **선수단 영향**: Justin Herbert (QB), Joe Alt (OT)의 부상 경과 및 훈련 소화 여부가 주간 라인업 구성의 핵심 변수로 작용합니다.</li>
+                    
+                </ul>
+
+                <div class="card-footer">
+                    <a href="https://www.reddit.com/r/Chargers/comments/1x54oew/rebuild/" target="_blank" rel="noopener noreferrer" class="read-btn">
+                        원문 기사 보기 ↗
+                    </a>
+                </div>
+            </article>
+            
+            <article class="news-card" data-category="game">
+                <div class="card-header-meta">
+                    <span class="badge-tier">🚨 긴급/핵심</span>
+                    <span class="badge-cat">⚡ 경기 소식</span>
+                    <span class="badge-source">📰 Bolts From The Blue (SB Nation)</span>
+                    <span class="badge-date">2026-10-13</span>
+                </div>
+
+                <h2 class="news-title-kr">Chargers Power Ranking 요약: 무승부 Bolts에 대한 하강이 계속됩니다.</h2>
+                <div class="news-title-en">Original: Chargers Power Rankings Roundup: The descent continues for winless Bolts</div>
+
+                <ul class="news-bullets">
+                    
+                    <li>⚡ **핵심 소식**: Chargers는 Broncos를 상대로 4쿼터에 무너진 후 0-5로 떨어졌습니다. 그들은 이 게임에서 승리할 수 있는 실제적이고 합법적인 기회를 가지고 있었지만 잘못된 네 번째 다운 콜과 약한 볼 보안으로 인해 덴버는 4연속 드라이브에 공을 가져갔습니다.</li>
+                    
+                </ul>
+
+                <div class="card-footer">
+                    <a href="https://www.boltsfromtheblue.com/los-angeles-chargers-power-rankings/66093/chargers-power-rankings-espn-cbs-sports-nfl-athletic-yahoo-bleacher-report" target="_blank" rel="noopener noreferrer" class="read-btn">
+                        원문 기사 보기 ↗
+                    </a>
+                </div>
+            </article>
+            
+            <article class="news-card" data-category="roster">
+                <div class="card-header-meta">
+                    <span class="badge-tier">🚨 긴급/핵심</span>
+                    <span class="badge-cat">🎯 영입/계약</span>
+                    <span class="badge-source">📰 Bleacher Report</span>
+                    <span class="badge-date">2026-10-13</span>
+                </div>
+
+                <h2 class="news-title-kr">새로운 Justin Herbert 거래 소문에 따르면 2026년 NFL 마감일을 앞두고 QB에 대한 Chargers의 입장이 밝혀졌습니다.</h2>
+                <div class="news-title-en">Original: New Justin Herbert Trade Rumors Reveal Chargers' Stance on QB Ahead of 2026 NFL Deadline</div>
+
+                <ul class="news-bullets">
+                    
+                    <li>⚡ **핵심 소식**: 새로운 Justin Herbert 거래 소문에 따르면 2026년 NFL 데드라인 Bleacher 보고서를 앞두고 QB에 대한 Chargers의 입장이 밝혀졌습니다.</li>
+                    
+                    <li>🏈 **주요 인물**: Justin Herbert (QB)의 경기력과 훈련 컨디션이 집중 조명되고 있습니다.</li>
+                    
+                </ul>
+
+                <div class="card-footer">
+                    <a href="https://news.google.com/rss/articles/CBMixAFBVV95cUxQZTNPUHZHMWFBaGtTVDRqMnZFbGZRZTRpa25aR0dJOHJJNEZWV1RVN1h3V3prazB2YWVTZVhSMWJxamVxTlVjbGdyVjlHNTlYblFuSk1BN2ZvLUNaMUVKQTNKamM3VFQ4RVR0SnZzelZ0d1JvN294VDRRbVlHMDRIV3V0WTBhMWtDbWllMFRNOWZGRkpYQ1R0cVVvS1pJNTRpeHFnY21UazRCT1BNTTgxV3J1dVM4cjQzVXdOVVJrVlh5aUsz?oc=5" target="_blank" rel="noopener noreferrer" class="read-btn">
+                        원문 기사 보기 ↗
+                    </a>
+                </div>
+            </article>
+            
+            <article class="news-card" data-category="game">
+                <div class="card-header-meta">
+                    <span class="badge-tier">🚨 긴급/핵심</span>
+                    <span class="badge-cat">⚡ 경기 소식</span>
+                    <span class="badge-source">📰 Bolts From The Blue (SB Nation)</span>
+                    <span class="badge-date">2026-10-13</span>
+                </div>
+
+                <h2 class="news-title-kr">Los Angeles Chargers 뉴스: Omarion Hampton의 사용이 걱정되나요?</h2>
+                <div class="news-title-en">Original: Los Angeles Chargers news: Are you worried about Omarion Hampton’s usage?</div>
+
+                <ul class="news-bullets">
+                    
+                    <li>⚡ **핵심 소식**: 그의 두 왕조 중 하나에서 Hampton의 지분을 소유한 사람으로서 이것은 지난 2주 동안 내 머릿속에서 맴돌았던 것입니다. Seahawks를 상대로 Hampton은 그곳에서 최고처럼 보였습니다.</li>
+                    
+                    <li>🏈 **주요 인물**: Omarion Hampton (RB)의 경기력과 훈련 컨디션이 집중 조명되고 있습니다.</li>
+                    
+                </ul>
+
+                <div class="card-footer">
+                    <a href="https://www.boltsfromtheblue.com/los-angeles-chargers-news/66040/los-angeles-chargers-news-omarion-hampton-kimani-vidal" target="_blank" rel="noopener noreferrer" class="read-btn">
+                        원문 기사 보기 ↗
+                    </a>
+                </div>
+            </article>
+            
+            <article class="news-card" data-category="game">
+                <div class="card-header-meta">
+                    <span class="badge-tier">🚨 긴급/핵심</span>
+                    <span class="badge-cat">⚡ 경기 소식</span>
+                    <span class="badge-source">📰 Reddit r/Chargers</span>
+                    <span class="badge-date">2026-10-12</span>
+                </div>
+
+                <h2 class="news-title-kr">저스틴에게는 더 이상 벤치 친구가 없습니다.</h2>
+                <div class="news-title-en">Original: Justin no longer has his bench friend.</div>
+
+                <ul class="news-bullets">
+                    
+                    <li>⚡ **핵심 소식**: 저스틴에게는 더 이상 벤치 친구가 없습니다.</li>
+                    
+                    <li>📋 **선수단 영향**: Justin Herbert (QB)의 부상 경과 및 훈련 소화 여부가 주간 라인업 구성의 핵심 변수로 작용합니다.</li>
+                    
+                </ul>
+
+                <div class="card-footer">
+                    <a href="https://www.reddit.com/r/Chargers/comments/1x4gu2g/justin_no_longer_has_his_bench_friend/" target="_blank" rel="noopener noreferrer" class="read-btn">
+                        원문 기사 보기 ↗
+                    </a>
+                </div>
+            </article>
+            
+            <article class="news-card" data-category="injury">
+                <div class="card-header-meta">
+                    <span class="badge-tier">🚨 긴급/핵심</span>
+                    <span class="badge-cat">📋 부상/로스터</span>
+                    <span class="badge-source">📰 Reddit r/Chargers</span>
+                    <span class="badge-date">2026-10-12</span>
+                </div>
+
+                <h2 class="news-title-kr">시간이다</h2>
+                <div class="news-title-en">Original: It is time</div>
+
+                <ul class="news-bullets">
+                    
+                    <li>⚡ **핵심 소식**: 시간이다</li>
+                    
+                    <li>📋 **로스터 분석**: Justin Herbert (QB), Jim Harbaugh (HC) 관련 뎁스 차트 변동으로 팀 전력 구성에 변화가 생겼습니다.</li>
+                    
+                </ul>
+
+                <div class="card-footer">
+                    <a href="https://www.reddit.com/r/Chargers/comments/1x4b9bc/it_is_time/" target="_blank" rel="noopener noreferrer" class="read-btn">
+                        원문 기사 보기 ↗
+                    </a>
+                </div>
+            </article>
+            
+            <article class="news-card" data-category="interview">
+                <div class="card-header-meta">
+                    <span class="badge-tier">🚨 긴급/핵심</span>
+                    <span class="badge-cat">🎙️ 인터뷰/발언</span>
+                    <span class="badge-source">📰 Yahoo Sports</span>
+                    <span class="badge-date">2026-10-12</span>
+                </div>
+
+                <h2 class="news-title-kr">Chargers의 Justin Herbert가 현재 NFL에서 최악의 선발 QB인가요?</h2>
+                <div class="news-title-en">Original: Is Chargers’ Justin Herbert the worst starting QB in NFL right now?</div>
+
+                <ul class="news-bullets">
+                    
+                    <li>⚡ **핵심 소식**: Chargers의 Justin Herbert가 현재 NFL에서 최악의 선발 QB인가요?</li>
+                    
+                    <li>🏈 **주요 인물**: Justin Herbert (QB)의 경기력과 훈련 컨디션이 집중 조명되고 있습니다.</li>
+                    
+                </ul>
+
+                <div class="card-footer">
+                    <a href="https://news.google.com/rss/articles/CBMikAFBVV95cUxNTFBxZ3c3YzV6WmxCOHQxQm5ZNXo5R0c2amlFZXZWRFZTckdmZ2wzOTdGd0tMRzEzbG9qaVozLWlRVzNGZl9KdXYtX21faTFiUkFpTkJ5MmtFMHVBbXNfeHRuYnBPeTZ6ZVdEWDdlVXdVa2RKQkJiV1hVTFktRGJramFDWEFjalBfdVBRQU1OSkE?oc=5" target="_blank" rel="noopener noreferrer" class="read-btn">
+                        원문 기사 보기 ↗
+                    </a>
+                </div>
+            </article>
+            
+            <article class="news-card" data-category="game">
+                <div class="card-header-meta">
+                    <span class="badge-tier">🚨 긴급/핵심</span>
+                    <span class="badge-cat">⚡ 경기 소식</span>
+                    <span class="badge-source">📰 Reddit r/Chargers</span>
+                    <span class="badge-date">2026-10-12</span>
+                </div>
+
+                <h2 class="news-title-kr">NFL 미식축구를 안 보는 아내가 어제 경기에 대해 했던 말</h2>
+                <div class="news-title-en">Original: Things my wife who doesn’t watch football said about yesterdays game</div>
+
+                <ul class="news-bullets">
+                    
+                    <li>⚡ **핵심 소식**: NFL 미식축구를 안 보는 아내가 어제 경기에 대해 했던 말</li>
+                    
+                    <li>📋 **선수단 영향**: Justin Herbert (QB), Omarion Hampton (RB)의 부상 경과 및 훈련 소화 여부가 주간 라인업 구성의 핵심 변수로 작용합니다.</li>
+                    
+                </ul>
+
+                <div class="card-footer">
+                    <a href="https://www.reddit.com/r/Chargers/comments/1x43t2x/things_my_wife_who_doesnt_watch_football_said/" target="_blank" rel="noopener noreferrer" class="read-btn">
+                        원문 기사 보기 ↗
+                    </a>
+                </div>
+            </article>
+            
+            <article class="news-card" data-category="interview">
+                <div class="card-header-meta">
+                    <span class="badge-tier">🚨 긴급/핵심</span>
+                    <span class="badge-cat">🎙️ 인터뷰/발언</span>
+                    <span class="badge-source">📰 Sports Illustrated</span>
+                    <span class="badge-date">2026-10-12</span>
+                </div>
+
+                <h2 class="news-title-kr">Chargers가 0-5로 떨어진 후 Jim Harbaugh의 저주스러운 인용문은 LA의 총 위기를 나타냅니다.</h2>
+                <div class="news-title-en">Original: Jim Harbaugh’s Damning Quote After Chargers Fall to 0-5 Signals Total Crisis in LA</div>
+
+                <ul class="news-bullets">
+                    
+                    <li>⚡ **핵심 소식**: Chargers가 0-5로 떨어진 후 Jim Harbaugh의 저주스러운 인용문은 LA Sports Illustrated의 총 위기 신호를 나타냅니다.</li>
+                    
+                    <li>📋 **로스터 분석**: Jim Harbaugh (HC) 관련 뎁스 차트 변동으로 팀 전력 구성에 변화가 생겼습니다.</li>
+                    
+                </ul>
+
+                <div class="card-footer">
+                    <a href="https://news.google.com/rss/articles/CBMimgFBVV95cUxPU3RmQnBQdlZoOEJMQ0FtU05nb1UzTldBbkhOUWItRVNyWWFVcWpxWGdmN3lGOUlSRVhiODVmaENXWDExTkdpWU5kcE93RThuYVhMMnllWEhCMmpjUEVMOVVPdlBDbW9DdHJLcnBOd0hPMU1uT01JRWo4TnZncUZIdE9DVXl0ZjBseHY2SFg1N2MzRlBQYS1HLXd3?oc=5" target="_blank" rel="noopener noreferrer" class="read-btn">
+                        원문 기사 보기 ↗
+                    </a>
+                </div>
+            </article>
+            
+            <article class="news-card" data-category="game">
+                <div class="card-header-meta">
+                    <span class="badge-tier">🚨 긴급/핵심</span>
+                    <span class="badge-cat">⚡ 경기 소식</span>
+                    <span class="badge-source">📰 Yahoo Sports</span>
+                    <span class="badge-date">2026-10-12</span>
+                </div>
+
+                <h2 class="news-title-kr">Chargers의 5연패 이후 할 말을 잃은 Jim Harbaugh(Jim Harbaugh)</h2>
+                <div class="news-title-en">Original: Jim Harbaugh at a loss for words after Chargers’ fifth straight loss</div>
+
+                <ul class="news-bullets">
+                    
+                    <li>⚡ **핵심 소식**: Chargers의 5연패 이후 말문이 막힌 Jim Harbaugh(Jim Harbaugh) 야후 스포츠</li>
+                    
+                    <li>🏈 **전술 관전 포인트**: Jim Harbaugh 감독 및 코칭스태프의 피지컬 중심 미식축구 철학이 반영된 행보입니다.</li>
+                    
+                </ul>
+
+                <div class="card-footer">
+                    <a href="https://news.google.com/rss/articles/CBMiiAFBVV95cUxPWG8xWXFvRWlsMi05X1NydTZ1RFhlc014R3VaYVMzMk1hbVJuUDAtMUFka3FUZEVGVGlDV0NLZi0xT25ZRjh4SG9CYXczbDdjTWFRcVQ1SVV6MXY5Y182OUFreVhHOTdiSGlCVzhZQWRMaGZCQjk3WENOVmNERkNoRUs2bDQtUHN3?oc=5" target="_blank" rel="noopener noreferrer" class="read-btn">
+                        원문 기사 보기 ↗
+                    </a>
+                </div>
+            </article>
+            
+            <article class="news-card" data-category="game">
+                <div class="card-header-meta">
+                    <span class="badge-tier">🚨 긴급/핵심</span>
+                    <span class="badge-cat">⚡ 경기 소식</span>
+                    <span class="badge-source">📰 Bolts From The Blue (SB Nation)</span>
+                    <span class="badge-date">2026-10-11</span>
+                </div>
+
+                <h2 class="news-title-kr">Chargers WR Tre' Harris는 Broncos를 상대로 햄스트링 부상을 입었습니다.</h2>
+                <div class="news-title-en">Original: Chargers WR Tre’ Harris suffers hamstring injury vs. Broncos</div>
+
+                <ul class="news-bullets">
+                    
+                    <li>⚡ **핵심 소식**: Los Angeles Chargers는 Denver Broncos를 상대로 5주 차에도 부상 버그에 시달렸습니다. 2년차 와이드 리시버 트레 해리스(Tre' Harris)가 햄스트링 부상을 입어 경기 복귀가 불투명하다.</li>
+                    
+                </ul>
+
+                <div class="card-footer">
+                    <a href="https://www.boltsfromtheblue.com/los-angeles-chargers-injuries/66218/chargers-wr-tre-harris-suffers-hamstring-injury-vs-broncos" target="_blank" rel="noopener noreferrer" class="read-btn">
+                        원문 기사 보기 ↗
+                    </a>
+                </div>
+            </article>
+            
+            <article class="news-card" data-category="game">
+                <div class="card-header-meta">
+                    <span class="badge-tier">🚨 긴급/핵심</span>
+                    <span class="badge-cat">⚡ 경기 소식</span>
+                    <span class="badge-source">📰 Bolts From The Blue (SB Nation)</span>
+                    <span class="badge-date">2026-10-11</span>
+                </div>
+
+                <h2 class="news-title-kr">Chargers-Broncos 게임 요약: Jim Harbaugh, Bolts는 추악한 4분기에 파열</h2>
+                <div class="news-title-en">Original: Chargers-Broncos Game Recap: Jim Harbaugh, Bolts implode in ugly 4Q</div>
+
+                <ul class="news-bullets">
+                    
+                    <li>⚡ **핵심 소식**: Chargers는 자신의 32 야드 라인에서 12:05의 규정을 유지하면서 Broncos를 상대로 17-10 선두를 유지했습니다. 덴버의 키커 윌 러츠(Will Lutz)가 42야드 필드 골을 놓쳤습니다.</li>
+                    
+                    <li>📋 **선수단 영향**: Jim Harbaugh (HC)의 부상 경과 및 훈련 소화 여부가 주간 라인업 구성의 핵심 변수로 작용합니다.</li>
+                    
+                </ul>
+
+                <div class="card-footer">
+                    <a href="https://www.boltsfromtheblue.com/los-angeles-chargers-news/66195/chargers-broncos-game-recap-justin-herbert-bo-nix-sean-payton-jim-harbaugh" target="_blank" rel="noopener noreferrer" class="read-btn">
+                        원문 기사 보기 ↗
+                    </a>
+                </div>
+            </article>
+            
+            <article class="news-card" data-category="game">
+                <div class="card-header-meta">
+                    <span class="badge-tier">🚨 긴급/핵심</span>
+                    <span class="badge-cat">⚡ 경기 소식</span>
+                    <span class="badge-source">📰 Los Angeles Chargers</span>
+                    <span class="badge-date">2026-10-09</span>
+                </div>
+
+                <h2 class="news-title-kr">Chargers 대 Broncos 부상 보고서: James & Johnston 아웃, McConkey & Kolar는 5주차에 의심스럽습니다.</h2>
+                <div class="news-title-en">Original: Chargers vs. Broncos Injury Report: James & Johnston Out, McConkey & Kolar Questionable in Week 5</div>
+
+                <ul class="news-bullets">
+                    
+                    <li>⚡ **핵심 소식**: 야생마 부상 보고서: James & Johnston 아웃, McConkey & Kolar는 5주차에 의심스럽습니다. Los Angeles Chargers</li>
+                    
+                    <li>📋 **선수단 영향**: Ladd McConkey (WR), Quentin Johnston (WR)의 부상 경과 및 훈련 소화 여부가 주간 라인업 구성의 핵심 변수로 작용합니다.</li>
+                    
+                </ul>
+
+                <div class="card-footer">
+                    <a href="https://news.google.com/rss/articles/CBMihwFBVV95cUxQLThIY09aNDF5OER5alFjVkRpcnRTYml4dDJsUDk2bl8wT0ZsaWkxZHp5OURwSFc3RUlBRUJEeWJLcmRfZm5oNExOczhTSUx3ZnEyeFA5M3RScEtDcUdMWXoxbzlkbmFqR0pTSDUyc0huMG0zVEZBT29sNXl4dEozcENFVGd4Z0E?oc=5" target="_blank" rel="noopener noreferrer" class="read-btn">
+                        원문 기사 보기 ↗
+                    </a>
+                </div>
+            </article>
+            
+            <article class="news-card" data-category="game">
+                <div class="card-header-meta">
+                    <span class="badge-tier">🚨 긴급/핵심</span>
+                    <span class="badge-cat">⚡ 경기 소식</span>
+                    <span class="badge-source">📰 Yahoo Sports</span>
+                    <span class="badge-date">2026-10-09</span>
+                </div>
+
+                <h2 class="news-title-kr">Chargers 부상 보고서: Quentin Johnston, Derwin Hames OUT vs. Broncos</h2>
+                <div class="news-title-en">Original: Chargers Injury Report: Quentin Johnston, Derwin Hames OUT vs. Broncos</div>
+
+                <ul class="news-bullets">
+                    
+                    <li>⚡ **핵심 소식**: Chargers 부상 보고서: Quentin Johnston, Derwin Hames OUT vs. Broncos Yahoo Sports</li>
+                    
+                    <li>📋 **선수단 영향**: Quentin Johnston (WR), Derwin James Jr. (S)의 부상 경과 및 훈련 소화 여부가 주간 라인업 구성의 핵심 변수로 작용합니다.</li>
+                    
+                </ul>
+
+                <div class="card-footer">
+                    <a href="https://news.google.com/rss/articles/CBMikgFBVV95cUxPcENtdVZZNm9EaFdnU3hPWk03TXdHcEIxRmVqVXJVbEJiZEluLTZwRzdxMm5wOTNCdTdKejFHM2tCY0J6SUxpZGJjRGVnc3NoQlZKazNVZkF3ZHRzcjNiTFhHSk1VLUlhREM0YUF0TnhOS012ZEE4MGxyVXJHNUhvbFRnYXljaTdOa05UcTlCSTNrQQ?oc=5" target="_blank" rel="noopener noreferrer" class="read-btn">
+                        원문 기사 보기 ↗
+                    </a>
+                </div>
+            </article>
+            
+            <article class="news-card" data-category="game">
+                <div class="card-header-meta">
+                    <span class="badge-tier">🚨 긴급/핵심</span>
+                    <span class="badge-cat">⚡ 경기 소식</span>
+                    <span class="badge-source">📰 Denver Broncos</span>
+                    <span class="badge-date">2026-10-09</span>
+                </div>
+
+                <h2 class="news-title-kr">부상 보고서: CB Pat Surtain II, Riley Moss는 Broncos의 5주차 경기 대 Chargers에서 제외되었습니다.</h2>
+                <div class="news-title-en">Original: Injury Report: CBs Pat Surtain II, Riley Moss ruled out for Broncos' Week 5 game vs. Chargers</div>
+
+                <ul class="news-bullets">
+                    
+                    <li>⚡ **핵심 소식**: 부상 보고서: CB Pat Surtain II, Riley Moss는 Broncos의 5주차 경기 대 Chargers Denver Broncos에서 제외되었습니다.</li>
+                    
+                </ul>
+
+                <div class="card-footer">
+                    <a href="https://news.google.com/rss/articles/CBMi0wFBVV95cUxOS0F6dVJoSnI3NEYwc1hURnd3Wm93cTdtSlBfUDY0bEh5MUxlUEM2b1BrX1VnTzVndGl0dnBXZmdKaG0xT2JHZUR0dlktSzRlRGJpTGlrZm16SWt3ZXEycjlVVjEzM0diM3p1WXZMTXhORnFZX1RoYlFwUHVHUUc4SDlicmRzaEpaYy00eWhuT0kweVZtTm02ZVcya01JV1hSbjc5T1ZqaUt0MEY5N2Z3bHRLOTRaTm1aUGJzNGx0ckRJdk0zSmVVRnV0Zl9GM1ZvMFVv?oc=5" target="_blank" rel="noopener noreferrer" class="read-btn">
+                        원문 기사 보기 ↗
+                    </a>
+                </div>
+            </article>
+            
+            <article class="news-card" data-category="roster">
+                <div class="card-header-meta">
+                    <span class="badge-tier">🚨 긴급/핵심</span>
+                    <span class="badge-cat">🎯 영입/계약</span>
+                    <span class="badge-source">📰 Reddit r/Chargers</span>
+                    <span class="badge-date">2026-10-13</span>
+                </div>
+
+                <h2 class="news-title-kr">[Schefter] 다른 사람들은 Justin Herbert를 트레이드해야 하는지에 대해 토론했지만 Chargers는 그렇지 않았습니다.</h2>
+                <div class="news-title-en">Original: [Schefter] While other have debated whether Justin Herbert should be traded, the Chargers have not.</div>
+
+                <ul class="news-bullets">
+                    
+                    <li>⚡ **핵심 소식**: 다른 사람들은 Justin Herbert를 트레이드해야 하는지에 대해 토론했지만 Chargers는 그렇지 않았습니다.</li>
+                    
+                    <li>🏈 **주요 인물**: Justin Herbert (QB)의 경기력과 훈련 컨디션이 집중 조명되고 있습니다.</li>
+                    
+                </ul>
+
+                <div class="card-footer">
+                    <a href="https://www.reddit.com/r/Chargers/comments/1x56knr/schefter_while_other_have_debated_whether_justin/" target="_blank" rel="noopener noreferrer" class="read-btn">
+                        원문 기사 보기 ↗
+                    </a>
+                </div>
+            </article>
+            
+            <article class="news-card" data-category="interview">
+                <div class="card-header-meta">
+                    <span class="badge-tier">🚨 긴급/핵심</span>
+                    <span class="badge-cat">🎙️ 인터뷰/발언</span>
+                    <span class="badge-source">📰 Los Angeles Chargers</span>
+                    <span class="badge-date">2026-10-12</span>
+                </div>
+
+                <h2 class="news-title-kr">5가지 시사점: Jim Harbaugh가 Turn Around Chargers 0-5 시작에서 '헬벤트'인 이유</h2>
+                <div class="news-title-en">Original: 5 Takeaways: Why Jim Harbaugh is 'Hellbent' on Turning Around Chargers 0-5 Start</div>
+
+                <ul class="news-bullets">
+                    
+                    <li>⚡ **핵심 소식**: 5가지 시사점: Jim Harbaugh가 Chargers 전환에 대해 '헬벤트'인 이유 0-5 Los Angeles Chargers 시작</li>
+                    
+                    <li>🏈 **전술 관전 포인트**: Jim Harbaugh 감독 및 코칭스태프의 피지컬 중심 미식축구 철학이 반영된 행보입니다.</li>
+                    
+                </ul>
+
+                <div class="card-footer">
+                    <a href="https://news.google.com/rss/articles/CBMihgFBVV95cUxNM3hhZzhrdHh0N19tRFZka1R3Q3l4UVRiZ1RadjE3VHQzajRYRTUtc1RqY1FaWVp0YzFfUWx6U2dpemFtWHJBeG9LS0VtMkdVY2M0SWxXRy1rMVk2M1VIRWhaMFAtUG1tcWJVTWlGNGZUT010Tm5JRi1aUnU4aHBuaGk3d0lXQQ?oc=5" target="_blank" rel="noopener noreferrer" class="read-btn">
+                        원문 기사 보기 ↗
+                    </a>
+                </div>
+            </article>
+            
+            <article class="news-card" data-category="injury">
+                <div class="card-header-meta">
+                    <span class="badge-tier">🚨 긴급/핵심</span>
+                    <span class="badge-cat">📋 부상/로스터</span>
+                    <span class="badge-source">📰 Reddit r/Chargers</span>
+                    <span class="badge-date">2026-10-12</span>
+                </div>
+
+                <h2 class="news-title-kr">설마 이 사람 작년이랑 똑같은 사람이라니…</h2>
+                <div class="news-title-en">Original: No way this is the same guy as last year…</div>
+
+                <ul class="news-bullets">
+                    
+                    <li>⚡ **핵심 소식**: 설마 이 사람 작년이랑 똑같은 사람이라니…</li>
+                    
+                </ul>
+
+                <div class="card-footer">
+                    <a href="https://www.reddit.com/r/Chargers/comments/1x4acrr/no_way_this_is_the_same_guy_as_last_year/" target="_blank" rel="noopener noreferrer" class="read-btn">
+                        원문 기사 보기 ↗
+                    </a>
+                </div>
+            </article>
+            
+            <article class="news-card" data-category="interview">
+                <div class="card-header-meta">
+                    <span class="badge-tier">🚨 긴급/핵심</span>
+                    <span class="badge-cat">🎙️ 인터뷰/발언</span>
+                    <span class="badge-source">📰 CBS Sports</span>
+                    <span class="badge-date">2026-10-12</span>
+                </div>
+
+                <h2 class="news-title-kr">Jim Harbaugh가 대학 NFL 미식축구로 돌아가는 길이 막혔습니다: 엄청난 NCAA 페널티가 Chargers 코치의 길을 막고 있습니다.</h2>
+                <div class="news-title-en">Original: Jim Harbaugh path back to college football is blocked: Massive NCAA penalties stand in Chargers coach's way</div>
+
+                <ul class="news-bullets">
+                    
+                    <li>⚡ **핵심 소식**: Jim Harbaugh가 대학 NFL 미식축구로 돌아가는 길이 막혔습니다: 엄청난 NCAA 페널티가 Chargers 코치의 길을 가로막고 있습니다 CBS 스포츠</li>
+                    
+                    <li>🏈 **전술 관전 포인트**: Jim Harbaugh 감독 및 코칭스태프의 피지컬 중심 미식축구 철학이 반영된 행보입니다.</li>
+                    
+                </ul>
+
+                <div class="card-footer">
+                    <a href="https://news.google.com/rss/articles/CBMimAFBVV95cUxNUWNmY2FualdqM1dWd3UyNnJlbkkxaUhESVlPQnh1S1VDNnZib2dQNVNDWWhCa1lkWFJmNy13Sng3TkZudWtqWE93OTRoT0lMcWpRbE5sSkRTTXFCa3lWS2pmR1VGTlE5YXppZHNwN1JrZXZZaE5XLXcyV3BMOXViN2F5Vm84Zmx1OEJWZ1Z5VUx4NTlBb1dTNA?oc=5" target="_blank" rel="noopener noreferrer" class="read-btn">
+                        원문 기사 보기 ↗
+                    </a>
+                </div>
+            </article>
+            
+            <article class="news-card" data-category="roster">
+                <div class="card-header-meta">
+                    <span class="badge-tier">🚨 긴급/핵심</span>
+                    <span class="badge-cat">🎯 영입/계약</span>
+                    <span class="badge-source">📰 Bolt Beat</span>
+                    <span class="badge-date">2026-10-08</span>
+                </div>
+
+                <h2 class="news-title-kr">Chargers는 곧 불편한 Justin Herbert 거래 결정에 직면할 수 있습니다.</h2>
+                <div class="news-title-en">Original: Chargers may face an uncomfortable Justin Herbert trade decision very soon</div>
+
+                <ul class="news-bullets">
+                    
+                    <li>⚡ **핵심 소식**: Chargers는 곧 불편한 Justin Herbert 거래 결정에 직면할 수 있습니다.</li>
+                    
+                    <li>🏈 **주요 인물**: Justin Herbert (QB)의 경기력과 훈련 컨디션이 집중 조명되고 있습니다.</li>
+                    
+                </ul>
+
+                <div class="card-footer">
+                    <a href="https://news.google.com/rss/articles/CBMimwFBVV95cUxPaG1OaWZ6bkhaazVNbDZ2OXlkRGY1RjNzQ3FRS1lYOTdMdzAxTUJCOGtsQ2dMZlBGZzVENzNxX1BRNFp4cktPSVJxTVpvM1JhUkhOWUxOaXczbkk5U2o1azVvWFF6UkJLR3J5RHJPQnBKcDlISEEyOWJReU5mblBYck85U1NsVVJjenNwRGVLcmlmTURWel9jSUVSTQ?oc=5" target="_blank" rel="noopener noreferrer" class="read-btn">
+                        원문 기사 보기 ↗
+                    </a>
+                </div>
+            </article>
+            
+            <article class="news-card" data-category="game">
+                <div class="card-header-meta">
+                    <span class="badge-tier">🚨 긴급/핵심</span>
+                    <span class="badge-cat">⚡ 경기 소식</span>
+                    <span class="badge-source">📰 Bolts From The Blue (SB Nation)</span>
+                    <span class="badge-date">2026-10-12</span>
+                </div>
+
+                <h2 class="news-title-kr">Chargers Week 5 PFF 등급: Scott Matlock이 엄청난 성과를 거두며 돌아왔고 Akheem Mesidor는 거의 엘리트에 가깝습니다.</h2>
+                <div class="news-title-en">Original: Chargers Week 5 PFF Grades: Scott Matlock returns with a bang, Akheem Mesidor nearly elite</div>
+
+                <ul class="news-bullets">
+                    
+                    <li>⚡ **핵심 소식**: Chargers의 수비는 올 시즌 5경기 연속 공격에 비해 더 나은 유닛으로 다시 한번 등장했다. Linebacker Del'Shawn Phillips는 프로로서 최고의 게임을 플레이하여 90.0+ "엘리트" 영역에서 게임 등급을 거의 획득했습니다.</li>
+                    
+                </ul>
+
+                <div class="card-footer">
+                    <a href="https://www.boltsfromtheblue.com/los-angeles-chargers-news/66244/chargers-week-5-pff-grades-scott-matlock-akheem-mesidor-justin-herbert" target="_blank" rel="noopener noreferrer" class="read-btn">
+                        원문 기사 보기 ↗
+                    </a>
+                </div>
+            </article>
+            
+            <article class="news-card" data-category="interview">
+                <div class="card-header-meta">
+                    <span class="badge-tier">🚨 긴급/핵심</span>
+                    <span class="badge-cat">🎙️ 인터뷰/발언</span>
+                    <span class="badge-source">📰 Yahoo Sports</span>
+                    <span class="badge-date">2026-10-10</span>
+                </div>
+
+                <h2 class="news-title-kr">Chargers의 투쟁 속에서 파워 랭킹 하위 5위 QB 중 Justin Herbert</h2>
+                <div class="news-title-en">Original: Justin Herbert Among Bottom-5 QBs in Power Rankings Amid Chargers’ Struggles</div>
+
+                <ul class="news-bullets">
+                    
+                    <li>⚡ **핵심 소식**: Chargers의 고군분투 속에서 Justin Herbert가 파워 랭킹 하위 5위 QB에 포함 야후 스포츠</li>
+                    
+                    <li>🏈 **주요 인물**: Justin Herbert (QB)의 경기력과 훈련 컨디션이 집중 조명되고 있습니다.</li>
+                    
+                </ul>
+
+                <div class="card-footer">
+                    <a href="https://news.google.com/rss/articles/CBMihAFBVV95cUxPYnlpMlY5NnVhV0JDSVFCSU9WOUhCdGN4OGttMS1zTHM4QW5BcE9yci1Cc1B4c1dVWVBaUmlBUl9ZVXRXbDZmMldIVDhRcE1oOEtKTEhQeHNEeElVMDhNTHVXYWR6aG5SVG1FZ2ZyRm8tQWtqR253aURuY3QtRzJOT2Znd2Y?oc=5" target="_blank" rel="noopener noreferrer" class="read-btn">
+                        원문 기사 보기 ↗
+                    </a>
+                </div>
+            </article>
+            
+            <article class="news-card" data-category="interview">
+                <div class="card-header-meta">
+                    <span class="badge-tier">🚨 긴급/핵심</span>
+                    <span class="badge-cat">🎙️ 인터뷰/발언</span>
+                    <span class="badge-source">📰 Yahoo Sports</span>
+                    <span class="badge-date">2026-10-09</span>
+                </div>
+
+                <h2 class="news-title-kr">LA Chargers 뉴스: 새로운 QB 순위 저장고에 있는 Justin Herbert</h2>
+                <div class="news-title-en">Original: Los Angeles Chargers news: Justin Herbert in cellar of new QB rankings</div>
+
+                <ul class="news-bullets">
+                    
+                    <li>⚡ **핵심 소식**: LA Chargers 뉴스: 새로운 QB 순위 저장고에 있는 Justin Herbert Yahoo Sports</li>
+                    
+                    <li>🏈 **주요 인물**: Justin Herbert (QB)의 경기력과 훈련 컨디션이 집중 조명되고 있습니다.</li>
+                    
+                </ul>
+
+                <div class="card-footer">
+                    <a href="https://news.google.com/rss/articles/CBMiiAFBVV95cUxPQnpLT1NLbFVNTHktTlN5RG5yQnJiQmxnQmRRXzNEVUx3eW9HdXEwNXdwS0FxeGM3R3BfUEhqMmptVjFiTWp4Nk1wYVNKcS1QWFFaYW1iSlZSUkx1X01WS3NkQnMyOVhkc2hKaElqQWZaczVGNGMwTWdvRWthWWFGMndNTVpRNUty?oc=5" target="_blank" rel="noopener noreferrer" class="read-btn">
+                        원문 기사 보기 ↗
+                    </a>
+                </div>
+            </article>
+            
+            <article class="news-card" data-category="interview">
+                <div class="card-header-meta">
+                    <span class="badge-tier">🚨 긴급/핵심</span>
+                    <span class="badge-cat">🎙️ 인터뷰/발언</span>
+                    <span class="badge-source">📰 Yahoo Sports</span>
+                    <span class="badge-date">2026-10-07</span>
+                </div>
+
+                <h2 class="news-title-kr">Justin Herbert, Chargers의 악몽 시작 속에서 희미한 희망 제공</h2>
+                <div class="news-title-en">Original: Justin Herbert Offers Glimmer of Hope Amid Chargers’ Nightmare Start</div>
+
+                <ul class="news-bullets">
+                    
+                    <li>⚡ **핵심 소식**: Justin Herbert(Justin Herbert)는 Chargers(Chargers)의 악몽 시작 속에서 희미한 희망을 제공합니다. 야후 스포츠(Yahoo Sports)</li>
+                    
+                    <li>🏈 **주요 인물**: Justin Herbert (QB)의 경기력과 훈련 컨디션이 집중 조명되고 있습니다.</li>
+                    
+                </ul>
+
+                <div class="card-footer">
+                    <a href="https://news.google.com/rss/articles/CBMiiwFBVV95cUxNeUZWRFdQOHd0b1kydUZ5QnF2ZDJUd21sb09CcUZBZ3pkY0RMdTJKeVBoMm9VSUxkcVl1UnNncGRWcXBhYTFtMjkxODFZRHNjblVfV2pNdTFaNzNuUjdvWGN2WXZzWWdGZVpYUlBvRmx0S01pblJjTVByRnE5eHpsX2t5V28tY1N3MDFR?oc=5" target="_blank" rel="noopener noreferrer" class="read-btn">
+                        원문 기사 보기 ↗
+                    </a>
+                </div>
+            </article>
+            
+            <article class="news-card" data-category="game">
+                <div class="card-header-meta">
+                    <span class="badge-tier">🚨 긴급/핵심</span>
+                    <span class="badge-cat">⚡ 경기 소식</span>
+                    <span class="badge-source">📰 Reddit r/Chargers</span>
+                    <span class="badge-date">2026-10-13</span>
+                </div>
+
+                <h2 class="news-title-kr">[Furtado] Chargers는 WR Luke Grimm을 연습 팀에 영입했습니다. Grimm은 2025년 프리시즌 동안 UDFA 신인으로 팀과 함께 66야드 펀트 리턴 터치다운을 기록했습니다. 그는</h2>
+                <div class="news-title-en">Original: [Furtado] Chargers signed WR Luke Grimm to their practice squad.Grimm recorded a 66-yard punt return touchdown while with the team as an UDFA rookie during the 2025 preseason. He spent some time with the Chargers this past preseason as well. Has yet to make his NFL debut.</div>
+
+                <ul class="news-bullets">
+                    
+                    <li>⚡ **핵심 소식**: Chargers는 WR Luke Grimm을 연습 팀에 영입했습니다. Grimm은 2025년 프리시즌 동안 UDFA 신인으로 팀과 함께 66야드 펀트 리턴 터치다운을 기록했습니다. 그는 약간을 썼다</li>
+                    
+                </ul>
+
+                <div class="card-footer">
+                    <a href="https://www.reddit.com/r/Chargers/comments/1x59tvc/furtado_chargers_signed_wr_luke_grimm_to_their/" target="_blank" rel="noopener noreferrer" class="read-btn">
+                        원문 기사 보기 ↗
+                    </a>
+                </div>
+            </article>
+            
+            <article class="news-card" data-category="injury">
+                <div class="card-header-meta">
+                    <span class="badge-tier">🚨 긴급/핵심</span>
+                    <span class="badge-cat">📋 부상/로스터</span>
+                    <span class="badge-source">📰 Reddit r/Chargers</span>
+                    <span class="badge-date">2026-10-13</span>
+                </div>
+
+                <h2 class="news-title-kr">키마니 비달 RB1?</h2>
+                <div class="news-title-en">Original: Kimani Vidal RB1?</div>
+
+                <ul class="news-bullets">
+                    
+                    <li>⚡ **핵심 소식**: 키마니 비달 RB1?</li>
+                    
+                    <li>🏈 **공격 전술 관전 포인트**: Mike McDaniel 신임 오펜시브 코디네이터의 전술 안착과 QB Justin Herbert의 플레이메이킹 극대화가 핵심 과제입니다.</li>
+                    
+                </ul>
+
+                <div class="card-footer">
+                    <a href="https://www.reddit.com/r/Chargers/comments/1x4zuio/kimani_vidal_rb1/" target="_blank" rel="noopener noreferrer" class="read-btn">
+                        원문 기사 보기 ↗
+                    </a>
+                </div>
+            </article>
+            
+            <article class="news-card" data-category="injury">
+                <div class="card-header-meta">
+                    <span class="badge-tier">🚨 긴급/핵심</span>
+                    <span class="badge-cat">📋 부상/로스터</span>
+                    <span class="badge-source">📰 Reddit r/Chargers</span>
+                    <span class="badge-date">2026-10-13</span>
+                </div>
+
+                <h2 class="news-title-kr">이 사람에게 찬사를 보냅니다. 그는 끔찍한 시즌에 큰 빛을 발했습니다</h2>
+                <div class="news-title-en">Original: Kudos to this guy. He has been a huge bright spot in a horrible season</div>
+
+                <ul class="news-bullets">
+                    
+                    <li>⚡ **핵심 소식**: 이 사람에게 찬사를 보냅니다. 그는 끔찍한 시즌에 큰 빛을 발했습니다</li>
+                    
+                </ul>
+
+                <div class="card-footer">
+                    <a href="https://www.reddit.com/r/Chargers/comments/1x4msxn/kudos_to_this_guy_he_has_been_a_huge_bright_spot/" target="_blank" rel="noopener noreferrer" class="read-btn">
+                        원문 기사 보기 ↗
+                    </a>
+                </div>
+            </article>
+            
+            <article class="news-card" data-category="interview">
+                <div class="card-header-meta">
+                    <span class="badge-tier">🚨 긴급/핵심</span>
+                    <span class="badge-cat">🎙️ 인터뷰/발언</span>
+                    <span class="badge-source">📰 Reddit r/Chargers</span>
+                    <span class="badge-date">2026-10-12</span>
+                </div>
+
+                <h2 class="news-title-kr">이게 짐의 엉망이야</h2>
+                <div class="news-title-en">Original: This is Jim’s Mess</div>
+
+                <ul class="news-bullets">
+                    
+                    <li>⚡ **핵심 소식**: 이게 짐의 엉망이야</li>
+                    
+                    <li>📋 **선수단 영향**: Justin Herbert (QB), Mike McDaniel (OC)의 부상 경과 및 훈련 소화 여부가 주간 라인업 구성의 핵심 변수로 작용합니다.</li>
+                    
+                </ul>
+
+                <div class="card-footer">
+                    <a href="https://www.reddit.com/r/Chargers/comments/1x4cpqr/this_is_jims_mess/" target="_blank" rel="noopener noreferrer" class="read-btn">
+                        원문 기사 보기 ↗
+                    </a>
+                </div>
+            </article>
+            
+            <article class="news-card" data-category="interview">
+                <div class="card-header-meta">
+                    <span class="badge-tier">🚨 긴급/핵심</span>
+                    <span class="badge-cat">🎙️ 인터뷰/발언</span>
+                    <span class="badge-source">📰 Yahoo Sports</span>
+                    <span class="badge-date">2026-10-12</span>
+                </div>
+
+                <h2 class="news-title-kr">Jim Harbaugh는 Chargers가 0-5로 떨어진 후 걱정스러운 답변을 제공합니다.</h2>
+                <div class="news-title-en">Original: Jim Harbaugh gives worrying answer after Chargers fall to 0-5</div>
+
+                <ul class="news-bullets">
+                    
+                    <li>⚡ **핵심 소식**: Jim Harbaugh는 Chargers가 Yahoo Sports에 0-5로 떨어진 후 걱정스러운 답변을 제공합니다.</li>
+                    
+                    <li>🏈 **전술 관전 포인트**: Jim Harbaugh 감독 및 코칭스태프의 피지컬 중심 미식축구 철학이 반영된 행보입니다.</li>
+                    
+                </ul>
+
+                <div class="card-footer">
+                    <a href="https://news.google.com/rss/articles/CBMiiwFBVV95cUxNT0Vmb000Rk95cnFiZmRrQ1U3UVVGb0VXZ3lYZWVjWW5DU1ZQZlRtRU1UNjlmY3g5Wkh4aG9KSVFKLUw2LWRVV3R4QTFYTkVQam9TcjN4cU1iYzJJYWhDYjNKZXNDRWxMaHhldlJKcEN2WjBHUnhTNWQtT09xblNWUk8xOVNnU0h4ZjRn?oc=5" target="_blank" rel="noopener noreferrer" class="read-btn">
+                        원문 기사 보기 ↗
+                    </a>
+                </div>
+            </article>
+            
+            <article class="news-card" data-category="interview">
+                <div class="card-header-meta">
+                    <span class="badge-tier">🚨 긴급/핵심</span>
+                    <span class="badge-cat">🎙️ 인터뷰/발언</span>
+                    <span class="badge-source">📰 Yahoo Sports</span>
+                    <span class="badge-date">2026-10-08</span>
+                </div>
+
+                <h2 class="news-title-kr">Chargers 코치 Jim Harbaugh, 기자의 '모욕'에 반응</h2>
+                <div class="news-title-en">Original: Chargers coach Jim Harbaugh reacts to ‘insult’ from reporter</div>
+
+                <ul class="news-bullets">
+                    
+                    <li>⚡ **핵심 소식**: Chargers 코치 Jim Harbaugh(Jim Harbaugh)는 야후 스포츠 기자의 '모욕'에 반응했다.</li>
+                    
+                    <li>🏈 **전술 관전 포인트**: Jim Harbaugh 감독 및 코칭스태프의 피지컬 중심 미식축구 철학이 반영된 행보입니다.</li>
+                    
+                </ul>
+
+                <div class="card-footer">
+                    <a href="https://news.google.com/rss/articles/CBMiiwFBVV95cUxOSjk3ZXY2Y3V3NGlvb05GakVVcWhja2t0RUFyYmpjUl9iNm5pZG1WcHdSTFdPQWN5a1NaOURBUDhTLWhZd3ZwX0JUQjMwZjFEaEZmNGNIbXVkSFRwTWkwaC0yc19YQjFUNUZDX2FLejZmZERpa1hXbHI5RVEtbnlCdWtFWmx0X2k5ZVVB?oc=5" target="_blank" rel="noopener noreferrer" class="read-btn">
+                        원문 기사 보기 ↗
+                    </a>
+                </div>
+            </article>
+            
+            <article class="news-card" data-category="interview">
+                <div class="card-header-meta">
+                    <span class="badge-tier">🚨 긴급/핵심</span>
+                    <span class="badge-cat">🎙️ 인터뷰/발언</span>
+                    <span class="badge-source">📰 CBS Sports</span>
+                    <span class="badge-date">2026-10-08</span>
+                </div>
+
+                <h2 class="news-title-kr">Chargers의 Justin Herbert는 "엘리트"입니까? 그는 NFL 최고의 쿼터백 10명 중 한 명도 아닙니다.</h2>
+                <div class="news-title-en">Original: Is Chargers' Justin Herbert "elite"? He is NOT even one of the 10 best quarterbacks in the NFL</div>
+
+                <ul class="news-bullets">
+                    
+                    <li>⚡ **핵심 소식**: Chargers의 Justin Herbert는 "엘리트"입니까? 그는 NFL CBS 스포츠 최고의 쿼터백 10명 중 한 명도 아닙니다.</li>
+                    
+                    <li>🏈 **주요 인물**: Justin Herbert (QB)의 경기력과 훈련 컨디션이 집중 조명되고 있습니다.</li>
+                    
+                </ul>
+
+                <div class="card-footer">
+                    <a href="https://news.google.com/rss/articles/CBMinwFBVV95cUxPQ25XX1B2R25POU9sZnh6cGFHSVZBMEVBNVFZakk1VkdLbkgyQ05sclFHMzZVMldRODQ5RlAwQUlocllxaWF1WS1aYV95Mm1PUU5CM2ZYdDRkQ3hUVUR3ZEdBVllZRXhQZzFSRXJGdHN1WEY0ekNGX2wtbDlCcUlHT0p3eFNVSUZINWtjS19lb1UzZVZFZUR4MW1xcGRHSTQ?oc=5" target="_blank" rel="noopener noreferrer" class="read-btn">
+                        원문 기사 보기 ↗
+                    </a>
+                </div>
+            </article>
+            
+            <article class="news-card" data-category="interview">
+                <div class="card-header-meta">
+                    <span class="badge-tier">🚨 긴급/핵심</span>
+                    <span class="badge-cat">🎙️ 인터뷰/발언</span>
+                    <span class="badge-source">📰 Los Angeles Chargers</span>
+                    <span class="badge-date">2026-10-07</span>
+                </div>
+
+                <h2 class="news-title-kr">기자 회견: 공격의 후반전 성과를 기반으로 한 Justin Herbert(Justin Herbert)</h2>
+                <div class="news-title-en">Original: Press Conference: Justin Herbert on Building on the Offense's Second-Half Performance</div>
+
+                <ul class="news-bullets">
+                    
+                    <li>⚡ **핵심 소식**: 기자 회견: Justin Herbert(Justin Herbert), 공격팀의 후반전 성과 LA Chargers(Los Angeles Chargers)를 기반으로 구축</li>
+                    
+                    <li>🏈 **주요 인물**: Justin Herbert (QB)의 경기력과 훈련 컨디션이 집중 조명되고 있습니다.</li>
+                    
+                </ul>
+
+                <div class="card-footer">
+                    <a href="https://news.google.com/rss/articles/CBMijAFBVV95cUxPOGhyR04wRWZWTDQxNkNFbllTdDB6d3JkQ3NIMjFYdkJoNFE5RnJRNFZQdnI2WDdXYlJ3dU5KTkVKQzVwUG9iMEI1aXk0enAxbFZrLVZLX0toUDdJZ0VTTG04VlhnbVVjTEVlSGVfNmMtMThwQjZjM1BQczhfTGVXVWxPejRTeW9SSkdfSw?oc=5" target="_blank" rel="noopener noreferrer" class="read-btn">
+                        원문 기사 보기 ↗
+                    </a>
+                </div>
+            </article>
+            
+            <article class="news-card" data-category="injury">
+                <div class="card-header-meta">
+                    <span class="badge-tier">🚨 긴급/핵심</span>
+                    <span class="badge-cat">📋 부상/로스터</span>
+                    <span class="badge-source">📰 Reddit r/Chargers</span>
+                    <span class="badge-date">2026-10-13</span>
+                </div>
+
+                <h2 class="news-title-kr">[Insdorf] 출처별: Chargers는 오늘 WR JuJu Smith-Schuster 및 WR Ronnie Bell을 작업했습니다.</h2>
+                <div class="news-title-en">Original: [Insdorf] Per source: Chargers worked out WR JuJu Smith-Schuster and WR Ronnie Bell today</div>
+
+                <ul class="news-bullets">
+                    
+                    <li>⚡ **핵심 소식**: 출처별: Chargers는 오늘 WR JuJu Smith-Schuster 및 WR Ronnie Bell을 작업했습니다.</li>
+                    
+                </ul>
+
+                <div class="card-footer">
+                    <a href="https://www.reddit.com/r/Chargers/comments/1x59q08/insdorf_per_source_chargers_worked_out_wr_juju/" target="_blank" rel="noopener noreferrer" class="read-btn">
+                        원문 기사 보기 ↗
+                    </a>
+                </div>
+            </article>
+            
+            <article class="news-card" data-category="interview">
+                <div class="card-header-meta">
+                    <span class="badge-tier">🚨 긴급/핵심</span>
+                    <span class="badge-cat">🎙️ 인터뷰/발언</span>
+                    <span class="badge-source">📰 Kansas City Star</span>
+                    <span class="badge-date">2026-10-12</span>
+                </div>
+
+                <h2 class="news-title-kr">0-5 Chargers가 Chiefs 경기를 준비하면서 Jim Harbaugh 팀이 겪는 어려움은 다음과 같습니다.</h2>
+                <div class="news-title-en">Original: As 0-5 Chargers prepare to play the Chiefs, here’s what ails Jim Harbaugh’s team</div>
+
+                <ul class="news-bullets">
+                    
+                    <li>⚡ **핵심 소식**: 0-5 Chargers가 Chiefs 경기를 준비하는 동안 Jim Harbaugh의 팀 Kansas City Star에 어떤 영향이 미치는지 살펴보겠습니다.</li>
+                    
+                    <li>🏈 **전술 관전 포인트**: Jim Harbaugh 감독 및 코칭스태프의 피지컬 중심 미식축구 철학이 반영된 행보입니다.</li>
+                    
+                </ul>
+
+                <div class="card-footer">
+                    <a href="https://news.google.com/rss/articles/CBMihAFBVV95cUxOUXVIVm5FWlI0NUJGVHdXajRYOWd4aUtVMUZXVk5jZW5pNGZCNzZoREg3b0QyR3dZSVNVNkNFWlpCVGhwQ1lsZHhfNDNoRXBHZzRVV0ZhUzIteVMzUTBOUFRqZ1BnS1djNHcybURaTnVlOEt3NmlWNG13Nnh2WXZKbThzeTbSAYQBQVVfeXFMTmJVazNwS2xuNnd5YjU2a0VGaG1lV2F0WFlnTnZiMGcySWhsNng4aTdHelNwOUp1NURDSHZlLXRGOWxXZm9yN1hscXJwODZ5aFJ1Q1hRZzhpZVJNbnpjQTJkay16Q2hQamhfR3ItRTgyazAzdlJXTmlOLV9fTk8tM2VfREZl?oc=5" target="_blank" rel="noopener noreferrer" class="read-btn">
+                        원문 기사 보기 ↗
+                    </a>
+                </div>
+            </article>
+            
+            <article class="news-card" data-category="game">
+                <div class="card-header-meta">
+                    <span class="badge-tier">🚨 긴급/핵심</span>
+                    <span class="badge-cat">⚡ 경기 소식</span>
+                    <span class="badge-source">📰 Bolts From The Blue (SB Nation)</span>
+                    <span class="badge-date">2026-10-11</span>
+                </div>
+
+                <h2 class="news-title-kr">Chargers-Broncos 게임 스레드: Bolts는 디비전 시합에서 OL의 신인 4명을 이겨야 합니다.</h2>
+                <div class="news-title-en">Original: Chargers-Broncos Game Thread: Bolts must overcome 4 rookies on OL in divisonal bout</div>
+
+                <ul class="news-bullets">
+                    
+                    <li>⚡ **핵심 소식**: 여러분, 게임 데이에 오신 것을 환영합니다! 이번 주에 네 명의 신인들이 공격 라인에 출발하는 것을 볼 준비가 되셨나요?</li>
+                    
+                </ul>
+
+                <div class="card-footer">
+                    <a href="https://www.boltsfromtheblue.com/general/66214/chargers-broncos-game-thread-bolts-must-overcome-4-rookies-on-ol-in-divisonal-bout" target="_blank" rel="noopener noreferrer" class="read-btn">
+                        원문 기사 보기 ↗
+                    </a>
+                </div>
+            </article>
+            
+            <article class="news-card" data-category="interview">
+                <div class="card-header-meta">
+                    <span class="badge-tier">🚨 긴급/핵심</span>
+                    <span class="badge-cat">🎙️ 인터뷰/발언</span>
+                    <span class="badge-source">📰 Los Angeles Times</span>
+                    <span class="badge-date">2026-10-10</span>
+                </div>
+
+                <h2 class="news-title-kr">스포츠에 보내는 편지: Chargers에 문제가 있습니다. Justin Herbert인가요?</h2>
+                <div class="news-title-en">Original: Letters to Sports: Chargers have a problem. Is it Justin Herbert?</div>
+
+                <ul class="news-bullets">
+                    
+                    <li>⚡ **핵심 소식**: 스포츠에 보내는 편지: Chargers에 문제가 있습니다. Justin Herbert인가요?</li>
+                    
+                    <li>🏈 **주요 인물**: Justin Herbert (QB)의 경기력과 훈련 컨디션이 집중 조명되고 있습니다.</li>
+                    
+                </ul>
+
+                <div class="card-footer">
+                    <a href="https://news.google.com/rss/articles/CBMiqgFBVV95cUxOajU3R2VaMEJBbGo0a1hvRW1sb000SDdzdzBVeTljYnlybkNHOThpNEF0ZlRaZFRRTFBScDVnVzhmUWhLYkJyOXJncWVHYkxCSWx5SnZ6QnNwXzJ4ZFMwcTFlRzd3WUdSZ0lMaUloRW14dDExMkpjOV93TlRVRzdRX3F3NnhPVGcyNUlENmJzMTI5QVN3TjVsY2FyVTdwRDQxWGJsVFVuaHp4Zw?oc=5" target="_blank" rel="noopener noreferrer" class="read-btn">
+                        원문 기사 보기 ↗
+                    </a>
+                </div>
+            </article>
+            
+            <article class="news-card" data-category="injury">
+                <div class="card-header-meta">
+                    <span class="badge-tier">🚨 긴급/핵심</span>
+                    <span class="badge-cat">📋 부상/로스터</span>
+                    <span class="badge-source">📰 Los Angeles Chargers</span>
+                    <span class="badge-date">2026-10-09</span>
+                </div>
+
+                <h2 class="news-title-kr">라숀 Rashawn Slater 부상 업데이트</h2>
+                <div class="news-title-en">Original: Rashawn Slater Injury Update</div>
+
+                <ul class="news-bullets">
+                    
+                    <li>⚡ **핵심 소식**: 라숀 Rashawn Slater 부상 업데이트 LA Chargers</li>
+                    
+                    <li>📋 **선수단 영향**: Rashawn Slater (OT)의 부상 경과 및 훈련 소화 여부가 주간 라인업 구성의 핵심 변수로 작용합니다.</li>
+                    
+                </ul>
+
+                <div class="card-footer">
+                    <a href="https://news.google.com/rss/articles/CBMiakFVX3lxTE1fZkFPWHNjQkZpQ3dqd0sya0JzSUhRakZZSUt5WEU2VjFWbi1zazduY2h5MElua0hkUE10S2ZiTTVKdEllOFY3NU1nWlJZMGlEbTc2UnUtOTdFR2E0US1HMGxCZEJFUTlESWc?oc=5" target="_blank" rel="noopener noreferrer" class="read-btn">
+                        원문 기사 보기 ↗
+                    </a>
+                </div>
+            </article>
+            
+            <article class="news-card" data-category="interview">
+                <div class="card-header-meta">
+                    <span class="badge-tier">🚨 긴급/핵심</span>
+                    <span class="badge-cat">🎙️ 인터뷰/발언</span>
+                    <span class="badge-source">📰 Bolts From The Blue</span>
+                    <span class="badge-date">2026-10-06</span>
+                </div>
+
+                <h2 class="news-title-kr">Justin Herbert의 고통스러운 현실은 어떻게 Jim Harbaugh에게 '모욕'이 됩니까?</h2>
+                <div class="news-title-en">Original: How does Justin Herbert’s painful reality become an ‘insult’ to Jim Harbaugh?</div>
+
+                <ul class="news-bullets">
+                    
+                    <li>⚡ **핵심 소식**: Justin Herbert의 고통스러운 현실은 어떻게 Jim Harbaugh에게 '모욕'이 됩니까? 볼트 프롬 더 블루</li>
+                    
+                    <li>🏈 **전술 관전 포인트**: Jim Harbaugh 감독 및 코칭스태프의 피지컬 중심 미식축구 철학이 반영된 행보입니다.</li>
+                    
+                </ul>
+
+                <div class="card-footer">
+                    <a href="https://news.google.com/rss/articles/CBMi1AFBVV95cUxQLVlJS2Zrem1nRVBERkk2NC1JTW5PS2RBVnp4SjgyLW9KZWh3TUpZdGNaSVVtWXFrdGhHVWkwS0dlSnZiTFJjSkx2TklzYTIyMXAxYkU3dXR1MnJtc0hvTzVrODBZZjhrLTE3ZFpNZDlhaGQ3R2M0NlZneGF2VDFwQ2U3R0JpSGJEazhtZkZVdEEzY3hqaTZRSUxtclJ6YzJLeG1Od2ZZZENJSE5yT1oyY01scGRDemVibUVzVTFvZk55MURQVk8yejdGdW9mZmlPdVNmLQ?oc=5" target="_blank" rel="noopener noreferrer" class="read-btn">
+                        원문 기사 보기 ↗
+                    </a>
+                </div>
+            </article>
+            
+            <article class="news-card" data-category="game">
+                <div class="card-header-meta">
+                    <span class="badge-tier">🚨 긴급/핵심</span>
+                    <span class="badge-cat">⚡ 경기 소식</span>
+                    <span class="badge-source">📰 Los Angeles Chargers</span>
+                    <span class="badge-date">2026-10-14</span>
+                </div>
+
+                <h2 class="news-title-kr">Chargers는 Chiefs와의 6주차를 앞두고 비공식 깊이 차트를 공개합니다.</h2>
+                <div class="news-title-en">Original: Chargers Release Unofficial Depth Chart Ahead of Week 6 Against the Chiefs</div>
+
+                <ul class="news-bullets">
+                    
+                    <li>⚡ **핵심 소식**: Chargers는 Chiefs Los Angeles Chargers와의 6주 차를 앞두고 비공식 깊이 차트를 공개합니다.</li>
+                    
+                </ul>
+
+                <div class="card-footer">
+                    <a href="https://news.google.com/rss/articles/CBMiY0FVX3lxTE5RTmQ5clhrNzNLdXVMb0VBZk1MYVRTMlhkQlI4M0R2ZDFGWGxGSV9MU296SFRHQUhkbUpxdmVseXhsT04yN2RQdnAxWTNtajZnUWtFOXdxb2kyWWJFSGoyWXI5SQ?oc=5" target="_blank" rel="noopener noreferrer" class="read-btn">
+                        원문 기사 보기 ↗
+                    </a>
+                </div>
+            </article>
+            
+            <article class="news-card" data-category="interview">
+                <div class="card-header-meta">
+                    <span class="badge-tier">🚨 긴급/핵심</span>
+                    <span class="badge-cat">🎙️ 인터뷰/발언</span>
+                    <span class="badge-source">📰 NBC Sports</span>
+                    <span class="badge-date">2026-10-12</span>
+                </div>
+
+                <h2 class="news-title-kr">Jim Harbaugh(Jim Harbaugh): 나 자신에게 이보다 더 화가 났던 때는 없다고 생각합니다</h2>
+                <div class="news-title-en">Original: Jim Harbaugh: I can’t think of a time where I’ve been more mad at myself</div>
+
+                <ul class="news-bullets">
+                    
+                    <li>⚡ **핵심 소식**: Jim Harbaugh(Jim Harbaugh): 내 자신에게 이보다 더 화가 났던 때는 없다고 NBC Sports</li>
+                    
+                    <li>🏈 **전술 관전 포인트**: Jim Harbaugh 감독 및 코칭스태프의 피지컬 중심 미식축구 철학이 반영된 행보입니다.</li>
+                    
+                </ul>
+
+                <div class="card-footer">
+                    <a href="https://news.google.com/rss/articles/CBMiywFBVV95cUxQbERnZ1VsdjZGX2gzQVlvRkNZUm9WV0ZrMmZyLTFhMFR1SnVWTlJ3UFJDT0VtZkYyblFpakRDS0V2UzNlSDYxajFTOE03SkhWcDZFejdJU2gwc2pOLTdFa2kxdnM0TDFQNlVYYXNmdEEyb2U0bFJ4M0xfUGw4WlZmS2dRMHZwSUV6Vm1HQnhfSmViRHMzX05ia0o2cEJFZ0hYVGxmb3RvUVFWQ1hhQVNjMmJiUVJBQ00yLVdnS0VoTWtNLVNnTXBlZkpHWQ?oc=5" target="_blank" rel="noopener noreferrer" class="read-btn">
+                        원문 기사 보기 ↗
+                    </a>
+                </div>
+            </article>
+            
+            <article class="news-card" data-category="general">
+                <div class="card-header-meta">
+                    <span class="badge-tier">🚨 긴급/핵심</span>
+                    <span class="badge-cat">⚡ 팀 소식</span>
+                    <span class="badge-source">📰 Field Level Media</span>
+                    <span class="badge-date">2026-10-12</span>
+                </div>
+
+                <h2 class="news-title-kr">새로운 Chargers OC Mike McDaniel은 자신의 직업에 대한 요구를 이해합니다.</h2>
+                <div class="news-title-en">Original: New Chargers OC Mike McDaniel understands calls for his job</div>
+
+                <ul class="news-bullets">
+                    
+                    <li>⚡ **핵심 소식**: 새로운 Chargers OC Mike McDaniel은 자신의 직업에 대한 요구를 이해합니다. Field Level Media</li>
+                    
+                    <li>🏈 **공격 전술 관전 포인트**: Mike McDaniel 신임 오펜시브 코디네이터의 전술 안착과 QB Justin Herbert의 플레이메이킹 극대화가 핵심 과제입니다.</li>
+                    
+                </ul>
+
+                <div class="card-footer">
+                    <a href="https://news.google.com/rss/articles/CBMimAFBVV95cUxPcWRKOFJhbWlRT0w5cVg5QTRsVGR2dE83bnJHRnE5dTZvMGlnVlNtWnFnT0dTQVRpdVI5d2xXellTZ1dzN0ZFVXh0WUxtX2hYZFQ0Z3pNaG5FQWFrUmFUM01VRldqX1pGZGR3YllpU2poWEdVaFVnRXFTS0FXMG94bFIxREwwaGUtUUs0WG9BSnU0TDlFUzdHVg?oc=5" target="_blank" rel="noopener noreferrer" class="read-btn">
+                        원문 기사 보기 ↗
+                    </a>
+                </div>
+            </article>
+            
+            <article class="news-card" data-category="game">
+                <div class="card-header-meta">
+                    <span class="badge-tier">🚨 긴급/핵심</span>
+                    <span class="badge-cat">⚡ 경기 소식</span>
+                    <span class="badge-source">📰 Bolts From The Blue (SB Nation)</span>
+                    <span class="badge-date">2026-10-12</span>
+                </div>
+
+                <h2 class="news-title-kr">Chargers vs. Chiefs 오프닝 확률: Bolts는 6주차에 힘겨운 전투에 직면합니다</h2>
+                <div class="news-title-en">Original: Chargers vs. Chiefs Opening Odds: Bolts face uphill battle in Week 6</div>
+
+                <ul class="news-bullets">
+                    
+                    <li>⚡ **핵심 소식**: Los Angeles Chargers는 5주 차 원정 경기에서 Denver Broncos에 패한 후 0-5입니다. 무패의 Kansas City Chiefs가 6주 차에 출전하기 때문에 일정은 훨씬 쉬워지지 않습니다.</li>
+                    
+                </ul>
+
+                <div class="card-footer">
+                    <a href="https://www.boltsfromtheblue.com/los-angeles-chargers-odds/66227/chargers-vs-chiefs-opening-odds-bolts-face-uphill-battle-in-week-6" target="_blank" rel="noopener noreferrer" class="read-btn">
+                        원문 기사 보기 ↗
+                    </a>
+                </div>
+            </article>
+            
+            <article class="news-card" data-category="interview">
+                <div class="card-header-meta">
+                    <span class="badge-tier">🚨 긴급/핵심</span>
+                    <span class="badge-cat">🎙️ 인터뷰/발언</span>
+                    <span class="badge-source">📰 ESPN</span>
+                    <span class="badge-date">2026-10-12</span>
+                </div>
+
+                <h2 class="news-title-kr">Chargers의 Harbaugh는 모멘텀을 바꾸는 4번째 다운 콜을 한탄합니다.</h2>
+                <div class="news-title-en">Original: Chargers' Harbaugh laments momentum-swinging 4th-down call</div>
+
+                <ul class="news-bullets">
+                    
+                    <li>⚡ **핵심 소식**: Chargers의 Harbaugh는 모멘텀을 바꾸는 4번째 다운 콜 ESPN을 한탄합니다.</li>
+                    
+                    <li>🏈 **전술 관전 포인트**: Jim Harbaugh 감독 및 코칭스태프의 피지컬 중심 미식축구 철학이 반영된 행보입니다.</li>
+                    
+                </ul>
+
+                <div class="card-footer">
+                    <a href="https://news.google.com/rss/articles/CBMingFBVV95cUxQbnNud0xUd18zNWdWRml2T1otdjJGamtrVnMtZjJzcWltc1hyYkYzTDRaeDZwSUpXMDdQZHd2TGp3X0E5NFVyTEtEY0tadFVyU2NleUxaLUZWMEY3WEUycWRXMWhIbl9leXFUVXZTeUtRY1RHeXZtSEtiSWZMc2hlM0FnOW9DcmFFVUo0cXJ5SlR1RjdySzFPTlBxellzdw?oc=5" target="_blank" rel="noopener noreferrer" class="read-btn">
+                        원문 기사 보기 ↗
+                    </a>
+                </div>
+            </article>
+            
+            <article class="news-card" data-category="interview">
+                <div class="card-header-meta">
+                    <span class="badge-tier">🚨 긴급/핵심</span>
+                    <span class="badge-cat">🎙️ 인터뷰/발언</span>
+                    <span class="badge-source">📰 Los Angeles Chargers</span>
+                    <span class="badge-date">2026-10-12</span>
+                </div>
+
+                <h2 class="news-title-kr">5가지 시사점: Harbaugh는 Chargers 0-5 시작 후 책임을 집니다.</h2>
+                <div class="news-title-en">Original: 5 Takeaways: Harbaugh Takes Accountability After Chargers 0-5 Start</div>
+
+                <ul class="news-bullets">
+                    
+                    <li>⚡ **핵심 소식**: 5가지 시사점: Harbaugh는 Chargers 0-5가 Los Angeles Chargers를 시작한 후 책임을 집니다.</li>
+                    
+                    <li>🏈 **전술 관전 포인트**: Jim Harbaugh 감독 및 코칭스태프의 피지컬 중심 미식축구 철학이 반영된 행보입니다.</li>
+                    
+                </ul>
+
+                <div class="card-footer">
+                    <a href="https://news.google.com/rss/articles/CBMihAFBVV95cUxPeEx6ZzZZaTE1X2dMaWMtVl8zall3ODdHY3RXMndQQXJnY0xRbVlKa2lrbjJnNVlvZ25TVk5Ydk1hUWpwTkd5RTBua0s5cjlZM1FsZ2FUWUVBa01CNVV5akloVVRYNmQ3dDVHYzh1V2N4MFE1cFRmMFAwcmc5X3RzN2RicW0?oc=5" target="_blank" rel="noopener noreferrer" class="read-btn">
+                        원문 기사 보기 ↗
+                    </a>
+                </div>
+            </article>
+            
+            <article class="news-card" data-category="game">
+                <div class="card-header-meta">
+                    <span class="badge-tier">🚨 긴급/핵심</span>
+                    <span class="badge-cat">⚡ 경기 소식</span>
+                    <span class="badge-source">📰 Los Angeles Chargers</span>
+                    <span class="badge-date">2026-10-12</span>
+                </div>
+
+                <h2 class="news-title-kr">Jim Harbaugh 감독 경기 후 기자회견 vs. Broncos</h2>
+                <div class="news-title-en">Original: Head Coach Jim Harbaugh Postgame Press Conference vs. Broncos</div>
+
+                <ul class="news-bullets">
+                    
+                    <li>⚡ **핵심 소식**: Jim Harbaugh 감독 경기 후 기자회견 vs. Broncos LA Chargers</li>
+                    
+                    <li>🏈 **전술 관전 포인트**: Jim Harbaugh 감독 및 코칭스태프의 피지컬 중심 미식축구 철학이 반영된 행보입니다.</li>
+                    
+                </ul>
+
+                <div class="card-footer">
+                    <a href="https://news.google.com/rss/articles/CBMipgFBVV95cUxQemhRQmlPck50NG5Nb003bElaMG9vNVJNa2lXNGxkNXV1UUdOLVE5WG5qVzMwelNjWU8yd0x4QzkzUTcyb1BsdC1mNFpRVU9CbDBnRVRFUmlMcVVTbjRiRl94SHQ3aGtKdFJ1VXBFa1Zld3JnNDIyMWJmRlMyQ1FsdnZsM1g0QURDM1VJb0RKdmk2RUVha2VZMy1RaWtJeWF5NXJBY3ZR?oc=5" target="_blank" rel="noopener noreferrer" class="read-btn">
+                        원문 기사 보기 ↗
+                    </a>
+                </div>
+            </article>
+            
+            <article class="news-card" data-category="game">
+                <div class="card-header-meta">
+                    <span class="badge-tier">🚨 긴급/핵심</span>
+                    <span class="badge-cat">⚡ 경기 소식</span>
+                    <span class="badge-source">📰 Los Angeles Times</span>
+                    <span class="badge-date">2026-10-11</span>
+                </div>
+
+                <h2 class="news-title-kr">Jim Harbaugh는 내파 대 Broncos 이후 0-5명의 Chargers와 함께 '코스 유지'</h2>
+                <div class="news-title-en">Original: Jim Harbaugh ‘staying the course’ with 0-5 Chargers after implosion vs. Broncos</div>
+
+                <ul class="news-bullets">
+                    
+                    <li>⚡ **핵심 소식**: Jim Harbaugh는 내파 이후 0-5명의 Chargers와 함께 '코스 유지' vs. Broncos Los Angeles Times</li>
+                    
+                    <li>🏈 **전술 관전 포인트**: Jim Harbaugh 감독 및 코칭스태프의 피지컬 중심 미식축구 철학이 반영된 행보입니다.</li>
+                    
+                </ul>
+
+                <div class="card-footer">
+                    <a href="https://news.google.com/rss/articles/CBMitwFBVV95cUxQT0pTMEk0bmFPdVl2YkRwQklGSUIxcjRxWXMwOGNWbTFEOERJT3JvcVZvM2lERWNfM0FnS3dUUWFRXzM5N05zUXk1cW8xZFVYajlSZ2tULXZpV19pMHFxRm9MUW0zajdDcUt3NDhMelkzdG5RbHhTYnhRcnA1TXI3WVQ5ZGVSdkt4NDNmUWNmRVM3V0FvcDlvUzB5SnV2MHBjYTNSN0pnOVRySXdHLVJ0clRiWERKbFE?oc=5" target="_blank" rel="noopener noreferrer" class="read-btn">
+                        원문 기사 보기 ↗
+                    </a>
+                </div>
+            </article>
+            
+            <article class="news-card" data-category="general">
+                <div class="card-header-meta">
+                    <span class="badge-tier">🚨 긴급/핵심</span>
+                    <span class="badge-cat">⚡ 팀 소식</span>
+                    <span class="badge-source">📰 Yahoo Sports</span>
+                    <span class="badge-date">2026-10-11</span>
+                </div>
+
+                <h2 class="news-title-kr">'그가 무엇을 가르치는지 궁금합니다', '아무 일도 일어나지 않았습니다' — NFL 전설은 Mike McDaniel이 고군분투하는 Chargers 공격에 정확히 무엇을 가져왔는지 질문합니다.</h2>
+                <div class="news-title-en">Original: ‘Wonder What He’s Teaching,’ ‘Nothing’s Happened’ — NFL Legend Questions What Exactly Mike McDaniel’s Bringing To Struggling Chargers Offense</div>
+
+                <ul class="news-bullets">
+                    
+                    <li>⚡ **핵심 소식**: '그가 무엇을 가르치는지 궁금합니다', '아무 일도 일어나지 않았습니다' — NFL 레전드 질문 Mike McDaniel이 고군분투하는 차저 공격에 정확히 무엇을 가져왔는지 Yahoo Sports</li>
+                    
+                    <li>🏈 **공격 전술 관전 포인트**: Mike McDaniel 신임 오펜시브 코디네이터의 전술 안착과 QB Justin Herbert의 플레이메이킹 극대화가 핵심 과제입니다.</li>
+                    
+                </ul>
+
+                <div class="card-footer">
+                    <a href="https://news.google.com/rss/articles/CBMijgFBVV95cUxQdWh4aFFKS1RUTFl3alFROHhUZjZpaVJhTUkwanYyYjZrV2U3M3FTUG51bDNoY0lOaEZYemxPUWw1RUdCdVA2MzRvNDV1blNtblFGdi1ESTZ5b1o1WlJibHFTZ2NfTEFkSmV3R0JNcC12ZHhNUDBYOWNBdXY3TnZkMlBibi1aZkhVTlBvNWd3?oc=5" target="_blank" rel="noopener noreferrer" class="read-btn">
+                        원문 기사 보기 ↗
+                    </a>
+                </div>
+            </article>
+            
+            <article class="news-card" data-category="interview">
+                <div class="card-header-meta">
+                    <span class="badge-tier">🚨 긴급/핵심</span>
+                    <span class="badge-cat">🎙️ 인터뷰/발언</span>
+                    <span class="badge-source">📰 Chargers Wire</span>
+                    <span class="badge-date">2026-10-07</span>
+                </div>
+
+                <h2 class="news-title-kr">Chargers는 0-4 시작 후 Jim Harbaugh에 대한 주요 결정에 직면할 수 있습니다.</h2>
+                <div class="news-title-en">Original: Chargers could face major decision on Jim Harbaugh after 0-4 start</div>
+
+                <ul class="news-bullets">
+                    
+                    <li>⚡ **핵심 소식**: Chargers Wire는 0-4 시작 후 Jim Harbaugh에 대한 주요 결정에 직면할 수 있습니다.</li>
+                    
+                    <li>📋 **선수단 영향**: Jim Harbaugh (HC)의 부상 경과 및 훈련 소화 여부가 주간 라인업 구성의 핵심 변수로 작용합니다.</li>
+                    
+                </ul>
+
+                <div class="card-footer">
+                    <a href="https://news.google.com/rss/articles/CBMivwFBVV95cUxNTjNhbDRLSzZxVlBjWmxlcjd2YnN6YUdMR3JtZTV1MkVvUmZiVHkyckVYQm9qSUg2Z1VhNEtlc2pZcmdJUW9zRzNna1BRVXlQOXRSZm9VU0lWeFVrbGNIeDROUm9wajc3am5MUnIwUm5OeUI2Ny1vcXVnTDdDcFJRckkxNXpPcGl0YzllWVg5NmFlVnczWmhPZko4UXhqLVZkNjUtbUg4YzdOMlpmZVA1SEFwLWx4UjVKYUFtZDRtUQ?oc=5" target="_blank" rel="noopener noreferrer" class="read-btn">
+                        원문 기사 보기 ↗
+                    </a>
+                </div>
+            </article>
+            
+            <article class="news-card" data-category="interview">
+                <div class="card-header-meta">
+                    <span class="badge-tier">⚡ 주요</span>
+                    <span class="badge-cat">🎙️ 인터뷰/발언</span>
+                    <span class="badge-source">📰 Reddit r/Chargers</span>
+                    <span class="badge-date">2026-10-12</span>
+                </div>
+
+                <h2 class="news-title-kr">Chargers가 이 몇 개의 PPG를 마지막으로 득점한 것은 2000년이었습니다. Ryan Leaf가 선발 QB였습니다. Chargers는 1-15로갔습니다.</h2>
+                <div class="news-title-en">Original: The last time the Chargers scored this few PPG was the year 2000. Ryan Leaf was the starting QB. The Chargers went 1-15.</div>
+
+                <ul class="news-bullets">
+                    
+                    <li>⚡ **핵심 소식**: Chargers가 이 몇 개의 PPG를 마지막으로 득점한 것은 2000년이었습니다. Ryan Leaf가 선발 QB였습니다. Chargers는 1-15로갔습니다.</li>
+                    
+                </ul>
+
+                <div class="card-footer">
+                    <a href="https://www.reddit.com/r/Chargers/comments/1x45573/the_last_time_the_chargers_scored_this_few_ppg/" target="_blank" rel="noopener noreferrer" class="read-btn">
+                        원문 기사 보기 ↗
+                    </a>
+                </div>
+            </article>
+            
+            <article class="news-card" data-category="general">
+                <div class="card-header-meta">
+                    <span class="badge-tier">⚡ 주요</span>
+                    <span class="badge-cat">⚡ 팀 소식</span>
+                    <span class="badge-source">📰 Yahoo Sports</span>
+                    <span class="badge-date">2026-10-11</span>
+                </div>
+
+                <h2 class="news-title-kr">Broncos가 Chargers를 이길 수 있는 3가지 이유와 그렇지 못한 2가지 이유</h2>
+                <div class="news-title-en">Original: 3 Reasons the Broncos Will Beat the Chargers, and 2 Reasons They Won't</div>
+
+                <ul class="news-bullets">
+                    
+                    <li>⚡ **핵심 소식**: Broncos가 Chargers를 이길 수 있는 3가지 이유와 야후 스포츠를 이길 수 없는 2가지 이유</li>
+                    
+                </ul>
+
+                <div class="card-footer">
+                    <a href="https://news.google.com/rss/articles/CBMihwFBVV95cUxQQlZaNF9ZOVJfY0U1S2g1dWc3YkVlQlNHNW9lSXQzQXdEUXBzcG9vVTMtNDZOZkJFNWdLQ3VaTXBWNkdtaHM4ZEtwQ2ZhRjhnTG5rc2JjU0JqYTdwdklkTDJOWWtZNlA2ZG1ESVFkVjNkZjM4SWlueXZ1aVlqTFhCYnNCSHE2Y1U?oc=5" target="_blank" rel="noopener noreferrer" class="read-btn">
+                        원문 기사 보기 ↗
+                    </a>
+                </div>
+            </article>
+            
+            <article class="news-card" data-category="general">
+                <div class="card-header-meta">
+                    <span class="badge-tier">⚡ 주요</span>
+                    <span class="badge-cat">⚡ 팀 소식</span>
+                    <span class="badge-source">📰 ESPN</span>
+                    <span class="badge-date">2026-10-08</span>
+                </div>
+
+                <h2 class="news-title-kr">Chargers OC Khalil Mack다니엘 - 해고 요구는 '영토와 함께' 온다</h2>
+                <div class="news-title-en">Original: Chargers OC McDaniel - Calls for firing come 'with the territory'</div>
+
+                <ul class="news-bullets">
+                    
+                    <li>⚡ **핵심 소식**: Chargers OC McDaniel - 해고 요구는 '영토와 함께' ESPN에서 발생</li>
+                    
+                    <li>📋 **선수단 영향**: Mike McDaniel (OC)의 부상 경과 및 훈련 소화 여부가 주간 라인업 구성의 핵심 변수로 작용합니다.</li>
+                    
+                </ul>
+
+                <div class="card-footer">
+                    <a href="https://news.google.com/rss/articles/CBMimgFBVV95cUxOaHBfRFFRbnJJdnQxOHk4WUZEVHpqUGRPRm9oODFRMDFGM3VPODUyWE0yVnVwaFM4YmN3UVN2cjhWdDRJRzUxbGFvc2prblFld3pjOTgwUUY4RHNLSUlpS0ltQmEtTl9BbkxaaXNVLUtCSnAyVHFjTUQzak1rbjNqRUFxNkt1Q2ItTVM3bVF6LV9OMVBVWFVJQkdR?oc=5" target="_blank" rel="noopener noreferrer" class="read-btn">
+                        원문 기사 보기 ↗
+                    </a>
+                </div>
+            </article>
+            
+            <article class="news-card" data-category="game">
+                <div class="card-header-meta">
+                    <span class="badge-tier">⚡ 주요</span>
+                    <span class="badge-cat">⚡ 경기 소식</span>
+                    <span class="badge-source">📰 Bolts From The Blue</span>
+                    <span class="badge-date">2026-10-05</span>
+                </div>
+
+                <h2 class="news-title-kr">Chargers-Seahawks 게임 요약: Bolts는 생명력을 보여주었지만 페널티킥 대회에서 시애틀에 패했습니다.</h2>
+                <div class="news-title-en">Original: Chargers-Seahawks Game Recap: Bolts show life, lose to Seattle in penalty-filled contest</div>
+
+                <ul class="news-bullets">
+                    
+                    <li>⚡ **핵심 소식**: Chargers-Seahawks 게임 요약: Bolts는 인생을 보여줬고, 페널티킥 대회에서 시애틀에 패했습니다. Bolts From The Blue</li>
+                    
+                </ul>
+
+                <div class="card-footer">
+                    <a href="https://news.google.com/rss/articles/CBMi1wFBVV95cUxQMElkYXpiU0h2Wk1RZkE5NW41UGxCZTA0YnFLb09ZaDZJLXdvUk14WEJlOThTd0RkX0VFc1FzbkZMNTBsZ2tZaURJV3pCdXBveTdEdlRMaGNlMmJmV25WOUhsVlVWNGE0R216SE1YTXE0YUZLeFhHWHBiRXRWNDAwcFpZTzY1TUkxY1dtd0NEN2tWbUVrOVBEUy1YSDIydXdDM1pENUdtaWg4TEhmd2ZLcDB5VDNoSGQ4RHc0eS10WTNpVEQtQVZfckJJc1RyTGIxMmFpSWotOA?oc=5" target="_blank" rel="noopener noreferrer" class="read-btn">
+                        원문 기사 보기 ↗
+                    </a>
+                </div>
+            </article>
+            
+            <article class="news-card" data-category="interview">
+                <div class="card-header-meta">
+                    <span class="badge-tier">⚡ 주요</span>
+                    <span class="badge-cat">🎙️ 인터뷰/발언</span>
+                    <span class="badge-source">📰 Bleacher Report</span>
+                    <span class="badge-date">2026-10-04</span>
+                </div>
+
+                <h2 class="news-title-kr">Jim Harbaugh는 Chargers의 0-4 시작인 Justin Herbert와 함께 Mike McDaniel Hot-Seat Buzz에 대해 연설합니다.</h2>
+                <div class="news-title-en">Original: Jim Harbaugh Addresses Mike McDaniel Hot-Seat Buzz Amid Justin Herbert, Chargers' 0-4 Start</div>
+
+                <ul class="news-bullets">
+                    
+                    <li>⚡ **핵심 소식**: Jim Harbaugh는 Chargers의 0-4 시작 관람석 보고서에서 Justin Herbert와 함께 Mike McDaniel Hot-Seat Buzz에 대해 연설합니다.</li>
+                    
+                    <li>🏈 **공격 전술 관전 포인트**: Mike McDaniel 신임 오펜시브 코디네이터의 전술 안착과 QB Justin Herbert의 플레이메이킹 극대화가 핵심 과제입니다.</li>
+                    
+                </ul>
+
+                <div class="card-footer">
+                    <a href="https://news.google.com/rss/articles/CBMizwFBVV95cUxNUUZUQmNVcVNkWGxCTGFQR242a0FpTWhBQ0tsOXVUb2psalltS01YdklscWM1OVJCWTVrZEswc1loX09DNnQyNUhvWW9QZWFFYWVkQThrWEZSRFFyRWtrUUtFN2ZEMEZBOWRnUUtSU0tJQnpPNERRamF6ZnZFU2JkbnVqQWVQbnJvRkhuVERESlJ3UVp2UmdsUnRZc1ZZR1BvQ0hZMExWMDdQWlY1VHlES1ZyM2NZcGdBRkJESGZOTHYyNFp3WEJ6OVZSTkw1REE?oc=5" target="_blank" rel="noopener noreferrer" class="read-btn">
+                        원문 기사 보기 ↗
+                    </a>
+                </div>
+            </article>
+            
+            <article class="news-card" data-category="interview">
+                <div class="card-header-meta">
+                    <span class="badge-tier">⚡ 주요</span>
+                    <span class="badge-cat">🎙️ 인터뷰/발언</span>
+                    <span class="badge-source">📰 Reddit r/Chargers</span>
+                    <span class="badge-date">2026-10-13</span>
+                </div>
+
+                <h2 class="news-title-kr">[Furtado] 전체 시험 목록:</h2>
+                <div class="news-title-en">Original: [Furtado] Full tryout list:</div>
+
+                <ul class="news-bullets">
+                    
+                    <li>⚡ **핵심 소식**: 전체 시험 목록:</li>
+                    
+                </ul>
+
+                <div class="card-footer">
+                    <a href="https://www.reddit.com/r/Chargers/comments/1x5bzfw/furtado_full_tryout_list/" target="_blank" rel="noopener noreferrer" class="read-btn">
+                        원문 기사 보기 ↗
+                    </a>
+                </div>
+            </article>
+            
+            <article class="news-card" data-category="roster">
+                <div class="card-header-meta">
+                    <span class="badge-tier">⚡ 주요</span>
+                    <span class="badge-cat">🎯 영입/계약</span>
+                    <span class="badge-source">📰 Reddit r/Chargers</span>
+                    <span class="badge-date">2026-10-13</span>
+                </div>
+
+                <h2 class="news-title-kr">[Pelissero] Chargers는 소식통에 따라 베테랑 QB 제이크 브라우닝과 계약하고 있습니다.</h2>
+                <div class="news-title-en">Original: [Pelissero] The Chargers are signing veteran QB Jake Browning, per source.</div>
+
+                <ul class="news-bullets">
+                    
+                    <li>⚡ **핵심 소식**: Chargers는 소스에 따라 베테랑 QB Jake Browning과 계약하고 있습니다.</li>
+                    
+                </ul>
+
+                <div class="card-footer">
+                    <a href="https://www.reddit.com/r/Chargers/comments/1x5bwcw/pelissero_the_chargers_are_signing_veteran_qb/" target="_blank" rel="noopener noreferrer" class="read-btn">
+                        원문 기사 보기 ↗
+                    </a>
+                </div>
+            </article>
+            
+            <article class="news-card" data-category="roster">
+                <div class="card-header-meta">
+                    <span class="badge-tier">⚡ 주요</span>
+                    <span class="badge-cat">🎯 영입/계약</span>
+                    <span class="badge-source">📰 Reddit r/Chargers</span>
+                    <span class="badge-date">2026-10-13</span>
+                </div>
+
+                <h2 class="news-title-kr">약간의 심야 eBay 쇼핑이 이러한 아름다움을 가져왔습니다. 필립 리버스 /25!</h2>
+                <div class="news-title-en">Original: A little late-night eBay shopping led to this beauty. Philip Rivers /25!</div>
+
+                <ul class="news-bullets">
+                    
+                    <li>⚡ **핵심 소식**: 약간의 심야 eBay 쇼핑이 이러한 아름다움을 가져왔습니다. 필립 리버스 /25!</li>
+                    
+                </ul>
+
+                <div class="card-footer">
+                    <a href="https://www.reddit.com/r/Chargers/comments/1x5bv5l/a_little_latenight_ebay_shopping_led_to_this/" target="_blank" rel="noopener noreferrer" class="read-btn">
+                        원문 기사 보기 ↗
+                    </a>
+                </div>
+            </article>
+            
+            <article class="news-card" data-category="game">
+                <div class="card-header-meta">
+                    <span class="badge-tier">⚡ 주요</span>
+                    <span class="badge-cat">⚡ 경기 소식</span>
+                    <span class="badge-source">📰 Reddit r/Chargers</span>
+                    <span class="badge-date">2026-10-13</span>
+                </div>
+
+                <h2 class="news-title-kr">소규모 그룹(4명)을 위한 "파티 버스" 대안을 찾고 있습니다.</h2>
+                <div class="news-title-en">Original: Looking for "party bus" alternatives for a small group (4 people)</div>
+
+                <ul class="news-bullets">
+                    
+                    <li>⚡ **핵심 소식**: 소규모 그룹(4명)을 위한 "파티 버스" 대안을 찾고 있습니다.</li>
+                    
+                </ul>
+
+                <div class="card-footer">
+                    <a href="https://www.reddit.com/r/Chargers/comments/1x5786c/looking_for_party_bus_alternatives_for_a_small/" target="_blank" rel="noopener noreferrer" class="read-btn">
+                        원문 기사 보기 ↗
+                    </a>
+                </div>
+            </article>
+            
+            <article class="news-card" data-category="interview">
+                <div class="card-header-meta">
+                    <span class="badge-tier">⚡ 주요</span>
+                    <span class="badge-cat">🎙️ 인터뷰/발언</span>
+                    <span class="badge-source">📰 Reddit r/Chargers</span>
+                    <span class="badge-date">2026-10-13</span>
+                </div>
+
+                <h2 class="news-title-kr">어려움에도 불구하고 Chargers는 수비에 대한 새로운 스터드를 가지고 있습니다.</h2>
+                <div class="news-title-en">Original: Despite Their Troubles, the Chargers Have an Emerging Stud on Defense</div>
+
+                <ul class="news-bullets">
+                    
+                    <li>⚡ **핵심 소식**: 어려움에도 불구하고 Chargers는 수비에 대한 새로운 스터드를 가지고 있습니다.</li>
+                    
+                </ul>
+
+                <div class="card-footer">
+                    <a href="https://www.reddit.com/r/Chargers/comments/1x54gr3/despite_their_troubles_the_chargers_have_an/" target="_blank" rel="noopener noreferrer" class="read-btn">
+                        원문 기사 보기 ↗
+                    </a>
+                </div>
+            </article>
+            
+            <article class="news-card" data-category="interview">
+                <div class="card-header-meta">
+                    <span class="badge-tier">⚡ 주요</span>
+                    <span class="badge-cat">🎙️ 인터뷰/발언</span>
+                    <span class="badge-source">📰 Reddit r/Chargers</span>
+                    <span class="badge-date">2026-10-13</span>
+                </div>
+
+                <h2 class="news-title-kr">일일 토론 스레드 - 2026년 10월 13일</h2>
+                <div class="news-title-en">Original: Daily Discussion Thread - October 13, 2026</div>
+
+                <ul class="news-bullets">
+                    
+                    <li>⚡ **핵심 소식**: 일일 토론 스레드 - 2026년 10월 13일</li>
+                    
+                </ul>
+
+                <div class="card-footer">
+                    <a href="https://www.reddit.com/r/Chargers/comments/1x4w01n/daily_discussion_thread_october_13_2026/" target="_blank" rel="noopener noreferrer" class="read-btn">
+                        원문 기사 보기 ↗
+                    </a>
+                </div>
+            </article>
+            
+            <article class="news-card" data-category="game">
+                <div class="card-header-meta">
+                    <span class="badge-tier">⚡ 주요</span>
+                    <span class="badge-cat">⚡ 경기 소식</span>
+                    <span class="badge-source">📰 Reddit r/Chargers</span>
+                    <span class="badge-date">2026-10-13</span>
+                </div>
+
+                <h2 class="news-title-kr">PFF 성적 5주차</h2>
+                <div class="news-title-en">Original: PFF Grades Week 5</div>
+
+                <ul class="news-bullets">
+                    
+                    <li>⚡ **핵심 소식**: PFF 성적 5주차</li>
+                    
+                </ul>
+
+                <div class="card-footer">
+                    <a href="https://www.reddit.com/r/Chargers/comments/1x4j7p5/pff_grades_week_5/" target="_blank" rel="noopener noreferrer" class="read-btn">
+                        원문 기사 보기 ↗
+                    </a>
+                </div>
+            </article>
+            
+            <article class="news-card" data-category="general">
+                <div class="card-header-meta">
+                    <span class="badge-tier">⚡ 주요</span>
+                    <span class="badge-cat">⚡ 팀 소식</span>
+                    <span class="badge-source">📰 ESPN</span>
+                    <span class="badge-date">2026-10-12</span>
+                </div>
+
+                <h2 class="news-title-kr">Broncos는 Sean Payton의 플레이콜 복귀에서 Chargers를 이겼습니다.</h2>
+                <div class="news-title-en">Original: Broncos beat Chargers in Sean Payton's return to playcalling</div>
+
+                <ul class="news-bullets">
+                    
+                    <li>⚡ **핵심 소식**: Broncos는 Sean Payton의 ESPN 플레이콜 복귀에서 Chargers를 이겼습니다.</li>
+                    
+                </ul>
+
+                <div class="card-footer">
+                    <a href="https://news.google.com/rss/articles/CBMingFBVV95cUxNZjQtUkNLdVMybS1jbWd0SmE4Qjd6RTVJcTBSaEluVE1YN0hnLXJXY1BKYUw3YlZNcEYwM2Q4YkJqMHJhQ0ZWUExzc0MwODJ4cHNycm9tdFFONGpiYThCSVJUU3pKdGVUZk03Q2laNGpwTGM3dkJ5c1lIUGJ5VkFnS0YzaVV0LTFyTmx1NGpwLXYzYnphNTZnTzF2cUlsUQ?oc=5" target="_blank" rel="noopener noreferrer" class="read-btn">
+                        원문 기사 보기 ↗
+                    </a>
+                </div>
+            </article>
+            
+            <article class="news-card" data-category="interview">
+                <div class="card-header-meta">
+                    <span class="badge-tier">⚡ 주요</span>
+                    <span class="badge-cat">🎙️ 인터뷰/발언</span>
+                    <span class="badge-source">📰 Yahoo Sports</span>
+                    <span class="badge-date">2026-10-11</span>
+                </div>
+
+                <h2 class="news-title-kr">'실망은 직업 영역과 함께 온다': Chargers 코치는 잔인한 시즌에 반응합니다</h2>
+                <div class="news-title-en">Original: ‘Disappointment comes with the territory of the job’: Chargers coach reacts to brutal season</div>
+
+                <ul class="news-bullets">
+                    
+                    <li>⚡ **핵심 소식**: '실망은 직업 영역과 함께 온다': Chargers 코치는 잔인한 시즌에 반응합니다 야후 스포츠</li>
+                    
+                </ul>
+
+                <div class="card-footer">
+                    <a href="https://news.google.com/rss/articles/CBMilwFBVV95cUxQV3pIVmJzMXVyaHhKeDdVY1J0TmhoeEZkaUJ4aXpYTndOaFNJNk1vcGRlYUs5dkMwcXNhbW05THRmSWVsa2JwN1JaQ3ZhLXhWMXV0U2tsTXRKUVNaSl94SHdlblExYkN6WkktRU92bUVTbHJGVnFmWlFZamRpVHl4MjBWd3pWellMVUNxNWsydUZkM2tGNEdj?oc=5" target="_blank" rel="noopener noreferrer" class="read-btn">
+                        원문 기사 보기 ↗
+                    </a>
+                </div>
+            </article>
+            
+            <article class="news-card" data-category="game">
+                <div class="card-header-meta">
+                    <span class="badge-tier">⚡ 주요</span>
+                    <span class="badge-cat">⚡ 경기 소식</span>
+                    <span class="badge-source">📰 Denver Broncos</span>
+                    <span class="badge-date">2026-10-09</span>
+                </div>
+
+                <h2 class="news-title-kr">Los Angeles Chargers의 Denver Broncos: Broncos의 5주차 경기를 시청하고, 듣고, 실시간 스트리밍하는 방법</h2>
+                <div class="news-title-en">Original: Denver Broncos at Los Angeles Chargers: How to watch, listen and live stream the Broncos' Week 5 game</div>
+
+                <ul class="news-bullets">
+                    
+                    <li>⚡ **핵심 소식**: Los Angeles Chargers의 Denver Broncos: Broncos의 5주 차 게임을 보고, 듣고, 라이브 스트리밍하는 방법 Denver Broncos</li>
+                    
+                </ul>
+
+                <div class="card-footer">
+                    <a href="https://news.google.com/rss/articles/CBMizgFBVV95cUxQV1BFcnhKYjRqR194U003UFVtS2Jtc0dnbk5CckNERXRSN1lERGtoNV9Bd1lublBmaVhROUs3WUdyeVFwR1pJeHNaeHdfeEtIaGgzeDhxZ0YzdVBmVExSSWxabEg4MEprdmJGckJ1V01CeHRRQjE4UWo2NlVOVXk3VmFHWVNYSEdhT3AyUld5OWRONmx0YkZyaGM1cjc2V1ZVQXVlbk0zZGdWNHpJWUpZVVNobzUzRHRNZmVPeVVyWDQtQktfaFd0UnRJM1poQQ?oc=5" target="_blank" rel="noopener noreferrer" class="read-btn">
+                        원문 기사 보기 ↗
+                    </a>
+                </div>
+            </article>
+            
+            <article class="news-card" data-category="injury">
+                <div class="card-header-meta">
+                    <span class="badge-tier">⚡ 주요</span>
+                    <span class="badge-cat">📋 부상/로스터</span>
+                    <span class="badge-source">📰 Los Angeles Chargers</span>
+                    <span class="badge-date">2026-10-05</span>
+                </div>
+
+                <h2 class="news-title-kr">5가지 시사점: Rashawn Slater, Joe Alt, Derwin James의 부상 업데이트</h2>
+                <div class="news-title-en">Original: 5 Takeaways: Injury Updates on Rashawn Slater, Joe Alt & Derwin James</div>
+
+                <ul class="news-bullets">
+                    
+                    <li>⚡ **핵심 소식**: 5가지 시사점: Rashawn Slater, Joe Alt, Derwin James Los Angeles Chargers의 부상 업데이트</li>
+                    
+                    <li>📋 **선수단 영향**: Joe Alt (OT), Derwin James Jr. (S)의 부상 경과 및 훈련 소화 여부가 주간 라인업 구성의 핵심 변수로 작용합니다.</li>
+                    
+                </ul>
+
+                <div class="card-footer">
+                    <a href="https://news.google.com/rss/articles/CBMiiAFBVV95cUxPbXFTdFFwNmFRYnZEWnp6SVhpWjdLaUpPR1AxSU9mdHdsU2FkajdyaThjZXZkY2xwNUNCV0hqU0hBcVV4OG9STUU4Rl9qcW1LcFA5YzRkWFhRSy1fNGIxSGZpMnI5OGU0Zk9KNlNoSUdyMVZuN1pKcEFVOWI5SzRLVjV3Wk9oUlFo?oc=5" target="_blank" rel="noopener noreferrer" class="read-btn">
+                        원문 기사 보기 ↗
+                    </a>
+                </div>
+            </article>
+            
+            <article class="news-card" data-category="game">
+                <div class="card-header-meta">
+                    <span class="badge-tier">⚡ 주요</span>
+                    <span class="badge-cat">⚡ 경기 소식</span>
+                    <span class="badge-source">📰 Bolts From The Blue</span>
+                    <span class="badge-date">2026-10-04</span>
+                </div>
+
+                <h2 class="news-title-kr">Chargers-Bills 게임 요약: 수비에 의한 5번의 테이크아웃에도 불구하고 Bolt가 패배함</h2>
+                <div class="news-title-en">Original: Chargers-Bills Game Recap: Bolts lose despite 5 takeaways by defense</div>
+
+                <ul class="news-bullets">
+                    
+                    <li>⚡ **핵심 소식**: Chargers-Bills 게임 요약: 수비진의 5번의 테이크아웃에도 불구하고 Bolts 패배 Bolts From The Blue</li>
+                    
+                </ul>
+
+                <div class="card-footer">
+                    <a href="https://news.google.com/rss/articles/CBMiygFBVV95cUxPOHVEUWtxUjkxS0lROEpVVGJSQ1JRcVVxNXlKLVRRQ0hZSTVwUjgtVVY2QzZjV1BUdElGYklmdmtkTHQ4LW5zUDhCb2tIbXhsZ3J4ejc5UmtnZVZ1T0JnRi1aeTR3VjlnUWZ2UmJXbnI1MjdTd0Y3VXhZM3BFSk54UjRmUU1XMXpnSHFHWVZraUxfWmNaMF9raWVoWHAwNGJXSmhkSDk4VWp4M3lnbEo3UzZzNnM4M2dZVEVKbi1Qc2dYTnhtX1ZvSXVR?oc=5" target="_blank" rel="noopener noreferrer" class="read-btn">
+                        원문 기사 보기 ↗
+                    </a>
+                </div>
+            </article>
+            
+            <article class="news-card" data-category="interview">
+                <div class="card-header-meta">
+                    <span class="badge-tier">⚡ 주요</span>
+                    <span class="badge-cat">🎙️ 인터뷰/발언</span>
+                    <span class="badge-source">📰 ESPN</span>
+                    <span class="badge-date">2026-09-28</span>
+                </div>
+
+                <h2 class="news-title-kr">Chargers의 Jim Harbaugh(Jim Harbaugh), 고군분투하는 Justin Herbert(Justin Herbert): '더 나아지세요'</h2>
+                <div class="news-title-en">Original: Chargers' Jim Harbaugh on struggling Justin Herbert: 'Be better'</div>
+
+                <ul class="news-bullets">
+                    
+                    <li>⚡ **핵심 소식**: Chargers의 Jim Harbaugh가 고군분투하는 Justin Herbert: '더 나아지세요' ESPN</li>
+                    
+                    <li>🏈 **전술 관전 포인트**: Jim Harbaugh 감독 및 코칭스태프의 피지컬 중심 미식축구 철학이 반영된 행보입니다.</li>
+                    
+                </ul>
+
+                <div class="card-footer">
+                    <a href="https://news.google.com/rss/articles/CBMioAFBVV95cUxOanJFT0NNVENkRXpLWWNJOWxUQldMYU9qZExBRXFpOE9MaXhVYnBCQk15NHRPSlV1M3VIWU9FaUh4cUNGdGlUTzFBWG9JS0NTLUlnTE5MNTFMN0V5U1BkUEhCNDVSV0Y2S3FfM0xKNlNMc2FMRkJMM3BkWnZPbVo0RTlrVEhEeE9MYzlrUVUwbFM5MG5KTkFhRGhYbk81azVS?oc=5" target="_blank" rel="noopener noreferrer" class="read-btn">
+                        원문 기사 보기 ↗
+                    </a>
+                </div>
+            </article>
+            
+            <article class="news-card" data-category="interview">
+                <div class="card-header-meta">
+                    <span class="badge-tier">⚡ 주요</span>
+                    <span class="badge-cat">🎙️ 인터뷰/발언</span>
+                    <span class="badge-source">📰 Reddit r/Chargers</span>
+                    <span class="badge-date">2026-10-13</span>
+                </div>
+
+                <h2 class="news-title-kr">예상보다 특별한 팀 포인트</h2>
+                <div class="news-title-en">Original: Special Teams Points Over Expected</div>
+
+                <ul class="news-bullets">
+                    
+                    <li>⚡ **핵심 소식**: 예상보다 특별한 팀 포인트</li>
+                    
+                </ul>
+
+                <div class="card-footer">
+                    <a href="https://www.reddit.com/r/Chargers/comments/1x57kml/special_teams_points_over_expected/" target="_blank" rel="noopener noreferrer" class="read-btn">
+                        원문 기사 보기 ↗
+                    </a>
+                </div>
+            </article>
+            
+            <article class="news-card" data-category="interview">
+                <div class="card-header-meta">
+                    <span class="badge-tier">⚡ 주요</span>
+                    <span class="badge-cat">🎙️ 인터뷰/발언</span>
+                    <span class="badge-source">📰 Reddit r/Chargers</span>
+                    <span class="badge-date">2026-10-12</span>
+                </div>
+
+                <h2 class="news-title-kr">2026 - 경기장 일정 - 5주차 - LA Chargers(0-5)</h2>
+                <div class="news-title-en">Original: 2026 - Stadium Schedule - Wk5 - Los Angeles Chargers (0-5)</div>
+
+                <ul class="news-bullets">
+                    
+                    <li>⚡ **핵심 소식**: 2026 - 경기장 일정 - 5주차 - LA Chargers(0-5)</li>
+                    
+                </ul>
+
+                <div class="card-footer">
+                    <a href="https://www.reddit.com/r/Chargers/comments/1x4h2af/2026_stadium_schedule_wk5_los_angeles_chargers_05/" target="_blank" rel="noopener noreferrer" class="read-btn">
+                        원문 기사 보기 ↗
+                    </a>
+                </div>
+            </article>
+            
+            <article class="news-card" data-category="interview">
+                <div class="card-header-meta">
+                    <span class="badge-tier">⚡ 주요</span>
+                    <span class="badge-cat">🎙️ 인터뷰/발언</span>
+                    <span class="badge-source">📰 Reddit r/Chargers</span>
+                    <span class="badge-date">2026-10-12</span>
+                </div>
+
+                <h2 class="news-title-kr">내가 Chargers 팬이라는 걸 아는 사람들은 나를 이렇게 본다.</h2>
+                <div class="news-title-en">Original: This is how everyone who knows I’m a Chargers fan sees me</div>
+
+                <ul class="news-bullets">
+                    
+                    <li>⚡ **핵심 소식**: 내가 Chargers 팬이라는 걸 아는 사람들은 나를 이렇게 본다.</li>
+                    
+                </ul>
+
+                <div class="card-footer">
+                    <a href="https://www.reddit.com/r/Chargers/comments/1x4cp67/this_is_how_everyone_who_knows_im_a_chargers_fan/" target="_blank" rel="noopener noreferrer" class="read-btn">
+                        원문 기사 보기 ↗
+                    </a>
+                </div>
+            </article>
+            
+            <article class="news-card" data-category="game">
+                <div class="card-header-meta">
+                    <span class="badge-tier">⚡ 주요</span>
+                    <span class="badge-cat">⚡ 경기 소식</span>
+                    <span class="badge-source">📰 Los Angeles Chargers</span>
+                    <span class="badge-date">2026-10-11</span>
+                </div>
+
+                <h2 class="news-title-kr">Chargers-Broncos Week 5 비활성: Ladd McConkey가 Denver와 대결합니다</h2>
+                <div class="news-title-en">Original: Chargers-Broncos Week 5 Inactives: Ladd McConkey Will Play Against Denver</div>
+
+                <ul class="news-bullets">
+                    
+                    <li>⚡ **핵심 소식**: Chargers-Broncos Week 5 비활성: Ladd McConkey가 Denver Los Angeles Chargers와 대결합니다</li>
+                    
+                    <li>🏈 **주요 인물**: Ladd McConkey (WR)의 경기력과 훈련 컨디션이 집중 조명되고 있습니다.</li>
+                    
+                </ul>
+
+                <div class="card-footer">
+                    <a href="https://news.google.com/rss/articles/CBMid0FVX3lxTE5XTHZ0M2x4dXVYWEJpWjZWMzN4WkEySkhhT1RWZUlVejhaSEwtSmM4bjhoVlFud00wcURFRVpHd1hXczQzQ3FzcnFmMVVSVEhFMFIwWUp2akRUa3FPOFpvYldLM1dFQnh1ajR4TE5YRC1aUWpwYllj?oc=5" target="_blank" rel="noopener noreferrer" class="read-btn">
+                        원문 기사 보기 ↗
+                    </a>
+                </div>
+            </article>
+            
+            <article class="news-card" data-category="game">
+                <div class="card-header-meta">
+                    <span class="badge-tier">⚡ 주요</span>
+                    <span class="badge-cat">⚡ 경기 소식</span>
+                    <span class="badge-source">📰 Denver Broncos</span>
+                    <span class="badge-date">2026-10-11</span>
+                </div>
+
+                <h2 class="news-title-kr">Broncos, 5주차 경기 대 Chargers의 비활성 플레이어 발표</h2>
+                <div class="news-title-en">Original: Broncos announce inactive players for Week 5 game vs. Chargers</div>
+
+                <ul class="news-bullets">
+                    
+                    <li>⚡ **핵심 소식**: Broncos, 5주 차 경기 대 Chargers의 비활성 플레이어 발표 Denver Broncos</li>
+                    
+                </ul>
+
+                <div class="card-footer">
+                    <a href="https://news.google.com/rss/articles/CBMinAFBVV95cUxQRWItVHJ6bHl6aEEyMjhzSlJIN0FPdzRhOE5hMG5CQ0Vabzc3Y1JqeWFDdExPNnVhc1VtUXRuNGxCdFAwWE9iQlZQYllFQlp4bjl1WDZBdWduNDNydkhKdi1aTm53Z2lHVGxPQW5hTkw5dzM3SkxBZ19ESjJBQjhsNmlPT2V0SmN1MHVWYlRKVzJfZjBkV0JDenU3dko?oc=5" target="_blank" rel="noopener noreferrer" class="read-btn">
+                        원문 기사 보기 ↗
+                    </a>
+                </div>
+            </article>
+            
+            <article class="news-card" data-category="game">
+                <div class="card-header-meta">
+                    <span class="badge-tier">⚡ 주요</span>
+                    <span class="badge-cat">⚡ 경기 소식</span>
+                    <span class="badge-source">📰 Broncos Wire</span>
+                    <span class="badge-date">2026-10-11</span>
+                </div>
+
+                <h2 class="news-title-kr">5주차 Broncos 대 Chargers의 경기에 대한 4가지 대담한 예측</h2>
+                <div class="news-title-en">Original: 4 bold predictions for Broncos’ game vs. Chargers in Week 5</div>
+
+                <ul class="news-bullets">
+                    
+                    <li>⚡ **핵심 소식**: 5주 차 Broncos의 게임 대 Chargers에 대한 4가지 대담한 예측 Broncos Wire</li>
+                    
+                </ul>
+
+                <div class="card-footer">
+                    <a href="https://news.google.com/rss/articles/CBMi1gFBVV95cUxNa054RXROVlp3eF9JZlNIOEw0c1dPTFFxX1JEZU9iNXFTQXNKbC10UHdxTFM5aE1BNXFLNTgxMGlqcEh5YmVodUxwYVMzNi1DcVhKMmFQM0syN0JLbEhCVmMzaVlKd2RFMk9IMm10bmNMWjh4V2V6VVRmOFR6ZlRGMHVfTG1nd0FyNU1ZRzIwZDVYWEc5eE8wOEhTUThpYy1Vd2tSSmlYSS0zeXg1dS1CSTB4YjNVQmxGcnotOEVDMWc0aVc5LURtSEdaMXd1UVVGemplSHh3?oc=5" target="_blank" rel="noopener noreferrer" class="read-btn">
+                        원문 기사 보기 ↗
+                    </a>
+                </div>
+            </article>
+            
+            <article class="news-card" data-category="game">
+                <div class="card-header-meta">
+                    <span class="badge-tier">⚡ 주요</span>
+                    <span class="badge-cat">⚡ 경기 소식</span>
+                    <span class="badge-source">📰 Los Angeles Chargers</span>
+                    <span class="badge-date">2026-10-09</span>
+                </div>
+
+                <h2 class="news-title-kr">5주 차 Chargers-Broncos 베팅 확률 및 게임 픽은 무엇입니까?</h2>
+                <div class="news-title-en">Original: What Are Chargers-Broncos Betting Odds & Game Picks in Week 5?</div>
+
+                <ul class="news-bullets">
+                    
+                    <li>⚡ **핵심 소식**: 5주 차 Chargers-Broncos 베팅 확률 및 게임 픽은 무엇입니까? LA Chargers</li>
+                    
+                </ul>
+
+                <div class="card-footer">
+                    <a href="https://news.google.com/rss/articles/CBMigwFBVV95cUxQZURCNHpsRnNvQk0xaUVZTXB5bnk1cVZ3UHF2RDFucnlKYVBYamw1RXF4R3FuUmpXcGI3eU9PcEpCeVAyeGc5Qk44eHluNHl2VXhWRkRKbTFQUWdESUhQZ1Z2UnhEcUt5VElaNWlMYWx2YU9ldV9tb0FxTkQwajZ6cDR4dw?oc=5" target="_blank" rel="noopener noreferrer" class="read-btn">
+                        원문 기사 보기 ↗
+                    </a>
+                </div>
+            </article>
+            
+            <article class="news-card" data-category="game">
+                <div class="card-header-meta">
+                    <span class="badge-tier">⚡ 주요</span>
+                    <span class="badge-cat">⚡ 경기 소식</span>
+                    <span class="badge-source">📰 Mile High Report</span>
+                    <span class="badge-date">2026-10-08</span>
+                </div>
+
+                <h2 class="news-title-kr">Broncos 대 Chargers 연습 보고서: 목요일</h2>
+                <div class="news-title-en">Original: Broncos vs. Chargers practice report: Thursday</div>
+
+                <ul class="news-bullets">
+                    
+                    <li>⚡ **핵심 소식**: Chargers 연습 보고서: 목요일 마일 하이 보고서</li>
+                    
+                </ul>
+
+                <div class="card-footer">
+                    <a href="https://news.google.com/rss/articles/CBMiwwFBVV95cUxOMDR4TEpEVzUxdWlsVUFmNGx0ZXdlQnhuRGZGaDNYd04yREhpVXFnMDRPeVc5Z1ZHMnJ6eDUzNmxYeDlQd3B3OHJiV1djZ1pRa21xVDVYWGQ3emE5RUdLZTQxMDRiTTUtdFVaY1FNeWhDblRpZHVHbmlvbGZPbWlhYXpFTlVpWlJDZUVYeEFCU19LZ0V6LURfcWxSVExCNmtSdEoyYnEzVHFhMWQ1VkU0TER6cWhVTURidExXYkFMMzhFTXc?oc=5" target="_blank" rel="noopener noreferrer" class="read-btn">
+                        원문 기사 보기 ↗
+                    </a>
+                </div>
+            </article>
+            
+            <article class="news-card" data-category="game">
+                <div class="card-header-meta">
+                    <span class="badge-tier">⚡ 주요</span>
+                    <span class="badge-cat">⚡ 경기 소식</span>
+                    <span class="badge-source">📰 Broncos Wire</span>
+                    <span class="badge-date">2026-10-08</span>
+                </div>
+
+                <h2 class="news-title-kr">Broncos vs. Chargers 방송 지도: 게임이 TV에 방영되나요?</h2>
+                <div class="news-title-en">Original: Broncos vs. Chargers broadcast map: Will the game be on TV?</div>
+
+                <ul class="news-bullets">
+                    
+                    <li>⚡ **핵심 소식**: Chargers 방송 지도: 게임이 TV에 나올까요?</li>
+                    
+                </ul>
+
+                <div class="card-footer">
+                    <a href="https://news.google.com/rss/articles/CBMizwFBVV95cUxQNHV4THFrS3JkM2dWLXRzZE82NG1aeEhIeWNnQWw3cXFRZmhPbkg3eXRDSWROQ2dRaFJ6N19CN2NxdHJNZmNIbjZiMnVpbUZQdUpKZ0kyZS1BbmhnRE5SVHo2ODVSdzB4ZExQdTZaU3FrSXV4cXAxZjhwYjdGQzkwRU9EckFNN0RGd0xINVdOZ2Q5MVE0SXVKNXRCMGs4RTRvSHZ1cUNMYzVmMXhCTW9FdUZuMmFxZzhDUXd6V251bHUxaTdudUg2dnBfb2h0QUE?oc=5" target="_blank" rel="noopener noreferrer" class="read-btn">
+                        원문 기사 보기 ↗
+                    </a>
+                </div>
+            </article>
+            
+            <article class="news-card" data-category="game">
+                <div class="card-header-meta">
+                    <span class="badge-tier">⚡ 주요</span>
+                    <span class="badge-cat">⚡ 경기 소식</span>
+                    <span class="badge-source">📰 Mile High Report</span>
+                    <span class="badge-date">2026-10-08</span>
+                </div>
+
+                <h2 class="news-title-kr">2026 NFL Week 5: Hart의 추천</h2>
+                <div class="news-title-en">Original: 2026 NFL Week 5: Hart’s Picks</div>
+
+                <ul class="news-bullets">
+                    
+                    <li>⚡ **핵심 소식**: 2026 NFL 5주차: Hart's Picks Mile High 보고서</li>
+                    
+                </ul>
+
+                <div class="card-footer">
+                    <a href="https://news.google.com/rss/articles/CBMi1AFBVV95cUxOazJWUW5Bd0hWMGFzTTNlZktMNGgzMDc0RmRXTERyOF9GTUVGLTN0RnZMMmNHck5neEQ4YjlsbnhlTUNXZHBRSFg4eFp3eFhqdG00RFpVWW1ybFlMZEhQYVNFbUpDdUlBd0VPNFVpM0JLLTZhdjh1Sm5CeU1pbUg4ZVN2ZjhBNnRIRkVkTlJhbGM3bXBKOUpmS1RfMmpQbjN1STZnSGZpWTMxWDZtUjhncVNCd0NWdUVtaHVpTi0yUms3UGZ2UExuTzVvRVozSXI3TFhBQg?oc=5" target="_blank" rel="noopener noreferrer" class="read-btn">
+                        원문 기사 보기 ↗
+                    </a>
+                </div>
+            </article>
+            
+            <article class="news-card" data-category="interview">
+                <div class="card-header-meta">
+                    <span class="badge-tier">⚡ 주요</span>
+                    <span class="badge-cat">🎙️ 인터뷰/발언</span>
+                    <span class="badge-source">📰 Sports Illustrated</span>
+                    <span class="badge-date">2026-10-06</span>
+                </div>
+
+                <h2 class="news-title-kr">Justin Herbert 거래 가능성이 있는 Chargers는 흔들리는 Matthew Stafford 비교를 얻습니다.</h2>
+                <div class="news-title-en">Original: Chargers Possibly Trading Justin Herbert Gets Shaky Matthew Stafford Comparisons</div>
+
+                <ul class="news-bullets">
+                    
+                    <li>⚡ **핵심 소식**: Justin Herbert(Justin Herbert) 거래 가능성이 있는 Chargers는 흔들리게 됩니다 매튜 스태포드(Matthew Stafford) 비교 스포츠 일러스트레이티드</li>
+                    
+                    <li>🏈 **주요 인물**: Justin Herbert (QB)의 경기력과 훈련 컨디션이 집중 조명되고 있습니다.</li>
+                    
+                </ul>
+
+                <div class="card-footer">
+                    <a href="https://news.google.com/rss/articles/CBMingFBVV95cUxNUWZCb1hjQnVnSVZkMjFUSkFhYmtZSEZHbUw1OVVaVmVuM3BONXZKUXFDbDRYU0FWQnpWYndkZTVpVDl0bFJKUDgwR0QwcS1wQklsQ1p1aFh1S2d1WmNUTU5jV2pzUDNPbUdjVEpfamVIeHkzNVFMcEM1XzdIbmQ2c1IxTFl6SWxXMUVaUHZmNnd4OE1SY3pVUjA3dlM0Zw?oc=5" target="_blank" rel="noopener noreferrer" class="read-btn">
+                        원문 기사 보기 ↗
+                    </a>
+                </div>
+            </article>
+            
+            <article class="news-card" data-category="interview">
+                <div class="card-header-meta">
+                    <span class="badge-tier">⚡ 주요</span>
+                    <span class="badge-cat">🎙️ 인터뷰/발언</span>
+                    <span class="badge-source">📰 Yahoo Sports</span>
+                    <span class="badge-date">2026-10-05</span>
+                </div>
+
+                <h2 class="news-title-kr">Jim Harbaugh는 Chargers의 0-4 시작 후 Mike McDaniel의 직업 안정에 관한 질문에 어색한 대답을 합니다.</h2>
+                <div class="news-title-en">Original: Jim Harbaugh gives awkward answer to question about Mike McDaniel's job security after Chargers' 0-4 start</div>
+
+                <ul class="news-bullets">
+                    
+                    <li>⚡ **핵심 소식**: Jim Harbaugh는 Chargers의 0-4 시작 후 Mike McDaniel의 직업 안정에 대한 질문에 어색한 대답을 합니다. Yahoo Sports</li>
+                    
+                    <li>🏈 **공격 전술 관전 포인트**: Mike McDaniel 신임 오펜시브 코디네이터의 전술 안착과 QB Justin Herbert의 플레이메이킹 극대화가 핵심 과제입니다.</li>
+                    
+                </ul>
+
+                <div class="card-footer">
+                    <a href="https://news.google.com/rss/articles/CBMiiwFBVV95cUxPRG5DNTQxX0VGaTFKbi0yMHpKN3dxYVplNnF3XzM2ZEVnMkpRclhDZnE1ZERBMk92RDhxVnUzcks5dlQ0d2FaVjhZWUJ1VnYzS01oTkk3QkpVV2RSYTBCeEMxOUotRWxEaHoyOUNYV2NSZWJLU2p5YzYwU0pWdlZ5RGVsWXJmb3Fmal93?oc=5" target="_blank" rel="noopener noreferrer" class="read-btn">
+                        원문 기사 보기 ↗
+                    </a>
+                </div>
+            </article>
+            
+            <article class="news-card" data-category="game">
+                <div class="card-header-meta">
+                    <span class="badge-tier">⚡ 주요</span>
+                    <span class="badge-cat">⚡ 경기 소식</span>
+                    <span class="badge-source">📰 Seattle Seahawks</span>
+                    <span class="badge-date">2026-10-04</span>
+                </div>
+
+                <h2 class="news-title-kr">2026년 4주차 Seahawks 대 Chargers 게임 내 부상 업데이트: Leonard Williams 복귀 여부 의문</h2>
+                <div class="news-title-en">Original: 2026 Week 4 Seahawks vs. Chargers In-Game Injury Updates: Leonard Williams Questionable To Return</div>
+
+                <ul class="news-bullets">
+                    
+                    <li>⚡ **핵심 소식**: 2026년 4주차 Seahawks 대 Chargers 게임 내 부상 업데이트: Leonard Williams가 Seattle Seahawks 복귀에 의문</li>
+                    
+                </ul>
+
+                <div class="card-footer">
+                    <a href="https://news.google.com/rss/articles/CBMijgFBVV95cUxNZ2s2aEhKdnhkYlJlcDNOcmxidTJIM3BidVhncURjZkpqdXRGX0FETlpIY1kxa1JLbHN6N21Qc2lRMnpxWEwzdS1QeHZtb2NiYXFfdjM1YmxhakU5WW9VUmtZUkdPek9hR0o3WC1iZEJHdHVwYkFIVThoSWppcGlxbktleGI2WXQzRjNsSTZB?oc=5" target="_blank" rel="noopener noreferrer" class="read-btn">
+                        원문 기사 보기 ↗
+                    </a>
+                </div>
+            </article>
+            
+            <article class="news-card" data-category="game">
+                <div class="card-header-meta">
+                    <span class="badge-tier">⚡ 주요</span>
+                    <span class="badge-cat">⚡ 경기 소식</span>
+                    <span class="badge-source">📰 ESPN</span>
+                    <span class="badge-date">2026-10-04</span>
+                </div>
+
+                <h2 class="news-title-kr">Seahawks 30-23 Chargers(2026년 10월 4일) 최종 점수</h2>
+                <div class="news-title-en">Original: Seahawks 30-23 Chargers (Oct 4, 2026) Final Score</div>
+
+                <ul class="news-bullets">
+                    
+                    <li>⚡ **핵심 소식**: Seahawks 30-23 Chargers(2026년 10월 4일) 최종 점수 ESPN</li>
+                    
+                </ul>
+
+                <div class="card-footer">
+                    <a href="https://news.google.com/rss/articles/CBMidEFVX3lxTE1LMUlDS3pLWG5nem1ueGJ0d1JJYkJwckd1SlVOalk5Ym5jaHJub215dEFDZC0yaGNaUlVFZWhGMDY0MFlrdmw4X3Q5a1ExNXhfYzlzU1JlTG1VM0g3WXotTjdJcTdNanFrVHd1VHZwa1diV0xt?oc=5" target="_blank" rel="noopener noreferrer" class="read-btn">
+                        원문 기사 보기 ↗
+                    </a>
+                </div>
+            </article>
+            
+            <article class="news-card" data-category="interview">
+                <div class="card-header-meta">
+                    <span class="badge-tier">⚡ 주요</span>
+                    <span class="badge-cat">🎙️ 인터뷰/발언</span>
+                    <span class="badge-source">📰 The New York Times</span>
+                    <span class="badge-date">2026-10-06</span>
+                </div>
+
+                <h2 class="news-title-kr">Chargers는 Justin Herbert를 개선하려고 노력했습니다. 그들은 그를 노출시켰을 수도 있다 - The Athletic</h2>
+                <div class="news-title-en">Original: The Chargers tried to refine Justin Herbert. They may have exposed him - The Athletic</div>
+
+                <ul class="news-bullets">
+                    
+                    <li>⚡ **핵심 소식**: Chargers는 Justin Herbert를 개선하려고 노력했습니다. 그들은 그를 폭로했을 수도 있다 - The Athletic The New York Times</li>
+                    
+                    <li>🏈 **주요 인물**: Justin Herbert (QB)의 경기력과 훈련 컨디션이 집중 조명되고 있습니다.</li>
+                    
+                </ul>
+
+                <div class="card-footer">
+                    <a href="https://news.google.com/rss/articles/CBMisAFBVV95cUxPd2NOQU9wS3lpUGkxczRBenhaVW4xZGtKS3JISnpaTWh6UldPQ1BXTWtfME85bDZxUExreWo1RXJ0NTlkcHdyUDBnaktEVm1CVG0wa0VlUDRUUFJuS1B4OThQOHlYMzNYZjdKYjVKdE51cUVCTjc5SXc2akVqdjNBS3NmaklDakpBaXNoUGdLREU1X1JkcDh1bW14bE82TFB0S1RBZm95YlB5M2FRNzdVVA?oc=5" target="_blank" rel="noopener noreferrer" class="read-btn">
+                        원문 기사 보기 ↗
+                    </a>
+                </div>
+            </article>
+            
+            <article class="news-card" data-category="interview">
+                <div class="card-header-meta">
+                    <span class="badge-tier">⚡ 주요</span>
+                    <span class="badge-cat">🎙️ 인터뷰/발언</span>
+                    <span class="badge-source">📰 Sports Illustrated</span>
+                    <span class="badge-date">2026-10-05</span>
+                </div>
+
+                <h2 class="news-title-kr">시:암 | Jim Harbaugh는 Chargers의 공격적인 투쟁 속에서 OC Mike McDaniel을 지원합니다</h2>
+                <div class="news-title-en">Original: SI:AM | Jim Harbaugh Backs OC Mike McDaniel Amid Chargers’ Offensive Struggles</div>
+
+                <ul class="news-bullets">
+                    
+                    <li>⚡ **핵심 소식**: 시:암 | Jim Harbaugh는 Chargers의 공격적인 투쟁 속에서 OC Mike McDaniel을 지원합니다. Sports Illustrated</li>
+                    
+                    <li>🏈 **공격 전술 관전 포인트**: Mike McDaniel 신임 오펜시브 코디네이터의 전술 안착과 QB Justin Herbert의 플레이메이킹 극대화가 핵심 과제입니다.</li>
+                    
+                </ul>
+
+                <div class="card-footer">
+                    <a href="https://news.google.com/rss/articles/CBMinwFBVV95cUxNQTNQc3Yzb1QtMGwwaWp6SFRMQWl4Qm5pSlVBdVhLNUN0ZktDeGVQTU9hUUhtbzdXWC1haXRSQTZ2ZlZTTUtPZ05hQnJmZHBLTm1PQmVoNFpDNTBPSFJ4YV9DWTJwRmdyMExXTHY4U3RvdXBGd1ZrdG5jZ2R4ODcyX3ktSnJPMlFXaFJscXM1bFYxTlQ0MTB5WXlXYlRIakE?oc=5" target="_blank" rel="noopener noreferrer" class="read-btn">
+                        원문 기사 보기 ↗
+                    </a>
+                </div>
+            </article>
+            
+            <article class="news-card" data-category="interview">
+                <div class="card-header-meta">
+                    <span class="badge-tier">⚡ 주요</span>
+                    <span class="badge-cat">🎙️ 인터뷰/발언</span>
+                    <span class="badge-source">📰 The New York Times</span>
+                    <span class="badge-date">2026-10-04</span>
+                </div>
+
+                <h2 class="news-title-kr">Seahawks는 Chargers의 집회를 중단하고 L.A.를 0-4로 보냅니다. Justin Herbert에게 무슨 문제가 있나요? - 애슬레틱</h2>
+                <div class="news-title-en">Original: Seahawks halt Chargers’ rally, send L.A. to 0-4. What’s wrong with Justin Herbert? - The Athletic</div>
+
+                <ul class="news-bullets">
+                    
+                    <li>⚡ **핵심 소식**: Seahawks는 Chargers의 집회를 중단하고 LA를 보냅니다. Justin Herbert에게 무슨 문제가 있습니까?</li>
+                    
+                    <li>🏈 **주요 인물**: Justin Herbert (QB)의 경기력과 훈련 컨디션이 집중 조명되고 있습니다.</li>
+                    
+                </ul>
+
+                <div class="card-footer">
+                    <a href="https://news.google.com/rss/articles/CBMiqwFBVV95cUxQQmVhM283MEZjSXJ0YWxBSGFHbFhtVEZwdEd1TXdHUHFFODZFblc5SzZFTkx6M21tRzN5WjZVV3NLZ1BvRXhfYW9RQlpQT2VFNlpudVRYT1luRkl1VzBkUE9Xdzg4V3otVERzZ1d2Z0VnM3FIeVlGQzZiV1RzMFBsOE9wa0JYcG43Sm9xUjBPUmY1LV95anhGRHplTGdiYWNPYlNlQnRUSU1Tejg?oc=5" target="_blank" rel="noopener noreferrer" class="read-btn">
+                        원문 기사 보기 ↗
+                    </a>
+                </div>
+            </article>
+            
+            <article class="news-card" data-category="roster">
+                <div class="card-header-meta">
+                    <span class="badge-tier">⚡ 주요</span>
+                    <span class="badge-cat">🎯 영입/계약</span>
+                    <span class="badge-source">📰 CBS News</span>
+                    <span class="badge-date">2026-10-03</span>
+                </div>
+
+                <h2 class="news-title-kr">Chargers는 Justin의 남동생인 TE Patrick Herbert와 연습반의 OLB Caleb Murphy를 승격시킵니다.</h2>
+                <div class="news-title-en">Original: Chargers elevate TE Patrick Herbert, younger brother of Justin, and OLB Caleb Murphy from practice squad</div>
+
+                <ul class="news-bullets">
+                    
+                    <li>⚡ **핵심 소식**: Chargers는 Justin의 남동생인 TE Patrick Herbert와 연습반의 OLB Caleb Murphy를 승격시킵니다. CBS News</li>
+                    
+                    <li>🏈 **주요 인물**: Justin Herbert (QB)의 경기력과 훈련 컨디션이 집중 조명되고 있습니다.</li>
+                    
+                </ul>
+
+                <div class="card-footer">
+                    <a href="https://news.google.com/rss/articles/CBMiwgFBVV95cUxPLXJTZ2tDdmRmcHlSSHlkR290cFd3SE8zUHpnV2EwZTRIZG8wNlJHVFJOUGJ6UktiRHhhZTR2UUZHV3VlWl8zUm5zcDlNUndUdjJHRGNhbm5xeVRtNnhhU0lKX1lkeUNqTGxudDAzT0xJQ05tcEg5X0NiOS1MS3RrZ0xNZWFEOTFLazZkT3pFNmRBenVIX04zbmVzVXdqUWZnY3o3QUtjampPWldwelpGcTkxenJPSnNOOEZTM3EwZzk1Zw?oc=5" target="_blank" rel="noopener noreferrer" class="read-btn">
+                        원문 기사 보기 ↗
+                    </a>
+                </div>
+            </article>
+            
+            <article class="news-card" data-category="injury">
+                <div class="card-header-meta">
+                    <span class="badge-tier">⚡ 주요</span>
+                    <span class="badge-cat">📋 부상/로스터</span>
+                    <span class="badge-source">📰 Seattle Sports</span>
+                    <span class="badge-date">2026-09-30</span>
+                </div>
+
+                <h2 class="news-title-kr">Seahawks-Chargers 부상 보고서: 1 DNP, 경비원이 시애틀에 새로운 부상을 입혔습니다.</h2>
+                <div class="news-title-en">Original: Seahawks-Chargers Injury Report: 1 DNP, guard has new injury for Seattle</div>
+
+                <ul class="news-bullets">
+                    
+                    <li>⚡ **핵심 소식**: Seahawks-Chargers 부상 보고서: 1 DNP, 가드가 Seattle Seattle Sports에 새로운 부상을 입혔습니다.</li>
+                    
+                </ul>
+
+                <div class="card-footer">
+                    <a href="https://news.google.com/rss/articles/CBMiswFBVV95cUxPLXQ1a3pvemwzQTA1cFljQ293bjhZXzFweVAzY0NIVm1tckw2bWQtNDhySFdCVEdaYWxuWHdYVzBmT0ZtaTF0dXBlcXlDNEE5MUVBaFhXalVKS1RpWnllbU5qRGlYRm1WdU1rMzJwcDNHdHlPeC1LUk4xa3pydFVBeFkxMVVfUW1RTEYtMnJiWVVNTktySmNJZUY2U1NNQ1A1azg5OXpSU2l4d255azVrZFBmZw?oc=5" target="_blank" rel="noopener noreferrer" class="read-btn">
+                        원문 기사 보기 ↗
+                    </a>
+                </div>
+            </article>
+            
+            <article class="news-card" data-category="interview">
+                <div class="card-header-meta">
+                    <span class="badge-tier">📰 일반</span>
+                    <span class="badge-cat">🎙️ 인터뷰/발언</span>
+                    <span class="badge-source">📰 The New York Times</span>
+                    <span class="badge-date">2026-10-05</span>
+                </div>
+
+                <h2 class="news-title-kr">Mike McDaniel은 Justin Herbert를 바꾸려고 시도했으며 이제 Chargers는 0-4입니다.</h2>
+                <div class="news-title-en">Original: Mike McDaniel tried to change Justin Herbert, and now the Chargers are 0-4</div>
+
+                <ul class="news-bullets">
+                    
+                    <li>⚡ **핵심 소식**: Mike McDaniel은 Justin Herbert를 바꾸려고 시도했으며 이제 Chargers는 0-4입니다. The New York Times</li>
+                    
+                    <li>🏈 **공격 전술 관전 포인트**: Mike McDaniel 신임 오펜시브 코디네이터의 전술 안착과 QB Justin Herbert의 플레이메이킹 극대화가 핵심 과제입니다.</li>
+                    
+                </ul>
+
+                <div class="card-footer">
+                    <a href="https://news.google.com/rss/articles/CBMioAFBVV95cUxNTzNvdTNZVHEtaWFNUkhPVWx1Zng0dVFjczFJdWZUQUlUdFhVWDN0YlRSTTFUeG9PU0ctLUwyQVQzcjV6WFVqOTBkRGN1QlloVGlwZEZqcVhDc3k4eElzOThIYjJvcXVwSmJnaEt3WEQxcjl6OFpvV1dNUmJQMGU5cmxIcHlrX1hfazlsYVFJbHRBYlhrS09LM1NoOUJTUWhk?oc=5" target="_blank" rel="noopener noreferrer" class="read-btn">
+                        원문 기사 보기 ↗
+                    </a>
+                </div>
+            </article>
+            
+            <article class="news-card" data-category="game">
+                <div class="card-header-meta">
+                    <span class="badge-tier">📰 일반</span>
+                    <span class="badge-cat">⚡ 경기 소식</span>
+                    <span class="badge-source">📰 Los Angeles Chargers</span>
+                    <span class="badge-date">2026-10-04</span>
+                </div>
+
+                <h2 class="news-title-kr">게임 요약: Chargers가 4주차 로드 게임에서 Seahawks에 패함</h2>
+                <div class="news-title-en">Original: Game Recap: Chargers Lose to Seahawks in Week 4 Road Game</div>
+
+                <ul class="news-bullets">
+                    
+                    <li>⚡ **핵심 소식**: 게임 요약: Chargers가 4주 차 로드 게임에서 Seahawks에게 패했습니다. Los Angeles Chargers</li>
+                    
+                </ul>
+
+                <div class="card-footer">
+                    <a href="https://news.google.com/rss/articles/CBMibkFVX3lxTE1VeTFoYjdVQ0FPdktoUXAyMkw5aGRtVlVRQlp3cEctZWFKcEt1U294Nk56YXUwV0Rza20tb2NMUnBkdEY3OTdGemRKMU9ZU1VCTUt2dVRXWEpfaGZ6a09KYTkyYm05ZVRCVkxBNHZB?oc=5" target="_blank" rel="noopener noreferrer" class="read-btn">
+                        원문 기사 보기 ↗
+                    </a>
+                </div>
+            </article>
+            
+            <article class="news-card" data-category="interview">
+                <div class="card-header-meta">
+                    <span class="badge-tier">📰 일반</span>
+                    <span class="badge-cat">🎙️ 인터뷰/발언</span>
+                    <span class="badge-source">📰 Yahoo Sports</span>
+                    <span class="badge-date">2026-10-04</span>
+                </div>
+
+                <h2 class="news-title-kr">'누군가는 해고되어야 한다': Ex-Chargers DL은 Jim Harbaugh의 직원에게 책임을 요구합니다</h2>
+                <div class="news-title-en">Original: ‘Someone Needs To Be Fired’: Ex-Chargers DL Demands Accountability From Jim Harbaugh’s Staff</div>
+
+                <ul class="news-bullets">
+                    
+                    <li>⚡ **핵심 소식**: '누군가는 해고되어야 한다': Ex-Chargers DL은 Jim Harbaugh의 직원에게 책임을 요구합니다 Yahoo Sports</li>
+                    
+                    <li>📋 **선수단 영향**: Jim Harbaugh (HC)의 부상 경과 및 훈련 소화 여부가 주간 라인업 구성의 핵심 변수로 작용합니다.</li>
+                    
+                </ul>
+
+                <div class="card-footer">
+                    <a href="https://news.google.com/rss/articles/CBMihwFBVV95cUxOSXRoMlhDM3NTSUhndUw1aGZUUjl0MTVJQzlzcDg5THB1aWU5M3dQYVlzVmdkaWQyZEh1MWZQdnk0eDExeTJSbnFvVE5YSGk3MDktTTFQcFBiSzhqbWRBMkxXdUpuYXJxTkRGQ1htemJXbGRSdnpmN2NOXzBwUi1QbTlXTktDVzQ?oc=5" target="_blank" rel="noopener noreferrer" class="read-btn">
+                        원문 기사 보기 ↗
+                    </a>
+                </div>
+            </article>
+            
+            <article class="news-card" data-category="game">
+                <div class="card-header-meta">
+                    <span class="badge-tier">📰 일반</span>
+                    <span class="badge-cat">⚡ 경기 소식</span>
+                    <span class="badge-source">📰 Buffalo Bills</span>
+                    <span class="badge-date">2026-09-27</span>
+                </div>
+
+                <h2 class="news-title-kr">청구서 24개, Chargers 16개 | 최종 점수, 요약 + 하이라이트</h2>
+                <div class="news-title-en">Original: Bills 24, Chargers 16 | Final Score, recap + highlights</div>
+
+                <ul class="news-bullets">
+                    
+                    <li>⚡ **핵심 소식**: 청구서 24개, Chargers 16개 | 최종 점수, 요약 + 하이라이트 Buffalo Bills</li>
+                    
+                </ul>
+
+                <div class="card-footer">
+                    <a href="https://news.google.com/rss/articles/CBMiiwFBVV95cUxPeFlBMm9XaFRGX0FDWXdOQ21vVF9LeWlGRm1KQmhvVlJCVGFXNFhZVXk3enFaeU9QYlF6MXREVko5NWRtcEluSDhNelN6ZTdNdGp4QnVzMkN5cGtPcjdSVV96MGh0Q2RlRmM1TWZhUUtqc05yTWNmWmItWXpOd0dvdHlwNmcyNjhxaVVj?oc=5" target="_blank" rel="noopener noreferrer" class="read-btn">
+                        원문 기사 보기 ↗
+                    </a>
+                </div>
+            </article>
+            
+            <article class="news-card" data-category="game">
+                <div class="card-header-meta">
+                    <span class="badge-tier">📰 일반</span>
+                    <span class="badge-cat">⚡ 경기 소식</span>
+                    <span class="badge-source">📰 Raiders.com</span>
+                    <span class="badge-date">2026-09-18</span>
+                </div>
+
+                <h2 class="news-title-kr">Raiders-Chargers 2주차 부상 보고서: Brock Bowers는 의심스럽고 Darien Porter는 제외</h2>
+                <div class="news-title-en">Original: Raiders-Chargers Week 2 Injury Report: Brock Bowers doubtful, Darien Porter ruled out</div>
+
+                <ul class="news-bullets">
+                    
+                    <li>⚡ **핵심 소식**: Raiders-Chargers 2주차 부상 보고서: Brock Bowers는 의심스럽고 Darien Porter는 Raiders.com을 배제했습니다.</li>
+                    
+                </ul>
+
+                <div class="card-footer">
+                    <a href="https://news.google.com/rss/articles/CBMipwFBVV95cUxQWnJkclFKOUJIX0E1cjNvWjJoYlJQTXUycVI4NTNyUkNXeFBRZHdROUktWkdBdHVMOWpiNkNrSGJNZ0NuMjJWanYyRGNnV2JvOXlaS0FweEhlTTZmRkRFeFhoVFRSR2tHRWUwUVJHR20zekxocFFRM09zVlhEdlpYMWwtREhPVXc1cHlGTU8tcG91M3ZFbG5LQUZRQkFiLV9LajR1UGZDUQ?oc=5" target="_blank" rel="noopener noreferrer" class="read-btn">
+                        원문 기사 보기 ↗
+                    </a>
+                </div>
+            </article>
+            
+            <article class="news-card" data-category="roster">
+                <div class="card-header-meta">
+                    <span class="badge-tier">📰 일반</span>
+                    <span class="badge-cat">🎯 영입/계약</span>
+                    <span class="badge-source">📰 Los Angeles Chargers</span>
+                    <span class="badge-date">2026-10-07</span>
+                </div>
+
+                <h2 class="news-title-kr">Chargers의 2027년 초 NFL 모의 초안 예상은 무엇입니까?</h2>
+                <div class="news-title-en">Original: What Are Chargers Early 2027 NFL Mock Draft Projections?</div>
+
+                <ul class="news-bullets">
+                    
+                    <li>⚡ **핵심 소식**: Chargers의 2027년 초 NFL 모의 초안 예상은 무엇입니까? LA Chargers</li>
+                    
+                </ul>
+
+                <div class="card-footer">
+                    <a href="https://news.google.com/rss/articles/CBMiZkFVX3lxTE13UnFPUWJVR0NkbEpESkd1OEo1SnlTaVVjMGN0TG9Ea21QTkZEZ2gzUnl0NmxTX2ZVaGItdTAzYVNTVnhyTlUtZnBPM3NPVmFDRG4ybm5VMFNEQ2ZpbTl4NEIzMFpaZw?oc=5" target="_blank" rel="noopener noreferrer" class="read-btn">
+                        원문 기사 보기 ↗
+                    </a>
+                </div>
+            </article>
+            
+            <article class="news-card" data-category="interview">
+                <div class="card-header-meta">
+                    <span class="badge-tier">📰 일반</span>
+                    <span class="badge-cat">🎙️ 인터뷰/발언</span>
+                    <span class="badge-source">📰 Yahoo Sports</span>
+                    <span class="badge-date">2026-10-06</span>
+                </div>
+
+                <h2 class="news-title-kr">Chargers HC Jim Harbaugh가 최근 RB Omarion Hampton의 터치가 감소한 이유에 대해 설명합니다.</h2>
+                <div class="news-title-en">Original: Chargers HC Jim Harbaugh on Why RB Omarion Hampton's Touches Have Decreased Lately</div>
+
+                <ul class="news-bullets">
+                    
+                    <li>⚡ **핵심 소식**: Chargers HC Jim Harbaugh가 최근 RB Omarion Hampton의 터치가 감소한 이유에 대해 Yahoo Sports</li>
+                    
+                    <li>🏈 **전술 관전 포인트**: Jim Harbaugh 감독 및 코칭스태프의 피지컬 중심 미식축구 철학이 반영된 행보입니다.</li>
+                    
+                </ul>
+
+                <div class="card-footer">
+                    <a href="https://news.google.com/rss/articles/CBMigwFBVV95cUxNRG1aR3lKNGYxWlBBU0loNnpzMDNsZEpkOGhfaEFsXzZSNVlvaFdNN2VpYnU3RkswOE54eTdyX3lVUXk2TFJSRThZVjI5RGUzVUNwa0dKRTBrQjJMdzRxUm9Gc0c0YlFhRlk2Qjdta0l6YVVpeDRMOHZrV2Iwd0FKbmxRUQ?oc=5" target="_blank" rel="noopener noreferrer" class="read-btn">
+                        원문 기사 보기 ↗
+                    </a>
+                </div>
+            </article>
+            
+            <article class="news-card" data-category="interview">
+                <div class="card-header-meta">
+                    <span class="badge-tier">📰 일반</span>
+                    <span class="badge-cat">🎙️ 인터뷰/발언</span>
+                    <span class="badge-source">📰 Bolt Beat</span>
+                    <span class="badge-date">2026-10-05</span>
+                </div>
+
+                <h2 class="news-title-kr">6 Jim Harbaugh 교체 Chargers는 0-4 시작 후 시선을 시작해야 합니다.</h2>
+                <div class="news-title-en">Original: 6 Jim Harbaugh replacements Chargers must start eyeing after 0-4 start</div>
+
+                <ul class="news-bullets">
+                    
+                    <li>⚡ **핵심 소식**: 6 Jim Harbaugh 교체 Chargers는 0-4 시작 Bolt Beat 이후 시선을 시작해야 합니다.</li>
+                    
+                    <li>🏈 **전술 관전 포인트**: Jim Harbaugh 감독 및 코칭스태프의 피지컬 중심 미식축구 철학이 반영된 행보입니다.</li>
+                    
+                </ul>
+
+                <div class="card-footer">
+                    <a href="https://news.google.com/rss/articles/CBMilgFBVV95cUxQNVdISFpGbkNCMDJkelpTUjVGMzI0Z2ZodlpBbXFtWm4tTWVsb2ZYR0RRRGZQZmhVd0NNSnlrWU9JeUlsU0xsOFdfM0FZR2ZNV1hHSERHTDIwZHhONnFUYk56SFhIM2Zybjd0dHZGRDVFNlIzeVFzYno3UVlZRUZsNVhRck1qZWRvekZxT0Nra2JBbWlPTmc?oc=5" target="_blank" rel="noopener noreferrer" class="read-btn">
+                        원문 기사 보기 ↗
+                    </a>
+                </div>
+            </article>
+            
+            <article class="news-card" data-category="general">
+                <div class="card-header-meta">
+                    <span class="badge-tier">📰 일반</span>
+                    <span class="badge-cat">⚡ 팀 소식</span>
+                    <span class="badge-source">📰 Yahoo Sports</span>
+                    <span class="badge-date">2026-10-05</span>
+                </div>
+
+                <h2 class="news-title-kr">'의제...' – Joe Burrow의 전 팀원이 Chargers의 Mike McDaniel에 대한 '정치적' 비난을 철회했습니다.</h2>
+                <div class="news-title-en">Original: ‘An agenda of…’ – Joe Burrow’s ex-teammate drops a ‘politics’ accusation on Chargers’ Mike McDaniel</div>
+
+                <ul class="news-bullets">
+                    
+                    <li>⚡ **핵심 소식**: '의제...' – Joe Burrow의 전 팀 동료는 Chargers의 Mike McDaniel에 대한 '정치적' 비난을 삭제했습니다. Yahoo Sports</li>
+                    
+                    <li>🏈 **공격 전술 관전 포인트**: Mike McDaniel 신임 오펜시브 코디네이터의 전술 안착과 QB Justin Herbert의 플레이메이킹 극대화가 핵심 과제입니다.</li>
+                    
+                </ul>
+
+                <div class="card-footer">
+                    <a href="https://news.google.com/rss/articles/CBMihAFBVV95cUxNdFZjaFFUZUVYREFkRWFYb09HTUF2ZDVvaS1EdDdHT29zY3R1R3lsX2Z5UUNBNjFFcDZMZjYwTmhWb3VHeUE1bG8xS0VPcGhMRG1aRDlvV3RvcW0xNlo3a0Z1YWcyTTByRXpuWEFCSE55ajNkRzJaM0p5VHljNE1vTUFTakk?oc=5" target="_blank" rel="noopener noreferrer" class="read-btn">
+                        원문 기사 보기 ↗
+                    </a>
+                </div>
+            </article>
+            
+            <article class="news-card" data-category="interview">
+                <div class="card-header-meta">
+                    <span class="badge-tier">📰 일반</span>
+                    <span class="badge-cat">🎙️ 인터뷰/발언</span>
+                    <span class="badge-source">📰 NFL.com</span>
+                    <span class="badge-date">2026-10-05</span>
+                </div>
+
+                <h2 class="news-title-kr">Jim Harbaugh는 Chargers가 0-4로 떨어진 후 Mike McDaniel을 지원합니다: '그의 직업은 위험에 처해 있지 않습니다'</h2>
+                <div class="news-title-en">Original: Jim Harbaugh backs Mike McDaniel after Chargers fall to 0-4: 'His job is not in jeopardy'</div>
+
+                <ul class="news-bullets">
+                    
+                    <li>⚡ **핵심 소식**: Jim Harbaugh는 Chargers가 0-4로 떨어진 후 Mike McDaniel을 지지합니다: '그의 직업은 위험에 처해 있지 않습니다' NFL.com</li>
+                    
+                    <li>🏈 **공격 전술 관전 포인트**: Mike McDaniel 신임 오펜시브 코디네이터의 전술 안착과 QB Justin Herbert의 플레이메이킹 극대화가 핵심 과제입니다.</li>
+                    
+                </ul>
+
+                <div class="card-footer">
+                    <a href="https://news.google.com/rss/articles/CBMisAFBVV95cUxNMHFzS2NrczFPQW4yWXlKSkJGT3ZsbVFCMDBfc1A2YTFndDhKalpiVlNEa04wUUNzQzNjR1poTEptRnVJTVpubWI5NDNnSElSUTdEM1ZlU2dHcXRzX19yMkY2dW5mYmI1VXk1aUxHTkxUS0tyc19YdE1rdnY1aENOaFZWcVJmUG4ySXIwd0t3QUJfblFRNjlxUjRGeEJBUU56T2NVSF9zanVRTmZ6Y24yNA?oc=5" target="_blank" rel="noopener noreferrer" class="read-btn">
+                        원문 기사 보기 ↗
+                    </a>
+                </div>
+            </article>
+            
+            <article class="news-card" data-category="game">
+                <div class="card-header-meta">
+                    <span class="badge-tier">📰 일반</span>
+                    <span class="badge-cat">⚡ 경기 소식</span>
+                    <span class="badge-source">📰 Bolts From The Blue</span>
+                    <span class="badge-date">2026-10-05</span>
+                </div>
+
+                <h2 class="news-title-kr">Los Angeles Chargers 뉴스: Seahawks의 패배에서 얻은 긍정적인 교훈</h2>
+                <div class="news-title-en">Original: Los Angeles Chargers news: A positive takeaway from the loss to the Seahawks</div>
+
+                <ul class="news-bullets">
+                    
+                    <li>⚡ **핵심 소식**: Los Angeles Chargers 뉴스: Seahawks Bolts From The Blue의 패배에서 얻은 긍정적인 교훈</li>
+                    
+                </ul>
+
+                <div class="card-footer">
+                    <a href="https://news.google.com/rss/articles/CBMizgFBVV95cUxOY0tVUFVtLWpIMnBvV3lFOTVVSmdKcGtqTU9zMDJqaXJmTmU1SDdNM1lUR1FtR3N4UHd0U0VqcHBZVUtPbHpQWDc4QUpQWE1iMzRxOTZwTDMyTE1kcFU5RnhDeEV2eHNWcXNzcDRFOW1lOHd3ZklvbTZlczVYSU1OMkRDYTFKR05TNExMcno3aVlxQl9hU09IUkR4alZmT0FEcEN2VjZWVFdNUjBISUJKVnFtak5FMVc0cWF4bWZsUkE3REVqTGtZNGhEaEp1Zw?oc=5" target="_blank" rel="noopener noreferrer" class="read-btn">
+                        원문 기사 보기 ↗
+                    </a>
+                </div>
+            </article>
+            
+            <article class="news-card" data-category="game">
+                <div class="card-header-meta">
+                    <span class="badge-tier">📰 일반</span>
+                    <span class="badge-cat">⚡ 경기 소식</span>
+                    <span class="badge-source">📰 Seattle Seahawks</span>
+                    <span class="badge-date">2026-10-04</span>
+                </div>
+
+                <h2 class="news-title-kr">신속한 반응: Seahawks의 지상 공격, 패스 러시 하이라이트 30-23 차저에 대한 승리</h2>
+                <div class="news-title-en">Original: Rapid Reactions: Seahawks' Ground Attack, Pass Rush Highlight 30-23 Win Over Chargers</div>
+
+                <ul class="news-bullets">
+                    
+                    <li>⚡ **핵심 소식**: 신속한 반응: Seahawks의 지상 공격, Pass Rush 하이라이트 Chargers를 상대로 30-23 승리 Seattle Seahawks</li>
+                    
+                </ul>
+
+                <div class="card-footer">
+                    <a href="https://news.google.com/rss/articles/CBMisgFBVV95cUxNZ1FXUmNBZS0wVlhJMUlOY2I4OXl0VWs5WTVYMUdRUGxpYkpyRmthRlYzOXZWVmkyZER0a2xzV183QlVmRG5UYUtEOWNCT1ZFVHEtVGVlQ3RfT0NCTkRRbERNaUlxN214TE9Wcmtuc0VDX0xtbG93YXhUQjVjN2g0eEg3U3ZsOGZSTFhZZjRlbG5Bb2F1Z3VwcVp4d3J1dGk0dDlNbFlZaERnQVczN0Z2RGp3?oc=5" target="_blank" rel="noopener noreferrer" class="read-btn">
+                        원문 기사 보기 ↗
+                    </a>
+                </div>
+            </article>
+            
+            <article class="news-card" data-category="general">
+                <div class="card-header-meta">
+                    <span class="badge-tier">📰 일반</span>
+                    <span class="badge-cat">⚡ 팀 소식</span>
+                    <span class="badge-source">📰 Yahoo Sports</span>
+                    <span class="badge-date">2026-10-04</span>
+                </div>
+
+                <h2 class="news-title-kr">Chargers는 공격을 수정하기 위해 Mike McDaniel을 고용했으며 이제 그는 공격을 깬 것에 대해 책임을 져야 합니다.</h2>
+                <div class="news-title-en">Original: Chargers Hired Mike McDaniel to Fix Their Offense, Now He's Taking the Blame for Breaking It</div>
+
+                <ul class="news-bullets">
+                    
+                    <li>⚡ **핵심 소식**: Chargers는 공격을 수정하기 위해 Mike McDaniel을 고용했으며 이제 그는 그것을 깨뜨린 것에 대한 책임을지고 있습니다 Yahoo Sports</li>
+                    
+                    <li>📋 **선수단 영향**: Mike McDaniel (OC)의 부상 경과 및 훈련 소화 여부가 주간 라인업 구성의 핵심 변수로 작용합니다.</li>
+                    
+                </ul>
+
+                <div class="card-footer">
+                    <a href="https://news.google.com/rss/articles/CBMiiAFBVV95cUxPSEhzeEJTQi1ZX3BZeXZrRnNkd2docmQ5NWtORDV6ME9MT2V5QklsMXdmZWRPbDRUR0RmbDZPU09OZ2dvcDVZcTZNTnB4RXlUOW4yZmx5dkVMZ21UbVk3VDJpWXdNZzltZzZYNnNtdV94bDUwUkhBZWtCb3JIMnhuZ2txMWxqZTVY?oc=5" target="_blank" rel="noopener noreferrer" class="read-btn">
+                        원문 기사 보기 ↗
+                    </a>
+                </div>
+            </article>
+            
+            <article class="news-card" data-category="general">
+                <div class="card-header-meta">
+                    <span class="badge-tier">📰 일반</span>
+                    <span class="badge-cat">⚡ 팀 소식</span>
+                    <span class="badge-source">📰 Bolts From The Blue</span>
+                    <span class="badge-date">2026-10-04</span>
+                </div>
+
+                <h2 class="news-title-kr">Chargers 팬들은 Mike McDaniel을 2026년 지금까지 가장 실망스러운 인물로 꼽았습니다.</h2>
+                <div class="news-title-en">Original: Chargers fans vote Mike McDaniel as biggest disappoint in 2026 thus far</div>
+
+                <ul class="news-bullets">
+                    
+                    <li>⚡ **핵심 소식**: Chargers 팬들은 Mike McDaniel을 2026년 현재까지 가장 실망스러운 선수로 뽑았습니다. Bolts From The Blue</li>
+                    
+                    <li>🏈 **공격 전술 관전 포인트**: Mike McDaniel 신임 오펜시브 코디네이터의 전술 안착과 QB Justin Herbert의 플레이메이킹 극대화가 핵심 과제입니다.</li>
+                    
+                </ul>
+
+                <div class="card-footer">
+                    <a href="https://news.google.com/rss/articles/CBMivAFBVV95cUxPXzRLaldFMDFiVFYzMldWX2d0UzJCRV80YmpsQXdkN0E2dmNMQkpLT0plZTJYRXg2STFkdFJTTG1JdWFuLWtKOFFYWElrRTdNQTdsdDltRW5zWnVFLTBwM2F4WXc1ckxkOG9WT1kwZm1RUXdrVHFYSjV6WjY1SHdaZDdEb1I0NklEWklTNW1rTEhzNmxzNllmaDh4NmE5aDFic05uT0dyb25qM3p1QVlpdFlmM0pPb3g4X3J0dw?oc=5" target="_blank" rel="noopener noreferrer" class="read-btn">
+                        원문 기사 보기 ↗
+                    </a>
+                </div>
+            </article>
+            
+            <article class="news-card" data-category="game">
+                <div class="card-header-meta">
+                    <span class="badge-tier">📰 일반</span>
+                    <span class="badge-cat">⚡ 경기 소식</span>
+                    <span class="badge-source">📰 Seattle Seahawks</span>
+                    <span class="badge-date">2026-10-04</span>
+                </div>
+
+                <h2 class="news-title-kr">전체 하이라이트: Seahawks 대 Chargers | 2026년 4주차</h2>
+                <div class="news-title-en">Original: Full Highlights: Seahawks vs. Chargers | 2026 Week 4</div>
+
+                <ul class="news-bullets">
+                    
+                    <li>⚡ **핵심 소식**: 전체 하이라이트: Seahawks 대 Chargers | 2026년 4주차 시애틀 시호크스</li>
+                    
+                </ul>
+
+                <div class="card-footer">
+                    <a href="https://news.google.com/rss/articles/CBMihAFBVV95cUxONUF4ck81X1ZmZzhKNHNDNzlRdHJkMjdMTURIak00Q05iWjJxV3F6TjBkRXM2Y1pCZmliN3FQcm9aN2NCaHQ2VElQbmJteWFHbzlremxUNVhoSjBMTmtoUXh2N0t2Tm9rdWJGT1hpSlo2bE5OWXNkbkxWemliQkU0Y2QxU1I?oc=5" target="_blank" rel="noopener noreferrer" class="read-btn">
+                        원문 기사 보기 ↗
+                    </a>
+                </div>
+            </article>
+            
+            <article class="news-card" data-category="game">
+                <div class="card-header-meta">
+                    <span class="badge-tier">📰 일반</span>
+                    <span class="badge-cat">⚡ 경기 소식</span>
+                    <span class="badge-source">📰 Yahoo Sports</span>
+                    <span class="badge-date">2026-09-29</span>
+                </div>
+
+                <h2 class="news-title-kr">LA Chargers의 충격적인 턴오버: 3주차 경기 요약</h2>
+                <div class="news-title-en">Original: LA Chargers' Shocking Turnovers: Week 3 Game Recap</div>
+
+                <ul class="news-bullets">
+                    
+                    <li>⚡ **핵심 소식**: LA Chargers의 충격적인 턴오버: 3주 차 경기 요약 Yahoo Sports</li>
+                    
+                </ul>
+
+                <div class="card-footer">
+                    <a href="https://news.google.com/rss/articles/CBMiigFBVV95cUxQOUd3Q242akxLWFNlc1QwSmhCRG1Ic1V3WnhVS1pIMkxwdXhrVjdFaURmYTJGQVF6TnY1Q3MwNThOMTJwRlhqZXA5LU1MdmRoZGNPQXhRc1diNkIzQ2w3OWg1ZVhFOXlLSUhYZUxwM25wdWdIenptbkMxc05iMzJPQUhMZG5SU3Bhd3c?oc=5" target="_blank" rel="noopener noreferrer" class="read-btn">
+                        원문 기사 보기 ↗
+                    </a>
+                </div>
+            </article>
+            
+            <article class="news-card" data-category="game">
+                <div class="card-header-meta">
+                    <span class="badge-tier">📰 일반</span>
+                    <span class="badge-cat">⚡ 경기 소식</span>
+                    <span class="badge-source">📰 Yahoo Sports</span>
+                    <span class="badge-date">2026-09-28</span>
+                </div>
+
+                <h2 class="news-title-kr">Bills는 회전율을 극복하여 Chargers를 이겼습니다: 게임 요약</h2>
+                <div class="news-title-en">Original: Bills Overcome Turnovers to Beat Chargers: Game Recap</div>
+
+                <ul class="news-bullets">
+                    
+                    <li>⚡ **핵심 소식**: Bills는 회전율을 극복하여 Chargers를 이겼습니다: 게임 요약 Yahoo Sports</li>
+                    
+                </ul>
+
+                <div class="card-footer">
+                    <a href="https://news.google.com/rss/articles/CBMijgFBVV95cUxNd0lTdXZSUWhLaHh2c2hLQUNqTE85cXl0M3IzdXFtRWJ0LVB0Y1NBWlp1Wks5OEFYai1ySGlfaDI0WG5abnRaX3JlRFBWR19QWGt6aGNVaVhMeUt4Ym8zV1ZqXy0tVi1iUTZHeTlBLXQ4NEEtMDJVb0pNM3JTLTVERWhfZW5tVDVDZWI3eXJn?oc=5" target="_blank" rel="noopener noreferrer" class="read-btn">
+                        원문 기사 보기 ↗
+                    </a>
+                </div>
+            </article>
+            
+            <article class="news-card" data-category="general">
+                <div class="card-header-meta">
+                    <span class="badge-tier">📰 일반</span>
+                    <span class="badge-cat">⚡ 팀 소식</span>
+                    <span class="badge-source">📰 Yahoo Sports</span>
+                    <span class="badge-date">2026-10-05</span>
+                </div>
+
+                <h2 class="news-title-kr">Los Angeles Chargers가 Mike McDaniel을 해고해야 할까요?</h2>
+                <div class="news-title-en">Original: Should the Los Angeles Chargers Fire Mike McDaniel?</div>
+
+                <ul class="news-bullets">
+                    
+                    <li>⚡ **핵심 소식**: Los Angeles Chargers가 Mike McDaniel을 해고해야 할까요?</li>
+                    
+                    <li>📋 **선수단 영향**: Mike McDaniel (OC)의 부상 경과 및 훈련 소화 여부가 주간 라인업 구성의 핵심 변수로 작용합니다.</li>
+                    
+                </ul>
+
+                <div class="card-footer">
+                    <a href="https://news.google.com/rss/articles/CBMihgFBVV95cUxPV0NvU0dHaDVGTFYyNWxOWmpZd0xQTlhtUUdOYVk2Q3g5ODFwU21xWUt5WnM2eWQ2RmRTbF8xTE1lSGpjNVJjUEV0dDBnd01RSnQ2aEVVNndiZnUwVDNnSkZpTU9wY05zUmZHQmd0d3U0YjExRTFheENHV0lSYmdHXzRtMGFNQQ?oc=5" target="_blank" rel="noopener noreferrer" class="read-btn">
+                        원문 기사 보기 ↗
+                    </a>
+                </div>
+            </article>
+            
+            <article class="news-card" data-category="general">
+                <div class="card-header-meta">
+                    <span class="badge-tier">📰 일반</span>
+                    <span class="badge-cat">⚡ 팀 소식</span>
+                    <span class="badge-source">📰 Yahoo Sports</span>
+                    <span class="badge-date">2026-10-04</span>
+                </div>
+
+                <h2 class="news-title-kr">Mike McDaniel은 전략을 조정해야 합니다.</h2>
+                <div class="news-title-en">Original: Mike McDaniel Needs to Adjust His Strategy</div>
+
+                <ul class="news-bullets">
+                    
+                    <li>⚡ **핵심 소식**: Mike McDaniel은 자신의 전략을 조정해야 합니다 Yahoo Sports</li>
+                    
+                    <li>🏈 **공격 전술 관전 포인트**: Mike McDaniel 신임 오펜시브 코디네이터의 전술 안착과 QB Justin Herbert의 플레이메이킹 극대화가 핵심 과제입니다.</li>
+                    
+                </ul>
+
+                <div class="card-footer">
+                    <a href="https://news.google.com/rss/articles/CBMijAFBVV95cUxNTHpvVzJaTzh1RU5WNTVuTDZWaEp5NkJXZlEzQUtlR1NzMExfWjNtSVRhbU0wd1ZWdTZnbXIyY3JYQ0tkMHhJMWtPY3huLURrdVdPOE5nNEVuWXVyTDZ6UWhSTDhtb1F3Wi1Ka1hld0ZjN0JVNGZfN1lSTzR2TFpETmxOQTN2ZERnNWszTg?oc=5" target="_blank" rel="noopener noreferrer" class="read-btn">
+                        원문 기사 보기 ↗
+                    </a>
+                </div>
+            </article>
+            
+            <article class="news-card" data-category="game">
+                <div class="card-header-meta">
+                    <span class="badge-tier">📰 일반</span>
+                    <span class="badge-cat">⚡ 경기 소식</span>
+                    <span class="badge-source">📰 Buffalo Bills</span>
+                    <span class="badge-date">2026-09-25</span>
+                </div>
+
+                <h2 class="news-title-kr">Buffalo Bills 부상 보고서 대 Chargers | 3주차</h2>
+                <div class="news-title-en">Original: Buffalo Bills injury report vs. Chargers | Week 3</div>
+
+                <ul class="news-bullets">
+                    
+                    <li>⚡ **핵심 소식**: Buffalo Bills 부상 보고서 대 Chargers | 3주차 버팔로 빌</li>
+                    
+                </ul>
+
+                <div class="card-footer">
+                    <a href="https://news.google.com/rss/articles/CBMihwFBVV95cUxON2ZQRU9tTDRMQ251QTkxRXV1eU5jcGJ2ZmJJZ1VOc0REcUg1WERGOWo3M1lLNjdUZTZsN2p6bkl2bWVCcklCTktMSEtVemY5MlJFTVhhQ0tpdHRKYnBUQWtkZEtRdTk4SkNUYUpMOEJqYzB2TDBTVVV1SlBNT2tJRnd0RFEwdW8?oc=5" target="_blank" rel="noopener noreferrer" class="read-btn">
+                        원문 기사 보기 ↗
+                    </a>
+                </div>
+            </article>
+            
+            <article class="news-card" data-category="injury">
+                <div class="card-header-meta">
+                    <span class="badge-tier">📰 일반</span>
+                    <span class="badge-cat">📋 부상/로스터</span>
+                    <span class="badge-source">📰 Los Angeles Chargers</span>
+                    <span class="badge-date">2026-09-23</span>
+                </div>
+
+                <h2 class="news-title-kr">LA Chargers(Los Angeles Chargers)는 부상자 보호구역(Injured Reserve)에 David Njoku를 배치했습니다. Marquez Valdes-Scantling을 활성 명단에 서명</h2>
+                <div class="news-title-en">Original: Los Angeles Chargers Place David Njoku on Injured Reserve; Sign Marquez Valdes-Scantling to Active Roster</div>
+
+                <ul class="news-bullets">
+                    
+                    <li>⚡ **핵심 소식**: LA Chargers(Los Angeles Chargers)는 부상자 보호구역(Injured Reserve)에 David Njoku를 배치했습니다. Marquez Valdes-Scantling을 활성 Roster Los Angeles Chargers에 영입</li>
+                    
+                </ul>
+
+                <div class="card-footer">
+                    <a href="https://news.google.com/rss/articles/CBMiqgFBVV95cUxNWnFwUDI5WXRXSGZRcC0zNjJ5cFowYk5zT1ZwVDZTMFpCZnFqdlpSRmJvVmlDRFhzT25ieWN0UDNuZ3JGdEVha0h1N1JYNE9yUVBuSWlMTkpsUnBLa2tIZmRSYkg3VjJ2a004WEJPVkVjTVNUeERKcGZ1elVFbERvNEdpT2o5UDVmWllNcFQ3cWtBcXFBcjZRcHlwX19sRXlSbFhXb2NockYtUQ?oc=5" target="_blank" rel="noopener noreferrer" class="read-btn">
+                        원문 기사 보기 ↗
+                    </a>
+                </div>
+            </article>
+            
+            <article class="news-card" data-category="game">
+                <div class="card-header-meta">
+                    <span class="badge-tier">📰 일반</span>
+                    <span class="badge-cat">⚡ 경기 소식</span>
+                    <span class="badge-source">📰 FOX Sports</span>
+                    <span class="badge-date">2026-09-23</span>
+                </div>
+
+                <h2 class="news-title-kr">NFL Fallout Week 2: Justin Herbert가 과대평가되어 이제 Chargers를 해치고 있습니다.</h2>
+                <div class="news-title-en">Original: NFL Fallout Week 2: Justin Herbert Is Overrated, And Now He's Hurting The Chargers</div>
+
+                <ul class="news-bullets">
+                    
+                    <li>⚡ **핵심 소식**: NFL Fallout Week 2: Justin Herbert가 과대평가되어 이제 Chargers에게 해를 끼치고 있습니다. FOX Sports</li>
+                    
+                    <li>🏈 **주요 인물**: Justin Herbert (QB)의 경기력과 훈련 컨디션이 집중 조명되고 있습니다.</li>
+                    
+                </ul>
+
+                <div class="card-footer">
+                    <a href="https://news.google.com/rss/articles/CBMiqgFBVV95cUxQMWhsb2JhTzlTUEtQcmdkM0ktZy1VbUVlLXk1YmF1YjRqR2ZwNXlNNnZUd0NUTGNrNlVsc1ZyNjRpNHUyOFlUTnJNTzdJdjBTX3o2dkVOY2FzNlBITkdXNFJKb2JzNXVqcHNoVmtSajdsUTFlQWJLdkUtZHV2OWFxcW9ReWtuRUEyRHVmM2trRzFRZV9ybEZ0Q2lnaVo5NGR0bHJVbWxhd3Bpdw?oc=5" target="_blank" rel="noopener noreferrer" class="read-btn">
+                        원문 기사 보기 ↗
+                    </a>
+                </div>
+            </article>
+            
+            <article class="news-card" data-category="game">
+                <div class="card-header-meta">
+                    <span class="badge-tier">📰 일반</span>
+                    <span class="badge-cat">⚡ 경기 소식</span>
+                    <span class="badge-source">📰 Los Angeles Chargers</span>
+                    <span class="badge-date">2026-09-20</span>
+                </div>
+
+                <h2 class="news-title-kr">게임 요약: Chargers, Raiders에게 2주 차 콘테스트 공개</h2>
+                <div class="news-title-en">Original: Game Recap: Chargers Drop Week 2 Contest to Raiders</div>
+
+                <ul class="news-bullets">
+                    
+                    <li>⚡ **핵심 소식**: 게임 요약: Chargers, Raiders Los Angeles Chargers에 2주 차 콘테스트 공개</li>
+                    
+                </ul>
+
+                <div class="card-footer">
+                    <a href="https://news.google.com/rss/articles/CBMiZkFVX3lxTE1aOTQwLTVuUDFPSFhienpzelBwaE5abGZNMERwdHdJYmxjM3FoUkNOVk9YWWVYVVFDWDVWMGdTN2pMcmE0LVdtNEkya1p6S2poT2Z6UzJaN3hZSmFZc1JucVZLa09fQQ?oc=5" target="_blank" rel="noopener noreferrer" class="read-btn">
+                        원문 기사 보기 ↗
+                    </a>
+                </div>
+            </article>
+            
+            <article class="news-card" data-category="injury">
+                <div class="card-header-meta">
+                    <span class="badge-tier">📰 일반</span>
+                    <span class="badge-cat">📋 부상/로스터</span>
+                    <span class="badge-source">📰 Barstool Sports</span>
+                    <span class="badge-date">2026-10-04</span>
+                </div>
+
+                <h2 class="news-title-kr">LA Chargers의 바닥이 무너졌고 이제는 변화가 필요한 때입니다.</h2>
+                <div class="news-title-en">Original: The Bottom Has Fallen Out For The Los Angeles Chargers And It's Time For Change</div>
+
+                <ul class="news-bullets">
+                    
+                    <li>⚡ **핵심 소식**: LA Chargers(Los Angeles Chargers)의 바닥이 떨어졌고 이제는 변화가 필요한 때입니다. 바스툴 스포츠(Barstool Sports)</li>
+                    
+                </ul>
+
+                <div class="card-footer">
+                    <a href="https://news.google.com/rss/articles/CBMitgFBVV95cUxQeG8zT0JkMzNuVTBiX2pFWVdoT0VOYVE3NnBTdmkxN2NrY3NoYkdnY0xNV2Y0WDdKX0FTZE9FRGhONUp4Tk9UajBTV0VXcE10TkozeXJ1dVNycUdESE9wb3RyNVVSbzVhVUgtUG15YkZpUDNOcERmNHVMQzlOWE5wUjBKNlJNd3JrT2drYkFEUHRHTDJLbDcxcW5OTWIybE1OQkJ2cEtIYTNMNDBYT05FYWdsZFBvUQ?oc=5" target="_blank" rel="noopener noreferrer" class="read-btn">
+                        원문 기사 보기 ↗
+                    </a>
+                </div>
+            </article>
+            
+            <article class="news-card" data-category="game">
+                <div class="card-header-meta">
+                    <span class="badge-tier">📰 일반</span>
+                    <span class="badge-cat">⚡ 경기 소식</span>
+                    <span class="badge-source">📰 NFL.com</span>
+                    <span class="badge-date">2026-09-28</span>
+                </div>
+
+                <h2 class="news-title-kr">게임 하이라이트: Chargers 대 청구서 | 3주차</h2>
+                <div class="news-title-en">Original: Game Highlights: Chargers vs. Bills | Week 3</div>
+
+                <ul class="news-bullets">
+                    
+                    <li>⚡ **핵심 소식**: 게임 하이라이트: Chargers 대 청구서 | 3주차 NFL.com</li>
+                    
+                </ul>
+
+                <div class="card-footer">
+                    <a href="https://news.google.com/rss/articles/CBMidkFVX3lxTE9UR1JhcWN1VXoyTWxnam05X0hhXzlVcHhjYWdfekdkT2dKR1BHOUFCX1BLRXVkVjRNbXNSNXF6aTQ5VkEwRjRxbDRYZVZ2RUJxSGppb2JXYjRFbk5wMmx6bUY2bFZ1UWFUcE85aDh4RTFpLTdEY3c?oc=5" target="_blank" rel="noopener noreferrer" class="read-btn">
+                        원문 기사 보기 ↗
+                    </a>
+                </div>
+            </article>
+            
+            <article class="news-card" data-category="game">
+                <div class="card-header-meta">
+                    <span class="badge-tier">📰 일반</span>
+                    <span class="badge-cat">⚡ 경기 소식</span>
+                    <span class="badge-source">📰 Buffalo Bills</span>
+                    <span class="badge-date">2026-09-27</span>
+                </div>
+
+                <h2 class="news-title-kr">Josh Allen이 자신의 패스를 받아 긍정적인 야드수를 기록했습니다 | 청구서 대 Chargers 하이라이트</h2>
+                <div class="news-title-en">Original: Josh Allen catches his own pass and manages to pick up positive yardage | Bills vs. Chargers Highlights</div>
+
+                <ul class="news-bullets">
+                    
+                    <li>⚡ **핵심 소식**: Josh Allen이 자신의 패스를 받아 긍정적인 야드수를 기록했습니다 | 청구서 대 Chargers 하이라이트 버팔로 청구서</li>
+                    
+                </ul>
+
+                <div class="card-footer">
+                    <a href="https://news.google.com/rss/articles/CBMi0AFBVV95cUxNS2VRVWpHMUdVV0xiY1RWUE5kdmJ0ckZPM3haZjJOb1Z1YThES1FIdGZkZUU0akdUUk91QWtCTWF4SjBNQ05JWjROVGNORzR0bXM3ZkV1OFlrNEhLUVU5cm9GM1EtUmNKdDlidG04cmFXR0wzVnVHT3V6c1V6Q0UzeTBvWFoyZkh1YURjV0ppWXdiWmF5SkoyY3huYks3TWIyNWtrOE1lLUZ2eTNnQndGOG5CX2taN1htd2NpdDRmZ0NQTXZFZExJdFJlQzFFZ1dh?oc=5" target="_blank" rel="noopener noreferrer" class="read-btn">
+                        원문 기사 보기 ↗
+                    </a>
+                </div>
+            </article>
+            
+            <article class="news-card" data-category="interview">
+                <div class="card-header-meta">
+                    <span class="badge-tier">📰 일반</span>
+                    <span class="badge-cat">🎙️ 인터뷰/발언</span>
+                    <span class="badge-source">📰 Reddit r/Chargers</span>
+                    <span class="badge-date">2026-10-05</span>
+                </div>
+
+                <h2 class="news-title-kr">공식 /r/Chargers 구매/판매 스레드 - 2026년 10월</h2>
+                <div class="news-title-en">Original: Official /r/Chargers Buy/Sell Thread - October 2026</div>
+
+                <ul class="news-bullets">
+                    
+                    <li>⚡ **핵심 소식**: 공식 /r/Chargers 구매/판매 스레드 - 2026년 10월</li>
+                    
+                </ul>
+
+                <div class="card-footer">
+                    <a href="https://www.reddit.com/r/Chargers/comments/1wy9vd4/official_rchargers_buysell_thread_october_2026/" target="_blank" rel="noopener noreferrer" class="read-btn">
+                        원문 기사 보기 ↗
+                    </a>
+                </div>
+            </article>
+            
+            <article class="news-card" data-category="game">
+                <div class="card-header-meta">
+                    <span class="badge-tier">📰 일반</span>
+                    <span class="badge-cat">⚡ 경기 소식</span>
+                    <span class="badge-source">📰 Sports Illustrated</span>
+                    <span class="badge-date">2026-10-05</span>
+                </div>
+
+                <h2 class="news-title-kr">NFL 4주차 레슨: Chargers가 궁극적인 움직임을 고려해야 하는 이유</h2>
+                <div class="news-title-en">Original: NFL Week 4 Lessons: Why the Chargers Should Consider Making the Ultimate Move</div>
+
+                <ul class="news-bullets">
+                    
+                    <li>⚡ **핵심 소식**: NFL 4주차 레슨: Chargers가 궁극의 움직임을 고려해야 하는 이유 Sports Illustrated</li>
+                    
+                </ul>
+
+                <div class="card-footer">
+                    <a href="https://news.google.com/rss/articles/CBMimAFBVV95cUxQSXFLZEtqeHE2MVFKRWtxMGNxMnFrbmo5MjJnWXFxUFY1cW5LTnhuY2dId29TTUZGX1RLdDdoN3hUZS1NZ3hUWGd0ZjhQWVlCVV9JemdCcUw4bmE3NUpqeGhBSnBMM0I5RXVzMTBaRGM5MmkyYndBUnEtbHJ3dVdhMzUxTGlOanVkY0twd2lZZm1BOWFEWWJvdw?oc=5" target="_blank" rel="noopener noreferrer" class="read-btn">
+                        원문 기사 보기 ↗
+                    </a>
+                </div>
+            </article>
+            
+            <article class="news-card" data-category="game">
+                <div class="card-header-meta">
+                    <span class="badge-tier">📰 일반</span>
+                    <span class="badge-cat">⚡ 경기 소식</span>
+                    <span class="badge-source">📰 Los Angeles Chargers</span>
+                    <span class="badge-date">2026-10-05</span>
+                </div>
+
+                <h2 class="news-title-kr">5주 차를 앞두고 Chargers에 대해 알아야 할 5가지 사항</h2>
+                <div class="news-title-en">Original: 5 Things To Know About the Chargers Ahead of Week 5</div>
+
+                <ul class="news-bullets">
+                    
+                    <li>⚡ **핵심 소식**: 5주차를 앞두고 Chargers에 대해 알아야 할 5가지 LA Chargers</li>
+                    
+                </ul>
+
+                <div class="card-footer">
+                    <a href="https://news.google.com/rss/articles/CBMie0FVX3lxTFAxc3plSUQzYzJlRWpLZFNTOXNxUE15anl0QlZFZ2JoeUpaeU45SmpNelY0R25vS2xtTTl0S3lHVUFMdGNBOEkwNDRzQ3FLdE81UlM3ZDJLUWFlWld6djFFUUEtQjd5SDM5QUszdDB1SW9OTnpXVHlxdUxGWQ?oc=5" target="_blank" rel="noopener noreferrer" class="read-btn">
+                        원문 기사 보기 ↗
+                    </a>
+                </div>
+            </article>
+            
+            <article class="news-card" data-category="general">
+                <div class="card-header-meta">
+                    <span class="badge-tier">📰 일반</span>
+                    <span class="badge-cat">⚡ 팀 소식</span>
+                    <span class="badge-source">📰 Raiders.com</span>
+                    <span class="badge-date">2026-10-04</span>
+                </div>
+
+                <h2 class="news-title-kr">Ashton Jeanty는 차저를 타고 압도적인 13야드를 달리고 있습니다.</h2>
+                <div class="news-title-en">Original: Ashton Jeanty TRUCKS a Charger on dominant 13-yard run</div>
+
+                <ul class="news-bullets">
+                    
+                    <li>⚡ **핵심 소식**: Ashton Jeanty는 압도적인 13야드를 달리는 차저 트럭을 운전합니다. Raiders.com</li>
+                    
+                </ul>
+
+                <div class="card-footer">
+                    <a href="https://news.google.com/rss/articles/CBMidkFVX3lxTE03Rm1GMW1zQVU2V0Y2N1dIbHdKeHFNZzFvOXh0VnZBWXA5MEdiSzVkZHpLSVlYSnlrMXF1OGxwTDliczB2RUZLcVJXSjhsdVVhYms2QklNV0FTeVFtMTNZWG42WVFyVDB6WkVPRXVDMExuS2EyR3c?oc=5" target="_blank" rel="noopener noreferrer" class="read-btn">
+                        원문 기사 보기 ↗
+                    </a>
+                </div>
+            </article>
+            
+            <article class="news-card" data-category="game">
+                <div class="card-header-meta">
+                    <span class="badge-tier">📰 일반</span>
+                    <span class="badge-cat">⚡ 경기 소식</span>
+                    <span class="badge-source">📰 Los Angeles Chargers</span>
+                    <span class="badge-date">2026-09-27</span>
+                </div>
+
+                <h2 class="news-title-kr">Chargers-Bills 3주차 비활성: Trey Lance 활성, Uiagalelei는 Buffalo의 긴급 3쿼터백입니다.</h2>
+                <div class="news-title-en">Original: Chargers-Bills Week 3 Inactives: Trey Lance Active, Uiagalelei is Emergency 3rd Quarterback in Buffalo</div>
+
+                <ul class="news-bullets">
+                    
+                    <li>⚡ **핵심 소식**: Chargers-Bills 3주차 비활성: Trey Lance 활성, Uiagalelei는 Buffalo Los Angeles Chargers의 긴급 3쿼터백입니다.</li>
+                    
+                </ul>
+
+                <div class="card-footer">
+                    <a href="https://news.google.com/rss/articles/CBMiaEFVX3lxTFA3elgzaFh1U3hqSHFHd0ZNc3hfV1dlUGpyUnBoRUF3YUl0VUFfeWpZb01DT2NjZE51Q3RFX2x6WDJhVzRUT192UF9zS2xsUXE3aGdGcVR4UzlicEFrMnBMUDU0cnRnZE5V?oc=5" target="_blank" rel="noopener noreferrer" class="read-btn">
+                        원문 기사 보기 ↗
+                    </a>
+                </div>
+            </article>
+            
+            <article class="news-card" data-category="general">
+                <div class="card-header-meta">
+                    <span class="badge-tier">📰 일반</span>
+                    <span class="badge-cat">⚡ 팀 소식</span>
+                    <span class="badge-source">📰 Fox News</span>
+                    <span class="badge-date">2026-09-26</span>
+                </div>
+
+                <h2 class="news-title-kr">Rob Gronkowski는 거친 시작 이후 Chargers를 '아마도 NFL에서 가장 큰 혼란'이라고 부릅니다.</h2>
+                <div class="news-title-en">Original: Rob Gronkowski calls Chargers 'probably the biggest mess in the NFL' right now after rough start</div>
+
+                <ul class="news-bullets">
+                    
+                    <li>⚡ **핵심 소식**: Rob Gronkowski는 힘든 출발 이후 Chargers를 '아마도 NFL에서 가장 큰 혼란'이라고 부릅니다. Fox News</li>
+                    
+                </ul>
+
+                <div class="card-footer">
+                    <a href="https://news.google.com/rss/articles/CBMingFBVV95cUxNTEo1bmt1RlV1RFZ2aVpCTjF0NVlGTzVjdGVwRXNYd1YyQTkzVjFfOFFIV0xYcXltUDl4Z2tLd2EweHN0MDhGY0xJdml2S3M2eTdxdHROdlNzRkZ0X2hLZlE5LUJ3NE9jY3BLdGUybzhuRXRPV25uS0dEcWM2T2dvcGkzUHpvd3NWLUJkNndlY0dZaDFyVHNEc3lVTDdNdw?oc=5" target="_blank" rel="noopener noreferrer" class="read-btn">
+                        원문 기사 보기 ↗
+                    </a>
+                </div>
+            </article>
+            
+            <article class="news-card" data-category="game">
+                <div class="card-header-meta">
+                    <span class="badge-tier">📰 일반</span>
+                    <span class="badge-cat">⚡ 경기 소식</span>
+                    <span class="badge-source">📰 Los Angeles Chargers</span>
+                    <span class="badge-date">2026-10-04</span>
+                </div>
+
+                <h2 class="news-title-kr">5가지 시사점: Chargers의 4분기 랠리가 시애틀에서 부족함</h2>
+                <div class="news-title-en">Original: 5 Takeaways: Chargers 4th-Quarter Rally Falls Short in Seattle</div>
+
+                <ul class="news-bullets">
+                    
+                    <li>⚡ **핵심 소식**: 5가지 시사점: Chargers의 4분기 랠리가 시애틀에서 실패했습니다. LA Chargers</li>
+                    
+                </ul>
+
+                <div class="card-footer">
+                    <a href="https://news.google.com/rss/articles/CBMiekFVX3lxTE1tZG1JZVZaQzZ5SFFrR3pYaDVXZW4xeFBzRXBRRkhoR3l4dHU2VktnX2dZaHhiNFpUaVJ3alNxTFhSRWVvWjJtZC1KcUVPU29BWmluREdCa2RIYmFSNXNSeDZTV1JsQWlaVnlSWENoWExIczJURzZIZWd3?oc=5" target="_blank" rel="noopener noreferrer" class="read-btn">
+                        원문 기사 보기 ↗
+                    </a>
+                </div>
+            </article>
+            
+            <article class="news-card" data-category="general">
+                <div class="card-header-meta">
+                    <span class="badge-tier">📰 일반</span>
+                    <span class="badge-cat">⚡ 팀 소식</span>
+                    <span class="badge-source">📰 Los Angeles Chargers</span>
+                    <span class="badge-date">2026-09-20</span>
+                </div>
+
+                <h2 class="news-title-kr">5가지 시사점: Chargers는 0-2 시작 이후 더 나아질 것이라고 맹세합니다.</h2>
+                <div class="news-title-en">Original: 5 Takeaways: Chargers Vow to be Better After 0-2 Start</div>
+
+                <ul class="news-bullets">
+                    
+                    <li>⚡ **핵심 소식**: 5가지 시사점: Chargers는 0-2 스타트 이후 더 나아질 것을 맹세합니다. LA Chargers</li>
+                    
+                </ul>
+
+                <div class="card-footer">
+                    <a href="https://news.google.com/rss/articles/CBMiZkFVX3lxTE43a3hjTklNZEFzbGxvUUtyZ1VnTGsxeEVLOE1Nc01JLWhhbmRtY1JsV0I1d2tMZDl6WG8xV2x0eV9BR2hEQTgtazRpWDdpTmxEdkdwWkVPRzFDdjl6ZndvaENGeWRyZw?oc=5" target="_blank" rel="noopener noreferrer" class="read-btn">
+                        원문 기사 보기 ↗
+                    </a>
+                </div>
+            </article>
+            
+        </main>
+
+        <footer>
+            <p>⚡ ChargersPulse 2.0 - Automated Los Angeles Chargers Intelligence Reporter</p>
+            <p>데이터 출처: Bolts From The Blue, Yardbarker, ESPN NFL, Google News Search Feeds</p>
+        </footer>
+    </div>
+
+    <script>
+        let currentFilter = 'all';
+
+        function filterCategory(category, element) {
+            currentFilter = category;
+            document.querySelectorAll('.filter-btn').forEach(btn => btn.classList.remove('active'));
+            element.classList.add('active');
+            applyFilters();
+        }
+
+        function searchArticles() {
+            applyFilters();
+        }
+
+        function applyFilters() {
+            const query = document.getElementById('searchInput').value.toLowerCase();
+            const cards = document.querySelectorAll('.news-card');
+
+            cards.forEach(card => {
+                const category = card.getAttribute('data-category');
+                const text = card.textContent.toLowerCase();
+                
+                const matchesCategory = (currentFilter === 'all' || category === currentFilter);
+                const matchesSearch = text.includes(query);
+
+                if (matchesCategory && matchesSearch) {
+                    card.style.display = 'block';
+                } else {
+                    card.style.display = 'none';
+                }
+            });
+        }
+    </script>
+</body>
+</html>
